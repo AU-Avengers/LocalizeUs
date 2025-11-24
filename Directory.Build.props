@@ -5,6 +5,8 @@
         <DebugType>embedded</DebugType>
         <Nullable>enable</Nullable>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <ImplicitUsings>true</ImplicitUsings>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
         <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
 
@@ -13,9 +15,8 @@
 
         <Authors>Atony</Authors>
         <Company>Among Us Avengers</Company>
-        <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/AU-Avengers/LocalizeUs</RepositoryUrl>
-        <PackageLicenseExpression>LGPL-2.1-or-later</PackageLicenseExpression>
+        <RepositoryType>git</RepositoryType>
 
         <!-- SourceLink -->
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
@@ -31,14 +32,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556" PrivateAssets="all" />
-        <AdditionalFiles Include="$(MSBuildThisFileDirectory)\stylecop.json" Link="stylecop.json" Visible="false" />
+        <AdditionalFiles Include="$(MSBuildThisFileDirectory)\stylecop.json" Link="stylecop.json" Visible="false"/>
 
-        <PackageReference Include="SonarAnalyzer.CSharp" Version="10.7.0.110445">
+        <PackageReference Include="SonarAnalyzer.CSharp" Version="10.12.0.118525">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
         </PackageReference>
     </ItemGroup>
+
     <PropertyGroup>
         <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)\stylecop.ruleset</CodeAnalysisRuleSet>
     </PropertyGroup>
