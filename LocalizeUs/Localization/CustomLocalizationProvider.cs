@@ -42,7 +42,7 @@ public class CustomLocalizationProvider : LocalizationProvider
             _loadedStrings = true;
         }
 
-        if (CustomLocale.LangCultureList.TryGetValue(newLanguage, out var culture))
+        if (CustomLocale.LangCultureList.TryGetValue(HelperUtils.ToCustom(newLanguage), out var culture))
         {
             LocalizeUsPlugin.Culture = new(culture);
         }
@@ -51,8 +51,9 @@ public class CustomLocalizationProvider : LocalizationProvider
         foreach (var stringName in TranslationController.Instance.currentLanguage.AllStrings)
         {
             var value = stringName.Value.Replace("\n", "\\%nl\\%");
-            value = value.Replace("{", "\\%");
-            value = value.Replace("}", "\\%");
+            value = value.Replace("&", "\\%and\\%");
+            value = value.Replace("<", "\\%");
+            value = value.Replace(">", "\\%");
             Warning($"<string name=\"{stringName.Key}\">{value}</string>");
         }
         Warning($"</resources>");*/

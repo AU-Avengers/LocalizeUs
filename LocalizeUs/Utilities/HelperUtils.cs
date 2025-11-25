@@ -15,4 +15,12 @@ public static class HelperUtils
         var regex = new Regex(@"([^\^])([A-Z][a-z$])");
         return regex.Replace(@enum.ToString(), m => $"{m.Groups[1].Value} {m.Groups[2].Value}");
     }
+    public static ExtendedLangs ToCustom(SupportedLangs lang)
+    {
+        return (ExtendedLangs)lang;
+    }
+    public static SupportedLangs ToBasic(ExtendedLangs lang)
+    {
+        return (SupportedLangs)lang;
+    }
 }

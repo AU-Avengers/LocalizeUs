@@ -16,45 +16,45 @@ public static class CustomLocale
 {
     public static string LocaleDirectory => Path.Combine(Application.persistentDataPath, "LocalizeUs", "Locales");
 
-    public static Dictionary<SupportedLangs, string> LangList { get; } = new()
+    public static Dictionary<ExtendedLangs, string> LangList { get; } = new()
     {
-        { SupportedLangs.English, "en_US.xml" },
-        { SupportedLangs.Latam, "es_419.xml" },
-        { SupportedLangs.Brazilian, "pt_BR.xml" },
-        { SupportedLangs.Portuguese, "pt_PT.xml" },
-        { SupportedLangs.Korean, "ko_KR.xml" },
-        { SupportedLangs.Russian, "ru_RU.xml" },
-        { SupportedLangs.Dutch, "nl_NL.xml" },
-        { SupportedLangs.Filipino, "fil_PH.xml" },
-        { SupportedLangs.French, "fr_FR.xml" },
-        { SupportedLangs.German, "de_DE.xml" },
-        { SupportedLangs.Italian, "it_IT.xml" },
-        { SupportedLangs.Japanese, "ja_JP.xml" },
-        { SupportedLangs.Spanish, "es_ES.xml" },
-        { SupportedLangs.SChinese, "zh_CN.xml" },
-        { SupportedLangs.TChinese, "zh_TW.xml" },
-        { SupportedLangs.Irish, "ga_IE.xml" },
-        { (SupportedLangs)16, "pl_PL.xml" } // Polish
+        { ExtendedLangs.English, "en_US.xml" },
+        { ExtendedLangs.Latam, "es_419.xml" },
+        { ExtendedLangs.Brazilian, "pt_BR.xml" },
+        { ExtendedLangs.Portuguese, "pt_PT.xml" },
+        { ExtendedLangs.Korean, "ko_KR.xml" },
+        { ExtendedLangs.Russian, "ru_RU.xml" },
+        { ExtendedLangs.Dutch, "nl_NL.xml" },
+        { ExtendedLangs.Filipino, "fil_PH.xml" },
+        { ExtendedLangs.French, "fr_FR.xml" },
+        { ExtendedLangs.German, "de_DE.xml" },
+        { ExtendedLangs.Italian, "it_IT.xml" },
+        { ExtendedLangs.Japanese, "ja_JP.xml" },
+        { ExtendedLangs.Spanish, "es_ES.xml" },
+        { ExtendedLangs.SChinese, "zh_CN.xml" },
+        { ExtendedLangs.TChinese, "zh_TW.xml" },
+        { ExtendedLangs.Irish, "ga_IE.xml" },
+        { ExtendedLangs.Polish, "pl_PL.xml" } // Custom
     };
-    public static Dictionary<SupportedLangs, string> LangCultureList { get; } = new()
+    public static Dictionary<ExtendedLangs, string> LangCultureList { get; } = new()
     {
-        { SupportedLangs.English, "en-US" },
-        { SupportedLangs.Latam, "es-419" },
-        { SupportedLangs.Brazilian, "pt-BR" },
-        { SupportedLangs.Portuguese, "pt-PT" },
-        { SupportedLangs.Korean, "ko-KR" },
-        { SupportedLangs.Russian, "ru-RU" },
-        { SupportedLangs.Dutch, "nl-NL" },
-        { SupportedLangs.Filipino, "fil-PH" },
-        { SupportedLangs.French, "fr-FR" },
-        { SupportedLangs.German, "de-DE" },
-        { SupportedLangs.Italian, "it-IT" },
-        { SupportedLangs.Japanese, "ja-JP" },
-        { SupportedLangs.Spanish, "es-ES" },
-        { SupportedLangs.SChinese, "zh-CN" },
-        { SupportedLangs.TChinese, "zh-TW" },
-        { SupportedLangs.Irish, "ga-IE" },
-        { (SupportedLangs)16, "pl-PL" } // Polish
+        { ExtendedLangs.English, "en-US" },
+        { ExtendedLangs.Latam, "es-419" },
+        { ExtendedLangs.Brazilian, "pt-BR" },
+        { ExtendedLangs.Portuguese, "pt-PT" },
+        { ExtendedLangs.Korean, "ko-KR" },
+        { ExtendedLangs.Russian, "ru-RU" },
+        { ExtendedLangs.Dutch, "nl-NL" },
+        { ExtendedLangs.Filipino, "fil-PH" },
+        { ExtendedLangs.French, "fr-FR" },
+        { ExtendedLangs.German, "de-DE" },
+        { ExtendedLangs.Italian, "it-IT" },
+        { ExtendedLangs.Japanese, "ja-JP" },
+        { ExtendedLangs.Spanish, "es-ES" },
+        { ExtendedLangs.SChinese, "zh-CN" },
+        { ExtendedLangs.TChinese, "zh-TW" },
+        { ExtendedLangs.Irish, "ga-IE" },
+        { ExtendedLangs.Polish, "pl-PL" } // Custom
     };
 
     public static string BepinexLocaleDirectory =>
@@ -67,7 +67,7 @@ public static class CustomLocale
     };
 
     // Language, Xml Name, then Value
-    public static Dictionary<SupportedLangs, Dictionary<StringNames, string>> CustomLocalization { get; } = [];
+    public static Dictionary<ExtendedLangs, Dictionary<StringNames, string>> CustomLocalization { get; } = [];
 
     internal static ManualLogSource Logger { get; } = BepInEx.Logging.Logger.CreateLogSource("CustomLocale");
 
@@ -77,10 +77,10 @@ public static class CustomLocale
             TranslationController.InstanceExists
                 ? TranslationController.Instance.currentLanguage.languageID
                 : SupportedLangs.English;
-        return Get(currentLanguage, name, defaultValue);
+        return Get(HelperUtils.ToCustom(currentLanguage), name, defaultValue);
     }
 
-    public static string Get(SupportedLangs language, StringNames name, string? defaultValue = null)
+    public static string Get(ExtendedLangs language, StringNames name, string? defaultValue = null)
     {
         if (CustomLocalization.TryGetValue(language, out var translations) &&
             translations.TryGetValue(name, out var translation))
@@ -88,7 +88,7 @@ public static class CustomLocale
             return translation;
         }
 
-        if (CustomLocalization.TryGetValue(SupportedLangs.English, out var translationsEng) &&
+        if (CustomLocalization.TryGetValue(ExtendedLangs.English, out var translationsEng) &&
             translationsEng.TryGetValue(name, out var translationEng))
         {
             return translationEng;
@@ -103,21 +103,21 @@ public static class CustomLocale
             TranslationController.InstanceExists
                 ? TranslationController.Instance.currentLanguage.languageID
                 : SupportedLangs.English;
-        return GetParsed(currentLanguage, name, defaultValue, parseList);
+        return GetParsed(HelperUtils.ToCustom(currentLanguage), name, defaultValue, parseList);
     }
 
-    public static string GetParsed(SupportedLangs language, StringNames name, string? defaultValue = null,
+    public static string GetParsed(ExtendedLangs language, StringNames name, string? defaultValue = null,
         Dictionary<string, string>? parseList = null)
     {
         var text = defaultValue ?? "STRMISS_" + name;
 
-        if (CustomLocalization.TryGetValue(SupportedLangs.English, out var translationsEng) &&
+        if (CustomLocalization.TryGetValue(ExtendedLangs.English, out var translationsEng) &&
             translationsEng.TryGetValue(name, out var translationEng))
         {
             text = translationEng;
         }
 
-        if (language is not SupportedLangs.English && CustomLocalization.TryGetValue(language, out var translations) &&
+        if (language is not ExtendedLangs.English && CustomLocalization.TryGetValue(language, out var translations) &&
             translations.TryGetValue(name, out var translation))
         {
             text = translation;
@@ -214,7 +214,7 @@ public static class CustomLocale
         }
     }
 
-    public static void ParseXmlFile(string xmlContent, SupportedLangs language)
+    public static void ParseXmlFile(string xmlContent, ExtendedLangs language)
     {
         XmlDocument xmlDoc = new XmlDocument();
         try
@@ -241,6 +241,11 @@ public static class CustomLocale
                             }
 
                             CustomLocalization[language].TryAdd(realStringName, value);
+                        }
+                        else
+                        {
+                            Logger.LogError(
+                                $"{name} is not a stringname! Value: {value}");
                         }
                     }
                 }

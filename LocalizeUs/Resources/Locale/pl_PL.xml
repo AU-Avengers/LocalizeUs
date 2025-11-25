@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="LocalButton">Lokalny</string>
+    <string name="OnlineButton">W Internecie</string>
+    <string name="HowToPlayButton">Jak grać</string>
+    <string name="FreePlayButton">Praktyka</string>
+    <string name="PublicHeader">Publiczny</string>
+    <string name="PrivateHeader">Prywatny</string>
+    <string name="HostHeader">Gospodarz</string>
+    <string name="ExitButton">Wyjście</string>
+    <string name="BackButton">Z powrotem</string>
+    <string name="AvailableGamesLabel">Dostępne gry</string>
+    <string name="CreateGameButton">Utwórz grę</string>
+    <string name="FindGameButton">Utwórz grę</string>
+    <string name="EnterCode">Wpisz kod</string>
+</resources>

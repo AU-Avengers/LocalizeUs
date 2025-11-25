@@ -2,6 +2,7 @@
 using BepInEx;
 using BepInEx.Unity.IL2CPP;
 using HarmonyLib;
+using Il2CppInterop.Runtime.Injection;
 using Reactor;
 using Reactor.Utilities;
 
@@ -24,6 +25,8 @@ public sealed partial class LocalizeUsPlugin : BasePlugin
 
     public override void Load()
     {
+        EnumInjector.InjectEnumValues<StringNames>(new Dictionary<string, object>{{"LangPolish", 2860}});
+        EnumInjector.InjectEnumValues<SupportedLangs>(new Dictionary<string, object>{{"Polish", (int)ExtendedLangs.Polish}});
         ReactorCredits.Register<LocalizeUsPlugin>(location =>
             location == ReactorCredits.Location.MainMenu || location == ReactorCredits.Location.PingTracker);
 
