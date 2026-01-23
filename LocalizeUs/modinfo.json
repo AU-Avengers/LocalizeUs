@@ -1,0 +1,15 @@
+{
+  "Name": "Localize Us!",
+  "Description": "A client-side Among Us mod for adding extra languages into the game!",
+  "Tags": [
+    "mods"
+  ],
+  "Icon": "LocalizeUs.Resources.Logo.png",
+  "License": "GPLv3",
+  "Authors": [
+    "Atony"
+  ],
+  "Links": {
+    "Source": "https://github.com/AU-Avengers/LocalizeUs"
+    }
+}

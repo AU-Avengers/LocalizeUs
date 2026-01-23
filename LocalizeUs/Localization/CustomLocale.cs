@@ -16,6 +16,13 @@ public static class CustomLocale
 {
     public static string LocaleDirectory => Path.Combine(Application.persistentDataPath, "LocalizeUs", "Locales");
 
+    public static List<ExtendedLangs> LangsWithCustomFont { get; } = new()
+    {
+        ExtendedLangs.Polish, // Custom
+        ExtendedLangs.Turkish, // Custom
+        ExtendedLangs.Swedish, // Custom
+        ExtendedLangs.Lithuanian // Custom
+    };
     public static Dictionary<ExtendedLangs, string> LangList { get; } = new()
     {
         { ExtendedLangs.English, "en_US.xml" },
@@ -61,6 +68,29 @@ public static class CustomLocale
         { ExtendedLangs.Turkish, "tr-TR" }, // Custom
         { ExtendedLangs.Swedish, "sv-SE" }, // Custom
         { ExtendedLangs.Lithuanian, "lt-LT" }, // Custom
+    };
+    public static Dictionary<ExtendedLangs, string> LangCodesList { get; } = new()
+    {
+        { ExtendedLangs.English, "en" },
+        { ExtendedLangs.Latam, "es" },
+        { ExtendedLangs.Brazilian, "pt" },
+        { ExtendedLangs.Portuguese, "pt" },
+        { ExtendedLangs.Korean, "ko" },
+        { ExtendedLangs.Russian, "ru" },
+        { ExtendedLangs.Dutch, "nl" },
+        { ExtendedLangs.Filipino, "fil" },
+        { ExtendedLangs.French, "fr" },
+        { ExtendedLangs.German, "de" },
+        { ExtendedLangs.Italian, "it" },
+        { ExtendedLangs.Japanese, "ja" },
+        { ExtendedLangs.Spanish, "es" },
+        { ExtendedLangs.SChinese, "zh" },
+        { ExtendedLangs.TChinese, "zh" },
+        { ExtendedLangs.Irish, "ga" },
+        { ExtendedLangs.Polish, "pl" }, // Custom
+        { ExtendedLangs.Turkish, "tr" }, // Custom
+        { ExtendedLangs.Swedish, "sv" }, // Custom
+        { ExtendedLangs.Lithuanian, "lt" }, // Custom
     };
 
     public static string BepinexLocaleDirectory =>

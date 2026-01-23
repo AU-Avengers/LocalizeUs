@@ -7,10 +7,10 @@ namespace LocalizeUs;
 
 public static class LocaleUsAssets
 {
-    private const string ShortPath = "LocalizeUs.Resources";
-
     public static readonly AssetBundle MainBundle = AssetBundleManager.Load("locale-assets");
 
-    public static TMP_FontAsset OpenSansFontTmp { get; } = MainBundle.LoadAsset<TMP_FontAsset>("NotoSans-VariableFont_wdth,wght SDF")!;
+    public static TMP_FontAsset AmaticScBoldTmp { get; } = MainBundle.LoadAsset<TMP_FontAsset>("AmaticSC-Bold SDF")!;
+    public static TMP_FontAsset LibSansRegTmp { get; } =
+        MainBundle.LoadAsset<TMP_FontAsset>("LiberationSans Extended SDF")!;
 
 }
