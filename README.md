@@ -1,5 +1,5 @@
 > [!NOTE]
-> This repo is still under constant development, expect bugs.
+> This repo is still under active development, and is only public for contributions prior to the initial release.
 
 -----------------------
 
@@ -15,14 +15,21 @@
 A client-side [Among Us](https://store.steampowered.com/app/945360/Among_Us) mod for adding extra languages into the game!
 
 -----------------------
+
 # Actively Supported Languages
 
-- Lithuanian
-- Polish
-- Swedish
-- Turkish
+All languages are added via our [Weblate](https://weblate.duikbo.at/projects/localize-us/) instance. If you want to contribute to the project (even if the language isn't listed here!) please let us know!
+
+|   Language    |                                                                          Overall Progress                                                                          |
+|:-------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| All Languages |   <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/svg-badge.svg" alt="Translation status" /></a>    |
+|  Lithuanian   | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/lt/svg-badge.svg" alt="Translation status" /></a> |
+|    Polish     | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/pl/svg-badge.svg" alt="Translation status" /></a> |
+|    Swedish    | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/sv/svg-badge.svg" alt="Translation status" /></a> |
+|    Turkish    | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/tr/svg-badge.svg" alt="Translation status" /></a> |
 
 -----------------------
+
 # License
 This software is distributed under the GNU GPLv3 License. BepInEx is distributed under the LGPL-2.1 License.
 
