@@ -516,4 +516,20 @@
   <string name="ErrorFullGame">Gra do której próbujesz dołączyć jest pełna.\%nl\%\%nl\%Skontaktuj się z hostem czy możesz dołączyć w następnej rundzie.</string>
   <string name="ErrorStartedGame">Gra do której próbujesz dołączyć już się zaczęła.\%nl\%\%nl\%Skontaktuj się z hostem czy możesz dołączyć w następnej rundzie.</string>
   <string name="ErrorHacking">Zostałeś zbanowany za hakowanie.\%nl\%\%nl\%Proszę przestań.</string>
+  <string name="ErrorGenericOnlineDisconnect">Rozłączono cię z serwerem.\%nl\%Jeżeli zdarza się to często, sprawdź moc połączenia sieci.\%nl\%To może być też problem serwera.</string>
+  <string name="ErrorUnknown">Nieznany błąd rozłączył cię z serwerem.</string>
+  <string name="ErrorIncorrectVersion">Grasz na starszej wersji gry.\%nl\%\%nl\%Proszę zaktualizuj aby grać z innymi.</string>
+  <string name="LangEnglish">Angielski</string>
+  <string name="LangFrench">Francuski</string>
+  <string name="LangItalian">Włoski</string>
+  <string name="LangGerman">Niemiecki</string>
+  <string name="LangSpanish">Hiszpański</string>
+  <string name="LangBrazPort">Portugalski (BR)</string>
+  <string name="LangPort">Portugalski</string>
+  <string name="LangRussian">Rosyjski</string>
+  <string name="LangJapanese">Japoński</string>
+  <string name="LangKorean">Koreański</string>
+  <string name="LangDutch">Holenderski</string>
+  <string name="QCCrewI">Ja</string>
+  <string name="QCCrewMe">Ja</string>
 </resources>
