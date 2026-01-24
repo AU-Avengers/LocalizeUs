@@ -532,4 +532,5 @@
   <string name="LangDutch">Holenderski</string>
   <string name="QCCrewI">Ja</string>
   <string name="QCCrewMe">Ja</string>
+  <string name="LocalHelp">Problemy z połączenie?\%nl\%\%nl\%● Upewnij się, że wszyscy są połączeni do tej samej sieci WIFI\%nl\%● Upewnij się, że wszyscy mają tą samą wersję (w prawym dolnym rogu)\%nl\%● Upewnij się, że twój sygnał WIFI jest wystarczająco silny\%nl\%\%nl\%● Czasami pomaga gdy inny osoba stworzy grę%nl\%● Czasami pomaga włączenie aplikacji na nowo...\%nl\%● Czasami włączenie twojego telefonu na nowo pomaga\%nl\%● Dalej masz problemy? Daj nam znać pisząc do nas na maila support@innersloth.com!</string>
 </resources>
