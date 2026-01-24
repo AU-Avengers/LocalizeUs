@@ -101,7 +101,7 @@
   <string name="CrewmatesDisconnected">Większość Crewmatów\%nl\%Wyszła z Gry</string>
   <string name="ImpostorDisconnected">Impostor Wyszedł z Gry</string>
   <string name="PickAnomaly">Wybierz Anomalię</string>
-  <string name="WaterPlantsGetCan">Watering Can Get!</string>
+  <string name="WaterPlantsGetCan">Weź konewkę!</string>
   <string name="AuthOfficeOkay">Biuro OK</string>
   <string name="AuthCommsOkay">Komunikacja OK</string>
   <string name="AuthOfficeActive">Biuro AKTYWNE</string>
@@ -121,7 +121,7 @@
   <string name="SwipeCardAccepted">Zaakceptowano. Dziękujemy.</string>
   <string name="ReactorHoldToStop">Przytrzymaj by zatrzymać eksplozję</string>
   <string name="ReactorWaiting">Oczekiwanie na drugiego operatora</string>
-  <string name="ReactorNominal">Reactor Nominal</string>
+  <string name="ReactorNominal">Reaktor Stabilny</string>
   <string name="MeetingWhoIsTitle">Kto może być Impostorem?</string>
   <string name="MeetingVotingBegins">Głosowanie zacznie się za: {0}s</string>
   <string name="MeetingVotingEnds">Głosowanie zakończy się za: {0}s</string>
@@ -133,10 +133,10 @@
   <string name="HowToPlayText2">Graj online, albo lokalnie od 4 do 15 graczy!</string>
   <string name="HowToPlayText41">Jeśli masz już konto Among Us na innej platformie, możesz połączyć je z tym kontem! Możesz też założyć zupełnie nowe konto.</string>
   <string name="HowToPlayText42">Najpierw zdecyduj, z kim chcesz grać!\%nl\%\%nl\%Jeśli chcesz grać ze znajomymi online, ustaw tryb „prywatny” i udostępnij im kod pokoju.\%nl\%\%nl\%Jeśli chcesz grać z osobami z całego świata, ustaw tryb „publiczny”.</string>
-  <string name="HowToPlayText43">Want to play with more tasks? How about faster walk speed? More Impostors? As host, you can change these settings. Be sure to confirm the changes with your fellow players.</string>
+  <string name="HowToPlayText43">Chcesz więcej tasków? A może szybszą prędkość chodzenia? Więcej Oszustów? Jako host, możesz zmieniać te ustawienia. Jednak upewnij się, że odpowiadają innym graczom.</string>
   <string name="HowToPlayText44">Jeśli ktoś zachowuje się niegrzecznie i/lub spamuje, gospodarze mogą tymczasowo wyrzucić graczy w ramach ostrzeżenia lub zablokować im dostęp do konkretnego pokoju online.</string>
   <string name="HowToPlayTextMap">Każdy gracz ma dostęp do mapy, która ułatwia im poruszanie się po statku.</string>
-  <string name="HowToPlayTextCrew1">Objective: Fill Group Task Bar or Discover the Impostor.</string>
+  <string name="HowToPlayTextCrew1">Cel: Wypełnicie Grupowy Pasek Zadań lub Zdemaskujcie Oszusta.</string>
   <string name="HowToPlayTextCrew2">Complete tasks to fill gauge.</string>
   <string name="HowToPlayTextCrew3">React to Impostor's Sabotage.</string>
   <string name="HowToPlayTextCrew4">Call emergency meeting when Impostor found.</string>
@@ -207,7 +207,7 @@
   <string name="GameShortTasks"># Zadania Krótkie</string>
   <string name="GameEmergencyCooldown">Cooldown Spotkania Awaryjnego</string>
   <string name="GameSecondsAbbrev">{0}s</string>
-  <string name="GameConfirmImpostor">Potwierdznie wyrzucenia Impostora</string>
+  <string name="GameConfirmImpostor">Potwierdzenie wyrzucenia Impostora</string>
   <string name="GameVisualTasks">Wizualizacja Zadań</string>
   <string name="GameAnonymousVotes">Anonimowe Głosowanie</string>
   <string name="GameTaskBarMode">Licznik Zadań Aktualizuje Się</string>
@@ -484,4 +484,22 @@
   <string name="WaitingForPlayers">Oczekiwanie na graczy</string>
   <string name="FinalHideCategory">Ostateczne chowanie</string>
   <string name="EnterName">Wprowadź Nazwę</string>
+  <string name="EmergencyCount">ZAŁOGANT {0} MA JESZCZE \%nl\%\%nl\%\%nl\%\%nl\%SPOTKAŃ</string>
+  <string name="EmergencyNotReady">ZAŁOGAŃCI MUSZĄ POCZEKAĆ\%nl\%\%nl\%\%nl\%\%nl\%PRZED ZWOŁANIEM SPOTKANIA</string>
+  <string name="EmergencyDuringCrisis">SPOTKANIA NIE MOGĄ ZOSTAĆ\%nl\%ZWOŁANE PODCZAS SABOTAŻY</string>
+  <string name="SettingShort">Krótki</string>
+  <string name="SettingMedium">Średni</string>
+  <string name="SettingLong">Długi</string>
+  <string name="SamplesPress">Naciśnij By Rozpocząć</string>
+  <string name="SamplesAdding">Dodawanie Odczynników</string>
+  <string name="SamplesSelect">Wybierz Anomalię</string>
+  <string name="SamplesThanks">Dziękujemy!</string>
+  <string name="SamplesComplete">Test Zakończony</string>
+  <string name="AstDestroyed">Zniszczono: {0}</string>
+  <string name="TaskTestTitle">Tester Zadań 2000</string>
+  <string name="BeginDiagnostics">Rozpocznij Diagnostykę</string>
+  <string name="UserLeftGame">{0} wyszedł z gry.</string>
+  <string name="GameStarting">Gra zacznie się za {0}</string>
+  <string name="ChatRateLimit">Za szybko. Zaczekaj {0} sekund</string>
+  <string name="Tasks">Zadania</string>
 </resources>
