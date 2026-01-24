@@ -87,8 +87,8 @@
     <string name="EnterIdCode">Enter Id Code</string>
     <string name="BuyBeverage">Buy Beverage</string>
     <string name="ProcessData">Process Data</string>
-    <string name="NumImpostorsS">There is \%color=#FF1919FF>1 Impostor\%/colors\% among us</string>
-        <string name="NumImpostorsP">There are \%color=#FF1919FF>{0} Impostors\%/colors\% among us</string>
+    <string name="NumImpostorsS">There is \%color=#FF1919FF\%1 Impostor\%color\% among us</string>
+        <string name="NumImpostorsP">There are \%color=#FF1919FF\%{0} Impostors\%color\% among us</string>
         <string name="Crewmate">Crewmate</string>
         <string name="Impostor">Impostor</string>
         <string name="Victory">Victory</string>
@@ -1354,7 +1354,7 @@
         <string name="UnlinkSuccess">You have successfully unlinked {0} from your main Among Us account!</string>
         <string name="ConfirmLinkExistingAccount">Confirm Linking to Existing Account</string>
         <string name="LinkExistingAccountExplain">Linking to a different account will overwrite all data on this platform. This means your {0} Among Us account will be replaced by the other account.\%nl\%- Any items you've unlocked on your {0} account will be overwritten.\%nl\%- All XP earned on your {0} account will be overwritten.\%nl\%- All Beans, Pods, and Stars will be overwritten.</string>
-        <string name="LinkExistingAccountExplainConfirm">As soon as you confirm, we will reset your {0} Among Us account in order to prepare for importing the data from a different account.\%nl\%\%nl\%\%color=#{1}>ENSURE YOU HAVE ANOTHER EXISTING ACCOUNT THAT YOU WOULD LIKE TO LINK THIS ACCOUNT TO BEFORE PROCESSING.\%/colors\%\%nl\%\%nl\%Resetting your {0} account will clear all XP, Beans, Pods, and items to 0. We will NOT be able to revert this action.</string>
+        <string name="LinkExistingAccountExplainConfirm">As soon as you confirm, we will reset your {0} Among Us account in order to prepare for importing the data from a different account.\%nl\%\%nl\%\%color=#{1}\%ENSURE YOU HAVE ANOTHER EXISTING ACCOUNT THAT YOU WOULD LIKE TO LINK THIS ACCOUNT TO BEFORE PROCESSING.\%color\%\%nl\%\%nl\%Resetting your {0} account will clear all XP, Beans, Pods, and items to 0. We will NOT be able to revert this action.</string>
         <string name="ResetAccount">Reset Account</string>
         <string name="PurchasingLabel">Purchasing Item</string>
         <string name="ErrorInternalServer">Internal Server Error (Code {0})</string>
@@ -1896,15 +1896,15 @@
         <string name="DefaultFilterTag_Casual">Casual</string>
         <string name="DefaultFilterTag_Serious">Serious</string>
         <string name="DefaultFilterTag_Expert">Expert</string>
-        <string name="TagFiltersHelpFindGame">You can filter game searches by selecting tags from the Filters dropdown list. Filters you select will match the search results <i>exactly</i>.\%nl\%\%nl\%Example: If you select <b>Casual</b> and <b>Expert</b> you will only find games tagged with both <b>Casual</b> and <b>Expert</b> filters.</string>
-        <string name="TagFiltersHelpCreate">You can tag your game with filters to help players find your game. Filters you select will match the search results <i>exactly</i>.\%nl\%\%nl\%Example: If you select <b>Casual</b> and <b>Expert</b> only people who search for both <b>Casual</b> and <b>Expert</b> filters will see your game.</string>
+        <string name="TagFiltersHelpFindGame">You can filter game searches by selecting tags from the Filters dropdown list. Filters you select will match the search results <i>exactly</i>.\%nl\%\%nl\%Example: If you select \%b\%Casual\%/b\% and \%b\%Expert\%/b\% you will only find games tagged with both \%b\%Casual\%/b\% and \%b\%Expert\%/b\% filters.</string>
+        <string name="TagFiltersHelpCreate">You can tag your game with filters to help players find your game. Filters you select will match the search results <i>exactly</i>.\%nl\%\%nl\%Example: If you select \%b\%Casual\%/b\% and \%b\%Expert\%/b\% only people who search for both \%b\%Casual\%/b\% and \%b\%Expert\%/b\% filters will see your game.</string>
         <string name="CreateLabel">Create</string>
         <string name="NewGameMode">New Game Mode!</string>
         <string name="NewModeInfo">The stakes are high in this heart-stopping game mode! \%nl\%<i>But wait - it's not your ordinary Hide n Seek...</i></string>
         <string name="HideSeekHowToPlayCaptionOne">It's simple!</string>
         <string name="HideSeekHowToPlayCaptionTwo">Crewmates!</string>
         <string name="HideSeekHowToPlayCaptionThree">Impostors!</string>
-        <string name="HideSeekHowToPlayPageOne">\%color=#38F25D><b>Crewmates:</b>\%/colors\% Complete tasks to speed up the clock, avoid the Impostor, and stay alive until the timer runs out.\%nl\%\%nl\%\%color=#FF3131><b>The Impostor:</b>\%/colors\% Find the Crewmates and go on a killing spree.</string>
+        <string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%Crewmates:\%/b\%\%color\% Complete tasks to speed up the clock, avoid the Impostor, and stay alive until the timer runs out.\%nl\%\%nl\%\%color=#FF3131>\%b\%The Impostor:\%/b\%\%color\% Find the Crewmates and go on a killing spree.</string>
         <string name="HideSeekHowToPlaySubtextOne">No social deduction here, just terrified screaming.</string>
         <string name="HideSeekHowToPlayCrewmateInfoOne">Master your hiding and sneaking skills in order to survive.</string>
         <string name="HideSeekHowToPlayCrewmateInfoTwo">In this mode you can use vents and get a high-tech Danger Meter that alerts you when the Impostor is getting closer. The Impostor has a limited range of vision, so use your wits, vents, and visors to dodge them!</string>
@@ -2580,11 +2580,11 @@
         <string name="FilterTagTooltip">Filter by a lobby's Tag.</string>
         <string name="TooltipTag">Add a tag to appeal to players of a specific skill level.</string>
         <string name="SelectedLabel">SELECTED:</string>
-        <string name="TooltipSpeedInfo"><b>Low:</b> 0.5-0.75x	<b>High:</b> 1.75-2.25x\%nl\%<b>Med:</b> 1.0-1.5x	<b>V. High:</b> 2.5-3.0x</string>
-        <string name="TooltipKillCDInfo"><b>Low:</b> 10-20s	<b>High:</b> 37.5-47.5s\%nl\%<b>Med:</b> 22.5-35s	<b>V. High:</b> 50-60s</string>
-        <string name="TooltipVotingInfo"><b>Low:</b> 0-60s	<b>High:</b> 150-210s\%nl\%<b>Med:</b> 75-135s	<b>V. High:</b> 225-300s</string>
-        <string name="TooptipHidingTimeInfo"><b>Low:</b> 160-180s	<b>High:</b> 260-300s\%nl\%<b>Med:</b> 200-240s</string>
-        <string name="TooltipFinalTimeInfo"><b>Low:</b> 30-45s	<b>High:</b> 75-95s\%nl\%<b>Med:</b> 50-70s	<b>V. High:</b> 100-120s</string>
+        <string name="TooltipSpeedInfo">\%b\%Low:\%/b\% 0.5-0.75x	\%b\%High:\%/b\% 1.75-2.25x\%nl\%\%b\%Med:\%/b\% 1.0-1.5x	\%b\%V. High:\%/b\% 2.5-3.0x</string>
+        <string name="TooltipKillCDInfo">\%b\%Low:\%/b\% 10-20s	\%b\%High:\%/b\% 37.5-47.5s\%nl\%\%b\%Med:\%/b\% 22.5-35s	\%b\%V. High:\%/b\% 50-60s</string>
+        <string name="TooltipVotingInfo">\%b\%Low:\%/b\% 0-60s	\%b\%High:\%/b\% 150-210s\%nl\%\%b\%Med:\%/b\% 75-135s	\%b\%V. High:\%/b\% 225-300s</string>
+        <string name="TooptipHidingTimeInfo">\%b\%Low:\%/b\% 160-180s	\%b\%High:\%/b\% 260-300s\%nl\%\%b\%Med:\%/b\% 200-240s</string>
+        <string name="TooltipFinalTimeInfo">\%b\%Low:\%/b\% 30-45s	\%b\%High:\%/b\% 75-95s\%nl\%\%b\%Med:\%/b\% 50-70s	\%b\%V. High:\%/b\% 100-120s</string>
         <string name="FilterNoMaps">No maps selected.</string>
         <string name="Cosmetic.hat_kamurocho_ichiban">Ichiban Kasuga’s Hair </string>
         <string name="Cosmetic.hat_kamurocho_ono">Ono Michio’s Hat</string>
