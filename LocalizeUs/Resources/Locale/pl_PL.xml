@@ -227,17 +227,17 @@
   <string name="SeismicHoldToStop">Przytrzymaj by Aktywować Stabilizator Sejsmiczny</string>
   <string name="SeismicNominal">Aktywność Sejsmiczna Nominalna</string>
   <string name="ScanBoardingPass">Odbij Plakietkę</string>
-  <string name="FixWeatherNode">Napraw Węzeł Pododowy</string>
-  <string name="OpenWaterways">Otwórz Zawór</string>
+  <string name="FixWeatherNode">Napraw Węzeł Pogodowy</string>
+  <string name="OpenWaterways">Odkręć Zawory</string>
   <string name="ReplaceWaterJug">Wymień Butlę z Wodą</string>
   <string name="RepairDrill">Napraw Wiertło</string>
   <string name="AlignTelescope">Znajdź Planetę</string>
   <string name="RecordTemperature">Odczytaj Temperaturę</string>
   <string name="RebootWifi">Zrestartuj Router</string>
-  <string name="WifiRebootRequired">Wymagany Restart.</string>
+  <string name="WifiRebootRequired">Wymagany Restart</string>
   <string name="WifiPleaseWait">Proszę Czekać</string>
   <string name="WifiPleaseReturnIn">Proszę wrócić za {0}</string>
-  <string name="WifiPleasePowerOn">Proszę włączyć Urządzenie</string>
+  <string name="WifiPleasePowerOn">Proszę Włączyć Urządzenie</string>
   <string name="WifiRebootComplete">Ukończono Restart Systemu</string>
   <string name="Outside">Na Dworze</string>
   <string name="Dropship">Dropship</string>
@@ -502,4 +502,5 @@
   <string name="GameStarting">Gra zacznie się za {0}</string>
   <string name="ChatRateLimit">Za szybko. Zaczekaj {0} sekund</string>
   <string name="Tasks">Zadania</string>
+  <string name="StatsTitle">Statystyk</string>
 </resources>
