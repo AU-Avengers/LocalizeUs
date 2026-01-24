@@ -1,7 +1,6 @@
 using System.Globalization;
 using System.Text;
 using AmongUs.Data;
-using AmongUs.Data.Settings;
 using HarmonyLib;
 using UnityEngine;
 
@@ -47,7 +46,7 @@ public static class TranslationControllerRegisterPatch
     {
         var langNum = (int)language;
         var properLang = (ExtendedLangs)langNum;
-        if (!Enum.IsDefined(typeof(ExtendedLangs), properLang))
+        if (!Enum.IsDefined(properLang))
         {
             language = (SupportedLangs)TranslationController.SelectDefaultLanguage();
         }
