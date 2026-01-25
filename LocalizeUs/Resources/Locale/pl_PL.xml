@@ -604,7 +604,7 @@
   <string name="QCQstWhere">Gdzie?</string>
   <string name="QCQstWho">Kto?</string>
   <string name="QCQstWhoDidTask">Kto robił {0}?</string>
-  <string name="QCQstBodyOrMeeting">Czy zostało zgłoszone ciało czy zwołane awaryjne spotkanie?</string>
+  <string name="QCQstBodyOrMeeting">Czy zostało zgłoszone ciało czy zwołane spotkanie?</string>
   <string name="QCStaDoubleKill">To było podwójne zabójstwo</string>
   <string name="QCStaWasSelfReport">To był self-report</string>
   <string name="QCStaPleaseDoTasks">Proszę zróbcie swoje zadania</string>
@@ -678,7 +678,7 @@
   <string name="QCCrewSomeone">Ktoś</string>
   <string name="QCResUrWelcome">Nie ma za co</string>
   <string name="QCResNp">Nie ma problemu</string>
-  <string name="QCResYikes"/>
+  <string name="QCResYikes">Ojoj</string>
   <string name="QCResRipCrew">rip {0}</string>
   <string name="QCSelfWasOnVitals">Byłem na vitalsach</string>
   <string name="QCSawDeadCrewOnVitals">Widziałem na vitalsach że {0} nie żyje</string>
@@ -864,14 +864,15 @@
   <string name="EmailResend">Wyślij ponownie E-mail</string>
   <string name="GuardianEmailSent">E-mail do opiekuna został wysłany.</string>
   <string name="GuardianCheckEmail">Nie zapomnij aby twój opiekun sprawdził swój e-mail w celu odblokowania wszystkich funkcji gry</string>
-  <string name="EditName">Edytuj nazwę</string>
+  <string name="EditName">Zmień Nazwę</string>
   <string name="Name">Nazwa</string>
   <string name="NeedPermissionText">Musimy zapytać się (poprzez e-mail) twojego opiekuna o zgodę na kontynuację. Jeżeli się zgodzi, będziesz mógł używać wolnego czatu online oraz zmienić nazwę użytkownika. Poproś dorosłego o pomoc!</string>
   <string name="GuardianEmail">[e-mail twojego opiekuna]</string>
-  <string name="ReportBadName">Nieodpowiednia nazwa</string>
+  <string name="ReportBadName">Nieodpowiednia Nazwa</string>
   <string name="ReportBadChat">Nieodpowiednie wiadomości</string>
-  <string name="ReportHarassment">Nękanie/Niewłaściwe zachowanie</string>
+  <string name="ReportHarassment">Nękanie/Niewłaściwe Zachowanie</string>
   <string name="DLLNotFoundAccountError">Coś poszło nie tak z usługami online. Zanim będzie to naprawione, możesz grać jedynie lokalnie lub w trybach treningowych. Spróbuj ponownie później.</string>
   <string name="QCTagSelf">Ja</string>
   <string name="QCInputSelf">Ja</string>
+  <string name="QCResRipNeg">wylotka</string>
 </resources>
