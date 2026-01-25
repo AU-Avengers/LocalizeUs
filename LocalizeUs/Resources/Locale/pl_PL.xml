@@ -39,7 +39,7 @@
   <!-- I couldn't think of anything better -->
     <string name="MedBay">Pomieszczenie Medyczne</string>
   <!-- Or O2, also good -->
-    <string name="LifeSupp">Pomieszczenie z Tlenem</string>
+    <string name="LifeSupp">O2</string>
   <string name="Nav">Nawigacja</string>
   <string name="LowerEngine">Dolny Silnik</string>
   <string name="Electrical">Rozdzielnia</string>
@@ -87,7 +87,7 @@
   <string name="StabilizeSteering">Stabilizuj stery</string>
   <string name="AssembleArtifact">Złóż Artefakt</string>
   <string name="SortSamples">Posortuj Próbki</string>
-  <string name="MeasureWeather">Zmierz stan Pogody</string>
+  <string name="MeasureWeather">Zmierz Stan Pogody</string>
   <string name="EnterIdCode">Wpisz Kod</string>
   <string name="BuyBeverage">Kup Napój</string>
   <string name="ProcessData">Przetwórz Dane</string>
@@ -749,4 +749,13 @@
   <string name="LogInTitle">Zaloguj Się do Konta</string>
   <string name="ControllerDisconnectedMessage">Kontroler Odłączony</string>
   <string name="QuickChatInstructionsGuest">Musisz być zalogowany/a by to zmienić.</string>
+  <string name="RemoveAds">Usuń reklamy</string>
+  <string name="PlainYes">Tak</string>
+  <string name="PlainNo">Nie</string>
+  <string name="PrivacyPolicyTitle">Polityka Prywatności</string>
+  <string name="UnderstandButton">Rozumiem</string>
+  <string name="WaterPlants">Podlej Rośliny</string>
+  <string name="MedscanWaitingFor">Oczekiwanie na {0}</string>
+  <string name="QCResDontKnow">Nie wiem</string>
+  <string name="QCResDontKnowNeg">Może</string>
 </resources>
