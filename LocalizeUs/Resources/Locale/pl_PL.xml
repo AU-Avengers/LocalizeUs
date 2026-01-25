@@ -94,8 +94,8 @@
   <string name="NumImpostorsS">Pośród nas jest \%color=#FF1919FF\%1 Impostor\%/color\% .</string>
   <string name="NumImpostorsP">Pośród nas jest \%color=#FF1919FF\%{0} Impostorów\%/color\%</string>
   <!--Don't translate roles unless they are logical-->
-    <string name="Crewmate">Crewmate</string>
-  <string name="Impostor">Impostor</string>
+    <string name="Crewmate">Załogant</string>
+  <string name="Impostor">Intruz</string>
   <string name="Victory">Zwycięstwo</string>
   <string name="Defeat">Porażka</string>
   <string name="CrewmatesDisconnected">Większość Crewmatów\%nl\%Wyszła z Gry</string>
@@ -275,8 +275,8 @@
   <string name="VitalsBRWN">BRĄZ</string>
   <string name="VitalsGRN">ZIEL</string>
   <string name="VitalsPINK">KARM</string>
-  <string name="VitalsWHTE">BIAŁY</string>
-  <string name="VitalsYLOW">ŻÓŁTY</string>
+  <string name="VitalsWHTE">BIAŁ</string>
+  <string name="VitalsYLOW">ŻÓŁT</string>
   <string name="VitalsBLAK">CZAR</string>
   <string name="VitalsPURP">FIOL</string>
   <string name="VitalsCYAN">TURK</string>
@@ -418,7 +418,7 @@
   <string name="ShapeshiftAbilityUndo">Wycofanie ze zmiany</string>
   <string name="DetectiveRole">Detektyw</string>
   <string name="DetectiveAbility">Przesłuchanie</string>
-  <string name="DetectiveAbilityNotes">Nie</string>
+  <string name="DetectiveAbilityNotes">Notatki</string>
   <string name="ViperRole">Viper</string>
   <string name="ViperAbility">Kwas</string>
   <!-- Will be displayed as "Inżynier Wskazówka", should be "Wskazówka dla roli Inżynier" instead-->
@@ -587,7 +587,7 @@
   <string name="QCWhereWasTheBody">Gdzie było ciało?</string>
   <string name="QCSelfReady">Jestem gotowy</string>
   <string name="QCSelfWasRole">Byłem {0}</string>
-  <string name="QCCoolOutfitCrew">Fajne przebranie, {0]!</string>
+  <string name="QCCoolOutfitCrew">Fajne przebranie, {0}!</string>
   <string name="QCCrewReportedBody">{0} zgłosił ciało</string>
   <string name="QCCrewNoOne">Nikt</string>
   <string name="QCResYes">Tak</string>
@@ -683,4 +683,70 @@
   <string name="QCSelfWasOnVitals">Byłem na vitalsach</string>
   <string name="QCSawDeadCrewOnVitals">Widziałem na vitalsach że {0} nie żyje</string>
   <string name="QCSelfSawTwoCrew">Widziałem dwóch {0}</string>
+  <string name="WeatherEta">Pozostało: {0}s</string>
+  <string name="HowToPlayText2Switch">Zagraj w od 4 do 15 graczy online dzięki swojemu\%nl\%\%nl\%członkostwu Nintendo Switch Online lub przez Wi-Fi lokalnie!!</string>
+  <string name="LangSpanishLATAM">Hiszpański (Latam)</string>
+  <string name="LangFilipino">Bisajski</string>
+  <string name="QCSystemsStart">Zacznij</string>
+  <string name="QCSystemsKick">Wyrzuć</string>
+  <string name="QCSelfSawCrewDoVisualTask">Widziałem/am {0} robiącego zadanie wizualne</string>
+  <string name="QCSelfWasOnDoorlogs">Byłem/am na Doorlogach</string>
+  <string name="QCSelfAmVotingCrew">Głosuję na {0}</string>
+  <string name="QCCrewWasPretendingTasks">{0} udawał/a robienie tasków</string>
+  <string name="QCCrewWasPretendingSabotage">{0} udawał/a naprawianie {1}</string>
+  <string name="QCLobbyMoreImpostors">Może więcej Intruzów?</string>
+  <string name="QCLobbyLessImpostors">Może mniej Intruzów?</string>
+  <string name="VentDirection">Kierunek Wentowania</string>
+  <string name="VentMove">Przemieść się Wentem</string>
+  <string name="AdPolicyText">Czy możemy wykorzystać twoje dane osobowe w celu dopasowania reklam dla ciebie? Jeżeli klikniesz Tak, nasi partnerzy reklamowi tacy jak Google AdMob i Unity Ads będą automatycznie zbierali dane i użyją identyfikatorów urządzeń oraz ciasteczek dla personalizacji reklam. Jeżeli klikniesz Nie, nadal możesz zobaczyć niespersonalizowane reklamy. By pozbyć się reklam, zakup aktualizację bez reklam [httpstore]tutaj[] i ani ty, ani twoi znajomi nie będą mieli reklam kiedy hostujesz! By dowiedzieć się więcej o naszych praktykach prywatności i praktykach prywatności naszych partnerów, przeczytaj naszą [https://www.innersloth.com/privacy-policy/]Politykę Prywatności[]. Możesz zmienić swoją decyzję w każdej chwili w menu ustawień, zakładce "Dane".</string>
+  <string name="PrivacyPolicyText">Innersloth przetwarza dane osobowe w Among Us. Prosimy o zapoznanie się z naszą \%link="https://www.innersloth.com/privacy-policy/"\%Polityką Prywatności\%/link\% , aby dowiedzieć się więcej o naszych praktykach prywatności. Ustawieniami danych osobowych w Among Us możesz zarządzać w sekcji „Dane”. \%nl\%\%nl\%Zapoznaj się z naszymi \%link="https://www.innersloth.com/terms-of-use-for-the-games/"\%Warunkami Użytkowania\%/link\% przed graniem w Among Us.</string>
+  <string name="MedscanRequested">Wykonaj Skan</string>
+  <string name="ErrorFocusLost">Zostałeś rozłączony, ponieważ Among Us zostało zawieszone przez inną aplikację.</string>
+  <string name="QCCrewShapeshifted">{0} przemienił się</string>
+  <string name="QCResOops">Ups</string>
+  <string name="QCResExclamationMarks">!!!</string>
+  <string name="QCResQuestionMarks">???</string>
+  <string name="EngagementScreen">Naciśnij dowolny przycisk by zacząć.</string>
+  <string name="SaveGameOutOfSpaceMessage">Kontynuować bez zapisywania?</string>
+  <string name="SaveGameOutOfSpaceConfirm">Kontynuuj</string>
+  <string name="Success">Sukces!</string>
+  <string name="Failed">Porażka!</string>
+  <string name="ErrorCreate">Coś poszło nie tak podczas tworzenia twojego konta. Spróbuj później.</string>
+  <string name="SuccessCreate">Konto zostało stworzone!</string>
+  <string name="Close">Zamknij</string>
+  <string name="AccountInfo">O KONCIE</string>
+  <string name="Account">KONTO</string>
+  <string name="Height">Wysokość</string>
+  <string name="Weight">Waga</string>
+  <string name="SignIn">Zaloguj się</string>
+  <string name="CreateAccount">Stwórz konto</string>
+  <string name="RequestPermission">Poproś o Pozwolenie</string>
+  <string name="AccountLinking">Łączenie kont</string>
+  <string name="LogOut">Wyloguj się</string>
+  <string name="EmailEdit">Zmień E-mail</string>
+  <string name="GuestContinue">Kontynuuj Jako Gość</string>
+  <string name="CreateAccountQuestion">Stworzyć Konto?</string>
+  <string name="DoYouWantCreate">Chcesz stworzyć konto?</string>
+  <string name="PermissionRequired">Wymagana Zgoda</string>
+  <string name="GuardianEmailTitle">E-mail Opiekuna</string>
+  <string name="Send">Wyślij</string>
+  <string name="Undo">Anuluj</string>
+  <string name="Clear">Wyczyść</string>
+  <string name="NewEmail">Nowy E-mail</string>
+  <string name="ConfirmEmail">Potwierdź E-mail</string>
+  <string name="EditEmail">Edytuj E-mail</string>
+  <string name="Loading">Ładowanie</string>
+  <string name="Welcome">WITAJ</string>
+  <string name="BanButton">Zbanuj</string>
+  <string name="KickButton">Wyrzuć</string>
+  <string name="ReportButton">Zgłoś</string>
+  <string name="ReportConfirmation">Udało ci się zgłosić wybranego użytkownika.</string>
+  <string name="ReportHacking">Hakowanie/Oszustwo</string>
+  <string name="ReportWhy">Dlaczego zgłaszasz tego użytkownika?</string>
+  <string name="ContinueOffline">Graj Offline</string>
+  <string name="WantToLogIn">Aktualnie nie jesteś zalogowany/a na żadne konto.</string>
+  <string name="PlayAsGuest">Graj jako Gość</string>
+  <string name="LogInTitle">Zaloguj Się do Konta</string>
+  <string name="ControllerDisconnectedMessage">Kontroler Odłączony</string>
+  <string name="QuickChatInstructionsGuest">Musisz być zalogowany/a by to zmienić.</string>
 </resources>
