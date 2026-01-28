@@ -435,7 +435,7 @@
   <string name="HasBeenKilled">Został Zabity</string>
   <string name="Ghost">Duch</string>
   <string name="CurrentlyHaunting">Obecnie Nawiedzasz:</string>
-  <string name="RoundRobin">Rosyjska ruletka</string>
+  <string name="RoundRobin">Losowy</string>
   <string name="PlayLabel">Graj</string>
   <string name="SettingsLabel">Ustawienia</string>
   <string name="NewsLabel">Ogłoszenia</string>
@@ -1136,4 +1136,11 @@
   <string name="AmongUsAnnouncements">Ogłoszenia Among Us</string>
   <string name="HauntAbilityName">Nawiedź</string>
   <string name="RestorePurchases">Przywróć Zakupy</string>
+  <string name="DeleteAccount">Usuń Konto</string>
+  <string name="DoNotDeleteAccount">Anuluj Usuwanie Konta</string>
+  <string name="AccountUnDeleteHelp">Przez kliknięcie POTWIERDŹ, anulujesz proces usuwania swojego konta. Jeśli zechcesz znowu je usunąć, będziesz musiał zażądać tego ponownie.\%nl\%\%nl\% Jeśli napotkasz się z jakimiś błędami, skontaktuj się z nami pisząc maila na support@innersloth.com.</string>
+  <string name="AccountDeleteHelp">Przez kliknięcie POTWIERDŹ, zarządzasz o usunięcie wszystkich swoich danych Among Us. To żądanie potrwa od 7 do 14 dni i sprawi, że wszystkie twoje Gwiazdy, XP, Fasolki oraz kupione przedmioty kosmetyczne. Gdy twoje konto zostanie usunięte, ta akcja nie będzie możliwa do cofnięcia. Twoje konto będzie działało poprawnie aż do czasu pełnego usunięcia.\%nl\%\%nl\% Jeśli napotkasz się z jakimiś błędami, skontaktuj się z nami pisząc maila na support@innersloth.com.</string>
+  <string name="AccountRequestDelete">Usuwanie Konta w Trakcie</string>
+  <string name="UserVersionError">Niepoprawna Wersja : To lobby było stworzone na wersji Among US {0}</string>
+  <string name="ConfirmDelete">Wpisz DELETE aby potwierdzić</string>
 </resources>
