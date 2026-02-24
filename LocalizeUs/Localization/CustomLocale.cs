@@ -11,13 +11,6 @@ public static class CustomLocale
 {
     public static string LocaleDirectory => Path.Combine(Application.persistentDataPath, "LocalizeUs", "Locales");
 
-    public static List<ExtendedLangs> LangsWithCustomFont { get; } = new()
-    {
-        ExtendedLangs.Polish, // Custom
-        ExtendedLangs.Turkish, // Custom
-        ExtendedLangs.Swedish, // Custom
-        ExtendedLangs.Lithuanian // Custom
-    };
     public static Dictionary<ExtendedLangs, string> LangList { get; } = new()
     {
         { ExtendedLangs.English, "en_US.xml" },
@@ -41,6 +34,29 @@ public static class CustomLocale
         { ExtendedLangs.Swedish, "sv_SE.xml" }, // Custom
         { ExtendedLangs.Lithuanian, "lt_LT.xml" }, // Custom
     };
+    public static Dictionary<ExtendedLangs, string> LangListExternal { get; } = new()
+    {
+        { ExtendedLangs.English, "LU_en_US.xml" },
+        { ExtendedLangs.Latam, "LU_es_419.xml" },
+        { ExtendedLangs.Brazilian, "LU_pt_BR.xml" },
+        { ExtendedLangs.Portuguese, "LU_pt_PT.xml" },
+        { ExtendedLangs.Korean, "LU_ko_KR.xml" },
+        { ExtendedLangs.Russian, "LU_ru_RU.xml" },
+        { ExtendedLangs.Dutch, "LU_nl_NL.xml" },
+        { ExtendedLangs.Filipino, "LU_fil_PH.xml" },
+        { ExtendedLangs.French, "LU_fr_FR.xml" },
+        { ExtendedLangs.German, "LU_de_DE.xml" },
+        { ExtendedLangs.Italian, "LU_it_IT.xml" },
+        { ExtendedLangs.Japanese, "LU_ja_JP.xml" },
+        { ExtendedLangs.Spanish, "LU_es_ES.xml" },
+        { ExtendedLangs.SChinese, "LU_zh_CN.xml" },
+        { ExtendedLangs.TChinese, "LU_zh_TW.xml" },
+        { ExtendedLangs.Irish, "LU_ga_IE.xml" },
+        { ExtendedLangs.Polish, "LU_pl_PL.xml" }, // Custom
+        { ExtendedLangs.Turkish, "LU_tr_TR.xml" }, // Custom
+        { ExtendedLangs.Swedish, "LU_sv_SE.xml" }, // Custom
+        { ExtendedLangs.Lithuanian, "LU_lt_LT.xml" }, // Custom
+    };
     public static Dictionary<ExtendedLangs, string> LangCultureList { get; } = new()
     {
         { ExtendedLangs.English, "en-US" },
@@ -63,29 +79,6 @@ public static class CustomLocale
         { ExtendedLangs.Turkish, "tr-TR" }, // Custom
         { ExtendedLangs.Swedish, "sv-SE" }, // Custom
         { ExtendedLangs.Lithuanian, "lt-LT" }, // Custom
-    };
-    public static Dictionary<ExtendedLangs, string> LangCodesList { get; } = new()
-    {
-        { ExtendedLangs.English, "en" },
-        { ExtendedLangs.Latam, "es" },
-        { ExtendedLangs.Brazilian, "pt" },
-        { ExtendedLangs.Portuguese, "pt" },
-        { ExtendedLangs.Korean, "ko" },
-        { ExtendedLangs.Russian, "ru" },
-        { ExtendedLangs.Dutch, "nl" },
-        { ExtendedLangs.Filipino, "fil" },
-        { ExtendedLangs.French, "fr" },
-        { ExtendedLangs.German, "de" },
-        { ExtendedLangs.Italian, "it" },
-        { ExtendedLangs.Japanese, "ja" },
-        { ExtendedLangs.Spanish, "es" },
-        { ExtendedLangs.SChinese, "zh" },
-        { ExtendedLangs.TChinese, "zh" },
-        { ExtendedLangs.Irish, "ga" },
-        { ExtendedLangs.Polish, "pl" }, // Custom
-        { ExtendedLangs.Turkish, "tr" }, // Custom
-        { ExtendedLangs.Swedish, "sv" }, // Custom
-        { ExtendedLangs.Lithuanian, "lt" }, // Custom
     };
 
     public static string BepinexLocaleDirectory =>
@@ -219,7 +212,7 @@ public static class CustomLocale
         foreach (var file in xmlTranslations)
         {
             var localeName = Path.GetFileNameWithoutExtension(file);
-            if (!LangList.ContainsValue(localeName + ".xml"))
+            if (!LangListExternal.ContainsValue(localeName + ".xml"))
             {
                 Logger.LogError($"Invalid locale iso name: {localeName}");
                 continue;
@@ -227,7 +220,7 @@ public static class CustomLocale
 
             Logger.LogWarning($"Adding locale for: {localeName} in {file}");
 
-            var language = LangList.FirstOrDefault(x => x.Value == localeName + ".xml").Key;
+            var language = LangListExternal.FirstOrDefault(x => x.Value == localeName + ".xml").Key;
             CustomLocalization.TryAdd(language, []);
             var xmlContent = File.ReadAllText(file);
             ParseXmlFile(xmlContent, language, false);
