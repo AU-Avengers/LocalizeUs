@@ -605,7 +605,7 @@
   <string name="QCQstWho">Kto?</string>
   <string name="QCQstWhoDidTask">Kto robił {0}?</string>
   <string name="QCQstBodyOrMeeting">Czy zostało zgłoszone ciało czy zwołane spotkanie?</string>
-  <string name="QCStaDoubleKill">To było podwójne zabójstwo</string>
+  <string name="QCStaDoubleKill">To było zsynchronizowane zabójstwo</string>
   <string name="QCStaWasSelfReport">To był self-report</string>
   <string name="QCStaPleaseDoTasks">Proszę zróbcie swoje zadania</string>
   <string name="QCStaBodyWasInA">Ciało było w {0}</string>
