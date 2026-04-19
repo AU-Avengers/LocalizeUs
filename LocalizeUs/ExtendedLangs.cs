@@ -22,4 +22,5 @@ public enum ExtendedLangs
     Turkish,
     Swedish,
     Lithuanian,
+    Czech,
 }
