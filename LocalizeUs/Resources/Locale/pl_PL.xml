@@ -849,7 +849,7 @@
   <string name="QCResDisagree">Niezgoda</string>
   <string name="QCResNice">Fajnie</string>
   <string name="QCResUhOh">Uh-oh</string>
-  <string name="SecurityLogsSystem">Logi bezpieczeństwa</string>
+  <string name="SecurityLogsSystem">Logi</string>
   <string name="SecurityCamsSystem">Kamery bezpieczeństwa</string>
   <string name="AdminMapSystem">Mapa Admina</string>
   <string name="VitalsSystem">Monitor vitalsów</string>
@@ -913,7 +913,7 @@
   <string name="InviteFriends">Zaproś przyjaciół</string>
   <string name="CO2Label">CO2</string>
   <string name="WaterLabel">WODA</string>
-  <string name="DoorlogLabel">DOORLOG</string>
+  <string name="DoorlogLabel">DOORLOGI</string>
   <string name="NutriLabel">NUTRI</string>
   <string name="RADLabel">RAD</string>
   <string name="VitalsLabel">VITALSY</string>
@@ -941,10 +941,10 @@
   <string name="PoorLabel">SŁABE</string>
   <string name="GoodLabel">DOBRE</string>
   <string name="GoOffline">Przejdź w tryb offline</string>
-  <string name="ProceedLabel">PRZEJDŹ DALEJ</string>
+  <string name="ProceedLabel">KONTYNUUJ</string>
   <string name="LogLabel">USTAW</string>
   <string name="ReadingLabel">ODCZYT</string>
-  <string name="WeatherDataDownload">POBIERZ DANE POGODY</string>
+  <string name="WeatherDataDownload">POBIERZ DANE POGODOWE</string>
   <string name="PetAlien1">Zestaw kosmo-pupili</string>
   <string name="ComePlayDiscord">Dawaj, zagrajmy w Among us!</string>
   <string name="YouAreNotOnline">Nie jesteś online.</string>
@@ -1499,4 +1499,6 @@
   <string name="Cosmetic.hat_bday_cake">Kawałek Dobrego Ciasta</string>
   <string name="SwitchEShopBrowseAll">Przeglądaj wszystkie przedmioty na Nintendo eShop</string>
   <string name="CrossPlayEnabledWarning">Gra Międzyplatformowa Włączona: Możesz napotkać się na graczy z innych platform.</string>
+  <string name="QCResYeetCrew">{0} leci</string>
+  <string name="LogInInfoTextSwitch">Jeżeli zarejestrujesz się do pełnego konta, możesz zawsze zalogować się później. Jeżeli nie masz konta, stworzy się ono automatycznie.</string>
 </resources>
