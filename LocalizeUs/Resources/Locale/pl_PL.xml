@@ -419,7 +419,7 @@
   <string name="DetectiveRole">Detektyw</string>
   <string name="DetectiveAbility">Przesłuchaj</string>
   <string name="DetectiveAbilityNotes">Notatki</string>
-  <string name="ViperRole"/>
+  <string name="ViperRole">Żmija</string>
   <string name="ViperAbility">Kwas</string>
   <!-- Will be displayed as "Inżynier Wskazówka", should be "Wskazówka dla roli Inżynier" instead-->
     <string name="RoleHint">Wskazówka</string>
@@ -1194,13 +1194,13 @@
   <string name="DetectiveNotesTitleKiller">Zabójca</string>
   <string name="DetectiveNotesTitleSuspects">Podejrzani</string>
   <string name="DetectiveNotesTitleLocationsAtTimeOfDeath">Miejsce Przebywania w Czasie Zabicia</string>
-  <string name="DetectiveNotesPromptPreposition">W/Przy/Możliwe?</string>
+  <string name="DetectiveNotesPromptPreposition">W/Przy/Może?</string>
   <string name="DetectiveNotesPromptLocation">Pomieszczenie?</string>
   <string name="DetectiveNotesPromptImpostor">Intruz?</string>
   <string name="DetectiveNotesPromptSuspect">Podejrzany {0}?</string>
   <string name="DetectiveNotesPrepositionIn">W</string>
   <string name="DetectiveNotesPrepositionBy">Przy</string>
-  <string name="DetectiveNotesPrepositionMaybe">Możliwe</string>
+  <string name="DetectiveNotesPrepositionMaybe">Może</string>
   <string name="StatsViperBodiesDissolved">Ciała w Pełni Rozpuszczone:	</string>
   <string name="DetectiveBlurb">Zbierz informacje. Rozwiąż zabójstwa.</string>
   <string name="DetectiveBlurbMed">Dodaj informacje do Notatek.\%nl\%Przesłuchaj Załogę.</string>
@@ -1521,4 +1521,9 @@
   <string name="ShapeshifterDuration">Czas trwania przebrania</string>
   <string name="ShapeshifterLeaveSkin">Pozostaw ślad po przebraniu</string>
   <string name="QCStaShapeshifterSkin">Skórę zmiennokształtnego znaleziono w {0}</string>
+  <string name="RolesHelp_Viper_01">Żmija zabija załogantów używając śmiertelnego kwasu. Ciała rozpuszczają się w trzech fazach po czym całkowicie znikają.</string>
+  <string name="RolesHelp_Viper_02">Mądra Żmija upewnia się że ciała jej ofiar nie zostaną znalezione. Używaj sabotaży dla własnych korzyści!</string>
+  <string name="QCVipers">Żmije?</string>
+  <string name="RolesHelp_Detective_01">Detektyw jest załogantem rozwiązującym zabójstwa! Za pomocą notatek, może wywnioskować ważne detale o każdym zabójstwie.</string>
+  <string name="RolesHelp_Detective_02">Detektyw może wtedy przesłuchać innych załogantów aby się dowiedzieć gdzie byli podczas zabójstwa. Połącz kropki i znajdź zabójcę!</string>
 </resources>
