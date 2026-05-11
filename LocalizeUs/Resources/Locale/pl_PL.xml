@@ -957,7 +957,7 @@
   <string name="GameComplete">Gra Ukończona</string>
   <string name="PetCrewmate">Zestaw Mini załogo-pupili</string>
   <string name="PetAnimal">Zestaw chomiko-pupili</string>
-  <string name="PetAlien2">Zestaw Pluskwokrab-pupili</string>
+  <string name="PetAlien2">Zestaw Bedcrab-pupili</string>
   <string name="PetStickmin">Zestaw Stickmin-pupili</string>
   <string name="PrisonerSkin">Więzień</string>
   <string name="Cyborg_RHM">Cyborg PRM</string>
@@ -1616,4 +1616,6 @@
   <string name="RolesHelp_Noisemaker_02">Alarm ten z łatwością wpędza Intruza w panikę, w chwili gdy ty się przyglądasz jak reszta załogi biegnie na miejsce zbrodni aby złapać twojego mordercę i pomścić twą śmierć!</string>
   <string name="StatsShapeshifterShiftedKills">Zabójstwa Zmiennokształtnego podczas przebrania:	</string>
   <string name="FriendList">Lista Znajomych</string>
+  <string name="Cosmetic.pet_Bedcrab">Bedcrab</string>
+  <string name="Bundle.pet_alien2">Zestaw Bedcrab-pupili</string>
 </resources>
