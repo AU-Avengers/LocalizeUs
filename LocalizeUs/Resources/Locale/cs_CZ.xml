@@ -64,4 +64,11 @@
   <string name="DownloadData">Stáhni Data</string>
   <string name="UploadData">Nahraj Data</string>
   <string name="InspectSample">Prozkoumej Vzorek</string>
+  <string name="EmptyChute">Vyprázdni Šachtu</string>
+  <string name="EmptyGarbage">Vysyp Odpad</string>
+  <string name="AlignEngineOutput">Srovnej Výstup Motorů</string>
+  <string name="FixWiring">Oprav Kabeláž</string>
+  <string name="FixWiringName">Kabeláž</string>
+  <string name="DoorsName">Dveře</string>
+  <string name="CalibrateDistributor">Kalibruj Distributor</string>
 </resources>
