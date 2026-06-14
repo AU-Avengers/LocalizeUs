@@ -27,13 +27,18 @@ public sealed partial class LocalizeUsPlugin : BasePlugin
     public override void Load()
     {
         EnumInjector.InjectEnumValues<StringNames>(new Dictionary<string, object>
-            { { "LangPolish", 2860 }, { "LangTurkish", 2861 }, { "LangSwedish", 2862 }, { "LangLithuanian", 2863 }, { "LangCzech", 2864 } ,
-            { "LangLiteraryChinese", 2865 } });
+        {
+            { "LangPolish", 2860 }, { "LangTurkish", 2861 }, { "LangSwedish", 2862 }, { "LangLithuanian", 2863 },
+            { "LangCzech", 2864 },
+            { "LangLiteraryChinese", 2865 },
+            { "LangGreek", 2866 }
+        });
         EnumInjector.InjectEnumValues<SupportedLangs>(new Dictionary<string, object>
         {
             { "Polish", (int)ExtendedLangs.Polish }, { "Turkish", (int)ExtendedLangs.Turkish },
             { "Swedish", (int)ExtendedLangs.Swedish }, { "Lithuanian", (int)ExtendedLangs.Lithuanian },
-            { "Czech", (int)ExtendedLangs.Czech }, { "LiteraryChinese", (int)ExtendedLangs.LiteraryChinese }
+            { "Czech", (int)ExtendedLangs.Czech }, { "LiteraryChinese", (int)ExtendedLangs.LiteraryChinese },
+            { "Greek", (int)ExtendedLangs.Greek }
         });
         ReactorCredits.Register<LocalizeUsPlugin>(location =>
             location == ReactorCredits.Location.MainMenu || location == ReactorCredits.Location.PingTracker);

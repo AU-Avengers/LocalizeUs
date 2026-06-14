@@ -15,8 +15,8 @@ public enum ExtendedLangs
     Italian,
     Japanese,
     Spanish,
-    SChinese,
-    TChinese,
+    SimplifiedChinese,
+    TraditionalChinese,
     Irish,
     Polish,
     Turkish,
@@ -24,4 +24,5 @@ public enum ExtendedLangs
     Lithuanian,
     Czech,
     LiteraryChinese,
+    Greek,
 }

@@ -38,8 +38,9 @@ public static class TranslationControllerRegisterPatch
         AddLangSet(ExtendedLangs.Turkish, "Türkçe", "Turkish");
         AddLangSet(ExtendedLangs.Swedish, "Svenska", "Swedish");
         AddLangSet(ExtendedLangs.Lithuanian, "Lietuvių", "Lithuanian");
-        AddLangSet(ExtendedLangs.Czech, "český jazyk", "Czech");
+        AddLangSet(ExtendedLangs.Czech, "Čeština", "Czech");
         AddLangSet(ExtendedLangs.LiteraryChinese, "文言文", "Literary Chinese");
+        AddLangSet(ExtendedLangs.Greek, "ελληνικά", "Greek");
     }
 
 [HarmonyPatch(typeof(TranslationController), nameof(TranslationController.SetLanguage))]
