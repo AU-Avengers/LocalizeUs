@@ -103,7 +103,8 @@ public static class TmpAwakePatch
         }
         else if (__instance.font.name == "VCR SDF")
         {
-            __instance.font = VcrRegTmp;
+            RegisterFallback(__instance.font, VcrRegTmp);
+            VcrRegTmp.fontWeightTable = __instance.font.fontWeightTable;
         }
         else if (__instance.font.name == "Barlow-BoldItalic Masked" || __instance.font.name == "Barlow-BoldItalic SDF")
         {
