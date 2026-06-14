@@ -20,13 +20,16 @@ A client-side [Among Us](https://store.steampowered.com/app/945360/Among_Us) mod
 
 All languages are added via our [Weblate](https://weblate.duikbo.at/projects/localize-us/) instance. If you want to contribute to the project (even if the language isn't listed here!) please let us know!
 
-|   Language    |                                                                          Overall Progress                                                                          |
-|:-------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| All Languages |   <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/svg-badge.svg" alt="Translation status" /></a>    |
-|  Lithuanian   | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/lt/svg-badge.svg" alt="Translation status" /></a> |
-|    Polish     | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/pl/svg-badge.svg" alt="Translation status" /></a> |
-|    Swedish    | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/sv/svg-badge.svg" alt="Translation status" /></a> |
-|    Turkish    | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/tr/svg-badge.svg" alt="Translation status" /></a> |
+|     Language     |                                                                          Overall Progress                                                                           |
+|:----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|  All Languages   |    <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/svg-badge.svg" alt="Translation status" /></a>    |
+|      Czech       | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/cs/svg-badge.svg" alt="Translation status" /></a>  |
+|      Greek       | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/el/svg-badge.svg" alt="Translation status" /></a>  |
+| Literary Chinese | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/lzh/svg-badge.svg" alt="Translation status" /></a> |
+|    Lithuanian    | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/lt/svg-badge.svg" alt="Translation status" /></a>  |
+|      Polish      | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/pl/svg-badge.svg" alt="Translation status" /></a>  |
+|     Swedish      | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/sv/svg-badge.svg" alt="Translation status" /></a>  |
+|     Turkish      | <a href="https://weblate.duikbo.at/engage/localize-us/"><img src="https://weblate.duikbo.at/widget/localize-us/-/tr/svg-badge.svg" alt="Translation status" /></a>  |
 
 -----------------------
 

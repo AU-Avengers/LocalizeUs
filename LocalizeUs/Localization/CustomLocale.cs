@@ -299,6 +299,10 @@ public static class CustomLocale
                             {
                                 value = value.Replace("\\>", ">");
                             }
+                            foreach (var tmpText in TmpTextList.Where(x => value.Contains(x.Key)))
+                            {
+                                value = value.Replace(tmpText.Key, tmpText.Value);
+                            }
                         }
 
                         localeList[language].TryAdd(name, value);
