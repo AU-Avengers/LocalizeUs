@@ -45,6 +45,7 @@ public static class CustomLocale
         { ExtendedLangs.Turkish, "tr_TR.xml" }, // Custom
         { ExtendedLangs.Swedish, "sv_SE.xml" }, // Custom
         { ExtendedLangs.Lithuanian, "lt_LT.xml" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "lzh_CN.xml" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangCultureList { get; } = new()
     {
@@ -68,6 +69,7 @@ public static class CustomLocale
         { ExtendedLangs.Turkish, "tr-TR" }, // Custom
         { ExtendedLangs.Swedish, "sv-SE" }, // Custom
         { ExtendedLangs.Lithuanian, "lt-LT" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "zh-TW" }, // Custom (Literary Chinese uses traditional characters)
     };
     public static Dictionary<ExtendedLangs, string> LangCodesList { get; } = new()
     {
@@ -91,6 +93,7 @@ public static class CustomLocale
         { ExtendedLangs.Turkish, "tr" }, // Custom
         { ExtendedLangs.Swedish, "sv" }, // Custom
         { ExtendedLangs.Lithuanian, "lt" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "lzh" }, // Custom
     };
 
     public static string BepinexLocaleDirectory =>
