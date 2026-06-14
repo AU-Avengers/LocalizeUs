@@ -1,6 +1,9 @@
+using System.Globalization;
+using System.Text;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using Reactor.Localization;
 using Reactor.Utilities;
+using UnityEngine;
 
 namespace LocalizeUs.Localization;
 
@@ -44,16 +47,19 @@ public class CustomLocalizationProvider : LocalizationProvider
         {
             LocalizeUsPlugin.Culture = new(culture);
         }
-        /*Warning($"<?xml version='1.0' encoding='UTF-8'?>");
-        Warning($"<resources>");
+        /*string filePath = $"{Application.persistentDataPath}/{CustomLocale.LangList[(ExtendedLangs)newLanguage]}";
+        var text = new StringBuilder();
+        text.Append("<?xml version='1.0' encoding='UTF-8'?>");
+        text.AppendLine("<resources>");
         foreach (var stringName in TranslationController.Instance.currentLanguage.AllStrings)
         {
             var value = stringName.Value.Replace("\n", "\\%nl\\%");
             value = value.Replace("&", "\\%and\\%");
             value = value.Replace("<", "\\%");
             value = value.Replace(">", "\\%");
-            Warning($"<string name=\"{stringName.Key}\">{value}</string>");
+            text.AppendLine(CultureInfo.InvariantCulture, $"<string name=\"{stringName.Key}\">{value}</string>");
         }
-        Warning($"</resources>");*/
+        text.AppendLine("</resources>");
+        File.WriteAllText(filePath, text.ToString());*/
     }
 }
