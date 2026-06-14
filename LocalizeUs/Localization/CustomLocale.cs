@@ -26,14 +26,16 @@ public static class CustomLocale
         { ExtendedLangs.Italian, "it_IT.xml" },
         { ExtendedLangs.Japanese, "ja_JP.xml" },
         { ExtendedLangs.Spanish, "es_ES.xml" },
-        { ExtendedLangs.SChinese, "zh_CN.xml" },
-        { ExtendedLangs.TChinese, "zh_TW.xml" },
+        { ExtendedLangs.SimplifiedChinese, "zh_CN.xml" },
+        { ExtendedLangs.TraditionalChinese, "zh_TW.xml" },
         { ExtendedLangs.Irish, "ga_IE.xml" },
         { ExtendedLangs.Polish, "pl_PL.xml" }, // Custom
         { ExtendedLangs.Turkish, "tr_TR.xml" }, // Custom
         { ExtendedLangs.Swedish, "sv_SE.xml" }, // Custom
         { ExtendedLangs.Lithuanian, "lt_LT.xml" }, // Custom
         { ExtendedLangs.Czech, "cs_CZ.xml" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "lzh_CN.xml" }, // Custom
+        { ExtendedLangs.Greek, "el-GR.xml" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangListExternal { get; } = new()
     {
@@ -50,14 +52,16 @@ public static class CustomLocale
         { ExtendedLangs.Italian, "LU_it_IT.xml" },
         { ExtendedLangs.Japanese, "LU_ja_JP.xml" },
         { ExtendedLangs.Spanish, "LU_es_ES.xml" },
-        { ExtendedLangs.SChinese, "LU_zh_CN.xml" },
-        { ExtendedLangs.TChinese, "LU_zh_TW.xml" },
+        { ExtendedLangs.SimplifiedChinese, "LU_zh_CN.xml" },
+        { ExtendedLangs.TraditionalChinese, "LU_zh_TW.xml" },
         { ExtendedLangs.Irish, "LU_ga_IE.xml" },
         { ExtendedLangs.Polish, "LU_pl_PL.xml" }, // Custom
         { ExtendedLangs.Turkish, "LU_tr_TR.xml" }, // Custom
         { ExtendedLangs.Swedish, "LU_sv_SE.xml" }, // Custom
         { ExtendedLangs.Lithuanian, "LU_lt_LT.xml" }, // Custom
         { ExtendedLangs.Czech, "LU_cs_CZ.xml" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "LU_lzh_CN.xml" }, // Custom
+        { ExtendedLangs.Greek, "LU_el-GR.xml" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangCultureList { get; } = new()
     {
@@ -74,14 +78,42 @@ public static class CustomLocale
         { ExtendedLangs.Italian, "it-IT" },
         { ExtendedLangs.Japanese, "ja-JP" },
         { ExtendedLangs.Spanish, "es-ES" },
-        { ExtendedLangs.SChinese, "zh-CN" },
-        { ExtendedLangs.TChinese, "zh-TW" },
+        { ExtendedLangs.SimplifiedChinese, "zh-CN" },
+        { ExtendedLangs.TraditionalChinese, "zh-TW" },
         { ExtendedLangs.Irish, "ga-IE" },
         { ExtendedLangs.Polish, "pl-PL" }, // Custom
         { ExtendedLangs.Turkish, "tr-TR" }, // Custom
         { ExtendedLangs.Swedish, "sv-SE" }, // Custom
         { ExtendedLangs.Lithuanian, "lt-LT" }, // Custom
         { ExtendedLangs.Czech, "cs-CZ" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "zh-TW" }, // Custom
+        { ExtendedLangs.Greek, "el-GR" }, // Custom
+    };
+    public static Dictionary<ExtendedLangs, string> LangCodesList { get; } = new()
+    {
+        { ExtendedLangs.English, "en" },
+        { ExtendedLangs.Latam, "es" },
+        { ExtendedLangs.Brazilian, "pt" },
+        { ExtendedLangs.Portuguese, "pt" },
+        { ExtendedLangs.Korean, "ko" },
+        { ExtendedLangs.Russian, "ru" },
+        { ExtendedLangs.Dutch, "nl" },
+        { ExtendedLangs.Filipino, "fil" },
+        { ExtendedLangs.French, "fr" },
+        { ExtendedLangs.German, "de" },
+        { ExtendedLangs.Italian, "it" },
+        { ExtendedLangs.Japanese, "ja" },
+        { ExtendedLangs.Spanish, "es" },
+        { ExtendedLangs.SimplifiedChinese, "zh" },
+        { ExtendedLangs.TraditionalChinese, "zh" },
+        { ExtendedLangs.Irish, "ga" },
+        { ExtendedLangs.Polish, "pl" }, // Custom
+        { ExtendedLangs.Turkish, "tr" }, // Custom
+        { ExtendedLangs.Swedish, "sv" }, // Custom
+        { ExtendedLangs.Lithuanian, "lt" }, // Custom
+        { ExtendedLangs.Czech, "cs" }, // Custom
+        { ExtendedLangs.LiteraryChinese, "lzh" }, // Custom
+        { ExtendedLangs.Greek, "el" }, // Custom
     };
 
     public static string BepinexLocaleDirectory =>
