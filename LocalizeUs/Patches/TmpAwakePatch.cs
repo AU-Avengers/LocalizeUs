@@ -9,11 +9,15 @@ namespace LocalizeUs.Patches;
 public static class TmpAwakePatch
 {
     public static TMP_FontAsset LibSansRegTmp;
+    public static TMP_FontAsset LibSansBoldTmp;
+    public static TMP_FontAsset LibSansItalicTmp;
+    public static TMP_FontAsset LibSansBoldItalicTmp;
     public static TMP_FontAsset VcrRegTmp;
     public static TMP_FontAsset BarlowRegTmp;
     public static TMP_FontAsset BarlowBoldTmp;
     public static TMP_FontAsset BarlowSemiBoldTmp;
     public static TMP_FontAsset BarlowBoldItalicTmp;
+    public static TMP_FontAsset NotoSansArabicTmp;
     private static bool _fallbackRegistered;
 
     [HarmonyPatch(typeof(TextMeshPro), nameof(TextMeshPro.Awake))]
@@ -22,27 +26,53 @@ public static class TmpAwakePatch
     {
         if (!LibSansRegTmp)
         {
-            LibSansRegTmp = LoadFontFromResources("LocalizeUs.Resources.LiberationSans.ttf")!;
+            LibSansRegTmp = LoadFontFromResources("LocalizeUs.Resources.LiberationSans-Regular.ttf")!;
+            LibSansRegTmp.name = "LiberationSans Regular (Custom)";
+        }
+        if (!LibSansBoldTmp)
+        {
+            LibSansBoldTmp = LoadFontFromResources("LocalizeUs.Resources.LiberationSans-Bold.ttf")!;
+            LibSansBoldTmp.name = "LiberationSans Bold (Custom)";
+        }
+        if (!LibSansItalicTmp)
+        {
+            LibSansItalicTmp = LoadFontFromResources("LocalizeUs.Resources.LiberationSans-Italic.ttf")!;
+            LibSansItalicTmp.name = "LiberationSans Italic (Custom)";
+        }
+        if (!LibSansBoldItalicTmp)
+        {
+            LibSansBoldItalicTmp = LoadFontFromResources("LocalizeUs.Resources.LiberationSans-BoldItalic.ttf")!;
+            LibSansBoldItalicTmp.name = "LiberationSans Bold Italic (Custom)";
+        }
+        if (!NotoSansArabicTmp)
+        {
+            NotoSansArabicTmp = LoadFontFromResources("LocalizeUs.Resources.NotoSans-Arabic.ttf")!;
+            NotoSansArabicTmp.name = "NotoSans Arabic (Custom)";
         }
         if (!VcrRegTmp)
         {
-            VcrRegTmp = LoadFontFromResources("LocalizeUs.Resources.vcr-osd-replayed.ttf")!;
+            VcrRegTmp = LoadFontFromResources("LocalizeUs.Resources.marisas-vcr-osd-mono-faithful-32x.ttf")!;
+            VcrRegTmp.name = "Marisa's VCR OSD Mono 32x (Custom)";
         }
         if (!BarlowRegTmp)
         {
             BarlowRegTmp = LoadFontFromResources("LocalizeUs.Resources.Barlow-Regular.ttf")!;
+            BarlowRegTmp.name = "Barlow Regular (Custom)";
         }
         if (!BarlowSemiBoldTmp)
         {
             BarlowSemiBoldTmp = LoadFontFromResources("LocalizeUs.Resources.Barlow-SemiBold.ttf")!;
+            BarlowSemiBoldTmp.name = "Barlow Semi Bold (Custom)";
         }
         if (!BarlowBoldItalicTmp)
         {
             BarlowBoldItalicTmp = LoadFontFromResources("LocalizeUs.Resources.Barlow-BoldItalic.ttf")!;
+            BarlowBoldItalicTmp.name = "Barlow Bold Italic (Custom)";
         }
         if (!BarlowBoldTmp)
         {
-            BarlowBoldTmp = LoadFontFromResources("LocalizeUs.Resources.Barlow-Bold.ttf")!;
+            BarlowBoldTmp = LoadFontFromResources("LocalizeUs.Resources.Barlow-Bold.ttf", 40)!;
+            BarlowBoldTmp.name = "Barlow Bold (Custom)";
         }
         if (__instance.font.name == "LiberationSans SDF")
         {
@@ -54,9 +84,21 @@ public static class TmpAwakePatch
             // that are missing from the original (e.g. ĄČĘĖĮŠŲŪŽ).
             if (!_fallbackRegistered)
             {
-                RegisterFallback(__instance.font, LibSansRegTmp);
                 LibSansRegTmp.fontWeightTable = __instance.font.fontWeightTable;
+                var regMat = LibSansRegTmp.material;
+                regMat.SetFloat(ShaderUtilities.ID_OutlineWidth, 10f);
+                regMat.SetFloat(ShaderUtilities.ID_FaceDilate, 1f);
+                RegisterFallback(__instance.font, LibSansRegTmp);
+                /*RegisterFallback(__instance.font, LibSansItalicTmp);
+                RegisterFallback(__instance.font, LibSansBoldTmp);
+                RegisterFallback(__instance.font, LibSansBoldItalicTmp);*/
+                RegisterFallback(__instance.font, NotoSansArabicTmp);
+                /*LibSansItalicTmp.fontWeightTable = __instance.font.fontWeightTable;
+                LibSansBoldTmp.fontWeightTable = __instance.font.fontWeightTable;
+                LibSansBoldItalicTmp.fontWeightTable = __instance.font.fontWeightTable;*/
+                NotoSansArabicTmp.fontWeightTable = __instance.font.fontWeightTable;
                 _fallbackRegistered = true;
+                __instance.UpdateMeshPadding();
             }
         }
         else if (__instance.font.name == "VCR SDF")
@@ -65,25 +107,24 @@ public static class TmpAwakePatch
         }
         else if (__instance.font.name == "Barlow-BoldItalic Masked" || __instance.font.name == "Barlow-BoldItalic SDF")
         {
-            __instance.font = BarlowBoldItalicTmp;
+            RegisterFallback(__instance.font, BarlowBoldItalicTmp);
+            BarlowBoldItalicTmp.fontWeightTable = __instance.font.fontWeightTable;
         }
         else if (__instance.font.name == "Barlow-SemiBold Masked" || __instance.font.name == "Barlow-SemiBold SDF")
         {
-            __instance.font = BarlowSemiBoldTmp;
+            RegisterFallback(__instance.font, BarlowSemiBoldTmp);
+            BarlowSemiBoldTmp.fontWeightTable = __instance.font.fontWeightTable;
         }
         else if (__instance.font.name == "Barlow-Regular Masked" || __instance.font.name == "Barlow-Regular SDF")
         {
-            __instance.font = BarlowRegTmp;
+            RegisterFallback(__instance.font, BarlowRegTmp);
+            BarlowRegTmp.fontWeightTable = __instance.font.fontWeightTable;
         }
         else if (__instance.font.name == "Barlow-Bold Masked" || __instance.font.name == "Barlow-Bold SDF")
         {
-            __instance.font = BarlowBoldTmp;
+            RegisterFallback(__instance.font, BarlowBoldTmp);
+            BarlowBoldTmp.fontWeightTable = __instance.font.fontWeightTable;
         }
-        /*else if (component.font.name == "Brook SDF" && CustomLocale.LangsWithCustomFont.Contains(auLang))
-        {
-            ogBrookTmp = component.font;
-            component.font = LocaleUsAssets.AmaticScBoldTmp;
-        }*/
     }
 
     private static void RegisterFallback(TMP_FontAsset mainFont, TMP_FontAsset fallbackFont)
@@ -110,7 +151,8 @@ public static class TmpAwakePatch
         newList.Add(fallbackFont);
         mainFont.fallbackFontAssetTable = newList;
     }
-    internal static TMP_FontAsset? LoadFontFromResources(string resourcePath)
+
+    internal static TMP_FontAsset? LoadFontFromResources(string resourcePath, int padding = 18)
     {
         try
         {
@@ -123,7 +165,8 @@ public static class TmpAwakePatch
                 return null;
             }
 
-            string tempFileName = $"{Path.GetFileNameWithoutExtension(resourcePath)}_{Guid.NewGuid()}{Path.GetExtension(resourcePath)}";
+            string tempFileName =
+                $"{Path.GetFileNameWithoutExtension(resourcePath)}_{Guid.NewGuid()}{Path.GetExtension(resourcePath)}";
             string tempPath = Path.Combine(Application.temporaryCachePath, tempFileName);
 
             using (FileStream fileStream = File.Create(tempPath))
@@ -132,7 +175,13 @@ public static class TmpAwakePatch
             }
 
             Font newFont = new(tempPath);
-            TMP_FontAsset fontAsset = TMP_FontAsset.CreateFontAsset(newFont);
+            TMP_FontAsset fontAsset = TMP_FontAsset.CreateFontAsset(newFont,
+                90,
+                padding,
+                UnityEngine.TextCore.LowLevel.GlyphRenderMode.SDFAA,
+                2048,
+                2048);
+            fontAsset.atlasPopulationMode = AtlasPopulationMode.Dynamic;
             File.Delete(tempPath);
 
             return fontAsset;
