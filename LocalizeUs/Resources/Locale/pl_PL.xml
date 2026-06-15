@@ -32,6 +32,7 @@
   <string name="ImpostorsRemainP">Pozostało {0} Intruzów.</string>
   <string name="Hallway">Korytarz</string>
   <string name="Engines">Silniki</string>
+  <string name="UpperEngine">Górny Silnik</string>
   <string name="Weapons">Zbrojownia</string>
   <string name="Reactor">Reaktor</string>
   <string name="Security">Ochrona</string>
@@ -39,6 +40,7 @@
     <string name="MedBay">Pomieszczenie Medyczne</string>
   <!-- Or O2, also good -->
     <string name="LifeSupp">O2</string>
+  <string name="Nav">Nawigacja</string>
   <string name="LowerEngine">Dolny Silnik</string>
   <string name="Electrical">Rozdzielnia</string>
   <string name="Admin">Administracja</string>

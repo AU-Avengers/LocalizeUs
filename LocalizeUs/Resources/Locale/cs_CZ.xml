@@ -32,11 +32,13 @@
   <string name="ImpostorsRemainP">{0} Vetřelců zbývá.</string>
   <string name="Hallway">Chodba</string>
   <string name="Engines">Strojovna</string>
+  <string name="UpperEngine">Vyšší Strojovna</string>
   <string name="Weapons">Zbrojírna</string>
   <string name="Reactor">Reaktor</string>
   <string name="Security">Bezpečnostní Místnost</string>
   <string name="MedBay">Ošetřovna</string>
   <string name="LifeSupp">O2</string>
+  <string name="Nav">Navigační Místnost</string>
   <string name="LowerEngine">Nižší Strojovna</string>
   <string name="Admin">Administrativa</string>
   <string name="Storage">Sklad</string>
