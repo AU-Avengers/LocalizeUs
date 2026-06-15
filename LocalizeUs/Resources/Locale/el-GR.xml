@@ -29,13 +29,11 @@
   <string name="ImpostorsRemainP">Απομένουν {0} Απατεώνες.</string>
   <string name="Hallway">Διάδρομος</string>
   <string name="Engines">Κινητήρες</string>
-  <string name="UpperEngine">Άνω Κινητήρας</string>
   <string name="Weapons">Όπλα</string>
   <string name="Reactor">Αντιδραστήρας</string>
   <string name="Security">Ασφάλεια</string>
   <string name="MedBay">Ιατρείο</string>
   <string name="LifeSupp">Οξυγώνο</string>
-  <string name="Nav">Πλοήγηση</string>
   <string name="LowerEngine">Κάτω Κινητήρας</string>
   <string name="Electrical">Ηλεκτρισμός</string>
   <string name="Admin">Διαχείρηση</string>
