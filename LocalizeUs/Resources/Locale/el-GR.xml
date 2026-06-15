@@ -87,8 +87,8 @@
   <string name="EnterIdCode">Eισήγαγε τον κωδικό ταυτοποίησης</string>
   <string name="BuyBeverage">Αγόρασε Ποτό</string>
   <string name="ProcessData">Eπεξεργάσου Δεδομένα</string>
-  <string name="NumImpostorsS">Υπάρχει \%color=#FF1919FF\%1 Απατεώνας\%color\% ανάμεσά μας</string>
-  <string name="NumImpostorsP">Υπάρχουν \%color=FF1919FF\%{0} Aπατεώνας\%color\% ανάμεσά μας</string>
+  <string name="NumImpostorsS">Υπάρχει \%color=#FF1919FF\%1 Απατεώνας\%color\% Ανάμεσά μας</string>
+  <string name="NumImpostorsP">Υπάρχουν \%color=FF1919FF\%{0} Aπατεώνες\%color\% Ανάμεσά μας</string>
   <string name="Crewmate">Συνάδελφος</string>
   <string name="Impostor">Απατεώνας</string>
   <string name="Victory">Νίκη</string>
@@ -400,4 +400,29 @@
   <string name="LobbySizeWarning">Το Among Us παίζεται με 4 παίκτες, αλλά συνιστώνται 5 ή περισσότεροι παίκτες. Τα παιχνίδια με 4 παίκτες τελειώνουν πολύ γρήγορα και ο απατεώνας συχνά κερδίζει.</string>
   <string name="Okay">Εντάξει</string>
   <string name="OkayDontShow">Εντάξει, μην το δείξεις αυτό</string>
+  <string name="Cafeteria">Καφετέρια</string>
+  <string name="Nevermind">Ξέχνα το</string>
+  <string name="CamEast">Ανατολικά</string>
+  <string name="CamCentral">Κεντρικα</string>
+  <string name="CamNortheast">Βορειοανατολικά</string>
+  <string name="CamSouth">Νότια</string>
+  <string name="CamSouthwest">Νοτιοδυτικά</string>
+  <string name="CamNorthwest">Βορειοδυτικά</string>
+  <string name="LoadingFailed">Αποτυχία Φόρτωσης:</string>
+  <string name="PetFailFetchData">Δεν ήταν δυνατή η ανάκτηση δεδομένων κατοικίδιου ζώου</string>
+  <string name="BadResult">ΚΑΚΟ ΑΠΟΤΕΛΕΣΜΑ</string>
+  <string name="More">{0} ΠΕΡΙΣΣΟΤΕΡΑ</string>
+  <string name="Processing">Επεξεργάζεται</string>
+  <string name="ExitGame">Έξοδος από το παιχνίδι</string>
+  <string name="WaitingForHost">Αναμονή για τον οικοδεσπότη</string>
+  <string name="LeftGameError">Ο χρήστης {0} έφυγε από το παιχνίδι λόγω σφάλματος.</string>
+  <string name="PlayerWasBannedBy">Ο {0} αποκλείσθηκε από τον {1}</string>
+  <string name="PlayerWasKickedBy">Ο {0} αποβλήθηκε από τον {1}</string>
+  <string name="Dummy">Μαριονέτα</string>
+  <string name="Bad">ΚΑΚΟΣ</string>
+  <string name="Status">Κατάσταση: </string>
+  <string name="Fine">ΕΝΤΑΞΕΙ</string>
+  <string name="OK">ΕΝΤΑΞΕΙ</string>
+  <string name="SecondsAbbv">{0}δευτερόλεπτα</string>
+  <string name="PetTryOn">Δοκίμασε κάτι!</string>
 </resources>
