@@ -654,4 +654,7 @@
   <string name="QCResYeetCrew">yeet {0}</string>
   <string name="QCSelfWasOnVitals">Ήμουνα στους Παλμούς</string>
   <string name="QCSawDeadCrewOnVitals">Είδα ότι ο/η {0} είναι νεκρός/η στους Παλμούς</string>
+  <string name="QCSelfSawTwoCrew">Είδα 2 {0}</string>
+  <string name="QCCrewShapeshifted">Ο/Η {0} άλλαξε μορφή</string>
+  <string name="QCSelfSawCrewDoVisualTask">Είδα τον/την {0} να κάνει ένα οπτκό καθήκον</string>
 </resources>
