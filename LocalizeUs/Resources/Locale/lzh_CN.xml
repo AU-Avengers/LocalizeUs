@@ -87,8 +87,8 @@
   <string name="EnterIdCode">入識碼</string>
   <string name="BuyBeverage">購飲</string>
   <string name="ProcessData">析數據</string>
-  <string name="NumImpostorsS">吾輩之間有\%color=#FF1919FF&gt;一奸\%/colors\%</string>
-  <string name="NumImpostorsP">吾輩之間有\%color=#FF1919FF&gt;{0}奸\%/colors\%</string>
+  <string name="NumImpostorsS">吾輩之間有\%color=#FF1919FF\%一奸\%/color\%</string>
+  <string name="NumImpostorsP">吾輩之間有\%color=#FF1919FF\%{0}奸\%/color\%</string>
   <string name="Crewmate">良眾</string>
   <string name="Impostor">奸</string>
   <string name="Victory">捷</string>
@@ -889,7 +889,7 @@
   <string name="PSNErrorSessionFailed">當前戲會話有誤</string>
   <string name="PSNErrorSessionJoinFailed">入戲會話敗</string>
   <string name="PSNErrorSessionGetInfoFailed">得戲會話訊敗</string>
-  <string name="PSNErrorPSNConnectionLost">失聯PSN</string>
+  <string name="PSNErrorPSNConnectionLost">失聯“戲月台”</string>
   <string name="PSNErrorUserSignedOut">用戶已登出</string>
   <string name="CrossPlayTitle">跨平台</string>
   <string name="CrossPlayAllPlatforms">全平台</string>
@@ -1354,7 +1354,7 @@
   <string name="UnlinkSuccess">已成功解聯{0}與主帳！</string>
   <string name="ConfirmLinkExistingAccount">確聯現有帳</string>
   <string name="LinkExistingAccountExplain">聯至他帳將覆寫此平台所有數據。即{0}之《爾虞我詐》帳將被他帳取代。\%nl\%- 所解鎖之物將被覆寫。\%nl\%- 所獲經驗將被覆寫。\%nl\%- 豆、莢、星將被覆寫。</string>
-  <string name="LinkExistingAccountExplainConfirm">一旦確聯，吾等將重置{0}之《爾虞我詐》帳，以備導入他帳數據。\%nl\%\%nl\%\%color=#{1}&gt;務必確認另有欲聯之現有帳。\%/colors\%\%nl\%\%nl\%重置{0}帳將清零經驗、豆、莢、物。此舉不可逆。</string>
+  <string name="LinkExistingAccountExplainConfirm">一旦確聯，吾等將重置{0}之《爾虞我詐》帳，以備導入他帳數據。\%nl\%\%nl\%\%color=#{1}\%務必確認另有欲聯之現有帳。\%/color\%\%nl\%\%nl\%重置{0}帳將清零經驗、豆、莢、物。此舉不可逆。</string>
   <string name="ResetAccount">重置帳</string>
   <string name="PurchasingLabel">購物中</string>
   <string name="ErrorInternalServer">內伺服錯誤（碼{0}）</string>
@@ -1897,7 +1897,7 @@
   <string name="DefaultFilterTag_Serious">認真</string>
   <string name="DefaultFilterTag_Expert">專家</string>
   <string name="TagFiltersHelpFindGame">可從篩選下拉選單選標籤以過濾遊戲搜索。所選標籤將<i>精確</i>匹配結果。\%nl\%\%nl\%例：若選<b>休閒</b>與<b>專家</b>，則僅顯示同時帶有<b>休閒</b>及<b>專家</b>標籤之遊戲。</string>
-  <string name="TagFiltersHelpCreate">可為遊戲加標籤以助玩家找到。所選標籤將<i>精確</i>匹配搜索。\%nl\%\%nl\%例：若選<b>休閒</b>與<b>專家</b>，則僅搜索同時帶有此兩標籤者可見君之遊戲。</string>
+  <string name="TagFiltersHelpCreate">可為遊戲加標籤以助玩家找到。所選標籤將\%i\%精確匹配\%i\%搜索。\%nl\%\%nl\%例：若選休閒與專家，則僅搜索同時帶有此兩標籤者可見君之遊戲。<i>精確</i>匹配搜索。\%nl\%\%nl\%例：若選<b>休閒</b>與<b>專家</b>，則僅搜索同時帶有此兩標籤者可見君之遊戲。</string>
   <string name="CreateLabel">創</string>
   <string name="NewGameMode">新戲式！</string>
   <string name="NewModeInfo">此心跳加速之戲式，賭注極高！\%nl\%<i>然非尋常藏矇……</i>
@@ -1905,7 +1905,7 @@
   <string name="HideSeekHowToPlayCaptionOne">簡矣！</string>
   <string name="HideSeekHowToPlayCaptionTwo">良眾！</string>
   <string name="HideSeekHowToPlayCaptionThree">奸！</string>
-  <string name="HideSeekHowToPlayPageOne">\%color=#38F25D&gt;<b>良眾：</b>\%/colors\% 行務以加速時鐘，避奸，存活至時盡。\%nl\%\%nl\%\%color=#FF3131&gt;<b>奸：</b>\%/colors\% 尋良眾而殺。</string>
+  <string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%良眾：\%/color\% 行務以加速時鐘，避奸，存活至時盡。\%nl\%\%nl\%\%color=#FF3131\%奸：\%/color\% 尋良眾而殺。<b>良眾：</b>\%/colors\% 行務以加速時鐘，避奸，存活至時盡。\%nl\%\%nl\%\%color=#FF3131&gt;<b>奸：</b>\%/colors\% 尋良眾而殺。</string>
   <string name="HideSeekHowToPlaySubtextOne">無社交推理，唯驚恐尖叫。</string>
   <string name="HideSeekHowToPlayCrewmateInfoOne">精進匿藏潛行以存。</string>
   <string name="HideSeekHowToPlayCrewmateInfoTwo">此式中可用氣道，並得高科技危險計，奸近則警。奸視野有限，用智、氣道及面罩以避之！</string>
@@ -2744,4 +2744,24 @@
   <string name="RewardAdBody1">{0}秒後方可復得。</string>
   <string name="WatchAdErrorBody">洋國礙廣告傳吾東方大國，\%nl\%傾後試。</string>
   <string name="WatchAdErrorTitle">亂賊礙事</string>
+  <string name="RewardAdBody2">{0}秒後方可復得星</string>
+  <string name="Cosmetic.hat_phoenix_wright">鳳凰來特之鬢</string>
+  <string name="Cosmetic.skin_phoenix_wright">鳳凰來特之正袍</string>
+  <string name="Cosmetic.hat_hanami_dango">日行三善</string>
+  <string name="Cosmetic.hat_hanami_mochi">餅之恩惠</string>
+  <string name="Cosmetic.hat_hanami_hachimaki">一面埋伏</string>
+  <string name="Cosmetic.hat_hanami_blossom">爭奇鬥艷</string>
+  <string name="Cosmetic.visor_hanami_petal">渝貌女色</string>
+  <string name="Cosmetic.hat_hanami_crown">芬芳洪流</string>
+  <string name="Cosmetic.hat_hanami_matcha">邂約抹茶</string>
+  <string name="Cosmetic.skin_hanami_kimono">越陌渡遷</string>
+  <string name="Cosmetic.skin_hanami_cardigan">原花始卉</string>
+  <string name="Cosmetic.skin_hanami_matsuri">指吾之律</string>
+  <string name="Cosmetic.hat_hanami_pigtails">萌芽情愫</string>
+  <string name="Cosmetic.nameplate_hanami_viewing">春色滿園</string>
+  <string name="Cosmetic.nameplate_hanami_furoshiki">外戶並炊</string>
+  <string name="AprilFoolsMode">孟春四月</string>
+  <string name="Cosmetic.pet_cosmic_cat">愛莉音屬天外貓</string>
+  <string name="Cosmetic.skin_cosmic_rocket">火人</string>
+  <string name="Cosmetic.visor_cosmic_alien">躍進</string>
 </resources>
