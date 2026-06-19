@@ -657,4 +657,8 @@
   <string name="QCSelfSawTwoCrew">Είδα 2 {0}</string>
   <string name="QCCrewShapeshifted">Ο/Η {0} άλλαξε μορφή</string>
   <string name="QCSelfSawCrewDoVisualTask">Είδα τον/την {0} να κάνει ένα οπτκό καθήκον</string>
+  <string name="QCSelfWasOnDoorlogs">Ήμουνα στους αισθητήρες κίνησης</string>
+  <string name="QCSelfWasOnAdmin">Ήμουνα στην Διαχείρηση</string>
+  <string name="QCSelfAmVotingCrew">Ψηφίζω τον/την {0}</string>
+  <string name="QCCrewWasPretendingTasks">Ο/Η {0} προσποιούταν να κάνει καθήκοντα</string>
 </resources>
