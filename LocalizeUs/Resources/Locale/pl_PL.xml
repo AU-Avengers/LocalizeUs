@@ -1998,4 +1998,10 @@
   <string name="WatchAdErrorBody">Napotkaliśmy problem z ładowaniem reklamy.\%nl\%Spróbuj ponownie później.</string>
   <string name="WatchAdErrorTitle">O NIE...</string>
   <string name="AprilFoolsMode">Pryma Aprilis</string>
+  <string name="Cosmetic.hat_pk04_Bear">Nie do Zmisienia</string>
+  <string name="Cosmetic.hat_pk06_ElfHat">Ten od Zabawek</string>
+  <string name="Cosmetic.hat_pk06_Present">Opakowany Prezent</string>
+  <string name="Cosmetic.hat_pk06_Reindeer">Ren-i-fair</string>
+  <string name="Cosmetic.hat_pk06_Santa">Ten od Prezentów</string>
+  <string name="Cosmetic.hat_pkHW01_Witch">Która? Spalona!</string>
 </resources>
