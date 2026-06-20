@@ -1980,11 +1980,11 @@
   <string name="RolesRulesPresetDescription">Zalecane ustawienia dla lobby z rolami.</string>
   <string name="StandardRulesPresetDescriptionHideAndSeek">Idealne ustawienia dla rozgrywki w Chowanego bez latarek.</string>
   <string name="FlashlightRulesPresetDescription">Preset gdzie Załoga ma latarki zamiast zwykłej wizji, razem z zbalansowanymi ustawieniami.</string>
-  <string name="GameSettingsDescription">Edytuj pojedyncze ustawienia dla swojego lobby.</string>
-  <string name="RoleSettingsDescription">Edytuj ustawienia ról dla swojego lobby.</string>
+  <string name="GameSettingsDescription">Tutaj możesz edytować ustawienia dla swojego lobby.</string>
+  <string name="RoleSettingsDescription">Tutaj możesz edytować ustawienia ról dla swojego lobby.</string>
   <string name="QCSelfWasTracking">Namierzałem {0}</string>
   <string name="QCSelfSawRoleInLocation">Widziałem {0} w {1}</string>
-  <string name="RoleSettingsAll">WSZYSTKIE</string>
+  <string name="RoleSettingsAll">WSZYSTKO</string>
   <string name="QCCoreSettings">Użyjmy Presetu Skromne Ustawienia?</string>
   <string name="QCRolesGalore">Użyjmy Presetu Mnóstwo Ról?</string>
   <string name="QCPitchDark">Użyjmy Presetu Ciemność?</string>
@@ -2004,4 +2004,5 @@
   <string name="Cosmetic.hat_pk06_Reindeer">Ren-i-fair</string>
   <string name="Cosmetic.hat_pk06_Santa">Ten od Prezentów</string>
   <string name="Cosmetic.hat_pkHW01_Witch">Która? Spalona!</string>
+  <string name="Lookout">Punkt Widokowy</string>
 </resources>
