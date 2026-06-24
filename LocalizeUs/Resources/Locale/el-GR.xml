@@ -714,4 +714,6 @@
   <string name="QCLobbyHNSLessVents">Λιγότερες Χρήσεις Εξαερισμού;</string>
   <string name="QCLobbyHNSMoreTimeInVent">Περισσότερος Χρόνος σε Αεραγωγό;</string>
   <string name="QCLobbyHNSLessTimeInVent">Λιγότερος Χρόνος σε Αεραγωγό;</string>
+  <string name="QCLobbyHNSMoreFinalHideImpostorSpeed">Μεγαλύτερη Ταχύτητα Απατεώνα σε Τελικό Κρυφτό;</string>
+  <string name="QCLobbyHNSLessFinalHideImpostorSpeed">Mικρότερη Ταχύτητα Απατεώνα σε Τελικό Κρυφτό;</string>
 </resources>
