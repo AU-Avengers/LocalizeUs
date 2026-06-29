@@ -424,7 +424,7 @@
   <!-- Will be displayed as "Inżynier Wskazówka", should be "Wskazówka dla roli Inżynier" instead-->
     <string name="RoleHint">Wskazówka</string>
   <string name="ScreenShakeOption">Trzęsienie Ekranu</string>
-  <string name="SettingsEnableFriendInvites">Zaproszenia do Znajomych \%i\% do Lobby</string>
+  <string name="SettingsEnableFriendInvites">Zaproszenia do Znajomych i do Lobby</string>
   <string name="SettingsColorblind">Tekst dla Daltonistów</string>
   <string name="GameType">Tryb Gry</string>
   <string name="GameTypeError">Błąd!</string>
