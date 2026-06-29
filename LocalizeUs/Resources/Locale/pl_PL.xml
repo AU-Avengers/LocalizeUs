@@ -2005,4 +2005,21 @@
   <string name="Cosmetic.hat_pk06_Santa">Ten od Prezentów</string>
   <string name="Cosmetic.hat_pkHW01_Witch">Która? Spalona!</string>
   <string name="Lookout">Punkt Widokowy</string>
+  <string name="Cosmetic.hat_SnowbeanieGreen">Nadchodzi Zima - Zielona</string>
+  <string name="Cosmetic.hat_SnowbeanieOrange">Nachodzi Zima - Pomarańczowa</string>
+  <string name="Cosmetic.hat_SnowBeaniePurple">Nadchodzi Zima - Fioletowa</string>
+  <string name="Cosmetic.hat_SnowbeanieRed">Nadchodzi Zima</string>
+  <string name="Cosmetic.hat_Soccer">Z główki</string>
+  <string name="Cosmetic.nameplate_airship_Diamond">Diamenty!</string>
+  <string name="Cosmetic.nameplate_airship_Emerald">Szmaragdy!</string>
+  <string name="Cosmetic.nameplate_airship_Gems">Skarbiec</string>
+  <string name="Cosmetic.nameplate_airship_Ruby">Rubiny!</string>
+  <string name="Cosmetic.nameplate_airship_Sky">Z Głową w Chmurach</string>
+  <string name="Cosmetic.nameplate_is_ghost">Wieża duchów... gdzieś to już było</string>
+  <string name="Cosmetic.nameplate_is_sand">Błogosławiony</string>
+  <string name="Cosmetic.nameplate_is_trees">Drzewa</string>
+  <string name="Cosmetic.nameplate_Mira_Cafeteria">Dzisiejsza Specjalność: Sok z Pizzy</string>
+  <string name="Cosmetic.nameplate_Mira_Wood">Drewniane to</string>
+  <string name="Cosmetic.nameplate_Polus_Ground">Fioletowa Planeta</string>
+  <string name="Cosmetic.nameplate_Polus_Planet">Planeta Polus</string>
 </resources>
