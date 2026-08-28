@@ -1,3 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="LocalButton">Vietinis</string>
+  <string name="OnlineButton"></string>
+  <string name="HowToPlayButton">Kaip žaisti</string>
+  <string name="FreePlayButton">Praktikuotis</string>
+  <string name="PrivateHeader">Privatus</string>
+  <string name="ExitButton">Išeiti</string>
+  <string name="BackButton">Atgal</string>
+  <string name="CreateGameButton">Sukurti žaidimą</string>
+  <string name="FindGameButton">Rasti žaidimą</string>
+  <string name="EnterCode">Įveskite kodą</string>
+  <string name="GhostIgnoreTasks">Jūs negyvi. Mėgaukitės chaosų.</string>
+  <string name="GhostDoTasks">Jūs negyvi. Pabaikite savo užduotis kad laimėtum.</string>
+  <string name="TotalTasksCompleted">Atlkiktos užduotys</string>
+  <string name="GhostImpostor">Jūs negyvi. Jūs visdar galite sabotažinti.</string>
+  <string name="ImpostorTask">Sabotažinkite ir nužudykite visus.</string>
+  <string name="FakeTasks">Netikros užduotys.</string>
+  <string name="ExileTextSP">{0} buvo Iždavikas.</string>
+  <string name="ExileTextSN">{0} nebuvo Iždavikas</string>
+  <string name="ExileTextPP">{0} buvo Iždavikas.</string>
+  <string name="ExileTextPN">{0} nebuvo Iždavikas</string>
+  <string name="NoExileSkip">Niekas nebuvo išmestas. (Praleista)</string>
+  <string name="NoExileTie">Niekas nebuvo išmestas. (Lygiosios)</string>
+  <string name="ExileTextNonConfirm">{0} buvo išmestas.</string>
+  <string name="ImpostorsRemainS">{0} Iždavikų liko.</string>
+  <string name="ImpostorsRemainP">{0} Iždavikų liko.</string>
+  <string name="PublicHeader"></string>
+  <string name="HostHeader">{0} Iždavikų liko.</string>
 </resources>
