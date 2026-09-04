@@ -762,9 +762,9 @@ członkostwu Nintendo Switch Online lub przez Wi-Fi lokalnie!!</string>
   <string name="VentDirection">Kierunek Wentowania</string>
   <string name="VentMove">Przemieść się Wentem</string>
   <string name="AdPolicyText">Czy możemy wykorzystać twoje dane osobowe w celu dopasowania reklam dla ciebie? Jeżeli klikniesz Tak, nasi partnerzy reklamowi tacy jak Google AdMob i Unity Ads będą automatycznie zbierali dane i użyją identyfikatorów urządzeń oraz ciasteczek dla personalizacji reklam. Jeżeli klikniesz Nie, nadal możesz zobaczyć niespersonalizowane reklamy. By pozbyć się reklam, zakup aktualizację bez reklam [httpstore]tutaj[] i ani ty, ani twoi znajomi nie będą mieli reklam kiedy hostujesz! By dowiedzieć się więcej o naszych praktykach prywatności i praktykach prywatności naszych partnerów, przeczytaj naszą [https://www.innersloth.com/privacy-policy/]Politykę Prywatności[]. Możesz zmienić swoją decyzję w każdej chwili w menu ustawień, zakładce "Dane".</string>
-  <string name="PrivacyPolicyText">Innersloth przetwarza dane osobowe w Among Us. Prosimy o zapoznanie się z naszą {link="https://www.innersloth.com/privacy-policy/"}Polityką Prywatności\{/link} , aby dowiedzieć się więcej o naszych praktykach prywatności. Ustawieniami danych osobowych w Among Us możesz zarządzać w sekcji „Dane”. 
+  <string name="PrivacyPolicyText">Innersloth przetwarza dane osobowe w Among Us. Prosimy o zapoznanie się z naszą {link="https://www.innersloth.com/privacy-policy/"}Polityką Prywatności{/link} , aby dowiedzieć się więcej o naszych praktykach prywatności. Ustawieniami danych osobowych w Among Us możesz zarządzać w sekcji „Dane”. 
 
-Zapoznaj się z naszymi {link="https://www.innersloth.com/terms-of-use-for-the-games/"}Warunkami Użytkowania\{/link} przed graniem w Among Us.</string>
+Zapoznaj się z naszymi {link="https://www.innersloth.com/terms-of-use-for-the-games/"}Warunkami Użytkowania{/link} przed graniem w Among Us.</string>
   <string name="MedscanRequested">Wykonaj Skan</string>
   <string name="ErrorFocusLost">Zostałeś rozłączony, ponieważ Among Us zostało zawieszone przez inną aplikację.</string>
   <string name="QCCrewShapeshifted">{0} przemienił się</string>
@@ -1641,7 +1641,7 @@ Jeśli rozłączysz swoje konto i nie będziesz miał tego ID, nie będziemy w s
   <string name="Cosmetic.pet_EmptyPet">Brak</string>
   <string name="Cosmetic.skin_None">Brak</string>
   <string name="Cosmetic.visor_EmptyVisor">Brak</string>
-  <string name="LinkAccountCode">Wpisz następujący kod na stronie {link="{0}"}{1}\{/link}
+  <string name="LinkAccountCode">Wpisz następujący kod na stronie {link="{0}"}{1}{/link}
 {size=+2}{2}{/size}</string>
   <string name="LinkExistingAccountExplain">Połączenie się z innym kontem nadpisze wszystkie dane na tej platformie. To oznacza że twoje konto {0} Among Us zostanie zamienione innym.
 - Wszelkie przedmioty które zostały odblokowane na tym koncie {0} zostaną nadpisane.
@@ -1889,7 +1889,11 @@ ID Konta: {0}</string>
   <string name="QCResProtected">{0} ochronił {1}</string>
   <string name="QCResProtected_ANY_QCCrewMe">{0} mnie ochronił</string>
   <string name="Cafeteria">Kafeteria</string>
-  <string name="GuestProgressionWarning">Jesteś obecnie zalogowany na koncie Gościa! \%nl\%\%nl\% Całe PD, Pody i Fasolki zdobyte będą przypisane tylko do tego konta. To Konto jest przypisane tylko do twojego obecnego fizycznego urządzenia, przez co zostanie ono utracone jeśli zmienisz urządzenie. \%nl\%\%nl\%Aby upewnić się, że będziesz mieć dostęp do wszystkich zdobytych przedmiotów jak i tych zakupionych otwórz zakładkę Konto i zaloguj się do swojego konta Among Us.</string>
+  <string name="GuestProgressionWarning">Jesteś obecnie zalogowany na koncie Gościa! 
+
+ Całe PD, Pody i Fasolki zdobyte będą przypisane tylko do tego konta. To Konto jest przypisane tylko do twojego obecnego fizycznego urządzenia, przez co zostanie ono utracone jeśli zmienisz urządzenie. 
+
+Aby upewnić się, że będziesz mieć dostęp do wszystkich zdobytych przedmiotów jak i tych zakupionych otwórz zakładkę Konto i zaloguj się do swojego konta Among Us.</string>
   <string name="ErrorFailedToCreateGame">Nie udało się stworzyć gry. Spróbuj ponownie później.</string>
   <string name="ErrorFailedToJoinCreatedGame">Nie udało się dołączyć do gry. Spróbuj ponownie później.</string>
   <string name="ErrorDisconnectBeforeJoining">Zostałeś rozłączony przed dołączeniem do gry.</string>
@@ -1915,7 +1919,9 @@ ID Konta: {0}</string>
   <string name="BlockedPlayers">Zablokowani Gracze</string>
   <string name="RecentPlayers">Gracze z Którymi Grano Ostatnio</string>
   <string name="LobbyLabel">Lobby</string>
-  <string name="FriendCodeExplanation">Among Us ma teraz Listę Znajomych! Aby móc dodawać graczy, albo być dodanym przez kogoś do listy, wybierz swój unikalny Kod Znajomego poniżej.\%nl\%\%nl\%Ten kod nie może zostać zmieniony gdy już raz go wybierzesz.</string>
+  <string name="FriendCodeExplanation">Among Us ma teraz Listę Znajomych! Aby móc dodawać graczy, albo być dodanym przez kogoś do listy, wybierz swój unikalny Kod Znajomego poniżej.
+
+Ten kod nie może zostać zmieniony gdy już raz go wybierzesz.</string>
   <string name="FriendCodeSuccess">Twój Kod Znajomego to {0}</string>
   <string name="FriendRequestReceived">Otrzymano Zaproszenie Do Znajomych</string>
   <string name="FriendRequestSent">Wysłano Zaproszenie Do Znajomych</string>
@@ -1949,7 +1955,8 @@ ID Konta: {0}</string>
   <string name="ErrorTooManyRequests">Za dużo zaproszeń do lobby. Poczekaj chwile zanim spróbujesz ponownie.</string>
   <string name="TempDisabled">Tymczasowo Wyłączone</string>
   <string name="TempDisabledLinkExplain">System Kont jest w trakcie zmian. Tymczasowo wyłączyliśmy możliwość łączenia kont razem. To zostanie naprawione w przyszłej aktualizacji!</string>
-  <string name="RedeemPopup">Masz prezent od naszej załogi!\%nl\%{0}.</string>
+  <string name="RedeemPopup">Masz prezent od naszej załogi!
+{0}.</string>
   <string name="RedeemButton">Odbierz</string>
   <string name="ErrorMaxFriends">Twoja lista znajomych jest pełna.</string>
   <string name="ErrorPlayerBlockedYou">Błąd: Użytkownik jest na twojej liście zablokowanych, albo ma ciebie zablokowanego.</string>
@@ -1964,20 +1971,27 @@ ID Konta: {0}</string>
   <string name="Cosmetic.hat_w21_candycane_chocolate">Cukrowe Poroża - Miętowa Czekolada</string>
   <string name="Cosmetic.hat_w21_candycane_mint">Cukrowe Poroża - Miętowe</string>
   <string name="ParentPortalButton">Pozwolenia Dotyczące Zaproszeń Do Znajomych</string>
-  <string name="MergeGuestAccountText">Wygląda na to, że jest \%link="https://www.innersloth.com/merging-guest-accounts/"\%konto gościa\%/link\% na tym urządzeniu! Nie wspieramy już tego rodzaju kont i połączymy wszystkie twoje przedmioty, waluty i doświadczenie z tego konta do konta {0}.\%nl\%\%nl\%Jeśli dzielisz to urządzenie z innymi osobami, pamiętaj, że każdy kto używa tego urządzenia DZIELI to konto gościa. Nikt inny nie będzie mógł połączyć tego konta ze swoim, i możesz połączyć to konto tylko RAZ. Nie będziesz w stanie przenieść przedmiotów, walut i doświadczenia przypisanego do tego konta ponownie.\%nl\%\%nl\%Potwierdź, że chcesz połączyć to konto gościa z kontem {0}.</string>
+  <string name="MergeGuestAccountText">Wygląda na to, że jest {link="https://www.innersloth.com/merging-guest-accounts/"}konto gościa{/link} na tym urządzeniu! Nie wspieramy już tego rodzaju kont i połączymy wszystkie twoje przedmioty, waluty i doświadczenie z tego konta do konta {0}.
+
+Jeśli dzielisz to urządzenie z innymi osobami, pamiętaj, że każdy kto używa tego urządzenia DZIELI to konto gościa. Nikt inny nie będzie mógł połączyć tego konta ze swoim, i możesz połączyć to konto tylko RAZ. Nie będziesz w stanie przenieść przedmiotów, walut i doświadczenia przypisanego do tego konta ponownie.
+
+Potwierdź, że chcesz połączyć to konto gościa z kontem {0}.</string>
   <string name="MergeGuestAccountTitle">Połącz Konto Gościa</string>
   <string name="ManageAccountTitle">Zarządzaj Kontem</string>
-  <string name="ManageAccountText">Wejdź na stronę \%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% aby zarządzać kontem, łączeniem, bądź jeśli masz jakieś inne problemy.</string>
+  <string name="ManageAccountText">Wejdź na stronę {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} aby zarządzać kontem, łączeniem, bądź jeśli masz jakieś inne problemy.</string>
   <string name="Cosmetic.visor_lollipopCrew">Lizak - Twój Kolor</string>
   <string name="Cosmetic.visor_lollipopLemon">Lizak - Ananasowy</string>
   <string name="Cosmetic.visor_lollipopLime">Lizak - Kwaśne Jabłko</string>
   <string name="SignInIssueTitle">Błąd konta {0}</string>
-  <string name="SignInIssueText">Twoje {0} nie może zostać użyte do stworzenia konta Among Us przez ograniczenia wiekowe {0}.\%nl\%\%nl\%Możesz kontynuować grę w Among Us na tym urządzeniu, ale dla twojego bezpieczeństwa niektóre funkcje będą limitowane: łączenie kont, Kupowanie Gwiazdek i przekazywanie przedmiotów do nowego konta. Jeśli masz jakieś pytania skontaktuj się z support@innersloth.com.</string>
+  <string name="SignInIssueText">Twoje {0} nie może zostać użyte do stworzenia konta Among Us przez ograniczenia wiekowe {0}.
+
+Możesz kontynuować grę w Among Us na tym urządzeniu, ale dla twojego bezpieczeństwa niektóre funkcje będą limitowane: łączenie kont, Kupowanie Gwiazdek i przekazywanie przedmiotów do nowego konta. Jeśli masz jakieś pytania skontaktuj się z support@innersloth.com.</string>
   <string name="FriendListUnavailable">Lista Znajomych niedostępna</string>
   <string name="ErrorSanction">Z powodu {0}, twoje konto zostało zbanowane {1}.</string>
   <string name="SanctionDuration">aż do {0}</string>
   <string name="SanctionPermanent">permanentnie</string>
-  <string name="SanctionConduct">\%nl\%Poświęć ten czas na przemyślenie swoich akcji i pamiętaj o naszym \%link="https://www.innersloth.com/code-of-conduct/"\%Regulaminie Postępowania\%/link\%!</string>
+  <string name="SanctionConduct">
+Poświęć ten czas na przemyślenie swoich akcji i pamiętaj o naszym {link="https://www.innersloth.com/code-of-conduct/"}Regulaminie Postępowania{/link}!</string>
   <string name="SanctionSexualMisconduct">niewłaściwych zachowań seksualnych</string>
   <string name="SanctionDoxing">udostępniania, bądź groźby udostępnienia personalnych informacji albo doxxingu</string>
   <string name="SanctionIllegalActivity">promowania albo brania udziału w nielegalnych aktywnościach</string>
@@ -2009,7 +2023,7 @@ ID Konta: {0}</string>
   <string name="BugReportCategoryAccountManagement">Zarządzanie Kontem</string>
   <string name="BugReportCategoryGameplayIssue">Błąd/Problem z Grą</string>
   <string name="BugReportCategoryServerIssues">Problem z Serwerami</string>
-  <string name="BugReportCategoryBilling">Pomoc z Rozliczeniami \%i\% Płatnością</string>
+  <string name="BugReportCategoryBilling">Pomoc z Rozliczeniami {and} Płatnością</string>
   <string name="BugReportPopUpSubmittedText">Dziękujemy! Twój feedback został pomyślnie wysłany.</string>
   <string name="BugReportPopUpSubmissionFailedText">Wysłałeś już feedback. Spróbuj ponownie później.</string>
   <string name="BugReportPopUpCategoryLabel">Kategoria</string>
@@ -2023,11 +2037,15 @@ ID Konta: {0}</string>
   <string name="UserIdTokenError">Uwierzytelnianie Użytkownika Wygasło. Zrestartuj grę jeśli ten problem się powtarza.</string>
   <string name="Cosmetic.visor_vr_Vr-Black">Wirtualna Rzeczywistość - Czarne</string>
   <string name="Cosmetic.visor_vr_Vr-White">Wirtualna Rzeczywistość - Białe</string>
-  <string name="HideSeekHowToPlayFinalHide">W ostatnich momentach gry Szukający staje się szybszy, dostaje specjalną mapę oraz pingi w stronę każdego żyjącego Chowającego się.\%nl\%\%nl\%Myśl szybko i uciekaj gdzie tylko się da aby wygrać!</string>
+  <string name="HideSeekHowToPlayFinalHide">W ostatnich momentach gry Szukający staje się szybszy, dostaje specjalną mapę oraz pingi w stronę każdego żyjącego Chowającego się.
+
+Myśl szybko i uciekaj gdzie tylko się da aby wygrać!</string>
   <string name="ScrollList">Przeglądaj Liste</string>
   <string name="ScrollNews">Przeglądaj Ogłoszenia</string>
   <string name="AnnouncementErrorSubtitle">O nie! Sabotaż Ogłoszenia!</string>
-  <string name="AnnouncementErrorText">Wygląda na to, że coś poszło nie tak. Upewnij się, że twoja gra jest online i zaktualizowana do najnowszej wersji, aby dostać najnowsze informacje o Among Us.\%nl\%\%nl\%Jeśli dalej będziesz miał ten problem, skontaktuj się z nami na support@innersloth.com.</string>
+  <string name="AnnouncementErrorText">Wygląda na to, że coś poszło nie tak. Upewnij się, że twoja gra jest online i zaktualizowana do najnowszej wersji, aby dostać najnowsze informacje o Among Us.
+
+Jeśli dalej będziesz miał ten problem, skontaktuj się z nami na support@innersloth.com.</string>
   <string name="ReadMoreLabel">aby zobaczyć pełne ogłoszenie!</string>
   <string name="ReturnToList">Wróć do listy</string>
   <string name="NavigateLinks">Nawiguj Linki</string>
@@ -2051,9 +2069,14 @@ ID Konta: {0}</string>
   <string name="AgeVerificationTitle">Weryfikacja Wieku</string>
   <string name="AgeVerificationInfoTitle">Czym jest weryfikacja wieku?</string>
   <string name="AgeVerificationInfo">Weryfikacja wieku jest wymagana zanim będziesz mógł korzystać z Among Us. Nie przechowujemy twojej daty urodzenia.</string>
-  <string name="AgeVerificationMoreInfo">Po więcej informacji odnośnie naszych praktyk bezpieczeństwa, odwiedź:\%nl\% \%link="https://www.innersloth.com/privacy-policy/"\%https://www.innersloth.com/privacy-policy/\%/link\%</string>
-  <string name="EosAccountSilentMergeFail">Coś poszło nie tak z finalizowaniem twojego konta Among Us. Spróbuj ponownie później, albo kontynuuj na koncie gościa. Cały progres będzie zapisany, ale zalecamy założenie konta abyś mógł korzystać ze wszystkich funkcji Among Us.\%nl\%\%nl\%Ponowić zakładanie konta?</string>
-  <string name="AskForEosAccount">Czy masz istniejące konto Among Us? (Także znane jako konto Epic Online Services.)\%nl\%\%nl\%Jeśli grałeś w Among Us na tym urządzeniu wcześniej, wciśnij "Tak".</string>
+  <string name="AgeVerificationMoreInfo">Po więcej informacji odnośnie naszych praktyk bezpieczeństwa, odwiedź:
+ {link="https://www.innersloth.com/privacy-policy/"}https://www.innersloth.com/privacy-policy/{/link}</string>
+  <string name="EosAccountSilentMergeFail">Coś poszło nie tak z finalizowaniem twojego konta Among Us. Spróbuj ponownie później, albo kontynuuj na koncie gościa. Cały progres będzie zapisany, ale zalecamy założenie konta abyś mógł korzystać ze wszystkich funkcji Among Us.
+
+Ponowić zakładanie konta?</string>
+  <string name="AskForEosAccount">Czy masz istniejące konto Among Us? (Także znane jako konto Epic Online Services.)
+
+Jeśli grałeś w Among Us na tym urządzeniu wcześniej, wciśnij "Tak".</string>
   <string name="MiningPit">Kopalnia</string>
   <string name="Jungle">Dżungla</string>
   <string name="BuildSandcastle">Zbuduj Zamek z Piasku</string>
@@ -2096,10 +2119,14 @@ ID Konta: {0}</string>
   <string name="LobbyTimerExpiringHud">Lobby wygasa za {0}</string>
   <string name="ReportNotificationHeader">Dziękujemy za twoją pomoc przy sprawianiu, że Among Us jest bezpiecznym i przyjaznym miejscem!</string>
   <string name="ReportNotificationBody">Nasz zespół moderacyjny rozpatrzy twoje zgłoszenie i podejmie odpowiednie akcje bazując o nasz Regulamin Postępowania.</string>
-  <string name="ErrorClientTimeout">Rozłączono cię z serwerem. To może być spowodowane problemem z serwerem, siecią, bądź urządzeniem. Sprawdź swoje połączenie z siecią.\%nl\%\%nl\%Jeśli to się dzieje często, twoje urządzenie może być za stare, bądź nie spełniać minimalnych wymagań. Spróbuj zagrać na innym urządzeniu.</string>
+  <string name="ErrorClientTimeout">Rozłączono cię z serwerem. To może być spowodowane problemem z serwerem, siecią, bądź urządzeniem. Sprawdź swoje połączenie z siecią.
+
+Jeśli to się dzieje często, twoje urządzenie może być za stare, bądź nie spełniać minimalnych wymagań. Spróbuj zagrać na innym urządzeniu.</string>
   <string name="ErrorClientTimeoutConsole">Rozłączono cię z serwerem. To może być spowodowane problemem z serwerem bądź siecią. Sprawdź swoje połączenie z siecią.</string>
   <string name="AprilFoolsModeToggle">Tryb Pryma Aprilis (Limitowane Przedmioty Kosmetyczne)</string>
-  <string name="ErrorAuthNonceFailure">Sabotaż! Serwery Among Us napotkały problem podczas autoryzowania ciebie. Spróbuj ponownie później.\%nl\%\%nl\%Jeśli problem się powtarzam skontaktuj się z nami poprzez \%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%support ticket\%/link\%.</string>
+  <string name="ErrorAuthNonceFailure">Sabotaż! Serwery Among Us napotkały problem podczas autoryzowania ciebie. Spróbuj ponownie później.
+
+Jeśli problem się powtarzam skontaktuj się z nami poprzez {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}support ticket{/link}.</string>
   <string name="StandardRulesPresetDescription">Ustawienia na zbalansowaną rozgrywkę i brak ról.</string>
   <string name="RolesRulesPresetDescription">Zalecane ustawienia dla lobby z rolami.</string>
   <string name="StandardRulesPresetDescriptionHideAndSeek">Idealne ustawienia dla rozgrywki w Chowanego bez latarek.</string>
@@ -2119,7 +2146,8 @@ ID Konta: {0}</string>
   <string name="RewardAdTitle">DOSTAŁEŚ GWIAZDKĘ!</string>
   <string name="RewardAdBody1">Kolejna Gwiazdka będzie dostępna za {0} godzinę.</string>
   <string name="RewardAdBody2">Kolejna Gwiazdka będzie dostępna za {0} godzin.</string>
-  <string name="WatchAdErrorBody">Napotkaliśmy problem z ładowaniem reklamy.\%nl\%Spróbuj ponownie później.</string>
+  <string name="WatchAdErrorBody">Napotkaliśmy problem z ładowaniem reklamy.
+Spróbuj ponownie później.</string>
   <string name="WatchAdErrorTitle">O NIE...</string>
   <string name="AprilFoolsMode">Pryma Aprilis</string>
   <string name="Cosmetic.hat_pk04_Bear">Nie do Zmisienia</string>

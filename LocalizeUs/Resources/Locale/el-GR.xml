@@ -268,9 +268,9 @@ ANAMONH ΓΙΑ ΟΙΚΟΔΕΣΠΟΤΗ</string>
   <string name="PlainYes">Ναι</string>
   <string name="PlainNo">Όχι</string>
   <string name="PrivacyPolicyTitle">Πολιτική Απορρήτου</string>
-  <string name="PrivacyPolicyText">Η Innersloth επεξεργάζεται προσωπικά δεδομένα για το Among Us. Διαβάστε την {link="https://www.innersloth.com/privacy-policy/"}Πολιτική Απορρήτου\{/link} για να μάθετε περισσότερα σχετικά με τις πρακτικές απορρήτου μας. Μπορείτε να διαχειριστείτε τις ρυθμίσεις προσωπικών δεδομένων σας για το Among Us στην ενότητα "Δεδομένα".
+  <string name="PrivacyPolicyText">Η Innersloth επεξεργάζεται προσωπικά δεδομένα για το Among Us. Διαβάστε την {link="https://www.innersloth.com/privacy-policy/"}Πολιτική Απορρήτου{/link} για να μάθετε περισσότερα σχετικά με τις πρακτικές απορρήτου μας. Μπορείτε να διαχειριστείτε τις ρυθμίσεις προσωπικών δεδομένων σας για το Among Us στην ενότητα "Δεδομένα".
 
-Διαβάστε τους {link="https://www.innersloth.com/terms-of-use-for-the-games/"}Όρους Χρήσης\{/link} πριν παίξετε το Among Us.</string>
+Διαβάστε τους {link="https://www.innersloth.com/terms-of-use-for-the-games/"}Όρους Χρήσης{/link} πριν παίξετε το Among Us.</string>
   <string name="ManageDataButton">Συλογή Διαχείρησης Δεδομένων</string>
   <string name="UnderstandButton">Καταλαβαίνω</string>
   <string name="WaterPlants">Πότισε τα Φυτά</string>

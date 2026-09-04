@@ -269,9 +269,9 @@
     <string name="PlainYes">然</string>
     <string name="PlainNo">否</string>
     <string name="PrivacyPolicyTitle">隱私策</string>
-    <string name="PrivacyPolicyText">Innersloth 處理《爾虞我詐》之個資。請閱 {link="https://www.innersloth.com/privacy-policy/"}隱私策\{/link} 以詳。可於「資料」中管理。
+    <string name="PrivacyPolicyText">Innersloth 處理《爾虞我詐》之個資。請閱 {link="https://www.innersloth.com/privacy-policy/"}隱私策{/link} 以詳。可於「資料」中管理。
 
-戲前請閱 {link="https://www.innersloth.com/terms-of-use-for-the-games/"}使用條款\{/link}。</string>
+戲前請閱 {link="https://www.innersloth.com/terms-of-use-for-the-games/"}使用條款{/link}。</string>
     <string name="ManageDataButton">管數據集</string>
     <string name="UnderstandButton">吾曉</string>
     <string name="WaterPlants">灌草</string>
@@ -1423,7 +1423,7 @@
     <string name="LinkExistingAccount">聯現有帳</string>
     <string name="LinkAccountExplanation">若君於他平台已有《爾虞我詐》帳，或可聯之。
 或創全新帳。</string>
-    <string name="LinkAccountCode">於 {link="{0}"}{1}\{/link} 書以下碼 
+    <string name="LinkAccountCode">於 {link="{0}"}{1}{/link} 書以下碼 
 {size=+2}{2}{/size}</string>
     <string name="ErrorLink">聯帳有誤，請稍後再試。</string>
     <string name="UnlinkAccount">解聯</string>
@@ -1798,14 +1798,14 @@
     <string name="Decontamination3">下淨室</string>
     <string name="ErrorCommunications">君之通訊設定阻入此局。請啟用與他人通訊。</string>
     <string name="SettingsColorblind">色盲文本</string>
-    <string name="MergeGuestAccountText">此設備似有 {link="https://www.innersloth.com/merging-guest-accounts/"}客帳\{/link}！吾等不再支持客帳，將合併客帳之物、幣、經驗至此{0}帳。
+    <string name="MergeGuestAccountText">此設備似有 {link="https://www.innersloth.com/merging-guest-accounts/"}客帳{/link}！吾等不再支持客帳，將合併客帳之物、幣、經驗至此{0}帳。
 
 若與他人共用此設備，請注意所有用戶共享此客帳。若君續行，其他用戶將無法合併此客帳，且僅可合併一次。無法再次重新分配與此客帳相關之物、幣、經驗。
 
 請確認欲合併客帳至此{0}帳。</string>
     <string name="MergeGuestAccountTitle">合併客帳</string>
     <string name="ManageAccountTitle">管帳</string>
-    <string name="ManageAccountText">請訪 {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com\{/link} 以管帳、合併或解決問題。</string>
+    <string name="ManageAccountText">請訪 {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} 以管帳、合併或解決問題。</string>
     <string name="Cosmetic.visor_BaconVisor">見汝甚喜</string>
     <string name="Cosmetic.hat_Baguette">無麵包，唯痛苦</string>
     <string name="Cosmetic.skin_Bananaskin">花生醬果凍時光</string>
@@ -1883,7 +1883,7 @@
     <string name="SanctionDuration">至{0}</string>
     <string name="SanctionPermanent">永久</string>
     <string name="SanctionConduct">
-請借此時反思，並記吾等 {link="https://www.innersloth.com/code-of-conduct/"}行為準則\{/link}！</string>
+請借此時反思，並記吾等 {link="https://www.innersloth.com/code-of-conduct/"}行為準則{/link}！</string>
     <string name="SanctionSexualMisconduct">性不端</string>
     <string name="SanctionDoxing">洩或威脅洩個人信息（人肉）</string>
     <string name="SanctionIllegalActivity">促或參與非法活動</string>
@@ -2185,7 +2185,7 @@
     <string name="AgeVerificationInfoTitle">何為年齡驗證？</string>
     <string name="AgeVerificationInfo">使用《爾虞我詐》前須驗證年齡。吾等不存儲汝之生辰。</string>
     <string name="AgeVerificationMoreInfo">欲詳隱私慣例，請訪：
- {link="https://www.innersloth.com/privacy-policy/"}https://www.innersloth.com/privacy-policy/\{/link}</string>
+ {link="https://www.innersloth.com/privacy-policy/"}https://www.innersloth.com/privacy-policy/{/link}</string>
     <string name="EditLabel">編</string>
     <string name="VerifyAgeText">此日期為汝正確生辰？</string>
     <string name="Cosmetic.nameplate_flagMlm">男男戀旗</string>
@@ -2458,7 +2458,7 @@
     <string name="AprilFoolsModeToggle">愚人節模式（限量飾品）</string>
     <string name="ErrorAuthNonceFailure">故障！《爾虞我詐》伺服驗證時出問題。請重試。
 
-若問題持續，請向 {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}支援票證\{/link} 提交。</string>
+若問題持續，請向 {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}支援票證{/link} 提交。</string>
     <string name="Cosmetic.nameplate_crewmatesBlue">時尚良眾 - 藍</string>
     <string name="Cosmetic.nameplate_crewmatesRed">時尚良眾 - 赤</string>
     <string name="Cosmetic.nameplate_horseHeaven">不再兒戲</string>

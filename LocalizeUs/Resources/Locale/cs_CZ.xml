@@ -269,9 +269,9 @@ NOUZOVÁ JEDNÁNÍ</string>
   <string name="PlainYes">Ano</string>
   <string name="PlainNo">Ne</string>
   <string name="PrivacyPolicyTitle">Zásady Osobních Údajů</string>
-  <string name="PrivacyPolicyText">Innersloth zpracovává osobní data pro Among Us. Prosím přečti si naše {link="https://www.innersloth.com/privacy-policy/"}Zásady Osobních Údajů\{/link} pro více informací o našich praktikách. Můžeš spravovate tvá nastavení osobních dat pro Among Us pod záložkou "Data".
+  <string name="PrivacyPolicyText">Innersloth zpracovává osobní data pro Among Us. Prosím přečti si naše {link="https://www.innersloth.com/privacy-policy/"}Zásady Osobních Údajů{/link} pro více informací o našich praktikách. Můžeš spravovate tvá nastavení osobních dat pro Among Us pod záložkou "Data".
 
-Také si prosím přečti naše {link="https://www.innersloth.com/terms-of-use-for-the-games/"}Zásady Používání\{/link} před hraním Among Us.</string>
+Také si prosím přečti naše {link="https://www.innersloth.com/terms-of-use-for-the-games/"}Zásady Používání{/link} před hraním Among Us.</string>
   <string name="ManageDataButton">Spravovat Sběr Dat</string>
   <string name="UnderstandButton">Chápu</string>
   <string name="WaterPlants">Zalij Kytky</string>
@@ -345,27 +345,51 @@ Také si prosím přečti naše {link="https://www.innersloth.com/terms-of-use-f
   <string name="GameOverImpostorKills">Normálně by vyhrál Vetřelec, protože Posádka nemá šanci vyhrát. Pro Tréninkové účely namísto toho všechny oživíme.</string>
   <string name="GameOverTaskWin">Normálně by vyhrála Posádka, protože splnila všechny úkoly. Pro Tréninkové účely namísto toho dáme úkoly nové.</string>
   <string name="GameOverSabotage">Normálně by vyhrál Vetřelec kvůli kritické sabotáži. Místo toho ji jednodušše vypneme.</string>
-  <string name="HowToPlayText2Switch">Hraj se 4 až 15 hráči online s tvým členstvím v\%nl\%\%nl\%Nintendo Switch Online nebo přes místní Wi-Fi!!</string>
+  <string name="HowToPlayText2Switch">Hraj se 4 až 15 hráči online s tvým členstvím v
+
+Nintendo Switch Online nebo přes místní Wi-Fi!!</string>
   <string name="VentDirection">Směr Ventilací</string>
   <string name="VentMove">Posunout se Ventilací</string>
   <string name="NsoError">Nešlo se připojit k síti.</string>
-  <string name="ErrorServerOverload">Omlouváme se, servery Among Us jsou přetížené!\%nl\%\%nl\%Zkuste to prosím později znovu!</string>
+  <string name="ErrorServerOverload">Omlouváme se, servery Among Us jsou přetížené!
+
+Zkuste to prosím později znovu!</string>
   <string name="ErrorIntentionalLeaving">Nemůžeš se připojit na jinou hru po dalších {0} minut po záměrném odpojení.</string>
   <string name="ErrorFocusLost">Byl jsi odpojen, protože Among Us bylo překryto jinou aplikací.</string>
-  <string name="ErrorBanned">Byl jsi zabanován z {0}.\%nl\%\%nl\%Nemůžeš se na tuto místnost znovu připojit.</string>
-  <string name="ErrorKicked">Byl jsi vyhozen z {0}.\%nl\%\%nl\%Pokud ještě nezačali, můžeš se na tuto místnost znovu připojit.</string>
-  <string name="ErrorBannedNoCode">Byl jsi zabanován z této místnosti.\%nl\%\%nl\%Nemůžeš se na tuto místnost znovu připojit.</string>
-  <string name="ErrorKickedNoCode">Byl jsi vyhozen z této místnosti.\%nl\%\%nl\%Pokud ještě nezačali, můžeš se na tuto místnost znovu připojit.</string>
-  <string name="ErrorHacking">Byl jsi zabanován kvůli hackování.\%nl\%\%nl\%Prosím přestaň.</string>
-  <string name="ErrorFullGame">Hra, na kterou si se chtěl připojit, je plná.\%nl\%\%nl\%Domluv se s hostitelem, zdali se můžeš příští kolo připojit.</string>
-  <string name="ErrorStartedGame">Hra, na kterou si se chtěl připojit, už začala.\%nl\%\%nl\%Domluv se s hostitelem, zdali se můžeš příští kolo připojit.</string>
+  <string name="ErrorBanned">Byl jsi zabanován z {0}.
+
+Nemůžeš se na tuto místnost znovu připojit.</string>
+  <string name="ErrorKicked">Byl jsi vyhozen z {0}.
+
+Pokud ještě nezačali, můžeš se na tuto místnost znovu připojit.</string>
+  <string name="ErrorBannedNoCode">Byl jsi zabanován z této místnosti.
+
+Nemůžeš se na tuto místnost znovu připojit.</string>
+  <string name="ErrorKickedNoCode">Byl jsi vyhozen z této místnosti.
+
+Pokud ještě nezačali, můžeš se na tuto místnost znovu připojit.</string>
+  <string name="ErrorHacking">Byl jsi zabanován kvůli hackování.
+
+Prosím přestaň.</string>
+  <string name="ErrorFullGame">Hra, na kterou si se chtěl připojit, je plná.
+
+Domluv se s hostitelem, zdali se můžeš příští kolo připojit.</string>
+  <string name="ErrorStartedGame">Hra, na kterou si se chtěl připojit, už začala.
+
+Domluv se s hostitelem, zdali se můžeš příští kolo připojit.</string>
   <string name="ErrorNotFoundGame">Hra, kterou hledáš, nebyla nalezena.</string>
   <string name="ErrorInactivity">Server tuhle místnost zastavil. Možná kvůli nečinnosti.</string>
-  <string name="ErrorGenericOnlineDisconnect">Byl jsi odpojen ze serveru.\%nl\%Pokud se tohle děje často, zkontroluj stabilitu sítě.\%nl\%Tohle také může být problím serveru.</string>
-  <string name="ErrorGenericLocalDisconnect">Byl jsi odpojen od hostitele.\%nl\%\%nl\%Pokud se tohle děje často, zkontroluj stabilitu WiFi.</string>
+  <string name="ErrorGenericOnlineDisconnect">Byl jsi odpojen ze serveru.
+Pokud se tohle děje často, zkontroluj stabilitu sítě.
+Tohle také může být problím serveru.</string>
+  <string name="ErrorGenericLocalDisconnect">Byl jsi odpojen od hostitele.
+
+Pokud se tohle děje často, zkontroluj stabilitu WiFi.</string>
   <string name="ErrorInvalidName">Server odmítl uživatelské jméno {0}</string>
   <string name="ErrorUnknown">Neznámá chyba tě odpojila ze serveru.</string>
-  <string name="ErrorIncorrectVersion">Hraješ na zastaralé verzi hry.\%nl\%\%nl\%Prosím aktualizuj si hru, abys mohl hrát s ostatními.</string>
+  <string name="ErrorIncorrectVersion">Hraješ na zastaralé verzi hry.
+
+Prosím aktualizuj si hru, abys mohl hrát s ostatními.</string>
   <string name="ServerNA">Severní Amerika</string>
   <string name="ServerEU">Evropa</string>
   <string name="ServerAS">Asie</string>
@@ -441,7 +465,9 @@ Také si prosím přečti naše {link="https://www.innersloth.com/terms-of-use-f
   <string name="MedWT">HM:</string>
   <string name="MedETA">ČAS {0}</string>
   <string name="MedHello">AHOJ!</string>
-  <string name="LobbySizeWarning">Among Us je sice hratelné se 4 hráči, ale doporučujeme 5 a více.\%nl\%\%nl\%Čtyřhráčové hry končí velmi rychle a Vetřelec často vyhraje.</string>
+  <string name="LobbySizeWarning">Among Us je sice hratelné se 4 hráči, ale doporučujeme 5 a více.
+
+Čtyřhráčové hry končí velmi rychle a Vetřelec často vyhraje.</string>
   <string name="Okay">Ok</string>
   <string name="OkayDontShow">Ok, Už Neukazuj</string>
   <string name="CamEast">Východ</string>
