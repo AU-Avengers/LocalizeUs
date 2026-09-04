@@ -1311,15 +1311,20 @@ Przesłuchaj Załogę.</string>
   <string name="XboxCommsMultiplayerError">Twoje konto nie ma wystarczających permisji aby korzystać z funkcji Online.</string>
   <string name="MaxFilters">Maksymalna ilość filtrów aktywna</string>
   <string name="FilterNoMaps">Brak wybranych map.</string>
-  <string name="TooltipSpeedInfo"><b>Wolna:</b> 0.5-0.75x	<b>Wysoka:</b> 1.75-2.25x
+  <string name="TooltipSpeedInfo">
+    <b>Wolna:</b> 0.5-0.75x	<b>Wysoka:</b> 1.75-2.25x
 <b>Średnia:</b> 1.0-1.5x	<b>B. Wysoka:</b> 2.5-3.0x</string>
-  <string name="TooltipKillCDInfo"><b>Niski:</b> 10-20s	<b>Wysoki:</b> 37.5-47.5s
+  <string name="TooltipKillCDInfo">
+    <b>Niski:</b> 10-20s	<b>Wysoki:</b> 37.5-47.5s
 <b>Średni:</b> 22.5-35s	<b>B. Wysoki:</b> 50-60s</string>
-  <string name="TooltipVotingInfo"><b>Krótki:</b> 0-60s	<b>Długi:</b> 150-210s
+  <string name="TooltipVotingInfo">
+    <b>Krótki:</b> 0-60s	<b>Długi:</b> 150-210s
 <b>Średni:</b> 75-135s	<b>B. Długi:</b> 225-300s</string>
-  <string name="TooptipHidingTimeInfo"><b>Krótki:</b> 160-180s	<b>Długi:</b> 260-300s
+  <string name="TooptipHidingTimeInfo">
+    <b>Krótki:</b> 160-180s	<b>Długi:</b> 260-300s
 <b>Średni:</b> 200-240s</string>
-  <string name="TooltipFinalTimeInfo"><b>Krótki:</b> 30-45s	<b>Długi:</b> 75-95s
+  <string name="TooltipFinalTimeInfo">
+    <b>Krótki:</b> 30-45s	<b>Długi:</b> 75-95s
 <b>Średni:</b> 50-70s	<b>B. Długi:</b> 100-120s</string>
   <string name="SelectedLabel">WYBRANE:</string>
   <string name="FilterTagTooltip">Przefiltruj lobby przez Tagi.</string>
