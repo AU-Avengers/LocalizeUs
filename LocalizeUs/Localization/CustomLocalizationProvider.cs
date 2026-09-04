@@ -1,3 +1,5 @@
+using System.Globalization;
+using System.Text;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using Reactor.Localization;
 using Reactor.Utilities;
@@ -44,19 +46,16 @@ public class CustomLocalizationProvider : LocalizationProvider
         {
             LocalizeUsPlugin.Culture = new(culture);
         }
-        /*string filePath = $"{Application.persistentDataPath}/{CustomLocale.LangList[(ExtendedLangs)newLanguage]}";
-        var text = new StringBuilder();
-        text.Append("<?xml version='1.0' encoding='UTF-8'?>");
-        text.AppendLine("<resources>");
+        /*var sBuilder = new StringBuilder();
+        sBuilder.AppendLine($"<?xml version='1.0' encoding='UTF-8'?>");
+        sBuilder.AppendLine($"<resources>");
         foreach (var stringName in TranslationController.Instance.currentLanguage.AllStrings)
         {
-            var value = stringName.Value.Replace("\n", "\\%nl\\%");
-            value = value.Replace("&", "\\%and\\%");
-            value = value.Replace("<", "\\%");
-            value = value.Replace(">", "\\%");
-            text.AppendLine(CultureInfo.InvariantCulture, $"<string name=\"{stringName.Key}\">{value}</string>");
+            var value = stringName.Value.Replace("<", "{").Replace(">", "}").Replace("&", "{and}");
+            sBuilder.AppendLine(CultureInfo.InvariantCulture, $"<string name=\"{stringName.Key}\">{value}</string>");
         }
-        text.AppendLine("</resources>");
-        File.WriteAllText(filePath, text.ToString());*/
+        sBuilder.AppendLine($"</resources>");
+        Directory.CreateDirectory(Path.Combine(BepInEx.Paths.BepInExRootPath, "LuLocale"));
+        File.WriteAllText(Path.Combine(BepInEx.Paths.BepInExRootPath, "LuLocale", CustomLocale.LangList[(ExtendedLangs)newLanguage]), sBuilder.ToString());*/
     }
 }
