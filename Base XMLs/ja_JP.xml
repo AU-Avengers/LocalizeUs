@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
 <string name="LocalButton">ローカル</string>
 <string name="OnlineButton">オンライン</string>
 <string name="HowToPlayButton">プレイ方法</string>
@@ -30,14 +31,14 @@
 <string name="ImpostorsRemainP">インポスターが{0}人残っている。</string>
 <string name="Hallway">通路</string>
 <string name="Engines">エンジン</string>
-<string name="LangCzech">上部エンジン</string>
+<string name="UpperEngine">上部エンジン</string>
 <string name="Cafeteria">カフェテリア</string>
 <string name="Weapons">ウェポンルーム</string>
 <string name="Reactor">原子炉</string>
 <string name="Security">セキュリティルーム</string>
 <string name="MedBay">医務室</string>
 <string name="LifeSupp">酸素ルーム</string>
-<string name="LangGreek">ナビゲーション</string>
+<string name="Nav">ナビゲーション</string>
 <string name="LowerEngine">下部エンジン</string>
 <string name="Electrical">電気室</string>
 <string name="Admin">管理室</string>
@@ -87,13 +88,14 @@
 <string name="EnterIdCode">IDコードの入力</string>
 <string name="BuyBeverage">飲み物を買う</string>
 <string name="ProcessData">データを処理する</string>
-<string name="NumImpostorsS">この中に\%color=#FF1919FF\%インポスターが1人\%/color\%いる</string>
-<string name="NumImpostorsP">この中に\%color=#FF1919FF\%{0}インポスターが\%/color\%いる</string>
+<string name="NumImpostorsS">この中に{color=#FF1919FF}インポスターが1人{/color}いる</string>
+<string name="NumImpostorsP">この中に{color=#FF1919FF}{0}インポスターが{/color}いる</string>
 <string name="Crewmate">クルー</string>
 <string name="Impostor">インポスター</string>
 <string name="Victory">勝利</string>
 <string name="Defeat">敗北</string>
-<string name="CrewmatesDisconnected">クルーの大半が\%nl\%接続されていない</string>
+<string name="CrewmatesDisconnected">クルーの大半が
+接続されていない</string>
 <string name="ImpostorDisconnected">インポスターが接続されていない</string>
 <string name="PickAnomaly">異変を見つける</string>
 <string name="WaterPlantsGetCan">ジョウロを獲得！</string>
@@ -124,10 +126,16 @@
 <string name="MeetingVotingResults">投票結果</string>
 <string name="MeetingProceeds">進行まであと: {0}秒</string>
 <string name="MeetingHasVoted">{0}が投票しました。残り{1}人。</string>
-<string name="HowToPlayText1">「Among Us」は、チームワークと裏切りがせめぎあうゲームです。\%nl\%\%nl\%プレイヤーは、クルーかインポスターのどちらかになります。</string>
+<string name="HowToPlayText1">「Among Us」は、チームワークと裏切りがせめぎあうゲームです。
+
+プレイヤーは、クルーかインポスターのどちらかになります。</string>
 <string name="HowToPlayText2">オンラインまたはローカルのWi-Fiで、4～15人でプレイ可能！</string>
 <string name="HowToPlayText41">ホストはゲームプレイをコントロールできます。</string>
-<string name="HowToPlayText42">まず、誰と一緒にプレイするかを決めましょう！\%nl\%\%nl\%友達とオンラインでプレイする場合は、「非公開」に設定し、ルームコードを共有します。\%nl\%\%nl\%世界中のプレイヤーとプレイする場合は、「公開」に設定します。</string>
+<string name="HowToPlayText42">まず、誰と一緒にプレイするかを決めましょう！
+
+友達とオンラインでプレイする場合は、「非公開」に設定し、ルームコードを共有します。
+
+世界中のプレイヤーとプレイする場合は、「公開」に設定します。</string>
 <string name="HowToPlayText43">タスク量を増やす、歩行速度を早める、インポスターを増やす...ホストはこれらの設定を変更できます。仲間のプレイヤーに確認してから変更しましょう。</string>
 <string name="HowToPlayText44">無礼な言動やスパムが見られた場合、ホストは警告としてそのプレイヤーを一時的に追い出す、または特定のオンラインルームからバンすることができます。</string>
 <string name="HowToPlayTextMap">プレイヤーは、パーソナルマップを使って船内を移動できます。</string>
@@ -144,9 +152,21 @@
 <string name="HowToPlayTextImp5">船でサボタージュを起こし、クルーを混乱させる。</string>
 <string name="HowToPlayTextImp6">ドアを閉め、被害者を閉じ込める。</string>
 <string name="HowToPlayTextImp7">クールダウンの合間にクルーを全滅させる。</string>
-<string name="HowToPlayText5">クルーとインポスターの双方に公平性を保つため、プレイ中の会話は許されない。\%nl\%\%nl\%インポスターに殺されたプレイヤーは、ゲーム終了まで話してはならない。\%nl\%\%nl\%ゴーストになっても、アサインされたタスクを行い、クルー陣営を勝利に導くよう行動できる。</string>
-<string name="HowToPlayText6">死体の通報があった、または緊急会議が開かれると、クルーは集合してインポスターについて知っていることを話し合う。\%nl\%\%nl\%このとき、自分は誰をインポスターだと考えているか、どんな情報を持っているか、率直に発言できる。ゴーストは誰がインポスターかすでに知っているので、発言できない。\%nl\%\%nl\%インポスター陣営は無実を主張し、自分以外のクルーを告発する。</string>
-<string name="HowToPlayText7">議論終了後、インポスターだと思う人に投票しよう。\%nl\%\%nl\%過半数の票が入ったプレイヤーは船外に追放されるので、投票は慎重に！\%nl\%\%nl\%情報不足から決め手に欠ける場合は、無実のクルーを追放しないように投票をスキップしてもよい。もっと情報を集めよう。</string>
+<string name="HowToPlayText5">クルーとインポスターの双方に公平性を保つため、プレイ中の会話は許されない。
+
+インポスターに殺されたプレイヤーは、ゲーム終了まで話してはならない。
+
+ゴーストになっても、アサインされたタスクを行い、クルー陣営を勝利に導くよう行動できる。</string>
+<string name="HowToPlayText6">死体の通報があった、または緊急会議が開かれると、クルーは集合してインポスターについて知っていることを話し合う。
+
+このとき、自分は誰をインポスターだと考えているか、どんな情報を持っているか、率直に発言できる。ゴーストは誰がインポスターかすでに知っているので、発言できない。
+
+インポスター陣営は無実を主張し、自分以外のクルーを告発する。</string>
+<string name="HowToPlayText7">議論終了後、インポスターだと思う人に投票しよう。
+
+過半数の票が入ったプレイヤーは船外に追放されるので、投票は慎重に！
+
+情報不足から決め手に欠ける場合は、無実のクルーを追放しないように投票をスキップしてもよい。もっと情報を集めよう。</string>
 <string name="HowToPlayText81">プラクティスモードで練習しよう！</string>
 <string name="HowToPlayText82">クルーとして自分のタスクを設定したり、インポスターとして殺害計画を練ったりできる！</string>
 <string name="SettingsGeneral">一般</string>
@@ -213,12 +233,36 @@
 <string name="RoomCodeInfo">クリックしてコピー</string>
 <string name="LeaveGame">ゲームをやめる</string>
 <string name="ReturnToGame">ゲームに戻る</string>
-<string name="LocalHelp">接続に問題がある場合\%nl\%\%nl\%●全員が同じ名称のWi-Fiに接続しているか確認してください\%nl\%●全員が同じバージョンでプレイしているか画面右下で確認してください\%nl\%●Wi-Fiの強度が十分か確認してください\%nl\%●ホストが代わると解決することがあります\%nl\%●アプリを再起動すると解決することがあります\%nl\%●スマートフォンを再起動すると解決することがあります\%nl\%●問題が解決しない場合は、support@innersloth.comまでお問い合わせください！</string>
-<string name="OnlineHelp">利用方法\%nl\%\%nl\%●ゲームをホストすると、ロビーパネルにゲームコードが表示されます。\%nl\%●ゲームコードを友達に共有して、プライベートルームを作成します。\%nl\%●または、「非公開」をタップして、「ゲームを探す」で見つかるようにします。\%nl\%●チャットが利用可能な場合、ホストはプレイヤーをバンしたり追放したりできます。\%nl\%●問題が解決しない場合は、support@innersloth.comまでお問い合わせください！</string>
-<string name="EmergencyCount">クルー{0}が持つ\%nl\%\%nl\%\%nl\%\%nl\%緊急会議残り</string>
-<string name="EmergencyNotReady">クルー陣営は\%nl\%\%nl\%\%nl\%\%nl\%次の緊急会議を待とう</string>
-<string name="EmergencyDuringCrisis">緊急会議は\%nl\%危機の最中は開けない</string>
-<string name="EmergencyRequested">緊急会議を要請しました\%nl\%ホストを待っています</string>
+<string name="LocalHelp">接続に問題がある場合
+
+●全員が同じ名称のWi-Fiに接続しているか確認してください
+●全員が同じバージョンでプレイしているか画面右下で確認してください
+●Wi-Fiの強度が十分か確認してください
+●ホストが代わると解決することがあります
+●アプリを再起動すると解決することがあります
+●スマートフォンを再起動すると解決することがあります
+●問題が解決しない場合は、support@innersloth.comまでお問い合わせください！</string>
+<string name="OnlineHelp">利用方法
+
+●ゲームをホストすると、ロビーパネルにゲームコードが表示されます。
+●ゲームコードを友達に共有して、プライベートルームを作成します。
+●または、「非公開」をタップして、「ゲームを探す」で見つかるようにします。
+●チャットが利用可能な場合、ホストはプレイヤーをバンしたり追放したりできます。
+●問題が解決しない場合は、support@innersloth.comまでお問い合わせください！</string>
+<string name="EmergencyCount">クルー{0}が持つ
+
+
+
+緊急会議残り</string>
+<string name="EmergencyNotReady">クルー陣営は
+
+
+
+次の緊急会議を待とう</string>
+<string name="EmergencyDuringCrisis">緊急会議は
+危機の最中は開けない</string>
+<string name="EmergencyRequested">緊急会議を要請しました
+ホストを待っています</string>
 <string name="AdPolicyTitle">広告に関するポリシー</string>
 <string name="AdPolicyText">このゲームは広告表示に個人情報を使用します。個人情報の使用に同意いたしますと、Google AdMobやUnity Adsなどの広告パートナーが自動的にデータの収集を行い、クッキーとデバイス識別子を介してパーソナライズド広告を表示します。拒否をされた場合、非パーソナライズド広告が表示されることがあります。広告を表示させたくない方は、広告非表示のアップグレードを[httpstore]ここから[]ご購入ください。広告非表示のアップグレードを購入すると、あなたがホストするゲームをプレイするお友達にも、広告が表示されません！私たちと広告パートナーが取り組むプライバシーポリシーの内容は、[https://www.innersloth.com/ja/privacy-policy-japanese/]プライバシーポリシー[]をご参照ください。また、広告設定の内容は「データ」の下に表示されている設定メニューから、いつでも変更できます。</string>
 <string name="Accept">同意する</string>
@@ -226,11 +270,14 @@
 <string name="PlainYes">はい</string>
 <string name="PlainNo">いいえ</string>
 <string name="PrivacyPolicyTitle">プライバシーポリシー</string>
-<string name="PrivacyPolicyText">Among Usにおける個人情報は、Innerslothが取り扱います。当社の\%link="https://www.innersloth.com/ja/privacy-policy-japanese/"\%プライバシーポリシー\%/link\%を読み、当社の個人情報取り扱い方針をご理解ください。Among Usの個人情報設定は、「データ」で管理していただけます。\%nl\%\%nl\%Among Usをプレイされる前に、\%link="https://www.innersloth.com/ja/terms-of-use-website-jpn/"\%ゲーム利用規約\%/link\%をお読みください。</string>
+<string name="PrivacyPolicyText">Among Usにおける個人情報は、Innerslothが取り扱います。当社の{link="https://www.innersloth.com/ja/privacy-policy-japanese/"}プライバシーポリシー{/link}を読み、当社の個人情報取り扱い方針をご理解ください。
+
+Among Usをプレイされる前に、{link="https://www.innersloth.com/ja/terms-of-use-website-jpn/"}ゲーム利用規約{/link}をお読みください。</string>
 <string name="ManageDataButton">データ収集を管理</string>
 <string name="UnderstandButton">同意する</string>
 <string name="WaterPlants">植物に水をやる</string>
-<string name="WeatherEta">到着予定時刻: \%nl\%{0}秒</string>
+<string name="WeatherEta">到着予定時刻: 
+{0}秒</string>
 <string name="WeatherComplete">完了</string>
 <string name="RunDiagnostics">診断を行う</string>
 <string name="SettingShort">ショート</string>
@@ -305,23 +352,45 @@
 <string name="VentMove">通気孔で移動する</string>
 <string name="MenuNavigate">メニューを確認</string>
 <string name="NsoError">ネットワークに接続できませんでした。</string>
-<string name="ErrorServerOverload">Among Usサーバが過密になっています。\%nl\%\%nl\%ごめん！後でまた来て！</string>
+<string name="ErrorServerOverload">Among Usサーバが過密になっています。
+
+ごめん！後でまた来て！</string>
 <string name="ErrorIntentionalLeaving">故意に接続を切ると、その後{0}分間は他のゲームに参加できません。</string>
 <string name="ErrorFocusLost">Among Usが他のアプリによって中断されたため、接続が切れました。</string>
-<string name="ErrorBanned">{0}からバンされました。\%nl\%\%nl\%ルームに再入室できません。</string>
-<string name="ErrorKicked">{0}から追い出されました。\%nl\%\%nl\%ルームが開始していなければ再入室できます。</string>
-<string name="ErrorBannedNoCode">ルームからバンされました。\%nl\%\%nl\%ルームに再入室できません。</string>
-<string name="ErrorKickedNoCode">ルームから追い出されました。\%nl\%\%nl\%ルームが開始していなければ再入室できます。</string>
-<string name="ErrorHacking">ハッキングしたためにバンされました。\%nl\%\%nl\%おやめください。</string>
-<string name="ErrorFullGame">参加しようとしたゲームは満員です。\%nl\%\%nl\%次の回に参加できるか、ホストに確認してください。</string>
-<string name="ErrorStartedGame">参加したいゲームはすでに開始しています。\%nl\%\%nl\%次の回に参加できるかホストに確認して下さい。</string>
+<string name="ErrorBanned">{0}からバンされました。
+
+ルームに再入室できません。</string>
+<string name="ErrorKicked">{0}から追い出されました。
+
+ルームが開始していなければ再入室できます。</string>
+<string name="ErrorBannedNoCode">ルームからバンされました。
+
+ルームに再入室できません。</string>
+<string name="ErrorKickedNoCode">ルームから追い出されました。
+
+ルームが開始していなければ再入室できます。</string>
+<string name="ErrorHacking">ハッキングしたためにバンされました。
+
+おやめください。</string>
+<string name="ErrorFullGame">参加しようとしたゲームは満員です。
+
+次の回に参加できるか、ホストに確認してください。</string>
+<string name="ErrorStartedGame">参加したいゲームはすでに開始しています。
+
+次の回に参加できるかホストに確認して下さい。</string>
 <string name="ErrorNotFoundGame">探しているゲームが見つかりませんでした。</string>
 <string name="ErrorInactivity">サーバによりゲームが停止しました。活動がなかったと思われます。</string>
-<string name="ErrorGenericOnlineDisconnect">サーバー接続が切れました。\%nl\%頻発する場合は、ネットワークの強度を確認してください。\%nl\%サーバー側の問題である可能性もあります。</string>
-<string name="ErrorGenericLocalDisconnect">ホストとの接続が切れました。\%nl\%\%nl\%頻発する場合は、Wi-fiの強度を確認してください。</string>
+<string name="ErrorGenericOnlineDisconnect">サーバー接続が切れました。
+頻発する場合は、ネットワークの強度を確認してください。
+サーバー側の問題である可能性もあります。</string>
+<string name="ErrorGenericLocalDisconnect">ホストとの接続が切れました。
+
+頻発する場合は、Wi-fiの強度を確認してください。</string>
 <string name="ErrorInvalidName">サーバーが拒否したユーザーネーム：{0}</string>
 <string name="ErrorUnknown">不明なエラーによりサーバー接続が切れました。</string>
-<string name="ErrorIncorrectVersion">ソフトのバージョンが最新ではありません。\%nl\%\%nl\%他の方に合わせてアップデートしてください。</string>
+<string name="ErrorIncorrectVersion">ソフトのバージョンが最新ではありません。
+
+他の方に合わせてアップデートしてください。</string>
 <string name="ServerNA">北米</string>
 <string name="ServerEU">欧州</string>
 <string name="ServerAS">アジア</string>
@@ -397,9 +466,14 @@
 <string name="MedWT">体重:</string>
 <string name="MedETA">到着予定時刻 {0}</string>
 <string name="MedHello">こんにちは！</string>
-<string name="LobbySizeWarning">Among Usは4人でプレイ可能ですが、5人以上でのプレイが\%nl\%お勧めです。\%nl\%\%nl\%4人でのゲームは非常に短時間で終了し、インポスター\%nl\%が勝利することが多くなります。</string>
+<string name="LobbySizeWarning">Among Usは4人でプレイ可能ですが、5人以上でのプレイが
+お勧めです。
+
+4人でのゲームは非常に短時間で終了し、インポスター
+が勝利することが多くなります。</string>
 <string name="Okay">OK</string>
-<string name="OkayDontShow">このメッセージ\%nl\%を表示しない</string>
+<string name="OkayDontShow">このメッセージ
+を表示しない</string>
 <string name="Nevermind">構わない</string>
 <string name="CamEast">東</string>
 <string name="CamCentral">中央</string>
@@ -791,7 +865,14 @@
 <string name="GoOffline">オフライン</string>
 <string name="PlayAsGuest">ゲストとしてプレイ</string>
 <string name="LogInTitle">アカウントにログイン</string>
-<string name="LogInInfoText">Among Usアカウントを作成・またはアカウントにログインすると、以下の機能を利用できます：\%nl\%\%nl\%- 選択した複数のデバイス間で進行を保存\%nl\%- フリーチャットにアクセス\%nl\%- コスメティックを連携\%nl\%- 他にもいろいろ！\%nl\%\%nl\%一部の機能は、アカウントの種類によっては保護者の方の許可が必要になることがあります。</string>
+<string name="LogInInfoText">Among Usアカウントを作成・またはアカウントにログインすると、以下の機能を利用できます：
+
+- 選択した複数のデバイス間で進行を保存
+- フリーチャットにアクセス
+- コスメティックを連携
+- 他にもいろいろ！
+
+一部の機能は、アカウントの種類によっては保護者の方の許可が必要になることがあります。</string>
 <string name="LogInInfoTextSwitch">完全なアカウントにログインすると、後からいつでも再度ログインできます。アカウントをお持ちでない場合は、自動的にアカウントが作成されます。</string>
 <string name="ControllerDisconnectedMessage">コントローラーが接続されていません</string>
 <string name="FollowUs">今すぐフォロー！</string>
@@ -874,7 +955,9 @@
 <string name="ProgressLabel">進行：</string>
 <string name="TermsOfUseTitle">利用規約</string>
 <string name="PPAndToUTitle">プライバシーポリシーおよび利用規約</string>
-<string name="ErrorNotAuthenticated">Among Usサーバーで認証できませんでした。\%nl\%\%nl\%オンラインでプレイするには、Among Usアカウントが必要です。</string>
+<string name="ErrorNotAuthenticated">Among Usサーバーで認証できませんでした。
+
+オンラインでプレイするには、Among Usアカウントが必要です。</string>
 <string name="ComePlayDiscord">一緒にAmong Usをプレイしよう！</string>
 <string name="ShowAccountSupportID5">アカウントサポートIDを表示する</string>
 <string name="ShowAccountSupportID4">あと4回押して表示する</string>
@@ -892,7 +975,8 @@
 <string name="PSNErrorPSNConnectionLost">PlayStation™Networkへの接続が失われました</string>
 <string name="PSNErrorUserSignedOut">ユーザーがサインアウトしました</string>
 <string name="CrossPlayTitle">クロスプレイ</string>
-<string name="CrossPlayAllPlatforms">すべての\%nl\%プラットフォーム</string>
+<string name="CrossPlayAllPlatforms">すべての
+プラットフォーム</string>
 <string name="CrossPlaySamePlatform">同じプラットフォーム</string>
 <string name="CrossPlayEnabledWarning">クロスプレイ有効：クロスネットワークプレイヤーとマッチングすることがあります。</string>
 <string name="TimeOutText">サインインにはしばらく時間がかかります。オフラインモードで続行しますか？</string>
@@ -1343,18 +1427,33 @@
 <string name="LinkAccount">アカウントをリンク</string>
 <string name="CreateNewAccount">新規アカウントを作成</string>
 <string name="LinkExistingAccount">既存アカウントをリンク</string>
-<string name="LinkAccountExplanation">他のプラットフォームでAmong Usのアカウントをすでにお持ちの場合、そのアカウントをリンクすることが可能です！\%nl\%または、新規アカウントの作成も可能です。</string>
-<string name="LinkAccountCode">以下のコードを\%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\%に入力する</string>
+<string name="LinkAccountExplanation">他のプラットフォームでAmong Usのアカウントをすでにお持ちの場合、そのアカウントをリンクすることが可能です！
+または、新規アカウントの作成も可能です。</string>
+<string name="LinkAccountCode">以下のコードを{link="{0}"}{1}{/link} 
+{size=+2}{2}{/size}に入力する</string>
 <string name="ErrorLink">アカウントのリンク中に問題が発生しました。後ほど改めてお試しください。</string>
 <string name="UnlinkAccount">アカウントをリンク解除</string>
 <string name="ConfirmUnlinkAccount">アカウントのリンク解除を実行</string>
-<string name="UnlinkAccountExplain">{0}アカウントをリンク解除すると、データが削除され{0}アカウントが新規作成されます。\%nl\%- {0}アカウントで取得またはアンロックしたアイテムは、すべて失われます。\%nl\%- レベル1および0 XPから新たにスタートとなります。</string>
-<string name="UnlinkAccountExplainConfirm">念のため、このIDは記録しておいてください:\%nl\%\%nl\%{0}\%nl\%\%nl\%このIDがないと、アカウントのリンク解除後に進行を復元できません。誤って解除した場合にサポートができなくなります。</string>
+<string name="UnlinkAccountExplain">{0}アカウントをリンク解除すると、データが削除され{0}アカウントが新規作成されます。
+- {0}アカウントで取得またはアンロックしたアイテムは、すべて失われます。
+- レベル1および0 XPから新たにスタートとなります。</string>
+<string name="UnlinkAccountExplainConfirm">念のため、このIDは記録しておいてください:
+
+{0}
+
+このIDがないと、アカウントのリンク解除後に進行を復元できません。誤って解除した場合にサポートができなくなります。</string>
 <string name="UnlinkError">アカウントのリンク解除中に問題が発生しました。後ほど改めてお試しください。</string>
 <string name="UnlinkSuccess">Among Usのメインアカウントから{0}をリンク解除しました</string>
 <string name="ConfirmLinkExistingAccount">既存アカウントへのリンクを決定</string>
-<string name="LinkExistingAccountExplain">別アカウントにリンクすると、このプラットフォーム上の全データが上書きされます。{0}のAmong Usアカウントが、別アカウントに置き換えられるということです。\%nl\%- {0}アカウントでアンロックしたすべてのアイテムが上書きされます。\%nl\%- {0}アカウント上のすべてのXPが上書きされます。\%nl\%- すべてのビーンズ、ポッド、スターが上書きされます。</string>
-<string name="LinkExistingAccountExplainConfirm">決定と同時に、別アカウントからのデータインポートのために{0}のAmong Usアカウントがリセットされます。\%nl\%\%nl\%\%color=#{1}\%実行前に、このアカウントをリンクする別の既存アカウントがあることを確認してください。\%/color\%\%nl\%\%nl\%{0}アカウントをリセットすると、すべてのXP、ビーンズ、ポッド、アイテムがゼロになります。このアクションを元に戻すことはできません。</string>
+<string name="LinkExistingAccountExplain">別アカウントにリンクすると、このプラットフォーム上の全データが上書きされます。{0}のAmong Usアカウントが、別アカウントに置き換えられるということです。
+- {0}アカウントでアンロックしたすべてのアイテムが上書きされます。
+- {0}アカウント上のすべてのXPが上書きされます。
+- すべてのビーンズ、ポッド、スターが上書きされます。</string>
+<string name="LinkExistingAccountExplainConfirm">決定と同時に、別アカウントからのデータインポートのために{0}のAmong Usアカウントがリセットされます。
+
+{color=#{1}}実行前に、このアカウントをリンクする別の既存アカウントがあることを確認してください。{/color}
+
+{0}アカウントをリセットすると、すべてのXP、ビーンズ、ポッド、アイテムがゼロになります。このアクションを元に戻すことはできません。</string>
 <string name="ResetAccount">アカウントをリセット</string>
 <string name="PurchasingLabel">アイテム購入中</string>
 <string name="ErrorInternalServer">{0} - 内部サーバエラー</string>
@@ -1440,7 +1539,8 @@
 <string name="RoleChanceAndQuantity">{1}%の確率で{0}を割り当て</string>
 <string name="CheckingPurchasesLabel">購入を確認中...</string>
 <string name="ProtectedRecently">守護天使が誰かを守りました...</string>
-<string name="ScientistBlurbMed">いつでもバイタルにアクセスできます。\%nl\%タスクを完了するとバッテリーが充電されます。</string>
+<string name="ScientistBlurbMed">いつでもバイタルにアクセスできます。
+タスクを完了するとバッテリーが充電されます。</string>
 <string name="ScientistBlurbLong">科学者は、どこにいてもポータブルのバイタル画面にアクセスしてクルーの状態を確認できます。ただし、ポータブルのバイタル画面は充電が必要です。科学者は、タスクを完了して充電しなくてはいけません。</string>
 <string name="EngineerBlurbMed">通気孔を使える。</string>
 <string name="EngineerBlurbLong">エンジニアは、クルーでありながら通気孔を使うことができ、すばやく移動してインポスターが通気孔を使う現場を押さえられます。ただし、通気孔の中にずっといられる訳ではないので、誰に対して使うかには要注意...</string>
@@ -1476,7 +1576,10 @@
 <string name="Cosmetic.skin_vi">Viの服</string>
 <string name="Cosmetic.pet_poro">ちびモフHeimerdinger</string>
 <string name="RedeemPurchasedItemsTitle">購入アイテムの引き換え</string>
-<string name="RedeemPurcahsedItemsExplain">プラットフォームをまたいでアイテムにアクセスできる新しいインベントリシステムが実装されました！このプラットフォームで以前購入したアイテムを、新規インベントリシステムに【一度だけ】移行できます。\%nl\%このアカウントがメインのAmong Usアカウント（Among Usのプレイで最も使用頻度の高いプラットフォーム）であれば、「進む」をクリックして、購入済みのDLCを新しいインベントリシステムで受け取ることができます。このアカウントがメインアカウントにリンクしたいものであれば、リンク後の受け取りとなります！\%nl\%\%nl\%Account ID: {0}</string>
+<string name="RedeemPurcahsedItemsExplain">プラットフォームをまたいでアイテムにアクセスできる新しいインベントリシステムが実装されました！このプラットフォームで以前購入したアイテムを、新規インベントリシステムに【一度だけ】移行できます。
+このアカウントがメインのAmong Usアカウント（Among Usのプレイで最も使用頻度の高いプラットフォーム）であれば、「進む」をクリックして、購入済みのDLCを新しいインベントリシステムで受け取ることができます。このアカウントがメインアカウントにリンクしたいものであれば、リンク後の受け取りとなります！
+
+Account ID: {0}</string>
 <string name="RedeemProceed">進む</string>
 <string name="RedeemNotYet">今はしない</string>
 <string name="RedeemNever">次から表示しない</string>
@@ -1535,7 +1638,8 @@
 <string name="Cosmetic.skin_witch">ウィムジー・ウィッチ</string>
 <string name="Cosmetic.pet_frankendog">フラン犬</string>
 <string name="Cosmetic.hat_mohawk_bubblegum">モヒカンロック（バブルガム）</string>
-<string name="AvailableFor">販売終了まで\%nl\%{0}日{1}時間{2}分{3}秒</string>
+<string name="AvailableFor">販売終了まで
+{0}日{1}時間{2}分{3}秒</string>
 <string name="GuardianAngelImpostorSeeProtect">シールドはインポスターに見える</string>
 <string name="Cosmetic.hat_pkHW01_PlagueHat">ペスト医師マスク</string>
 <string name="QCAccIsRole">{0}は{1}だ</string>
@@ -1552,7 +1656,11 @@
 <string name="QCResProtected">{0}が{1}を守った</string>
 <string name="QCResProtected_ANY_QCCrewMe">{0}が守ってくれた</string>
 <string name="QCRoles">ロール</string>
-<string name="GuestProgressionWarning">ゲストアカウントにログインしました！\%nl\%\%nl\%獲得するXP、ポッド、ビーンズは、このゲストアカウントにのみ反映されます。ゲストアカウントがリンクされるのは今お使いのデバイスのみとなり、デバイスを変更すると失われます。\%nl\%\%nl\%獲得した通貨および購入に確実にアクセスするには、メインメニューのアカウントタブを開き、Among Usアカウントにサインインしてください。</string>
+<string name="GuestProgressionWarning">ゲストアカウントにログインしました！
+
+獲得するXP、ポッド、ビーンズは、このゲストアカウントにのみ反映されます。ゲストアカウントがリンクされるのは今お使いのデバイスのみとなり、デバイスを変更すると失われます。
+
+獲得した通貨および購入に確実にアクセスするには、メインメニューのアカウントタブを開き、Among Usアカウントにサインインしてください。</string>
 <string name="ErrorFailedToCreateGame">ゲームセッションの作成に失敗しました。後ほど改めてお試しください。</string>
 <string name="ErrorFailedToJoinCreatedGame">ゲームセッション作成後、参加に失敗しました。後ほど改めてお試しください。</string>
 <string name="ErrorDisconnectBeforeJoining">ゲームセッションに参加する前に切断されました。</string>
@@ -1644,7 +1752,9 @@
 <string name="BlockedPlayers">ブロック済みプレイヤー</string>
 <string name="RecentPlayers">最近のプレイ相手:</string>
 <string name="LobbyLabel">ロビー</string>
-<string name="FriendCodeExplanation">Among Usにフレンドリストが登場！フレンド申請またはゲーム招待の送受信には、下記のフレンドコードを選択してください。\%nl\%\%nl\%選択したら変更はできません。</string>
+<string name="FriendCodeExplanation">Among Usにフレンドリストが登場！フレンド申請またはゲーム招待の送受信には、下記のフレンドコードを選択してください。
+
+選択したら変更はできません。</string>
 <string name="FriendCodeSuccess">あなたのフレンドコード:{0}</string>
 <string name="FriendRequestReceived">フレンド申請を受信</string>
 <string name="FriendRequestSent">フレンド申請を送信</string>
@@ -1677,11 +1787,12 @@
 <string name="AddFriendConfirm">{0}にフレンド申請を送りますか？</string>
 <string name="UnfriendConfirm">{0}をフレンド削除しますか？</string>
 <string name="UnblockConfirm">{0}のブロックを解除しますか？</string>
-<string name="SettingsEnableFriendInvites">フレンド\%and\%ロビー招待</string>
+<string name="SettingsEnableFriendInvites">フレンド{and}ロビー招待</string>
 <string name="ErrorTooManyRequests">ロビー申請が多すぎます。数分待ってからまたお試しください。</string>
 <string name="TempDisabled">一時的に無効になっています</string>
 <string name="TempDisabledLinkExplain">アカウントに変更が実施されています。既存アカウント同士のリンク機能を一時的に制限していますが、今後のアップデートで修正予定です！</string>
-<string name="RedeemPopup">クルーからのプレゼントです！\%nl\%{0}。</string>
+<string name="RedeemPopup">クルーからのプレゼントです！
+{0}。</string>
 <string name="RedeemButton">使用する</string>
 <string name="ErrorMaxFriends">フレンドリストがいっぱいです。</string>
 <string name="ErrorPlayerBlockedYou">エラー：ブロックリスト内のユーザーか、このユーザーにブロックされています。</string>
@@ -1693,10 +1804,14 @@
 <string name="Decontamination3">下部除染室</string>
 <string name="ErrorCommunications">このゲームに参加できない通信設定になっています。このゲームに参加するには、他者との通信を有効にしてください。</string>
 <string name="SettingsColorblind">色の名称表示</string>
-<string name="MergeGuestAccountText">このデバイスには\%link="https://www.innersloth.com/merging-guest-accounts/"\%ゲストアカウント\%/link\% があるようです！ゲストアカウントのサービスは終了しているため、ゲストアカウントで得た全てのアイテム・通貨・経験はこの{0}アカウントに統合されます。\%nl\%\%nl\%このデバイス（コンピューター、電話など）が共用の場合、このゲストアカウントはデバイスを使用する全ての人に共有されますのでご注意ください。このまま続行すると、他の使用者はこのゲストアカウントを統合できなくなります。ゲストアカウントを統合できるのは一度だけです。このゲストアカウントに紐づけられているアイテム・通貨・経験を再び他のアカウントに割り当てることはできません。\%nl\%\%nl\%ゲストアカウントをこの{0}アカウントに本当に統合してよいですか？</string>
+<string name="MergeGuestAccountText">このデバイスには{link="https://www.innersloth.com/merging-guest-accounts/"}ゲストアカウント{/link} があるようです！ゲストアカウントのサービスは終了しているため、ゲストアカウントで得た全てのアイテム・通貨・経験はこの{0}アカウントに統合されます。
+
+このデバイス（コンピューター、電話など）が共用の場合、このゲストアカウントはデバイスを使用する全ての人に共有されますのでご注意ください。このまま続行すると、他の使用者はこのゲストアカウントを統合できなくなります。ゲストアカウントを統合できるのは一度だけです。このゲストアカウントに紐づけられているアイテム・通貨・経験を再び他のアカウントに割り当てることはできません。
+
+ゲストアカウントをこの{0}アカウントに本当に統合してよいですか？</string>
 <string name="MergeGuestAccountTitle">ゲストアカウントを統合</string>
 <string name="ManageAccountTitle">アカウントを管理</string>
-<string name="ManageAccountText">アカウントを管理、統合する際、または何らかの問題が発生した場合には\%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% にアクセスしてください。</string>
+<string name="ManageAccountText">アカウントを管理、統合する際、または何らかの問題が発生した場合には{link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} にアクセスしてください。</string>
 <string name="Cosmetic.visor_BaconVisor">最高の朝食</string>
 <string name="Cosmetic.hat_Baguette">フランスパンだけ</string>
 <string name="Cosmetic.skin_Bananaskin">バナナマン</string>
@@ -1766,12 +1881,15 @@
 <string name="Cosmetic.nameplate_Orange">オレンジ、嬉しくないの？</string>
 <string name="Cosmetic.hat_sausage">ウインナーのはじっこ</string>
 <string name="SignInIssueTitle">{0} アカウントエラー</string>
-<string name="SignInIssueText">{0}の年齢制限により、{0}を使用してAmong Usのアカウントを作成することはできません。\%nl\%\%nl\%この端末でAmong Usをプレイ継続が可能ですが、安全のため、アカウントのリンクやスターの購入、新しい端末へのアイテムの転送など、特定の機能が利用制限されます。もし質問がある場合は、support@innersloth.comまでメールでお問い合わせください。</string>
+<string name="SignInIssueText">{0}の年齢制限により、{0}を使用してAmong Usのアカウントを作成することはできません。
+
+この端末でAmong Usをプレイ継続が可能ですが、安全のため、アカウントのリンクやスターの購入、新しい端末へのアイテムの転送など、特定の機能が利用制限されます。もし質問がある場合は、support@innersloth.comまでメールでお問い合わせください。</string>
 <string name="FriendListUnavailable">フレンドリスト利用不可</string>
 <string name="ErrorSanction">{0}ため、{1}あなたのアカウントに利用禁止処置を課します。</string>
 <string name="SanctionDuration">{0}まで</string>
 <string name="SanctionPermanent">永久に</string>
-<string name="SanctionConduct">\%nl\%\%link="https://www.innersloth.com/code-of-conduct/"\%行動規範\%/link\%をよく読み、ゲーム中は内容を守って遊んでください。</string>
+<string name="SanctionConduct">
+{link="https://www.innersloth.com/code-of-conduct/"}行動規範{/link}をよく読み、ゲーム中は内容を守って遊んでください。</string>
 <string name="SanctionSexualMisconduct">性的な嫌がらせをした</string>
 <string name="SanctionDoxing">脅して個人情報を共有させようとする、個人情報の共有、個人情報を公にさらした</string>
 <string name="SanctionIllegalActivity">違法行為の助長、あるいは違法行為に関与した</string>
@@ -1845,10 +1963,14 @@
 <string name="Cosmetic.visor_hl_nudge">つんつん</string>
 <string name="Cosmetic.visor_hl_marine">マリンの眼帯</string>
 <string name="Cosmetic.visor_hl_wrong">ハハハ、何の問題もないでしょ？</string>
-<string name="AccountDeleteHelp">「確定」を押すと、Among Usの全てのデータ削除を申請することになります。この申請には7～14日かかり、すべてのスター、XP、ビーンズ、ポッド、購入コスメティックが消去されます。アカウントの完全削除以降は、このアクションを取り消しできません。削除処理が完了するまでは、通常通りアカウントを使用できます。\%nl\%\%nl\%エラーが発生した場合は、support@innersloth.comまでご連絡ください。</string>
+<string name="AccountDeleteHelp">「確定」を押すと、Among Usの全てのデータ削除を申請することになります。この申請には7～14日かかり、すべてのスター、XP、ビーンズ、ポッド、購入コスメティックが消去されます。アカウントの完全削除以降は、このアクションを取り消しできません。削除処理が完了するまでは、通常通りアカウントを使用できます。
+
+エラーが発生した場合は、support@innersloth.comまでご連絡ください。</string>
 <string name="DeleteAccount">アカウントを削除</string>
 <string name="DoNotDeleteAccount">アカウント削除をキャンセル</string>
-<string name="AccountUnDeleteHelp">「確定」を押すと、アカウント削除の処理が停止されます。アカウント削除をご希望の場合は、再度申請する必要があります。\%nl\%\%nl\%エラーが発生した場合は、support@innersloth.comまでご連絡ください。</string>
+<string name="AccountUnDeleteHelp">「確定」を押すと、アカウント削除の処理が停止されます。アカウント削除をご希望の場合は、再度申請する必要があります。
+
+エラーが発生した場合は、support@innersloth.comまでご連絡ください。</string>
 <string name="ConfirmDelete">「DELETE」と入力して確定してください</string>
 <string name="ConfirmDeleteAccounts">当アカウントおよび連携アカウント（{0}）が削除されることに同意してチェックを入れてください。</string>
 <string name="ConfirmDeleteAccountsEmpty">当アカウントおよび連携アカウントが削除されることに同意してチェックを入れてください。</string>
@@ -1866,7 +1988,8 @@
 <string name="Ghost">ゴースト</string>
 <string name="CurrentlyHaunting">現在呪われている：</string>
 <string name="RoundRobin">ラウンドロビン</string>
-<string name="RuleOneCrewmates">時間切れになるまで生き残りましょう。\%nl\%タスクを完了させると、タイマーが短くなります。</string>
+<string name="RuleOneCrewmates">時間切れになるまで生き残りましょう。
+タスクを完了させると、タイマーが短くなります。</string>
 <string name="RuleTwoCrewmates">通気孔とデンジャーメーターを駆使して隠れましょう！</string>
 <string name="RuleThreeCrewmates">タイマーが切れると、インポスターが追跡できるようになります！</string>
 <string name="RuleOneImpostor">制限時間内にすべてのクルーをキルしましょう！</string>
@@ -1896,20 +2019,29 @@
 <string name="DefaultFilterTag_Casual">カジュアル</string>
 <string name="DefaultFilterTag_Serious">シリアス</string>
 <string name="DefaultFilterTag_Expert">エキスパート</string>
-<string name="TagFiltersHelpFindGame">フィルターのドロップダウンリストからタグを選択することで、ゲーム検索にフィルターをかけることができます。選択したフィルターは\%i\%正確\%/i\%に検索結果と一致します。\%nl\%\%nl\%例：\%b\%カジュアル\%/b\%と\%b\%エキスパート\%/b\%を選択すると、\%b\%カジュアル\%/b\%と\%b\%エキスパート\%/b\%の両方のフィルターでタグ付けされたゲームだけが見つかります。</string>
-<string name="TagFiltersHelpCreate">他のプレイヤーがあなたのゲームを見つけやすくするために、フィルターでタグ付けすることができます。選択したフィルターは\%i\%正確\%/i\%に検索結果と一致します。\%nl\%\%nl\%例：\%b\%カジュアル\%/b\%と\%b\%エキスパート\%/b\%を選択した場合、\%b\%カジュアル\%/b\%と\%b\%エキスパート\%/b\%の両方のフィルターで検索した人だけがあなたのゲームを見ることができます。</string>
+<string name="TagFiltersHelpFindGame">フィルターのドロップダウンリストからタグを選択することで、ゲーム検索にフィルターをかけることができます。選択したフィルターは{i}正確{/i}に検索結果と一致します。
+
+例：{b}カジュアル{/b}と{b}エキスパート{/b}を選択すると、{b}カジュアル{/b}と{b}エキスパート{/b}の両方のフィルターでタグ付けされたゲームだけが見つかります。</string>
+<string name="TagFiltersHelpCreate">他のプレイヤーがあなたのゲームを見つけやすくするために、フィルターでタグ付けすることができます。選択したフィルターは{i}正確{/i}に検索結果と一致します。
+
+例：{b}カジュアル{/b}と{b}エキスパート{/b}を選択した場合、{b}カジュアル{/b}と{b}エキスパート{/b}の両方のフィルターで検索した人だけがあなたのゲームを見ることができます。</string>
 <string name="CreateLabel">作成</string>
 <string name="NewGameMode">新しいゲームモード！</string>
-<string name="NewModeInfo">この心臓に悪いゲームモードでは多くのものが懸かってます！\%nl\%\%i\%でも待って、これは普通のかくれんぼじゃないんです...\%/i\%</string>
+<string name="NewModeInfo">この心臓に悪いゲームモードでは多くのものが懸かってます！
+{i}でも待って、これは普通のかくれんぼじゃないんです...{/i}</string>
 <string name="HideSeekHowToPlayCaptionOne">シンプルですよ！</string>
 <string name="HideSeekHowToPlayCaptionTwo">クルー！</string>
 <string name="HideSeekHowToPlayCaptionThree">インポスター！</string>
-<string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%クルー:\%/b\%\%/color\% タスクをこなして時計を早め、インポスターを避け、タイマーが切れるまで生き延びましょう。\%nl\%\%nl\%\%color=#FF3131\%\%b\%インポスター:\%/b\%\%/color\% クルーを見つけキルしまくりましょう。</string>
+<string name="HideSeekHowToPlayPageOne">{color=#38F25D}{b}クルー:{/b}{/color} タスクをこなして時計を早め、インポスターを避け、タイマーが切れるまで生き延びましょう。
+
+{color=#FF3131}{b}インポスター:{/b}{/color} クルーを見つけキルしまくりましょう。</string>
 <string name="HideSeekHowToPlaySubtextOne">ここはソーシャルディダクションはなく、ただ恐怖の叫び声があるだけ。</string>
 <string name="HideSeekHowToPlayCrewmateInfoOne">生き残るために、隠れ方や忍び方をマスターしましょう。</string>
 <string name="HideSeekHowToPlayCrewmateInfoTwo">このモードでは、通気孔を使うことができ、インポスターが近づくと警告してくれるハイテクなデンジャーメーターを入手できます。インポスターの視界は限られているので、知恵を絞り、通気孔やバイザーを使って避けましょう！</string>
 <string name="HideSeekHowToPlayImpostorInfoOne">このモードではインポスターは通気孔が使えないため、獲物を捕らえるには素早い行動が必要です。真っ暗ですが、幸いなことに次の犠牲者を見つけるのに役立つ懐中電灯を持っています。</string>
-<string name="HideSeekHowToPlayFinalHide">最後のカウントダウーーーーン！ゲーム最終盤、インポスターはパワーアップします。より速くなり、特別な捜索用マップと生存しているクルーの居場所を示す方向ピンを入手します。\%nl\%\%nl\%素早い思考で戦略的に逃げて勝利を掴みましょう！</string>
+<string name="HideSeekHowToPlayFinalHide">最後のカウントダウーーーーン！ゲーム最終盤、インポスターはパワーアップします。より速くなり、特別な捜索用マップと生存しているクルーの居場所を示す方向ピンを入手します。
+
+素早い思考で戦略的に逃げて勝利を掴みましょう！</string>
 <string name="HideSeekHowToPlayFlashlightMobile">画面右側にある懐中電灯用のジョイスティックで光線を操作して、見つけたクルーをすべてキルしてやりましょう！</string>
 <string name="HideSeekHowToPlayFlashlightDefault">マウスで懐中電灯の光線を操作して、見つけたクルーをすべてキルしてやりましょう！</string>
 <string name="HideSeekHowToPlayFlashlightConsoles">右スティックで光線を操作して、見つけたクルーをすべてキルしてやりましょう！</string>
@@ -2032,7 +2164,9 @@
 <string name="Cosmetic.nameplate_hunter">ハンターの誇り</string>
 <string name="Cosmetic.nameplate_lightfall">光の終焉</string>
 <string name="AnnouncementErrorSubtitle">うわあ！通知のサボタージュだ！</string>
-<string name="AnnouncementErrorText">何か問題が発生したようです。Among Usの最新情報と修正を取得するために、ゲームがオンラインであることと、最新バージョンにアップデートされていることをご確認ください。\%nl\%\%nl\%不具合が続く場合は、support@innersloth.com にサポートチケットをお送りください。</string>
+<string name="AnnouncementErrorText">何か問題が発生したようです。Among Usの最新情報と修正を取得するために、ゲームがオンラインであることと、最新バージョンにアップデートされていることをご確認ください。
+
+不具合が続く場合は、support@innersloth.com にサポートチケットをお送りください。</string>
 <string name="ReadMoreLabel">全ての通知を確認する！</string>
 <string name="ReturnToList">一覧に戻る</string>
 <string name="NavigateLinks">リンクをナビゲート</string>
@@ -2056,7 +2190,8 @@
 <string name="AgeVerificationTitle">年齢認証</string>
 <string name="AgeVerificationInfoTitle">年齢認証とは？</string>
 <string name="AgeVerificationInfo">Among Usへアクセスするには、まず年齢認証が必要となります。入力された生年月日は保存されません。</string>
-<string name="AgeVerificationMoreInfo">当社のプライバシー保護の取り組みについては、以下からご確認ください：\%nl\% \%link="https://www.innersloth.com/ja/privacy-policy-japanese/"\%https://www.innersloth.com/ja/privacy-policy-japanese/\%/link\%</string>
+<string name="AgeVerificationMoreInfo">当社のプライバシー保護の取り組みについては、以下からご確認ください：
+ {link="https://www.innersloth.com/ja/privacy-policy-japanese/"}https://www.innersloth.com/ja/privacy-policy-japanese/{/link}</string>
 <string name="EditLabel">編集</string>
 <string name="VerifyAgeText">この生年月日に間違いはありませんか？</string>
 <string name="Cosmetic.nameplate_flagMlm">MLM・プライドフラグ</string>
@@ -2114,9 +2249,15 @@
 <string name="Cosmetic.skin_PusheenPurpleskin">ライラックパステルPusheen</string>
 <string name="Cosmetic.skin_Slothskin">Sloth</string>
 <string name="Cosmetic.hat_bearyCold">ブルブルベア</string>
-<string name="EosAccountSilentMergeFail">お客様のAmong Usアカウントを確定する際に何らかの問題が発生しました。再度お試しいただくか、ゲストアカウントで続行してください。すべての進行状況は保存されますが、Among Usのすべての機能を十分にお楽しみいただけるよう、アカウントの設定をおすすめします。\%nl\%\%nl\%アカウント設定を再度試しますか？</string>
-<string name="AskForEosAccount">既存のAmong Usアカウント（別名Epic Online Servicesアカウント）をお持ちですか？\%nl\%\%nl\%このデバイスでAmong Usをプレイしたことがある場合は、「はい」を選択してください。</string>
-<string name="KwsCreateFail">おおっと！保護者の許可メール送信に問題が発生しました。再試行するか、オフラインモードで続行してください。\%nl\%\%nl\%再試行しますか？</string>
+<string name="EosAccountSilentMergeFail">お客様のAmong Usアカウントを確定する際に何らかの問題が発生しました。再度お試しいただくか、ゲストアカウントで続行してください。すべての進行状況は保存されますが、Among Usのすべての機能を十分にお楽しみいただけるよう、アカウントの設定をおすすめします。
+
+アカウント設定を再度試しますか？</string>
+<string name="AskForEosAccount">既存のAmong Usアカウント（別名Epic Online Servicesアカウント）をお持ちですか？
+
+このデバイスでAmong Usをプレイしたことがある場合は、「はい」を選択してください。</string>
+<string name="KwsCreateFail">おおっと！保護者の許可メール送信に問題が発生しました。再試行するか、オフラインモードで続行してください。
+
+再試行しますか？</string>
 <string name="MissingGuardianEmailText">あなたのアカウントには、保護者のメールアドレスがありません。続行するには、保護者の方にメールで申請する必要があります。保護者の方の承認が得られたら、オンラインでのフリーチャット利用およびユーザー名の変更が可能になります。大人の人に手伝ってもらいましょう！</string>
 <string name="MiningPit">鉱山</string>
 <string name="Jungle">ジャングル</string>
@@ -2191,7 +2332,9 @@
 <string name="Cosmetic.nameplate_cliffs">岩石層</string>
 <string name="ReportNotificationHeader">Among Usを安全で快適な環境に維持するうえで、ご協力ありがとうございます！</string>
 <string name="ReportNotificationBody">ご報告いただいた情報はモデレートチームが審査のうえ、当社の行動規範に基づき適切な措置を取ります。</string>
-<string name="ErrorClientTimeout">サーバーから切断されました。サーバー、ネットワーク、デバイスのいずれかの問題と思われます。ネットワークの強度をご確認ください。\%nl\%\%nl\%この問題が頻繁に発生する場合、お使いのデバイスが古過ぎるか、最低スペック要件を満たしていない可能性があります。別のデバイスでプレイしてみてください。</string>
+<string name="ErrorClientTimeout">サーバーから切断されました。サーバー、ネットワーク、デバイスのいずれかの問題と思われます。ネットワークの強度をご確認ください。
+
+この問題が頻繁に発生する場合、お使いのデバイスが古過ぎるか、最低スペック要件を満たしていない可能性があります。別のデバイスでプレイしてみてください。</string>
 <string name="ErrorClientTimeoutConsole">サーバーから切断されました。サーバーまたはネットワークの問題と思われます。ネットワークの強度をご確認ください。</string>
 <string name="Cosmetic.hat_NewYear2024">あけおめ2024</string>
 <string name="Cosmetic.nameplate_Celeste">上へ、先へ</string>
@@ -2319,7 +2462,9 @@
 <string name="Cosmetic.nameplate_lny_goldCrewmate">幸運のお祭り</string>
 <string name="Cosmetic.nameplate_lny_goldImpostor">不運は黄金色</string>
 <string name="AprilFoolsModeToggle">エイプリルフール・モード（限定コスメティック）</string>
-<string name="ErrorAuthNonceFailure">サボタージュ！承認中にAmong Usサーバーで問題が発生しました。再試行してください。\%nl\%\%nl\%問題が解決されない場合は、 \%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%サポートチケット\%/link\%を送信してください。</string>
+<string name="ErrorAuthNonceFailure">サボタージュ！承認中にAmong Usサーバーで問題が発生しました。再試行してください。
+
+問題が解決されない場合は、 {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}サポートチケット{/link}を送信してください。</string>
 <string name="Cosmetic.nameplate_crewmatesBlue">ファンキークルー（青）</string>
 <string name="Cosmetic.nameplate_crewmatesRed">ファンキークルー（赤）</string>
 <string name="Cosmetic.nameplate_horseHeaven">ウマの馬鹿騒ぎ</string>
@@ -2400,7 +2545,8 @@
 <string name="QCSelfSawRoleInLocation">{1}で{0}を見た</string>
 <string name="NoisemakerRole">ノイズメーカー</string>
 <string name="NoisemakerBlurb">キルされたら警報を出す</string>
-<string name="NoisemakerBlurbMed">キルされたとき、\%nl\%すべてのクルーに自分の居場所を警報する。</string>
+<string name="NoisemakerBlurbMed">キルされたとき、
+すべてのクルーに自分の居場所を警報する。</string>
 <string name="NoisemakerBlurbLong">ノイズメーカーは普通のクルーのロールではない。他のロールのように能力を使うことができない。でもその代わり、インポスターにキルされると自動的に警報を発する。この警報はインポスターを簡単にパニックに追いやるんだ。仲間のクルーがキラーを捕まえようと現場に駆けつけ、キミの仇を討つのを見届けよう！</string>
 <string name="NoisemakerImpostorAlert">インポスターへの警報</string>
 <string name="NoisemakerAlertDuration">警報の長さ</string>
@@ -2408,7 +2554,8 @@
 <string name="PhantomAbilityUndo">出現する</string>
 <string name="PhantomRole">ファントム</string>
 <string name="PhantomBlurb">透明になる</string>
-<string name="PhantomBlurbMed">透明になってこっそり忍び寄ったり、\%nl\%キルから逃げたりする。</string>
+<string name="PhantomBlurbMed">透明になってこっそり忍び寄ったり、
+キルから逃げたりする。</string>
 <string name="PhantomBlurbLong">ファントムは透明になることで、クルーにこっそり近づいたり、捕まることなく犯罪現場から立ち去ることができる。透明になっている間はキルすることはできないけど、はしごやジップラインを使うことはできる。透明になったり、戻ったりすると大きな煙が発生しちゃうから、その場にクルーがいないことを確認しよう！それから、透明な状態はずっと続けられないから、タイミングを見計らおう。</string>
 <string name="PhantomCooldown">消えるのクールダウン</string>
 <string name="PhantomDuration">消える長さ</string>
@@ -2416,7 +2563,8 @@
 <string name="TrackerAbility">追跡する</string>
 <string name="TrackerAbilityUndo">アントラック</string>
 <string name="TrackerBlurb">マップでクルーメイト追跡</string>
-<string name="TrackerBlurbMed">クルーにトラッカーを装着させ、\%nl\%彼らの動きをマップ上で確認する。</string>
+<string name="TrackerBlurbMed">クルーにトラッカーを装着させ、
+彼らの動きをマップ上で確認する。</string>
 <string name="TrackerBlurbLong">トラッカーはクルーの位置を彼らのミニマップ上で確認することができる。追跡装置を取り付けるには、まず他のクルーのそばにいなければならない。他のクルーに近づいている間、くれぐれも挙動不審にならないように気をつけてね。追跡は数秒間しか持たないから、慎重にターゲットを選ぶことをおすすめする。あと、インポスターに捕まらないように、ミニマップを長く見すぎず無防備にならないこと！</string>
 <string name="TrackerCooldown">追跡のクールダウン</string>
 <string name="TrackerDuration">追跡の長さ</string>
@@ -2526,23 +2674,31 @@
 <string name="ChatLabel">チャット</string>
 <string name="NoneLowercaseLabel">ナシ</string>
 <string name="ToolTipDefault">以下の設定を使用してロビーをカスタマイズします。</string>
-<string name="ToolTipClassic">クルーメイトを装って紛れ込んでいるインポスターがいます！\%nl\%怪しい人物を見つけ出し、投票で炙り出しましょう。</string>
-<string name="ToolTipHide">ネコとネズミが織りなす究極の追いかけっこ。\%nl\%シーカーに捕まらないよう気を付けましょう！</string>
+<string name="ToolTipClassic">クルーメイトを装って紛れ込んでいるインポスターがいます！
+怪しい人物を見つけ出し、投票で炙り出しましょう。</string>
+<string name="ToolTipHide">ネコとネズミが織りなす究極の追いかけっこ。
+シーカーに捕まらないよう気を付けましょう！</string>
 <string name="ToolTipCapacity">ロビーに参加できる最大プレイヤー数。</string>
 <string name="ToolTipServer">ゲーム作成用のサーバー領域。</string>
 <string name="ToolTipCrossplay">どのプラットフォームのプレイヤーでもロビーに参加できます。</string>
 <string name="ToolTipNoCrossplay">あなたと同じプラットフォームのプレイヤーしかロビーに参加できません。</string>
 <string name="ToolTipLanguage">ゲーム内の議論で使用する言語。</string>
-<string name="ToolTipSkeld">Skeld：複数の部屋と廊下を備えた中型船。\%nl\%ロープを運ぶのに最適です。</string>
-<string name="ToolTipMIRA">MIRA HQ：長い廊下が多数あり、完全相互接続型の\%nl\%通気口システムが備わっている小規模マップ。</string>
-<string name="ToolTipPolus">Polus：この惑星にある前哨基地は、屋内と屋外エリ\%nl\%アを特徴とする中規模マップです。</string>
-<string name="ToolTipAirship">Airship：部屋が多数あり隠れやすいだけでなく、\%nl\%インポスターにとっても獲物を追い詰めやすい大規模マップ。</string>
-<string name="ToolTipFungle">Fungle：太陽の光がさんさんと降り注ぐ大きな離島。\%nl\%そこには神秘的なジャングルと、高地が隠されています。</string>
+<string name="ToolTipSkeld">Skeld：複数の部屋と廊下を備えた中型船。
+ロープを運ぶのに最適です。</string>
+<string name="ToolTipMIRA">MIRA HQ：長い廊下が多数あり、完全相互接続型の
+通気口システムが備わっている小規模マップ。</string>
+<string name="ToolTipPolus">Polus：この惑星にある前哨基地は、屋内と屋外エリ
+アを特徴とする中規模マップです。</string>
+<string name="ToolTipAirship">Airship：部屋が多数あり隠れやすいだけでなく、
+インポスターにとっても獲物を追い詰めやすい大規模マップ。</string>
+<string name="ToolTipFungle">Fungle：太陽の光がさんさんと降り注ぐ大きな離島。
+そこには神秘的なジャングルと、高地が隠されています。</string>
 <string name="ConfirmSettings">設定を確認</string>
 <string name="ConfirmSettingsTooltip">以下の設定でロビーを作成しています：</string>
 <string name="EnterCodeElipsis">コードを入力…</string>
 <string name="ToolTipChatTab">ゲーム内チャットウィンドウの設定をカスタマイズします。</string>
-<string name="DropshipsLabel">オンラインでの\%nl\%ドロップシップ</string>
+<string name="DropshipsLabel">オンラインでの
+ドロップシップ</string>
 <string name="FiltersActive">有効なフィルター</string>
 <string name="ClearFilters">絞り込み条件をクリア</string>
 <string name="MoreLabel">詳細…</string>
@@ -2560,15 +2716,20 @@
 <string name="FilterGameTooltip">ゲームモードで絞り込む。</string>
 <string name="FilterMapTooltip">1つ以上のマップで絞り込む。</string>
 <string name="FilterImpostorTooltip">インポスターの数で絞り込む。</string>
-<string name="FilterRoleTooltip">ロビーにロールが追加されているか\%nl\%どうかで絞り込む。</string>
+<string name="FilterRoleTooltip">ロビーにロールが追加されているか
+どうかで絞り込む。</string>
 <string name="FilterSpeedTooltip">キャラクターの移動速度で絞り込む。</string>
-<string name="FilterKillCDTooltip">インポスターが次にキルできる\%nl\%までの待ち時間。</string>
-<string name="FilterVotingTooltip">会議でプレイヤーが投票\%nl\%できる時間の長さ。</string>
+<string name="FilterKillCDTooltip">インポスターが次にキルできる
+までの待ち時間。</string>
+<string name="FilterVotingTooltip">会議でプレイヤーが投票
+できる時間の長さ。</string>
 <string name="FilterVisualTaskTooltip">オンにすると、全プレイヤーは特定のタスクが完了していることを確認できます。</string>
-<string name="FilterAnonVotesTooltip">オンにすると、会議中に参加者が\%nl\%誰に投票したか表示されません。</string>
+<string name="FilterAnonVotesTooltip">オンにすると、会議中に参加者が
+誰に投票したか表示されません。</string>
 <string name="FilterConfirmEjectTooltip">オンにすると、追放されたクルーメイトがインポスターかどうかが公表されます。</string>
 <string name="FilterCrossplayTooltip">全プラットフォームのロビーすべて、あるいは自分のロビーのみ表示する。</string>
-<string name="FilterDefaultTooltip">以下のフィルターで検索範囲\%nl\%を絞り込みます。</string>
+<string name="FilterDefaultTooltip">以下のフィルターで検索範囲
+を絞り込みます。</string>
 <string name="FilterFlashlightTooltip">オンにすると、プレイヤーは異なる方向へ向けられる光を持つことができます。</string>
 <string name="FilterHidingTimeTooltip">かくれんぼの第1フェーズの長さ。</string>
 <string name="FilterFinalTimeTooltip">かくれんぼの最終フェーズの長さ。</string>
@@ -2578,13 +2739,19 @@
 <string name="FilterExpert">エキスパート</string>
 <string name="FilterTag">タグ</string>
 <string name="FilterTagTooltip">ロビーのタグで絞り込む。</string>
-<string name="TooltipTag">特定のスキルレベルのプレイヤー\%nl\%にアピールするタグを追加します。</string>
+<string name="TooltipTag">特定のスキルレベルのプレイヤー
+にアピールするタグを追加します。</string>
 <string name="SelectedLabel">選択中：</string>
-<string name="TooltipSpeedInfo">\%b\%低：\%/b\% 0.5-0.75x	\%b\%高：\%/b\% 1.75-2.25x\%nl\%\%b\%中：\%/b\% 1.0-1.5x	\%b\%最高：\%/b\% 2.5-3.0x</string>
-<string name="TooltipKillCDInfo">\%b\%低：\%/b\% 10-20秒	\%b\%高：\%/b\% 37.5-47.5秒\%nl\%\%b\%中：\%/b\% 22.5-35秒	\%b\%最高：\%/b\% 50-60秒</string>
-<string name="TooltipVotingInfo">\%b\%低：\%/b\% 0-60秒	\%b\%高：\%/b\% 150-210秒\%nl\%\%b\%中：\%/b\% 75-135秒	\%b\%最高：\%/b\% 225-300秒</string>
-<string name="TooptipHidingTimeInfo">\%b\%低： \%/b\% 160-180秒	\%b\%高：\%/b\%260-300秒\%nl\%\%b\%中： \%/b\%200-240秒</string>
-<string name="TooltipFinalTimeInfo">\%b\%低：\%/b\% 30-45秒	\%b\%高：\%/b\% 75-95秒\%nl\%\%b\%中：\%/b\%50-70秒	\%b\%最高：\%/b\%100-120秒</string>
+<string name="TooltipSpeedInfo">{b}低：{/b} 0.5-0.75x	{b}高：{/b} 1.75-2.25x
+{b}中：{/b} 1.0-1.5x	{b}最高：{/b} 2.5-3.0x</string>
+<string name="TooltipKillCDInfo">{b}低：{/b} 10-20秒	{b}高：{/b} 37.5-47.5秒
+{b}中：{/b} 22.5-35秒	{b}最高：{/b} 50-60秒</string>
+<string name="TooltipVotingInfo">{b}低：{/b} 0-60秒	{b}高：{/b} 150-210秒
+{b}中：{/b} 75-135秒	{b}最高：{/b} 225-300秒</string>
+<string name="TooptipHidingTimeInfo">{b}低： {/b} 160-180秒	{b}高：{/b}260-300秒
+{b}中： {/b}200-240秒</string>
+<string name="TooltipFinalTimeInfo">{b}低：{/b} 30-45秒	{b}高：{/b} 75-95秒
+{b}中：{/b}50-70秒	{b}最高：{/b}100-120秒</string>
 <string name="FilterNoMaps">マップが選択されていません。</string>
 <string name="Cosmetic.hat_kamurocho_ichiban">Ichiban Kasugaの髪型</string>
 <string name="Cosmetic.hat_kamurocho_ono">Ono Michioの帽子</string>
@@ -2627,7 +2794,7 @@
 <string name="Cosmetic.skin_racing_jim">ジム・ガソリン</string>
 <string name="Cosmetic.visor_racing_goggles">レーシングゴーグル</string>
 <string name="Cosmetic.pet_racing_beanCar">ビーンズ・カー</string>
-<string name="Cosmetic.nameplate_racing_beanCar">神話\%and\%伝説</string>
+<string name="Cosmetic.nameplate_racing_beanCar">神話{and}伝説</string>
 <string name="Cosmetic.nameplate_bsb2_notes">自分用メモ</string>
 <string name="Cosmetic.nameplate_bsb2_error">エラーエラーエラー</string>
 <string name="Cosmetic.nameplate_bsb2_frame">ハメられた！</string>
@@ -2657,7 +2824,8 @@
 <string name="DetectiveAbility">尋問</string>
 <string name="DetectiveAbilityNotes">メモ</string>
 <string name="DetectiveBlurb">情報収集。殺人事件解決。</string>
-<string name="DetectiveBlurbMed">メモに情報を追加。\%nl\%クルーメイトを尋問する。</string>
+<string name="DetectiveBlurbMed">メモに情報を追加。
+クルーメイトを尋問する。</string>
 <string name="DetectiveNotesEmpty">殺人事件が起これば、捜査を始められるぞ…</string>
 <string name="DetectiveNearLocation">{0}付近</string>
 <string name="DetectiveNotesKiller">{0}</string>
@@ -2736,7 +2904,8 @@
 <string name="RewardAdTitle">スター獲得！</string>
 <string name="RewardAdBody1">もうひとつのスター報酬が{0}時間後に付与されます。</string>
 <string name="RewardAdBody2">もうひとつのスター報酬が{0}時間後に付与されます。</string>
-<string name="WatchAdErrorBody">広告の読み込みに失敗しました。\%nl\%また後ほどお試しください。</string>
+<string name="WatchAdErrorBody">広告の読み込みに失敗しました。
+また後ほどお試しください。</string>
 <string name="WatchAdErrorTitle">おっと…</string>
 <string name="Cosmetic.hat_phoenix_wright">成歩堂龍一の髪型</string>
 <string name="Cosmetic.skin_phoenix_wright">成歩堂龍一のスーツ</string>
@@ -2802,4 +2971,27 @@
 <string name="Cosmetic.skin_parasite_Yellow">イエローのエプロン</string>
 <string name="Cosmetic.pet_parasite_Stressball">ボールペット</string>
 <string name="Cosmetic.nameplate_parasite_Impostor">背後にご注意！！</string>
+<string name="JudgeRole">ジャッジ</string>
+<string name="JudgeBlurb">会議を支配しよう</string>
+<string name="JudgeBlurbMed">会議での決定事項をくつがえしてインポスターを追放できる。
+もしその人物がインポスターでなかった場合は、自分が追放されてしまう。</string>
+<string name="JudgeBlurbLong">投票を支配しよう</string>
+<string name="JudgeTaskRequirement">タスクアンロック率（%）</string>
+<string name="RolesHelp_Judge_01">ジャッジには会議の決定を覆せる「却下」というアビリティがある。これを使うと、インポスターだと思うクルーメイト1人に対して、特別な票を投じることができる。</string>
+<string name="RolesHelp_Judge_02">このアビリティを使うと、その特別な票だけが有効となる。ジャッジの予想が当たれば、インポスターは追放されるが、ジャッジの判断が間違いだった場合は本人が追放されてしまうぞ！</string>
+<string name="JudgeAbilityUnlocked">ジャッジのアビリティがアンロックされました</string>
+<string name="JudgeAbilityProgress">タスクを{0}件こなして裁判官の力を行使しよう！</string>
+<string name="JudgeCourtAdjourned">評決は集まった…</string>
+<string name="JudgeHasSpoken">判決が下された。</string>
+<string name="StatsJudgeSuccessfulOverrules">ジャッジの却下成功回数：</string>
+<string name="StatsJudgeFailedOverrules">ジャッジの却下失敗回数：</string>
+<string name="JudgeBeatYouToIt">ジャッジによる判決が下された。
+（他のジャッジに先を越されたぞ！）</string>
+<string name="QCJudges">ジャッジの皆さん、ご判断を！</string>
+<string name="QCJudgeOverrule">却下する</string>
+<string name="QCJudgePlease">{0}を却下してほしい</string>
+<string name="QCJudgeWillOverrule">{0}を却下する</string>
+<string name="MatchInfoGuideTitle">マッチ情報ガイド</string>
+<string name="MatchInfoGuidePlayersLabel">プレイヤー</string>
+<string name="MatchInfoGuideNoRolesMessage">役割が無効になっています</string>
 </resources>

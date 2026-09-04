@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
 <string name="LocalButton">Locale</string>
 <string name="OnlineButton">Online</string>
 <string name="HowToPlayButton">Istruzioni</string>
@@ -30,14 +31,14 @@
 <string name="ImpostorsRemainP">Rimangono {0} impostori.</string>
 <string name="Hallway">Corridoio</string>
 <string name="Engines">Motori</string>
-<string name="LangCzech">Motore superiore</string>
+<string name="UpperEngine">Motore superiore</string>
 <string name="Cafeteria">Mensa</string>
 <string name="Weapons">Armeria</string>
 <string name="Reactor">Reattore</string>
 <string name="Security">Sicurezza</string>
 <string name="MedBay">Infermeria</string>
 <string name="LifeSupp">O2</string>
-<string name="LangGreek">Sala comandi</string>
+<string name="Nav">Sala comandi</string>
 <string name="LowerEngine">Motore inferiore</string>
 <string name="Electrical">Manutenzione</string>
 <string name="Admin">Amministrazione</string>
@@ -87,13 +88,14 @@
 <string name="EnterIdCode">Inserisci codice ID</string>
 <string name="BuyBeverage">Compra bibita</string>
 <string name="ProcessData">Elabora dati</string>
-<string name="NumImpostorsS">\%color=#FF1919FF\%Un impostore\%/color\% è tra di noi</string>
-<string name="NumImpostorsP">Ci sono \%color=#FF1919FF\%{0} impostori\%/color\% tra di noi</string>
+<string name="NumImpostorsS">{color=#FF1919FF}Un impostore{/color} è tra di noi</string>
+<string name="NumImpostorsP">Ci sono {color=#FF1919FF}{0} impostori{/color} tra di noi</string>
 <string name="Crewmate">Astronauta</string>
 <string name="Impostor">Impostore</string>
 <string name="Victory">Vittoria</string>
 <string name="Defeat">Sconfitta</string>
-<string name="CrewmatesDisconnected">Gran parte degli astronauti\%nl\%si è disconnessa</string>
+<string name="CrewmatesDisconnected">Gran parte degli astronauti
+si è disconnessa</string>
 <string name="ImpostorDisconnected">L'impostore si è disconnesso</string>
 <string name="PickAnomaly">Scegli anomalia</string>
 <string name="WaterPlantsGetCan">Innaffiatoio preso!</string>
@@ -124,17 +126,24 @@
 <string name="MeetingVotingResults">Risultati</string>
 <string name="MeetingProceeds">Inizio tra: {0} s</string>
 <string name="MeetingHasVoted">{0} ha votato. {1} rimanenti.</string>
-<string name="HowToPlayText1">Among Us è un gioco di collaborazione e tradimenti.\%nl\%\%nl\%I giocatori sono astronauti o impostori.</string>
+<string name="HowToPlayText1">Among Us è un gioco di collaborazione e tradimenti.
+
+I giocatori sono astronauti o impostori.</string>
 <string name="HowToPlayText2">Gioca in partite da 4 a 15 giocatori online o in locale via Wi-Fi!</string>
 <string name="HowToPlayText41">Quando ospiti una partita, decidi tu le regole del gioco.</string>
-<string name="HowToPlayText42">Prima, scegli con chi vuoi giocare!\%nl\%\%nl\%Se vuoi giocare con i tuoi amici online, imposta su "privata" e condividi il codice della stanza.\%nl\%\%nl\%Se vuoi giocare con altri giocatori da tutto il mondo, imposta su "pubblica".</string>
+<string name="HowToPlayText42">Prima, scegli con chi vuoi giocare!
+
+Se vuoi giocare con i tuoi amici online, imposta su "privata" e condividi il codice della stanza.
+
+Se vuoi giocare con altri giocatori da tutto il mondo, imposta su "pubblica".</string>
 <string name="HowToPlayText43">Vuoi giocare con più incarichi, camminare più rapidamente o vuoi più impostori? Se sei l'host, puoi cambiare queste impostazioni. Consultati con gli altri giocatori riguardo alle tue modifiche.</string>
 <string name="HowToPlayText44">Se qualcuno è sgarbato o spamma, l'host può espellere temporaneamente un giocatore come avvertimento o bannarlo dalla stanza.</string>
 <string name="HowToPlayTextMap">I giocatori hanno accesso a una mappa personale per orientarsi.</string>
 <string name="HowToPlayTextCrew1">Obiettivo: riempi la barra degli incarichi o identifica l'impostore.</string>
 <string name="HowToPlayTextCrew2">Completa gli incarichi per riempire la barra.</string>
 <string name="HowToPlayTextCrew3">Reagisci al sabotaggio dell'impostore.</string>
-<string name="HowToPlayTextCrew4">Trovato l'impostore?\%nl\%Convoca una riunione!</string>
+<string name="HowToPlayTextCrew4">Trovato l'impostore?
+Convoca una riunione!</string>
 <string name="HowToPlayTextCrew5">Segnala i cadaveri.</string>
 <string name="HowToPlayTextCrew6">Fai attenzione ad attività sospette in Amministrazione e Sicurezza.</string>
 <string name="HowToPlayTextImp1">Obiettivo: uccidi l'equipaggio.</string>
@@ -144,9 +153,21 @@
 <string name="HowToPlayTextImp5">Sabota la nave e confondi l'equipaggio.</string>
 <string name="HowToPlayTextImp6">Chiudi le porte e intrappola le tue vittime.</string>
 <string name="HowToPlayTextImp7">Uccidi l'equipaggio quando le riunioni sono sospese.</string>
-<string name="HowToPlayText5">Per mantenere il gioco bilanciato quando si gioca di persona, è vietato parlare.\%nl\%\%nl\%Se un giocatore viene ucciso dall'impostore, non può parlare fino alla fine della partita.\%nl\%\%nl\%I fantasmi continuano a completare gli incarichi assegnati per far vincere l'equipaggio.</string>
-<string name="HowToPlayText6">Quando qualcuno segnala un cadavere o convoca una riunione d'emergenza, gli astronauti si riuniscono per discutere quello che sanno sull'impostore.\%nl\%\%nl\%I giocatori possono parlare liberamente e dire chi pensano sia un impostore. Quando si gioca di persona, i fantasmi non possono parlare, poiché sanno già chi è l'impostore.\%nl\%\%nl\%Gli impostori provano a dimostrare la propria innocenza o ad accusare un altro astronauta.</string>
-<string name="HowToPlayText7">Dopo la discussione, vota chi pensi che sia un impostore.\%nl\%\%nl\%Chi riceve la maggioranza dei voti viene espulso dalla nave, perciò vota con attenzione!\%nl\%\%nl\%Se non ci sono abbastanza informazioni e l'equipaggio è d'accordo, si può anche saltare il voto per evitare di espellere un innocente e ottenere altre informazioni.</string>
+<string name="HowToPlayText5">Per mantenere il gioco bilanciato quando si gioca di persona, è vietato parlare.
+
+Se un giocatore viene ucciso dall'impostore, non può parlare fino alla fine della partita.
+
+I fantasmi continuano a completare gli incarichi assegnati per far vincere l'equipaggio.</string>
+<string name="HowToPlayText6">Quando qualcuno segnala un cadavere o convoca una riunione d'emergenza, gli astronauti si riuniscono per discutere quello che sanno sull'impostore.
+
+I giocatori possono parlare liberamente e dire chi pensano sia un impostore. Quando si gioca di persona, i fantasmi non possono parlare, poiché sanno già chi è l'impostore.
+
+Gli impostori provano a dimostrare la propria innocenza o ad accusare un altro astronauta.</string>
+<string name="HowToPlayText7">Dopo la discussione, vota chi pensi che sia un impostore.
+
+Chi riceve la maggioranza dei voti viene espulso dalla nave, perciò vota con attenzione!
+
+Se non ci sono abbastanza informazioni e l'equipaggio è d'accordo, si può anche saltare il voto per evitare di espellere un innocente e ottenere altre informazioni.</string>
 <string name="HowToPlayText81">Fai pratica nella modalità Allenamento!</string>
 <string name="HowToPlayText82">Scegli i tuoi incarichi come astronauta o allenati a uccidere come impostore.</string>
 <string name="SettingsGeneral">Generali</string>
@@ -213,12 +234,36 @@
 <string name="RoomCodeInfo">Clicca per copiare</string>
 <string name="LeaveGame">Abbandona</string>
 <string name="ReturnToGame">Torna alla partita</string>
-<string name="LocalHelp">Problemi di connessione?\%nl\%\%nl\%● Assicurati che tutti siano collegati alla stessa rete Wi-Fi\%nl\%● Assicurati che tutti abbiano la stessa versione del gioco (visibile in basso a destra)\%nl\%● Assicurati che il segnale Wi-Fi sia forte\%nl\%● A volte può essere utile che qualcun altro faccia da host\%nl\%● A volte può essere utile riavviare l'app...\%nl\%● A volte può essere utile riavviare lo smartphone...\%nl\%● Hai ancora problemi? Contattaci scrivendo a support@innersloth.com!</string>
-<string name="OnlineHelp">Come funziona?\%nl\%\%nl\%● Ospitare una partita ti fornisce un codice partita nel pannello della lobby.\%nl\%● Condividi il codice con i tuoi amici per creare una stanza privata.\%nl\%● Oppure tocca "Privata" per rendere la stanza pubblica e visibile a chi cerca una partita.\%nl\%● L'host può bannare o espellere i giocatori quando la chat è disponibile.\%nl\%● Hai ancora problemi? Contattaci scrivendo a support@innersloth.com!</string>
-<string name="EmergencyCount">L'ASTRONAUTA {0} HA\%nl\%\%nl\%\%nl\%\%nl\%RIUNIONI D'EMERGENZA RIMANENTI</string>
-<string name="EmergencyNotReady">L'EQUIPAGGIO DEVE ASPETTARE\%nl\%\%nl\%\%nl\%\%nl\%PRIMA DELLA PROSSIMA EMERGENZA</string>
-<string name="EmergencyDuringCrisis">NIENTE RIUNIONI D'EMERGENZA\%nl\%DURANTE LE CRISI</string>
-<string name="EmergencyRequested">RICHIESTA RIUNIONE D'EMERGENZA\%nl\%IN ATTESA DELL'HOST</string>
+<string name="LocalHelp">Problemi di connessione?
+
+● Assicurati che tutti siano collegati alla stessa rete Wi-Fi
+● Assicurati che tutti abbiano la stessa versione del gioco (visibile in basso a destra)
+● Assicurati che il segnale Wi-Fi sia forte
+● A volte può essere utile che qualcun altro faccia da host
+● A volte può essere utile riavviare l'app...
+● A volte può essere utile riavviare lo smartphone...
+● Hai ancora problemi? Contattaci scrivendo a support@innersloth.com!</string>
+<string name="OnlineHelp">Come funziona?
+
+● Ospitare una partita ti fornisce un codice partita nel pannello della lobby.
+● Condividi il codice con i tuoi amici per creare una stanza privata.
+● Oppure tocca "Privata" per rendere la stanza pubblica e visibile a chi cerca una partita.
+● L'host può bannare o espellere i giocatori quando la chat è disponibile.
+● Hai ancora problemi? Contattaci scrivendo a support@innersloth.com!</string>
+<string name="EmergencyCount">L'ASTRONAUTA {0} HA
+
+
+
+RIUNIONI D'EMERGENZA RIMANENTI</string>
+<string name="EmergencyNotReady">L'EQUIPAGGIO DEVE ASPETTARE
+
+
+
+PRIMA DELLA PROSSIMA EMERGENZA</string>
+<string name="EmergencyDuringCrisis">NIENTE RIUNIONI D'EMERGENZA
+DURANTE LE CRISI</string>
+<string name="EmergencyRequested">RICHIESTA RIUNIONE D'EMERGENZA
+IN ATTESA DELL'HOST</string>
 <string name="AdPolicyTitle">Politica sugli annunci pubblicitari</string>
 <string name="AdPolicyText">Possiamo utilizzare i tuoi dati personali per personalizzare gli annunci pubblicitari per te? Se selezioni sì, i nostri partner pubblicitari come Google AdMob e Unity Ads raccoglieranno dati e utilizzeranno cookie e identificatori di dispositivo per la personalizzazione degli annunci. Se selezioni no, potresti comunque vedere annunci non personalizzati. Per nascondere tutti gli annunci, acquista [httpstore]qui[] l'aggiornamento per rimuoverli. In questo modo, quando ospiterai le partite, tu e i tuoi amici non vedrete nessun annuncio! Per saperne di più sulle nostre pratiche relative alla privacy e su quelle dei nostri partner pubblicitari, consulta la nostra [https://www.innersloth.com/it/privacy-policy-italian/]informativa sulla privacy[]. Puoi modificare la tua scelta in qualsiasi momento nelle impostazioni alla voce Dati.</string>
 <string name="Accept">Accetta</string>
@@ -226,7 +271,9 @@
 <string name="PlainYes">Sì</string>
 <string name="PlainNo">No</string>
 <string name="PrivacyPolicyTitle">Informativa sulla privacy</string>
-<string name="PrivacyPolicyText">Innersloth processa alcuni dati personali per Among Us. Leggi la nostra \%link="https://www.innersloth.com/it/privacy-policy-italian/"\%informativa sulla privacy\%/link\% per saperne di più sulle nostre norme relative alla privacy. Puoi modificare le impostazioni sui tuoi dati personali nel menu Dati.\%nl\%\%nl\%Leggi le \%link="https://www.innersloth.com/it/terms-of-services-games-it/"\%Condizioni d’uso\%/link\% prima di giocare ad Among Us.</string>
+<string name="PrivacyPolicyText">Innersloth processa alcuni dati personali per Among Us. Leggi la nostra {link="https://www.innersloth.com/it/privacy-policy-italian/"}informativa sulla privacy{/link} per saperne di più sulle nostre norme relative alla privacy.
+
+Leggi le {link="https://www.innersloth.com/it/terms-of-services-games-it/"}Condizioni d’uso{/link} prima di giocare ad Among Us.</string>
 <string name="ManageDataButton">Gestisci</string>
 <string name="UnderstandButton">Ho capito</string>
 <string name="WaterPlants">Innaffia le piante</string>
@@ -305,23 +352,45 @@
 <string name="VentMove">Muoviti nel condotto</string>
 <string name="MenuNavigate">Esplora</string>
 <string name="NsoError">Impossibile connettersi alla rete.</string>
-<string name="ErrorServerOverload">I server di Among Us sono sovraccarichi.\%nl\%\%nl\%Ci dispiace, riprova più tardi!</string>
+<string name="ErrorServerOverload">I server di Among Us sono sovraccarichi.
+
+Ci dispiace, riprova più tardi!</string>
 <string name="ErrorIntentionalLeaving">Dopo esserti disconnesso volontariamente, non puoi unirti a un'altra partita per {0} minuti.</string>
 <string name="ErrorFocusLost">Sei stato disconnesso perché Among Us è stato sospeso da un'altra app.</string>
-<string name="ErrorBanned">Sei stato bannato da {0}.\%nl\%\%nl\%Non puoi tornare in quella stanza.</string>
-<string name="ErrorKicked">Sei stato espulso da {0}.\%nl\%\%nl\%Puoi rientrare se la stanza non ha iniziato una partita.</string>
-<string name="ErrorBannedNoCode">Sei stato bannato dalla stanza.\%nl\%\%nl\%Non puoi tornare in quella stanza.</string>
-<string name="ErrorKickedNoCode">Sei stato espulso dalla stanza.\%nl\%\%nl\%Puoi rientrare se la stanza non ha iniziato una partita.</string>
-<string name="ErrorHacking">Sei stato bannato per hacking.\%nl\%\%nl\%Smetti di farlo.</string>
-<string name="ErrorFullGame">La partita è al completo e non puoi unirti.\%nl\%\%nl\%Chiedi all'host se puoi partecipare alla prossima partita.</string>
-<string name="ErrorStartedGame">La partita è iniziata e non puoi unirti.\%nl\%\%nl\%Chiedi all'host se puoi partecipare alla prossima partita.</string>
+<string name="ErrorBanned">Sei stato bannato da {0}.
+
+Non puoi tornare in quella stanza.</string>
+<string name="ErrorKicked">Sei stato espulso da {0}.
+
+Puoi rientrare se la stanza non ha iniziato una partita.</string>
+<string name="ErrorBannedNoCode">Sei stato bannato dalla stanza.
+
+Non puoi tornare in quella stanza.</string>
+<string name="ErrorKickedNoCode">Sei stato espulso dalla stanza.
+
+Puoi rientrare se la stanza non ha iniziato una partita.</string>
+<string name="ErrorHacking">Sei stato bannato per hacking.
+
+Smetti di farlo.</string>
+<string name="ErrorFullGame">La partita è al completo e non puoi unirti.
+
+Chiedi all'host se puoi partecipare alla prossima partita.</string>
+<string name="ErrorStartedGame">La partita è iniziata e non puoi unirti.
+
+Chiedi all'host se puoi partecipare alla prossima partita.</string>
 <string name="ErrorNotFoundGame">Non è stato possibile trovare la partita che stai cercando.</string>
 <string name="ErrorInactivity">Il server ha interrotto questa partita, forse per inattività.</string>
-<string name="ErrorGenericOnlineDisconnect">Sei stato disconnesso dal server.\%nl\%Se succede spesso, controlla la potenza del segnale di rete.\%nl\%Potrebbe anche trattarsi di un problema al server.</string>
-<string name="ErrorGenericLocalDisconnect">Sei stato disconnesso dall'host.\%nl\%\%nl\%Se succede spesso, controlla la potenza del segnale Wi-Fi.</string>
+<string name="ErrorGenericOnlineDisconnect">Sei stato disconnesso dal server.
+Se succede spesso, controlla la potenza del segnale di rete.
+Potrebbe anche trattarsi di un problema al server.</string>
+<string name="ErrorGenericLocalDisconnect">Sei stato disconnesso dall'host.
+
+Se succede spesso, controlla la potenza del segnale Wi-Fi.</string>
 <string name="ErrorInvalidName">Il server ha rifiutato il nome utente: {0}</string>
 <string name="ErrorUnknown">Sei stato disconnesso dal server per un errore sconosciuto.</string>
-<string name="ErrorIncorrectVersion">Stai utilizzando una vecchia versione dell'applicazione.\%nl\%\%nl\%Aggiornala per giocare con gli altri.</string>
+<string name="ErrorIncorrectVersion">Stai utilizzando una vecchia versione dell'applicazione.
+
+Aggiornala per giocare con gli altri.</string>
 <string name="ServerNA">Nord America</string>
 <string name="ServerEU">Europa</string>
 <string name="ServerAS">Asia</string>
@@ -397,7 +466,9 @@
 <string name="MedWT">P:</string>
 <string name="MedETA">ATTENDI {0}</string>
 <string name="MedHello">SALVE!</string>
-<string name="LobbySizeWarning">È possibile giocare ad Among Us in 4, ma consigliamo almeno 5 giocatori.\%nl\%\%nl\%Le partite con 4 giocatori saranno molto brevi e l'impostore vincerà spesso.</string>
+<string name="LobbySizeWarning">È possibile giocare ad Among Us in 4, ma consigliamo almeno 5 giocatori.
+
+Le partite con 4 giocatori saranno molto brevi e l'impostore vincerà spesso.</string>
 <string name="Okay">OK</string>
 <string name="OkayDontShow">OK, non mostrare più</string>
 <string name="Nevermind">Annulla</string>
@@ -791,7 +862,14 @@
 <string name="GoOffline">Vai offline</string>
 <string name="PlayAsGuest">Gioca come ospite</string>
 <string name="LogInTitle">Accedi a un account</string>
-<string name="LogInInfoText">Accedi o crea un account Among Us per approfittare di funzioni quali:\%nl\%\%nl\%- Il salvataggio dei progressi sui dispositivi selezionati\%nl\%- L'accesso alla chat libera\%nl\%- Il collegamento degli elementi estetici\%nl\%- E molto altro!\%nl\%\%nl\%Alcune funzioni potrebbero richiedere il consenso di un genitore o tutore, in base al tipo di account.</string>
+<string name="LogInInfoText">Accedi o crea un account Among Us per approfittare di funzioni quali:
+
+- Il salvataggio dei progressi sui dispositivi selezionati
+- L'accesso alla chat libera
+- Il collegamento degli elementi estetici
+- E molto altro!
+
+Alcune funzioni potrebbero richiedere il consenso di un genitore o tutore, in base al tipo di account.</string>
 <string name="LogInInfoTextSwitch">Se crei un account completo, puoi sempre accedere di nuovo in un secondo momento. Se non hai un account, ne verrà creato uno per te automaticamente.</string>
 <string name="ControllerDisconnectedMessage">Controller non collegato</string>
 <string name="FollowUs">Seguici!</string>
@@ -874,7 +952,9 @@
 <string name="ProgressLabel">Progressi:</string>
 <string name="TermsOfUseTitle">Termini d'utilizzo</string>
 <string name="PPAndToUTitle">Informativa sulla privacy e Termini d'utilizzo</string>
-<string name="ErrorNotAuthenticated">Non è stato possibile autenticarti sui server di Among Us.\%nl\%\%nl\%Per giocare online, devi avere un account di Among Us.</string>
+<string name="ErrorNotAuthenticated">Non è stato possibile autenticarti sui server di Among Us.
+
+Per giocare online, devi avere un account di Among Us.</string>
 <string name="ComePlayDiscord">Gioca ad Among Us con me!</string>
 <string name="ShowAccountSupportID5">Mostra ID assistenza account</string>
 <string name="ShowAccountSupportID4">Premi altre 4 volte per mostrare</string>
@@ -1343,18 +1423,33 @@
 <string name="LinkAccount">Collega account</string>
 <string name="CreateNewAccount">Crea nuovo account</string>
 <string name="LinkExistingAccount">Collega un account esistente</string>
-<string name="LinkAccountExplanation">Se possiedi già un account Among Us su un'altra piattaforma, potresti collegarlo!\%nl\%In alternativa, puoi creare un nuovo account.</string>
-<string name="LinkAccountCode">Inserisci il codice seguente qui: \%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\%</string>
+<string name="LinkAccountExplanation">Se possiedi già un account Among Us su un'altra piattaforma, potresti collegarlo!
+In alternativa, puoi creare un nuovo account.</string>
+<string name="LinkAccountCode">Inserisci il codice seguente qui: {link="{0}"}{1}{/link} 
+{size=+2}{2}{/size}</string>
 <string name="ErrorLink">Qualcosa è andato storto durante il collegamento del tuo account. Riprova più tardi.</string>
 <string name="UnlinkAccount">Scollega account</string>
 <string name="ConfirmUnlinkAccount">Conferma scollegamento account</string>
-<string name="UnlinkAccountExplain">Scollegare il tuo account {0} cancellerà i tuoi dati e creerà un nuovo account {0}.\%nl\%- Perderai gli oggetti ricevuti o sbloccati sul tuo account {0}.\%nl\%- Ripartirai dal livello 1 con 0 XP.</string>
-<string name="UnlinkAccountExplainConfirm">Conserva questo ID come riferimento:\%nl\%\%nl\%{0}\%nl\%\%nl\%Se scolleghi il tuo account e non hai questo ID, non potremo recuperare i tuoi progressi e non potremo assisterti in caso di errore.</string>
+<string name="UnlinkAccountExplain">Scollegare il tuo account {0} cancellerà i tuoi dati e creerà un nuovo account {0}.
+- Perderai gli oggetti ricevuti o sbloccati sul tuo account {0}.
+- Ripartirai dal livello 1 con 0 XP.</string>
+<string name="UnlinkAccountExplainConfirm">Conserva questo ID come riferimento:
+
+{0}
+
+Se scolleghi il tuo account e non hai questo ID, non potremo recuperare i tuoi progressi e non potremo assisterti in caso di errore.</string>
 <string name="UnlinkError">Qualcosa è andato storto durante lo scollegamento del tuo account. Riprova più tardi.</string>
 <string name="UnlinkSuccess">Hai scollegato con successo {0} dal tuo account principale di Among Us!</string>
 <string name="ConfirmLinkExistingAccount">Conferma collegamento ad account esistente</string>
-<string name="LinkExistingAccountExplain">Collegare un account differente sovrascriverà tutti i dati su questa piattaforma. Questo significa che il tuo account {0} di Among Us sarà sostituito dall’altro account.\%nl\%- Tutti gli oggetti sbloccati sul tuo altro account {0} saranno sovrascritti.\%nl\%- Tutti gli XP ottenuti sul tuo account {0} saranno sovrascritti.\%nl\%- Tutti i Fagioli, le Capsule e le Stelle saranno sovrascritti.</string>
-<string name="LinkExistingAccountExplainConfirm">Non appena avrai confermato, effettueremo un reset del tuo account {0} di Among Us in preparazione all’importazione dei dati da un account differente.\%nl\%\%nl\%\%color=#{1}\%ASSICURATI DI AVERE UN ALTRO ACCOUNT ESISTENTE CHE DESIDERI COLLEGARE PRIMA DI PROCEDERE.\%/color\%\%nl\%\%nl\%Il reset del tuo account {0} azzererà XP, Fagioli, Capsule e oggetti. NON sarà possibile annullare questo processo.</string>
+<string name="LinkExistingAccountExplain">Collegare un account differente sovrascriverà tutti i dati su questa piattaforma. Questo significa che il tuo account {0} di Among Us sarà sostituito dall’altro account.
+- Tutti gli oggetti sbloccati sul tuo altro account {0} saranno sovrascritti.
+- Tutti gli XP ottenuti sul tuo account {0} saranno sovrascritti.
+- Tutti i Fagioli, le Capsule e le Stelle saranno sovrascritti.</string>
+<string name="LinkExistingAccountExplainConfirm">Non appena avrai confermato, effettueremo un reset del tuo account {0} di Among Us in preparazione all’importazione dei dati da un account differente.
+
+{color=#{1}}ASSICURATI DI AVERE UN ALTRO ACCOUNT ESISTENTE CHE DESIDERI COLLEGARE PRIMA DI PROCEDERE.{/color}
+
+Il reset del tuo account {0} azzererà XP, Fagioli, Capsule e oggetti. NON sarà possibile annullare questo processo.</string>
 <string name="ResetAccount">Reset Account</string>
 <string name="PurchasingLabel">Acquisto oggetto</string>
 <string name="ErrorInternalServer">Errore interno del server (codice {0})</string>
@@ -1440,11 +1535,13 @@
 <string name="RoleChanceAndQuantity">{0} con {1}% di probabilità</string>
 <string name="CheckingPurchasesLabel">Conferma acquisti in corso...</string>
 <string name="ProtectedRecently">L'Angelo custode ha protetto qualcuno recentemente...</string>
-<string name="ScientistBlurbMed">Accedi ai segni vitali quando vuoi.\%nl\%Completa incarichi per ricaricare le batterie.</string>
+<string name="ScientistBlurbMed">Accedi ai segni vitali quando vuoi.
+Completa incarichi per ricaricare le batterie.</string>
 <string name="ScientistBlurbLong">Lo Scienziato può accedere ai segni vitali quando vuole, per controllare lo stato dell'equipaggio. Tuttavia, il pannello portatile va caricato, perciò lo Scienziato deve completare incarichi per ricaricare le batterie.</string>
 <string name="EngineerBlurbMed">Puoi usare i condotti.</string>
 <string name="EngineerBlurbLong">L'Ingegnere è un astronauta che può utilizzare i condotti per muoversi rapidamente e scoprire gli impostori che li stanno usando. Tuttavia, non può stare sempre nei condotti, perciò è necessario fare attenzione...</string>
-<string name="GuardianAngelBlurbMed">Crea uno scudo per proteggere l'equipaggio\%nl\%sopravvissuto.</string>
+<string name="GuardianAngelBlurbMed">Crea uno scudo per proteggere l'equipaggio
+sopravvissuto.</string>
 <string name="GuardianAngelBlurbLong">L'Angelo custode è il fantasma del primo astronauta morto. Può proteggere temporaneamente gli altri astronauti ancora vivi. Col giusto tempismo, può impedire a un impostore di uccidere la sua vittima!</string>
 <string name="ShapeshifterBlurbMed">Camuffati assumendo l'aspetto di altri astronauti.</string>
 <string name="ShapeshifterBlurbLong">Il Mutaforma può assumere l'aspetto di altri astronauti. Sfruttando quest'abilità, è possibile incastrare altri astronauti e nascondere la vera identità dell'impostore. Tuttavia, la trasformazione ha durata limitata e lascia delle tracce.</string>
@@ -1476,7 +1573,10 @@
 <string name="Cosmetic.skin_vi">Abiti di Vi</string>
 <string name="Cosmetic.pet_poro">Poro di Heimerdinger</string>
 <string name="RedeemPurchasedItemsTitle">Riscatta oggetti acquistati</string>
-<string name="RedeemPurcahsedItemsExplain">Abbiamo un nuovo inventario che ti permette di accedere ai tuoi oggetti su tutte le piattaforme! Qualsiasi oggetto acquistato in precedenza può essere trasferito nel nuovo inventario UNA SOLA VOLTA.\%nl\%Se questo è il tuo account Among Us principale (la piattaforma su cui giochi più spesso ad Among Us), seleziona Procedi e riscatta i DLC che hai acquistato nel nuovo inventario. Se questo è un account che intendi collegare al tuo account principale, dovresti riscattare solo dopo aver effettuato il collegamento!\%nl\%\%nl\%ID account: {0}</string>
+<string name="RedeemPurcahsedItemsExplain">Abbiamo un nuovo inventario che ti permette di accedere ai tuoi oggetti su tutte le piattaforme! Qualsiasi oggetto acquistato in precedenza può essere trasferito nel nuovo inventario UNA SOLA VOLTA.
+Se questo è il tuo account Among Us principale (la piattaforma su cui giochi più spesso ad Among Us), seleziona Procedi e riscatta i DLC che hai acquistato nel nuovo inventario. Se questo è un account che intendi collegare al tuo account principale, dovresti riscattare solo dopo aver effettuato il collegamento!
+
+ID account: {0}</string>
 <string name="RedeemProceed">Procedi</string>
 <string name="RedeemNotYet">Non ora</string>
 <string name="RedeemNever">Non chiedermelo più</string>
@@ -1535,7 +1635,8 @@
 <string name="Cosmetic.skin_witch">Streghetta</string>
 <string name="Cosmetic.pet_frankendog">Frankencane</string>
 <string name="Cosmetic.hat_mohawk_bubblegum">Cresta - Chewing gum</string>
-<string name="AvailableFor">Disponibile per \%nl\%{0}g {1}h {2}m {3}s</string>
+<string name="AvailableFor">Disponibile per 
+{0}g {1}h {2}m {3}s</string>
 <string name="GuardianAngelImpostorSeeProtect">Protezione visibile agli impostori</string>
 <string name="Cosmetic.hat_pkHW01_PlagueHat">Medico della peste</string>
 <string name="QCAccIsRole">{0} è {1}</string>
@@ -1552,7 +1653,11 @@
 <string name="QCResProtected">{0} ha protetto {1}</string>
 <string name="QCResProtected_ANY_QCCrewMe">{0} mi ha protetto</string>
 <string name="QCRoles">Ruoli</string>
-<string name="GuestProgressionWarning">Hai effettuato l'accesso con un account ospite! \%nl\%\%nl\%Gli XP, le Capsule e i Fagioli ottenuti si applicheranno solo a questo account ospite. Gli account ospite sono collegati soltanto al tuo dispositivo e saranno persi se cambi dispositivo. \%nl\%\%nl\%Per assicurarti l'accesso alle valute ottenute e agli acquisti, apri il tab account nel menu principale ed effettua l'accesso al tuo account Among Us.</string>
+<string name="GuestProgressionWarning">Hai effettuato l'accesso con un account ospite! 
+
+Gli XP, le Capsule e i Fagioli ottenuti si applicheranno solo a questo account ospite. Gli account ospite sono collegati soltanto al tuo dispositivo e saranno persi se cambi dispositivo. 
+
+Per assicurarti l'accesso alle valute ottenute e agli acquisti, apri il tab account nel menu principale ed effettua l'accesso al tuo account Among Us.</string>
 <string name="ErrorFailedToCreateGame">Impossibile creare una sessione di gioco. Riprova più tardi.</string>
 <string name="ErrorFailedToJoinCreatedGame">Impossibile unirsi alla sessione di gioco dopo averla creata. Riprova più tardi.</string>
 <string name="ErrorDisconnectBeforeJoining">Sei stato disconnesso prima di unirti alla sessione di gioco.</string>
@@ -1644,7 +1749,9 @@
 <string name="BlockedPlayers">Giocatori bloccati</string>
 <string name="RecentPlayers">Compagni di gioco recenti</string>
 <string name="LobbyLabel">Lobby</string>
-<string name="FriendCodeExplanation">Among Us ha ora una lista amici! Per inviare e ricevere richieste di amicizia e inviti a partite, scegli un codice amico unico qui sotto.\%nl\%\%nl\%Una volta scelto, non potrai modificarlo.</string>
+<string name="FriendCodeExplanation">Among Us ha ora una lista amici! Per inviare e ricevere richieste di amicizia e inviti a partite, scegli un codice amico unico qui sotto.
+
+Una volta scelto, non potrai modificarlo.</string>
 <string name="FriendCodeSuccess">Il tuo codice amico è {0}</string>
 <string name="FriendRequestReceived">Richiesta di amicizia ricevuta</string>
 <string name="FriendRequestSent">Richiesta di amicizia inviata</string>
@@ -1681,7 +1788,8 @@
 <string name="ErrorTooManyRequests">Troppe richieste per lobby. Aspetta qualche minuto prima di riprovare.</string>
 <string name="TempDisabled">Temporaneamente disabilitato</string>
 <string name="TempDisabledLinkExplain">Stiamo aggiornando la funzionalità account. Abbiamo temporaneamente disabilitato la possibilità di collegare account esistenti. Sarà di nuovo disponibile in un prossimo aggiornamento!</string>
-<string name="RedeemPopup">Ecco un regalo dall'equipaggio!\%nl\%{0}</string>
+<string name="RedeemPopup">Ecco un regalo dall'equipaggio!
+{0}</string>
 <string name="RedeemButton">Riscatta</string>
 <string name="ErrorMaxFriends">La tua lista amici è piena.</string>
 <string name="ErrorPlayerBlockedYou">Errore: hai bloccato quest'utente o l'utente ti ha bloccato.</string>
@@ -1693,10 +1801,14 @@
 <string name="Decontamination3">Decontaminazione inferiore</string>
 <string name="ErrorCommunications">Le tue impostazioni di comunicazione ti impediscono di unirti alla partita. Per unirti a questa partita, attiva la comunicazione con altri utenti.</string>
 <string name="SettingsColorblind">Testo per daltonismo</string>
-<string name="MergeGuestAccountText">Sembra che su questo dispositivo sia presente un \%link="https://www.innersloth.com/merging-guest-accounts/"\%account ospite\%/link\% ! Gli account ospite non sono più supportati, pertanto uniremo tutti gli oggetti, le valute e l'esperienza del tuo account ospite a quelle di questo account {0}.\%nl\%\%nl\%Se questo dispositivo (computer, telefono, ecc.) è usato anche da altre persone, ricorda che questo account ospite è CONDIVISO tra tutti coloro che utilizzano questo dispositivo. Se procederai, gli altri utenti di questo dispositivo non potranno unire i dati di questo account ospite, e potrai effettuare questa operazione UNA SOLA VOLTA. NON potrai ridistribuire nuovamente gli oggetti, le valute e l'esperienza collegate a questo account ospite.\%nl\%\%nl\%Conferma di voler unire il tuo account ospite a questo account {0}.</string>
+<string name="MergeGuestAccountText">Sembra che su questo dispositivo sia presente un {link="https://www.innersloth.com/merging-guest-accounts/"}account ospite{/link} ! Gli account ospite non sono più supportati, pertanto uniremo tutti gli oggetti, le valute e l'esperienza del tuo account ospite a quelle di questo account {0}.
+
+Se questo dispositivo (computer, telefono, ecc.) è usato anche da altre persone, ricorda che questo account ospite è CONDIVISO tra tutti coloro che utilizzano questo dispositivo. Se procederai, gli altri utenti di questo dispositivo non potranno unire i dati di questo account ospite, e potrai effettuare questa operazione UNA SOLA VOLTA. NON potrai ridistribuire nuovamente gli oggetti, le valute e l'esperienza collegate a questo account ospite.
+
+Conferma di voler unire il tuo account ospite a questo account {0}.</string>
 <string name="MergeGuestAccountTitle">Unisci l'account ospite</string>
 <string name="ManageAccountTitle">Gestisci l'account</string>
-<string name="ManageAccountText">Visita \%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% per gestire il tuo account, l'unione, o se incontri altri problemi.</string>
+<string name="ManageAccountText">Visita {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} per gestire il tuo account, l'unione, o se incontri altri problemi.</string>
 <string name="Cosmetic.visor_BaconVisor">Davvero felice di vederti</string>
 <string name="Cosmetic.hat_Baguette">Pagnotta di dolore</string>
 <string name="Cosmetic.skin_Bananaskin">Banana danzante</string>
@@ -1766,12 +1878,15 @@
 <string name="Cosmetic.nameplate_Orange">T'avanza un'arancia?</string>
 <string name="Cosmetic.hat_sausage">Annodato</string>
 <string name="SignInIssueTitle">Errore dell'account {0}</string>
-<string name="SignInIssueText">Il tuo {0} non può essere usato per creare un account Among Us a causa delle restrizioni di {0} relative all'età.\%nl\%\%nl\%Puoi continuare a giocare ad Among Us su questo dispositivo, ma per questioni di sicurezza limiteremo alcune funzioni tra cui: collegamento dell'account, acquisto delle Stelle e trasferimento degli oggetti a un altro dispositivo. Per qualsiasi dubbio, puoi scriverci all'indirizzo support@innersloth.com</string>
+<string name="SignInIssueText">Il tuo {0} non può essere usato per creare un account Among Us a causa delle restrizioni di {0} relative all'età.
+
+Puoi continuare a giocare ad Among Us su questo dispositivo, ma per questioni di sicurezza limiteremo alcune funzioni tra cui: collegamento dell'account, acquisto delle Stelle e trasferimento degli oggetti a un altro dispositivo. Per qualsiasi dubbio, puoi scriverci all'indirizzo support@innersloth.com</string>
 <string name="FriendListUnavailable">Lista amici non disponibile</string>
 <string name="ErrorSanction">Il tuo account è stato sospeso. Motivazione: {0}. Durata: {1}.</string>
 <string name="SanctionDuration">fino alla data {0}</string>
 <string name="SanctionPermanent">permanente</string>
-<string name="SanctionConduct">\%nl\%Approfitta di questa occasione per riflettere e rileggere il nostro \%link="https://www.innersloth.com/it/codice-di-comportamento/"\%codice di comportamento\%/link\%!</string>
+<string name="SanctionConduct">
+Approfitta di questa occasione per riflettere e rileggere il nostro {link="https://www.innersloth.com/it/codice-di-comportamento/"}codice di comportamento{/link}!</string>
 <string name="SanctionSexualMisconduct">condotta sessuale inappropriata</string>
 <string name="SanctionDoxing">condivisione o minaccia di condivisione di informazioni personali o doxing</string>
 <string name="SanctionIllegalActivity">promozione o partecipazione a un'attività illegale</string>
@@ -1845,10 +1960,14 @@
 <string name="Cosmetic.visor_hl_nudge">Frecciatina</string>
 <string name="Cosmetic.visor_hl_marine">Benda di Marine</string>
 <string name="Cosmetic.visor_hl_wrong">Ahah cosa può esserci che non va?</string>
-<string name="AccountDeleteHelp">Premendo CONFERMA, richiederai l'eliminazione di tutti i tuoi dati di Among Us. Saranno necessari 7-14 giorni per evadere questa richiesta e comporterà l'eliminazione di tutte le Stelle, PE, Fagioli, Pod ed Elementi estetici acquistati. L'eliminazione dell'account è irreversibile. Il tuo account funzionerà normalmente fino a quando il processo di eliminazione non sarà completato.\%nl\%\%nl\%Se riscontri degli errori, contatta support@innersloth.com.</string>
+<string name="AccountDeleteHelp">Premendo CONFERMA, richiederai l'eliminazione di tutti i tuoi dati di Among Us. Saranno necessari 7-14 giorni per evadere questa richiesta e comporterà l'eliminazione di tutte le Stelle, PE, Fagioli, Pod ed Elementi estetici acquistati. L'eliminazione dell'account è irreversibile. Il tuo account funzionerà normalmente fino a quando il processo di eliminazione non sarà completato.
+
+Se riscontri degli errori, contatta support@innersloth.com.</string>
 <string name="DeleteAccount">Elimina account</string>
 <string name="DoNotDeleteAccount">Annulla eliminazione account</string>
-<string name="AccountUnDeleteHelp">Premendo CONFERMA, interromperai il processo di eliminazione dell'account. Se vorrai eliminare l'account, dovrai inoltrare una nuova richiesta.\%nl\%\%nl\%Se riscontri degli errori, contatta support@innersloth.com.</string>
+<string name="AccountUnDeleteHelp">Premendo CONFERMA, interromperai il processo di eliminazione dell'account. Se vorrai eliminare l'account, dovrai inoltrare una nuova richiesta.
+
+Se riscontri degli errori, contatta support@innersloth.com.</string>
 <string name="ConfirmDelete">Digita DELETE per confermare</string>
 <string name="ConfirmDeleteAccounts">Spunta questa casella per confermare di aver compreso che quest'azione eliminerà questo account e quelli a esso collegati ({0}).</string>
 <string name="ConfirmDeleteAccountsEmpty">Spunta questa casella per confermare di aver compreso che quest'azione eliminerà questo account e quelli a esso collegati.</string>
@@ -1866,7 +1985,8 @@
 <string name="Ghost">Fantasma</string>
 <string name="CurrentlyHaunting">Sta tormentando:</string>
 <string name="RoundRobin">Round-robin</string>
-<string name="RuleOneCrewmates">Sopravvivi fino allo scadere del tempo.\%nl\%Completa gli incarichi per ridurre il timer.</string>
+<string name="RuleOneCrewmates">Sopravvivi fino allo scadere del tempo.
+Completa gli incarichi per ridurre il timer.</string>
 <string name="RuleTwoCrewmates">Usa i condotti e il Rischiometro per nasconderti!</string>
 <string name="RuleThreeCrewmates">L'Impostore potrà scovarti allo scadere del tempo!</string>
 <string name="RuleOneImpostor">Uccidi gli Astronauti entro il limite di tempo!</string>
@@ -1896,20 +2016,29 @@
 <string name="DefaultFilterTag_Casual">Disimpegnato</string>
 <string name="DefaultFilterTag_Serious">Serio</string>
 <string name="DefaultFilterTag_Expert">Esperto</string>
-<string name="TagFiltersHelpFindGame">Puoi filtrare la ricerca delle partite selezionando le etichette nel menu a tendina Filtri. I risultati delle ricerche cambaceranno \%i\%esattamente\%/i\% con i filtri scelti.\%nl\%\%nl\%Esempio: se selezioni \%b\%Disimpegnato\%/b\% ed \%b\% Esperto\%/b\%, troverai solo partite etichettate con entrambi i filtri.</string>
-<string name="TagFiltersHelpCreate">Puoi usare i filtri per assegnare delle etichette alle tue partite e aiutare i giocatori a trovarle. I risultati delle ricerche combaceranno \%i\%esattamente\%/i\% con i filtri scelti.\%nl\%\%nl\%Esempio: se selezioni \%b\%Disimpegnato\%/b\% ed \%b\% Esperto\%/b\%, solo i giocatori che hanno selezionato entrambi i filtri troveranno la tua partita.</string>
+<string name="TagFiltersHelpFindGame">Puoi filtrare la ricerca delle partite selezionando le etichette nel menu a tendina Filtri. I risultati delle ricerche cambaceranno {i}esattamente{/i} con i filtri scelti.
+
+Esempio: se selezioni {b}Disimpegnato{/b} ed {b} Esperto{/b}, troverai solo partite etichettate con entrambi i filtri.</string>
+<string name="TagFiltersHelpCreate">Puoi usare i filtri per assegnare delle etichette alle tue partite e aiutare i giocatori a trovarle. I risultati delle ricerche combaceranno {i}esattamente{/i} con i filtri scelti.
+
+Esempio: se selezioni {b}Disimpegnato{/b} ed {b} Esperto{/b}, solo i giocatori che hanno selezionato entrambi i filtri troveranno la tua partita.</string>
 <string name="CreateLabel">Crea</string>
 <string name="NewGameMode">Nuova modalità di gioco!</string>
-<string name="NewModeInfo">La posta in gioco è altissima in questa modalità mozzafiato!\%nl\%\%i\%Ma non pensate che sia un normale Nascondino...\%/i\%</string>
+<string name="NewModeInfo">La posta in gioco è altissima in questa modalità mozzafiato!
+{i}Ma non pensate che sia un normale Nascondino...{/i}</string>
 <string name="HideSeekHowToPlayCaptionOne">È semplice!</string>
 <string name="HideSeekHowToPlayCaptionTwo">Astronauti!</string>
 <string name="HideSeekHowToPlayCaptionThree">Impostori!</string>
-<string name="HideSeekHowToPlayPageOne">Gli \%color=#38F25D\%\%b\%Astronauti\%/b\%\%/color\% devono completare gli incarichi per accelerare il cronometro, evitare l'Impostore e sopravvivere fino allo scadere del tempo.\%nl\%\%nl\%L'\%color=#FF3131\%\%b\%Impostore\%/b\%\%/color\% deve scovare gli Astronauti e farli fuori tutti.</string>
+<string name="HideSeekHowToPlayPageOne">Gli {color=#38F25D}{b}Astronauti{/b}{/color} devono completare gli incarichi per accelerare il cronometro, evitare l'Impostore e sopravvivere fino allo scadere del tempo.
+
+L'{color=#FF3131}{b}Impostore{/b}{/color} deve scovare gli Astronauti e farli fuori tutti.</string>
 <string name="HideSeekHowToPlaySubtextOne">Non c'è spazio per la deduzione sociale qui, ci sono solo urla di terrore.</string>
 <string name="HideSeekHowToPlayCrewmateInfoOne">Dovrai nasconderti davvero bene per sopravvivere.</string>
 <string name="HideSeekHowToPlayCrewmateInfoTwo">In questa modalità puoi usare i condotti e avere un avanzatissimo Rischiometro che ti avverte quando l'Impostore è nelle vicinanze. L'impostore ha un raggio di visione limitato, quindi sfrutta il tuo acume, i condotti e i visori per sfuggirgli!</string>
 <string name="HideSeekHowToPlayImpostorInfoOne">L'Impostore non può usare i condotti in questa modalità, quindi dovrai agire rapidamente per stanare la tua preda. È buio là fuori! Fortunatamente hai una torcia elettrica che ti aiuterà a individuare le tue prossime vittime.</string>
-<string name="HideSeekHowToPlayFinalHide">A che ora è la fine del mondooo? Negli ultimi istanti della partita, l'Impostore diventa più forte: si muoverà più velocemente, riceverà una mappa Caccia e un segnale direzionale che indicherà la posizione degli Astronauti ancora in vita.\%nl\%\%nl\%Non fare mosse avventate e mantieni la calma per vincere!</string>
+<string name="HideSeekHowToPlayFinalHide">A che ora è la fine del mondooo? Negli ultimi istanti della partita, l'Impostore diventa più forte: si muoverà più velocemente, riceverà una mappa Caccia e un segnale direzionale che indicherà la posizione degli Astronauti ancora in vita.
+
+Non fare mosse avventate e mantieni la calma per vincere!</string>
 <string name="HideSeekHowToPlayFlashlightMobile">Usa il joystick virtuale della torcia elettrica sulla destra del tuo schermo per dirigere il raggio di luce e uccidi tutti gli Astronauti che trovi!</string>
 <string name="HideSeekHowToPlayFlashlightDefault">Usa il tuo mouse per dirigere il raggio di luce della tua torcia elettrica e uccidi tutti gli Astronauti che trovi!</string>
 <string name="HideSeekHowToPlayFlashlightConsoles">Usa la levetta destra per dirigere il raggio di luce della tua torcia elettrica e uccidi tutti gli Astronauti che trovi!</string>
@@ -2032,7 +2161,9 @@
 <string name="Cosmetic.nameplate_hunter">Orgoglio dei cacciatori</string>
 <string name="Cosmetic.nameplate_lightfall">L'Eclissi</string>
 <string name="AnnouncementErrorSubtitle">Oh-oh! Annunci sabotati!</string>
-<string name="AnnouncementErrorText">Sembra che qualcosa sia andato storto. Assicurati di essere online e di aver effettuato l'aggiornamento all'ultima versione: avrai accesso a tutte le informazioni e ai miglioramenti più recenti di Among Us.\%nl\%\%nl\%Se il problema persiste, inviaci una richiesta di assistenza all'indirizzo support@innersloth.com.</string>
+<string name="AnnouncementErrorText">Sembra che qualcosa sia andato storto. Assicurati di essere online e di aver effettuato l'aggiornamento all'ultima versione: avrai accesso a tutte le informazioni e ai miglioramenti più recenti di Among Us.
+
+Se il problema persiste, inviaci una richiesta di assistenza all'indirizzo support@innersloth.com.</string>
 <string name="ReadMoreLabel">per poter visualizzare l'annuncio completo!</string>
 <string name="ReturnToList">Torna alla lista</string>
 <string name="NavigateLinks">Naviga tra i link</string>
@@ -2056,7 +2187,8 @@
 <string name="AgeVerificationTitle">Verifica dell'età</string>
 <string name="AgeVerificationInfoTitle">Che cos'è la verifica dell'età?</string>
 <string name="AgeVerificationInfo">La verifica dell'età è necessaria per poter accedere ad Among Us. Non conserviamo la tua data di nascita.</string>
-<string name="AgeVerificationMoreInfo">Per maggiori dettagli relativi alla nostra Informativa sulla privacy, visita il sito:\%nl\% \%link="https://www.innersloth.com/it/privacy-policy-italian/"\%https://www.innersloth.com/it/privacy-policy-italian/\%/link\%</string>
+<string name="AgeVerificationMoreInfo">Per maggiori dettagli relativi alla nostra Informativa sulla privacy, visita il sito:
+ {link="https://www.innersloth.com/it/privacy-policy-italian/"}https://www.innersloth.com/it/privacy-policy-italian/{/link}</string>
 <string name="EditLabel">Modifica</string>
 <string name="VerifyAgeText">È la tua data di nascita corretta?</string>
 <string name="Cosmetic.nameplate_flagMlm">Bandiera orgoglio MLM</string>
@@ -2114,9 +2246,15 @@
 <string name="Cosmetic.skin_PusheenPurpleskin">Pusheen lilla pastello</string>
 <string name="Cosmetic.skin_Slothskin">Sloth</string>
 <string name="Cosmetic.hat_bearyCold">Freddolorso</string>
-<string name="EosAccountSilentMergeFail">Si è verificato un problema durante la finalizzazione del tuo account di Among Us. Riprova o continua con un account ospite. Tutti i progressi saranno salvati, ma ti raccomandiamo di impostare un account così potrai approfittare di tutte le funzioni offerte da Among Us.\%nl\%\%nl\%Vuoi riprovare a impostare l'account?</string>
-<string name="AskForEosAccount">Hai un account preesistente di Among Us (conosciuto anche come account di Epic Online Services)?\%nl\%\%nl\%Se hai già giocato ad Among Us su questo dispositivo, seleziona Sì.</string>
-<string name="KwsCreateFail">Oh no! Si è verificato un errore durante l'invio dell'email per i permessi del tutore. Riprova o continua in modalità offline.\%nl\%\%nl\%Vuoi riprovare?</string>
+<string name="EosAccountSilentMergeFail">Si è verificato un problema durante la finalizzazione del tuo account di Among Us. Riprova o continua con un account ospite. Tutti i progressi saranno salvati, ma ti raccomandiamo di impostare un account così potrai approfittare di tutte le funzioni offerte da Among Us.
+
+Vuoi riprovare a impostare l'account?</string>
+<string name="AskForEosAccount">Hai un account preesistente di Among Us (conosciuto anche come account di Epic Online Services)?
+
+Se hai già giocato ad Among Us su questo dispositivo, seleziona Sì.</string>
+<string name="KwsCreateFail">Oh no! Si è verificato un errore durante l'invio dell'email per i permessi del tutore. Riprova o continua in modalità offline.
+
+Vuoi riprovare?</string>
 <string name="MissingGuardianEmailText">Nel tuo account manca l'indirizzo di posta elettronica di un tutore. Prima di procedere, dobbiamo chiedere il permesso al tuo tutore via e-mail. Se darà il suo consenso, potrai usare liberamente la chat online e cambiare il tuo nome utente. Chiedi a un adulto di aiutarti!</string>
 <string name="MiningPit">Miniera</string>
 <string name="Jungle">Giungla</string>
@@ -2191,7 +2329,9 @@
 <string name="Cosmetic.nameplate_cliffs">Sedimentarie, Watson</string>
 <string name="ReportNotificationHeader">Grazie per averci aiutato a rendere Among Us un luogo sicuro e accogliente!</string>
 <string name="ReportNotificationBody">La nostra squadra di moderazione controllerà le informazioni che hai segnalato e prenderà provvedimenti appropriati in base al nostro Codice di comportamento.</string>
-<string name="ErrorClientTimeout">Hai perso il collegamento al server. Potrebbe essere a causa di un malfunzionamento del server stesso, oppure di un problema di rete o con il tuo dispositivo. Controlla la potenza del tuo segnale di rete.\%nl\%\%nl\%Se questo problema si verifica spesso, il tuo dispositivo potrebbe essere troppo vecchio oppure non soddisfare i requisiti minimi. Prova a giocare su un altro dispositivo.</string>
+<string name="ErrorClientTimeout">Hai perso il collegamento al server. Potrebbe essere a causa di un malfunzionamento del server stesso, oppure di un problema di rete o con il tuo dispositivo. Controlla la potenza del tuo segnale di rete.
+
+Se questo problema si verifica spesso, il tuo dispositivo potrebbe essere troppo vecchio oppure non soddisfare i requisiti minimi. Prova a giocare su un altro dispositivo.</string>
 <string name="ErrorClientTimeoutConsole">Hai perso la connessione al server. Potrebbe essere a causa di un problema del server o di rete. Controlla la potenza del tuo segnale di rete.</string>
 <string name="Cosmetic.hat_NewYear2024">Buon anno 2024</string>
 <string name="Cosmetic.nameplate_Celeste">Avanti e in alto</string>
@@ -2319,7 +2459,9 @@
 <string name="Cosmetic.nameplate_lny_goldCrewmate">Combriccola in festa</string>
 <string name="Cosmetic.nameplate_lny_goldImpostor">Ciurma funesta</string>
 <string name="AprilFoolsModeToggle">Modalità Pesce d'aprile (elementi cosmetici limitati)</string>
-<string name="ErrorAuthNonceFailure">Sabotaggio! I server di Among Us hanno riscontrato un problema durante il processo di autenticazione. Riprova.\%nl\%\%nl\%Se il problema persiste, non esitare a contattare il nostro \%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%team di supporto\%/link\%.</string>
+<string name="ErrorAuthNonceFailure">Sabotaggio! I server di Among Us hanno riscontrato un problema durante il processo di autenticazione. Riprova.
+
+Se il problema persiste, non esitare a contattare il nostro {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}team di supporto{/link}.</string>
 <string name="Cosmetic.nameplate_crewmatesBlue">Equipaggio Yeah - Blu</string>
 <string name="Cosmetic.nameplate_crewmatesRed">Equipaggio Yeah - Rosso</string>
 <string name="Cosmetic.nameplate_horseHeaven">A caval spaziale...</string>
@@ -2400,7 +2542,8 @@
 <string name="QCSelfSawRoleInLocation">Ho visto {0} nel locale {1}</string>
 <string name="NoisemakerRole">Starnazzatore</string>
 <string name="NoisemakerBlurb">Diffondi un allarme quando muori</string>
-<string name="NoisemakerBlurbMed">Comunichi la tua posizione a tutti gli astronauti\%nl\%quando ti uccidono.</string>
+<string name="NoisemakerBlurbMed">Comunichi la tua posizione a tutti gli astronauti
+quando ti uccidono.</string>
 <string name="NoisemakerBlurbLong">Lo Starnazzatore non è un astronauta qualunque: a differenza degli altri, non ha un'abilità attiva. In compenso, però, diffonde automaticamente un allarme quando viene ucciso dall'impostore. Molto probabilmente l'allarme manderà l'impostore nel panico. Osserva gli astronauti che accorrono sul luogo del misfatto per acciuffare l'assassino e vendicare la tua morte!</string>
 <string name="NoisemakerImpostorAlert">Gli impostori vengono avvisati</string>
 <string name="NoisemakerAlertDuration">Durata allarme</string>
@@ -2408,7 +2551,8 @@
 <string name="PhantomAbilityUndo">Compari</string>
 <string name="PhantomRole">Spettro</string>
 <string name="PhantomBlurb">Diventi invisibile</string>
-<string name="PhantomBlurbMed">Diventi invisibile, puoi aggirarti furtivamente\%nl\%o scampare a un'imboscata.</string>
+<string name="PhantomBlurbMed">Diventi invisibile, puoi aggirarti furtivamente
+o scampare a un'imboscata.</string>
 <string name="PhantomBlurbLong">Lo Spettro può diventare invisibile per avvicinarsi furtivamente a un astronauta o dileguarsi dalla scena del crimine senza farsi beccare. Non può uccidere mentre è invisibile, ma può sfruttare scale e teleferiche. Svanire e ricomparire produce una vistosa nuvola di fumo, quindi è bene assicurarsi che non ci siano astronauti nei paraggi! L'invisibilità non dura per sempre, pertanto un buon tempismo è fortemente consigliato.</string>
 <string name="PhantomCooldown">Ricarica scomparsa</string>
 <string name="PhantomDuration">Durata scomparsa</string>
@@ -2416,7 +2560,8 @@
 <string name="TrackerAbility">Segui</string>
 <string name="TrackerAbilityUndo">Non seguire</string>
 <string name="TrackerBlurb">Segui un astronauta con la tua mappa</string>
-<string name="TrackerBlurbMed">Piazza un tracciatore su un astronauta per seguirne\%nl\%i movimenti sulla mappa.</string>
+<string name="TrackerBlurbMed">Piazza un tracciatore su un astronauta per seguirne
+i movimenti sulla mappa.</string>
 <string name="TrackerBlurbLong">Il Segugio può seguire la posizione di un astronauta sulla mini-mappa. Innanzitutto deve trovarsi alle spalle di un altro astronauta per posizionare il dispositivo di tracciamento, cercando di non risultare sospetto. Il tracciamento dura pochi secondi, pertanto è bene scegliere con cura il proprio bersaglio. Inoltre, scrutare a lungo la mini-mappa è un'attività rischiosa perché l'impostore potrebbe approfittarne per colpire!</string>
 <string name="TrackerCooldown">Ricarica tracciamento</string>
 <string name="TrackerDuration">Durata tracciamento</string>
@@ -2526,18 +2671,25 @@
 <string name="ChatLabel">Chat</string>
 <string name="NoneLowercaseLabel">nessuno</string>
 <string name="ToolTipDefault">Personalizza la tua lobby tramite le seguenti impostazioni.</string>
-<string name="ToolTipClassic">Degli impostori si spacciano per astronauti!\%nl\%Scova il sospetto e vota per cacciarlo.</string>
-<string name="ToolTipHide">Il guardie e ladri definitivo.\%nl\%Non farti catturare dal Cacciatore!</string>
+<string name="ToolTipClassic">Degli impostori si spacciano per astronauti!
+Scova il sospetto e vota per cacciarlo.</string>
+<string name="ToolTipHide">Il guardie e ladri definitivo.
+Non farti catturare dal Cacciatore!</string>
 <string name="ToolTipCapacity">Il numero massimo di giocatori che possono unirsi alla lobby.</string>
 <string name="ToolTipServer">La regione del server in cui creare la partita.</string>
 <string name="ToolTipCrossplay">Possono unirsi alla lobby giocatori con qualsiasi dispositivo.</string>
 <string name="ToolTipNoCrossplay">Possono unirsi alla lobby soltanto giocatori con il tuo stesso dispositivo.</string>
 <string name="ToolTipLanguage">La lingua usata nelle discussioni in gioco.</string>
-<string name="ToolTipSkeld">La Skeld: una nave di dimensioni medie con numerose stanze\%nl\%e corridoi. Ottima per imparare le basi.</string>
-<string name="ToolTipMIRA">MIRA HQ: una mappa piccola con lunghi corridoi\%nl\%e un sistema di condotti accuratamente collegati.</string>
-<string name="ToolTipPolus">Polus: un avamposto planetario con una mappa di\%nl\%dimensioni medie con zone interne ed esterne.</string>
-<string name="ToolTipAirship">L'Airship: una mappa vasta con tantissime stanze differenti\%nl\%per nascondersi o farsi beccare da un Impostore.</string>
-<string name="ToolTipFungle">La Fungle: una vasta isola con una spiaggia soleggiata,\%nl\%una giungla misteriosa e elevati altipiani.</string>
+<string name="ToolTipSkeld">La Skeld: una nave di dimensioni medie con numerose stanze
+e corridoi. Ottima per imparare le basi.</string>
+<string name="ToolTipMIRA">MIRA HQ: una mappa piccola con lunghi corridoi
+e un sistema di condotti accuratamente collegati.</string>
+<string name="ToolTipPolus">Polus: un avamposto planetario con una mappa di
+dimensioni medie con zone interne ed esterne.</string>
+<string name="ToolTipAirship">L'Airship: una mappa vasta con tantissime stanze differenti
+per nascondersi o farsi beccare da un Impostore.</string>
+<string name="ToolTipFungle">La Fungle: una vasta isola con una spiaggia soleggiata,
+una giungla misteriosa e elevati altipiani.</string>
 <string name="ConfirmSettings">Conferma impostazioni</string>
 <string name="ConfirmSettingsTooltip">Stai creando una lobby con le seguenti impostazioni:</string>
 <string name="EnterCodeElipsis">Inserisci codice...</string>
@@ -2578,13 +2730,19 @@
 <string name="FilterExpert">Esperto</string>
 <string name="FilterTag">Etichetta</string>
 <string name="FilterTagTooltip">Filtra per Etichetta della lobby.</string>
-<string name="TooltipTag">Aggiungi un'etichetta per attirare giocatori\%nl\%di specifici livelli di esperienza.</string>
+<string name="TooltipTag">Aggiungi un'etichetta per attirare giocatori
+di specifici livelli di esperienza.</string>
 <string name="SelectedLabel">SELEZIONATA/E:</string>
-<string name="TooltipSpeedInfo">\%b\%Bassa:\%/b\% x0,5-0,75	\%b\%Alta:\%/b\% x1,75-2,25\%nl\%\%b\%Media:\%/b\% x1,0-1,5	\%b\%Elevata:\%/b\% x2,5-3,0</string>
-<string name="TooltipKillCDInfo">\%b\%Basso:\%/b\% 10-20s	\%b\%Alto:\%/b\% 37,5-47,5s\%nl\%\%b\%Medio:\%/b\% 22,5-35s	\%b\%Elevato:\%/b\% 50-60s</string>
-<string name="TooltipVotingInfo">\%b\%Basso:\%/b\% 0-60s	\%b\%Alto:\%/b\% 150-210s\%nl\%\%b\%Medio:\%/b\% 75-135s	\%b\%Elevato:\%/b\% 225-300s</string>
-<string name="TooptipHidingTimeInfo">\%b\%Basso:\%/b\% 160-180s	\%b\%Alto:\%/b\% 260-300s\%nl\%\%b\%Medio:\%/b\% 200-240s</string>
-<string name="TooltipFinalTimeInfo">\%b\%Basso:\%/b\% 30-45s	\%b\%Alto:\%/b\% 75-95s\%nl\%\%b\%Medio:\%/b\% 50-70s	\%b\%Elevato:\%/b\% 100-120s</string>
+<string name="TooltipSpeedInfo">{b}Bassa:{/b} x0,5-0,75	{b}Alta:{/b} x1,75-2,25
+{b}Media:{/b} x1,0-1,5	{b}Elevata:{/b} x2,5-3,0</string>
+<string name="TooltipKillCDInfo">{b}Basso:{/b} 10-20s	{b}Alto:{/b} 37,5-47,5s
+{b}Medio:{/b} 22,5-35s	{b}Elevato:{/b} 50-60s</string>
+<string name="TooltipVotingInfo">{b}Basso:{/b} 0-60s	{b}Alto:{/b} 150-210s
+{b}Medio:{/b} 75-135s	{b}Elevato:{/b} 225-300s</string>
+<string name="TooptipHidingTimeInfo">{b}Basso:{/b} 160-180s	{b}Alto:{/b} 260-300s
+{b}Medio:{/b} 200-240s</string>
+<string name="TooltipFinalTimeInfo">{b}Basso:{/b} 30-45s	{b}Alto:{/b} 75-95s
+{b}Medio:{/b} 50-70s	{b}Elevato:{/b} 100-120s</string>
 <string name="FilterNoMaps">Nessuna mappa selezionata</string>
 <string name="Cosmetic.hat_kamurocho_ichiban">Capelli di Ichiban Kasuga</string>
 <string name="Cosmetic.hat_kamurocho_ono">Cappello di Ono Michio</string>
@@ -2657,7 +2815,8 @@
 <string name="DetectiveAbility">Interroga</string>
 <string name="DetectiveAbilityNotes">Appunti</string>
 <string name="DetectiveBlurb">Raccogli indizi. Risolvi omicidi.</string>
-<string name="DetectiveBlurbMed">Aggiungi indizi agli appunti.\%nl\%Interroga gli astronauti.</string>
+<string name="DetectiveBlurbMed">Aggiungi indizi agli appunti.
+Interroga gli astronauti.</string>
 <string name="DetectiveNotesEmpty">Potrò iniziare le mie indagini non appena avverrà un omicidio...</string>
 <string name="DetectiveNearLocation">Vicino a {0}</string>
 <string name="DetectiveNotesKiller">{0}</string>
@@ -2736,7 +2895,9 @@
 <string name="RewardAdTitle">HAI RICEVUTO UNA STELLA!</string>
 <string name="RewardAdBody1">Un'altra ricompensa Stella sarà disponibile tra {0} ora.</string>
 <string name="RewardAdBody2">Un'altra ricompensa Stella sarà disponibile tra {0} ore.</string>
-<string name="WatchAdErrorBody">Si è verificato un problema durante\%nl\%il caricamento della pubblicità.\%nl\%Riprova più tardi.</string>
+<string name="WatchAdErrorBody">Si è verificato un problema durante
+il caricamento della pubblicità.
+Riprova più tardi.</string>
 <string name="WatchAdErrorTitle">OH OH...</string>
 <string name="Cosmetic.hat_phoenix_wright">Chioma di Phoenix Wright</string>
 <string name="Cosmetic.skin_phoenix_wright">Completo di Phoenix Wright</string>
@@ -2802,4 +2963,27 @@
 <string name="Cosmetic.skin_parasite_Yellow">Grembiule di Giallo</string>
 <string name="Cosmetic.pet_parasite_Stressball">Palla Fido</string>
 <string name="Cosmetic.nameplate_parasite_Impostor">È dietro di te!</string>
+<string name="JudgeRole">Giudice</string>
+<string name="JudgeBlurb">Despotizza una riunione</string>
+<string name="JudgeBlurbMed">Imponiti per espellere un Impostore.
+Se hai torto, subirai tu l'espulsione.</string>
+<string name="JudgeBlurbLong">Prendi il controllo della votazione</string>
+<string name="JudgeTaskRequirement">% incarichi per sbloccare</string>
+<string name="RolesHelp_Judge_01">Il Giudice dispone di una potente abilità in riunione: l'Imposizione. Consente di esercitare un voto speciale contro un Astronauta sospettato di essere l'Impostore.</string>
+<string name="RolesHelp_Judge_02">Quando il Giudice usa questa abilità, solo il suo voto speciale conterà. Se il Giudice ha ragione, l'Impostore sarà espulso. In caso contrario, sarà il Giudice stesso a subire l'espulsione!</string>
+<string name="JudgeAbilityUnlocked">Abilità Giudice sbloccata</string>
+<string name="JudgeAbilityProgress">Completa {0} incarico/i per poter giudicare!</string>
+<string name="JudgeCourtAdjourned">Il verdetto è stato emesso...</string>
+<string name="JudgeHasSpoken">Il Giudice ha deliberato.</string>
+<string name="StatsJudgeSuccessfulOverrules">Imposizioni valide del Giudice:</string>
+<string name="StatsJudgeFailedOverrules">Imposizioni errate del Giudice:</string>
+<string name="JudgeBeatYouToIt">Il Giudice ha deliberato.
+(Un altro Giudice ti ha preceduto)</string>
+<string name="QCJudges">Giudici?</string>
+<string name="QCJudgeOverrule">Mi impongo io</string>
+<string name="QCJudgePlease">Imponiti contro {0}</string>
+<string name="QCJudgeWillOverrule">Mi impongo contro {0}</string>
+<string name="MatchInfoGuideTitle">Guida info partita</string>
+<string name="MatchInfoGuidePlayersLabel">Giocatori</string>
+<string name="MatchInfoGuideNoRolesMessage">Nessun ruolo abilitato</string>
 </resources>

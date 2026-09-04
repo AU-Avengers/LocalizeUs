@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
 <string name="LocalButton">本地</string>
 <string name="OnlineButton">線上</string>
 <string name="HowToPlayButton">如何遊玩</string>
@@ -30,14 +31,14 @@
 <string name="ImpostorsRemainP">剩下 {0} 個偽裝者。</string>
 <string name="Hallway">走廊</string>
 <string name="Engines">引擎室</string>
-<string name="LangCzech">上引擎室</string>
+<string name="UpperEngine">上引擎室</string>
 <string name="Cafeteria">餐廳</string>
 <string name="Weapons">艦載武器室</string>
 <string name="Reactor">反應爐</string>
 <string name="Security">保全室</string>
 <string name="MedBay">醫務室</string>
 <string name="LifeSupp">氧氣室</string>
-<string name="LangGreek">導航室</string>
+<string name="Nav">導航室</string>
 <string name="LowerEngine">下引擎室</string>
 <string name="Electrical">電氣室</string>
 <string name="Admin">管理室</string>
@@ -87,13 +88,14 @@
 <string name="EnterIdCode">輸入識別碼</string>
 <string name="BuyBeverage">購買飲料</string>
 <string name="ProcessData">處理資料</string>
-<string name="NumImpostorsS">我們之中有 \%color=#FF1919FF\%1 個偽裝者\%/color\%</string>
-<string name="NumImpostorsP">我們之中有 \%color=#FF1919FF\%{0} 個偽裝者\%/color\%</string>
+<string name="NumImpostorsS">我們之中有 {color=#FF1919FF}1 個偽裝者{/color}</string>
+<string name="NumImpostorsP">我們之中有 {color=#FF1919FF}{0} 個偽裝者{/color}</string>
 <string name="Crewmate">船員</string>
 <string name="Impostor">偽裝者</string>
 <string name="Victory">勝利</string>
 <string name="Defeat">失敗</string>
-<string name="CrewmatesDisconnected">大部分船員\%nl\%已斷線</string>
+<string name="CrewmatesDisconnected">大部分船員
+已斷線</string>
 <string name="ImpostorDisconnected">偽裝者已斷線</string>
 <string name="PickAnomaly">找出異常情況</string>
 <string name="WaterPlantsGetCan">取得澆水壺！</string>
@@ -124,10 +126,16 @@
 <string name="MeetingVotingResults">投票結果</string>
 <string name="MeetingProceeds">執行倒數：{0} 秒</string>
 <string name="MeetingHasVoted">{0} 已投票。{1} 個人尚未投票。</string>
-<string name="HowToPlayText1">《Among Us》是款充滿合作與背叛的遊戲。\%nl\%\%nl\%玩家會扮演船員或偽裝者。</string>
+<string name="HowToPlayText1">《Among Us》是款充滿合作與背叛的遊戲。
+
+玩家會扮演船員或偽裝者。</string>
 <string name="HowToPlayText2">與 4 到 15 個玩家在線上或透過本地 WiFi 一起遊玩！</string>
 <string name="HowToPlayText41">主持遊戲時，您可以控制遊戲進行的方式。</string>
-<string name="HowToPlayText42">首先，請決定一起遊玩的對象！\%nl\%\%nl\%如果您想在線上和朋友一起遊玩，請設定成「私人」並把房間代碼分享給朋友。\%nl\%\%nl\%如果您想和世界各地的人一起遊玩，請設定成「公開」。</string>
+<string name="HowToPlayText42">首先，請決定一起遊玩的對象！
+
+如果您想在線上和朋友一起遊玩，請設定成「私人」並把房間代碼分享給朋友。
+
+如果您想和世界各地的人一起遊玩，請設定成「公開」。</string>
 <string name="HowToPlayText43">加入更多任務？把行走速度變快？增加更多偽裝者？身為主持者，您可以變更這些設定。不過，請務必先與其他玩家確認這些變更。</string>
 <string name="HowToPlayText44">如果有人表現無禮或濫發訊息，主持者可以暫時踢出玩家作為警告，或禁止玩家進入特定線上房間。</string>
 <string name="HowToPlayTextMap">玩家可以存取個人地圖，以協助在船上四處移動。</string>
@@ -144,9 +152,21 @@
 <string name="HowToPlayTextImp5">在船上搞破壞並混淆船員。</string>
 <string name="HowToPlayTextImp6">關門並困住受害者。</string>
 <string name="HowToPlayTextImp7">在冷卻時間之間殺死船員。</string>
-<string name="HowToPlayText5">在面對面遊玩時，玩家不能彼此交談，以確保船員和偽裝者之間的遊戲公平性。\%nl\%\%nl\%如果有玩家被偽裝者殺害，該玩家在遊戲結束前都不能說話。\%nl\%\%nl\%鬼魂仍需執行獲指派的任務，以嘗試使船員獲勝。</string>
-<string name="HowToPlayText6">如果有人舉報發現屍體或召開緊急會議，船員會一起討論他們所掌握關於偽裝者的情報。\%nl\%\%nl\%此時玩家可以公開談論自己認為偽裝者是誰及所掌握的情報。在面對面遊玩時，由於鬼魂已經知道偽裝者是誰，因此不得說話。\%nl\%\%nl\%偽裝者必須試著證明自己的無辜，或是指控其他船員。</string>
-<string name="HowToPlayText7">討論後，請把票投給您認為是偽裝者的人。\%nl\%\%nl\%得到最多票的玩家將會被逐出船上，因此請明智地投票！\%nl\%\%nl\%如果您沒有足夠的資訊，而且其他船員也都這麼認為，則可以跳過投票以避免逐出無辜之人，並收集更多資訊。</string>
+<string name="HowToPlayText5">在面對面遊玩時，玩家不能彼此交談，以確保船員和偽裝者之間的遊戲公平性。
+
+如果有玩家被偽裝者殺害，該玩家在遊戲結束前都不能說話。
+
+鬼魂仍需執行獲指派的任務，以嘗試使船員獲勝。</string>
+<string name="HowToPlayText6">如果有人舉報發現屍體或召開緊急會議，船員會一起討論他們所掌握關於偽裝者的情報。
+
+此時玩家可以公開談論自己認為偽裝者是誰及所掌握的情報。在面對面遊玩時，由於鬼魂已經知道偽裝者是誰，因此不得說話。
+
+偽裝者必須試著證明自己的無辜，或是指控其他船員。</string>
+<string name="HowToPlayText7">討論後，請把票投給您認為是偽裝者的人。
+
+得到最多票的玩家將會被逐出船上，因此請明智地投票！
+
+如果您沒有足夠的資訊，而且其他船員也都這麼認為，則可以跳過投票以避免逐出無辜之人，並收集更多資訊。</string>
 <string name="HowToPlayText81">在練習模式中進行訓練！</string>
 <string name="HowToPlayText82">以船員的身分自行設定任務，或扮演偽裝者來演練殺人謀略！</string>
 <string name="SettingsGeneral">一般</string>
@@ -213,12 +233,36 @@
 <string name="RoomCodeInfo">按一下即可複製</string>
 <string name="LeaveGame">離開遊戲</string>
 <string name="ReturnToGame">返回遊戲</string>
-<string name="LocalHelp">遇到連線問題？\%nl\%\%nl\%● 確定所有人都已連線至相同的 WiFi 名稱\%nl\%● 請確定所有人的版本都相同 (顯示在右下角)\%nl\%● 確定 WiFi 訊號夠強\%nl\%● 有時換人主持能協助解決問題\%nl\%● 有時重新啟動應用程式能協助解決問題...\%nl\%● 有時重新啟動手機能協助解決問題...\%nl\%● 還是有問題？請透過 support@innersloth.com 與我們聯繫！</string>
-<string name="OnlineHelp">該如何進行？\%nl\%\%nl\%● 在主辦遊戲時，你可以在遊戲大廳的介面中找到相應的遊戲代碼。\%nl\%● 跟朋友分享該代碼以建立私人房間。\%nl\%● 或點擊「私人」以在「尋找遊戲」中公開該房間。\%nl\%● 主持者可以在可聊天時禁止玩家進入或踢出玩家。\%nl\%● 還是有問題？請透過 support@innersloth.com 與我們聯繫！</string>
-<string name="EmergencyCount">船員 {0} 還有\%nl\%\%nl\%\%nl\%\%nl\%次召開緊急會議的額度</string>
-<string name="EmergencyNotReady">船員必須等候\%nl\%\%nl\%\%nl\%\%nl\%才能再次召開緊急會議</string>
-<string name="EmergencyDuringCrisis">無法在發生危機時\%nl\%召開緊急會議</string>
-<string name="EmergencyRequested">已要求召開緊急會議\%nl\%正在等候主持者</string>
+<string name="LocalHelp">遇到連線問題？
+
+● 確定所有人都已連線至相同的 WiFi 名稱
+● 請確定所有人的版本都相同 (顯示在右下角)
+● 確定 WiFi 訊號夠強
+● 有時換人主持能協助解決問題
+● 有時重新啟動應用程式能協助解決問題...
+● 有時重新啟動手機能協助解決問題...
+● 還是有問題？請透過 support@innersloth.com 與我們聯繫！</string>
+<string name="OnlineHelp">該如何進行？
+
+● 在主辦遊戲時，你可以在遊戲大廳的介面中找到相應的遊戲代碼。
+● 跟朋友分享該代碼以建立私人房間。
+● 或點擊「私人」以在「尋找遊戲」中公開該房間。
+● 主持者可以在可聊天時禁止玩家進入或踢出玩家。
+● 還是有問題？請透過 support@innersloth.com 與我們聯繫！</string>
+<string name="EmergencyCount">船員 {0} 還有
+
+
+
+次召開緊急會議的額度</string>
+<string name="EmergencyNotReady">船員必須等候
+
+
+
+才能再次召開緊急會議</string>
+<string name="EmergencyDuringCrisis">無法在發生危機時
+召開緊急會議</string>
+<string name="EmergencyRequested">已要求召開緊急會議
+正在等候主持者</string>
 <string name="AdPolicyTitle">廣告政策</string>
 <string name="AdPolicyText">我們是否可以使用您的個人資料來為您提供量身打造的廣告？如果您按一下「是」，我們如 Google AdMob 跟 Unity Ads 的廣告合作夥伴將會自動收集資料，並使用裝置識別碼和 Cookie 來提供個人化的廣告。如果您按一下「否」，您仍可能會看到非個人化的廣告。若要移除所有廣告，請在[httpstore]這裡[]購買無廣告升級。當您主持遊戲時，您和您的朋友將不會看到任何廣告！若要深入了解我們和我們廣告合作夥伴的隱私權做法，請參閱我們的[https://www.innersloth.com/zhtw/privacy-policy-tw/]隱私政策[]。您隨時都可以在設定選單的「資料」底下變更您的決定。</string>
 <string name="Accept">接受</string>
@@ -226,7 +270,9 @@
 <string name="PlainYes">是</string>
 <string name="PlainNo">否</string>
 <string name="PrivacyPolicyTitle">隱私權政策</string>
-<string name="PrivacyPolicyText">Innersloth 負責處理《Among Us》的個人資料。請參閱我們的\%link="https://www.innersloth.com/zhtw/privacy-policy-tw/"\%隱私政策\%/link\%以了解我們的隱私權做法。您可以在「資料」底下管理您針對《Among Us》的個人資料設定。\%nl\%\%nl\%遊玩《Among Us》前請閱讀我們的\%link="https://www.innersloth.com/zhtw/terms-of-services-games-tw/\%使用條款\%/link\%。</string>
+<string name="PrivacyPolicyText">Innersloth 負責處理《Among Us》的個人資料。請參閱我們的{link="https://www.innersloth.com/zhtw/privacy-policy-tw/"}隱私政策{/link}以了解我們的隱私權做法。
+
+遊玩《Among Us》前請閱讀我們的{link="https://www.innersloth.com/zhtw/terms-of-services-games-tw/}使用條款{/link}。</string>
 <string name="ManageDataButton">管理資料收集</string>
 <string name="UnderstandButton">我了解</string>
 <string name="WaterPlants">幫植物澆水</string>
@@ -305,23 +351,45 @@
 <string name="VentMove">經由通風口移動</string>
 <string name="MenuNavigate">引導</string>
 <string name="NsoError">無法連上網路。</string>
-<string name="ErrorServerOverload">《Among Us》伺服器已超載。\%nl\%\%nl\%非常抱歉！請稍後再試！</string>
+<string name="ErrorServerOverload">《Among Us》伺服器已超載。
+
+非常抱歉！請稍後再試！</string>
 <string name="ErrorIntentionalLeaving">您在刻意斷線之後，需要再等候 {0} 分鐘才能加入另一個遊戲。</string>
 <string name="ErrorFocusLost">您已經斷線，因為有另一個應用程式將《Among Us》暫停。</string>
-<string name="ErrorBanned">您被禁止進入 {0}。\%nl\%\%nl\%您無法重新加入該房間。</string>
-<string name="ErrorKicked">您被踢出 {0}。\%nl\%\%nl\%如果該房間尚未開始遊戲，您可以重新加入。</string>
-<string name="ErrorBannedNoCode">您被禁止進入該房間。\%nl\%\%nl\%您無法重新加入該房間。</string>
-<string name="ErrorKickedNoCode">您被踢出該房間。\%nl\%\%nl\%如果該房間尚未開始遊戲，您可以重新加入。</string>
-<string name="ErrorHacking">您因作弊而被禁止進入。\%nl\%\%nl\%請停止此行為。</string>
-<string name="ErrorFullGame">您試圖加入的遊戲已滿。\%nl\%\%nl\%請詢問主持者您是否能在下回合加入。</string>
-<string name="ErrorStartedGame">您試圖加入的遊戲已經開始。\%nl\%\%nl\%請詢問主持者您是否能在下回合加入。</string>
+<string name="ErrorBanned">您被禁止進入 {0}。
+
+您無法重新加入該房間。</string>
+<string name="ErrorKicked">您被踢出 {0}。
+
+如果該房間尚未開始遊戲，您可以重新加入。</string>
+<string name="ErrorBannedNoCode">您被禁止進入該房間。
+
+您無法重新加入該房間。</string>
+<string name="ErrorKickedNoCode">您被踢出該房間。
+
+如果該房間尚未開始遊戲，您可以重新加入。</string>
+<string name="ErrorHacking">您因作弊而被禁止進入。
+
+請停止此行為。</string>
+<string name="ErrorFullGame">您試圖加入的遊戲已滿。
+
+請詢問主持者您是否能在下回合加入。</string>
+<string name="ErrorStartedGame">您試圖加入的遊戲已經開始。
+
+請詢問主持者您是否能在下回合加入。</string>
 <string name="ErrorNotFoundGame">找不到您在尋找的遊戲。</string>
 <string name="ErrorInactivity">遊戲伺服器已停止此遊戲。可能是因為處於非使用狀態。</string>
-<string name="ErrorGenericOnlineDisconnect">您已和伺服器斷線。\%nl\%如果此情況經常發生，請確認您的網路強度。\%nl\%這也可能是伺服器問題。</string>
-<string name="ErrorGenericLocalDisconnect">您已和主持者斷線。\%nl\%\%nl\%如果此情況經常發生，請確認您的 WiFi 強度。</string>
+<string name="ErrorGenericOnlineDisconnect">您已和伺服器斷線。
+如果此情況經常發生，請確認您的網路強度。
+這也可能是伺服器問題。</string>
+<string name="ErrorGenericLocalDisconnect">您已和主持者斷線。
+
+如果此情況經常發生，請確認您的 WiFi 強度。</string>
 <string name="ErrorInvalidName">遊戲伺服器拒絕此使用者名稱：{0}</string>
 <string name="ErrorUnknown">有未知錯誤使您從伺服器斷線。</string>
-<string name="ErrorIncorrectVersion">您執行的是較舊版本的遊戲。\%nl\%\%nl\%請更新以和其他人一起遊玩。</string>
+<string name="ErrorIncorrectVersion">您執行的是較舊版本的遊戲。
+
+請更新以和其他人一起遊玩。</string>
 <string name="ServerNA">北美洲</string>
 <string name="ServerEU">歐洲</string>
 <string name="ServerAS">亞洲</string>
@@ -397,7 +465,9 @@
 <string name="MedWT">體重：</string>
 <string name="MedETA">預估時間：{0}</string>
 <string name="MedHello">您好！</string>
-<string name="LobbySizeWarning">《Among Us》至少需要 4 個玩家，但是建議由 5 個或更多的玩家參與。\%nl\%\%nl\%只有 4 個玩家的遊戲很快就會結束，且獲勝的通常都是偽裝者。</string>
+<string name="LobbySizeWarning">《Among Us》至少需要 4 個玩家，但是建議由 5 個或更多的玩家參與。
+
+只有 4 個玩家的遊戲很快就會結束，且獲勝的通常都是偽裝者。</string>
 <string name="Okay">好</string>
 <string name="OkayDontShow">好，不要再顯示</string>
 <string name="Nevermind">還是算了</string>
@@ -791,7 +861,14 @@
 <string name="GoOffline">離線</string>
 <string name="PlayAsGuest">以訪客身分遊玩</string>
 <string name="LogInTitle">登入帳號</string>
-<string name="LogInInfoText">登入或建立 Among Us 帳號以存取如下等遊戲功能：\%nl\%\%nl\%- 於特定裝置間跨裝置儲存進度\%nl\%- 自由聊天\%nl\%- 連結造型\%nl\%- 還有更多內容！\%nl\%\%nl\%根據帳號類型的不同，部分功能可能需要家長或監護人許可。</string>
+<string name="LogInInfoText">登入或建立 Among Us 帳號以存取如下等遊戲功能：
+
+- 於特定裝置間跨裝置儲存進度
+- 自由聊天
+- 連結造型
+- 還有更多內容！
+
+根據帳號類型的不同，部分功能可能需要家長或監護人許可。</string>
 <string name="LogInInfoTextSwitch">如果您登入完整的帳號，便一律可以於未來再次登入。如果您沒有帳號，遊戲將自動為您建立一個。</string>
 <string name="ControllerDisconnectedMessage">控制器已斷線</string>
 <string name="FollowUs">追蹤我們！</string>
@@ -874,7 +951,9 @@
 <string name="ProgressLabel">進度：</string>
 <string name="TermsOfUseTitle">使用條款</string>
 <string name="PPAndToUTitle">隱私權政策與使用條款</string>
-<string name="ErrorNotAuthenticated">《Among Us》伺服器無法驗證您的身分。\%nl\%\%nl\%您必須擁有《Among Us》帳號才能線上遊玩。</string>
+<string name="ErrorNotAuthenticated">《Among Us》伺服器無法驗證您的身分。
+
+您必須擁有《Among Us》帳號才能線上遊玩。</string>
 <string name="ComePlayDiscord">來和我一起玩《Among Us》吧！</string>
 <string name="ShowAccountSupportID5">顯示帳號支援識別碼</string>
 <string name="ShowAccountSupportID4">再按 4 次以顯示</string>
@@ -1343,18 +1422,33 @@
 <string name="LinkAccount">連結帳號</string>
 <string name="CreateNewAccount">建立新帳號</string>
 <string name="LinkExistingAccount">連結現有帳號</string>
-<string name="LinkAccountExplanation">如果您在其他平台上已有《Among Us》帳號，便可連結到該帳號！\%nl\%或者可以建立新帳號。</string>
-<string name="LinkAccountCode">在 \%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\% 輸入以下代碼</string>
+<string name="LinkAccountExplanation">如果您在其他平台上已有《Among Us》帳號，便可連結到該帳號！
+或者可以建立新帳號。</string>
+<string name="LinkAccountCode">在 {link="{0}"}{1}{/link} 
+{size=+2}{2}{/size} 輸入以下代碼</string>
 <string name="ErrorLink">連結帳號時發生錯誤。請稍後再試。</string>
 <string name="UnlinkAccount">取消連結帳號</string>
 <string name="ConfirmUnlinkAccount">確認取消連結帳號</string>
-<string name="UnlinkAccountExplain">取消連結您的 {0} 帳號將清除您的資料並建立新的 {0} 帳號。\%nl\%- 您將失去 {0} 帳號上已獲得或已解鎖的物品。\%nl\%- 您將從等級 1 與 0 經驗值重新開始。</string>
-<string name="UnlinkAccountExplainConfirm">請儲存此識別碼以供備查：\%nl\%\%nl\%{0}\%nl\%\%nl\%如果您取消連結帳號時沒有此識別碼，若過程出錯時我們便無法復原您的進度，並且無法提供協助。</string>
+<string name="UnlinkAccountExplain">取消連結您的 {0} 帳號將清除您的資料並建立新的 {0} 帳號。
+- 您將失去 {0} 帳號上已獲得或已解鎖的物品。
+- 您將從等級 1 與 0 經驗值重新開始。</string>
+<string name="UnlinkAccountExplainConfirm">請儲存此識別碼以供備查：
+
+{0}
+
+如果您取消連結帳號時沒有此識別碼，若過程出錯時我們便無法復原您的進度，並且無法提供協助。</string>
 <string name="UnlinkError">取消連結帳號時發生錯誤。請稍後再試。</string>
 <string name="UnlinkSuccess">您已成功取消 {0} 與《Among Us》主要帳號的連結！</string>
 <string name="ConfirmLinkExistingAccount">確認連結至現有帳號</string>
-<string name="LinkExistingAccountExplain">連結至不同帳號將覆蓋此平台上的所有資料，這代表您的 {0}《Among Us》帳號將被其他帳號取代。\%nl\%- 您 {0} 帳號上所有已解鎖的物品將被覆蓋。\%nl\%- 您 {0} 帳號上所有已獲得的經驗值將被覆蓋。\%nl\%- 所有的豆豆、艙室與星星將被覆蓋。</string>
-<string name="LinkExistingAccountExplainConfirm">待您確認後，我們將重設您的{0}《Among Us》帳號，以便準備匯入不同帳號的資料。\%nl\%\%nl\%\%color=#{1}\%請確認您有另一個欲連結此帳號的現有帳號之後再繼續。\%/color\%\%nl\%\%nl\%重設您的 {0} 帳號將清空所有經驗值、豆豆、艙室與物品。我們將「無法」還原此操作。</string>
+<string name="LinkExistingAccountExplain">連結至不同帳號將覆蓋此平台上的所有資料，這代表您的 {0}《Among Us》帳號將被其他帳號取代。
+- 您 {0} 帳號上所有已解鎖的物品將被覆蓋。
+- 您 {0} 帳號上所有已獲得的經驗值將被覆蓋。
+- 所有的豆豆、艙室與星星將被覆蓋。</string>
+<string name="LinkExistingAccountExplainConfirm">待您確認後，我們將重設您的{0}《Among Us》帳號，以便準備匯入不同帳號的資料。
+
+{color=#{1}}請確認您有另一個欲連結此帳號的現有帳號之後再繼續。{/color}
+
+重設您的 {0} 帳號將清空所有經驗值、豆豆、艙室與物品。我們將「無法」還原此操作。</string>
 <string name="ResetAccount">重設帳號</string>
 <string name="PurchasingLabel">購買物品</string>
 <string name="ErrorInternalServer">內部伺服器錯誤 (代碼 {0})</string>
@@ -1440,7 +1534,8 @@
 <string name="RoleChanceAndQuantity">機率 {1}%，最多 {0} 名</string>
 <string name="CheckingPurchasesLabel">正在確認購買...</string>
 <string name="ProtectedRecently">守護天使最近保護了某個人...</string>
-<string name="ScientistBlurbMed">隨時使用生命監測能力。\%nl\%完成任務即可充電。</string>
+<string name="ScientistBlurbMed">隨時使用生命監測能力。
+完成任務即可充電。</string>
 <string name="ScientistBlurbLong">科學家可以隨時使用可攜式生命監測面板查看船員狀態。不過，可攜式生命監測面板需要充電，因此科學家需要完成任務才能充電。</string>
 <string name="EngineerBlurbMed">可使用通風口。</string>
 <string name="EngineerBlurbLong">身為船員的工程師可使用通風口加速移動，也能當場抓到通風口的偽裝者。您無法永遠待在通風口裡，因此請小心通風口附近的人...</string>
@@ -1476,7 +1571,10 @@
 <string name="Cosmetic.skin_vi">Vi 衣服</string>
 <string name="Cosmetic.pet_poro">Heimerdinger 的 Poro</string>
 <string name="RedeemPurchasedItemsTitle">兌換購買的物品</string>
-<string name="RedeemPurcahsedItemsExplain">我們推出了全新的物品庫系統，這樣玩家就可以跨平台存取物品！先前在此平台的購買的任何物品都可以有一次機會轉移至新的物品庫系統。\%nl\%如果這是您的《Among Us》主要帳號 (您最常遊玩《Among Us》的平台)，則可以安心地按一下「繼續」，在全新的物品庫系統中兌換購買的可下載內容。如果這是您想用來連結主要帳號的帳號，只能於連結後兌換！\%nl\%\%nl\%帳號識別碼：{0}</string>
+<string name="RedeemPurcahsedItemsExplain">我們推出了全新的物品庫系統，這樣玩家就可以跨平台存取物品！先前在此平台的購買的任何物品都可以有一次機會轉移至新的物品庫系統。
+如果這是您的《Among Us》主要帳號 (您最常遊玩《Among Us》的平台)，則可以安心地按一下「繼續」，在全新的物品庫系統中兌換購買的可下載內容。如果這是您想用來連結主要帳號的帳號，只能於連結後兌換！
+
+帳號識別碼：{0}</string>
 <string name="RedeemProceed">繼續</string>
 <string name="RedeemNotYet">現在不要</string>
 <string name="RedeemNever">不再詢問</string>
@@ -1535,7 +1633,8 @@
 <string name="Cosmetic.skin_witch">怪異巫婆</string>
 <string name="Cosmetic.pet_frankendog">科學怪犬</string>
 <string name="Cosmetic.hat_mohawk_bubblegum">搖滾龐克頭：泡泡糖</string>
-<string name="AvailableFor">下架倒數\%nl\%{0} 天 {1} 小時 {2} 分 {3} 秒</string>
+<string name="AvailableFor">下架倒數
+{0} 天 {1} 小時 {2} 分 {3} 秒</string>
 <string name="GuardianAngelImpostorSeeProtect">偽裝者可看見保護</string>
 <string name="Cosmetic.hat_pkHW01_PlagueHat">瘟疫鳥喙</string>
 <string name="QCAccIsRole">{0}是{1}</string>
@@ -1552,7 +1651,11 @@
 <string name="QCResProtected">{0}保護了{1}</string>
 <string name="QCResProtected_ANY_QCCrewMe">{0}保護了我</string>
 <string name="QCRoles">職業</string>
-<string name="GuestProgressionWarning">您已登入訪客帳號！\%nl\%\%nl\%所有已取得的經驗值、艙室及豆豆只能套用於此訪客帳號。訪客帳號僅會與您的實體裝置連結，更換裝置將無法繼續使用此帳號。\%nl\%\%nl\%為確保您能存取所有獲得的貨幣和購買物品，請開啟主畫面中的帳號分頁，登入您的《Among Us》帳號。</string>
+<string name="GuestProgressionWarning">您已登入訪客帳號！
+
+所有已取得的經驗值、艙室及豆豆只能套用於此訪客帳號。訪客帳號僅會與您的實體裝置連結，更換裝置將無法繼續使用此帳號。
+
+為確保您能存取所有獲得的貨幣和購買物品，請開啟主畫面中的帳號分頁，登入您的《Among Us》帳號。</string>
 <string name="ErrorFailedToCreateGame">建立遊戲連線區失敗。請稍後再試。</string>
 <string name="ErrorFailedToJoinCreatedGame">建立遊戲連線區後加入失敗。請稍後再試。</string>
 <string name="ErrorDisconnectBeforeJoining">加入遊戲連線區時中斷連線。</string>
@@ -1624,9 +1727,12 @@
 <string name="StatsScientistChargesGained">科學家獲得充電次數：	</string>
 <string name="StatsGuardianAngelCrewmatesProtected">守護天使成功保護船員次數：	</string>
 <string name="StatsShapeshifterShiftedKills">變形者變形時殺人次數：	</string>
-<string name="QCOnlyInfo">遊玩期間只能使用快速聊天，\%nl\%且只能與其他使用快速聊天的使用者一同遊玩。</string>
-<string name="FreeChatInfo">遊玩期間能夠使用自由聊天和快速聊天，\%nl\%且只能與其他使用自由聊天的使用者一同遊玩。</string>
-<string name="FreeChatWarning">你必須要先登入帳戶才能自由聊天。 如果你登入的是未成年人帳戶的話，\%nl\%請前往帳號分頁並取得監護人的許可來啟用自由聊天的功能。</string>
+<string name="QCOnlyInfo">遊玩期間只能使用快速聊天，
+且只能與其他使用快速聊天的使用者一同遊玩。</string>
+<string name="FreeChatInfo">遊玩期間能夠使用自由聊天和快速聊天，
+且只能與其他使用自由聊天的使用者一同遊玩。</string>
+<string name="FreeChatWarning">你必須要先登入帳戶才能自由聊天。 如果你登入的是未成年人帳戶的話，
+請前往帳號分頁並取得監護人的許可來啟用自由聊天的功能。</string>
 <string name="FreeChatLinkWarning">傳送 URL 是不被允許的！您的訊息並未送出。</string>
 <string name="ScreenShakeOption">畫面晃動</string>
 <string name="StreamingTwitch">開始在 Twitch 直播</string>
@@ -1644,7 +1750,9 @@
 <string name="BlockedPlayers">封鎖的玩家</string>
 <string name="RecentPlayers">最近一起遊玩的玩家</string>
 <string name="LobbyLabel">大廳</string>
-<string name="FriendCodeExplanation">《Among Us》現已推出「朋友名單」！在下方選擇一個獨特的朋友編號，即可傳送和接收朋友或遊戲申請。\%nl\%\%nl\%編號一經選擇就無法變更。</string>
+<string name="FriendCodeExplanation">《Among Us》現已推出「朋友名單」！在下方選擇一個獨特的朋友編號，即可傳送和接收朋友或遊戲申請。
+
+編號一經選擇就無法變更。</string>
 <string name="FriendCodeSuccess">您的朋友編號是 {0}</string>
 <string name="FriendRequestReceived">已收到朋友申請</string>
 <string name="FriendRequestSent">已傳送朋友申請</string>
@@ -1681,7 +1789,8 @@
 <string name="ErrorTooManyRequests">大廳申請的數量過多。請稍待幾分鐘後再試一次。</string>
 <string name="TempDisabled">暫時停用</string>
 <string name="TempDisabledLinkExplain">帳號正進行變更。我們暫時限制了連結現有帳號的功能。這將盡快在日後的更新中修正！</string>
-<string name="RedeemPopup">這是來自船員的禮物！\%nl\%{0}。</string>
+<string name="RedeemPopup">這是來自船員的禮物！
+{0}。</string>
 <string name="RedeemButton">兌換</string>
 <string name="ErrorMaxFriends">您的朋友名單已滿。</string>
 <string name="ErrorPlayerBlockedYou">錯誤：使用者列於您的封鎖名單或使用者封鎖您。</string>
@@ -1693,10 +1802,14 @@
 <string name="Decontamination3">下除污室</string>
 <string name="ErrorCommunications">您的溝通交流設定使您無法加入遊戲。如要加入此遊戲，請啟用與他人交流的功能。</string>
 <string name="SettingsColorblind">色盲文字</string>
-<string name="MergeGuestAccountText">此裝置上似乎有\%link="https://www.innersloth.com/merging-guest-accounts/"\%訪客帳號\%/link\% ！我們現在已不再支援訪客帳號，並且會將您訪客帳號的所有物品、貨幣與紀錄合併至這個 {0} 帳號。\%nl\%\%nl\%如果您與其他人共用此裝置 (電腦、手機等等)，請留意此訪客帳號是所有使用此裝置的人共用的。如果您選擇繼續，未來此裝置上的其他使用者將無法合併此訪客帳號，因為此訪客帳號只可進行一次合併。您將無法再次重新分配已連接到此訪客帳號的物品、貨幣與紀錄。\%nl\%\%nl\%請確認您要將訪客帳號合併至這個 {0} 帳號。</string>
+<string name="MergeGuestAccountText">此裝置上似乎有{link="https://www.innersloth.com/merging-guest-accounts/"}訪客帳號{/link} ！我們現在已不再支援訪客帳號，並且會將您訪客帳號的所有物品、貨幣與紀錄合併至這個 {0} 帳號。
+
+如果您與其他人共用此裝置 (電腦、手機等等)，請留意此訪客帳號是所有使用此裝置的人共用的。如果您選擇繼續，未來此裝置上的其他使用者將無法合併此訪客帳號，因為此訪客帳號只可進行一次合併。您將無法再次重新分配已連接到此訪客帳號的物品、貨幣與紀錄。
+
+請確認您要將訪客帳號合併至這個 {0} 帳號。</string>
 <string name="MergeGuestAccountTitle">合併訪客帳號</string>
 <string name="ManageAccountTitle">管理帳號</string>
-<string name="ManageAccountText">若要管理您的帳號、進行合併，或有其他問題，請前往\%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% 。</string>
+<string name="ManageAccountText">若要管理您的帳號、進行合併，或有其他問題，請前往{link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} 。</string>
 <string name="Cosmetic.visor_BaconVisor">很高興見到你</string>
 <string name="Cosmetic.hat_Baguette">頭頂長棍</string>
 <string name="Cosmetic.skin_Bananaskin">魔性香蕉</string>
@@ -1766,12 +1879,15 @@
 <string name="Cosmetic.nameplate_Orange">橙心歡喜</string>
 <string name="Cosmetic.hat_sausage">綁好尾端</string>
 <string name="SignInIssueTitle">{0} 帳號錯誤</string>
-<string name="SignInIssueText">由於年齡限制，你的{0}無法用來建立 Among Us 帳號。\%nl\%\%nl\%你仍可繼續使用這個裝置進行《Among Us》，但基於安全考量，部分功能將受到限制，包括帳號連結、購買星星及物品轉移至新裝置等功能。如有任何疑問，請寄送電子郵件至 support@innersloth.com。</string>
+<string name="SignInIssueText">由於年齡限制，你的{0}無法用來建立 Among Us 帳號。
+
+你仍可繼續使用這個裝置進行《Among Us》，但基於安全考量，部分功能將受到限制，包括帳號連結、購買星星及物品轉移至新裝置等功能。如有任何疑問，請寄送電子郵件至 support@innersloth.com。</string>
 <string name="FriendListUnavailable">無法使用朋友名單</string>
 <string name="ErrorSanction">由於您{0}，您的帳號已遭停權 ({1})。</string>
 <string name="SanctionDuration">直到 {0}</string>
 <string name="SanctionPermanent">永久</string>
-<string name="SanctionConduct">\%nl\%請於這段時間反思自己的行為並仔細閱讀我們的\%link="https://www.innersloth.com/zhtw/code-of-conduct-taiwan/"\%行為準則\%/link\%！</string>
+<string name="SanctionConduct">
+請於這段時間反思自己的行為並仔細閱讀我們的{link="https://www.innersloth.com/zhtw/code-of-conduct-taiwan/"}行為準則{/link}！</string>
 <string name="SanctionSexualMisconduct">做出性方面的不當行為</string>
 <string name="SanctionDoxing">分享個人資訊、威脅他人分享個人資訊或進行肉搜</string>
 <string name="SanctionIllegalActivity">鼓勵或從事非法行為</string>
@@ -1845,10 +1961,14 @@
 <string name="Cosmetic.visor_hl_nudge">推推</string>
 <string name="Cosmetic.visor_hl_marine">Marine 的眼罩</string>
 <string name="Cosmetic.visor_hl_wrong">哈哈，這會有什麼問題呢？</string>
-<string name="AccountDeleteHelp">按下「確認」即代表您要求刪除所有您的《Among Us》資料。此要求將花費 7 至 14 天，並會清除所有星星、經驗值、豆豆、艙室與已購買的造型。帳號完全刪除後，我們無法還原此操作。您的帳號在刪除過程完成前可正常使用。\%nl\%\%nl\%如果遇到任何錯誤，請聯繫 support@innersloth.com。</string>
+<string name="AccountDeleteHelp">按下「確認」即代表您要求刪除所有您的《Among Us》資料。此要求將花費 7 至 14 天，並會清除所有星星、經驗值、豆豆、艙室與已購買的造型。帳號完全刪除後，我們無法還原此操作。您的帳號在刪除過程完成前可正常使用。
+
+如果遇到任何錯誤，請聯繫 support@innersloth.com。</string>
 <string name="DeleteAccount">刪除帳號</string>
 <string name="DoNotDeleteAccount">取消刪除帳號</string>
-<string name="AccountUnDeleteHelp">按下「確認」即代表您將停止帳號刪除程序。如果您要刪除帳號，需要再次發出要求。\%nl\%\%nl\%如果遇到任何錯誤，請聯繫 support@innersloth.com。</string>
+<string name="AccountUnDeleteHelp">按下「確認」即代表您將停止帳號刪除程序。如果您要刪除帳號，需要再次發出要求。
+
+如果遇到任何錯誤，請聯繫 support@innersloth.com。</string>
 <string name="ConfirmDelete">請輸入「DELETE」以進行確認</string>
 <string name="ConfirmDeleteAccounts">勾選此方塊以確認您了解此操作將刪除這個帳號與連結的帳號 ({0})。</string>
 <string name="ConfirmDeleteAccountsEmpty">勾選此方塊以確認您了解此操作將刪除這個帳號與連結的帳號。</string>
@@ -1866,7 +1986,8 @@
 <string name="Ghost">鬼魂</string>
 <string name="CurrentlyHaunting">正在作祟：</string>
 <string name="RoundRobin">循環選擇</string>
-<string name="RuleOneCrewmates">在時間結束前存活。\%nl\%完成任務可減少計時器的時間。</string>
+<string name="RuleOneCrewmates">在時間結束前存活。
+完成任務可減少計時器的時間。</string>
 <string name="RuleTwoCrewmates">利用通風口和危險量表來躲藏！</string>
 <string name="RuleThreeCrewmates">計時器時間到後，偽裝者就能追蹤您！</string>
 <string name="RuleOneImpostor">在限制時間內殺死所有船員！</string>
@@ -1896,20 +2017,29 @@
 <string name="DefaultFilterTag_Casual">休閒</string>
 <string name="DefaultFilterTag_Serious">認真</string>
 <string name="DefaultFilterTag_Expert">專家</string>
-<string name="TagFiltersHelpFindGame">您可以在篩選條件下拉式清單中選取標籤來篩選遊戲搜尋結果。您選取的篩選條件將會與搜尋結果\%i\%完全相符\%/i\%。\%nl\%\%nl\%舉個例子：如果您選取\%b\%休閒\%/b\%和\%b\%專家\%/b\%，您就只會找到同時具有\%b\%休閒\%/b\%和\%b\%專家\%/b\%標籤的結果。</string>
-<string name="TagFiltersHelpCreate">您可以為自己的遊戲加上篩選條件標籤，讓其他玩家更容易找到您的遊戲。您選取的篩選條件將會與搜尋結果\%i\%完全相符\%/i\%。\%nl\%\%nl\%舉個例子：如果您選取\%b\%休閒\%/b\%和\%b\%專家\%/b\%，那麼只有同時搜尋\%b\%休閒\%/b\%和\%b\%專家\%/b\%篩選條件的玩家會看到您的遊戲。</string>
+<string name="TagFiltersHelpFindGame">您可以在篩選條件下拉式清單中選取標籤來篩選遊戲搜尋結果。您選取的篩選條件將會與搜尋結果{i}完全相符{/i}。
+
+舉個例子：如果您選取{b}休閒{/b}和{b}專家{/b}，您就只會找到同時具有{b}休閒{/b}和{b}專家{/b}標籤的結果。</string>
+<string name="TagFiltersHelpCreate">您可以為自己的遊戲加上篩選條件標籤，讓其他玩家更容易找到您的遊戲。您選取的篩選條件將會與搜尋結果{i}完全相符{/i}。
+
+舉個例子：如果您選取{b}休閒{/b}和{b}專家{/b}，那麼只有同時搜尋{b}休閒{/b}和{b}專家{/b}篩選條件的玩家會看到您的遊戲。</string>
 <string name="CreateLabel">建立</string>
 <string name="NewGameMode">新的遊戲模式！</string>
-<string name="NewModeInfo">在這個令人心驚膽跳的遊戲模式中，您將背負極高的風險！\%nl\%\%i\%不過等等，這可不是尋常的捉迷藏遊戲...\%/i\%</string>
+<string name="NewModeInfo">在這個令人心驚膽跳的遊戲模式中，您將背負極高的風險！
+{i}不過等等，這可不是尋常的捉迷藏遊戲...{/i}</string>
 <string name="HideSeekHowToPlayCaptionOne">這非常簡單！</string>
 <string name="HideSeekHowToPlayCaptionTwo">船員！</string>
 <string name="HideSeekHowToPlayCaptionThree">偽裝者！</string>
-<string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%船員：\%/b\%\%/color\%完成任務以加速時間進行，避開偽裝者，並在計時器時間結束前努力存活。\%nl\%\%nl\%\%color=#FF3131\%\%b\%偽裝者：\%/b\%\%/color\%找到船員並大開殺戒。</string>
+<string name="HideSeekHowToPlayPageOne">{color=#38F25D}{b}船員：{/b}{/color}完成任務以加速時間進行，避開偽裝者，並在計時器時間結束前努力存活。
+
+{color=#FF3131}{b}偽裝者：{/b}{/color}找到船員並大開殺戒。</string>
 <string name="HideSeekHowToPlaySubtextOne">這裡不需要社交推斷能力，只有恐懼和尖叫。</string>
 <string name="HideSeekHowToPlayCrewmateInfoOne">磨練您的躲藏和隱匿技巧，才能保住小命。</string>
 <string name="HideSeekHowToPlayCrewmateInfoTwo">在這個模式中，您可以使用通風口並取得高科技的危險量表，當偽裝者接近您時，危險量表會通知您。偽裝者的視野會受到限制，因此您可以運用智慧、通風口和臉部裝飾來躲開他們！</string>
 <string name="HideSeekHowToPlayImpostorInfoOne">偽裝者在這個模式中無法進入通風口，因此您需要快速行動才能抓到您的獵物。外面十分黑暗！幸好，您可以用手電筒來幫助自己尋找下一個受害者。</string>
-<string name="HideSeekHowToPlayFinalHide">這是最後的倒數了。在遊戲的最後一段時間內，偽裝者將獲得能力提升，他們的行動速度會加快，並獲得特別的尋人地圖和指示存活船員位置的提示。\%nl\%\%nl\%運用策略，快速思考並逃離危險，才能獲得勝利！</string>
+<string name="HideSeekHowToPlayFinalHide">這是最後的倒數了。在遊戲的最後一段時間內，偽裝者將獲得能力提升，他們的行動速度會加快，並獲得特別的尋人地圖和指示存活船員位置的提示。
+
+運用策略，快速思考並逃離危險，才能獲得勝利！</string>
 <string name="HideSeekHowToPlayFlashlightMobile">使用畫面右側的手電筒虛擬搖桿來操控光束，殺死您找到的所有船員！</string>
 <string name="HideSeekHowToPlayFlashlightDefault">使用滑鼠來操控手電筒光束，殺死您找到的所有船員！</string>
 <string name="HideSeekHowToPlayFlashlightConsoles">使用右搖桿來引導光束，並殺死您可以找到的所有船員！</string>
@@ -2032,7 +2162,9 @@
 <string name="Cosmetic.nameplate_hunter">獵人之傲</string>
 <string name="Cosmetic.nameplate_lightfall">《光殞年代》</string>
 <string name="AnnouncementErrorSubtitle">糟糕！公告遭到破壞了！</string>
-<string name="AnnouncementErrorText">似乎發生了問題。請確認遊戲已連線並已更新至最新版本，如此才能取得《Among Us》所有的最新資訊與修正。\%nl\%\%nl\%如果持續遭遇問題，請透過 support@innersloth.com 傳送支援表單給我們。</string>
+<string name="AnnouncementErrorText">似乎發生了問題。請確認遊戲已連線並已更新至最新版本，如此才能取得《Among Us》所有的最新資訊與修正。
+
+如果持續遭遇問題，請透過 support@innersloth.com 傳送支援表單給我們。</string>
 <string name="ReadMoreLabel">檢視完整公告！</string>
 <string name="ReturnToList">返回清單</string>
 <string name="NavigateLinks">瀏覽連結</string>
@@ -2056,7 +2188,8 @@
 <string name="AgeVerificationTitle">年齡驗證</string>
 <string name="AgeVerificationInfoTitle">什麼是年齡驗證？</string>
 <string name="AgeVerificationInfo">存取《Among Us》前必須先進行年齡驗證。我們不會儲存您的生日。</string>
-<string name="AgeVerificationMoreInfo">如欲了解關於我們隱私權政策的更多資訊，請前往：\%nl\% \%link="https://www.innersloth.com/zhtw/privacy-policy-tw/"\%https://www.innersloth.com/zhtw/privacy-policy-tw/\%/link\%</string>
+<string name="AgeVerificationMoreInfo">如欲了解關於我們隱私權政策的更多資訊，請前往：
+ {link="https://www.innersloth.com/zhtw/privacy-policy-tw/"}https://www.innersloth.com/zhtw/privacy-policy-tw/{/link}</string>
 <string name="EditLabel">編輯</string>
 <string name="VerifyAgeText">這個日期是您正確的生日嗎？</string>
 <string name="Cosmetic.nameplate_flagMlm">男同志驕傲旗幟</string>
@@ -2114,9 +2247,15 @@
 <string name="Cosmetic.skin_PusheenPurpleskin">淡紫色 Pusheen</string>
 <string name="Cosmetic.skin_Slothskin">Sloth</string>
 <string name="Cosmetic.hat_bearyCold">博柏利熊熊</string>
-<string name="EosAccountSilentMergeFail">在最終化你的《Among Us》帳號時出現問題。請再試一次或繼續使用訪客帳號。所有遊戲進度都會儲存，但我們建議你還是要設定帳號，這樣才能享受到《Among Us》的完整遊戲功能。\%nl\%\%nl\%是否再次嘗試設定帳號？</string>
-<string name="AskForEosAccount">你已經有《Among Us》帳號了嗎？（又稱為Epic Online Services帳號。）\%nl\%\%nl\%如果你以前曾經使用這個裝置玩過《Among Us》，請選擇「是」。</string>
-<string name="KwsCreateFail">喔不！系統在傳送監護人許可的電子郵件時發生錯誤。請再試一次或繼續使用離線模式。\%nl\%\%nl\%是否要再試一次？</string>
+<string name="EosAccountSilentMergeFail">在最終化你的《Among Us》帳號時出現問題。請再試一次或繼續使用訪客帳號。所有遊戲進度都會儲存，但我們建議你還是要設定帳號，這樣才能享受到《Among Us》的完整遊戲功能。
+
+是否再次嘗試設定帳號？</string>
+<string name="AskForEosAccount">你已經有《Among Us》帳號了嗎？（又稱為Epic Online Services帳號。）
+
+如果你以前曾經使用這個裝置玩過《Among Us》，請選擇「是」。</string>
+<string name="KwsCreateFail">喔不！系統在傳送監護人許可的電子郵件時發生錯誤。請再試一次或繼續使用離線模式。
+
+是否要再試一次？</string>
 <string name="MissingGuardianEmailText">你的帳號缺少了監護人的電子郵件地址。我們會需要透過電子郵件來徵詢你監護人的同意，只有在徵得監護人的同意後，我們才能繼續前往到下一步。如果監護人表示同意的話，你就能開始使用免費的線上聊天功能並變更你的使用者名稱。還請你要請求大人的協助，請他們來幫助你完成這個步驟喔！</string>
 <string name="MiningPit">礦坑</string>
 <string name="Jungle">叢林</string>
@@ -2191,7 +2330,9 @@
 <string name="Cosmetic.nameplate_cliffs">反掌峭壁</string>
 <string name="ReportNotificationHeader">謝謝你協助《Among Us》維護一個安全且友善的遊戲環境！</string>
 <string name="ReportNotificationBody">我們的管理團隊會審核你所提供的資訊，並根據遊戲守則來採取適當的處理措施。</string>
-<string name="ErrorClientTimeout">你失去了與伺服器的連線。這可能是因為伺服器問題、網路問題或裝置問題所導致的。請檢查你的網路連線。\%nl\%\%nl\%如果這個狀況時常發生，代表你的裝置可能過於老舊，或是沒有達到最低系統需求。請嘗試使用另一個裝置進行遊戲。</string>
+<string name="ErrorClientTimeout">你失去了與伺服器的連線。這可能是因為伺服器問題、網路問題或裝置問題所導致的。請檢查你的網路連線。
+
+如果這個狀況時常發生，代表你的裝置可能過於老舊，或是沒有達到最低系統需求。請嘗試使用另一個裝置進行遊戲。</string>
 <string name="ErrorClientTimeoutConsole">你已與伺服器失去連線。這可能是由伺服器或網路連線所導致的問題。請檢查你的網路連線。</string>
 <string name="Cosmetic.hat_NewYear2024">2024 新年帽</string>
 <string name="Cosmetic.nameplate_Celeste">登高望遠</string>
@@ -2319,7 +2460,9 @@
 <string name="Cosmetic.nameplate_lny_goldCrewmate">鴻運當頭</string>
 <string name="Cosmetic.nameplate_lny_goldImpostor">黃金厄運</string>
 <string name="AprilFoolsModeToggle">愚人節模式（限定造型）</string>
-<string name="ErrorAuthNonceFailure">有人在搞破壞啊！Among Us 的伺服器在驗證你的身份時碰到了一些問題。請再試一次。\%nl\%\%nl\%如果問題仍未獲得解決，請開立一份\%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%客服工單\%/link\%讓我們知道。</string>
+<string name="ErrorAuthNonceFailure">有人在搞破壞啊！Among Us 的伺服器在驗證你的身份時碰到了一些問題。請再試一次。
+
+如果問題仍未獲得解決，請開立一份{link="https://innersloth.zendesk.com/hc/en-us/requests/new"}客服工單{/link}讓我們知道。</string>
 <string name="Cosmetic.nameplate_crewmatesBlue">奇葩船員：藍</string>
 <string name="Cosmetic.nameplate_crewmatesRed">奇葩船員：紅</string>
 <string name="Cosmetic.nameplate_horseHeaven">歡樂小馬</string>
@@ -2400,7 +2543,8 @@
 <string name="QCSelfSawRoleInLocation">我在 {1} 看見了 {0}</string>
 <string name="NoisemakerRole">警示者</string>
 <string name="NoisemakerBlurb">警示者在被擊殺的後會發出警告</string>
-<string name="NoisemakerBlurbMed">在被擊殺的時候發出警告，\%nl\%好讓所有船員知道你的受害位置。</string>
+<string name="NoisemakerBlurbMed">在被擊殺的時候發出警告，
+好讓所有船員知道你的受害位置。</string>
 <string name="NoisemakerBlurbLong">警示者可不是普通的船員職業。警示者跟其他的職業不一樣，他們無法使用任何的東西。但警示者在被偽裝者殺死後，會自動發出警告讓大家知道。這樣的警告機制能夠制約偽裝者的下一步行動。這樣一來，其他船員就能立刻衝去命案現場，把偽裝者逮著正著，並為死者償命！</string>
 <string name="NoisemakerImpostorAlert">偽裝者也會收到警告通知</string>
 <string name="NoisemakerAlertDuration">警告持續時間</string>
@@ -2416,7 +2560,8 @@
 <string name="TrackerAbility">追蹤</string>
 <string name="TrackerAbilityUndo">取消追蹤</string>
 <string name="TrackerBlurb">追蹤者能夠使用地圖來追蹤一名船員</string>
-<string name="TrackerBlurbMed">在一名船員身上安裝追蹤裝置，\%nl\%並藉此使用地圖來追蹤對方的行蹤。</string>
+<string name="TrackerBlurbMed">在一名船員身上安裝追蹤裝置，
+並藉此使用地圖來追蹤對方的行蹤。</string>
 <string name="TrackerBlurbLong">追蹤者可以在小地圖上面看到追蹤船員的所在位置。在開始進行追蹤以前，你必須要先移動到目標船員的身邊，這樣你才能將追蹤裝置安裝到對方身上。在接近其他船員的時候還請小心，動作不要太明顯，不然你可是會讓對方起疑的。追蹤功能只能持續幾秒鐘的時間，所以還請慎選目標。此外，追蹤者也要小心，可別一直盯著小地圖，不然你很可能會成為偽裝者的下一個目標。</string>
 <string name="TrackerCooldown">追蹤冷卻時間</string>
 <string name="TrackerDuration">追蹤持續時間</string>
@@ -2526,18 +2671,25 @@
 <string name="ChatLabel">聊天室</string>
 <string name="NoneLowercaseLabel">無</string>
 <string name="ToolTipDefault">透過以下幾種設定選項來自訂你的遊戲大廳。</string>
-<string name="ToolTipClassic">有偽裝者混入了船員之中！ 找出行跡可疑\%nl\%的人並集結眾人之力投票將偽裝著驅逐出去。</string>
-<string name="ToolTipHide">終極的捉迷藏遊戲。\%nl\%可別被抓捕者抓到囉！</string>
+<string name="ToolTipClassic">有偽裝者混入了船員之中！ 找出行跡可疑
+的人並集結眾人之力投票將偽裝著驅逐出去。</string>
+<string name="ToolTipHide">終極的捉迷藏遊戲。
+可別被抓捕者抓到囉！</string>
 <string name="ToolTipCapacity">可以加入遊戲大廳的最大玩家人數。</string>
 <string name="ToolTipServer">創建之遊戲大廳的所在伺服器地區。</string>
 <string name="ToolTipCrossplay">任何平台的玩家都能夠加入遊戲大廳。</string>
 <string name="ToolTipNoCrossplay">只有平台與你相同的玩家可以加入本遊戲大廳。</string>
 <string name="ToolTipLanguage">遊戲內進行討論時所使用的語言。</string>
-<string name="ToolTipSkeld">The Skeld：一艘擁有多個房間和走廊\%nl\%的中型太空船。 非常適合新手入門。</string>
-<string name="ToolTipMIRA">MIRA HQ：一張擁有許多長廊和\%nl\%完整通風管道的小型地圖。</string>
-<string name="ToolTipPolus">Polus：這個行星前哨站是一張\%nl\%結合了室內外區域的中型地圖。</string>
-<string name="ToolTipAirship">The Airship：一張擁有大量不同房間的大型地圖，\%nl\%可以供各位躲藏（或是被偽裝者困住）。</string>
-<string name="ToolTipFungle">The Fungle：一座擁有陽光海灘、\%nl\%神秘叢林和高地地形的大型島嶼。</string>
+<string name="ToolTipSkeld">The Skeld：一艘擁有多個房間和走廊
+的中型太空船。 非常適合新手入門。</string>
+<string name="ToolTipMIRA">MIRA HQ：一張擁有許多長廊和
+完整通風管道的小型地圖。</string>
+<string name="ToolTipPolus">Polus：這個行星前哨站是一張
+結合了室內外區域的中型地圖。</string>
+<string name="ToolTipAirship">The Airship：一張擁有大量不同房間的大型地圖，
+可以供各位躲藏（或是被偽裝者困住）。</string>
+<string name="ToolTipFungle">The Fungle：一座擁有陽光海灘、
+神秘叢林和高地地形的大型島嶼。</string>
 <string name="ConfirmSettings">確認設定</string>
 <string name="ConfirmSettingsTooltip">你正準備套用以下的設定選項並藉此建立遊戲大廳：</string>
 <string name="EnterCodeElipsis">輸入遊戲大廳代碼⋯⋯</string>
@@ -2560,16 +2712,22 @@
 <string name="FilterGameTooltip">依遊戲模式來進行篩選。</string>
 <string name="FilterMapTooltip">依一個或多個地圖來進行篩選。</string>
 <string name="FilterImpostorTooltip">依偽裝者數量來進行篩選。</string>
-<string name="FilterRoleTooltip">依遊戲大廳是否有加入角色選項\%nl\%來進行篩選。</string>
+<string name="FilterRoleTooltip">依遊戲大廳是否有加入角色選項
+來進行篩選。</string>
 <string name="FilterSpeedTooltip">依角色移動速度來進行篩選。</string>
-<string name="FilterKillCDTooltip">在能夠再次殺人之前，\%nl\%偽裝者必須等待的冷卻時間。</string>
+<string name="FilterKillCDTooltip">在能夠再次殺人之前，
+偽裝者必須等待的冷卻時間。</string>
 <string name="FilterVotingTooltip">玩家們在會議中能夠進行投票的時長。</string>
-<string name="FilterVisualTaskTooltip">在開啟此選項後，\%nl\%所有玩家皆能夠在畫面中看到特定任務已被完成。</string>
-<string name="FilterAnonVotesTooltip">在開啟此選項後，\%nl\%會議結果便不會特別標示誰投票給誰。</string>
-<string name="FilterConfirmEjectTooltip">在開啟此選項後，\%nl\%系統會顯示被驅逐的船員是不是偽裝者。</string>
+<string name="FilterVisualTaskTooltip">在開啟此選項後，
+所有玩家皆能夠在畫面中看到特定任務已被完成。</string>
+<string name="FilterAnonVotesTooltip">在開啟此選項後，
+會議結果便不會特別標示誰投票給誰。</string>
+<string name="FilterConfirmEjectTooltip">在開啟此選項後，
+系統會顯示被驅逐的船員是不是偽裝者。</string>
 <string name="FilterCrossplayTooltip">顯示所有平台的遊戲大廳，或是僅顯示你所在平台的遊戲大廳。</string>
 <string name="FilterDefaultTooltip">使用以下的篩選條件來縮小搜尋範圍。</string>
-<string name="FilterFlashlightTooltip">在開啟此選項後，\%nl\%玩家便能夠獲得可以指向不同方向的光源。</string>
+<string name="FilterFlashlightTooltip">在開啟此選項後，
+玩家便能夠獲得可以指向不同方向的光源。</string>
 <string name="FilterHidingTimeTooltip">捉迷藏第一階段的時間長度。</string>
 <string name="FilterFinalTimeTooltip">捉迷藏最後階段的時間長度。</string>
 <string name="FilterMaxVentTooltip">船員可以使用通風管道的次數。</string>
@@ -2580,11 +2738,16 @@
 <string name="FilterTagTooltip">依大廳的標籤來進行篩選。</string>
 <string name="TooltipTag">新增標籤以招募具備相應技巧水平的玩家。</string>
 <string name="SelectedLabel">已選定：</string>
-<string name="TooltipSpeedInfo">\%b\%低：\%/b\%0.5-0.75x	\%b\%高：\%/b\%1.75-2.25x\%nl\%\%b\%中：\%/b\%1.0-1.5x	\%b\%極高：\%/b\%2.5-3.0x</string>
-<string name="TooltipKillCDInfo">\%b\%低：\%/b\%10-20 秒	\%b\%高：\%/b\%37.5-47.5 秒\%nl\%\%b\%中：\%/b\%22.5-35 秒	\%b\%極高：\%/b\%50-60 秒</string>
-<string name="TooltipVotingInfo">\%b\%低：\%/b\%0-60 秒	\%b\%高：\%/b\%150-210 秒\%nl\%\%b\%中：\%/b\%75-135 秒	\%b\%極高：\%/b\%225-300 秒</string>
-<string name="TooptipHidingTimeInfo">\%b\%低：\%/b\% 160-180 秒	\%b\%高：\%/b\% 260-300 秒\%nl\%\%b\%中：\%/b\%200-240 秒</string>
-<string name="TooltipFinalTimeInfo">\%b\%低：\%/b\%30-45 秒	\%b\%高：\%/b\%75-95 秒\%nl\%\%b\%中：\%/b\%50-70 秒 	\%b\%極高：\%/b\%100-120 秒</string>
+<string name="TooltipSpeedInfo">{b}低：{/b}0.5-0.75x	{b}高：{/b}1.75-2.25x
+{b}中：{/b}1.0-1.5x	{b}極高：{/b}2.5-3.0x</string>
+<string name="TooltipKillCDInfo">{b}低：{/b}10-20 秒	{b}高：{/b}37.5-47.5 秒
+{b}中：{/b}22.5-35 秒	{b}極高：{/b}50-60 秒</string>
+<string name="TooltipVotingInfo">{b}低：{/b}0-60 秒	{b}高：{/b}150-210 秒
+{b}中：{/b}75-135 秒	{b}極高：{/b}225-300 秒</string>
+<string name="TooptipHidingTimeInfo">{b}低：{/b} 160-180 秒	{b}高：{/b} 260-300 秒
+{b}中：{/b}200-240 秒</string>
+<string name="TooltipFinalTimeInfo">{b}低：{/b}30-45 秒	{b}高：{/b}75-95 秒
+{b}中：{/b}50-70 秒 	{b}極高：{/b}100-120 秒</string>
 <string name="FilterNoMaps">未選定地圖。</string>
 <string name="Cosmetic.hat_kamurocho_ichiban">Ichiban Kasuga 的髮型</string>
 <string name="Cosmetic.hat_kamurocho_ono">Ono Michio 的帽子</string>
@@ -2657,7 +2820,8 @@
 <string name="DetectiveAbility">審問</string>
 <string name="DetectiveAbilityNotes">筆記</string>
 <string name="DetectiveBlurb">收集情報。偵破命案。</string>
-<string name="DetectiveBlurbMed">將案情資訊新增至筆記中。\%nl\%審問船員。</string>
+<string name="DetectiveBlurbMed">將案情資訊新增至筆記中。
+審問船員。</string>
 <string name="DetectiveNotesEmpty">在發生了命案之後，我就可以開始展開調查⋯⋯</string>
 <string name="DetectiveNearLocation">在{0}附近</string>
 <string name="DetectiveNotesKiller">{0}</string>
@@ -2736,7 +2900,8 @@
 <string name="RewardAdTitle">你獲得了一顆星星！</string>
 <string name="RewardAdBody1">下一份星星獎勵會於 {0} 小時後開放。</string>
 <string name="RewardAdBody2">下一份星星獎勵會於 {0} 小時後開放。</string>
-<string name="WatchAdErrorBody">系統在載入廣告的時候發生問題。\%nl\%請稍後再試。</string>
+<string name="WatchAdErrorBody">系統在載入廣告的時候發生問題。
+請稍後再試。</string>
 <string name="WatchAdErrorTitle">糟糕⋯⋯</string>
 <string name="Cosmetic.hat_phoenix_wright">成步堂龍一的頭髮</string>
 <string name="Cosmetic.skin_phoenix_wright">成步堂龍一的西裝</string>
@@ -2802,4 +2967,27 @@
 <string name="Cosmetic.skin_parasite_Yellow">徽章圍裙（黃色）</string>
 <string name="Cosmetic.pet_parasite_Stressball">蹦蹦信任球</string>
 <string name="Cosmetic.nameplate_parasite_Impostor">就在你背後啊啊啊！</string>
+<string name="JudgeRole">法官</string>
+<string name="JudgeBlurb">接管會議</string>
+<string name="JudgeBlurbMed">駁回會議表決結果並逐出一名偽裝者。
+如果被逐出的船員不是偽裝者的話，那麼你就會被逐出。</string>
+<string name="JudgeBlurbLong">掌控投票的結果</string>
+<string name="JudgeTaskRequirement">任務解鎖 %</string>
+<string name="RolesHelp_Judge_01">法官在會議中擁有一項超強能力：「駁回」。他可以針對一名自己懷疑是偽裝者的船員投下特殊的一票。</string>
+<string name="RolesHelp_Judge_02">在法官發動了這項能力之後，整場會議的投票結果就會以法官的特殊票為準。要是法官猜對了，該名偽裝者就會被立刻逐出；要是法官猜錯了的話⋯那麽就會變成法官自己被逐出啦！</string>
+<string name="JudgeAbilityUnlocked">已解鎖「法官」的能力</string>
+<string name="JudgeAbilityProgress">再完成 {0} 個任務就能當法官囉！</string>
+<string name="JudgeCourtAdjourned">宣讀裁決結果⋯</string>
+<string name="JudgeHasSpoken">法官已宣判了裁決結果。</string>
+<string name="StatsJudgeSuccessfulOverrules">以「法官」能力逐出偽裝者的成功次數：</string>
+<string name="StatsJudgeFailedOverrules">未能以「法官」能力順利逐出偽裝者的的失敗次數：</string>
+<string name="JudgeBeatYouToIt">法官已宣判了裁決結果。
+（已經有別的法官搶先你一步囉）</string>
+<string name="QCJudges">法官大人？</string>
+<string name="QCJudgeOverrule">我會駁回表決結果</string>
+<string name="QCJudgePlease">拜託駁回表決結果並逐出：{0}</string>
+<string name="QCJudgeWillOverrule">我會駁回表決結果並逐出：{0}</string>
+<string name="MatchInfoGuideTitle">對戰資訊指南</string>
+<string name="MatchInfoGuidePlayersLabel">玩家</string>
+<string name="MatchInfoGuideNoRolesMessage">未啟用任何的職業</string>
 </resources>

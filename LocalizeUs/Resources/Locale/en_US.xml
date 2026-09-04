@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
 <string name="LocalButton">Local</string>
 <string name="OnlineButton">Online</string>
 <string name="HowToPlayButton">How To Play</string>
@@ -87,13 +88,14 @@
 <string name="EnterIdCode">Enter Id Code</string>
 <string name="BuyBeverage">Buy Beverage</string>
 <string name="ProcessData">Process Data</string>
-<string name="NumImpostorsS">There is \%color=#FF1919FF\%1 Impostor\%/color\% among us</string>
-<string name="NumImpostorsP">There are \%color=#FF1919FF\%{0} Impostors\%/color\% among us</string>
+<string name="NumImpostorsS">There is {color=#FF1919FF}1 Impostor{/color} among us</string>
+<string name="NumImpostorsP">There are {color=#FF1919FF}{0} Impostors{/color} among us</string>
 <string name="Crewmate">Crewmate</string>
 <string name="Impostor">Impostor</string>
 <string name="Victory">Victory</string>
 <string name="Defeat">Defeat</string>
-<string name="CrewmatesDisconnected">Most Crewmates\%nl\%Disconnected</string>
+<string name="CrewmatesDisconnected">Most Crewmates
+Disconnected</string>
 <string name="ImpostorDisconnected">Impostor Disconnected</string>
 <string name="PickAnomaly">Pick Anomaly</string>
 <string name="WaterPlantsGetCan">Watering Can Get!</string>
@@ -124,10 +126,16 @@
 <string name="MeetingVotingResults">Voting Results</string>
 <string name="MeetingProceeds">Proceeding In: {0}s</string>
 <string name="MeetingHasVoted">{0} has voted. {1} remaining.</string>
-<string name="HowToPlayText1">Among Us is a game of teamwork and betrayal.\%nl\%\%nl\%Players are either Crewmates or an Impostor.</string>
+<string name="HowToPlayText1">Among Us is a game of teamwork and betrayal.
+
+Players are either Crewmates or an Impostor.</string>
 <string name="HowToPlayText2">Play with 4 to 15 players online or via local WiFi!</string>
 <string name="HowToPlayText41">If you already have an Among Us account on another platform, you may be able to link to that account! Alternatively, you can create a brand new account.</string>
-<string name="HowToPlayText42">Firstly, determine who you want to play with!\%nl\%\%nl\%If you want to play with friends online, set to "private" and share the room code.\%nl\%\%nl\%If you want to play with others from all around the world, set to "public".</string>
+<string name="HowToPlayText42">Firstly, determine who you want to play with!
+
+If you want to play with friends online, set to "private" and share the room code.
+
+If you want to play with others from all around the world, set to "public".</string>
 <string name="HowToPlayText43">Want to play with more tasks? How about faster walk speed? More Impostors? As host, you can change these settings. Be sure to confirm the changes with your fellow players.</string>
 <string name="HowToPlayText44">If someone is being rude and/or spamming, hosts can temporarily kick players as a warning or ban players from the specific online room.</string>
 <string name="HowToPlayTextMap">Players have access to a personal map to help them navigate the ship.</string>
@@ -144,9 +152,21 @@
 <string name="HowToPlayTextImp5">Sabotage the ship and confuse the Crew.</string>
 <string name="HowToPlayTextImp6">Close doors and trap victims.</string>
 <string name="HowToPlayTextImp7">Kill off the Crew between cooldowns.</string>
-<string name="HowToPlayText5">While playing in person, no talking is allowed to keep the game fair between The Crew and The Impostor.\%nl\%\%nl\%If a player is killed by The Impostor, they cannot talk until the game ends.\%nl\%\%nl\%Ghosts still run their assigned tasks working towards a possible Crewmates win.</string>
-<string name="HowToPlayText6">When someone reports a dead body or calls an emergency meeting, the Crew gathers to discuss what they know about the Impostor.\%nl\%\%nl\%Players can now talk openly about who they think the Impostor is and what information they have. When playing in person, Ghosts cannot talk as they already know who the Impostor is.\%nl\%\%nl\%Impostors will try to prove their innocence or accuse another crew member.</string>
-<string name="HowToPlayText7">After discussion, vote for who you think is the Impostor.\%nl\%\%nl\%Whoever gets majority votes will be ejected from the ship, so vote wisely!\%nl\%\%nl\%If you don't have enough information and have decided as a Crew, you can also skip voting to avoid ejecting someone innocent and gather more information.</string>
+<string name="HowToPlayText5">While playing in person, no talking is allowed to keep the game fair between The Crew and The Impostor.
+
+If a player is killed by The Impostor, they cannot talk until the game ends.
+
+Ghosts still run their assigned tasks working towards a possible Crewmates win.</string>
+<string name="HowToPlayText6">When someone reports a dead body or calls an emergency meeting, the Crew gathers to discuss what they know about the Impostor.
+
+Players can now talk openly about who they think the Impostor is and what information they have. When playing in person, Ghosts cannot talk as they already know who the Impostor is.
+
+Impostors will try to prove their innocence or accuse another crew member.</string>
+<string name="HowToPlayText7">After discussion, vote for who you think is the Impostor.
+
+Whoever gets majority votes will be ejected from the ship, so vote wisely!
+
+If you don't have enough information and have decided as a Crew, you can also skip voting to avoid ejecting someone innocent and gather more information.</string>
 <string name="HowToPlayText81">Train with Practice mode!</string>
 <string name="HowToPlayText82">Set your own tasks as a Crew member or practice your Impostor killing strategies!</string>
 <string name="SettingsGeneral">General</string>
@@ -213,12 +233,36 @@
 <string name="RoomCodeInfo">Click to copy</string>
 <string name="LeaveGame">Leave Game</string>
 <string name="ReturnToGame">Return To Game</string>
-<string name="LocalHelp">Connection trubz?\%nl\%\%nl\%● Make sure everyone is connected to the same WiFi name\%nl\%● Make sure everyone has the same version (in the bottom right)\%nl\%● Make sure your WiFi's signal is strong\%nl\%● Sometimes another person hosting helps\%nl\%● Sometimes restarting the app helps...\%nl\%● Sometimes restarting your phone helps...\%nl\%● Still having problems? Let us know by reaching out to support@innersloth.com!</string>
-<string name="OnlineHelp">How does this work?\%nl\%\%nl\%● Hosting a game gives you a game code in the lobby panel.\%nl\%● Share the game code with friends to create a private room.\%nl\%● Or tap "Private" to make the room public for "Find Game".\%nl\%● The host can ban or kick players whenever chat is available.\%nl\%● Still having problems? Let us know by reaching out to support@innersloth.com!</string>
-<string name="EmergencyCount">CREWMEMBER {0} HAS\%nl\%\%nl\%\%nl\%\%nl\%EMERGENCY MEETINGS LEFT</string>
-<string name="EmergencyNotReady">CREWMATES MUST WAIT\%nl\%\%nl\%\%nl\%\%nl\%BEFORE NEXT EMERGENCY</string>
-<string name="EmergencyDuringCrisis">EMERGENCY MEETINGS CANNOT\%nl\%BE CALLED DURING CRISES</string>
-<string name="EmergencyRequested">EMERGENCY MEETING REQUESTED\%nl\%WAITING FOR HOST</string>
+<string name="LocalHelp">Connection trubz?
+
+● Make sure everyone is connected to the same WiFi name
+● Make sure everyone has the same version (in the bottom right)
+● Make sure your WiFi's signal is strong
+● Sometimes another person hosting helps
+● Sometimes restarting the app helps...
+● Sometimes restarting your phone helps...
+● Still having problems? Let us know by reaching out to support@innersloth.com!</string>
+<string name="OnlineHelp">How does this work?
+
+● Hosting a game gives you a game code in the lobby panel.
+● Share the game code with friends to create a private room.
+● Or tap "Private" to make the room public for "Find Game".
+● The host can ban or kick players whenever chat is available.
+● Still having problems? Let us know by reaching out to support@innersloth.com!</string>
+<string name="EmergencyCount">CREWMEMBER {0} HAS
+
+
+
+EMERGENCY MEETINGS LEFT</string>
+<string name="EmergencyNotReady">CREWMATES MUST WAIT
+
+
+
+BEFORE NEXT EMERGENCY</string>
+<string name="EmergencyDuringCrisis">EMERGENCY MEETINGS CANNOT
+BE CALLED DURING CRISES</string>
+<string name="EmergencyRequested">EMERGENCY MEETING REQUESTED
+WAITING FOR HOST</string>
 <string name="AdPolicyTitle">Advertisement Policy</string>
 <string name="AdPolicyText">Can we use your personal data to tailor ads for you? If you click yes, our advertising partners such as Google AdMob and Unity Ads will automatically collect data and use device identifiers and cookies for ad personalization. If you click no, you may still see non-personalized ads. To remove all ads, purchase the no-ad upgrade [httpstore]here[], and you and your friends will get no ads whenever you host! To learn more about our and our advertising partners' privacy practices, please see our [https://www.innersloth.com/privacy-policy/]Privacy Policy[]. You can change your decision at any time in the settings menu under "Data".</string>
 <string name="Accept">Accept</string>
@@ -226,7 +270,9 @@
 <string name="PlainYes">Yes</string>
 <string name="PlainNo">No</string>
 <string name="PrivacyPolicyTitle">Privacy Policy</string>
-<string name="PrivacyPolicyText">Innersloth processes personal data for Among Us. Please read our \%link="https://www.innersloth.com/privacy-policy/"\%Privacy Policy\%/link\% to learn more about our privacy practices. You can manage your personal data settings for Among Us under "Data".\%nl\%\%nl\%Please read our \%link="https://www.innersloth.com/terms-of-use-for-the-games/"\%Terms of Use\%/link\% before playing Among Us.</string>
+<string name="PrivacyPolicyText">Innersloth processes personal data for Among Us. Please read our {link="https://www.innersloth.com/privacy-policy/"}Privacy Policy{/link} to learn more about our privacy practices.
+
+Please read our {link="https://www.innersloth.com/terms-of-use-for-the-games/"}Terms of Use{/link} before playing Among Us.</string>
 <string name="ManageDataButton">Manage Data Collection</string>
 <string name="UnderstandButton">I Understand</string>
 <string name="WaterPlants">Water Plants</string>
@@ -300,28 +346,52 @@
 <string name="GameOverImpostorKills">Normally The Impostor would have just won because The Crew can no longer win. For Practice, we revive everyone instead.</string>
 <string name="GameOverTaskWin">Normally The Crew would have just won because the task bar is full. For Practice, we issue new tasks instead.</string>
 <string name="GameOverSabotage">Normally The Impostor would have just won because of the critical sabotage. Instead we just shut it off.</string>
-<string name="HowToPlayText2Switch">Play with 4 to 15 players online with your\%nl\%\%nl\%Nintendo Switch Online membership or via local Wi-Fi!!</string>
+<string name="HowToPlayText2Switch">Play with 4 to 15 players online with your
+
+Nintendo Switch Online membership or via local Wi-Fi!!</string>
 <string name="VentDirection">Vent Direction</string>
 <string name="VentMove">Move through Vent</string>
 <string name="MenuNavigate">Navigate</string>
 <string name="NsoError">Could not connect to network.</string>
-<string name="ErrorServerOverload">The Among Us servers are overloaded.\%nl\%\%nl\%Sorry! Please try again later!</string>
+<string name="ErrorServerOverload">The Among Us servers are overloaded.
+
+Sorry! Please try again later!</string>
 <string name="ErrorIntentionalLeaving">You may not join another game for another {0} minutes after intentionally disconnecting.</string>
 <string name="ErrorFocusLost">You were disconnected because Among Us was suspended by another app.</string>
-<string name="ErrorBanned">You were banned from {0}.\%nl\%\%nl\%You cannot rejoin that room.</string>
-<string name="ErrorKicked">You were kicked from {0}.\%nl\%\%nl\%You can rejoin if the room hasn't started.</string>
-<string name="ErrorBannedNoCode">You were banned from the room.\%nl\%\%nl\%You cannot rejoin that room.</string>
-<string name="ErrorKickedNoCode">You were kicked from the room.\%nl\%\%nl\%You can rejoin if the room hasn't started.</string>
-<string name="ErrorHacking">You were banned for hacking.\%nl\%\%nl\%Please stop.</string>
-<string name="ErrorFullGame">The game you tried to join is full.\%nl\%\%nl\%Check with the host to see if you can join next round.</string>
-<string name="ErrorStartedGame">The game you tried to join already started.\%nl\%\%nl\%Check with the host to see if you can join next round.</string>
+<string name="ErrorBanned">You were banned from {0}.
+
+You cannot rejoin that room.</string>
+<string name="ErrorKicked">You were kicked from {0}.
+
+You can rejoin if the room hasn't started.</string>
+<string name="ErrorBannedNoCode">You were banned from the room.
+
+You cannot rejoin that room.</string>
+<string name="ErrorKickedNoCode">You were kicked from the room.
+
+You can rejoin if the room hasn't started.</string>
+<string name="ErrorHacking">You were banned for hacking.
+
+Please stop.</string>
+<string name="ErrorFullGame">The game you tried to join is full.
+
+Check with the host to see if you can join next round.</string>
+<string name="ErrorStartedGame">The game you tried to join already started.
+
+Check with the host to see if you can join next round.</string>
 <string name="ErrorNotFoundGame">Could not find the game you're looking for.</string>
 <string name="ErrorInactivity">The game server stopped this game. Possibly due to inactivity.</string>
-<string name="ErrorGenericOnlineDisconnect">You disconnected from the server.\%nl\%If this happens often, check your network strength.\%nl\%This may also be a server issue.</string>
-<string name="ErrorGenericLocalDisconnect">You disconnected from the host.\%nl\%\%nl\%If this happens often, check your WiFi strength.</string>
+<string name="ErrorGenericOnlineDisconnect">You disconnected from the server.
+If this happens often, check your network strength.
+This may also be a server issue.</string>
+<string name="ErrorGenericLocalDisconnect">You disconnected from the host.
+
+If this happens often, check your WiFi strength.</string>
 <string name="ErrorInvalidName">Game server refused username: {0}</string>
 <string name="ErrorUnknown">An unknown error disconnected you from the server.</string>
-<string name="ErrorIncorrectVersion">You are running an older version of the game.\%nl\%\%nl\%Please update to play with others.</string>
+<string name="ErrorIncorrectVersion">You are running an older version of the game.
+
+Please update to play with others.</string>
 <string name="ServerNA">North America</string>
 <string name="ServerEU">Europe</string>
 <string name="ServerAS">Asia</string>
@@ -397,7 +467,9 @@
 <string name="MedWT">WT:</string>
 <string name="MedETA">ETA {0}</string>
 <string name="MedHello">HELLO!</string>
-<string name="LobbySizeWarning">Among Us is playable with 4 players, but 5 or more players is recommended.\%nl\%\%nl\%4 player games will end very quickly and the impostor will often win.</string>
+<string name="LobbySizeWarning">Among Us is playable with 4 players, but 5 or more players is recommended.
+
+4 player games will end very quickly and the impostor will often win.</string>
 <string name="Okay">Okay</string>
 <string name="OkayDontShow">Ok, don't show this</string>
 <string name="Nevermind">Nevermind</string>
@@ -791,7 +863,14 @@
 <string name="GoOffline">Go Offline</string>
 <string name="PlayAsGuest">Play as Guest</string>
 <string name="LogInTitle">Sign In To An Account</string>
-<string name="LogInInfoText">Sign in or create an Among Us account to access the game's features like:\%nl\%\%nl\%- Saving your progress across select devices\%nl\%- Accessing Free Chat\%nl\%- Linking cosmetics\%nl\%- And more!\%nl\%\%nl\%Some features may need parent or guardian approval depending on the account type.</string>
+<string name="LogInInfoText">Sign in or create an Among Us account to access the game's features like:
+
+- Saving your progress across select devices
+- Accessing Free Chat
+- Linking cosmetics
+- And more!
+
+Some features may need parent or guardian approval depending on the account type.</string>
 <string name="LogInInfoTextSwitch">If you sign in to a full account, you can always log in again later. If you do not have an account, one will be made for you automatically.</string>
 <string name="ControllerDisconnectedMessage">Controller Disconnected</string>
 <string name="FollowUs">Follow us!</string>
@@ -874,7 +953,9 @@
 <string name="ProgressLabel">Progress:</string>
 <string name="TermsOfUseTitle">Terms of Use</string>
 <string name="PPAndToUTitle">Privacy Policy and Terms of Use</string>
-<string name="ErrorNotAuthenticated">The Among Us servers could not authenticate you.\%nl\%\%nl\%You must have an Among Us account to play online.</string>
+<string name="ErrorNotAuthenticated">The Among Us servers could not authenticate you.
+
+You must have an Among Us account to play online.</string>
 <string name="ComePlayDiscord">Come play Among Us with me!</string>
 <string name="ShowAccountSupportID5">Show Account Support ID</string>
 <string name="ShowAccountSupportID4">Press 4 more times to show</string>
@@ -1343,18 +1424,33 @@
 <string name="LinkAccount">Link Account</string>
 <string name="CreateNewAccount">Create New Account</string>
 <string name="LinkExistingAccount">Link Existing Account</string>
-<string name="LinkAccountExplanation">If you already have an Among Us account on another platform, you may be able to link to that account!\%nl\%Alternatively, you can create a brand new account.</string>
-<string name="LinkAccountCode">Enter the following code at \%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\%</string>
+<string name="LinkAccountExplanation">If you already have an Among Us account on another platform, you may be able to link to that account!
+Alternatively, you can create a brand new account.</string>
+<string name="LinkAccountCode">Enter the following code at {link="{0}"}{1}{/link} 
+{size=+2}{2}{/size}</string>
 <string name="ErrorLink">Something went wrong with linking your account. Please try again later.</string>
 <string name="UnlinkAccount">Unlink Account</string>
 <string name="ConfirmUnlinkAccount">Confirm Unlinking Account</string>
-<string name="UnlinkAccountExplain">Unlinking your {0} account will wipe your data and create a new {0} account.\%nl\%- You will lose any items you've received or unlocked on your {0} account.\%nl\%- You will restart at level 1 and 0 XP.</string>
-<string name="UnlinkAccountExplainConfirm">Please save this ID for reference:\%nl\%\%nl\%{0}\%nl\%\%nl\%If you unlink your account and do not have this ID, we cannot recover your progress and will not be able to assist you if there has been a mistake.</string>
+<string name="UnlinkAccountExplain">Unlinking your {0} account will wipe your data and create a new {0} account.
+- You will lose any items you've received or unlocked on your {0} account.
+- You will restart at level 1 and 0 XP.</string>
+<string name="UnlinkAccountExplainConfirm">Please save this ID for reference:
+
+{0}
+
+If you unlink your account and do not have this ID, we cannot recover your progress and will not be able to assist you if there has been a mistake.</string>
 <string name="UnlinkError">Something went wrong with unlinking your account. Please try again later.</string>
 <string name="UnlinkSuccess">You have successfully unlinked {0} from your main Among Us account!</string>
 <string name="ConfirmLinkExistingAccount">Confirm Linking to Existing Account</string>
-<string name="LinkExistingAccountExplain">Linking to a different account will overwrite all data on this platform. This means your {0} Among Us account will be replaced by the other account.\%nl\%- Any items you've unlocked on your {0} account will be overwritten.\%nl\%- All XP earned on your {0} account will be overwritten.\%nl\%- All Beans, Pods, and Stars will be overwritten.</string>
-<string name="LinkExistingAccountExplainConfirm">As soon as you confirm, we will reset your {0} Among Us account in order to prepare for importing the data from a different account.\%nl\%\%nl\%\%color=#{1}\%ENSURE YOU HAVE ANOTHER EXISTING ACCOUNT THAT YOU WOULD LIKE TO LINK THIS ACCOUNT TO BEFORE PROCESSING.\%/color\%\%nl\%\%nl\%Resetting your {0} account will clear all XP, Beans, Pods, and items to 0. We will NOT be able to revert this action.</string>
+<string name="LinkExistingAccountExplain">Linking to a different account will overwrite all data on this platform. This means your {0} Among Us account will be replaced by the other account.
+- Any items you've unlocked on your {0} account will be overwritten.
+- All XP earned on your {0} account will be overwritten.
+- All Beans, Pods, and Stars will be overwritten.</string>
+<string name="LinkExistingAccountExplainConfirm">As soon as you confirm, we will reset your {0} Among Us account in order to prepare for importing the data from a different account.
+
+{color=#{1}}ENSURE YOU HAVE ANOTHER EXISTING ACCOUNT THAT YOU WOULD LIKE TO LINK THIS ACCOUNT TO BEFORE PROCESSING.{/color}
+
+Resetting your {0} account will clear all XP, Beans, Pods, and items to 0. We will NOT be able to revert this action.</string>
 <string name="ResetAccount">Reset Account</string>
 <string name="PurchasingLabel">Purchasing Item</string>
 <string name="ErrorInternalServer">Internal Server Error (Code {0})</string>
@@ -1440,7 +1536,8 @@
 <string name="RoleChanceAndQuantity">{0} with {1}% Chance</string>
 <string name="CheckingPurchasesLabel">Checking Purchases...</string>
 <string name="ProtectedRecently">The Guardian Angel protected someone recently...</string>
-<string name="ScientistBlurbMed">Access vitals at anytime.\%nl\%Complete tasks to recharge your battery.</string>
+<string name="ScientistBlurbMed">Access vitals at anytime.
+Complete tasks to recharge your battery.</string>
 <string name="ScientistBlurbLong">The Scientist can access a portable vitals panel anywhere to check on the status of the crew. However the portable vitals panel needs to be charged, so the Scientist will need to complete tasks in order to fill the battery.</string>
 <string name="EngineerBlurbMed">Can use the vents.</string>
 <string name="EngineerBlurbLong">The Engineer is a Crewmate who can use vents to move around quicker, as well as catch venting Impostors in the act. You can't stay in there forever though, so be careful of who you vent around...</string>
@@ -1476,7 +1573,10 @@
 <string name="Cosmetic.skin_vi">Vi's Clothes</string>
 <string name="Cosmetic.pet_poro">Heimerdinger's Poro</string>
 <string name="RedeemPurchasedItemsTitle">Redeem Purchased Items</string>
-<string name="RedeemPurcahsedItemsExplain">We have a brand new inventory system so that you can access your items across platforms! Any items previously purchased on this platform can be transitioned over to our new inventory system ONLY ONCE.\%nl\%If this is your main Among Us account (the platform you play Among Us the most on), you can safely click on "proceed" and redeem your purchased DLC in the new inventory system. If this is an account you intend to link to your main account, you should only redeem after linking!\%nl\%\%nl\%Account ID: {0}</string>
+<string name="RedeemPurcahsedItemsExplain">We have a brand new inventory system so that you can access your items across platforms! Any items previously purchased on this platform can be transitioned over to our new inventory system ONLY ONCE.
+If this is your main Among Us account (the platform you play Among Us the most on), you can safely click on "proceed" and redeem your purchased DLC in the new inventory system. If this is an account you intend to link to your main account, you should only redeem after linking!
+
+Account ID: {0}</string>
 <string name="RedeemProceed">Proceed</string>
 <string name="RedeemNotYet">Not Right Now</string>
 <string name="RedeemNever">Don't Ask Again</string>
@@ -1535,7 +1635,8 @@
 <string name="Cosmetic.skin_witch">Whimsy Witch</string>
 <string name="Cosmetic.pet_frankendog">Frankendog</string>
 <string name="Cosmetic.hat_mohawk_bubblegum">Morawk - Bubblegum</string>
-<string name="AvailableFor">Available for\%nl\%{0}d {1}h {2}m {3}s</string>
+<string name="AvailableFor">Available for
+{0}d {1}h {2}m {3}s</string>
 <string name="GuardianAngelImpostorSeeProtect">Protect Visible to Impostors</string>
 <string name="Cosmetic.hat_pkHW01_PlagueHat">Plagued</string>
 <string name="QCAccIsRole">{0} is {1}</string>
@@ -1552,7 +1653,11 @@
 <string name="QCResProtected">{0} protected {1}</string>
 <string name="QCResProtected_ANY_QCCrewMe">{0} protected me</string>
 <string name="QCRoles">Roles</string>
-<string name="GuestProgressionWarning">You are logged into a Guest Account! \%nl\%\%nl\%All XP, Pods, and Beans earned will only apply to this Guest Account. Guest Accounts are linked only to your physical device and will be lost if you switch devices. \%nl\%\%nl\%To ensure access to all of your earned currencies as well as your purchases, please open the account tab on the main menu and sign into your Among Us Account.</string>
+<string name="GuestProgressionWarning">You are logged into a Guest Account! 
+
+All XP, Pods, and Beans earned will only apply to this Guest Account. Guest Accounts are linked only to your physical device and will be lost if you switch devices. 
+
+To ensure access to all of your earned currencies as well as your purchases, please open the account tab on the main menu and sign into your Among Us Account.</string>
 <string name="ErrorFailedToCreateGame">Failed to create a game session. Try again later.</string>
 <string name="ErrorFailedToJoinCreatedGame">Failed to join game session after creating it. Try again later.</string>
 <string name="ErrorDisconnectBeforeJoining">Disconnected before joining game session.</string>
@@ -1584,7 +1689,7 @@
 <string name="Cosmetic.hat_w21_krampus">Krampus</string>
 <string name="Cosmetic.hat_w21_log">Yule Need to Log in</string>
 <string name="Cosmetic.hat_w21_mistletoe">Kiss me</string>
-<string name="Cosmetic.hat_w21_mittens">Smitten'd \%and\% Mitten'd </string>
+<string name="Cosmetic.hat_w21_mittens">Smitten'd {and} Mitten'd </string>
 <string name="Cosmetic.hat_w21_nutcracker">Crack-a-lacking</string>
 <string name="Cosmetic.hat_w21_pinecone">Pining for you</string>
 <string name="Cosmetic.hat_w21_winterpuff">Comfy Pom</string>
@@ -1644,7 +1749,9 @@
 <string name="BlockedPlayers">Blocked Players</string>
 <string name="RecentPlayers">Recently Played With</string>
 <string name="LobbyLabel">Lobby</string>
-<string name="FriendCodeExplanation">Among Us has a Friends List now! In order to send and receive friend or game requests, choose a unique Friend Code below.\%nl\%\%nl\%Once you select one, it cannot be changed.</string>
+<string name="FriendCodeExplanation">Among Us has a Friends List now! In order to send and receive friend or game requests, choose a unique Friend Code below.
+
+Once you select one, it cannot be changed.</string>
 <string name="FriendCodeSuccess">Your Friend Code is {0}</string>
 <string name="FriendRequestReceived">Friend Request Received</string>
 <string name="FriendRequestSent">Friend Request Sent</string>
@@ -1677,11 +1784,12 @@
 <string name="AddFriendConfirm">Send a friend request to {0}?</string>
 <string name="UnfriendConfirm">Unfriend {0}?</string>
 <string name="UnblockConfirm">Unblock {0}?</string>
-<string name="SettingsEnableFriendInvites">Friend \%and\% Lobby Invites</string>
+<string name="SettingsEnableFriendInvites">Friend {and} Lobby Invites</string>
 <string name="ErrorTooManyRequests">Too many lobby requests. Please wait a few minutes before trying again.</string>
 <string name="TempDisabled">Temporarily Disabled</string>
 <string name="TempDisabledLinkExplain">Accounts are undergoing changes. We've temporarily restricted the ability to link existing accounts together. This will be fixed soon in a future update!</string>
-<string name="RedeemPopup">Here's a gift from the crew!\%nl\%{0}.</string>
+<string name="RedeemPopup">Here's a gift from the crew!
+{0}.</string>
 <string name="RedeemButton">Redeem</string>
 <string name="ErrorMaxFriends">Your friends list is full.</string>
 <string name="ErrorPlayerBlockedYou">Error: User is on your block list or user is blocking you.</string>
@@ -1693,10 +1801,14 @@
 <string name="Decontamination3">Lower Decontamination</string>
 <string name="ErrorCommunications">Your communication settings are blocking you from joining the game. To join this game, please enable communications with others.</string>
 <string name="SettingsColorblind">Colorblind Text</string>
-<string name="MergeGuestAccountText">Looks like there's a \%link="https://www.innersloth.com/merging-guest-accounts/"\%guest account\%/link\% on this device! We no longer support guest accounts and will merge all items, currencies, and experience from your guest account into this {0} account.\%nl\%\%nl\%If you share this device (computer, phone, etc.) with other people, please note that everyone who uses this device SHARES this guest account. No other users on this device will be able to merge this guest account if you proceed, and you can only merge this guest account ONCE. You will NOT be able to reallocate the items, currencies, and experience tied to this guest account again.\%nl\%\%nl\%Please confirm that you would like to merge your guest account into this {0} account.</string>
+<string name="MergeGuestAccountText">Looks like there's a {link="https://www.innersloth.com/merging-guest-accounts/"}guest account{/link} on this device! We no longer support guest accounts and will merge all items, currencies, and experience from your guest account into this {0} account.
+
+If you share this device (computer, phone, etc.) with other people, please note that everyone who uses this device SHARES this guest account. No other users on this device will be able to merge this guest account if you proceed, and you can only merge this guest account ONCE. You will NOT be able to reallocate the items, currencies, and experience tied to this guest account again.
+
+Please confirm that you would like to merge your guest account into this {0} account.</string>
 <string name="MergeGuestAccountTitle">Merge Guest Account</string>
 <string name="ManageAccountTitle">Manage Account</string>
-<string name="ManageAccountText">Please visit \%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% to manage your account, merging, or if you have any issues.</string>
+<string name="ManageAccountText">Please visit {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} to manage your account, merging, or if you have any issues.</string>
 <string name="Cosmetic.visor_BaconVisor">So Happy to See You</string>
 <string name="Cosmetic.hat_Baguette">No Bread Only Pain</string>
 <string name="Cosmetic.skin_Bananaskin">Peanut Butter Jelly Time</string>
@@ -1766,12 +1878,15 @@
 <string name="Cosmetic.nameplate_Orange">Orange you glad to see me?</string>
 <string name="Cosmetic.hat_sausage">Tied Off</string>
 <string name="SignInIssueTitle">{0} Account Error</string>
-<string name="SignInIssueText">Your {0} cannot be used to create an Among Us account due to the {0}'s age restrictions.\%nl\%\%nl\%You can continue playing Among Us on this device, but for your safety certain features will be limited including: account linking, Star purchases, and items being transferred to a new device. If you have any questions, please email support@innersloth.com.</string>
+<string name="SignInIssueText">Your {0} cannot be used to create an Among Us account due to the {0}'s age restrictions.
+
+You can continue playing Among Us on this device, but for your safety certain features will be limited including: account linking, Star purchases, and items being transferred to a new device. If you have any questions, please email support@innersloth.com.</string>
 <string name="FriendListUnavailable">Friends List unavailable</string>
 <string name="ErrorSanction">Due to {0}, your account has been banned {1}.</string>
 <string name="SanctionDuration">until {0}</string>
 <string name="SanctionPermanent">permanently</string>
-<string name="SanctionConduct">\%nl\%Please take this time to reflect and remember our \%link="https://www.innersloth.com/code-of-conduct/"\%Code of Conduct\%/link\%!</string>
+<string name="SanctionConduct">
+Please take this time to reflect and remember our {link="https://www.innersloth.com/code-of-conduct/"}Code of Conduct{/link}!</string>
 <string name="SanctionSexualMisconduct">sexual misconduct</string>
 <string name="SanctionDoxing">sharing or threat of sharing personal information or doxing</string>
 <string name="SanctionIllegalActivity">the promotion or taking part in illegal activity</string>
@@ -1803,7 +1918,7 @@
 <string name="BugReportCategoryAccountManagement">Account Management</string>
 <string name="BugReportCategoryGameplayIssue">Gameplay Issue/Bug</string>
 <string name="BugReportCategoryServerIssues">Server Issues</string>
-<string name="BugReportCategoryBilling">Billing \%and\% Payment Help</string>
+<string name="BugReportCategoryBilling">Billing {and} Payment Help</string>
 <string name="BugReportPopUpSubmittedText">Thank you! Your feedback was successfully submitted.</string>
 <string name="BugReportPopUpSubmissionFailedText">You have submitted feedback too recently. Please try again later.</string>
 <string name="BugReportPopUpCategoryLabel">Category</string>
@@ -1845,10 +1960,14 @@
 <string name="Cosmetic.visor_hl_nudge">Nudge-Nudge</string>
 <string name="Cosmetic.visor_hl_marine">Marine's Eyepatch</string>
 <string name="Cosmetic.visor_hl_wrong">Haha What Could Be Wrong?</string>
-<string name="AccountDeleteHelp">By pressing CONFIRM, you are requesting the deletion of all your Among Us data. This request will take 7-14 days and will result in the erasure of all Stars, XP, Beans, Pods, and purchased Cosmetics. Once your account is fully deleted, we cannot revert this action. Your account will function as normal until the deletion process is complete.\%nl\%\%nl\%If you encounter any errors, please contact support@innersloth.com.</string>
+<string name="AccountDeleteHelp">By pressing CONFIRM, you are requesting the deletion of all your Among Us data. This request will take 7-14 days and will result in the erasure of all Stars, XP, Beans, Pods, and purchased Cosmetics. Once your account is fully deleted, we cannot revert this action. Your account will function as normal until the deletion process is complete.
+
+If you encounter any errors, please contact support@innersloth.com.</string>
 <string name="DeleteAccount">Delete Account</string>
 <string name="DoNotDeleteAccount">Cancel Account Deletion</string>
-<string name="AccountUnDeleteHelp">By pressing CONFIRM, you will stop the process of your account deletion. If you wish to delete your account, you will need to request it again.\%nl\%\%nl\%If you encounter any errors, please contact support@innersloth.com.</string>
+<string name="AccountUnDeleteHelp">By pressing CONFIRM, you will stop the process of your account deletion. If you wish to delete your account, you will need to request it again.
+
+If you encounter any errors, please contact support@innersloth.com.</string>
 <string name="ConfirmDelete">Please type DELETE to confirm</string>
 <string name="ConfirmDeleteAccounts">Check this box to confirm that you understand this will delete this account and linked ones ({0}).</string>
 <string name="ConfirmDeleteAccountsEmpty">Check this box to confirm that you understand this will delete this account and linked ones.</string>
@@ -1866,7 +1985,8 @@
 <string name="Ghost">Ghost</string>
 <string name="CurrentlyHaunting">Currently Haunting:</string>
 <string name="RoundRobin">Round-robin</string>
-<string name="RuleOneCrewmates">Survive until time runs out.\%nl\%Finishing tasks reduce the timer.</string>
+<string name="RuleOneCrewmates">Survive until time runs out.
+Finishing tasks reduce the timer.</string>
 <string name="RuleTwoCrewmates">Use vents and the Danger Meter to hide!</string>
 <string name="RuleThreeCrewmates">After the timer is up, the Impostor can track you!</string>
 <string name="RuleOneImpostor">Kill all Crewmates within the time limit!</string>
@@ -1896,20 +2016,29 @@
 <string name="DefaultFilterTag_Casual">Casual</string>
 <string name="DefaultFilterTag_Serious">Serious</string>
 <string name="DefaultFilterTag_Expert">Expert</string>
-<string name="TagFiltersHelpFindGame">You can filter game searches by selecting tags from the Filters dropdown list. Filters you select will match the search results \%i\%exactly\%/i\%.\%nl\%\%nl\%Example: If you select \%b\%Casual\%/b\% and \%b\%Expert\%/b\% you will only find games tagged with both \%b\%Casual\%/b\% and \%b\%Expert\%/b\% filters.</string>
-<string name="TagFiltersHelpCreate">You can tag your game with filters to help players find your game. Filters you select will match the search results \%i\%exactly\%/i\%.\%nl\%\%nl\%Example: If you select \%b\%Casual\%/b\% and \%b\%Expert\%/b\% only people who search for both \%b\%Casual\%/b\% and \%b\%Expert\%/b\% filters will see your game.</string>
+<string name="TagFiltersHelpFindGame">You can filter game searches by selecting tags from the Filters dropdown list. Filters you select will match the search results {i}exactly{/i}.
+
+Example: If you select {b}Casual{/b} and {b}Expert{/b} you will only find games tagged with both {b}Casual{/b} and {b}Expert{/b} filters.</string>
+<string name="TagFiltersHelpCreate">You can tag your game with filters to help players find your game. Filters you select will match the search results {i}exactly{/i}.
+
+Example: If you select {b}Casual{/b} and {b}Expert{/b} only people who search for both {b}Casual{/b} and {b}Expert{/b} filters will see your game.</string>
 <string name="CreateLabel">Create</string>
 <string name="NewGameMode">New Game Mode!</string>
-<string name="NewModeInfo">The stakes are high in this heart-stopping game mode! \%nl\%\%i\%But wait - it's not your ordinary Hide n Seek...\%/i\%</string>
+<string name="NewModeInfo">The stakes are high in this heart-stopping game mode! 
+{i}But wait - it's not your ordinary Hide n Seek...{/i}</string>
 <string name="HideSeekHowToPlayCaptionOne">It's simple!</string>
 <string name="HideSeekHowToPlayCaptionTwo">Crewmates!</string>
 <string name="HideSeekHowToPlayCaptionThree">Impostors!</string>
-<string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%Crewmates:\%/b\%\%/color\% Complete tasks to speed up the clock, avoid the Impostor, and stay alive until the timer runs out.\%nl\%\%nl\%\%color=#FF3131\%\%b\%The Impostor:\%/b\%\%/color\% Find the Crewmates and go on a killing spree.</string>
+<string name="HideSeekHowToPlayPageOne">{color=#38F25D}{b}Crewmates:{/b}{/color} Complete tasks to speed up the clock, avoid the Impostor, and stay alive until the timer runs out.
+
+{color=#FF3131}{b}The Impostor:{/b}{/color} Find the Crewmates and go on a killing spree.</string>
 <string name="HideSeekHowToPlaySubtextOne">No social deduction here, just terrified screaming.</string>
 <string name="HideSeekHowToPlayCrewmateInfoOne">Master your hiding and sneaking skills in order to survive.</string>
 <string name="HideSeekHowToPlayCrewmateInfoTwo">In this mode you can use vents and get a high-tech Danger Meter that alerts you when the Impostor is getting closer. The Impostor has a limited range of vision, so use your wits, vents, and visors to dodge them!</string>
 <string name="HideSeekHowToPlayImpostorInfoOne">Impostors can't vent in this mode, so you'll need to act fast to catch your prey. It's dark out there! Luckily you have a Flashlight to help you find your next victims.</string>
-<string name="HideSeekHowToPlayFinalHide">It's the finaaaal countdownnnn. In the last moments of the game, the Impostor gets a power boost - they're faster, get a special Seek map, and a directional ping to where any surviving Crewmates are.\%nl\%\%nl\%Think fast and run away strategically to win!</string>
+<string name="HideSeekHowToPlayFinalHide">It's the finaaaal countdownnnn. In the last moments of the game, the Impostor gets a power boost - they're faster, get a special Seek map, and a directional ping to where any surviving Crewmates are.
+
+Think fast and run away strategically to win!</string>
 <string name="HideSeekHowToPlayFlashlightMobile">Use the Flashlight virtual joystick on the right side of your screen to direct your beam and kill all the Crewmates you can find!</string>
 <string name="HideSeekHowToPlayFlashlightDefault">Use your mouse to direct your Flashlight beam and kill all the Crewmates you can find!</string>
 <string name="HideSeekHowToPlayFlashlightConsoles">Use the Right Stick to direct your beam and kill all the Crewmates you can find!</string>
@@ -2032,7 +2161,9 @@
 <string name="Cosmetic.nameplate_hunter">Hunter's Pride</string>
 <string name="Cosmetic.nameplate_lightfall">Lightfall</string>
 <string name="AnnouncementErrorSubtitle">Uh oh! Announcement sabotage!</string>
-<string name="AnnouncementErrorText">Looks like something went wrong. Please make sure your game is online and updated to the latest version in order to get all of the latest Among Us information and fixes.\%nl\%\%nl\%If you continue to have issues, send us a support ticket at support@innersloth.com.</string>
+<string name="AnnouncementErrorText">Looks like something went wrong. Please make sure your game is online and updated to the latest version in order to get all of the latest Among Us information and fixes.
+
+If you continue to have issues, send us a support ticket at support@innersloth.com.</string>
 <string name="ReadMoreLabel">to view full announcement!</string>
 <string name="ReturnToList">Return to list</string>
 <string name="NavigateLinks">Navigate links</string>
@@ -2056,7 +2187,8 @@
 <string name="AgeVerificationTitle">Age Verification</string>
 <string name="AgeVerificationInfoTitle">What is age verification?</string>
 <string name="AgeVerificationInfo">Age verification is required before you can access Among Us. We do not store your birthdate.</string>
-<string name="AgeVerificationMoreInfo">For more information regarding our privacy practices, please visit:\%nl\% \%link="https://www.innersloth.com/privacy-policy/"\%https://www.innersloth.com/privacy-policy/\%/link\%</string>
+<string name="AgeVerificationMoreInfo">For more information regarding our privacy practices, please visit:
+ {link="https://www.innersloth.com/privacy-policy/"}https://www.innersloth.com/privacy-policy/{/link}</string>
 <string name="EditLabel">Edit</string>
 <string name="VerifyAgeText">Is this date your correct birthdate?</string>
 <string name="Cosmetic.nameplate_flagMlm">MLM Pride Flag</string>
@@ -2114,9 +2246,15 @@
 <string name="Cosmetic.skin_PusheenPurpleskin">Lilac Pastel Pusheen</string>
 <string name="Cosmetic.skin_Slothskin">Sloth</string>
 <string name="Cosmetic.hat_bearyCold">Brr-Bear-y</string>
-<string name="EosAccountSilentMergeFail">Something went wrong when finalizing your Among Us account. Please try again or continue on a guest account. All progress will be saved, but we recommend setting up an account so you can fully enjoy all of the features in Among Us.\%nl\%\%nl\%Retry account setup?</string>
-<string name="AskForEosAccount">Do you have a pre-existing Among Us account? (Also known as an Epic Online Services account.)\%nl\%\%nl\%If you have played Among Us on this device before, select 'Yes'.</string>
-<string name="KwsCreateFail">Uh oh! Something went wrong sending the Guardian Permissions email. Please try again or continue in offline mode.\%nl\%\%nl\%Try again?</string>
+<string name="EosAccountSilentMergeFail">Something went wrong when finalizing your Among Us account. Please try again or continue on a guest account. All progress will be saved, but we recommend setting up an account so you can fully enjoy all of the features in Among Us.
+
+Retry account setup?</string>
+<string name="AskForEosAccount">Do you have a pre-existing Among Us account? (Also known as an Epic Online Services account.)
+
+If you have played Among Us on this device before, select 'Yes'.</string>
+<string name="KwsCreateFail">Uh oh! Something went wrong sending the Guardian Permissions email. Please try again or continue in offline mode.
+
+Try again?</string>
 <string name="MissingGuardianEmailText">Your account is missing a guardian email address. We need to ask your guardian (via e-mail) for permission to continue. If they say yes, you will be able to use free chat online and change your username. Ask an adult to help you with this!</string>
 <string name="MiningPit">Mining Pit</string>
 <string name="Jungle">Jungle</string>
@@ -2191,7 +2329,9 @@
 <string name="Cosmetic.nameplate_cliffs">It's Sedimentary</string>
 <string name="ReportNotificationHeader">Thank you for helping to keep Among Us a safe and friendly place!</string>
 <string name="ReportNotificationBody">Our moderation team will review the information you reported and take action as appropriate based on our Code of Conduct.</string>
-<string name="ErrorClientTimeout">You disconnected from the server. This could be due to server issues, network issues or device issues. Check your network strength.\%nl\%\%nl\%If this happens often, your device may be too old or not reaching the minimum spec requirements. Try playing on a different device.</string>
+<string name="ErrorClientTimeout">You disconnected from the server. This could be due to server issues, network issues or device issues. Check your network strength.
+
+If this happens often, your device may be too old or not reaching the minimum spec requirements. Try playing on a different device.</string>
 <string name="ErrorClientTimeoutConsole">You disconnected from the server. This could be due to server issues or network issues. Check your network strength.</string>
 <string name="Cosmetic.hat_NewYear2024">New Years 2024</string>
 <string name="Cosmetic.nameplate_Celeste">Upward and Onward</string>
@@ -2319,7 +2459,9 @@
 <string name="Cosmetic.nameplate_lny_goldCrewmate">Good Fortunes</string>
 <string name="Cosmetic.nameplate_lny_goldImpostor">Gold Misfortunes</string>
 <string name="AprilFoolsModeToggle">April Fools' Mode (Limited Cosmetics)</string>
-<string name="ErrorAuthNonceFailure">Sabotage! The Among Us servers ran into an issue while authenticating you. Please try again.\%nl\%\%nl\%If the problem continues, please send us a \%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%support ticket\%/link\%.</string>
+<string name="ErrorAuthNonceFailure">Sabotage! The Among Us servers ran into an issue while authenticating you. Please try again.
+
+If the problem continues, please send us a {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}support ticket{/link}.</string>
 <string name="Cosmetic.nameplate_crewmatesBlue">Funky Crew - Blue</string>
 <string name="Cosmetic.nameplate_crewmatesRed">Funky Crew - Red</string>
 <string name="Cosmetic.nameplate_horseHeaven">We Are No Longer Horsing Around</string>
@@ -2416,7 +2558,8 @@
 <string name="TrackerAbility">Track</string>
 <string name="TrackerAbilityUndo">Untrack</string>
 <string name="TrackerBlurb">Track a Crewmate with your map</string>
-<string name="TrackerBlurbMed">Plant a tracker on a Crewmate to watch\%nl\%their movements on the map.</string>
+<string name="TrackerBlurbMed">Plant a tracker on a Crewmate to watch
+their movements on the map.</string>
 <string name="TrackerBlurbLong">The Tracker can see the position of a Crewmate on their minimap. They first have to be beside another Crewmate to plant the tracking device. Be careful not to look too suspicious while approaching the other Crewmate. Tracking only lasts a few seconds so make sure to choose a target carefully. Also don’t get caught staring at the minimap too long as that leaves you vulnerable to an Impostor!</string>
 <string name="TrackerCooldown">Tracking Cooldown</string>
 <string name="TrackerDuration">Tracking Duration</string>
@@ -2486,7 +2629,7 @@
 <string name="Cosmetic.skin_paws_opossum">Trash Diver</string>
 <string name="Cosmetic.skin_paws_parrot">Flight Suit</string>
 <string name="Cosmetic.skin_paws_raccoon">Lil Rascal</string>
-<string name="Cosmetic.skin_paws_foxGrey">Kit \%and\% Caboodle - Grey</string>
+<string name="Cosmetic.skin_paws_foxGrey">Kit {and} Caboodle - Grey</string>
 <string name="Cosmetic.visor_paws_sacabambaspis">Jaw Dropping</string>
 <string name="Cosmetic.visor_paws_parrotBeak">Beak Performance</string>
 <string name="Cosmetic.visor_paws_bone">Bone Appetit</string>
@@ -2512,7 +2655,7 @@
 <string name="Cosmetic.skin_claws_dragonRed">Dragon Drop - Red</string>
 <string name="Cosmetic.skin_claws_frogSuit">Hop to It</string>
 <string name="Cosmetic.skin_claws_hoofed">Hoofin' It</string>
-<string name="Cosmetic.skin_claws_foxOrange">Kit \%and\% Caboodle - Orange</string>
+<string name="Cosmetic.skin_claws_foxOrange">Kit {and} Caboodle - Orange</string>
 <string name="Cosmetic.visor_claws_knife">Let Me See What You Have</string>
 <string name="Cosmetic.visor_claws_smallMuzzle">More Bark than Bite</string>
 <string name="Cosmetic.visor_claws_whiskers">The Cat's Meow</string>
@@ -2526,18 +2669,25 @@
 <string name="ChatLabel">Chat</string>
 <string name="NoneLowercaseLabel">none</string>
 <string name="ToolTipDefault">Customize your lobby using the settings below.</string>
-<string name="ToolTipClassic">There are Impostors blending in as Crewmates!\%nl\%Find who is suspicious and vote them out.</string>
-<string name="ToolTipHide">The ultimate game of cat and mouse.\%nl\%Don't get caught by the Seeker!</string>
+<string name="ToolTipClassic">There are Impostors blending in as Crewmates!
+Find who is suspicious and vote them out.</string>
+<string name="ToolTipHide">The ultimate game of cat and mouse.
+Don't get caught by the Seeker!</string>
 <string name="ToolTipCapacity">The maximum amount of players that can join the lobby.</string>
 <string name="ToolTipServer">The server region in which to create the game in.</string>
 <string name="ToolTipCrossplay">Players on any platform can join the lobby.</string>
 <string name="ToolTipNoCrossplay">Only players on the same platform as you can join.</string>
 <string name="ToolTipLanguage">The language to be used for in-game discussions.</string>
-<string name="ToolTipSkeld">The Skeld: a medium-sized ship with multiple rooms\%nl\%and corridors. Great for learning the ropes.</string>
-<string name="ToolTipMIRA">MIRA HQ: a small map with many long corridors\%nl\%and fully connected vent system.</string>
-<string name="ToolTipPolus">Polus: this planetary outpost is a medium-sized map\%nl\%featuring indoor and outdoor areas.</string>
-<string name="ToolTipAirship">The Airship: a large map with tons of different rooms to hide\%nl\%or be cornered by an Impostor.</string>
-<string name="ToolTipFungle">The Fungle: a large island with a sunny beach,\%nl\%mysterious jungle, and elevated highlands.</string>
+<string name="ToolTipSkeld">The Skeld: a medium-sized ship with multiple rooms
+and corridors. Great for learning the ropes.</string>
+<string name="ToolTipMIRA">MIRA HQ: a small map with many long corridors
+and fully connected vent system.</string>
+<string name="ToolTipPolus">Polus: this planetary outpost is a medium-sized map
+featuring indoor and outdoor areas.</string>
+<string name="ToolTipAirship">The Airship: a large map with tons of different rooms to hide
+or be cornered by an Impostor.</string>
+<string name="ToolTipFungle">The Fungle: a large island with a sunny beach,
+mysterious jungle, and elevated highlands.</string>
 <string name="ConfirmSettings">Confirm Settings</string>
 <string name="ConfirmSettingsTooltip">You are creating a lobby with the following settings:</string>
 <string name="EnterCodeElipsis">Enter code...</string>
@@ -2580,11 +2730,16 @@
 <string name="FilterTagTooltip">Filter by a lobby's Tag.</string>
 <string name="TooltipTag">Add a tag to appeal to players of a specific skill level.</string>
 <string name="SelectedLabel">SELECTED:</string>
-<string name="TooltipSpeedInfo">\%b\%Low:\%/b\% 0.5-0.75x	\%b\%High:\%/b\% 1.75-2.25x\%nl\%\%b\%Med:\%/b\% 1.0-1.5x	\%b\%V. High:\%/b\% 2.5-3.0x</string>
-<string name="TooltipKillCDInfo">\%b\%Low:\%/b\% 10-20s	\%b\%High:\%/b\% 37.5-47.5s\%nl\%\%b\%Med:\%/b\% 22.5-35s	\%b\%V. High:\%/b\% 50-60s</string>
-<string name="TooltipVotingInfo">\%b\%Low:\%/b\% 0-60s	\%b\%High:\%/b\% 150-210s\%nl\%\%b\%Med:\%/b\% 75-135s	\%b\%V. High:\%/b\% 225-300s</string>
-<string name="TooptipHidingTimeInfo">\%b\%Low:\%/b\% 160-180s	\%b\%High:\%/b\% 260-300s\%nl\%\%b\%Med:\%/b\% 200-240s</string>
-<string name="TooltipFinalTimeInfo">\%b\%Low:\%/b\% 30-45s	\%b\%High:\%/b\% 75-95s\%nl\%\%b\%Med:\%/b\% 50-70s	\%b\%V. High:\%/b\% 100-120s</string>
+<string name="TooltipSpeedInfo">{b}Low:{/b} 0.5-0.75x	{b}High:{/b} 1.75-2.25x
+{b}Med:{/b} 1.0-1.5x	{b}V. High:{/b} 2.5-3.0x</string>
+<string name="TooltipKillCDInfo">{b}Low:{/b} 10-20s	{b}High:{/b} 37.5-47.5s
+{b}Med:{/b} 22.5-35s	{b}V. High:{/b} 50-60s</string>
+<string name="TooltipVotingInfo">{b}Low:{/b} 0-60s	{b}High:{/b} 150-210s
+{b}Med:{/b} 75-135s	{b}V. High:{/b} 225-300s</string>
+<string name="TooptipHidingTimeInfo">{b}Low:{/b} 160-180s	{b}High:{/b} 260-300s
+{b}Med:{/b} 200-240s</string>
+<string name="TooltipFinalTimeInfo">{b}Low:{/b} 30-45s	{b}High:{/b} 75-95s
+{b}Med:{/b} 50-70s	{b}V. High:{/b} 100-120s</string>
 <string name="FilterNoMaps">No maps selected.</string>
 <string name="Cosmetic.hat_kamurocho_ichiban">Ichiban Kasuga’s Hair </string>
 <string name="Cosmetic.hat_kamurocho_ono">Ono Michio’s Hat</string>
@@ -2657,7 +2812,8 @@
 <string name="DetectiveAbility">Interrogate</string>
 <string name="DetectiveAbilityNotes">Notes</string>
 <string name="DetectiveBlurb">Gather info. Solve murders.</string>
-<string name="DetectiveBlurbMed">Add info to Notes.\%nl\%Interrogate Crewmates.</string>
+<string name="DetectiveBlurbMed">Add info to Notes.
+Interrogate Crewmates.</string>
 <string name="DetectiveNotesEmpty">As soon as there's a murder, I can start investigating...</string>
 <string name="DetectiveNearLocation">Near {0}</string>
 <string name="DetectiveNotesKiller">{0}</string>
@@ -2736,7 +2892,8 @@
 <string name="RewardAdTitle">YOU GOT A STAR!</string>
 <string name="RewardAdBody1">Another Star reward will be available in {0} hour.</string>
 <string name="RewardAdBody2">Another Star reward will be available in {0} hours.</string>
-<string name="WatchAdErrorBody">There was a problem loading the ad.\%nl\%Please try again later.</string>
+<string name="WatchAdErrorBody">There was a problem loading the ad.
+Please try again later.</string>
 <string name="WatchAdErrorTitle">UH OH...</string>
 <string name="Cosmetic.hat_phoenix_wright">Phoenix Wright's Hair</string>
 <string name="Cosmetic.skin_phoenix_wright">Phoenix Wright's Suit</string>
@@ -2802,4 +2959,27 @@
 <string name="Cosmetic.skin_parasite_Yellow">Yellow's Apron</string>
 <string name="Cosmetic.pet_parasite_Stressball">Trust Ball</string>
 <string name="Cosmetic.nameplate_parasite_Impostor">It's Right Behind You!</string>
+<string name="JudgeRole">Judge</string>
+<string name="JudgeBlurb">Take over a meeting</string>
+<string name="JudgeBlurbMed">Overrule a meeting to eject an Impostor.
+If wrong, you get ejected.</string>
+<string name="JudgeBlurbLong">Take control of the vote</string>
+<string name="JudgeTaskRequirement">Task Unlock %</string>
+<string name="RolesHelp_Judge_01">The Judge has a powerful ability for meetings called Overrule. It lets them use a special vote on one Crewmate who they think is an Impostor.</string>
+<string name="RolesHelp_Judge_02">When they use the ability, only their special vote counts. If the Judge is right, the Impostor gets ejected. If the Judge is wrong, they get ejected instead!</string>
+<string name="JudgeAbilityUnlocked">Judge ability unlocked</string>
+<string name="JudgeAbilityProgress">Complete {0} task(s) in order to judge!</string>
+<string name="JudgeCourtAdjourned">The verdict is in...</string>
+<string name="JudgeHasSpoken">The Judge has spoken.</string>
+<string name="StatsJudgeSuccessfulOverrules">Successful Judge Overrules:</string>
+<string name="StatsJudgeFailedOverrules">Failed Judge Overrules:</string>
+<string name="JudgeBeatYouToIt">The Judge has spoken.
+(Another Judge beat you to it)</string>
+<string name="QCJudges">Judges?</string>
+<string name="QCJudgeOverrule">I will Overrule</string>
+<string name="QCJudgePlease">Please Overrule {0}</string>
+<string name="QCJudgeWillOverrule">I will Overrule {0}</string>
+<string name="MatchInfoGuideTitle">Match Info Guide</string>
+<string name="MatchInfoGuidePlayersLabel">Players</string>
+<string name="MatchInfoGuideNoRolesMessage">No Roles Enabled</string>
 </resources>

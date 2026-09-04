@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
 <string name="LocalButton">Lokaal</string>
 <string name="OnlineButton">Online</string>
 <string name="HowToPlayButton">Zo speel je</string>
@@ -30,14 +31,14 @@
 <string name="ImpostorsRemainP">Er zijn nog {0} bedriegers.</string>
 <string name="Hallway">Gang</string>
 <string name="Engines">Motoren</string>
-<string name="LangCzech">Bovenste motor</string>
+<string name="UpperEngine">Bovenste motor</string>
 <string name="Cafeteria">Kantine</string>
 <string name="Weapons">Wapens</string>
 <string name="Reactor">Reactor</string>
 <string name="Security">Beveiliging</string>
 <string name="MedBay">Ziekenkamer</string>
 <string name="LifeSupp">Zuurstof</string>
-<string name="LangGreek">Navigatie</string>
+<string name="Nav">Navigatie</string>
 <string name="LowerEngine">Onderste motor</string>
 <string name="Electrical">Elektra</string>
 <string name="Admin">Administratie</string>
@@ -87,13 +88,14 @@
 <string name="EnterIdCode">Voer ID-code in</string>
 <string name="BuyBeverage">Koop drankje</string>
 <string name="ProcessData">Verwerk data</string>
-<string name="NumImpostorsS">Er is \%color=#FF1919FF\%1 bedrieger\%/color\% in ons midden</string>
-<string name="NumImpostorsP">Er zijn \%color=#FF1919FF\%{0} bedriegers\%/color\% in ons midden</string>
+<string name="NumImpostorsS">Er is {color=#FF1919FF}1 bedrieger{/color} in ons midden</string>
+<string name="NumImpostorsP">Er zijn {color=#FF1919FF}{0} bedriegers{/color} in ons midden</string>
 <string name="Crewmate">Bemanningslid</string>
 <string name="Impostor">Bedrieger</string>
 <string name="Victory">Gewonnen</string>
 <string name="Defeat">Verloren</string>
-<string name="CrewmatesDisconnected">Meeste bemanningsleden\%nl\%hebben verbinding verloren</string>
+<string name="CrewmatesDisconnected">Meeste bemanningsleden
+hebben verbinding verloren</string>
 <string name="ImpostorDisconnected">Bedrieger heeft verbinding verloren</string>
 <string name="PickAnomaly">Kies afwijking</string>
 <string name="WaterPlantsGetCan">Gieter gevonden!</string>
@@ -124,10 +126,16 @@
 <string name="MeetingVotingResults">Uitslag stemming</string>
 <string name="MeetingProceeds">Verder over: {0} s</string>
 <string name="MeetingHasVoted">{0} heeft gestemd. Nog {1} te gaan.</string>
-<string name="HowToPlayText1">Among Us gaat over teamwork en verraad.\%nl\%\%nl\%Spelers kunnen bemanningsleden zijn of een bedrieger.</string>
+<string name="HowToPlayText1">Among Us gaat over teamwork en verraad.
+
+Spelers kunnen bemanningsleden zijn of een bedrieger.</string>
 <string name="HowToPlayText2">Speel met 4 tot 15 spelers, online of via lokale wifi.</string>
 <string name="HowToPlayText41">Als je een spel host, kun je instellen hoe het wordt gespeeld.</string>
-<string name="HowToPlayText42">Bepaal eerst met wie je wilt spelen.\%nl\%\%nl\%Als je online met vrienden wilt spelen, kies je 'Privé' en deel je de kamercode.\%nl\%\%nl\%Als je met mensen van over de hele wereld wilt spelen, kies je 'Openbaar'.</string>
+<string name="HowToPlayText42">Bepaal eerst met wie je wilt spelen.
+
+Als je online met vrienden wilt spelen, kies je 'Privé' en deel je de kamercode.
+
+Als je met mensen van over de hele wereld wilt spelen, kies je 'Openbaar'.</string>
 <string name="HowToPlayText43">Wil je met meer taken spelen? Of sneller lopen? Meer bedriegers? Als host kun je deze instellingen aanpassen. Zorg wel dat je de wijzigingen bevestigt bij je medespelers.</string>
 <string name="HowToPlayText44">Als iemand onbeschoft doet en/of spam stuurt, kan de host die speler tijdelijk uit het spel gooien of helemaal uit de specifieke online kamer verbannen.</string>
 <string name="HowToPlayTextMap">Spelers hebben een eigen kaart tot hun beschikking om de weg te vinden op het schip.</string>
@@ -144,9 +152,21 @@
 <string name="HowToPlayTextImp5">Saboteer het schip en leid de bemanning om de tuin.</string>
 <string name="HowToPlayTextImp6">Sluit deuren en lok slachtoffers in de val.</string>
 <string name="HowToPlayTextImp7">Dood de bemanning tussen afkoelperiodes.</string>
-<string name="HowToPlayText5">Als jullie samen fysiek in dezelfde ruimte spelen, mag er niet gepraat worden. Zo blijft het eerlijk voor de bemanning en de bedrieger.\%nl\%\%nl\%Als een speler gedood wordt door de bedrieger, mag die pas praten als het spel voorbij is.\%nl\%\%nl\%Spoken kunnen hun taken nog steeds uitvoeren om de bemanning naar de overwinning te helpen.</string>
-<string name="HowToPlayText6">Als iemand een lijk meldt of een spoedvergadering bijeenroept, komt de bemanning bij elkaar om te bespreken wat ze weten over de bedrieger.\%nl\%\%nl\%Spelers kunnen nu openlijk praten over wie ze denken dat de bedrieger is en welke informatie ze hebben. Als je samen fysiek in dezelfde ruimte speelt, mogen de spoken niet praten, want zij weten al wie de bedrieger is.\%nl\%\%nl\%Bedriegers zullen proberen hun onschuld te bewijzen of een ander bemanningslid te beschuldigen.</string>
-<string name="HowToPlayText7">Na de bespreking stem je op wie volgens jou de bedrieger is.\%nl\%\%nl\%Wie de meeste stemmen krijgt, wordt uit het schip gegooid, dus denk goed na over je stem!\%nl\%\%nl\%Als je niet genoeg informatie hebt, kun je als bemanning ook besluiten om niemand eruit te gooien en meer informatie te verzamelen.</string>
+<string name="HowToPlayText5">Als jullie samen fysiek in dezelfde ruimte spelen, mag er niet gepraat worden. Zo blijft het eerlijk voor de bemanning en de bedrieger.
+
+Als een speler gedood wordt door de bedrieger, mag die pas praten als het spel voorbij is.
+
+Spoken kunnen hun taken nog steeds uitvoeren om de bemanning naar de overwinning te helpen.</string>
+<string name="HowToPlayText6">Als iemand een lijk meldt of een spoedvergadering bijeenroept, komt de bemanning bij elkaar om te bespreken wat ze weten over de bedrieger.
+
+Spelers kunnen nu openlijk praten over wie ze denken dat de bedrieger is en welke informatie ze hebben. Als je samen fysiek in dezelfde ruimte speelt, mogen de spoken niet praten, want zij weten al wie de bedrieger is.
+
+Bedriegers zullen proberen hun onschuld te bewijzen of een ander bemanningslid te beschuldigen.</string>
+<string name="HowToPlayText7">Na de bespreking stem je op wie volgens jou de bedrieger is.
+
+Wie de meeste stemmen krijgt, wordt uit het schip gegooid, dus denk goed na over je stem!
+
+Als je niet genoeg informatie hebt, kun je als bemanning ook besluiten om niemand eruit te gooien en meer informatie te verzamelen.</string>
 <string name="HowToPlayText81">Oefen in het speltype Oefenmodus!</string>
 <string name="HowToPlayText82">Stel je eigen taken in als bemanningslid of oefen je moorddadige strategieën als bedrieger!</string>
 <string name="SettingsGeneral">Algemeen</string>
@@ -213,12 +233,36 @@
 <string name="RoomCodeInfo">Klik om te kopiëren</string>
 <string name="LeaveGame">Spel verlaten</string>
 <string name="ReturnToGame">Terug naar spel</string>
-<string name="LocalHelp">Probleempjes met de verbinding?\%nl\%\%nl\%● Zorg dat iedereen dezelfde wifiverbinding gebruikt\%nl\%● Zorg ervoor dat iedereen dezelfde versie heeft (rechtsonder)\%nl\%● Zorg dat je een sterk wifi-signaal hebt\%nl\%● Soms helpt het als iemand anders host\%nl\%● Soms helpt het om de app opnieuw op te starten...\%nl\%● Soms helpt het om je telefoon opnieuw op te starten...\%nl\%● Lukt het nog steeds niet? Stuur ons dan een mail: support@innersloth.com!</string>
-<string name="OnlineHelp">Hoe werkt dit?\%nl\%\%nl\%● Als je een spel host, krijg je een spelcode in het lobbypaneel.\%nl\%● Deel de spelcode met vrienden om een privékamer te maken.\%nl\%● Of tik op 'Privé' om de kamer openbaar te maken in 'Spel zoeken'.\%nl\%● De host kan spelers verbannen of verwijderen op momenten dat de chat beschikbaar is.\%nl\%● Lukt het nog steeds niet? Stuur ons dan een mail: support@innersloth.com!</string>
-<string name="EmergencyCount">BEMANNINGSLID {0} HEEFT NOG\%nl\%\%nl\%\%nl\%\%nl\%SPOEDVERGADERINGEN</string>
-<string name="EmergencyNotReady">BEMANNINGSLEDEN MOETEN\%nl\%\%nl\%\%nl\%\%nl\%WACHTEN TOT HET VOLGENDE NOODGEVAL</string>
-<string name="EmergencyDuringCrisis">SPOEDVERGADERINGEN ZIJN NIET MOGELIJK\%nl\%TIJDENS EEN CRISIS</string>
-<string name="EmergencyRequested">SPOEDVERGADERING VERZOCHT\%nl\%WACHT OP DE HOST</string>
+<string name="LocalHelp">Probleempjes met de verbinding?
+
+● Zorg dat iedereen dezelfde wifiverbinding gebruikt
+● Zorg ervoor dat iedereen dezelfde versie heeft (rechtsonder)
+● Zorg dat je een sterk wifi-signaal hebt
+● Soms helpt het als iemand anders host
+● Soms helpt het om de app opnieuw op te starten...
+● Soms helpt het om je telefoon opnieuw op te starten...
+● Lukt het nog steeds niet? Stuur ons dan een mail: support@innersloth.com!</string>
+<string name="OnlineHelp">Hoe werkt dit?
+
+● Als je een spel host, krijg je een spelcode in het lobbypaneel.
+● Deel de spelcode met vrienden om een privékamer te maken.
+● Of tik op 'Privé' om de kamer openbaar te maken in 'Spel zoeken'.
+● De host kan spelers verbannen of verwijderen op momenten dat de chat beschikbaar is.
+● Lukt het nog steeds niet? Stuur ons dan een mail: support@innersloth.com!</string>
+<string name="EmergencyCount">BEMANNINGSLID {0} HEEFT NOG
+
+
+
+SPOEDVERGADERINGEN</string>
+<string name="EmergencyNotReady">BEMANNINGSLEDEN MOETEN
+
+
+
+WACHTEN TOT HET VOLGENDE NOODGEVAL</string>
+<string name="EmergencyDuringCrisis">SPOEDVERGADERINGEN ZIJN NIET MOGELIJK
+TIJDENS EEN CRISIS</string>
+<string name="EmergencyRequested">SPOEDVERGADERING VERZOCHT
+WACHT OP DE HOST</string>
 <string name="AdPolicyTitle">Reclamebeleid</string>
 <string name="AdPolicyText">Kunnen we je persoonlijke gegevens gebruiken om advertenties op je af te stemmen? Als je op ja klikt, verzamelen onze advertentiepartners zoals Google AdMob en Unity Ads automatisch gegevens en gebruiken ze apparaatkenmerken en cookies voor advertentiepersonalisering. Als je op nee klikt, zie je mogelijk nog steeds niet-gepersonaliseerde advertenties. Om alle advertenties te verwijderen, koop je [httpstore]hier[] de advertentieloze upgrade. Jij en je vrienden krijgen dan geen advertenties wanneer jij host! Zie ons [https://www.innersloth.com/nl/privacy-policy-nl/]privacybeleid[] voor meer informatie over de privacy-praktijken van ons en onze advertentiepartners. Je kunt je besluit altijd wijzigen in het instellingenmenu onder "Data".</string>
 <string name="Accept">Accepteren</string>
@@ -226,11 +270,14 @@
 <string name="PlainYes">Ja</string>
 <string name="PlainNo">Nee</string>
 <string name="PrivacyPolicyTitle">Privacybeleid</string>
-<string name="PrivacyPolicyText">Innersloth verwerkt persoonlijke gegevens voor Among Us. Lees ons \%link="https://www.innersloth.com/nl/privacy-policy-nl/"\%privacybeleid\%/link\% voor meer informatie over onze privacy-praktijken. Je kunt je persoonlijke gegevensinstellingen voor Among Us beheren onder "Data".\%nl\%\%nl\%Lees onze \%link="https://www.innersloth.com/nl/terms-of-services-nl/"\%Gebruiksvoorwaarden\%/link\% alvorens Among Us te spelen.</string>
+<string name="PrivacyPolicyText">Innersloth verwerkt persoonlijke gegevens voor Among Us. Lees ons {link="https://www.innersloth.com/nl/privacy-policy-nl/"}privacybeleid{/link} voor meer informatie over onze privacy-praktijken.
+
+Lees onze {link="https://www.innersloth.com/nl/terms-of-services-nl/"}Gebruiksvoorwaarden{/link} alvorens Among Us te spelen.</string>
 <string name="ManageDataButton">Gegevensverzameling beheren</string>
 <string name="UnderstandButton">Ik begrijp het</string>
 <string name="WaterPlants">Geef planten water</string>
-<string name="WeatherEta">Aankomst: \%nl\%{0}s</string>
+<string name="WeatherEta">Aankomst: 
+{0}s</string>
 <string name="WeatherComplete">Voltooid</string>
 <string name="RunDiagnostics">Voer analyse uit</string>
 <string name="SettingShort">Kort</string>
@@ -300,28 +347,52 @@
 <string name="GameOverImpostorKills">Normaal gesproken zou De Bedrieger net gewonnen hebben omdat De Bemanning niet meer kan winnen. Om te kunnen Oefenen, reanimeren we iedereen echter.</string>
 <string name="GameOverTaskWin">Normaal gesproken zou De Bemanning net gewonnen hebben omdat de takenmeter vol is. Om te kunnen Oefenen, geven we echter nieuwe taken.</string>
 <string name="GameOverSabotage">Gewoonlijk zou de bedrieger gewonnen hebben vanwege de ernstige sabotage, maar nu zetten we die gewoon uit.</string>
-<string name="HowToPlayText2Switch">Speel online met 4 tot 15 spelers met je\%nl\%\%nl\%Nintendo Switch Online-lidmaatschap of via lokale wifi!</string>
+<string name="HowToPlayText2Switch">Speel online met 4 tot 15 spelers met je
+
+Nintendo Switch Online-lidmaatschap of via lokale wifi!</string>
 <string name="VentDirection">Luchtschachtrichting</string>
 <string name="VentMove">Door luchtschacht bewegen</string>
 <string name="MenuNavigate">Bewegen</string>
 <string name="NsoError">Kan geen verbinding maken met het netwerk.</string>
-<string name="ErrorServerOverload">De Among Us-servers zijn overbelast.\%nl\%\%nl\%Sorry! Probeer het later nog eens!</string>
+<string name="ErrorServerOverload">De Among Us-servers zijn overbelast.
+
+Sorry! Probeer het later nog eens!</string>
 <string name="ErrorIntentionalLeaving">Je mag {0} minuten niet meedoen aan een nieuw spel als je de verbinding opzettelijk verbreekt.</string>
 <string name="ErrorFocusLost">De verbinding werd verbroken omdat Among Us onderbroken werd door een andere app.</string>
-<string name="ErrorBanned">Je bent verbannen uit {0}.\%nl\%\%nl\%Je kunt die kamer niet meer betreden.</string>
-<string name="ErrorKicked">Je bent verwijderd uit {0}.\%nl\%\%nl\%Je kunt de kamer opnieuw betreden als het spel nog niet is begonnen.</string>
-<string name="ErrorBannedNoCode">Je bent verbannen uit de kamer.\%nl\%\%nl\%Je kunt die kamer niet meer betreden.</string>
-<string name="ErrorKickedNoCode">Je bent verwijderd uit de kamer.\%nl\%\%nl\%Je kunt de kamer opnieuw betreden als het spel nog niet is begonnen.</string>
-<string name="ErrorHacking">Je bent verbannen vanwege hacken.\%nl\%\%nl\%Kappen nou.</string>
-<string name="ErrorFullGame">Het spel waaraan je mee wilt doen zit vol.\%nl\%\%nl\%Vraag aan de host of je de volgende ronde mee kunt doen.</string>
-<string name="ErrorStartedGame">Het spel waaraan je mee wilt doen is al begonnen.\%nl\%\%nl\%Vraag aan de host of je de volgende ronde mee kunt doen.</string>
+<string name="ErrorBanned">Je bent verbannen uit {0}.
+
+Je kunt die kamer niet meer betreden.</string>
+<string name="ErrorKicked">Je bent verwijderd uit {0}.
+
+Je kunt de kamer opnieuw betreden als het spel nog niet is begonnen.</string>
+<string name="ErrorBannedNoCode">Je bent verbannen uit de kamer.
+
+Je kunt die kamer niet meer betreden.</string>
+<string name="ErrorKickedNoCode">Je bent verwijderd uit de kamer.
+
+Je kunt de kamer opnieuw betreden als het spel nog niet is begonnen.</string>
+<string name="ErrorHacking">Je bent verbannen vanwege hacken.
+
+Kappen nou.</string>
+<string name="ErrorFullGame">Het spel waaraan je mee wilt doen zit vol.
+
+Vraag aan de host of je de volgende ronde mee kunt doen.</string>
+<string name="ErrorStartedGame">Het spel waaraan je mee wilt doen is al begonnen.
+
+Vraag aan de host of je de volgende ronde mee kunt doen.</string>
 <string name="ErrorNotFoundGame">Het spel dat je zoekt is niet gevonden.</string>
 <string name="ErrorInactivity">De server heeft dit spel gestopt. Mogelijk vanwege inactiviteit.</string>
-<string name="ErrorGenericOnlineDisconnect">Je verbinding met de server is verbroken.\%nl\%Controleer je netwerk als dit vaker gebeurt.\%nl\%Dit kan ook een probleem zijn met de server.</string>
-<string name="ErrorGenericLocalDisconnect">Je verbinding met de host is verbroken.\%nl\%\%nl\%Controleer je wifi-signaal als dit vaker gebeurt.</string>
+<string name="ErrorGenericOnlineDisconnect">Je verbinding met de server is verbroken.
+Controleer je netwerk als dit vaker gebeurt.
+Dit kan ook een probleem zijn met de server.</string>
+<string name="ErrorGenericLocalDisconnect">Je verbinding met de host is verbroken.
+
+Controleer je wifi-signaal als dit vaker gebeurt.</string>
 <string name="ErrorInvalidName">Server heeft gebruikersnaam '{0}' afgewezen</string>
 <string name="ErrorUnknown">Je verbinding met de server is verbroken door een onbekende fout.</string>
-<string name="ErrorIncorrectVersion">Je gebruikt een oudere versie van de game.\%nl\%\%nl\%Voer een update uit om met anderen te spelen.</string>
+<string name="ErrorIncorrectVersion">Je gebruikt een oudere versie van de game.
+
+Voer een update uit om met anderen te spelen.</string>
 <string name="ServerNA">Noord-Amerika</string>
 <string name="ServerEU">Europa</string>
 <string name="ServerAS">Azië</string>
@@ -397,7 +468,10 @@
 <string name="MedWT">GW:</string>
 <string name="MedETA">Aankomst {0}</string>
 <string name="MedHello">HALLO!</string>
-<string name="LobbySizeWarning">Je kunt Among Us met 4 spelers spelen, \%nl\%maar we raden 5 of meer spelers aan.\%nl\%\%nl\%Spellen met 4 spelers zijn snel afgelopen en meestal wint de bedrieger.</string>
+<string name="LobbySizeWarning">Je kunt Among Us met 4 spelers spelen, 
+maar we raden 5 of meer spelers aan.
+
+Spellen met 4 spelers zijn snel afgelopen en meestal wint de bedrieger.</string>
 <string name="Okay">Oké</string>
 <string name="OkayDontShow">Oké. Laat dit niet zien</string>
 <string name="Nevermind">Laat maar</string>
@@ -791,7 +865,14 @@
 <string name="GoOffline">Offline gaan</string>
 <string name="PlayAsGuest">Als gast spelen</string>
 <string name="LogInTitle">Aanmelden bij een account</string>
-<string name="LogInInfoText">Meld je aan of maak een Among Us-account aan om toegang te krijgen tot de functies van het spel zoals:\%nl\%\%nl\%- Je voortgang op verschillende apparaten opslaan\%nl\%- Toegang krijgen tot vrije chat\%nl\%- Cosmetische voorwerpen koppelen\%nl\%- En meer!\%nl\%\%nl\%Voor sommige functies is mogelijk de toestemming van een ouder of voogd vereist, afhankelijk van het type account.</string>
+<string name="LogInInfoText">Meld je aan of maak een Among Us-account aan om toegang te krijgen tot de functies van het spel zoals:
+
+- Je voortgang op verschillende apparaten opslaan
+- Toegang krijgen tot vrije chat
+- Cosmetische voorwerpen koppelen
+- En meer!
+
+Voor sommige functies is mogelijk de toestemming van een ouder of voogd vereist, afhankelijk van het type account.</string>
 <string name="LogInInfoTextSwitch">Heb je nog geen account, dan wordt er automatisch eentje voor je aangemaakt.</string>
 <string name="ControllerDisconnectedMessage">Verbinding met controller verbroken</string>
 <string name="FollowUs">Volg ons!</string>
@@ -874,7 +955,9 @@
 <string name="ProgressLabel">Voortgang:</string>
 <string name="TermsOfUseTitle">Gebruiksvoorwaarden</string>
 <string name="PPAndToUTitle">Privacybeleid en Gebruiksvoorwaarden</string>
-<string name="ErrorNotAuthenticated">De Among Us-servers kennen je niet.\%nl\%\%nl\%Je moet een Among Us-account hebben om online te kunnen spelen.</string>
+<string name="ErrorNotAuthenticated">De Among Us-servers kennen je niet.
+
+Je moet een Among Us-account hebben om online te kunnen spelen.</string>
 <string name="ComePlayDiscord">Kom Among Us spelen met mij!</string>
 <string name="ShowAccountSupportID5">Accountondersteunings-ID tonen</string>
 <string name="ShowAccountSupportID4">Druk nog eens 4 keer om te tonen</string>
@@ -1343,18 +1426,33 @@
 <string name="LinkAccount">Account koppelen</string>
 <string name="CreateNewAccount">Nieuw account aanmaken</string>
 <string name="LinkExistingAccount">Bestaand account koppelen</string>
-<string name="LinkAccountExplanation">Als je al op een ander platform een Among Us-account hebt, kun je dat account koppelen!\%nl\%Of je kunt een totaal nieuw account aanmaken.</string>
-<string name="LinkAccountCode">Vul de volgende code in op \%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\%</string>
+<string name="LinkAccountExplanation">Als je al op een ander platform een Among Us-account hebt, kun je dat account koppelen!
+Of je kunt een totaal nieuw account aanmaken.</string>
+<string name="LinkAccountCode">Vul de volgende code in op {link="{0}"}{1}{/link} 
+{size=+2}{2}{/size}</string>
 <string name="ErrorLink">Er ging iets mis tijdens het koppelen van je account. Probeer het later nog eens.</string>
 <string name="UnlinkAccount">Account ontkoppelen</string>
 <string name="ConfirmUnlinkAccount">Account ontkoppelen bevestigen</string>
-<string name="UnlinkAccountExplain">Als je je {0}-account ontkoppelt, worden alle gegevens gewist en wordt er een nieuw {0}-account aangemaakt.\%nl\%- Je raakt alle op je {0}-account ontvangen of ontgrendelde items kwijt.\%nl\%- Je begint opnieuw op niveau 1 en met 0 XP.</string>
-<string name="UnlinkAccountExplainConfirm">Bewaar deze ID ter referentie:\%nl\%\%nl\%{0}\%nl\%\%nl\%Als je je account ontkoppelt en je hebt deze ID niet, dan kunnen we je voortgang niet herstellen en kunnen we je niet helpen als er een fout gemaakt is.</string>
+<string name="UnlinkAccountExplain">Als je je {0}-account ontkoppelt, worden alle gegevens gewist en wordt er een nieuw {0}-account aangemaakt.
+- Je raakt alle op je {0}-account ontvangen of ontgrendelde items kwijt.
+- Je begint opnieuw op niveau 1 en met 0 XP.</string>
+<string name="UnlinkAccountExplainConfirm">Bewaar deze ID ter referentie:
+
+{0}
+
+Als je je account ontkoppelt en je hebt deze ID niet, dan kunnen we je voortgang niet herstellen en kunnen we je niet helpen als er een fout gemaakt is.</string>
 <string name="UnlinkError">Er ging iets mis tijdens het ontkoppelen van je account. Probeer het later nog eens.</string>
 <string name="UnlinkSuccess">Het ontkoppelen van {0} van je Among Us-hoofdaccount is gelukt!</string>
 <string name="ConfirmLinkExistingAccount">Koppelen aan een bestaand account bevestigen</string>
-<string name="LinkExistingAccountExplain">Als je een ander account koppelt, worden alle gegevens op dit platform overschreven. Dit betekent dat je {0} Among Us-account vervangen zal worden door het andere account.\%nl\%- Alle items die je met je {0}-account ontgrendeld hebt, zullen worden overschreven.\%nl\%- Alle verdiende XP in je {0}-account zal worden overschreven.\%nl\%- Alle bonen, capsules en sterren zullen worden overschreven.</string>
-<string name="LinkExistingAccountExplainConfirm">Zodra je bevestigt, zullen we je {0} Among Us-account resetten ter voorbereiding op het importeren van de gegevens van een ander account.\%nl\%\%nl\%\%color=#{1}\%ZORG DAT JE EEN ANDER BESTAAND ACCOUNT HEBT WAAR JE DIT ACCOUNT AAN WILT KOPPELEN VOORDAT JE DOORGAAT.\%/color\%\%nl\%\%nl\%Resetten van je {0}-account zal alle XP, bonen, capsules en items op 0 zetten. We kunnen dit NIET ongedaan maken.</string>
+<string name="LinkExistingAccountExplain">Als je een ander account koppelt, worden alle gegevens op dit platform overschreven. Dit betekent dat je {0} Among Us-account vervangen zal worden door het andere account.
+- Alle items die je met je {0}-account ontgrendeld hebt, zullen worden overschreven.
+- Alle verdiende XP in je {0}-account zal worden overschreven.
+- Alle bonen, capsules en sterren zullen worden overschreven.</string>
+<string name="LinkExistingAccountExplainConfirm">Zodra je bevestigt, zullen we je {0} Among Us-account resetten ter voorbereiding op het importeren van de gegevens van een ander account.
+
+{color=#{1}}ZORG DAT JE EEN ANDER BESTAAND ACCOUNT HEBT WAAR JE DIT ACCOUNT AAN WILT KOPPELEN VOORDAT JE DOORGAAT.{/color}
+
+Resetten van je {0}-account zal alle XP, bonen, capsules en items op 0 zetten. We kunnen dit NIET ongedaan maken.</string>
 <string name="ResetAccount">Account resetten</string>
 <string name="PurchasingLabel">Item wordt gekocht</string>
 <string name="ErrorInternalServer">Interne serverfout (code {0})</string>
@@ -1440,13 +1538,16 @@
 <string name="RoleChanceAndQuantity">{0} met {1}% kans</string>
 <string name="CheckingPurchasesLabel">Aankopen controleren...</string>
 <string name="ProtectedRecently">De beschermengel heeft zojuist iemand beschermd...</string>
-<string name="ScientistBlurbMed">Gebruik hartslag wanneer je wilt.\%nl\%Voltooi taken om je batterij op te laden.</string>
+<string name="ScientistBlurbMed">Gebruik hartslag wanneer je wilt.
+Voltooi taken om je batterij op te laden.</string>
 <string name="ScientistBlurbLong">De wetenschapper kan een draagbare hartslagmonitor gebruiken om de status van de bemanning te controleren. Maar de draagbare hartslagmonitor moet wel worden opgeladen, dus de wetenschapper moet taken voltooien om de batterij te vullen.</string>
 <string name="EngineerBlurbMed">Kan de luchtschachten gebruiken.</string>
 <string name="EngineerBlurbLong">De werktuigkundige is een bemanningslid dat luchtschachten kan gebruiken om zich sneller te verplaatsen, en bedriegers kan betrappen die de luchtschachten gebruiken. Maar je kunt er niet eeuwig blijven, dus let goed op wanneer je de luchtschachten gebruikt...</string>
-<string name="GuardianAngelBlurbMed">Creëer een beschermend schild rond\%nl\%de resterende bemanning.</string>
+<string name="GuardianAngelBlurbMed">Creëer een beschermend schild rond
+de resterende bemanning.</string>
 <string name="GuardianAngelBlurbLong">De beschermengel is het spook van het eerste dode bemanningslid. Deze kan andere, levende bemanningsleden tijdelijk beschermen met een schild. Met de juiste timing kun je voorkomen dat bedriegers hun slachtoffer doden. Mazzel!</string>
-<string name="ShapeshifterBlurbMed">Vermom jezelf door in andere bemanningsleden\%nl\%te veranderen.</string>
+<string name="ShapeshifterBlurbMed">Vermom jezelf door in andere bemanningsleden
+te veranderen.</string>
 <string name="ShapeshifterBlurbLong">De vormveranderaar kan van gedaante verwanderen en zichzelf vermommen als een ander bemanningslid. Als je het goed doet, kun je andere bemanningsleden verdacht maken en verwarring veroorzaken over de identiteit van de echte bedrieger. Maar kijk uit, want de vermomming duurt niet eeuwig en laat bewijsmateriaal achter.</string>
 <string name="RoleHint">Hint</string>
 <string name="ScientistBatteryCharge">Batterijduur</string>
@@ -1476,7 +1577,10 @@
 <string name="Cosmetic.skin_vi">Vi's kleren</string>
 <string name="Cosmetic.pet_poro">Heimerdingers Poro</string>
 <string name="RedeemPurchasedItemsTitle">Gekochte items inwisselen</string>
-<string name="RedeemPurcahsedItemsExplain">We hebben een splinternieuw inventarissysteem dat op verschillende platformen toegang tot je items biedt! Items die eerder op dit platform zijn gekocht kunnen SLECHTS ÉÉN KEER worden overgezet naar ons nieuwe inventarissysteem.\%nl\%Als dit je hoofdaccount van Among Us is (het platform waarop je het meest speelt), kun je gerust op 'doorgaan' klikken en je gekochte DLC inwisselen in het nieuwe inventarissysteem. Als dit een account is dat je aan je hoofdaccount wilt koppelen, moet je eerst koppelen voordat je inwisselt.\%nl\%\%nl\%Account-ID: {0}</string>
+<string name="RedeemPurcahsedItemsExplain">We hebben een splinternieuw inventarissysteem dat op verschillende platformen toegang tot je items biedt! Items die eerder op dit platform zijn gekocht kunnen SLECHTS ÉÉN KEER worden overgezet naar ons nieuwe inventarissysteem.
+Als dit je hoofdaccount van Among Us is (het platform waarop je het meest speelt), kun je gerust op 'doorgaan' klikken en je gekochte DLC inwisselen in het nieuwe inventarissysteem. Als dit een account is dat je aan je hoofdaccount wilt koppelen, moet je eerst koppelen voordat je inwisselt.
+
+Account-ID: {0}</string>
 <string name="RedeemProceed">Doorgaan</string>
 <string name="RedeemNotYet">Niet nu</string>
 <string name="RedeemNever">Niet meer vragen</string>
@@ -1535,7 +1639,8 @@
 <string name="Cosmetic.skin_witch">Rare heks</string>
 <string name="Cosmetic.pet_frankendog">Frankenhondje</string>
 <string name="Cosmetic.hat_mohawk_bubblegum">Hanenkam - kauwgom</string>
-<string name="AvailableFor">Nog \%nl\%{0}d {1}u {2}m {3}s beschikbaar</string>
+<string name="AvailableFor">Nog 
+{0}d {1}u {2}m {3}s beschikbaar</string>
 <string name="GuardianAngelImpostorSeeProtect">Bescherming zichtbaar voor bedriegers</string>
 <string name="Cosmetic.hat_pkHW01_PlagueHat">Geplaagd</string>
 <string name="QCAccIsRole">{0} is een {1}</string>
@@ -1552,7 +1657,11 @@
 <string name="QCResProtected">{0} beschermde {1}</string>
 <string name="QCResProtected_ANY_QCCrewMe">{0} beschermde me</string>
 <string name="QCRoles">Rollen</string>
-<string name="GuestProgressionWarning">Je bent ingelogd met een gastaccount! \%nl\%\%nl\%Alle verdiende XP, capsules en bonen zijn alleen gekoppeld aan dit gastaccount. Gastaccounts zijn uitsluitend gekoppeld aan je fysieke apparaat en gaan verloren als je van apparaat wisselt. \%nl\%\%nl\%Om toegang te krijgen tot al je verdiende betaalmiddelen en aankopen open je het account-tabblad in het hoofdmenu en log je in bij je Among Us-account.</string>
+<string name="GuestProgressionWarning">Je bent ingelogd met een gastaccount! 
+
+Alle verdiende XP, capsules en bonen zijn alleen gekoppeld aan dit gastaccount. Gastaccounts zijn uitsluitend gekoppeld aan je fysieke apparaat en gaan verloren als je van apparaat wisselt. 
+
+Om toegang te krijgen tot al je verdiende betaalmiddelen en aankopen open je het account-tabblad in het hoofdmenu en log je in bij je Among Us-account.</string>
 <string name="ErrorFailedToCreateGame">Gamesessie aanmaken mislukt. Probeer het later opnieuw.</string>
 <string name="ErrorFailedToJoinCreatedGame">Deelnemen aan aangemaakte gamesessie is mislukt. Probeer het later opnieuw.</string>
 <string name="ErrorDisconnectBeforeJoining">Verbinding verbroken voordat je je aansloot bij de gamesessie.</string>
@@ -1644,7 +1753,9 @@
 <string name="BlockedPlayers">Geblokkeerde spelers</string>
 <string name="RecentPlayers">Onlangs gespeeld met</string>
 <string name="LobbyLabel">Lobby</string>
-<string name="FriendCodeExplanation">Among Us heeft nu een Vriendenlijst! Om vriendschapsverzoeken of game-uitnodigingen te kunnen versturen of ontvangen, moet je hierna een unieke vriendcode kiezen.\%nl\%\%nl\%Zodra je er eentje gekozen hebt, kun je deze niet veranderen.</string>
+<string name="FriendCodeExplanation">Among Us heeft nu een Vriendenlijst! Om vriendschapsverzoeken of game-uitnodigingen te kunnen versturen of ontvangen, moet je hierna een unieke vriendcode kiezen.
+
+Zodra je er eentje gekozen hebt, kun je deze niet veranderen.</string>
 <string name="FriendCodeSuccess">Jouw vriendcode is {0}</string>
 <string name="FriendRequestReceived">Vriendschapsverzoek ontvangen</string>
 <string name="FriendRequestSent">Vriendschapsverzoek verstuurd</string>
@@ -1681,7 +1792,8 @@
 <string name="ErrorTooManyRequests">Te veel lobby-aanvragen. Wacht een paar minuten voordat je het opnieuw probeert.</string>
 <string name="TempDisabled">Tijdelijk uitgeschakeld</string>
 <string name="TempDisabledLinkExplain">Accounts ondergaan wijzigingen. We hebben de mogelijkheid om bestaande accounts te koppelen tijdelijk beperkt. Dit wordt in een toekomstige update binnenkort opgelost!</string>
-<string name="RedeemPopup">Hier is een geschenk van de bemanning!\%nl\%{0}.</string>
+<string name="RedeemPopup">Hier is een geschenk van de bemanning!
+{0}.</string>
 <string name="RedeemButton">Inwisselen</string>
 <string name="ErrorMaxFriends">Je vriendenlijst is vol.</string>
 <string name="ErrorPlayerBlockedYou">Fout: gebruiker staat op je blokkeerlijst of gebruiker blokkeert je.</string>
@@ -1693,10 +1805,14 @@
 <string name="Decontamination3">Ontsmetting beneden</string>
 <string name="ErrorCommunications">Je communicatie-instellingen verhinderen dat je meedoet aan het spel. Zorg dat je met anderen kunt communiceren om aan dit spel mee te doen.</string>
 <string name="SettingsColorblind">Tekst voor kleurenblinden</string>
-<string name="MergeGuestAccountText">Er lijkt een \%link="https://www.innersloth.com/merging-guest-accounts/"\%gastaccount\%/link\% op dit apparaat te zijn! We bieden geen ondersteuning meer voor gastaccounts en zullen alle items, betaalmiddelen en ervaring van je gastaccount samenvoegen in dit {0}-account.\%nl\%\%nl\%Houd er rekening mee dat als je dit apparaat (computer, telefoon, etc.) met andere mensen deelt, dat iedereen die dit apparaat gebruikt, het gastaccount DEELT. Als je doorgaat, kunnen andere gebruikers op dit apparaat dit gastaccount niet samenvoegen, en je kunt dit gastaccount slechts ÉÉN KEER samenvoegen. Je kunt de items, betaalmiddelen en ervaring die gekoppeld zijn aan dit gastaccount NIET nog een keer verplaatsen.\%nl\%\%nl\%Bevestig dat je je gastaccount wilt samenvoegen met dit {0}-account.</string>
+<string name="MergeGuestAccountText">Er lijkt een {link="https://www.innersloth.com/merging-guest-accounts/"}gastaccount{/link} op dit apparaat te zijn! We bieden geen ondersteuning meer voor gastaccounts en zullen alle items, betaalmiddelen en ervaring van je gastaccount samenvoegen in dit {0}-account.
+
+Houd er rekening mee dat als je dit apparaat (computer, telefoon, etc.) met andere mensen deelt, dat iedereen die dit apparaat gebruikt, het gastaccount DEELT. Als je doorgaat, kunnen andere gebruikers op dit apparaat dit gastaccount niet samenvoegen, en je kunt dit gastaccount slechts ÉÉN KEER samenvoegen. Je kunt de items, betaalmiddelen en ervaring die gekoppeld zijn aan dit gastaccount NIET nog een keer verplaatsen.
+
+Bevestig dat je je gastaccount wilt samenvoegen met dit {0}-account.</string>
 <string name="MergeGuestAccountTitle">Gastaccount samenvoegen</string>
 <string name="ManageAccountTitle">Account beheren</string>
-<string name="ManageAccountText">Ga naar \%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% om je account te beheren, het samen te voegen of als je problemen hebt.</string>
+<string name="ManageAccountText">Ga naar {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} om je account te beheren, het samen te voegen of als je problemen hebt.</string>
 <string name="Cosmetic.visor_BaconVisor">Zo blij om je weer te zien</string>
 <string name="Cosmetic.hat_Baguette">Zeg maar pain du stok</string>
 <string name="Cosmetic.skin_Bananaskin">Tijd voor pindakaasjelly</string>
@@ -1766,12 +1882,15 @@
 <string name="Cosmetic.nameplate_Orange">Oranje boven</string>
 <string name="Cosmetic.hat_sausage">Dichtgeknoopt</string>
 <string name="SignInIssueTitle">Fout {0}-account</string>
-<string name="SignInIssueText">Je {0} kan niet worden gebruikt om een Among Us-account aan te maken vanwege de leeftijdsbeperkingen van {0}.\%nl\%\%nl\%Je kunt Among Us blijven spelen op dit apparaat, maar voor je eigen veiligheid zullen bepaalde functies beperkt zijn, zoals: het koppelen van accounts, Ster-aankopen en het overzetten van items naar een nieuw apparaat. Als je vragen hebt, stuur dan een e-mail naar support@innersloth.com.</string>
+<string name="SignInIssueText">Je {0} kan niet worden gebruikt om een Among Us-account aan te maken vanwege de leeftijdsbeperkingen van {0}.
+
+Je kunt Among Us blijven spelen op dit apparaat, maar voor je eigen veiligheid zullen bepaalde functies beperkt zijn, zoals: het koppelen van accounts, Ster-aankopen en het overzetten van items naar een nieuw apparaat. Als je vragen hebt, stuur dan een e-mail naar support@innersloth.com.</string>
 <string name="FriendListUnavailable">Vriendenlijst niet beschikbaar</string>
 <string name="ErrorSanction">Je account is verbannen ({1}). Reden: {0}.</string>
 <string name="SanctionDuration">tot {0}</string>
 <string name="SanctionPermanent">permanent</string>
-<string name="SanctionConduct">\%nl\%Gebruik deze tijd om na te denken over onze \%link="https://www.innersloth.com/nl/gedragscode/"\%gedragscode\%/link\%!</string>
+<string name="SanctionConduct">
+Gebruik deze tijd om na te denken over onze {link="https://www.innersloth.com/nl/gedragscode/"}gedragscode{/link}!</string>
 <string name="SanctionSexualMisconduct">seksueel wangedrag</string>
 <string name="SanctionDoxing">persoonlijke gegevens (dreigen te) delen of doxing</string>
 <string name="SanctionIllegalActivity">de promotie of deelname aan illegale activiteiten</string>
@@ -1845,10 +1964,14 @@
 <string name="Cosmetic.visor_hl_nudge">Hint-hint</string>
 <string name="Cosmetic.visor_hl_marine">Marine-ooglapje</string>
 <string name="Cosmetic.visor_hl_wrong">Haha, wat zou er verkeerd kunnen zijn?</string>
-<string name="AccountDeleteHelp">Door op BEVESTIGEN te drukken, dien je een verzoek in om al je Among Us-gegevens te verwijderen. Het kost 7-14 dagen om dit verzoek te verwerken, en alle sterren, XP, bonen, pods en gekochte cosmetische items worden verwijderd. Zodra je account volledig is verwijderd, kunnen we deze actie niet meer ongedaan maken. Je account werkt normaal totdat de verwijderingsprocedure is voltooid.\%nl\%\%nl\%Als je fouten tegenkomt, kun je contact opnemen met support@innersloth.com.</string>
+<string name="AccountDeleteHelp">Door op BEVESTIGEN te drukken, dien je een verzoek in om al je Among Us-gegevens te verwijderen. Het kost 7-14 dagen om dit verzoek te verwerken, en alle sterren, XP, bonen, pods en gekochte cosmetische items worden verwijderd. Zodra je account volledig is verwijderd, kunnen we deze actie niet meer ongedaan maken. Je account werkt normaal totdat de verwijderingsprocedure is voltooid.
+
+Als je fouten tegenkomt, kun je contact opnemen met support@innersloth.com.</string>
 <string name="DeleteAccount">Account verwijderen</string>
 <string name="DoNotDeleteAccount">Verwijdering account annuleren</string>
-<string name="AccountUnDeleteHelp">Door op BEVESTIGEN te drukken, stop je de procedure voor het verwijderen van je account. Als je het account wilt verwijderen, moet je het verzoek opnieuw indienen.\%nl\%\%nl\%Als je fouten tegenkomt, kun je contact opnemen met support@innersloth.com.</string>
+<string name="AccountUnDeleteHelp">Door op BEVESTIGEN te drukken, stop je de procedure voor het verwijderen van je account. Als je het account wilt verwijderen, moet je het verzoek opnieuw indienen.
+
+Als je fouten tegenkomt, kun je contact opnemen met support@innersloth.com.</string>
 <string name="ConfirmDelete">Typ DELETE om te bevestigen</string>
 <string name="ConfirmDeleteAccounts">Vink dit vakje aan om te bevestigen dat je begrijpt dat dit account en gekoppelde accounts worden verwijderd ({0}).</string>
 <string name="ConfirmDeleteAccountsEmpty">Vink dit vakje aan om te bevestigen dat je begrijpt dat dit account en gekoppelde accounts worden verwijderd.</string>
@@ -1866,7 +1989,8 @@
 <string name="Ghost">Spook</string>
 <string name="CurrentlyHaunting">Spookt momenteel bij:</string>
 <string name="RoundRobin">Eén voor één</string>
-<string name="RuleOneCrewmates">Overleef totdat de tijd om is.\%nl\%Als je taken voltooit, gaat de timer omlaag.</string>
+<string name="RuleOneCrewmates">Overleef totdat de tijd om is.
+Als je taken voltooit, gaat de timer omlaag.</string>
 <string name="RuleTwoCrewmates">Gebruik luchtschachten en de Gevaarmeter om je te verstoppen!</string>
 <string name="RuleThreeCrewmates">Als de timer op nul komt, kan de Bedrieger je traceren!</string>
 <string name="RuleOneImpostor">Dood alle Bemanningsleden binnen de tijdslimiet!</string>
@@ -1896,20 +2020,29 @@
 <string name="DefaultFilterTag_Casual">Casual</string>
 <string name="DefaultFilterTag_Serious">Serieus</string>
 <string name="DefaultFilterTag_Expert">Expert</string>
-<string name="TagFiltersHelpFindGame">Je kunt spelzoekopdrachten filteren door tags te selecteren in de vervolgkeuzelijst Filters. Filters die je selecteert, komen \%i\%exact\%/i\% overeen met de zoekresultaten.\%nl\%\%nl\%Voorbeeld: Als je \%b\%Casual\%/b\% en \%b\%Expert\%/b\% selecteert, vind je alleen spellen die zijn getagd met zowel \%b\%Casual\%/b\%- als \%b\%Expert\%/b\%-filters.</string>
-<string name="TagFiltersHelpCreate">Je kunt je spel taggen met filters om spelers te helpen je spel te vinden. Filters die je selecteert, komen \%i\%exact\%/i\% overeen met de zoekresultaten.\%nl\%\%nl\%Voorbeeld: Als je \%b\%Casual\%/b\% en \%b\%Expert\%/b\% selecteert, is je spel alleen zichtbaar voor mensen die zoeken naar zowel \%b\%Casual\%/b\%- als \%b\%Expert\%/b\%-filters.</string>
+<string name="TagFiltersHelpFindGame">Je kunt spelzoekopdrachten filteren door tags te selecteren in de vervolgkeuzelijst Filters. Filters die je selecteert, komen {i}exact{/i} overeen met de zoekresultaten.
+
+Voorbeeld: Als je {b}Casual{/b} en {b}Expert{/b} selecteert, vind je alleen spellen die zijn getagd met zowel {b}Casual{/b}- als {b}Expert{/b}-filters.</string>
+<string name="TagFiltersHelpCreate">Je kunt je spel taggen met filters om spelers te helpen je spel te vinden. Filters die je selecteert, komen {i}exact{/i} overeen met de zoekresultaten.
+
+Voorbeeld: Als je {b}Casual{/b} en {b}Expert{/b} selecteert, is je spel alleen zichtbaar voor mensen die zoeken naar zowel {b}Casual{/b}- als {b}Expert{/b}-filters.</string>
 <string name="CreateLabel">Maken</string>
 <string name="NewGameMode">Nieuwe spelmodus!</string>
-<string name="NewModeInfo">Er staat veel op het spel in deze bloedstollende modus!\%nl\%\%i\%Maar wacht: dit is geen gewoon verstoppertje...\%/i\%</string>
+<string name="NewModeInfo">Er staat veel op het spel in deze bloedstollende modus!
+{i}Maar wacht: dit is geen gewoon verstoppertje...{/i}</string>
 <string name="HideSeekHowToPlayCaptionOne">Het is heel eenvoudig!</string>
 <string name="HideSeekHowToPlayCaptionTwo">Bemanningsleden!</string>
 <string name="HideSeekHowToPlayCaptionThree">Bedriegers!</string>
-<string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%Bemanningsleden:\%/b\%\%/color\% Voltooi taken om de klok te versnellen, de Bedrieger te ontwijken en in leven te blijven totdat de tijd om is.\%nl\%\%nl\%\%color=#FF3131\%\%b\%De Bedrieger:\%/b\%\%/color\% Vind de Bemanningsleden en moord iedereen uit.</string>
+<string name="HideSeekHowToPlayPageOne">{color=#38F25D}{b}Bemanningsleden:{/b}{/color} Voltooi taken om de klok te versnellen, de Bedrieger te ontwijken en in leven te blijven totdat de tijd om is.
+
+{color=#FF3131}{b}De Bedrieger:{/b}{/color} Vind de Bemanningsleden en moord iedereen uit.</string>
 <string name="HideSeekHowToPlaySubtextOne">Geen sociale deductie hier, alleen maar doodsbang geschreeuw.</string>
 <string name="HideSeekHowToPlayCrewmateInfoOne">Verbeter je verstop- en sluipvaardigheden om te overleven.</string>
 <string name="HideSeekHowToPlayCrewmateInfoTwo">In deze modus kun je luchtschachten gebruiken en een high-tech Gevaarmeter krijgen die je waarschuwt wanneer de Bedrieger dichterbij komt. De Bedrieger heeft een beperkt gezichtsveld, dus gebruik je verstand, luchtschachten en brillen om ze te ontwijken!</string>
 <string name="HideSeekHowToPlayImpostorInfoOne">Bedriegers kunnen in deze modus niet in luchtschachten kruipen, dus je moet snel handelen om je prooi te vangen. Het is donker buiten! Gelukkig heb je een zaklamp om je volgende slachtoffers te vinden.</string>
-<string name="HideSeekHowToPlayFinalHide">Dit is de finaaaal countdownnn. In de laatste momenten van het spel krijgen Bedriegers een krachtbonus: ze zijn sneller, krijgen een speciale Zoekkaart en een directionele ping naar de plek waarop overlevende Bemanningsleden zich bevinden.\%nl\%\%nl\%Denk snel en ren strategisch weg om te winnen!</string>
+<string name="HideSeekHowToPlayFinalHide">Dit is de finaaaal countdownnn. In de laatste momenten van het spel krijgen Bedriegers een krachtbonus: ze zijn sneller, krijgen een speciale Zoekkaart en een directionele ping naar de plek waarop overlevende Bemanningsleden zich bevinden.
+
+Denk snel en ren strategisch weg om te winnen!</string>
 <string name="HideSeekHowToPlayFlashlightMobile">Gebruik de Zaklamp-stick aan de rechterkant van je scherm om je straal te richten en dood alle Bemanningsleden die je kunt vinden!</string>
 <string name="HideSeekHowToPlayFlashlightDefault">Gebruik je muis om je Zaklampstraal te richten en dood alle Bemanningsleden die je kunt vinden!</string>
 <string name="HideSeekHowToPlayFlashlightConsoles">Gebruik de rechter-stick om je straal te richten en dood alle Bemanningsleden die je kunt vinden!</string>
@@ -2032,7 +2165,9 @@
 <string name="Cosmetic.nameplate_hunter">Hunters trots</string>
 <string name="Cosmetic.nameplate_lightfall">Lightfall</string>
 <string name="AnnouncementErrorSubtitle">Oei! De aankondigingen zijn gesaboteerd!</string>
-<string name="AnnouncementErrorText">Het lijkt erop dat er iets mis is gegaan. Zorg ervoor dat je game online is en is bijgewerkt naar de nieuwste versie om de nieuwste informatie en oplossingen van Among Us te krijgen.\%nl\%\%nl\%Als je nog steeds problemen ondervindt, stuur dan een support ticket via support@innersloth.com.</string>
+<string name="AnnouncementErrorText">Het lijkt erop dat er iets mis is gegaan. Zorg ervoor dat je game online is en is bijgewerkt naar de nieuwste versie om de nieuwste informatie en oplossingen van Among Us te krijgen.
+
+Als je nog steeds problemen ondervindt, stuur dan een support ticket via support@innersloth.com.</string>
 <string name="ReadMoreLabel">om de volledige aankondiging weer te geven!</string>
 <string name="ReturnToList">Terug naar lijst</string>
 <string name="NavigateLinks">Door links navigeren</string>
@@ -2056,7 +2191,8 @@
 <string name="AgeVerificationTitle">Leeftijdsverificatie</string>
 <string name="AgeVerificationInfoTitle">Wat is leeftijdsverificatie?</string>
 <string name="AgeVerificationInfo">Leeftijdsverificatie is vereist voordat je toegang krijgt tot Among Us. Wij slaan je geboortedatum niet op.</string>
-<string name="AgeVerificationMoreInfo">Voor meer informatie over onze privacypraktijken bezoek je:\%nl\%\%link="https://www.innersloth.com/nl/privacy-policy-nl/"\%https://www.innersloth.com/nl/privacy-policy-nl/\%/link\%</string>
+<string name="AgeVerificationMoreInfo">Voor meer informatie over onze privacypraktijken bezoek je:
+{link="https://www.innersloth.com/nl/privacy-policy-nl/"}https://www.innersloth.com/nl/privacy-policy-nl/{/link}</string>
 <string name="EditLabel">Bewerken</string>
 <string name="VerifyAgeText">Is deze datum je juiste geboortedatum?</string>
 <string name="Cosmetic.nameplate_flagMlm">MLM Pride-vlag</string>
@@ -2114,9 +2250,15 @@
 <string name="Cosmetic.skin_PusheenPurpleskin">Pastelpaarse Pusheen</string>
 <string name="Cosmetic.skin_Slothskin">Sloth</string>
 <string name="Cosmetic.hat_bearyCold">Brr-beer-y</string>
-<string name="EosAccountSilentMergeFail">Er is iets misgegaan bij het finaliseren van je Among Us-account. Probeer het nog eens of ga verder met een gastaccount. Alle voortgang wordt opgeslagen, maar we raden je aan een account aan te maken, zodat je ten volle kunt genieten van alle functies in Among Us.\%nl\%\%nl\%Account opnieuw configureren?</string>
-<string name="AskForEosAccount">Heb je al een Among Us- account? (Ook bekend als een Epic Online Services-account.)\%nl\%\%nl\%Als je Among Us eerder op dit apparaat hebt gespeeld, selecteer je ’Ja’.</string>
-<string name="KwsCreateFail">Oeps! Er is iets fout gegaan tijdens het verzenden van de e-mail voor toestemming van je ouders/voogd. Probeer het opnieuw of ga verder in de offline modus.\%nl\%\%nl\%Opnieuw proberen?</string>
+<string name="EosAccountSilentMergeFail">Er is iets misgegaan bij het finaliseren van je Among Us-account. Probeer het nog eens of ga verder met een gastaccount. Alle voortgang wordt opgeslagen, maar we raden je aan een account aan te maken, zodat je ten volle kunt genieten van alle functies in Among Us.
+
+Account opnieuw configureren?</string>
+<string name="AskForEosAccount">Heb je al een Among Us- account? (Ook bekend als een Epic Online Services-account.)
+
+Als je Among Us eerder op dit apparaat hebt gespeeld, selecteer je ’Ja’.</string>
+<string name="KwsCreateFail">Oeps! Er is iets fout gegaan tijdens het verzenden van de e-mail voor toestemming van je ouders/voogd. Probeer het opnieuw of ga verder in de offline modus.
+
+Opnieuw proberen?</string>
 <string name="MissingGuardianEmailText">In je account ontbreekt een e-mailadres van een voogd. We moeten je voogd (via e-mail) om toestemming vragen om door te gaan. Als ze ja zeggen, kun je vrije chat online gebruiken en je gebruikersnaam wijzigen. Vraag een volwassene om je hiermee te helpen!</string>
 <string name="MiningPit">Mijnschacht</string>
 <string name="Jungle">Jungle</string>
@@ -2191,7 +2333,9 @@
 <string name="Cosmetic.nameplate_cliffs">Het is sedimentair</string>
 <string name="ReportNotificationHeader">Bedankt dat je Among Us veilig en gezellig houdt!</string>
 <string name="ReportNotificationBody">Ons moderatieteam beoordeelt de informatie die je hebt gerapporteerd en onderneemt waar nodig actie op basis van onze gedragscode.</string>
-<string name="ErrorClientTimeout">De verbinding met de server is verbroken. Dit kan te wijten zijn aan serverproblemen, netwerkproblemen of apparaatproblemen. Controleer je netwerksterkte.\%nl\%\%nl\%Als dit vaak gebeurt, is je apparatuur mogelijk te oud of voldoet deze niet aan de minimale specificaties. Probeer op andere apparatuur te spelen.</string>
+<string name="ErrorClientTimeout">De verbinding met de server is verbroken. Dit kan te wijten zijn aan serverproblemen, netwerkproblemen of apparaatproblemen. Controleer je netwerksterkte.
+
+Als dit vaak gebeurt, is je apparatuur mogelijk te oud of voldoet deze niet aan de minimale specificaties. Probeer op andere apparatuur te spelen.</string>
 <string name="ErrorClientTimeoutConsole">Verbinding met de server verbroken. Dit kan worden veroorzaakt door server- of netwerkproblemen. Controleer je netwerksterkte.</string>
 <string name="Cosmetic.hat_NewYear2024">Nieuwjaar 2024</string>
 <string name="Cosmetic.nameplate_Celeste">Omhoog en verder</string>
@@ -2319,7 +2463,9 @@
 <string name="Cosmetic.nameplate_lny_goldCrewmate">Voorspoed</string>
 <string name="Cosmetic.nameplate_lny_goldImpostor">Tegenspoed</string>
 <string name="AprilFoolsModeToggle">1 april-modus (Beperkte cosmetische items)</string>
-<string name="ErrorAuthNonceFailure">Sabotage! De servers van Among Us hebben een probleem ondervonden tijdens je authenticatie. Probeer het nog eens.\%nl\%\%nl\%Als het probleem zich blijft voordoen, dien dan een \%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%support ticket\%/link\% in.</string>
+<string name="ErrorAuthNonceFailure">Sabotage! De servers van Among Us hebben een probleem ondervonden tijdens je authenticatie. Probeer het nog eens.
+
+Als het probleem zich blijft voordoen, dien dan een {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}support ticket{/link} in.</string>
 <string name="Cosmetic.nameplate_crewmatesBlue">Hippe bemanning - Blauw</string>
 <string name="Cosmetic.nameplate_crewmatesRed">Hippe bemanning - Rood</string>
 <string name="Cosmetic.nameplate_horseHeaven">We gaan de teugels aantrekken</string>
@@ -2400,7 +2546,8 @@
 <string name="QCSelfSawRoleInLocation">Ik zag {0} op locatie {1}</string>
 <string name="NoisemakerRole">Herriemaker</string>
 <string name="NoisemakerBlurb">Stuur een waarschuwing als je wordt gedood</string>
-<string name="NoisemakerBlurbMed">Waarschuw alle bemanningsleden over je locatie\%nl\%als je wordt gedood.</string>
+<string name="NoisemakerBlurbMed">Waarschuw alle bemanningsleden over je locatie
+als je wordt gedood.</string>
 <string name="NoisemakerBlurbLong">De Herriemaker is geen gewone rol voor bemanningsleden. Herriemakers hebben geen vaardigheid die ze kunnen gebruiken, zoals alle andere rollen. In plaats daarvan sturen ze automatisch een waarschuwing wanneer ze worden gedood door een bedrieger. De waarschuwing jaagt de bedrieger makkelijk op de kast. Kijk hoe je mede-bemanningsleden zich naar de plaats delict haasten om de moordenaar te pakken en je dood te wreken!</string>
 <string name="NoisemakerImpostorAlert">Bedriegers ontvangen een waarschuwing</string>
 <string name="NoisemakerAlertDuration">Duur waarschuwing</string>
@@ -2408,7 +2555,8 @@
 <string name="PhantomAbilityUndo">Verschijnen</string>
 <string name="PhantomRole">Fantoom</string>
 <string name="PhantomBlurb">Onzichtbaar worden</string>
-<string name="PhantomBlurbMed">Word onzichtbaar om stiekem rond te sluipen\%nl\%of te ontsnappen van een moord.</string>
+<string name="PhantomBlurbMed">Word onzichtbaar om stiekem rond te sluipen
+of te ontsnappen van een moord.</string>
 <string name="PhantomBlurbLong">De Fantoom kan onzichtbaar worden om een bemanningslid stiekem te besluipen of ongemerkt de plaats van een misdrijf te verlaten. Als Fantomen onzichtbaar zijn, kunnen ze niet doden, maar ze kunnen wel ladders en tokkelbanen gebruiken. Als je onzichtbaar of weer zichtbaar wordt, ontstaat er een grote rookwolk, dus zorg ervoor dat er geen bemanningsleden in de buurt zijn! De onzichtbaarheid is ook niet permanent, dus zorg ervoor dat je deze vaardigheid goed timet.</string>
 <string name="PhantomCooldown">Afkoeltijd verdwijnen</string>
 <string name="PhantomDuration">Duur verdwijnen</string>
@@ -2416,7 +2564,8 @@
 <string name="TrackerAbility">Spoorzoeken</string>
 <string name="TrackerAbilityUndo">Niet meer opsporen</string>
 <string name="TrackerBlurb">Spoor een Bemanningslid op met je kaart</string>
-<string name="TrackerBlurbMed">Plaats een tracker op bemanningsleden om\%nl\%hun bewegingen op de kaart te volgen.</string>
+<string name="TrackerBlurbMed">Plaats een tracker op bemanningsleden om
+hun bewegingen op de kaart te volgen.</string>
 <string name="TrackerBlurbLong">Spoorzoekers kunnen de positie van een bemanningslid op hun minikaart zien. Eerst moeten ze naast een bemanningslid staan om de tracker te plaatsen. Pas op dat je niet te verdacht overkomt als je het andere bemanningslid nadert. Opsporen duurt maar een paar seconden, dus zorg ervoor dat je een doelwit zorgvuldig kiest. Staar ook niet te lang naar de minikaart, want dat maakt je kwetsbaar voor een bedrieger!</string>
 <string name="TrackerCooldown">Afkoeltijd opsporen</string>
 <string name="TrackerDuration">Duur opsporen</string>
@@ -2526,8 +2675,10 @@
 <string name="ChatLabel">Chat</string>
 <string name="NoneLowercaseLabel">geen</string>
 <string name="ToolTipDefault">Pas je lobby aan met de instellingen hieronder.</string>
-<string name="ToolTipClassic">Er zijn Bedriegers die zich voordoen als Bemanningsleden!\%nl\%Ontdek wie verdacht is en stem ze weg.</string>
-<string name="ToolTipHide">Het ultieme kat-en-muisspel.\%nl\%Laat je niet vangen door de Zoeker!</string>
+<string name="ToolTipClassic">Er zijn Bedriegers die zich voordoen als Bemanningsleden!
+Ontdek wie verdacht is en stem ze weg.</string>
+<string name="ToolTipHide">Het ultieme kat-en-muisspel.
+Laat je niet vangen door de Zoeker!</string>
 <string name="ToolTipCapacity">Het maximumaantal spelers dat de lobby kan betreden.</string>
 <string name="ToolTipServer">De serverregio waarin je het spel aanmaakt.</string>
 <string name="ToolTipCrossplay">Spelers op elk platform kunnen de lobby betreden.</string>
@@ -2535,9 +2686,11 @@
 <string name="ToolTipLanguage">De taal die wordt gebruikt voor in-game discussies.</string>
 <string name="ToolTipSkeld">The Skeld: een middelgroot schip met meerdere kamers en gangen. Perfect om de kneepjes van het vak te leren.</string>
 <string name="ToolTipMIRA">MIRA HQ: een kleine kaart met veel lange gangen en een volledig verbonden luchtschachtsysteem.</string>
-<string name="ToolTipPolus">Polus: deze planetaire buitenpost is een middelgrote kaart\%nl\%met zowel binnen- als buitenruimten.</string>
+<string name="ToolTipPolus">Polus: deze planetaire buitenpost is een middelgrote kaart
+met zowel binnen- als buitenruimten.</string>
 <string name="ToolTipAirship">Het Airship: een grote kaart met talloze kamers om je te verstoppen of klemgezet te worden door een Bedrieger.</string>
-<string name="ToolTipFungle">De Fungle: een groot eiland met een zonnig strand,\%nl\%een mysterieuze jungle en hoger gelegen gebieden.</string>
+<string name="ToolTipFungle">De Fungle: een groot eiland met een zonnig strand,
+een mysterieuze jungle en hoger gelegen gebieden.</string>
 <string name="ConfirmSettings">Instellingen bevestigen</string>
 <string name="ConfirmSettingsTooltip">Je maakt een lobby aan met de volgende instellingen:</string>
 <string name="EnterCodeElipsis">Voer code in...</string>
@@ -2578,13 +2731,19 @@
 <string name="FilterExpert">Expert</string>
 <string name="FilterTag">Tag</string>
 <string name="FilterTagTooltip">Filteren op de tag van een lobby.</string>
-<string name="TooltipTag">Voeg een tag toe om spelers van een bepaald\%nl\%vaardigheidsniveau aan te trekken.</string>
+<string name="TooltipTag">Voeg een tag toe om spelers van een bepaald
+vaardigheidsniveau aan te trekken.</string>
 <string name="SelectedLabel">GESELECTEERD:</string>
-<string name="TooltipSpeedInfo">\%b\%Laag:\%/b\% 0,5-0,75x	\%b\%Hoog:\%/b\% 1,75-2,25x\%nl\%\%b\%Gem:\%/b\% 1,0-1,5x	\%b\%Z. Hoog:\%/b\% 2,5-3,0x</string>
-<string name="TooltipKillCDInfo">\%b\%Laag:\%/b\% 10-20 s	\%b\%Hoog:\%/b\% 37,5-47,5 s\%nl\%\%b\%Gem:\%/b\% 22,5-35 s	\%b\%Z. Hoog:\%/b\% 50-60 s</string>
-<string name="TooltipVotingInfo">\%b\%Laag:\%/b\% 0-60 s	\%b\%Hoog:\%/b\% 150-210 s\%nl\%\%b\%Gem:\%/b\% 75-135 s	\%b\%Z. Hoog:\%/b\% 225-300 s</string>
-<string name="TooptipHidingTimeInfo">\%b\%Laag:\%/b\% 160-180 s	\%b\%Hoog:\%/b\% 260-300 s\%nl\%\%b\%Gem:\%/b\% 200-240 s</string>
-<string name="TooltipFinalTimeInfo">\%b\%Laag:\%/b\% 30-45 s	\%b\%Hoog:\%/b\% 75-95 s\%nl\%\%b\%Gem:\%/b\% 50-70 s	\%b\%Z. Hoog:\%/b\% 100-120 s</string>
+<string name="TooltipSpeedInfo">{b}Laag:{/b} 0,5-0,75x	{b}Hoog:{/b} 1,75-2,25x
+{b}Gem:{/b} 1,0-1,5x	{b}Z. Hoog:{/b} 2,5-3,0x</string>
+<string name="TooltipKillCDInfo">{b}Laag:{/b} 10-20 s	{b}Hoog:{/b} 37,5-47,5 s
+{b}Gem:{/b} 22,5-35 s	{b}Z. Hoog:{/b} 50-60 s</string>
+<string name="TooltipVotingInfo">{b}Laag:{/b} 0-60 s	{b}Hoog:{/b} 150-210 s
+{b}Gem:{/b} 75-135 s	{b}Z. Hoog:{/b} 225-300 s</string>
+<string name="TooptipHidingTimeInfo">{b}Laag:{/b} 160-180 s	{b}Hoog:{/b} 260-300 s
+{b}Gem:{/b} 200-240 s</string>
+<string name="TooltipFinalTimeInfo">{b}Laag:{/b} 30-45 s	{b}Hoog:{/b} 75-95 s
+{b}Gem:{/b} 50-70 s	{b}Z. Hoog:{/b} 100-120 s</string>
 <string name="FilterNoMaps">Geen kaarten geselecteerd</string>
 <string name="Cosmetic.hat_kamurocho_ichiban">Ichiban Kasuga's haar</string>
 <string name="Cosmetic.hat_kamurocho_ono">Ono Michio's Hoed</string>
@@ -2657,7 +2816,8 @@
 <string name="DetectiveAbility">Ondervragen</string>
 <string name="DetectiveAbilityNotes">Aantekeningen</string>
 <string name="DetectiveBlurb">Verzamel informatie. Los moorden op.</string>
-<string name="DetectiveBlurbMed">Voeg info toe aan aantekeningen.\%nl\%Ondervraag.</string>
+<string name="DetectiveBlurbMed">Voeg info toe aan aantekeningen.
+Ondervraag.</string>
 <string name="DetectiveNotesEmpty">Zodra er een moord plaatsvindt, kan ik met het onderzoek beginnen...</string>
 <string name="DetectiveNearLocation">In de buurt van {0}</string>
 <string name="DetectiveNotesKiller">{0}</string>
@@ -2736,7 +2896,8 @@
 <string name="RewardAdTitle">JE HEBT EEN STER!</string>
 <string name="RewardAdBody1">Over {0} uur is er weer een sterbeloning beschikbaar.</string>
 <string name="RewardAdBody2">Over {0} uur is er weer een sterbeloning beschikbaar.</string>
-<string name="WatchAdErrorBody">Er is een probleem met het laden van de advertentie.\%nl\%Probeer het later nog eens.</string>
+<string name="WatchAdErrorBody">Er is een probleem met het laden van de advertentie.
+Probeer het later nog eens.</string>
 <string name="WatchAdErrorTitle">OH OH...</string>
 <string name="Cosmetic.hat_phoenix_wright">Phoenix Wrights haar</string>
 <string name="Cosmetic.skin_phoenix_wright">Phoenix Wrights pak</string>
@@ -2802,4 +2963,27 @@
 <string name="Cosmetic.skin_parasite_Yellow">Geels schort</string>
 <string name="Cosmetic.pet_parasite_Stressball">Stuiterbal</string>
 <string name="Cosmetic.nameplate_parasite_Impostor">Hij zit vlak achter je!</string>
+<string name="JudgeRole">Rechter</string>
+<string name="JudgeBlurb">Neem een vergadering over</string>
+<string name="JudgeBlurbMed">Verwerp een vergadering om een Bedrieger eruit te gooien.
+Als je ernaast zit, word je er zelf uit gegooid.</string>
+<string name="JudgeBlurbLong">Neem de controle over de stemming over</string>
+<string name="JudgeTaskRequirement">Taakontgrendeling %</string>
+<string name="RolesHelp_Judge_01">De Rechter heeft tijdens vergaderingen een krachtige vaardigheid, genaamd Verwerpen. Daarmee kan de Rechter een speciale stem uitbrengen op één Bemanningslid die volgens de Rechter een Bedrieger is.</string>
+<string name="RolesHelp_Judge_02">Wanneer de Rechter deze vaardigheid gebruikt, telt alleen deze speciale stem. Als de Rechter het bij het juiste eind heeft, wordt de Bedrieger uit de luchtsluis gegooid. Als de Rechter ernaast zit, wordt de Rechter zelf uit de luchtsluis gegooid!</string>
+<string name="JudgeAbilityUnlocked">Vaardigheid Rechter toegankelijk</string>
+<string name="JudgeAbilityProgress">Voltooi {0} taak/taken om recht te spreken!</string>
+<string name="JudgeCourtAdjourned">Het vonnis is geveld...</string>
+<string name="JudgeHasSpoken">De Rechter heeft gesproken.</string>
+<string name="StatsJudgeSuccessfulOverrules">Succesvolle Verwerpingen van de Rechter:</string>
+<string name="StatsJudgeFailedOverrules">Mislukte Verwerpingen van de Rechter:</string>
+<string name="JudgeBeatYouToIt">De Rechter heeft gesproken.
+(Een andere Rechter was je voor)</string>
+<string name="QCJudges">Rechters?</string>
+<string name="QCJudgeOverrule">Ik verwerp</string>
+<string name="QCJudgePlease">Verwerp {0}</string>
+<string name="QCJudgeWillOverrule">Ik verwerp {0}</string>
+<string name="MatchInfoGuideTitle">Match-infogids</string>
+<string name="MatchInfoGuidePlayersLabel">Spelers</string>
+<string name="MatchInfoGuideNoRolesMessage">Geen Rollen ingeschakeld</string>
 </resources>

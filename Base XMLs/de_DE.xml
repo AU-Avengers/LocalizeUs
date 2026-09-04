@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
 <string name="LocalButton">Lokal</string>
 <string name="OnlineButton">Online</string>
 <string name="HowToPlayButton">Anleitung</string>
@@ -30,14 +31,14 @@
 <string name="ImpostorsRemainP">{0} Verräter übrig.</string>
 <string name="Hallway">Gang</string>
 <string name="Engines">Antrieb</string>
-<string name="LangCzech">Antrieb oben</string>
+<string name="UpperEngine">Antrieb oben</string>
 <string name="Cafeteria">Cafeteria</string>
 <string name="Weapons">Waffen</string>
 <string name="Reactor">Reaktor</string>
 <string name="Security">Security</string>
 <string name="MedBay">Klinik</string>
 <string name="LifeSupp">O2</string>
-<string name="LangGreek">Navigation</string>
+<string name="Nav">Navigation</string>
 <string name="LowerEngine">Antrieb unten</string>
 <string name="Electrical">Elektrik</string>
 <string name="Admin">Admin</string>
@@ -87,13 +88,14 @@
 <string name="EnterIdCode">ID-Code-Eingabe</string>
 <string name="BuyBeverage">Getränk kaufen</string>
 <string name="ProcessData">Daten bearbeiten</string>
-<string name="NumImpostorsS">Unter uns ist \%color=#FF1919FF\%1 Verräter\%/color\%</string>
-<string name="NumImpostorsP">Unter uns sind \%color=#FF1919FF\%{0} Verräter\%/color\%</string>
+<string name="NumImpostorsS">Unter uns ist {color=#FF1919FF}1 Verräter{/color}</string>
+<string name="NumImpostorsP">Unter uns sind {color=#FF1919FF}{0} Verräter{/color}</string>
 <string name="Crewmate">Besatzung</string>
 <string name="Impostor">Verräter</string>
 <string name="Victory">Gewonnen</string>
 <string name="Defeat">Verloren</string>
-<string name="CrewmatesDisconnected">Besatzung größtenteils\%nl\%getrennt</string>
+<string name="CrewmatesDisconnected">Besatzung größtenteils
+getrennt</string>
 <string name="ImpostorDisconnected">Verräter getrennt</string>
 <string name="PickAnomaly">Anomalie wählen</string>
 <string name="WaterPlantsGetCan">Gießkanne genommen!</string>
@@ -124,10 +126,16 @@
 <string name="MeetingVotingResults">Abstimmungsergebnis</string>
 <string name="MeetingProceeds">Findet statt in: {0} s</string>
 <string name="MeetingHasVoted">{0} hat abgestimmt. {1} übrig.</string>
-<string name="HowToPlayText1">Among Us ist ein Spiel über Teamarbeit und Verrat.\%nl\%\%nl\%Spieler sind entweder Besatzungsmitglieder oder Verräter.</string>
+<string name="HowToPlayText1">Among Us ist ein Spiel über Teamarbeit und Verrat.
+
+Spieler sind entweder Besatzungsmitglieder oder Verräter.</string>
 <string name="HowToPlayText2">Spielt mit 4 bis 15 Spielern online oder via lokalem WLAN!</string>
 <string name="HowToPlayText41">Als Host eines Spiels hast du die Kontrolle über das Spiel.</string>
-<string name="HowToPlayText42">Lege zuerst fest, mit wem du spielen möchtest!\%nl\%\%nl\%Wenn du online mit Freunden spielen möchtest, dann stelle "Privat" ein und teile den Raum-Code.\%nl\%\%nl\%Möchtest du mit anderen aus der ganzen Welt spielen, dann stelle "Öffentlich" ein.</string>
+<string name="HowToPlayText42">Lege zuerst fest, mit wem du spielen möchtest!
+
+Wenn du online mit Freunden spielen möchtest, dann stelle "Privat" ein und teile den Raum-Code.
+
+Möchtest du mit anderen aus der ganzen Welt spielen, dann stelle "Öffentlich" ein.</string>
 <string name="HowToPlayText43">Möchtest du mit mehr Aufgaben spielen? Wie wäre es mit höherem Tempo beim Gehen? Mehr Verräter? Als Host kannst du das einstellen. Stimme die Änderungen aber mit deinen Mitspielern ab.</string>
 <string name="HowToPlayText44">Sind Spieler unhöflich oder spammen, kann der Host sie als Warnung vorübergehend rauswerfen. Er kann Spieler auch für den jeweiligen Raum sperren.</string>
 <string name="HowToPlayTextMap">Die Spieler können eine persönliche Karte nutzen, um sich durchs Schiff zu bewegen.</string>
@@ -144,9 +152,21 @@
 <string name="HowToPlayTextImp5">Schiff sabotieren, Besatzung verwirren.</string>
 <string name="HowToPlayTextImp6">Opfer hinter Türen einsperren.</string>
 <string name="HowToPlayTextImp7">Besatzung zwischen Wartezeiten umbringen.</string>
-<string name="HowToPlayText5">Beim gemeinsamen Spielen in einem Raum herrscht Schweigepflicht, damit das Spiel für Besatzung und Verräter fair bleibt.\%nl\%\%nl\%Wird ein Spieler vom Verräter getötet, darf der bis zum Spielende nicht reden.\%nl\%\%nl\%Geister können immer noch die zugewiesenen Aufgaben erledigen, um einen möglichen Sieg der Besatzung zu unterstützen.</string>
-<string name="HowToPlayText6">Meldet jemand eine Leiche oder beruft ein Notfall-Treffen ein, versammelt sich die Besatzung, um alles zu besprechen, was über den Verräter bekannt ist.\%nl\%\%nl\%Die Spieler können dann offen sagen, wen sie für den Verräter halten und welche Infos sie haben. Spielt ihr gemeinsam in einem Raum, dürfen Geister nicht reden, weil sie bereits wissen, wer der Verräter ist.\%nl\%\%nl\%Verräter müssen ihre Unschuld beweisen oder andere Besatzungsmitglieder beschuldigen.</string>
-<string name="HowToPlayText7">Nach der Besprechung stimmt ihr ab, wen ihr für den Verräter haltet.\%nl\%\%nl\%Der Spieler mit den meisten Stimmen wird aus dem Schiff geworfen. Also nie leichtfertig abstimmen!\%nl\%\%nl\%Liegen nicht genug Infos vor, könnt ihr als Besatzung beschließen, die Abstimmung zu überspringen, damit kein Unschuldiger rausgeworfen wird und ihr noch mehr Infos sammeln könnt.</string>
+<string name="HowToPlayText5">Beim gemeinsamen Spielen in einem Raum herrscht Schweigepflicht, damit das Spiel für Besatzung und Verräter fair bleibt.
+
+Wird ein Spieler vom Verräter getötet, darf der bis zum Spielende nicht reden.
+
+Geister können immer noch die zugewiesenen Aufgaben erledigen, um einen möglichen Sieg der Besatzung zu unterstützen.</string>
+<string name="HowToPlayText6">Meldet jemand eine Leiche oder beruft ein Notfall-Treffen ein, versammelt sich die Besatzung, um alles zu besprechen, was über den Verräter bekannt ist.
+
+Die Spieler können dann offen sagen, wen sie für den Verräter halten und welche Infos sie haben. Spielt ihr gemeinsam in einem Raum, dürfen Geister nicht reden, weil sie bereits wissen, wer der Verräter ist.
+
+Verräter müssen ihre Unschuld beweisen oder andere Besatzungsmitglieder beschuldigen.</string>
+<string name="HowToPlayText7">Nach der Besprechung stimmt ihr ab, wen ihr für den Verräter haltet.
+
+Der Spieler mit den meisten Stimmen wird aus dem Schiff geworfen. Also nie leichtfertig abstimmen!
+
+Liegen nicht genug Infos vor, könnt ihr als Besatzung beschließen, die Abstimmung zu überspringen, damit kein Unschuldiger rausgeworfen wird und ihr noch mehr Infos sammeln könnt.</string>
 <string name="HowToPlayText81">Übe im Übungsmodus!</string>
 <string name="HowToPlayText82">Lege Aufgaben als Besatzungsmitglied selbst fest oder trainiere Mordstrategien als Verräter!</string>
 <string name="SettingsGeneral">Allgemein</string>
@@ -213,12 +233,36 @@
 <string name="RoomCodeInfo">Zum Kopieren klicken</string>
 <string name="LeaveGame">Spiel verlassen</string>
 <string name="ReturnToGame">Zurück zum Spiel</string>
-<string name="LocalHelp">Verbindungsprobleme?\%nl\%\%nl\%● Alle müssen mit demselben WLAN-Namen verbunden sein\%nl\%● Alle müssen dieselbe Version nutzen (unten rechts)\%nl\%● Das WLAN-Signal muss stark genug sein\%nl\%● Manchmal hilft es, wenn ein anderer Spieler hostet\%nl\%● Manchmal hilft es, die App neu zu starten ...\%nl\%● Manchmal hilft es, das Smartphone neu zu starten ...\%nl\%● Trotzdem noch Probleme? Teile es uns mit einer E-Mail an support@innersloth.com mit!</string>
-<string name="OnlineHelp">Wie funktioniert das?\%nl\%\%nl\%● Als Host einer Partie bekommst du einen Spielcode in der Lobby.\%nl\%● Teile den Spiel-Code mit Freunden, um einen privaten Raum zu erstellen.\%nl\%● Oder tippe "Privat" an, um den Raum für die "Spielsuche" öffentlich zu machen.\%nl\%● Der Host kann Spieler sperren oder rauswerfen, wenn ein Chat verfügbar ist.\%nl\%● Weitere Probleme? Teile es uns mit einer E-Mail an support@innersloth.com mit!</string>
-<string name="EmergencyCount">BESATZUNGSMITGLIED {0} HAT\%nl\%\%nl\%\%nl\%\%nl\%NOTFALL-TREFFEN ÜBRIG</string>
-<string name="EmergencyNotReady">BESATZUNGSMITGLIEDER MÜSSEN\%nl\%\%nl\%\%nl\%\%nl\%BIS ZUM NÄCHSTEN NOTFALL WARTEN</string>
-<string name="EmergencyDuringCrisis">NOTFALL-TREFFEN KÖNNEN NICHT IN\%nl\%KRISEN EINBERUFEN WERDEN</string>
-<string name="EmergencyRequested">NOTFALL-TREFFEN ERBETEN\%nl\%WARTEN AUF HOST</string>
+<string name="LocalHelp">Verbindungsprobleme?
+
+● Alle müssen mit demselben WLAN-Namen verbunden sein
+● Alle müssen dieselbe Version nutzen (unten rechts)
+● Das WLAN-Signal muss stark genug sein
+● Manchmal hilft es, wenn ein anderer Spieler hostet
+● Manchmal hilft es, die App neu zu starten ...
+● Manchmal hilft es, das Smartphone neu zu starten ...
+● Trotzdem noch Probleme? Teile es uns mit einer E-Mail an support@innersloth.com mit!</string>
+<string name="OnlineHelp">Wie funktioniert das?
+
+● Als Host einer Partie bekommst du einen Spielcode in der Lobby.
+● Teile den Spiel-Code mit Freunden, um einen privaten Raum zu erstellen.
+● Oder tippe "Privat" an, um den Raum für die "Spielsuche" öffentlich zu machen.
+● Der Host kann Spieler sperren oder rauswerfen, wenn ein Chat verfügbar ist.
+● Weitere Probleme? Teile es uns mit einer E-Mail an support@innersloth.com mit!</string>
+<string name="EmergencyCount">BESATZUNGSMITGLIED {0} HAT
+
+
+
+NOTFALL-TREFFEN ÜBRIG</string>
+<string name="EmergencyNotReady">BESATZUNGSMITGLIEDER MÜSSEN
+
+
+
+BIS ZUM NÄCHSTEN NOTFALL WARTEN</string>
+<string name="EmergencyDuringCrisis">NOTFALL-TREFFEN KÖNNEN NICHT IN
+KRISEN EINBERUFEN WERDEN</string>
+<string name="EmergencyRequested">NOTFALL-TREFFEN ERBETEN
+WARTEN AUF HOST</string>
 <string name="AdPolicyTitle">Richtlinien für Werbung</string>
 <string name="AdPolicyText">Dürfen wir deine persönlichen Daten verwenden, um Werbeanzeigen auf dich zuzuschneiden? Wenn du auf Ja klickst, sammeln unsere Werbepartner wie Google AdMob und Unity Ads automatisch Daten und nutzen Geräte-IDs und Cookies für personalisierte Anzeigen. Wenn du auf Nein klickst, bekommst du weiterhin nicht personalisierte Anzeigen zu sehen. Um alle Anzeigen loszuwerden, empfehlen wir den Kauf des werbefreien Upgrades [httpstore]hier[], dann sehen auch deine Freunde keine Anzeigen, wenn du hostest! Um mehr über den Datenschutz bei uns und unseren Werbepartnern zu erfahren, lies bitte unsere [https://www.innersloth.com/privacy-policy/]Datenschutzrichtlinie[]. Du kannst deine Entscheidung jederzeit im Menü Einstellungen unter „Daten“ ändern.</string>
 <string name="Accept">Annehmen</string>
@@ -226,7 +270,9 @@
 <string name="PlainYes">Ja</string>
 <string name="PlainNo">Nein</string>
 <string name="PrivacyPolicyTitle">Datenschutzrichtlinie</string>
-<string name="PrivacyPolicyText">Innersloth verarbeitet für Among Us Personendaten. Bitte lies unsere \%link="https://www.innersloth.com/de/privacy-policy-de/"\%Datenschutzrichtlinie\%/link\%, um mehr zu unserem Umgang mit Datenschutz zu erfahren. Die Einstellungen für deine persönlichen Daten für Among Us kannst du unter "Daten" verwalten.\%nl\%\%nl\%Bitte lies unsere \%link=“https://www.innersloth.com/de/terms-of-services-games-de/“\%Nutzungsbedingungen\%/link\%, bevor du Among Us spielst.</string>
+<string name="PrivacyPolicyText">Innersloth verarbeitet für Among Us Personendaten. Bitte lies unsere {link="https://www.innersloth.com/de/privacy-policy-de/"}Datenschutzrichtlinie{/link}, um mehr zu unserem Umgang mit Datenschutz zu erfahren.
+
+Bitte lies unsere {link=“https://www.innersloth.com/de/terms-of-services-games-de/“}Nutzungsbedingungen{/link}, bevor du Among Us spielst.</string>
 <string name="ManageDataButton">Datensammlung verwalten</string>
 <string name="UnderstandButton">Verstanden</string>
 <string name="WaterPlants">Pflanzen gießen</string>
@@ -305,23 +351,45 @@
 <string name="VentMove">Durch Schacht gehen</string>
 <string name="MenuNavigate">Navigieren</string>
 <string name="NsoError">Verbindung zum Netzwerk fehlgeschlagen.</string>
-<string name="ErrorServerOverload">Die Server von Among Us sind überlastet.\%nl\%\%nl\%Sorry! Bitte probiere es später erneut!</string>
+<string name="ErrorServerOverload">Die Server von Among Us sind überlastet.
+
+Sorry! Bitte probiere es später erneut!</string>
 <string name="ErrorIntentionalLeaving">Nach einem absichtlichen Verbindungsabbruch kannst du {0} Minute(n) lang keinem weiteren Spiel beitreten.</string>
 <string name="ErrorFocusLost">Deine Verbindung wurde getrennt, da Among Us von einer anderen Anwendung angehalten wurde.</string>
-<string name="ErrorBanned">Du wurdest für {0} gesperrt.\%nl\%\%nl\%Diesen Raum kannst du nicht mehr betreten.</string>
-<string name="ErrorKicked">Du wurdest aus {0} rausgeworfen.\%nl\%\%nl\%Du kannst diesen Raum erneut betreten, wenn er noch nicht gestartet wurde.</string>
-<string name="ErrorBannedNoCode">Du wurdest für diesen Raum gesperrt.\%nl\%\%nl\%Diesen Raum kannst du nicht mehr betreten.</string>
-<string name="ErrorKickedNoCode">Du wurdest aus diesem Raum rausgeworfen.\%nl\%\%nl\%Du kannst diesen Raum erneut betreten, wenn er noch nicht gestartet wurde.</string>
-<string name="ErrorHacking">Du wurdest aufgrund von Hacking gesperrt.\%nl\%\%nl\%Lass das bitte.</string>
-<string name="ErrorFullGame">Das Spiel, dem du beitreten wolltest, ist voll.\%nl\%\%nl\%Kontaktiere den Host, um zu fragen, ob du in der nächsten Runde dabei sein kannst.</string>
-<string name="ErrorStartedGame">Das Spiel, dem du beitreten wolltest, hat bereits begonnen.\%nl\%\%nl\%Kontaktiere den Host, um zu fragen, ob du in der nächsten Runde dabei sein kannst.</string>
+<string name="ErrorBanned">Du wurdest für {0} gesperrt.
+
+Diesen Raum kannst du nicht mehr betreten.</string>
+<string name="ErrorKicked">Du wurdest aus {0} rausgeworfen.
+
+Du kannst diesen Raum erneut betreten, wenn er noch nicht gestartet wurde.</string>
+<string name="ErrorBannedNoCode">Du wurdest für diesen Raum gesperrt.
+
+Diesen Raum kannst du nicht mehr betreten.</string>
+<string name="ErrorKickedNoCode">Du wurdest aus diesem Raum rausgeworfen.
+
+Du kannst diesen Raum erneut betreten, wenn er noch nicht gestartet wurde.</string>
+<string name="ErrorHacking">Du wurdest aufgrund von Hacking gesperrt.
+
+Lass das bitte.</string>
+<string name="ErrorFullGame">Das Spiel, dem du beitreten wolltest, ist voll.
+
+Kontaktiere den Host, um zu fragen, ob du in der nächsten Runde dabei sein kannst.</string>
+<string name="ErrorStartedGame">Das Spiel, dem du beitreten wolltest, hat bereits begonnen.
+
+Kontaktiere den Host, um zu fragen, ob du in der nächsten Runde dabei sein kannst.</string>
 <string name="ErrorNotFoundGame">Das von dir gesuchte Spiel konnte nicht gefunden werden.</string>
 <string name="ErrorInactivity">Der Server hat dieses Spiel gestoppt. Möglicherweise aufgrund von Inaktivität.</string>
-<string name="ErrorGenericOnlineDisconnect">Deine Verbindung zum Server wurde getrennt.\%nl\%Passiert dies öfter, dann solltest du die Signalstärke deiner Netzwerkverbindung überprüfen.\%nl\%Dies kann aber auch ein Serverproblem sein.</string>
-<string name="ErrorGenericLocalDisconnect">Deine Verbindung zum Host wurde getrennt.\%nl\%\%nl\%Passiert dies öfter, dann solltest du die Signalstärke deiner WLAN-Verbindung überprüfen.</string>
+<string name="ErrorGenericOnlineDisconnect">Deine Verbindung zum Server wurde getrennt.
+Passiert dies öfter, dann solltest du die Signalstärke deiner Netzwerkverbindung überprüfen.
+Dies kann aber auch ein Serverproblem sein.</string>
+<string name="ErrorGenericLocalDisconnect">Deine Verbindung zum Host wurde getrennt.
+
+Passiert dies öfter, dann solltest du die Signalstärke deiner WLAN-Verbindung überprüfen.</string>
 <string name="ErrorInvalidName">Der Server hat diesen Nutzernamen abgelehnt: {0}.</string>
 <string name="ErrorUnknown">Deine Verbindung zum Server wurde aufgrund eines unbekannten Problems getrennt.</string>
-<string name="ErrorIncorrectVersion">Du nutzt eine ältere Version der Software.\%nl\%\%nl\%Bitte aktualisiere deine Version, um mit anderen spielen zu können.</string>
+<string name="ErrorIncorrectVersion">Du nutzt eine ältere Version der Software.
+
+Bitte aktualisiere deine Version, um mit anderen spielen zu können.</string>
 <string name="ServerNA">Nordamerika</string>
 <string name="ServerEU">Europa</string>
 <string name="ServerAS">Asien</string>
@@ -397,7 +465,11 @@
 <string name="MedWT">GW:</string>
 <string name="MedETA">ETA {0}</string>
 <string name="MedHello">HALLO!</string>
-<string name="LobbySizeWarning">Among Us kann mit 4 Spielern gespielt \%nl\%werden, aber 5 oder mehr Spieler werden empfohlen.\%nl\%\%nl\%Runden mit 4 Spielern sind schnell zu Ende, \%nl\%und der Verräter gewinnt dabei oft.</string>
+<string name="LobbySizeWarning">Among Us kann mit 4 Spielern gespielt 
+werden, aber 5 oder mehr Spieler werden empfohlen.
+
+Runden mit 4 Spielern sind schnell zu Ende, 
+und der Verräter gewinnt dabei oft.</string>
 <string name="Okay">Okay</string>
 <string name="OkayDontShow">O. K., nicht mehr zeigen</string>
 <string name="Nevermind">Egal</string>
@@ -791,7 +863,14 @@
 <string name="GoOffline">Offline gehen</string>
 <string name="PlayAsGuest">Als Gast spielen</string>
 <string name="LogInTitle">Bei einem Konto anmelden</string>
-<string name="LogInInfoText">Melde dich an oder erstelle ein Among-Us-Konto, um auf die Funktionen des Spiels zuzugreifen:\%nl\%\%nl\%– Speichern deines Fortschritts auf ausgewählten Geräten\%nl\%– Zugang zum Free-Chat\%nl\%– Kosmetik verknüpfen\%nl\%– Und mehr!\%nl\%\%nl\%Für einige Funktionen ist je nach Kontotyp die Zustimmung eines Elternteils oder Erziehungsberechtigten erforderlich.</string>
+<string name="LogInInfoText">Melde dich an oder erstelle ein Among-Us-Konto, um auf die Funktionen des Spiels zuzugreifen:
+
+– Speichern deines Fortschritts auf ausgewählten Geräten
+– Zugang zum Free-Chat
+– Kosmetik verknüpfen
+– Und mehr!
+
+Für einige Funktionen ist je nach Kontotyp die Zustimmung eines Elternteils oder Erziehungsberechtigten erforderlich.</string>
 <string name="LogInInfoTextSwitch">Wenn du dich mit einem eigenen Benutzerkonto registrierst, kannst du dich später jederzeit erneut anmelden. Wenn du kein Konto hast, wird automatisch eins für dich angelegt.</string>
 <string name="ControllerDisconnectedMessage">Controller getrennt</string>
 <string name="FollowUs">Folge uns!</string>
@@ -874,7 +953,9 @@
 <string name="ProgressLabel">Fortschritt:</string>
 <string name="TermsOfUseTitle">Nutzungsbedingungen</string>
 <string name="PPAndToUTitle">Datenschutzrichtlinie und Nutzungsbedingungen</string>
-<string name="ErrorNotAuthenticated">Die Server von Among Us konnten dich nicht identifizieren.\%nl\%\%nl\%Du brauchst ein Konto bei Among Us, um online zu spielen.</string>
+<string name="ErrorNotAuthenticated">Die Server von Among Us konnten dich nicht identifizieren.
+
+Du brauchst ein Konto bei Among Us, um online zu spielen.</string>
 <string name="ComePlayDiscord">Spiel mit mir Among Us!</string>
 <string name="ShowAccountSupportID5">Konto-Support-ID anzeigen</string>
 <string name="ShowAccountSupportID4">Zum Anzeigen noch 4-mal drücken</string>
@@ -1077,7 +1158,7 @@
 <string name="Cosmetic.hat_pk05_Cherry">Kirsche auf der Torte</string>
 <string name="Cosmetic.hat_pk05_davehat">Museumssecurity</string>
 <string name="Cosmetic.hat_pk05_Egg">Ei der Daus</string>
-<string name="Cosmetic.hat_pk05_Ellie">Rothaarig \%and\% gesetzlos</string>
+<string name="Cosmetic.hat_pk05_Ellie">Rothaarig {and} gesetzlos</string>
 <string name="Cosmetic.hat_pk05_EllieToppat">Rekrutin Ellie</string>
 <string name="Cosmetic.hat_pk05_Ellryhat">Roter Iro</string>
 <string name="Cosmetic.hat_pk05_Fedora">Soiree Noire</string>
@@ -1343,18 +1424,33 @@
 <string name="LinkAccount">Konto verknüpfen</string>
 <string name="CreateNewAccount">Neues Konto anlegen</string>
 <string name="LinkExistingAccount">Vorhandenes Konto verknüpfen</string>
-<string name="LinkAccountExplanation">Wenn du schon ein Among-Us-Konto auf einer anderen Plattform hast, kannst du es möglicherweise verknüpfen!\%nl\%Oder du kannst ein völlig neues Konto anlegen.</string>
-<string name="LinkAccountCode">Gib den folgenden Code bei \%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\% ein.</string>
+<string name="LinkAccountExplanation">Wenn du schon ein Among-Us-Konto auf einer anderen Plattform hast, kannst du es möglicherweise verknüpfen!
+Oder du kannst ein völlig neues Konto anlegen.</string>
+<string name="LinkAccountCode">Gib den folgenden Code bei {link="{0}"}{1}{/link} 
+{size=+2}{2}{/size} ein.</string>
 <string name="ErrorLink">Beim Verknüpfen deines Kontos ist etwas schiefgegangen. Bitte versuche es später wieder.</string>
 <string name="UnlinkAccount">Kontoverknüpfung aufheben</string>
 <string name="ConfirmUnlinkAccount">Aufhebung der Kontoverknüpfung bestätigen</string>
-<string name="UnlinkAccountExplain">Wenn du die Verknüpfung mit deinem {0}-Konto aufhebst, werden deine Daten gelöscht und ein neues {0}-Konto wird angelegt.\%nl\%– Du verlierst alle Gegenstände, die du auf deinem {0}-Konto erhalten oder freigeschaltet hast.\%nl\%- Du startest neu auf Level 1 mit 0 EP.</string>
-<string name="UnlinkAccountExplainConfirm">Bitte speichere diese ID:\%nl\%\%nl\%{0}\%nl\%\%nl\%Wenn du die Verknüpfung mit deinem Konto aufhebst und diese ID nicht hast, können wir deinen Fortschritt nicht wiederherstellen und dir nicht weiterhelfen, falls ein Irrtum vorliegt.</string>
+<string name="UnlinkAccountExplain">Wenn du die Verknüpfung mit deinem {0}-Konto aufhebst, werden deine Daten gelöscht und ein neues {0}-Konto wird angelegt.
+– Du verlierst alle Gegenstände, die du auf deinem {0}-Konto erhalten oder freigeschaltet hast.
+- Du startest neu auf Level 1 mit 0 EP.</string>
+<string name="UnlinkAccountExplainConfirm">Bitte speichere diese ID:
+
+{0}
+
+Wenn du die Verknüpfung mit deinem Konto aufhebst und diese ID nicht hast, können wir deinen Fortschritt nicht wiederherstellen und dir nicht weiterhelfen, falls ein Irrtum vorliegt.</string>
 <string name="UnlinkError">Beim Aufheben der Verknüpfung mit deinem Konto ist etwas schiefgegangen. Bitte versuche es später wieder.</string>
 <string name="UnlinkSuccess">Du hast die Verknüpfung von {0} mit deinem Among-Us-Hauptkonto erfolgreich aufgehoben!</string>
 <string name="ConfirmLinkExistingAccount">Verknüpfung mit vorhandenem Konto bestätigen</string>
-<string name="LinkExistingAccountExplain">Bei der Verknüpfung mit einem anderen Konto werden alle Daten auf dieser Plattform überschrieben. Das bedeutet, dein {0}-Among-Us-Konto wird durch das andere Konto ersetzt.\%nl\%– Alle Gegenstände, die du auf deinem {0}-Konto freigeschaltet hast, werden überschrieben.\%nl\%– Alle EP, die du auf deinem {0}-Konto hattest, werden überschrieben.\%nl\%– Alle Bohnen, Kapseln und Sterne werden überschrieben.</string>
-<string name="LinkExistingAccountExplainConfirm">Sobald du die Verknüpfung bestätigst, setzen wir dein {0}-Among-Us-Konto zurück, um den Datenimport von einem anderen Konto vorzubereiten.\%nl\%\%nl\%\%color=#{1}\%ACHTUNG: DU BRAUCHST EIN ZWEITES BESTEHENDES KONTO, DAS DU MIT DIESEM VERKNÜPFEN KANNST, BEVOR DU WEITERMACHST.\%/color\%\%nl\%\%nl\%Beim Zurücksetzen deines {0}-Kontos werden alle EP, Bohnen, Kapseln und Gegenstände auf 0 gesetzt. Das können wir NICHT rückgängig machen.</string>
+<string name="LinkExistingAccountExplain">Bei der Verknüpfung mit einem anderen Konto werden alle Daten auf dieser Plattform überschrieben. Das bedeutet, dein {0}-Among-Us-Konto wird durch das andere Konto ersetzt.
+– Alle Gegenstände, die du auf deinem {0}-Konto freigeschaltet hast, werden überschrieben.
+– Alle EP, die du auf deinem {0}-Konto hattest, werden überschrieben.
+– Alle Bohnen, Kapseln und Sterne werden überschrieben.</string>
+<string name="LinkExistingAccountExplainConfirm">Sobald du die Verknüpfung bestätigst, setzen wir dein {0}-Among-Us-Konto zurück, um den Datenimport von einem anderen Konto vorzubereiten.
+
+{color=#{1}}ACHTUNG: DU BRAUCHST EIN ZWEITES BESTEHENDES KONTO, DAS DU MIT DIESEM VERKNÜPFEN KANNST, BEVOR DU WEITERMACHST.{/color}
+
+Beim Zurücksetzen deines {0}-Kontos werden alle EP, Bohnen, Kapseln und Gegenstände auf 0 gesetzt. Das können wir NICHT rückgängig machen.</string>
 <string name="ResetAccount">Konto zurücksetzen</string>
 <string name="PurchasingLabel">Objekt wird gekauft</string>
 <string name="ErrorInternalServer">Interner Serverfehler (Code {0})</string>
@@ -1440,13 +1536,16 @@
 <string name="RoleChanceAndQuantity">{0} mit {1}%iger Chance</string>
 <string name="CheckingPurchasesLabel">Käufe werden geprüft ...</string>
 <string name="ProtectedRecently">Der Schutzengel hat kürzlich jemanden beschützt ...</string>
-<string name="ScientistBlurbMed">Greife jederzeit auf die Lebensanzeige zu.\%nl\%Schließe Aufgaben ab, um deine Batterie aufzuladen.</string>
+<string name="ScientistBlurbMed">Greife jederzeit auf die Lebensanzeige zu.
+Schließe Aufgaben ab, um deine Batterie aufzuladen.</string>
 <string name="ScientistBlurbLong">Der Wissenschaftler kann von überall auf eine tragbare Lebensanzeige zugreifen, um den Status der Besatzung einzusehen. Die Batterie der Anzeige muss allerdings aufgeladen werden, indem der Wissenschaftler Aufgaben abschließt.</string>
 <string name="EngineerBlurbMed">Kann die Schächte nutzen.</string>
 <string name="EngineerBlurbLong">Der Ingenieur ist ein Besatzungsmitglied, das Schächte benutzen kann, um sich schneller fortzubewegen und Verräter im Schacht auf frischer Tat zu ertappen. Du kannst aber nicht lange dort drinbleiben, also sei vorsichtig ...</string>
-<string name="GuardianAngelBlurbMed">Schütze die verbleibende Besatzung mit einem\%nl\%Schutzschild.</string>
+<string name="GuardianAngelBlurbMed">Schütze die verbleibende Besatzung mit einem
+Schutzschild.</string>
 <string name="GuardianAngelBlurbLong">Der Schutzengel ist der Geist des ersten toten Besatzungsmitglieds. Er kann lebende Crewmitglieder vorübergehend mit einem Schild beschützen. Mit dem richtigen Timing kannst du Verräter davon abhalten, ihr Opfer zu töten.</string>
-<string name="ShapeshifterBlurbMed">Tarne dich, indem du dich in andere\%nl\%Besatzungsmitglieder verwandelst.</string>
+<string name="ShapeshifterBlurbMed">Tarne dich, indem du dich in andere
+Besatzungsmitglieder verwandelst.</string>
 <string name="ShapeshifterBlurbLong">Der Formwandler kann sein Aussehen verändern, um wie andere Besatzungsmitglieder auszusehen. Dadurch kann er anderen die Schuld in die Schuhe schieben und für Verwirrung sorgen. Aber pass auf – die Tarnung hält nicht lange an und hinterlässt Spuren.</string>
 <string name="RoleHint">Hinweis</string>
 <string name="ScientistBatteryCharge">Batteriedauer</string>
@@ -1476,7 +1575,10 @@
 <string name="Cosmetic.skin_vi">Vis Kleidung</string>
 <string name="Cosmetic.pet_poro">Heimerdingers Poro</string>
 <string name="RedeemPurchasedItemsTitle">Gekaufte Objekte einlösen</string>
-<string name="RedeemPurcahsedItemsExplain">Wir haben ein brandneues Inventarsystem, damit du plattformübergreifend Zugriff auf deine Objekte hast! Alle auf dieser Plattform gekauften Objekte können NUR EINMAL auf unser neues Inventarsystem umgestellt werden.\%nl\%Wenn dies dein Hauptkonto für Among Us ist (die Plattform, auf der du Among Us hauptsächlich spielst), kannst du unbesorgt auf „Weiter“ klicken und deinen gekauften DLC im neuen Inventarsystem einlösen. Falls dies ein Konto ist, das du mit deinem Hauptkonto verknüpfen möchtest, solltest du das zuerst tun!\%nl\%\%nl\%Konto-ID: {0}</string>
+<string name="RedeemPurcahsedItemsExplain">Wir haben ein brandneues Inventarsystem, damit du plattformübergreifend Zugriff auf deine Objekte hast! Alle auf dieser Plattform gekauften Objekte können NUR EINMAL auf unser neues Inventarsystem umgestellt werden.
+Wenn dies dein Hauptkonto für Among Us ist (die Plattform, auf der du Among Us hauptsächlich spielst), kannst du unbesorgt auf „Weiter“ klicken und deinen gekauften DLC im neuen Inventarsystem einlösen. Falls dies ein Konto ist, das du mit deinem Hauptkonto verknüpfen möchtest, solltest du das zuerst tun!
+
+Konto-ID: {0}</string>
 <string name="RedeemProceed">Weiter</string>
 <string name="RedeemNotYet">Nicht jetzt</string>
 <string name="RedeemNever">Nicht mehr fragen</string>
@@ -1535,7 +1637,8 @@
 <string name="Cosmetic.skin_witch">Schrullige Hexe</string>
 <string name="Cosmetic.pet_frankendog">Frankenhund</string>
 <string name="Cosmetic.hat_mohawk_bubblegum">Hard Punk - Kaugummi</string>
-<string name="AvailableFor">Verfügbar für\%nl\%{0} T. {1} Std. {2} Min. {3} Sek.</string>
+<string name="AvailableFor">Verfügbar für
+{0} T. {1} Std. {2} Min. {3} Sek.</string>
 <string name="GuardianAngelImpostorSeeProtect">Schutz ist für Verräter sichtbar</string>
 <string name="Cosmetic.hat_pkHW01_PlagueHat">Doktor Schnabel</string>
 <string name="QCAccIsRole">{0} ist {1}</string>
@@ -1552,7 +1655,11 @@
 <string name="QCResProtected">{0} hat {1} beschützt</string>
 <string name="QCResProtected_ANY_QCCrewMe">{0} hat mich beschützt</string>
 <string name="QCRoles">Rollen</string>
-<string name="GuestProgressionWarning">Du bist mit einem Gastkonto angemeldet! \%nl\%\%nl\%Alle verdienten EP, Kapseln und Bohnen gelten nur für dieses Gastkonto. Gastkonten sind nur mit deinem Gerät verbunden und gehen verloren, wenn du das Gerät wechselst. \%nl\%\%nl\%Bitte öffne den Konto-Tab im Hauptmenü und melde dich bei deinem Among-Us-Konto an, damit du auf alle verdienten Währungen und Käufe zugreifen kannst.</string>
+<string name="GuestProgressionWarning">Du bist mit einem Gastkonto angemeldet! 
+
+Alle verdienten EP, Kapseln und Bohnen gelten nur für dieses Gastkonto. Gastkonten sind nur mit deinem Gerät verbunden und gehen verloren, wenn du das Gerät wechselst. 
+
+Bitte öffne den Konto-Tab im Hauptmenü und melde dich bei deinem Among-Us-Konto an, damit du auf alle verdienten Währungen und Käufe zugreifen kannst.</string>
 <string name="ErrorFailedToCreateGame">Spielesitzung konnte nicht erstellt werden. Bitte versuche es später wieder.</string>
 <string name="ErrorFailedToJoinCreatedGame">Beitritt zur Spielesitzung nach Erstellen fehlgeschlagen. Bitte versuche es später wieder.</string>
 <string name="ErrorDisconnectBeforeJoining">Verbindung vor Beitritt zur Spielesitzung getrennt.</string>
@@ -1644,7 +1751,9 @@
 <string name="BlockedPlayers">Blockierte Spieler</string>
 <string name="RecentPlayers">Kürzlich zusammen gespielt</string>
 <string name="LobbyLabel">Lobby</string>
-<string name="FriendCodeExplanation">Among Us hat jetzt eine Freundesliste! Wähle unten einen einzigartigen Freundescode, um Freundes- oder Spielanfragen zu senden und zu erhalten.\%nl\%\%nl\%Er kann nicht nachträglich geändert werden.</string>
+<string name="FriendCodeExplanation">Among Us hat jetzt eine Freundesliste! Wähle unten einen einzigartigen Freundescode, um Freundes- oder Spielanfragen zu senden und zu erhalten.
+
+Er kann nicht nachträglich geändert werden.</string>
 <string name="FriendCodeSuccess">Dein Freundescode ist {0}</string>
 <string name="FriendRequestReceived">Freundesanfrage erhalten</string>
 <string name="FriendRequestSent">Freundesanfrage gesendet</string>
@@ -1681,7 +1790,8 @@
 <string name="ErrorTooManyRequests">Zu viele Lobby-Anfragen. Bitte warte ein paar Minuten, bevor du es wieder versuchst.</string>
 <string name="TempDisabled">Vorübergehend deaktiviert</string>
 <string name="TempDisabledLinkExplain">Da Änderungen an den Konten vorgenommen werden, haben wir das Verknüpfen von Konten vorübergehend deaktiviert. Dies wird bald mit einem Update behoben!</string>
-<string name="RedeemPopup">Hier ist ein Geschenk von der Besatzung!\%nl\%{0}.</string>
+<string name="RedeemPopup">Hier ist ein Geschenk von der Besatzung!
+{0}.</string>
 <string name="RedeemButton">Einlösen</string>
 <string name="ErrorMaxFriends">Deine Freundesliste ist voll.</string>
 <string name="ErrorPlayerBlockedYou">Fehler: Der Benutzer ist auf deiner Blockierliste oder blockiert dich.</string>
@@ -1693,10 +1803,14 @@
 <string name="Decontamination3">Untere Dekontamination</string>
 <string name="ErrorCommunications">Deine Kommunikationseinstellungen verhindern den Beitritt zum Spiel. Bitte aktiviere Kommunikation mit anderen, um beizutreten.</string>
 <string name="SettingsColorblind">Text für Farbenblinde</string>
-<string name="MergeGuestAccountText">Auf diesem Gerät scheint es ein \%link="https://www.innersloth.com/merging-guest-accounts/"\%Gastkonto\%/link\% zu geben! Wir unterstützen keine Gastkonten mehr und werden alle Objekte, Währungen und Erfahrung aus deinem Gastkonto in dieses {0}-Konto übernehmen.\%nl\%\%nl\%Wenn du dieses Gerät (Computer, Handy usw.) mit anderen Personen teilst, beachte bitte, dass jeder, der dieses Gerät benutzt, dieses Gastkonto TEILT. Keine anderen Benutzer auf diesem Gerät können dieses Gastkonto zusammenführen, wenn du fortfährst, und du kannst dieses Gastkonto nur EINMAL zusammenführen. Du kannst die Objekte, Währungen und Erfahrung, die mit diesem Gastkonto verbunden sind, NICHT noch einmal zuweisen.\%nl\%\%nl\%Bitte bestätige, dass du dein Gastkonto mit diesem {0}-Konto zusammenführen möchtest.</string>
+<string name="MergeGuestAccountText">Auf diesem Gerät scheint es ein {link="https://www.innersloth.com/merging-guest-accounts/"}Gastkonto{/link} zu geben! Wir unterstützen keine Gastkonten mehr und werden alle Objekte, Währungen und Erfahrung aus deinem Gastkonto in dieses {0}-Konto übernehmen.
+
+Wenn du dieses Gerät (Computer, Handy usw.) mit anderen Personen teilst, beachte bitte, dass jeder, der dieses Gerät benutzt, dieses Gastkonto TEILT. Keine anderen Benutzer auf diesem Gerät können dieses Gastkonto zusammenführen, wenn du fortfährst, und du kannst dieses Gastkonto nur EINMAL zusammenführen. Du kannst die Objekte, Währungen und Erfahrung, die mit diesem Gastkonto verbunden sind, NICHT noch einmal zuweisen.
+
+Bitte bestätige, dass du dein Gastkonto mit diesem {0}-Konto zusammenführen möchtest.</string>
 <string name="MergeGuestAccountTitle">Gastkonto zusammenführen</string>
 <string name="ManageAccountTitle">Konto verwalten</string>
-<string name="ManageAccountText">Bitte besuche \%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% , um dein Konto zu verwalten, es zusammenführen oder falls du Probleme hast.</string>
+<string name="ManageAccountText">Bitte besuche {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} , um dein Konto zu verwalten, es zusammenführen oder falls du Probleme hast.</string>
 <string name="Cosmetic.visor_BaconVisor">Schön, dich zu sehen</string>
 <string name="Cosmetic.hat_Baguette">Kein Brot, nur Schmerz</string>
 <string name="Cosmetic.skin_Bananaskin">Erdnussbutter-Gelee</string>
@@ -1766,12 +1880,15 @@
 <string name="Cosmetic.nameplate_Orange">Frohrange, mich zu sehen?</string>
 <string name="Cosmetic.hat_sausage">Wurstzipfel</string>
 <string name="SignInIssueTitle">{0}-Kontofehler</string>
-<string name="SignInIssueText">Du kannst mit deinem {0} aufgrund von Altersbeschränkungen kein Konto bei Among Us erstellen.\%nl\%\%nl\%Du kannst auf diesem Gerät weiterhin Among Us spielen, allerdings sind aus Sicherheitsgründen folgende Funktionen eingeschränkt: Kontoverknüpfung, Sternenkäufe und Übertragung von Objekten auf ein neues Gerät. Wende dich bei Fragen bitte per E-Mail an support@innersloth.com.</string>
+<string name="SignInIssueText">Du kannst mit deinem {0} aufgrund von Altersbeschränkungen kein Konto bei Among Us erstellen.
+
+Du kannst auf diesem Gerät weiterhin Among Us spielen, allerdings sind aus Sicherheitsgründen folgende Funktionen eingeschränkt: Kontoverknüpfung, Sternenkäufe und Übertragung von Objekten auf ein neues Gerät. Wende dich bei Fragen bitte per E-Mail an support@innersloth.com.</string>
 <string name="FriendListUnavailable">Freundesliste nicht verfügbar</string>
 <string name="ErrorSanction">Aufgrund {0} wurde dein Konto {1} gesperrt.</string>
 <string name="SanctionDuration">bis {0}</string>
 <string name="SanctionPermanent">dauerhaft</string>
-<string name="SanctionConduct">\%nl\%Bitte nutze diese Zeit, um über dein Verhalten nachzudenken und dir unseren \%link="https://www.innersloth.com/de/verhaltensregeln/"\%Verhaltenskodex\%/link\% einzuprägen!</string>
+<string name="SanctionConduct">
+Bitte nutze diese Zeit, um über dein Verhalten nachzudenken und dir unseren {link="https://www.innersloth.com/de/verhaltensregeln/"}Verhaltenskodex{/link} einzuprägen!</string>
 <string name="SanctionSexualMisconduct">von sexuellem Fehlverhalten</string>
 <string name="SanctionDoxing">von Doxing oder der Weitergabe oder Androhung der Weitergabe persönlicher Informationen</string>
 <string name="SanctionIllegalActivity">von Befürwortung von oder Teilnahme an illegalen Handlungen</string>
@@ -1845,10 +1962,14 @@
 <string name="Cosmetic.visor_hl_nudge">Stups-Stups</string>
 <string name="Cosmetic.visor_hl_marine">Marine-Augenklappe</string>
 <string name="Cosmetic.visor_hl_wrong">Haha. Was stimmt hier wohl nicht?</string>
-<string name="AccountDeleteHelp">Wenn du BESTÄTIGEN wählst, beantragst du die Löschung aller deiner Daten von Among Us. Diese Anfrage dauert 7 bis 14 Tage und führt zur Löschung aller Sterne, EP, Bohnen, Kapseln und gekauften Kosmetik. Sobald dein Konto vollständig gelöscht ist, können wir diesen Vorgang nicht mehr rückgängig machen. Dein Konto funktioniert normal weiter, bis der Löschvorgang abgeschlossen wurde.\%nl\%\%nl\%Bitte wende dich bei Fehlern an support@innersloth.com.</string>
+<string name="AccountDeleteHelp">Wenn du BESTÄTIGEN wählst, beantragst du die Löschung aller deiner Daten von Among Us. Diese Anfrage dauert 7 bis 14 Tage und führt zur Löschung aller Sterne, EP, Bohnen, Kapseln und gekauften Kosmetik. Sobald dein Konto vollständig gelöscht ist, können wir diesen Vorgang nicht mehr rückgängig machen. Dein Konto funktioniert normal weiter, bis der Löschvorgang abgeschlossen wurde.
+
+Bitte wende dich bei Fehlern an support@innersloth.com.</string>
 <string name="DeleteAccount">Konto löschen</string>
 <string name="DoNotDeleteAccount">Kontolöschung abbrechen</string>
-<string name="AccountUnDeleteHelp">Wenn du BESTÄTIGEN wählst, wird die Kontolöschung abgebrochen. Falls du dein Konto später löschen möchtest, musst du dies erneut beantragen.\%nl\%\%nl\%Bitte wende dich bei Fehlern an support@innersloth.com.</string>
+<string name="AccountUnDeleteHelp">Wenn du BESTÄTIGEN wählst, wird die Kontolöschung abgebrochen. Falls du dein Konto später löschen möchtest, musst du dies erneut beantragen.
+
+Bitte wende dich bei Fehlern an support@innersloth.com.</string>
 <string name="ConfirmDelete">Bitte gib zur Bestätigung folgenden Text ein: DELETE</string>
 <string name="ConfirmDeleteAccounts">Markiere das Kästchen, um zu bestätigen, dass dir bewusst ist, dass dieses Konto und die damit verknüpften Konten ({0}) gelöscht werden.</string>
 <string name="ConfirmDeleteAccountsEmpty">Markiere das Kästchen, um zu bestätigen, dass dir bewusst ist, dass dieses Konto und die damit verknüpften Konten gelöscht werden.</string>
@@ -1866,7 +1987,8 @@
 <string name="Ghost">Geist</string>
 <string name="CurrentlyHaunting">Geist-Status:</string>
 <string name="RoundRobin">Verräter-Wahl</string>
-<string name="RuleOneCrewmates">Überlebe, bis die Zeit abläuft.\%nl\%Das Erledigen von Aufgaben verkürzt die Zeit.</string>
+<string name="RuleOneCrewmates">Überlebe, bis die Zeit abläuft.
+Das Erledigen von Aufgaben verkürzt die Zeit.</string>
 <string name="RuleTwoCrewmates">Nutze Schächte und den Gefahrenmelder, um dich zu verstecken!</string>
 <string name="RuleThreeCrewmates">Ist die Zeit abgelaufen, kann der Verräter dich aufspüren!</string>
 <string name="RuleOneImpostor">Töte die gesamte Besatzung innerhalb der vorgegebenen Zeit!</string>
@@ -1896,20 +2018,29 @@
 <string name="DefaultFilterTag_Casual">Casual</string>
 <string name="DefaultFilterTag_Serious">Erfahren</string>
 <string name="DefaultFilterTag_Expert">Experte</string>
-<string name="TagFiltersHelpFindGame">Du kannst die Spielsuche filtern, indem du Tags aus der Filter-Dropdownliste auswählst. Die ausgewählten Filter stimmen mit den Suchergebnissen \%i\%exakt\%/i\% überein.\%nl\%\%nl\%Beispiel: Wenn du \%b\%Casual\%/b\% und \%b\%Experte\%/b\% auswählst, findest du nur Spiele mit den Tags \%b\%Casual\%/b\% und \%b\%Experte\%/b\%.</string>
-<string name="TagFiltersHelpCreate">Du kannst dein Spiel mit Filter-Tags kennzeichnen, damit andere Spieler es leichter finden. Die ausgewählten Filter stimmen mit den Suchergebnissen \%i\%exakt\%/i\% überein.\%nl\%\%nl\%Beispiel: Wenn du \%b\%Casual\%/b\% und \%b\%Experte\%/b\% auswählst, finden dein Spiel nur Spieler, die nach \%b\%Casual\%/b\% und \%b\%Experte\%/b\% suchen.</string>
+<string name="TagFiltersHelpFindGame">Du kannst die Spielsuche filtern, indem du Tags aus der Filter-Dropdownliste auswählst. Die ausgewählten Filter stimmen mit den Suchergebnissen {i}exakt{/i} überein.
+
+Beispiel: Wenn du {b}Casual{/b} und {b}Experte{/b} auswählst, findest du nur Spiele mit den Tags {b}Casual{/b} und {b}Experte{/b}.</string>
+<string name="TagFiltersHelpCreate">Du kannst dein Spiel mit Filter-Tags kennzeichnen, damit andere Spieler es leichter finden. Die ausgewählten Filter stimmen mit den Suchergebnissen {i}exakt{/i} überein.
+
+Beispiel: Wenn du {b}Casual{/b} und {b}Experte{/b} auswählst, finden dein Spiel nur Spieler, die nach {b}Casual{/b} und {b}Experte{/b} suchen.</string>
 <string name="CreateLabel">Erstellen</string>
 <string name="NewGameMode">Neuer Spielmodus!</string>
-<string name="NewModeInfo">Ein atemberaubender Spielmodus erwartet dich! \%nl\%\%i\%Aber Moment ... das hier ist kein normales Versteckspiel ...\%i\%</string>
+<string name="NewModeInfo">Ein atemberaubender Spielmodus erwartet dich! 
+{i}Aber Moment ... das hier ist kein normales Versteckspiel ...{i}</string>
 <string name="HideSeekHowToPlayCaptionOne">Ganz einfach!</string>
 <string name="HideSeekHowToPlayCaptionTwo">Besatzung!</string>
 <string name="HideSeekHowToPlayCaptionThree">Verräter!</string>
-<string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%Besatzung:\%/b\%\%/color\% Erledige Aufgaben, um die Zeit zu verkürzen, verstecke dich vor dem Verräter und bleib am Leben, bis die Zeit um ist.\%nl\%\%nl\%\%color=#FF3131\%\%b\%Der Verräter:\%/b\%\%/color\% Finde die Besatzung und starte deine Mordserie.</string>
+<string name="HideSeekHowToPlayPageOne">{color=#38F25D}{b}Besatzung:{/b}{/color} Erledige Aufgaben, um die Zeit zu verkürzen, verstecke dich vor dem Verräter und bleib am Leben, bis die Zeit um ist.
+
+{color=#FF3131}{b}Der Verräter:{/b}{/color} Finde die Besatzung und starte deine Mordserie.</string>
 <string name="HideSeekHowToPlaySubtextOne">Keine gemeinsamen Aktionen, nur entsetztes Schreien.</string>
 <string name="HideSeekHowToPlayCrewmateInfoOne">Werde zum Meister des Versteckspiels, um zu überleben.</string>
 <string name="HideSeekHowToPlayCrewmateInfoTwo">In diesem Modus kannst du die Schächte nutzen und mit einem Hightech-Gefahrenmelder arbeiten, der dich warnt, wenn sich ein Verräter nähert. Der Verräter hat eingeschränkte Sicht, also sei schlau und nutze die Schächte und deine Visiere, um ihm aus dem Weg zu gehen!</string>
 <string name="HideSeekHowToPlayImpostorInfoOne">Verräter können in diesem Modus keine Schächte nutzen, also sei schnell, wenn du deine Beute fangen willst. Es ist dunkel da draußen! Zum Glück hast du eine Taschenlampe, mit der du dein nächstes Opfer finden kannst.</string>
-<string name="HideSeekHowToPlayFinalHide">Showdown! Kurz vor Ende des Spiels bekommt der Verräter einen Energie-Boost - er wird schneller, erhält eine spezielle Karte zum Suchen und Hinweise auf die Positionen überlebender Besatzungsmitglieder.\%nl\%\%nl\%Sei schnell und entscheide strategisch, um zu gewinnen!</string>
+<string name="HideSeekHowToPlayFinalHide">Showdown! Kurz vor Ende des Spiels bekommt der Verräter einen Energie-Boost - er wird schneller, erhält eine spezielle Karte zum Suchen und Hinweise auf die Positionen überlebender Besatzungsmitglieder.
+
+Sei schnell und entscheide strategisch, um zu gewinnen!</string>
 <string name="HideSeekHowToPlayFlashlightMobile">Verwende den virtuellen Taschenlampen-Joystick auf der rechten Seite deines Bildschirms, um deinen Lichtstrahl zu steuern und alle Besatzungsmitglieder zu töten, die du finden kannst!</string>
 <string name="HideSeekHowToPlayFlashlightDefault">Verwende deine Maus, um den Lichtstrahl deiner Taschenlampe zu steuern und alle Besatzungsmitglieder zu töten, die du finden kannst!</string>
 <string name="HideSeekHowToPlayFlashlightConsoles">Verwende den rechten Stick, um deinen Lichtstrahl zu steuern und alle Besatzungsmitglieder zu töten, die du finden kannst!</string>
@@ -2032,7 +2163,9 @@
 <string name="Cosmetic.nameplate_hunter">Stolz des Jägers</string>
 <string name="Cosmetic.nameplate_lightfall">Lightfall</string>
 <string name="AnnouncementErrorSubtitle">Oje! Ankündigungs-Sabotage!</string>
-<string name="AnnouncementErrorText">Da ist wohl etwas schiefgegangen. Vergewissere dich, dass dein Spiel online ist und auf die neueste Version aktualisiert wurde, um alle aktuellen Informationen und Fehlerbehebungen für Among Us zu erhalten.\%nl\%\%nl\%Wenn du weiterhin Probleme hast, sende uns ein Support-Ticket an support@innersloth.com.</string>
+<string name="AnnouncementErrorText">Da ist wohl etwas schiefgegangen. Vergewissere dich, dass dein Spiel online ist und auf die neueste Version aktualisiert wurde, um alle aktuellen Informationen und Fehlerbehebungen für Among Us zu erhalten.
+
+Wenn du weiterhin Probleme hast, sende uns ein Support-Ticket an support@innersloth.com.</string>
 <string name="ReadMoreLabel">um die vollständige Ankündigung zu sehen!</string>
 <string name="ReturnToList">Zurück zur Liste</string>
 <string name="NavigateLinks">Links auswählen</string>
@@ -2056,7 +2189,8 @@
 <string name="AgeVerificationTitle">Altersverifizierung</string>
 <string name="AgeVerificationInfoTitle">Was ist eine Altersverifizierung?</string>
 <string name="AgeVerificationInfo">Eine Altersverifizierung ist erforderlich, bevor du auf Among Us zugreifen kannst. Wir speichern dein Geburtsdatum nicht.</string>
-<string name="AgeVerificationMoreInfo">Weitere Informationen zu unseren Datenschutzpraktiken findest du unter:\%nl\% \%link="https://www.innersloth.com/de/privacy-policy-de/"\%https://www.innersloth.com/de/privacy-policy-de/\%/link\%</string>
+<string name="AgeVerificationMoreInfo">Weitere Informationen zu unseren Datenschutzpraktiken findest du unter:
+ {link="https://www.innersloth.com/de/privacy-policy-de/"}https://www.innersloth.com/de/privacy-policy-de/{/link}</string>
 <string name="EditLabel">Bearbeiten</string>
 <string name="VerifyAgeText">Ist dieses Datum dein richtiges Geburtsdatum?</string>
 <string name="Cosmetic.nameplate_flagMlm">Flagge für männliche Homosexualität</string>
@@ -2114,9 +2248,15 @@
 <string name="Cosmetic.skin_PusheenPurpleskin">Lilafarbene Pastell-Pusheen</string>
 <string name="Cosmetic.skin_Slothskin">Sloth</string>
 <string name="Cosmetic.hat_bearyCold">Brr-Bär-ig</string>
-<string name="EosAccountSilentMergeFail">Beim Fertigstellen deines Among-Us-Kontos ist etwas schiefgelaufen. Bitte versuche es erneut oder fahre mit einem Gastkonto fort. Dein Fortschritt wird gespeichert, aber wir empfehlen das Einrichten eines Kontos, damit du alle Funktionen von Among Us in vollem Umfang nutzen kannst.\%nl\%\%nl\%Kontoeinrichtung erneut versuchen?</string>
-<string name="AskForEosAccount">Hast du bereits ein Among-Us-Konto? (Auch Epic Online Services-Konto genannt.)\%nl\%\%nl\%Falls du Among Us schon einmal auf diesem Gerät gespielt hast, wähle 'Ja'.</string>
-<string name="KwsCreateFail">Oje! Beim Versenden der Mail mit der Erlaubnis des Erziehungsberechtigten ist etwas schiefgelaufen. Bitte versuche es noch einmal oder fahre im Offline-Modus fort.\%nl\%\%nl\%Nochmal versuchen?</string>
+<string name="EosAccountSilentMergeFail">Beim Fertigstellen deines Among-Us-Kontos ist etwas schiefgelaufen. Bitte versuche es erneut oder fahre mit einem Gastkonto fort. Dein Fortschritt wird gespeichert, aber wir empfehlen das Einrichten eines Kontos, damit du alle Funktionen von Among Us in vollem Umfang nutzen kannst.
+
+Kontoeinrichtung erneut versuchen?</string>
+<string name="AskForEosAccount">Hast du bereits ein Among-Us-Konto? (Auch Epic Online Services-Konto genannt.)
+
+Falls du Among Us schon einmal auf diesem Gerät gespielt hast, wähle 'Ja'.</string>
+<string name="KwsCreateFail">Oje! Beim Versenden der Mail mit der Erlaubnis des Erziehungsberechtigten ist etwas schiefgelaufen. Bitte versuche es noch einmal oder fahre im Offline-Modus fort.
+
+Nochmal versuchen?</string>
 <string name="MissingGuardianEmailText">In deinem Konto fehlt die E-Mail-Adresse deiner Erziehungsberechtigten. Wir müssen deine Erziehungsberechtigten (per E-Mail) um Erlaubnis bitten, weiterzumachen. Wenn sie zustimmen, kannst du den kostenlosen Online-Chat benutzen und deinen Benutzernamen ändern. Bitte einen Erwachsenen, dir dabei zu helfen!</string>
 <string name="MiningPit">Bergbaugrube</string>
 <string name="Jungle">Dschungel</string>
@@ -2191,7 +2331,9 @@
 <string name="Cosmetic.nameplate_cliffs">Sedimentär</string>
 <string name="ReportNotificationHeader">Vielen Dank, dass du dazu beiträgst, Among Us zu einem sicheren und freundlichen Ort zu machen!</string>
 <string name="ReportNotificationBody">Unser Moderationsteam wird sich die von dir gemeldeten Informationen anschauen und falls nötig Maßnahmen auf der Grundlage unserer Verhaltensregeln ergreifen.</string>
-<string name="ErrorClientTimeout">Du hast die Verbindung zum Server verloren. Dies kann aufgrund von Problemen mit dem Server, Netzwerk oder Gerät passieren. Überprüfe die Signalstärke deines Netzwerks.\%nl\%\%nl\%Wenn dies häufig vorkommt, ist dein Gerät möglicherweise zu alt oder erfüllt nicht die Mindestanforderungen. Versuche, mit einem anderen Gerät zu spielen.</string>
+<string name="ErrorClientTimeout">Du hast die Verbindung zum Server verloren. Dies kann aufgrund von Problemen mit dem Server, Netzwerk oder Gerät passieren. Überprüfe die Signalstärke deines Netzwerks.
+
+Wenn dies häufig vorkommt, ist dein Gerät möglicherweise zu alt oder erfüllt nicht die Mindestanforderungen. Versuche, mit einem anderen Gerät zu spielen.</string>
 <string name="ErrorClientTimeoutConsole">Du hast die Verbindung zum Server verloren. Dies kann aufgrund von Problemen mit dem Server oder Netzwerk passieren. Überprüfe die Signalstärke deines Netzwerks.</string>
 <string name="Cosmetic.hat_NewYear2024">Neujahr 2024</string>
 <string name="Cosmetic.nameplate_Celeste">Aufwärts und vorwärts</string>
@@ -2319,7 +2461,9 @@
 <string name="Cosmetic.nameplate_lny_goldCrewmate">Glücksfälle</string>
 <string name="Cosmetic.nameplate_lny_goldImpostor">Gold-Unglücksfälle</string>
 <string name="AprilFoolsModeToggle">Aprilscherz-Modus (Limitierte Kosmetik)</string>
-<string name="ErrorAuthNonceFailure">Sabotage! Die Server von Among Us haben während deiner Authentifizierung ein Problem festgestellt. Bitte versuche es erneut.\%nl\%\%nl\%Sollte das Problem weiterhin bestehen, erstelle bitte ein \%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%Support-Ticket\%/link\%.</string>
+<string name="ErrorAuthNonceFailure">Sabotage! Die Server von Among Us haben während deiner Authentifizierung ein Problem festgestellt. Bitte versuche es erneut.
+
+Sollte das Problem weiterhin bestehen, erstelle bitte ein {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}Support-Ticket{/link}.</string>
 <string name="Cosmetic.nameplate_crewmatesBlue">Funky Crew - Blau</string>
 <string name="Cosmetic.nameplate_crewmatesRed">Funky Crew - Rot</string>
 <string name="Cosmetic.nameplate_horseHeaven">Pferde-Polonäse</string>
@@ -2400,7 +2544,8 @@
 <string name="QCSelfSawRoleInLocation">Ich habe {0} in {1} gesehen</string>
 <string name="NoisemakerRole">Heulboje</string>
 <string name="NoisemakerBlurb">Nach Ermordung Alarm schlagen</string>
-<string name="NoisemakerBlurbMed">Nach Ermordung alle Besatzungsmitglieder\%nl\%über deine Position informieren.</string>
+<string name="NoisemakerBlurbMed">Nach Ermordung alle Besatzungsmitglieder
+über deine Position informieren.</string>
 <string name="NoisemakerBlurbLong">Die Heulboje ist kein gewöhnliches Besatzungsmitglied. Sie hat keine Fähigkeit so wie alle anderen Rollen. Stattdessen schlägt sie Alarm, wenn sie von einem Verräter getötet wird. Der Alarm versetzt den Verräter schnell in Panik. Sieh zu, wie deine Kameraden zum Tatort eilen, um den Mörder zu fangen und deinen Tod zu rächen!</string>
 <string name="NoisemakerImpostorAlert">Verräter werden alarmiert</string>
 <string name="NoisemakerAlertDuration">Alarmdauer</string>
@@ -2408,7 +2553,8 @@
 <string name="PhantomAbilityUndo">Auftauchen</string>
 <string name="PhantomRole">Phantom</string>
 <string name="PhantomBlurb">Unsichtbar werden</string>
-<string name="PhantomBlurbMed">Werde unsichtbar, um dich anzuschleichen\%nl\%oder einem Mord zu entgehen.</string>
+<string name="PhantomBlurbMed">Werde unsichtbar, um dich anzuschleichen
+oder einem Mord zu entgehen.</string>
 <string name="PhantomBlurbLong">Das Phantom kann unsichtbar werden, um sich klammheimlich an ein Besatzungsmitglied heranzuschleichen oder den Tatort zu verlassen, ohne erwischt zu werden. Das Phantom kann in seiner unsichtbaren Form nicht töten, aber es kann immer noch Leitern und Seilrutschen benutzen. Unsichtbar oder wieder sichtbar zu werden verursacht eine große Rauchwolke, also stelle sicher, dass sich keine Besatzungsmitglieder in deiner Nähe aufhalten! Die Unsichtbarkeit hält auch nicht ewig an, also achte darauf, deine Fähigkeit zum richtigen Zeitpunkt einzusetzen.</string>
 <string name="PhantomCooldown">Verschwinden-Abklingzeit</string>
 <string name="PhantomDuration">Dauer des Verschwindens</string>
@@ -2416,7 +2562,8 @@
 <string name="TrackerAbility">Aufspüren</string>
 <string name="TrackerAbilityUndo">Nicht aufspüren</string>
 <string name="TrackerBlurb">Spüre ein Besatzungsmitglied per Karte auf</string>
-<string name="TrackerBlurbMed">Verpasse einem Besatzungsmitglied einen Peilsender,\%nl\%um dessen Bewegungen auf der Karte zu verfolgen.</string>
+<string name="TrackerBlurbMed">Verpasse einem Besatzungsmitglied einen Peilsender,
+um dessen Bewegungen auf der Karte zu verfolgen.</string>
 <string name="TrackerBlurbLong">Die Spürnase kann die Position eines Besatzungsmitglieds auf der Minimap sehen. Sie muss sich zunächst neben einem anderen Besatzungsmitglied befinden, um den Peilsender zu platzieren. Achte darauf, nicht aufzufallen, wenn du dich dem anderen Besatzungsmitglied näherst. Die Ortung dauert nur ein paar Sekunden, also wähle dein Ziel sorgfältig. Aber guck lieber nicht zu lange auf deine Minimap, denn sonst fällst du schnell einem Verräter zum Opfer!</string>
 <string name="TrackerCooldown">Aufspür-Abklingzeit</string>
 <string name="TrackerDuration">Aufspürdauer</string>
@@ -2526,23 +2673,32 @@
 <string name="ChatLabel">Chat</string>
 <string name="NoneLowercaseLabel">Keine</string>
 <string name="ToolTipDefault">Gestalte deine Lobby mit diesen Einstellungen.</string>
-<string name="ToolTipClassic">Unter der Besatzung gibt es Verräter!\%nl\%Finde sie und stimme gegen sie ab!</string>
-<string name="ToolTipHide">Das ultimative Spiel von Katz und Maus.\%nl\%Lass dich nicht vom Sucher schnappen!</string>
-<string name="ToolTipCapacity">Die maximale Anzahl der Spieler,\%nl\%die der Lobby beitreten können.</string>
+<string name="ToolTipClassic">Unter der Besatzung gibt es Verräter!
+Finde sie und stimme gegen sie ab!</string>
+<string name="ToolTipHide">Das ultimative Spiel von Katz und Maus.
+Lass dich nicht vom Sucher schnappen!</string>
+<string name="ToolTipCapacity">Die maximale Anzahl der Spieler,
+die der Lobby beitreten können.</string>
 <string name="ToolTipServer">Die Serverregion, in der das Spiel erstellt wird.</string>
 <string name="ToolTipCrossplay">Spieler können der Lobby plattformunabhängig beitreten.</string>
 <string name="ToolTipNoCrossplay">Nur Spieler, die auf derselben Plattform wie du spielen, können beitreten.</string>
 <string name="ToolTipLanguage">Die Sprache für Diskussionen im Spiel.</string>
-<string name="ToolTipSkeld">Skeld: Ein mittelgroßes Schiff mit mehreren Räumen\%nl\%und Fluren. Eignet sich zum Üben.</string>
-<string name="ToolTipMIRA">MIRA-HQ: Eine kleine Karte mit langen Fluren\%nl\%und einem verbundenem Schachtsystem.</string>
-<string name="ToolTipPolus">Polus: Dieser planetarische Außenposten ist eine\%nl\%mittelgroße Karte mit Innen- und Außenbereichen.</string>
-<string name="ToolTipAirship">Airship: Eine große Karte mit vielen Räumen,\%nl\%die sich zum Verstecken oder Fürchten eignen.</string>
-<string name="ToolTipFungle">Fungle: Eine große Insel mit sonnigen Stränden,\%nl\%einem mysteriösen Dschungel und Hochebenen.</string>
+<string name="ToolTipSkeld">Skeld: Ein mittelgroßes Schiff mit mehreren Räumen
+und Fluren. Eignet sich zum Üben.</string>
+<string name="ToolTipMIRA">MIRA-HQ: Eine kleine Karte mit langen Fluren
+und einem verbundenem Schachtsystem.</string>
+<string name="ToolTipPolus">Polus: Dieser planetarische Außenposten ist eine
+mittelgroße Karte mit Innen- und Außenbereichen.</string>
+<string name="ToolTipAirship">Airship: Eine große Karte mit vielen Räumen,
+die sich zum Verstecken oder Fürchten eignen.</string>
+<string name="ToolTipFungle">Fungle: Eine große Insel mit sonnigen Stränden,
+einem mysteriösen Dschungel und Hochebenen.</string>
 <string name="ConfirmSettings">Einstellungen bestätigen</string>
 <string name="ConfirmSettingsTooltip">Du erstellst eine Lobby mit den folgenden Einstellungen:</string>
 <string name="EnterCodeElipsis">Code eingeben …</string>
 <string name="ToolTipChatTab">Passe die Einstellungen für den Chat im Spiel an.</string>
-<string name="DropshipsLabel">Landekapseln\%nl\%online</string>
+<string name="DropshipsLabel">Landekapseln
+online</string>
 <string name="FiltersActive">Aktive Filter</string>
 <string name="ClearFilters">Filter zurücksetzen</string>
 <string name="MoreLabel">Mehr …</string>
@@ -2578,13 +2734,19 @@
 <string name="FilterExpert">Experte</string>
 <string name="FilterTag">Tag</string>
 <string name="FilterTagTooltip">Nach Lobby-Tag filtern</string>
-<string name="TooltipTag">Füge einen Tag hinzu, um Spieler einer\%nl\%bestimmten Fähigkeitsstufe anzusprechen.</string>
+<string name="TooltipTag">Füge einen Tag hinzu, um Spieler einer
+bestimmten Fähigkeitsstufe anzusprechen.</string>
 <string name="SelectedLabel">AUSGEWÄHLT:</string>
-<string name="TooltipSpeedInfo">\%b\%Nied.:\%/b\% 0,5-0,75x	\%b\%Hoch:\%/b\% 1,75-2,25x\%nl\%\%b\%Mit.:\%/b\% 1,0-1,5x	\%b\%S. Hoch:\%/b\% 2,5-3,0x</string>
-<string name="TooltipKillCDInfo">\%b\%Nied.:\%/b\% 10-20s	\%b\%Hoch:\%/b\% 37,5-47,5s\%nl\%\%b\%Mit.:\%/b\% 22,5-35s	\%b\%S. Hoch:\%/b\% 50-60s</string>
-<string name="TooltipVotingInfo">\%b\%Nied.:\%/b\% 0-60s	\%b\%Hoch:\%/b\% 150-210s\%nl\%\%b\%Mit.:\%/b\% 75-135s	\%b\%S. Hoch.:\%/b\% 225-300s</string>
-<string name="TooptipHidingTimeInfo">\%b\%Nied.:\%/b\% 160-180s	\%b\%Hoch:\%/b\% 260-300s\%nl\%\%b\%Mit.:\%/b\% 200-240s</string>
-<string name="TooltipFinalTimeInfo">\%b\%Nied.:\%/b\% 30-45s	\%b\%Hoch:\%/b\% 75-95s\%nl\%\%b\%Mit.:\%/b\% 50-70s	\%b\%S. Hoch:\%/b\% 100-120s</string>
+<string name="TooltipSpeedInfo">{b}Nied.:{/b} 0,5-0,75x	{b}Hoch:{/b} 1,75-2,25x
+{b}Mit.:{/b} 1,0-1,5x	{b}S. Hoch:{/b} 2,5-3,0x</string>
+<string name="TooltipKillCDInfo">{b}Nied.:{/b} 10-20s	{b}Hoch:{/b} 37,5-47,5s
+{b}Mit.:{/b} 22,5-35s	{b}S. Hoch:{/b} 50-60s</string>
+<string name="TooltipVotingInfo">{b}Nied.:{/b} 0-60s	{b}Hoch:{/b} 150-210s
+{b}Mit.:{/b} 75-135s	{b}S. Hoch.:{/b} 225-300s</string>
+<string name="TooptipHidingTimeInfo">{b}Nied.:{/b} 160-180s	{b}Hoch:{/b} 260-300s
+{b}Mit.:{/b} 200-240s</string>
+<string name="TooltipFinalTimeInfo">{b}Nied.:{/b} 30-45s	{b}Hoch:{/b} 75-95s
+{b}Mit.:{/b} 50-70s	{b}S. Hoch:{/b} 100-120s</string>
 <string name="FilterNoMaps">Keine Karten ausgewählt.</string>
 <string name="Cosmetic.hat_kamurocho_ichiban">Frisur von Ichiban Kasuga</string>
 <string name="Cosmetic.hat_kamurocho_ono">Hut von Ono Michio</string>
@@ -2657,7 +2819,8 @@
 <string name="DetectiveAbility">Verhör</string>
 <string name="DetectiveAbilityNotes">Notizen</string>
 <string name="DetectiveBlurb">Sammle Informationen. Kläre Morde auf.</string>
-<string name="DetectiveBlurbMed">Ergänze deine Notizen.\%nl\%Vehöre Besatzungsmitglieder.</string>
+<string name="DetectiveBlurbMed">Ergänze deine Notizen.
+Vehöre Besatzungsmitglieder.</string>
 <string name="DetectiveNotesEmpty">Sobald jemand umgebracht wurde, kann ich mit den Ermittlungen beginnen …</string>
 <string name="DetectiveNearLocation">Nah bei {0}</string>
 <string name="DetectiveNotesKiller">{0}</string>
@@ -2736,7 +2899,8 @@
 <string name="RewardAdTitle">DU HAST EINEN STERN ERHALTEN!</string>
 <string name="RewardAdBody1">Eine neue Sternenbelohnung steht in {0} Stunde bereit.</string>
 <string name="RewardAdBody2">Eine neue Sternenbelohnung steht in {0} Stunden bereit.</string>
-<string name="WatchAdErrorBody">Fehler beim Laden der Werbung.\%nl\%Versuche es später erneut.</string>
+<string name="WatchAdErrorBody">Fehler beim Laden der Werbung.
+Versuche es später erneut.</string>
 <string name="WatchAdErrorTitle">OJE …</string>
 <string name="Cosmetic.hat_phoenix_wright">Phoenix Wrights Haare</string>
 <string name="Cosmetic.skin_phoenix_wright">Phoenix Wrights Anzug</string>
@@ -2770,7 +2934,7 @@
 <string name="Cosmetic.hat_cosmic_alienAntenna">Guter Empfang</string>
 <string name="Cosmetic.hat_cosmic_sun">LSF-Warnung</string>
 <string name="Cosmetic.hat_cosmic_moon">Runde Sache</string>
-<string name="Cosmetic.hat_cosmic_star">STARS \%and\% STERNCHEN</string>
+<string name="Cosmetic.hat_cosmic_star">STARS {and} STERNCHEN</string>
 <string name="Cosmetic.hat_cosmic_satellite">Nach Hause telefonieren</string>
 <string name="Cosmetic.hat_cosmic_starAntenna">Sternenstaubig</string>
 <string name="Cosmetic.visor_cosmic_nebula">Hubble-Bubble</string>
@@ -2802,4 +2966,27 @@
 <string name="Cosmetic.skin_parasite_Yellow">Schürze von Gelb</string>
 <string name="Cosmetic.pet_parasite_Stressball">Ball des Vertrauens</string>
 <string name="Cosmetic.nameplate_parasite_Impostor">Bin direkt hinter dir!</string>
+<string name="JudgeRole">Richter</string>
+<string name="JudgeBlurb">Treffen übernehmen</string>
+<string name="JudgeBlurbMed">Reiß dir das Notfall-Treffen unter den Nagel, um einen Verräter zu entlarven.
+Liegst du falsch, wirst du vom Schiff geworfen.</string>
+<string name="JudgeBlurbLong">Verfüge über die Abstimmung</string>
+<string name="JudgeTaskRequirement">Aufgaben bis zum Freischalten %</string>
+<string name="RolesHelp_Judge_01">Der Richter verfügt über eine mächtige Fähigkeit für Treffen namens „Überstimmen“. Damit kann er eine Sonderstimme für ein Besatzungsmitglied abgeben, das er für einen Verräter hält.</string>
+<string name="RolesHelp_Judge_02">Wird diese Fähigkeit eingesetzt, zählt nur die Sonderstimme. Liegt der Richter richtig, wird der Verräter rausgeworfen. Liegt der Richter falsch, wird stattdessen der Richter rausgeworfen!</string>
+<string name="JudgeAbilityUnlocked">Richter-Fähigkeit freigeschaltet</string>
+<string name="JudgeAbilityProgress">Schließe {0} Aufgabe(n) ab, um zu richten!</string>
+<string name="JudgeCourtAdjourned">Das Urteil steht fest …</string>
+<string name="JudgeHasSpoken">Der Richter hat gesprochen.</string>
+<string name="StatsJudgeSuccessfulOverrules">Erfolgreich als Richter überstimmt:</string>
+<string name="StatsJudgeFailedOverrules">Als Richter fehlgeschlagen:</string>
+<string name="JudgeBeatYouToIt">Der Richter hat gesprochen.
+(Ein anderer Richter war schneller.)</string>
+<string name="QCJudges">Richter?</string>
+<string name="QCJudgeOverrule">Ich werde überstimmen!</string>
+<string name="QCJudgePlease">Bitte {0} überstimmen</string>
+<string name="QCJudgeWillOverrule">Ich überstimme {0}</string>
+<string name="MatchInfoGuideTitle">Match-Informationen</string>
+<string name="MatchInfoGuidePlayersLabel">Spieler</string>
+<string name="MatchInfoGuideNoRolesMessage">Keine Rollen aktiviert</string>
 </resources>

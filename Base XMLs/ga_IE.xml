@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
 <string name="LocalButton">Logánta</string>
 <string name="OnlineButton">Ar líne</string>
 <string name="HowToPlayButton">Treoir imeartha</string>
@@ -30,14 +31,14 @@
 <string name="ImpostorsRemainP">Tá {0} Fealltóir fágtha.</string>
 <string name="Hallway">Halla</string>
 <string name="Engines">Innill</string>
-<string name="LangCzech">Inneall Uachtair</string>
+<string name="UpperEngine">Inneall Uachtair</string>
 <string name="Cafeteria">Caifitéire</string>
 <string name="Weapons">Armra</string>
 <string name="Reactor">Imoibreoir</string>
 <string name="Security">Slándáil</string>
 <string name="MedBay">Otharlann</string>
 <string name="LifeSupp">O2</string>
-<string name="LangGreek">Stiúradh</string>
+<string name="Nav">Stiúradh</string>
 <string name="LowerEngine">Inneall Íochtair</string>
 <string name="Electrical">Leictreach</string>
 <string name="Admin">Riarachán</string>
@@ -87,13 +88,14 @@
 <string name="EnterIdCode">Iontráil do Dhód ID</string>
 <string name="BuyBeverage">Ceannaigh Deoch</string>
 <string name="ProcessData">Próiseáil na Sonraí</string>
-<string name="NumImpostorsS">Tá \%color=#FF1919FF\%Fealltóir amháin\%/color\% inár measc</string>
-<string name="NumImpostorsP">Tá \%color=#FF1919FF\%{0} Fealltóirí\%/color\% inár measc</string>
+<string name="NumImpostorsS">Tá {color=#FF1919FF}Fealltóir amháin{/color} inár measc</string>
+<string name="NumImpostorsP">Tá {color=#FF1919FF}{0} Fealltóirí{/color} inár measc</string>
 <string name="Crewmate">Loingseoir</string>
 <string name="Impostor">Fealltóir</string>
 <string name="Victory">Bua</string>
 <string name="Defeat">Cailleadh</string>
-<string name="CrewmatesDisconnected">D'imigh\%nl\%formhór na Loingseoirí</string>
+<string name="CrewmatesDisconnected">D'imigh
+formhór na Loingseoirí</string>
 <string name="ImpostorDisconnected">D'imigh an Fealltóir</string>
 <string name="PickAnomaly">Roghnaigh an Aimhrialtacht</string>
 <string name="WaterPlantsGetCan">Canna Spréite a Fháil</string>
@@ -124,10 +126,16 @@
 <string name="MeetingVotingResults">Torthaí Vótála</string>
 <string name="MeetingProceeds">Ar Aghaidh i gCeann: {0}s</string>
 <string name="MeetingHasVoted">Vótáil {0}. Ag fanacht le {1} duine.</string>
-<string name="HowToPlayText1">Is cluiche comhoibríoch fealltóireachta Among Us.\%nl\%\%nl\%Is féidir le himreoir a bheith ina Loingseoir nó ina Fhealltóir.</string>
+<string name="HowToPlayText1">Is cluiche comhoibríoch fealltóireachta Among Us.
+
+Is féidir le himreoir a bheith ina Loingseoir nó ina Fhealltóir.</string>
 <string name="HowToPlayText2">Imir in éineacht le 4 go 15 imreoir ar líne nó ar an WiFi áitiúil!</string>
 <string name="HowToPlayText41">Má tá cuntas Among Us agat ar ardán eile, seans go bhféadfaidh tú nasc a dhéanamh leis an gcuntas sin! Nó de rogha air sin, féadfaidh tú cuntas úrnua a chruthú.</string>
-<string name="HowToPlayText42">Ar dtús, roghnaigh cé leis a bhfuil tú chun imirt! \%nl\%\%nl\%An bhfuil fonn ort imirt le cairde ar líne? Cuir cluiche príobháideach ar bun agus roinn an cód. \%nl\%\%nl\%An bhfuil fonn ort imirt go poiblí ar líne? Roghnaigh cluiche poiblí.</string>
+<string name="HowToPlayText42">Ar dtús, roghnaigh cé leis a bhfuil tú chun imirt! 
+
+An bhfuil fonn ort imirt le cairde ar líne? Cuir cluiche príobháideach ar bun agus roinn an cód. 
+
+An bhfuil fonn ort imirt go poiblí ar líne? Roghnaigh cluiche poiblí.</string>
 <string name="HowToPlayText43">An bhfuil níos mó tascanna uait? Tuilleadh Fealltóirí? An bhfuil fonn ort rith níos tapúla? Mar an t-óstach, is féidir leat na socruithe seo a athrú! Féach chuige go ndeimhníonn tú na hathruithe le do chomhimreoirí.</string>
 <string name="HowToPlayText44">Má bhíonn aon duine míbhéasach nó ag spamáil, féadfaidh an t-óstach é a dhíbirt go sealadach mar fholáireamh nó é a bhacadh ar dul isteach ar chluiche áirithe ar líne.</string>
 <string name="HowToPlayTextMap">Tá léarscáil ag gach duine chun a bhealach a dhéanamh tríd an spáslong.</string>
@@ -144,9 +152,21 @@
 <string name="HowToPlayTextImp5">Déan sabaitéireacht ar an spáslong agus cuir mearbhall ar an gCriú.</string>
 <string name="HowToPlayTextImp6">Dún doirse agus sáinnigh íospartaigh.</string>
 <string name="HowToPlayTextImp7">Maraigh an Criú idir agaí athnuachana.</string>
-<string name="HowToPlayText5">Má tú i mbun cluichíochta le daoine eile san áit chéanna leat, ní cheadaítear caint le go gcoinneofar an cluiche cothrom don Chriú agus don Fhealltóir araon. \%nl\%\%nl\%Má mharaíonn an Fealltóir imreoir, ní féidir leis-sean labhairt go gcríochnóidh an cluiche. \%nl\%\%nl\%Déanann Taibhsí a gcuid tascanna chun bua an Chriú a bhaint amach.</string>
-<string name="HowToPlayText6">Nuair a thuairiscítear corp nó nuair a chuirtear cruinniú éigeandála ar bun, pléann an Criú an méid atá ar eolas acu faoin bhFealltóir.\%nl\%\%nl\%Is féidir le himreoirí labhairt gan srian faoin té a cheapann siad arb é an Fealltóir é agus faoin eolas atá acu air. Nuair a imríonn tú in éineacht le daoine eile, ní féidir le Taibhsí labhairt mar go mbíonn a fhios acu cé hé an Fealltóir.\%nl\%\%nl\%Déanfaidh an Fealltóir iarracht an dallamullóg a chur ar na daoine eile.</string>
-<string name="HowToPlayText7">Tar éis an scéal a phlé, vótáil don té a cheapann tú arb é an Fealltóir é.\%nl\%\%nl\%Pé duine a bhaineann tromlach na vótaí amach, eisteilgfear é; vótáil go haireach!\%nl\%\%nl\%Mura bhfuil eolas a dhóthain ann, is féidir leis an gCriú léim thar an bpróiseas vótála chun eistealgan duine neamhchiontach a sheachaint chun seans eile a fháil ar thuilleadh eolais a bhailiú.</string>
+<string name="HowToPlayText5">Má tú i mbun cluichíochta le daoine eile san áit chéanna leat, ní cheadaítear caint le go gcoinneofar an cluiche cothrom don Chriú agus don Fhealltóir araon. 
+
+Má mharaíonn an Fealltóir imreoir, ní féidir leis-sean labhairt go gcríochnóidh an cluiche. 
+
+Déanann Taibhsí a gcuid tascanna chun bua an Chriú a bhaint amach.</string>
+<string name="HowToPlayText6">Nuair a thuairiscítear corp nó nuair a chuirtear cruinniú éigeandála ar bun, pléann an Criú an méid atá ar eolas acu faoin bhFealltóir.
+
+Is féidir le himreoirí labhairt gan srian faoin té a cheapann siad arb é an Fealltóir é agus faoin eolas atá acu air. Nuair a imríonn tú in éineacht le daoine eile, ní féidir le Taibhsí labhairt mar go mbíonn a fhios acu cé hé an Fealltóir.
+
+Déanfaidh an Fealltóir iarracht an dallamullóg a chur ar na daoine eile.</string>
+<string name="HowToPlayText7">Tar éis an scéal a phlé, vótáil don té a cheapann tú arb é an Fealltóir é.
+
+Pé duine a bhaineann tromlach na vótaí amach, eisteilgfear é; vótáil go haireach!
+
+Mura bhfuil eolas a dhóthain ann, is féidir leis an gCriú léim thar an bpróiseas vótála chun eistealgan duine neamhchiontach a sheachaint chun seans eile a fháil ar thuilleadh eolais a bhailiú.</string>
 <string name="HowToPlayText81">Déan cleachtadh sa mhodh "Cleachtadh"!</string>
 <string name="HowToPlayText82">Socraigh do chuid tascanna féin mar Loingseoir nó déan cleachtadh ar do chuid straitéisí maraithe mar Fhealltóir!</string>
 <string name="SettingsGeneral">Ginearálta</string>
@@ -213,12 +233,36 @@
 <string name="RoomCodeInfo">Cliceáil chun cóipeáil</string>
 <string name="LeaveGame">Fág an Cluiche</string>
 <string name="ReturnToGame">Fill ar an gCluiche</string>
-<string name="LocalHelp">Fadhbanna ceangail?\%nl\%\%nl\%● Cinntigh go bhfuil gach duine ceangailte leis an WiFi céanna\%nl\%● Cinntigh go bhfuil an leagan ionann ag gach duine (féach ar an taobh deas thíos)\%nl\%● Cinntigh go bhfuil ceangal WiFi láidir agat\%nl\%● Scaití, cabhraíonn sé má óstálann duine eile\%nl\%● Scaití, cabhraíonn sé má atosaíonn tú an aip... \%nl\%● Scaití, cabhraíonn sé má atosaíonn tú d'fhón...\%nl\%● Fadhbanna fós agat? Téigh i dteangmháil linn support@innersloth.com</string>
-<string name="OnlineHelp">Conas a oibríonn sé?\%nl\%\%nl\%● Nuair a óstálann tú cluiche, bíonn cód imeartha ar phainéal an tseomra.\%nl\%● Roinn an cód le cairde chun cluiche príobháideach a chruthú.\%nl\%● Nó cliceáil ar "Príobháideach" chun cluiche poiblí a chruthú.\%nl\%● Is féidir leis an óstach imreoirí a dhíbirt nó cosc a chur orthu agus an comhrá ar siúl.\%nl\%● An bhfuil fadhbanna fós agat? Téigh i dteangmháil linn support@innersloth.com</string>
-<string name="EmergencyCount">\%nl\%\%nl\%\%nl\%\%nl\% AN LÍON CRUINNITHE ÉIGEANDÁLA ATÁ FÁGTHA AG LOINGSEOIR {0}</string>
-<string name="EmergencyNotReady">CAITHFIDH AN CRIÚ FANACHT\%nl\%\%nl\%\%nl\%\%nl\%GO DTAGA AN CHÉAD CHRUINNIÚ EILE</string>
-<string name="EmergencyDuringCrisis">NÍ FÉIDIR LEAT CRUINNIÚ A CHUR AR BUN\%nl\%I RITH GEARCHÉIME</string>
-<string name="EmergencyRequested">CRUINNIÚ IARRTHA\%nl\%AG FANACHT LEIS AN ÓSTACH</string>
+<string name="LocalHelp">Fadhbanna ceangail?
+
+● Cinntigh go bhfuil gach duine ceangailte leis an WiFi céanna
+● Cinntigh go bhfuil an leagan ionann ag gach duine (féach ar an taobh deas thíos)
+● Cinntigh go bhfuil ceangal WiFi láidir agat
+● Scaití, cabhraíonn sé má óstálann duine eile
+● Scaití, cabhraíonn sé má atosaíonn tú an aip... 
+● Scaití, cabhraíonn sé má atosaíonn tú d'fhón...
+● Fadhbanna fós agat? Téigh i dteangmháil linn support@innersloth.com</string>
+<string name="OnlineHelp">Conas a oibríonn sé?
+
+● Nuair a óstálann tú cluiche, bíonn cód imeartha ar phainéal an tseomra.
+● Roinn an cód le cairde chun cluiche príobháideach a chruthú.
+● Nó cliceáil ar "Príobháideach" chun cluiche poiblí a chruthú.
+● Is féidir leis an óstach imreoirí a dhíbirt nó cosc a chur orthu agus an comhrá ar siúl.
+● An bhfuil fadhbanna fós agat? Téigh i dteangmháil linn support@innersloth.com</string>
+<string name="EmergencyCount">
+
+
+
+ AN LÍON CRUINNITHE ÉIGEANDÁLA ATÁ FÁGTHA AG LOINGSEOIR {0}</string>
+<string name="EmergencyNotReady">CAITHFIDH AN CRIÚ FANACHT
+
+
+
+GO DTAGA AN CHÉAD CHRUINNIÚ EILE</string>
+<string name="EmergencyDuringCrisis">NÍ FÉIDIR LEAT CRUINNIÚ A CHUR AR BUN
+I RITH GEARCHÉIME</string>
+<string name="EmergencyRequested">CRUINNIÚ IARRTHA
+AG FANACHT LEIS AN ÓSTACH</string>
 <string name="AdPolicyTitle">Polasaí Fógraíochta</string>
 <string name="AdPolicyText">An bhfuil cead againn do shonraí pearsanta a úsáid chun fógraí saincheaptha a chruthú duit? Má tá, baileoidh ár gcuid comhpháirtithe fógraíochta ar nós Google AdMob agus Unity Ads do shonraí go huathoibríoch agus úsáidfidh siad fianáin agus aitheantóirí gléis chun fógraí pearsantaithe a chruthú. Mura dtugann tú an cead sin dúinn, seans go bhfeicfidh tú fógraí nach bhfuil curtha in oiriúint duit. Chun fáil réidh leis na fógraí ar fad, ceannaigh an t-uasghrádú atá saor ó fhógraí [httpstore]anseo[], agus ní fheicfidh tú nó do chairde aon fhógraí agus tú i d'óstach! Chun tuilleadh a fhoghlaim faoinár gcleachtais phríobháideachta féin agus faoi chleachtais phríobháideachta ár gcuid comhpháirtithe fógraíochta, féach [https://www.innersloth.com/privacy-policy/]Polasaí Príobháideachta[]. Is féidir do chinneadh a athrú aon uair is mian leat i roghchlár na socruithe faoi "Sonraí". </string>
 <string name="Accept">Glac Leis</string>
@@ -226,7 +270,9 @@
 <string name="PlainYes">Tá</string>
 <string name="PlainNo">Níl</string>
 <string name="PrivacyPolicyTitle">Polasaí Príobháideachta</string>
-<string name="PrivacyPolicyText">Próiseálann Innersloth sonraí pearsanta ar mhaithe le Among Us. Léigh ár \%link="https://www.innersloth.com/privacy-policy/"\%bPolasaí Príobháideachta\%/link\% le do thoil chun tuilleadh eolais a fháil faoinár gcleachtas príobháideachta. Is féidir leat socruithe do shonraí pearsanta in Among Us a bhainistiú faoi "Sonraí". Léigh ár \%link="https://www.innersloth.com/terms-of-use-for-the-games/"\%gCoinníollacha Úsáide\%/link\% le do thoil sula n-imrí tú Among Us.</string>
+<string name="PrivacyPolicyText">Próiseálann Innersloth sonraí pearsanta ar mhaithe le Among Us. Léigh ár {link="https://www.innersloth.com/privacy-policy/"}bPolasaí Príobháideachta{/link} le do thoil chun tuilleadh eolais a fháil faoinár gcleachtas príobháideachta.
+
+Léigh ár {link="https://www.innersloth.com/terms-of-use-for-the-games/"}gCoinníollacha Úsáide{/link} le do thoil sula n-imrí tú Among Us.</string>
 <string name="ManageDataButton">Bainistigh Bailiú Sonraí</string>
 <string name="UnderstandButton">Tuigim</string>
 <string name="WaterPlants">Uiscigh na plandaí</string>
@@ -300,28 +346,51 @@
 <string name="GameOverImpostorKills">De ghnáth bheadh an bua ag an bhFealltóir toisc nach bhféidir leis an gcriú buachan a fháil a thuilleadh. Sa mhodh "Cleachtadh", athbheoitear gach duine.</string>
 <string name="GameOverTaskWin">De ghnáth bheadh an bua ag an gCriú. Sa mhodh "Cleachtadh", eisímid tascanna nua.</string>
 <string name="GameOverSabotage">De ghnáth bheadh an bua ag an bhFealltóir de dheasca na sabaitéireachta criticiúla. Sa gcás seo, ní ghearann muid na hiarmhairtí.</string>
-<string name="HowToPlayText2Switch">Imir in éindí le 4 go 15 imreoir le do bhallraíocht\%nl\%\%nl\%Nintendo Switch Online nó ar an WiFi áitiúil!!</string>
+<string name="HowToPlayText2Switch">Imir in éindí le 4 go 15 imreoir le do bhallraíocht
+
+Nintendo Switch Online nó ar an WiFi áitiúil!!</string>
 <string name="VentDirection">Treo an ghaothaire</string>
 <string name="VentMove">Bog tríd an ngaothaire</string>
 <string name="MenuNavigate">Stiúir</string>
 <string name="NsoError">Níorbh fhéidir ceangal leis an líonra.</string>
-<string name="ErrorServerOverload">Tá an iomarca daoine ar na freastalaithe Among Us.\%nl\%\%nl\%Gabhann muid ár leithscéal! Bain triail as arís níos déanaí!</string>
+<string name="ErrorServerOverload">Tá an iomarca daoine ar na freastalaithe Among Us.
+
+Gabhann muid ár leithscéal! Bain triail as arís níos déanaí!</string>
 <string name="ErrorIntentionalLeaving">Ní féidir leat dul isteach i gcluiche eile go ceann {0} nóiméad eile tar éis duit dícheangal d'aon turas.</string>
 <string name="ErrorFocusLost">Dícheangalaíodh thú mar gur cuireadh Among Us ar fionraí ag app eile.</string>
-<string name="ErrorBanned">Cuireadh cosc ort ó {0}.\%nl\%\%nl\%Ní féidir leat dul ar ais sa seomra seo.</string>
-<string name="ErrorKicked">Díbríodh thú ó {0}.\%nl\%\%nl\%Is féidir leat dul ar ais mura bhfuil an seomra tosaithe.</string>
-<string name="ErrorBannedNoCode">Cuireadh cosc ort ón seomra.\%nl\%\%nl\%Ní féidir leat dul isteach sa seomra seo.</string>
-<string name="ErrorKickedNoCode">Díbríodh thú ón seomra.\%nl\%\%nl\%Is féidir leat dul isteach mura bhfuil an seomra tosaithe.</string>
-<string name="ErrorHacking">Cuireadh cosc ort toisc haiceála.\%nl\%\%nl\%Stop, le do thoil.</string>
-<string name="ErrorFullGame">Tá an cluiche a ndearna tú iarracht dul isteach ann lán.\%nl\%\%nl\%Seiceáil leis an óstach an féidir leat dul isteach ar an gcéad bhabhta eile.</string>
-<string name="ErrorStartedGame">Thosaigh an cluiche a ndearna tú iarracht dul isteach ann cheana féin.\%nl\%\%nl\%Seiceáil leis an óstach an féidir leat dul isteach ar an gcéad bhabhta eile.</string>
+<string name="ErrorBanned">Cuireadh cosc ort ó {0}.
+
+Ní féidir leat dul ar ais sa seomra seo.</string>
+<string name="ErrorKicked">Díbríodh thú ó {0}.
+
+Is féidir leat dul ar ais mura bhfuil an seomra tosaithe.</string>
+<string name="ErrorBannedNoCode">Cuireadh cosc ort ón seomra.
+
+Ní féidir leat dul isteach sa seomra seo.</string>
+<string name="ErrorKickedNoCode">Díbríodh thú ón seomra.
+
+Is féidir leat dul isteach mura bhfuil an seomra tosaithe.</string>
+<string name="ErrorHacking">Cuireadh cosc ort toisc haiceála.
+
+Stop, le do thoil.</string>
+<string name="ErrorFullGame">Tá an cluiche a ndearna tú iarracht dul isteach ann lán.
+
+Seiceáil leis an óstach an féidir leat dul isteach ar an gcéad bhabhta eile.</string>
+<string name="ErrorStartedGame">Thosaigh an cluiche a ndearna tú iarracht dul isteach ann cheana féin.
+
+Seiceáil leis an óstach an féidir leat dul isteach ar an gcéad bhabhta eile.</string>
 <string name="ErrorNotFoundGame">Níorbh fhéidir do chluiche a bhí uait a aimsiú.</string>
 <string name="ErrorInactivity">Stop freastalaí na gcluichí an cluiche seo. B'fhéidir mar gheall ar neamhghníomhaíocht.</string>
-<string name="ErrorGenericOnlineDisconnect">Dícheangalaíodh thú ón bhfreastalaí.\%nl\%Má tharlaíonn sé seo go minic, seiceáil láidreacht do líonra.\%nl\%Is féidir go bhfuil an locht ar an bhfreastálaí chomh maith.</string>
-<string name="ErrorGenericLocalDisconnect">Dícheangalaíodh thú ón bhfreastalaí.\%nl\%Má tharlaíonn sé seo go minic, seiceáil láidreacht do WiFi.</string>
+<string name="ErrorGenericOnlineDisconnect">Dícheangalaíodh thú ón bhfreastalaí.
+Má tharlaíonn sé seo go minic, seiceáil láidreacht do líonra.
+Is féidir go bhfuil an locht ar an bhfreastálaí chomh maith.</string>
+<string name="ErrorGenericLocalDisconnect">Dícheangalaíodh thú ón bhfreastalaí.
+Má tharlaíonn sé seo go minic, seiceáil láidreacht do WiFi.</string>
 <string name="ErrorInvalidName">Dhiúltaigh freastalaí na gcluichí an t-ainm úsáideora: {0}</string>
 <string name="ErrorUnknown">Dhícheangal earráid anaithnid thú ón bhfreastalaí.</string>
-<string name="ErrorIncorrectVersion">Tá seanleagan den chluiche in úsáid agat.\%nl\%\%nl\%Uasdátaigh an cluiche chun imirt le daoine eile.</string>
+<string name="ErrorIncorrectVersion">Tá seanleagan den chluiche in úsáid agat.
+
+Uasdátaigh an cluiche chun imirt le daoine eile.</string>
 <string name="ServerNA">Meiriceá Thuaidh</string>
 <string name="ServerEU">An Eoraip</string>
 <string name="ServerAS">An Áise</string>
@@ -397,7 +466,9 @@
 <string name="MedWT">M:</string>
 <string name="MedETA">Fad measta: {0}</string>
 <string name="MedHello">HEILEO!</string>
-<string name="LobbySizeWarning">Tá Among Us inimeartha le 4 imreoir, ach moltar 5 imreoir nó níos mó.\%nl\%\%nl\%Críochnóidh cluichí le 4 imreoir an-tapa agus bíonn an Fealltóir ina bhuaiteoir go minic.</string>
+<string name="LobbySizeWarning">Tá Among Us inimeartha le 4 imreoir, ach moltar 5 imreoir nó níos mó.
+
+Críochnóidh cluichí le 4 imreoir an-tapa agus bíonn an Fealltóir ina bhuaiteoir go minic.</string>
 <string name="Okay">CGL</string>
 <string name="OkayDontShow">Ceart go leor, ná taispeáin dom é seo</string>
 <string name="Nevermind">Is cuma</string>
@@ -791,7 +862,13 @@
 <string name="GoOffline">Téigh as Líne</string>
 <string name="PlayAsGuest">Imir mar Chuairteoir</string>
 <string name="LogInTitle">Sínigh Isteach</string>
-<string name="LogInInfoText">Sínigh isteach nó cruthaigh cuntas Among Us chun na rudaí seo a leanas (agus tuilleadh!) a dhéanamh:\%nl\%\%nl\%- Do dhul chun cinn trasimeartha a chaomhnú\%nl\%- Saorchomhrá\%nl\%- Cosmaidí a cheangal\%nl\%\%nl\% Ní mór cead a fháil ó thuismitheoir nó ó chaomhnóir chun rudaí áirithe a dhéanamh, ag brath ar an saghas cuntais atá i gceist.</string>
+<string name="LogInInfoText">Sínigh isteach nó cruthaigh cuntas Among Us chun na rudaí seo a leanas (agus tuilleadh!) a dhéanamh:
+
+- Do dhul chun cinn trasimeartha a chaomhnú
+- Saorchomhrá
+- Cosmaidí a cheangal
+
+ Ní mór cead a fháil ó thuismitheoir nó ó chaomhnóir chun rudaí áirithe a dhéanamh, ag brath ar an saghas cuntais atá i gceist.</string>
 <string name="LogInInfoTextSwitch">Má shíneálann tú isteach i gcuntas ceart, is féidir leat síneáil isteach níos déanaí. Mura bhfuil cuntas agat, déanfar ceann go huathoibríoch duit.</string>
 <string name="ControllerDisconnectedMessage">Dícheanglaíodh an Rialtán</string>
 <string name="FollowUs">Lean muid!</string>
@@ -874,7 +951,9 @@
 <string name="ProgressLabel">Dul Chun Cinn:</string>
 <string name="TermsOfUseTitle">Coinníollacha Úsáide</string>
 <string name="PPAndToUTitle">Polasaí Príobháideachta agus Coinníollacha Úsáide</string>
-<string name="ErrorNotAuthenticated">Ní féidir le freastalaithe Among Us thu a dheimhniú.\%nl\%\%nl\%Ní mór duit cuntas Among Us a fháil chun imirt ar líne.</string>
+<string name="ErrorNotAuthenticated">Ní féidir le freastalaithe Among Us thu a dheimhniú.
+
+Ní mór duit cuntas Among Us a fháil chun imirt ar líne.</string>
 <string name="ComePlayDiscord">Gabh i leith uait agus imir Among us liom!</string>
 <string name="ShowAccountSupportID5">Taispeáin ID Tacaíochta Cuntais</string>
 <string name="ShowAccountSupportID4">Brúigh 4 huair eile le taispeáint</string>
@@ -975,7 +1054,7 @@
 <string name="Cosmetic.hat_headslug_Red">Smugairle Cinn - Dearg</string>
 <string name="Cosmetic.hat_headslug_White">Smugairle Cinn - Bán</string>
 <string name="Cosmetic.hat_headslug_Yellow">Smugairle Cinn - Buí</string>
-<string name="Cosmetic.hat_Heart">Mo \%3 Thú</string>
+<string name="Cosmetic.hat_Heart">Mo {3 Thú</string>
 <string name="Cosmetic.hat_Helmet">Ridire Déanta</string>
 <string name="Cosmetic.hat_Herohood_Black">Hata Lucharacháin - Dubh</string>
 <string name="Cosmetic.hat_Herohood_Blue">Hata Lucharacháin - Gorm</string>
@@ -1286,13 +1365,13 @@
 <string name="Cosmetic.visor_Mouth">Craosaire</string>
 <string name="Cosmetic.visor_PiercingL">Pollta</string>
 <string name="Cosmetic.visor_PiercingR">Pollta</string>
-<string name="Cosmetic.visor_pk01_AngeryVisor">\%:[-ach</string>
+<string name="Cosmetic.visor_pk01_AngeryVisor">}:[-ach</string>
 <string name="Cosmetic.visor_pk01_DumStickerVisor">Nóta Chugam Féin</string>
 <string name="Cosmetic.visor_pk01_FredVisor">An 17ú Dé hAoine</string>
 <string name="Cosmetic.hat_geoff">My Name Geoff</string>
 <string name="Cosmetic.visor_pk01_HazmatVisor">Antatocsain</string>
 <string name="Cosmetic.visor_pk01_MonoclesVisor">Leathspéacla Dúbáilte</string>
-<string name="Cosmetic.visor_pk01_PaperMaskVisor">An tSláinte \% Na Táinte</string>
+<string name="Cosmetic.visor_pk01_PaperMaskVisor">An tSláinte } Na Táinte</string>
 <string name="Cosmetic.visor_pk01_PlagueVisor">An Dr. Plá</string>
 <string name="Cosmetic.visor_pk01_RHMVisor">Right Hand Stache</string>
 <string name="Cosmetic.visor_pk01_Security1Visor">Spéaclaí Gréine</string>
@@ -1343,18 +1422,32 @@
 <string name="LinkAccount">Nasc Cuntas</string>
 <string name="CreateNewAccount">Cruthaigh Cuntas Nua</string>
 <string name="LinkExistingAccount">Nasc Cuntas Eile</string>
-<string name="LinkAccountExplanation">Má tá cuntas Among Us agat cheana féin ar ardán eile, féadfaidh tú nascadh leis an gcuntas sin!\%nl\% Nó de rogha air sin is féidir leat cuntas úr nua a chruthú.</string>
-<string name="LinkAccountCode">Iontráil an cód seo a leannas ag \%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\%</string>
+<string name="LinkAccountExplanation">Má tá cuntas Among Us agat cheana féin ar ardán eile, féadfaidh tú nascadh leis an gcuntas sin!
+ Nó de rogha air sin is féidir leat cuntas úr nua a chruthú.</string>
+<string name="LinkAccountCode">Iontráil an cód seo a leannas ag {link="{0}"}{1}{/link} 
+{size=+2}{2}{/size}</string>
 <string name="ErrorLink">Tharla rud eicint as bealach agus do chuntas á nascadh. Bain triail as níos déanaí le do thoil.</string>
 <string name="UnlinkAccount">Dínasc cuntas</string>
 <string name="ConfirmUnlinkAccount">Deimhnigh dínascadh cuntais</string>
-<string name="UnlinkAccountExplain">Scriosfar do chuid sonraí agus cruthófar cuntas {0} nua nuair a dhínascann tú do chuntas {0}.\%nl\%- Caillfidh tú aon earra a fuair tú nó a dhíghlasáil tú ar do chuntas {0}.\%nl\%- Beidh ort tosú as an nua ar leibhéal a 1 agus 0 XP.</string>
-<string name="UnlinkAccountExplainConfirm">Sábháil an ID seo le haghaidh tagartha le do thoil:\%nl\%\%nl\%{0}\%nl\%\%nl\%Má dhínascann tú do chuntas gan an ID sin a bheith agat, ní bheidh muid in ann do chuid foráis a shlánú ná cúnamh a thabhairt duit má tharlaíonn earráid.</string>
+<string name="UnlinkAccountExplain">Scriosfar do chuid sonraí agus cruthófar cuntas {0} nua nuair a dhínascann tú do chuntas {0}.
+- Caillfidh tú aon earra a fuair tú nó a dhíghlasáil tú ar do chuntas {0}.
+- Beidh ort tosú as an nua ar leibhéal a 1 agus 0 XP.</string>
+<string name="UnlinkAccountExplainConfirm">Sábháil an ID seo le haghaidh tagartha le do thoil:
+
+{0}
+
+Má dhínascann tú do chuntas gan an ID sin a bheith agat, ní bheidh muid in ann do chuid foráis a shlánú ná cúnamh a thabhairt duit má tharlaíonn earráid.</string>
 <string name="UnlinkError">Tharla rud eicint as bealach agus do chuntas á dhínascadh. Bain triail as níos déanaí le do thoil.</string>
 <string name="UnlinkSuccess">D'éirigh leat {0} a dhínascadh ó do phríomhchuntas Among Us!</string>
 <string name="ConfirmLinkExistingAccount">Deimhnigh nascadh le cuntas eile</string>
-<string name="LinkExistingAccountExplain">Forscríobhfar na sonraí go léir ar an ardán seo má nascann tú le cuntas difriúil. Is éard a tharlófar ná go gcuirfear an cuntas eile in áit do chuntais Among Us {0}. Forscríobhfar aon earraí a dhíghlasáil tú ar do chuntas {0}.\%nl\%- Forscríobhfar aon XP a ghnóthaigh tú ar do chuntas {0}.\%nl\%- Forscríobhfar gach Bean, gach Pod agus gach Réalta.</string>
-<string name="LinkExistingAccountExplainConfirm">A luaithe a dheimhníonn tú, athshocróidh muid do chuntas Among Us {0} le hiompórtáil na sonraí ar do chuntas eile a ullmhú.\%nl\%\%nl\%\%color=#{1}\%FAINIC: DÉAN CINNTE DÓ GO BHFUIL CUNTAS EILE AGAT AR MHAITH LEAT É A NASCADH LEIS AN GCUNTAS SEO SULA LEANFAIDH TÚ ORT.\%/color\%\%nl\%\%nl\%Déanfar nialasach de XP, Beans, Pods agus earraí ar athshocrú do chuntas {0}. Ní bheidh aon dul siar air seo.</string>
+<string name="LinkExistingAccountExplain">Forscríobhfar na sonraí go léir ar an ardán seo má nascann tú le cuntas difriúil. Is éard a tharlófar ná go gcuirfear an cuntas eile in áit do chuntais Among Us {0}. Forscríobhfar aon earraí a dhíghlasáil tú ar do chuntas {0}.
+- Forscríobhfar aon XP a ghnóthaigh tú ar do chuntas {0}.
+- Forscríobhfar gach Bean, gach Pod agus gach Réalta.</string>
+<string name="LinkExistingAccountExplainConfirm">A luaithe a dheimhníonn tú, athshocróidh muid do chuntas Among Us {0} le hiompórtáil na sonraí ar do chuntas eile a ullmhú.
+
+{color=#{1}}FAINIC: DÉAN CINNTE DÓ GO BHFUIL CUNTAS EILE AGAT AR MHAITH LEAT É A NASCADH LEIS AN GCUNTAS SEO SULA LEANFAIDH TÚ ORT.{/color}
+
+Déanfar nialasach de XP, Beans, Pods agus earraí ar athshocrú do chuntas {0}. Ní bheidh aon dul siar air seo.</string>
 <string name="ResetAccount">Athshocraigh Cuntas</string>
 <string name="PurchasingLabel">Earra á cheannach</string>
 <string name="ErrorInternalServer">Éarráid Freastalaí Inmheánaigh (Cód {0})</string>
@@ -1440,13 +1533,15 @@
 <string name="RoleChanceAndQuantity">{0} le seans {1}%</string>
 <string name="CheckingPurchasesLabel">Ag Deimhniú Ceannachán...</string>
 <string name="ProtectedRecently">Chosain an tAingeal Coimhdeachta duine le gairid...</string>
-<string name="ScientistBlurbMed">Féach ar chomharthaí beatha pé uair is mian leat.\%nl\%Déan do chuid tascanna chun an cadhnra a luchtú.</string>
+<string name="ScientistBlurbMed">Féach ar chomharthaí beatha pé uair is mian leat.
+Déan do chuid tascanna chun an cadhnra a luchtú.</string>
 <string name="ScientistBlurbLong">Féadann an tEolaí painéil comharthaí beatha a úsáid aon áit chun stádas an chriú a sheiceáil. Mar sin féin, caithfidh an painéal a bheith luchtaithe agus mar sin beidh ar an Eolaí tascanna a chríochnú chun é sin a bhaint amach.</string>
 <string name="EngineerBlurbMed">Is féidir leis veinteáil (úsáid a bhaint as na gaothairí).</string>
 <string name="EngineerBlurbLong">Is Loingseoir é an tInnealtóir atá ábalta veinteáil thart go sciobtha, agus na Fealltóirí a fheiceáil agus iad ag veinteáil. Ní féidir fanacht ann i bhfad, áfach, mar sin bí aireach ar cé atá timpeall agus tú ag veinteáil...</string>
 <string name="GuardianAngelBlurbMed">Cuir na Loingseoirí faoi do choimirce.</string>
 <string name="GuardianAngelBlurbLong">Is é an tAingeal Coimhdeachta ná an chéad Loingseoir a fhaigheann bás. Is féidir leis Loingseoirí a chosaint ó bhás go sealadach. Nach maith duit é!</string>
-<string name="ShapeshifterBlurbMed">Cuir bréagriocht ort féin trí chuma Loingseoirí\%nl\%eile a chur ort.</string>
+<string name="ShapeshifterBlurbMed">Cuir bréagriocht ort féin trí chuma Loingseoirí
+eile a chur ort.</string>
 <string name="ShapeshifterBlurbLong">Féadann an tIlchruthach a chuma a athrú trí bhréagriocht Loingseoirí eile a chur air féin. Sáinnigh Loingseoirí eile agus cothaigh anord. Fainic - ní mhaireann an bréagriocht go deo agus beidh dríodar ina dhiaidh.</string>
 <string name="RoleHint">Leid</string>
 <string name="ScientistBatteryCharge">Fad Cadhnra</string>
@@ -1476,7 +1571,10 @@
 <string name="Cosmetic.skin_vi">Éadaí Vi</string>
 <string name="Cosmetic.pet_poro">Poro Heimerdinger</string>
 <string name="RedeemPurchasedItemsTitle">Fuascail Earraí a Cheannaigh Tú</string>
-<string name="RedeemPurcahsedItemsExplain">Tá córas fardalach nua againn agus féadfaidh tú do chuid ceannachán a fheiceáil ar pé ardán! Aon earraí a cheannaigh tú ar an ardán seo cheana féin, féadfaidh tú iad a bhogadh UAIR AMHÁIN go dtí ár gcóras nua.\%nl\%Cinntigh gurb é seo an cuntas Among Us ar mhaith leat na hearraí a cheannaigh tú a iompórtáil ann sula leanfaidh tú ar aghaidh.\%nl\%\%nl\%ID Cuntais: {0}</string>
+<string name="RedeemPurcahsedItemsExplain">Tá córas fardalach nua againn agus féadfaidh tú do chuid ceannachán a fheiceáil ar pé ardán! Aon earraí a cheannaigh tú ar an ardán seo cheana féin, féadfaidh tú iad a bhogadh UAIR AMHÁIN go dtí ár gcóras nua.
+Cinntigh gurb é seo an cuntas Among Us ar mhaith leat na hearraí a cheannaigh tú a iompórtáil ann sula leanfaidh tú ar aghaidh.
+
+ID Cuntais: {0}</string>
 <string name="RedeemProceed">Lean ar aghaidh</string>
 <string name="RedeemNotYet">Ná Fuascail faoi Láthair</string>
 <string name="RedeemNever">Ná Luaigh Arís Sin</string>
@@ -1535,7 +1633,8 @@
 <string name="Cosmetic.skin_witch">Culaith Caillí</string>
 <string name="Cosmetic.pet_frankendog">Maidrín Frankenstein</string>
 <string name="Cosmetic.hat_mohawk_bubblegum">Móhácach - Guma Bolgóideach</string>
-<string name="AvailableFor">Ar fáil go ceann\%nl\%{0}l {1}u {2}n {3}s eile</string>
+<string name="AvailableFor">Ar fáil go ceann
+{0}l {1}u {2}n {3}s eile</string>
 <string name="GuardianAngelImpostorSeeProtect">Beidh an chosaint le feiceáil ag na Fealltóirí</string>
 <string name="Cosmetic.hat_pkHW01_PlagueHat">An Dr. Plá</string>
 <string name="QCAccIsRole">Is {1} é {0}</string>
@@ -1552,7 +1651,11 @@
 <string name="QCResProtected">Chosain {0} {1}</string>
 <string name="QCResProtected_ANY_QCCrewMe">Chosain {0} mé</string>
 <string name="QCRoles">Róil</string>
-<string name="GuestProgressionWarning">Tá tú logáilte isteach mar ‘Cuairteoir’! \%nl\%\%nl\%Beidh gach aon XP, Pods agus Beans saothraithe agat ceangailte leis an gcuntas seo. Tá do chuntas cuairteora nascaithe le do ghléas fisiciúil agus mar sin, caillfear iad má athraíonn tú do ghléas go ceann eile. \%nl\%\%nl\%Chun cinntiú go bhfuil slí isteach agat do d’airgeadra agus do cheannacháin, oscail an táb sa phríomh-roghchlár agus sínigh isteach i do chuntas féin.</string>
+<string name="GuestProgressionWarning">Tá tú logáilte isteach mar ‘Cuairteoir’! 
+
+Beidh gach aon XP, Pods agus Beans saothraithe agat ceangailte leis an gcuntas seo. Tá do chuntas cuairteora nascaithe le do ghléas fisiciúil agus mar sin, caillfear iad má athraíonn tú do ghléas go ceann eile. 
+
+Chun cinntiú go bhfuil slí isteach agat do d’airgeadra agus do cheannacháin, oscail an táb sa phríomh-roghchlár agus sínigh isteach i do chuntas féin.</string>
 <string name="ErrorFailedToCreateGame">Theip ort cluiche a chruthú. Bain triail as arís níos déanaí!</string>
 <string name="ErrorFailedToJoinCreatedGame">Theip ort dul isteach i gcluiche féinchruthaithe. Bain triail as arís níos déanaí!</string>
 <string name="ErrorDisconnectBeforeJoining">Dícheangalaíodh thú sula logáil tú isteach sa seisiún cluichíochta.</string>
@@ -1644,7 +1747,9 @@
 <string name="BlockedPlayers">Imreoirí Faoi Chosc</string>
 <string name="RecentPlayers">Comhimreoirí Déanacha</string>
 <string name="LobbyLabel">Forsheomra</string>
-<string name="FriendCodeExplanation">Tá Liosta Cairde ag Among Us! Roghnaigh Cód Cairdis le hiarratais a sheoladh agus a fháil.\%nl\%\%nl\% Ní féidir é a athrú tar éis duit é a roghnú.</string>
+<string name="FriendCodeExplanation">Tá Liosta Cairde ag Among Us! Roghnaigh Cód Cairdis le hiarratais a sheoladh agus a fháil.
+
+ Ní féidir é a athrú tar éis duit é a roghnú.</string>
 <string name="FriendCodeSuccess">Is é {0} do Chód Cairdis</string>
 <string name="FriendRequestReceived">Iarratas Cairdis Faighte</string>
 <string name="FriendRequestSent">Iarratas Cairdis Seolta</string>
@@ -1677,11 +1782,12 @@
 <string name="AddFriendConfirm">Seol iarratas cairdis chuig {0}?</string>
 <string name="UnfriendConfirm">Cuir deireadh le cairdeas {0}?</string>
 <string name="UnblockConfirm">Bain bac de {0}?</string>
-<string name="SettingsEnableFriendInvites">Iarratais Chairdis \%and\% Iarratais Forsheomra</string>
+<string name="SettingsEnableFriendInvites">Iarratais Chairdis {and} Iarratais Forsheomra</string>
 <string name="ErrorTooManyRequests">Tá an iomarca iarratais ann. Fan cúpla nóiméad.</string>
 <string name="TempDisabled">As Feidhm</string>
 <string name="TempDisabledLinkExplain">Tá cuntais á n-athrú. Chuireamar bac sealadach ar chuntais a cheangal le chéile. Ní fada go gcuirfear gach rud i gceart le huasdátú eile.</string>
-<string name="RedeemPopup">Seo bronntanas duit ón gcriú!\%nl\%{0}.</string>
+<string name="RedeemPopup">Seo bronntanas duit ón gcriú!
+{0}.</string>
 <string name="RedeemButton">Fuascail</string>
 <string name="ErrorMaxFriends">Tá do liosta cairdis lán.</string>
 <string name="ErrorPlayerBlockedYou">Earráid: Tá bac agat ar an úsáideoir seo nó tá bac aigesean ortsa.</string>
@@ -1693,10 +1799,14 @@
 <string name="Decontamination3">Dí-Éilliúlann Íochtarach</string>
 <string name="ErrorCommunications">Tá do chuid socruithe cumarsáide do do chosc. Chun a bheith páirteach sa chluiche seo, cuir comhrá le daoine eile i bhfeidhm.</string>
 <string name="SettingsColorblind">Modh Dathdhaille</string>
-<string name="MergeGuestAccountText">Tá \%link="https://www.innersloth.com/merging-guest-accounts/"\%cuntas cuairteora\%/link\% ar an ngléas seo! Ní féidir linn a leithéid a chur ar fáil a thuilleadh, mar sin ceanglófar na hearraí agus na haireagadraí agus an dul chun cinn a bhaineann leis an gcuntas sin leis an gcuntas {0}.\%nl\%\%nl\%Má bhaineann daoine eile úsáid as an ngléas seo (bíodh sé ina ríomhaire nó ina fhón, srl.), ná déan dearmad gur le gach duine acu an cuntas sin. Mar sin, ní bheidh siad ábalta an cuntas cuairteora sin a chumasc le cuntas eile má leanann tú ar aghaidh. Ní fhéadfaidh tú an cumascseo a dhéanamh ach uair amháin. Ní bheidh tú ábalta na hearraí ná na hairgeadraí ná an dul chun cinn a bhaineann leis an gcuntas a cheangal le ceann eile arís.\%nl\%\%nl\%Deimhnigh, le do thoil, gur mhaith leat an cuntas cuairteora a chumasc leis an gcuntas {0}.</string>
+<string name="MergeGuestAccountText">Tá {link="https://www.innersloth.com/merging-guest-accounts/"}cuntas cuairteora{/link} ar an ngléas seo! Ní féidir linn a leithéid a chur ar fáil a thuilleadh, mar sin ceanglófar na hearraí agus na haireagadraí agus an dul chun cinn a bhaineann leis an gcuntas sin leis an gcuntas {0}.
+
+Má bhaineann daoine eile úsáid as an ngléas seo (bíodh sé ina ríomhaire nó ina fhón, srl.), ná déan dearmad gur le gach duine acu an cuntas sin. Mar sin, ní bheidh siad ábalta an cuntas cuairteora sin a chumasc le cuntas eile má leanann tú ar aghaidh. Ní fhéadfaidh tú an cumascseo a dhéanamh ach uair amháin. Ní bheidh tú ábalta na hearraí ná na hairgeadraí ná an dul chun cinn a bhaineann leis an gcuntas a cheangal le ceann eile arís.
+
+Deimhnigh, le do thoil, gur mhaith leat an cuntas cuairteora a chumasc leis an gcuntas {0}.</string>
 <string name="MergeGuestAccountTitle">Comhcheangail Cuntas Cuairteora</string>
 <string name="ManageAccountTitle">Bainistigh Cuntas</string>
-<string name="ManageAccountText">Téigh go \%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% leis an gcuntas a bhainistiú, a chumasc nó má tá fadhb ar bith eile agat.</string>
+<string name="ManageAccountText">Téigh go {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} leis an gcuntas a bhainistiú, a chumasc nó má tá fadhb ar bith eile agat.</string>
 <string name="Cosmetic.visor_BaconVisor">Nach Ormsa an t-Áthas</string>
 <string name="Cosmetic.hat_Baguette">Níl Ann Ach Baguette</string>
 <string name="Cosmetic.skin_Bananaskin">Peanut Butter Jelly Time</string>
@@ -1766,12 +1876,15 @@
 <string name="Cosmetic.nameplate_Orange">Oráiste Sásta</string>
 <string name="Cosmetic.hat_sausage">Ina Thranglam</string>
 <string name="SignInIssueTitle">Earráid Chuntais {0}</string>
-<string name="SignInIssueText">Ní féidir cuntas Among Us a chruthú le do {0} de dheasca srianta cuntais.\%nl\%\%nl\%Is féidir leat leanúint ar aghaidh ag imirt Among Us leis an ngléas seo, ach ní bheidh gach gné ar fáil, na rudaí seo a leanas san áireamh: nascadh cuntais, ceannacháin Réaltaí agus aistriú earraí go gléas eile. Má tá ceist ar bith agat, cuir ríomhphost chun support@innersloth.com</string>
+<string name="SignInIssueText">Ní féidir cuntas Among Us a chruthú le do {0} de dheasca srianta cuntais.
+
+Is féidir leat leanúint ar aghaidh ag imirt Among Us leis an ngléas seo, ach ní bheidh gach gné ar fáil, na rudaí seo a leanas san áireamh: nascadh cuntais, ceannacháin Réaltaí agus aistriú earraí go gléas eile. Má tá ceist ar bith agat, cuir ríomhphost chun support@innersloth.com</string>
 <string name="FriendListUnavailable">Níl an Liosta Cairde le Fáil</string>
 <string name="ErrorSanction">Cuireadh cosc ar do chuntas {1} mar {0}.</string>
 <string name="SanctionDuration">go dtí {0}</string>
 <string name="SanctionPermanent">go deo</string>
-<string name="SanctionConduct">\%nl\%Tóg an t-am seo chun smaoineamh agus machnamh ar ár \%link="https://www.innersloth.com/code-of-conduct/"\%gCód Iompair\%/link\%</string>
+<string name="SanctionConduct">
+Tóg an t-am seo chun smaoineamh agus machnamh ar ár {link="https://www.innersloth.com/code-of-conduct/"}gCód Iompair{/link}</string>
 <string name="SanctionSexualMisconduct">gheall ar mhí-iompar gnéis</string>
 <string name="SanctionDoxing">gheall ar sheoladh nó ar bhagairt sheoladh eolais pearsanta nó ar dhoxáil</string>
 <string name="SanctionIllegalActivity">ghlac tú páirt i ngníomhaíocht mhídhleathach nó chuir tú a leithéid chun cinn</string>
@@ -1845,10 +1958,14 @@
 <string name="Cosmetic.visor_hl_nudge">Sonc-Sonc</string>
 <string name="Cosmetic.visor_hl_marine">Paiste súl Marine</string>
 <string name="Cosmetic.visor_hl_wrong">Haha Cad a D'fhéadfadh a bheith Mícheart?</string>
-<string name="AccountDeleteHelp">Ar bhrú CONFIRM, tá tú ag iarraidh go scriosfaidh gach cuid de do dhalaí Among Us. Tógfaidh an t-iarratas seo idir 7 - 14 lá agus mar sin beidh do Réalta, do Phónairí, do Phods agus an stuif a cheannaigh tú scriosta. Agus an cuntas scriosta, ní féidir linn é a thabhairt ar ais. Beidh do chuntas ag oibriú mar is iondúil go dtí go bhfuil an próiseas seo críochnaithe.\%nl\%\%nl\%Má tá earráid ar bith, téigh i dteangmháil le support@innersloth.com</string>
+<string name="AccountDeleteHelp">Ar bhrú CONFIRM, tá tú ag iarraidh go scriosfaidh gach cuid de do dhalaí Among Us. Tógfaidh an t-iarratas seo idir 7 - 14 lá agus mar sin beidh do Réalta, do Phónairí, do Phods agus an stuif a cheannaigh tú scriosta. Agus an cuntas scriosta, ní féidir linn é a thabhairt ar ais. Beidh do chuntas ag oibriú mar is iondúil go dtí go bhfuil an próiseas seo críochnaithe.
+
+Má tá earráid ar bith, téigh i dteangmháil le support@innersloth.com</string>
 <string name="DeleteAccount">Scrios Cuntas</string>
 <string name="DoNotDeleteAccount">Stad Scriosadh Cuntais</string>
-<string name="AccountUnDeleteHelp">Ar bhrú CONFIRM, stopfaidh scriosadh do chuntais. Má tá tú ag iarraidh an cuntas a scríosadh, caithfidh tú iarratas a chuir isteach arís.\%nl\%\%nl\%Má tá earráid ar bith ann, téigh i dteangmháil le support@innersloth.com</string>
+<string name="AccountUnDeleteHelp">Ar bhrú CONFIRM, stopfaidh scriosadh do chuntais. Má tá tú ag iarraidh an cuntas a scríosadh, caithfidh tú iarratas a chuir isteach arís.
+
+Má tá earráid ar bith ann, téigh i dteangmháil le support@innersloth.com</string>
 <string name="ConfirmDelete">Clóscríobh DELETE le deibhniú</string>
 <string name="ConfirmDeleteAccounts">Brúigh an bosca seo le deibhniú go dtuigeann tú go scriosfar an cuntas seo agus na cinn atá ceangailte leis ({0}).</string>
 <string name="ConfirmDeleteAccountsEmpty">Brúigh an bosca seo le deibhniú go dtuigeann tú go scriosfar an cuntas seo agus na cinn atá ceangailte leis.</string>
@@ -1866,7 +1983,8 @@
 <string name="Ghost">Taibhse</string>
 <string name="CurrentlyHaunting">ag Gnáthú:</string>
 <string name="RoundRobin">Comórtas Ciorclach</string>
-<string name="RuleOneCrewmates">Mair go dtí go mbeidh an t-am thart.\%nl\% Críochnaigh tascanna le go mbeidh an t-am thart níos sciobtha.</string>
+<string name="RuleOneCrewmates">Mair go dtí go mbeidh an t-am thart.
+ Críochnaigh tascanna le go mbeidh an t-am thart níos sciobtha.</string>
 <string name="RuleTwoCrewmates">Úsáid na gaothairí agus an Danger Meter le dul i bhfolach ag an am ceart.</string>
 <string name="RuleThreeCrewmates">Nuair a bhíonn an t-am thart, is féidir leis an bhFealltóir do lorg a leanúint!</string>
 <string name="RuleOneImpostor">Maraigh gach Maraigh gach sula mbeidh an t-am thart!</string>
@@ -1896,20 +2014,29 @@
 <string name="DefaultFilterTag_Casual">Réchúiseach</string>
 <string name="DefaultFilterTag_Serious">Dáiríre</string>
 <string name="DefaultFilterTag_Expert">Saineolaí</string>
-<string name="TagFiltersHelpFindGame">Féadfaidh tú clib a chur ar do chluiche le scagairí ón liosta. Luífidh na torthaí cuardaigh leis na scagairí a roghnóidh tú.\%nl\%\%nl\%Mar shampla: Má roghnaíonn tú \%b\%"Réchúiseach"\%/b\% agus \%b\%"Saineolaí"\%/b\% ní fheicfidh tú ach na cluichí ag a bhfuil na scagairí sin araon.</string>
-<string name="TagFiltersHelpCreate">Féadfaidh tú clib a chur ar do chluiche le scagairí ionas go mbeidh cluichirí eile ábalta do chluiche a fheiceáil. Luífidh na torthaí cuardaigh leis na scagairí a roghnóidh tú.\%nl\%\%nl\%Mar shampla: Má roghnaíonn tú \%b\%"Réchúiseach"\%/b\% agus \%b\%"Saineolaí"\%/b\% ní bheidh an cluiche le feiceáil ach ag daoine a dhéanfaidh cuardach ar na scagairí sin araon.</string>
+<string name="TagFiltersHelpFindGame">Féadfaidh tú clib a chur ar do chluiche le scagairí ón liosta. Luífidh na torthaí cuardaigh leis na scagairí a roghnóidh tú.
+
+Mar shampla: Má roghnaíonn tú {b}"Réchúiseach"{/b} agus {b}"Saineolaí"{/b} ní fheicfidh tú ach na cluichí ag a bhfuil na scagairí sin araon.</string>
+<string name="TagFiltersHelpCreate">Féadfaidh tú clib a chur ar do chluiche le scagairí ionas go mbeidh cluichirí eile ábalta do chluiche a fheiceáil. Luífidh na torthaí cuardaigh leis na scagairí a roghnóidh tú.
+
+Mar shampla: Má roghnaíonn tú {b}"Réchúiseach"{/b} agus {b}"Saineolaí"{/b} ní bheidh an cluiche le feiceáil ach ag daoine a dhéanfaidh cuardach ar na scagairí sin araon.</string>
 <string name="CreateLabel">Cruthaigh</string>
 <string name="NewGameMode">Modh Cluiche Nua!</string>
-<string name="NewModeInfo">Bíonn cuid mhór i ngeall sa mhodh seo. \%nl\%\%i\%Ach seachain thú féin, ní gnáthfholach bíog é...\%/i\%</string>
+<string name="NewModeInfo">Bíonn cuid mhór i ngeall sa mhodh seo. 
+{i}Ach seachain thú féin, ní gnáthfholach bíog é...{/i}</string>
 <string name="HideSeekHowToPlayCaptionOne">Tá sé simplí!</string>
 <string name="HideSeekHowToPlayCaptionTwo">Loingseoirí!</string>
 <string name="HideSeekHowToPlayCaptionThree">Fealltóirí!</string>
-<string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%Loingseoirí:\%/b\%\%/color\% Críochnaigh do chuid tascanna chun an cluiche a chiorrú, seachain an Fealltóir agus fan i do bheatha go dtiocfaidh an cluiche chun deiridh. \%nl\%\%nl\%\%color=#FF3131\%\%b\%An Fealltóir:\%/b\%\%/color\% Faigh na Loingseoirí agus maraigh gan trua iad!</string>
+<string name="HideSeekHowToPlayPageOne">{color=#38F25D}{b}Loingseoirí:{/b}{/color} Críochnaigh do chuid tascanna chun an cluiche a chiorrú, seachain an Fealltóir agus fan i do bheatha go dtiocfaidh an cluiche chun deiridh. 
+
+{color=#FF3131}{b}An Fealltóir:{/b}{/color} Faigh na Loingseoirí agus maraigh gan trua iad!</string>
 <string name="HideSeekHowToPlaySubtextOne">Níl aon tátal sóisialta anseo. Níl ann ach scréacha uafáis.</string>
 <string name="HideSeekHowToPlayCrewmateInfoOne">Faigh máistreacht ar dhul i bhfolach agus ar éalú araon chun go mairfidh tú.</string>
 <string name="HideSeekHowToPlayCrewmateInfoTwo">Is féidir veinteáil sa mhodh seo agus ina theannta san tá Méadar Contúirte le fáil a chuireann teacht an Fhealltóra in iúl duit. Níl ach gearr-radharc ag an bhFealltóir, mar sin, bain úsáid éifeachtúil as do chumas, as na gaothairí agus cealtracha lena sheachaint!</string>
 <string name="HideSeekHowToPlayImpostorInfoOne">Ní féidir le Fealltóirí veinteáil sa mhodh seo, mar sin beidh ort a bheith tapa chun breith ar do chreach. Tá sé dorcha! Ar ámharaí an tsaoil tá Tóirse agat i gcomhair íospartaigh a fháil.</string>
-<string name="HideSeekHowToPlayFinalHide">Bíonn tuilleadh cumhachta ag an bhFealltóir nuair a bhíonn an cluiche ag teacht chun deiridh - bíonn sé níos tapa, bíonn léarscáil tóraíochta aige ag a bhfuil cling threorach a thaispeánann treo na Loingseoirí atá fós ina mbeatha.\%nl\%\%nl\%Smaoinigh ar an toirt agus teith ar bhonn straitéiseach chun an bua a fháil!</string>
+<string name="HideSeekHowToPlayFinalHide">Bíonn tuilleadh cumhachta ag an bhFealltóir nuair a bhíonn an cluiche ag teacht chun deiridh - bíonn sé níos tapa, bíonn léarscáil tóraíochta aige ag a bhfuil cling threorach a thaispeánann treo na Loingseoirí atá fós ina mbeatha.
+
+Smaoinigh ar an toirt agus teith ar bhonn straitéiseach chun an bua a fháil!</string>
 <string name="HideSeekHowToPlayFlashlightMobile">Bain úsáid as luamhán stiúrtha an Tóirse atá ar an taobh deas den scáileán chun an gá a dhíriú agus maraigh gach Loingseoir ar féidir leat a fháil!</string>
 <string name="HideSeekHowToPlayFlashlightDefault">Úsáid do luchóg chun an Tóirse a dhíriú ar na Loingseoirí agus úsáid é chun gach aon Loingseoir a mharú.</string>
 <string name="HideSeekHowToPlayFlashlightConsoles">Úsáid do luamhán stiúrtha deas chun an Tóirse a dhíriú agus maraigh gach Loingseoir a fheicfidh tú!</string>
@@ -2032,7 +2159,9 @@
 <string name="Cosmetic.nameplate_hunter">Bród Hunter</string>
 <string name="Cosmetic.nameplate_lightfall">Lightfall</string>
 <string name="AnnouncementErrorSubtitle">Och! Deineadh sabaitéireacht ar an bhfógairt!</string>
-<string name="AnnouncementErrorText">Tharla earráid. Bí cinnte go bhfuil tú ar líne agus go bhfuil an leagan is déanaí agat le go bhfaighfidh tú gach eolas agus gach ceartúchán ó Among Us. \%nl\%\%nl\%Má tá fadhbanna agat fós, seol teachtaireacht chugainn ag support@innersloth.com.</string>
+<string name="AnnouncementErrorText">Tharla earráid. Bí cinnte go bhfuil tú ar líne agus go bhfuil an leagan is déanaí agat le go bhfaighfidh tú gach eolas agus gach ceartúchán ó Among Us. 
+
+Má tá fadhbanna agat fós, seol teachtaireacht chugainn ag support@innersloth.com.</string>
 <string name="ReadMoreLabel">chun an fógra a fheiceáil ina iomláine!</string>
 <string name="ReturnToList">Fill ar an liosta</string>
 <string name="NavigateLinks">Roghnaigh naisc</string>
@@ -2056,7 +2185,7 @@
 <string name="AgeVerificationTitle">Aoisdeimhniú</string>
 <string name="AgeVerificationInfoTitle">Cad is aoisdeimhniú ann?</string>
 <string name="AgeVerificationInfo">Caithfidh tú d'aois a dheimhniú sular féidir leat Among Us a imirt. Ní choinneoidh muid lá do bhreithe i gcuimhne.</string>
-<string name="AgeVerificationMoreInfo">Le tuilleadh eolais a fháil maidir lenár nósanna príobháideachta, féach ar \%link="https://www.innersloth.com/privacy-policy/"\%https://www.innersloth.com/privacy-policy/\%/link\%</string>
+<string name="AgeVerificationMoreInfo">Le tuilleadh eolais a fháil maidir lenár nósanna príobháideachta, féach ar {link="https://www.innersloth.com/privacy-policy/"}https://www.innersloth.com/privacy-policy/{/link}</string>
 <string name="EditLabel">Cuir in Eagar</string>
 <string name="VerifyAgeText">An é seo lá do bhreithe?</string>
 <string name="Cosmetic.nameplate_flagMlm">Brat MLM</string>
@@ -2114,9 +2243,15 @@
 <string name="Cosmetic.skin_PusheenPurpleskin">Pusheen Liathchorcra Pastalach</string>
 <string name="Cosmetic.skin_Slothskin">Sloth</string>
 <string name="Cosmetic.hat_bearyCold">Teidí</string>
-<string name="EosAccountSilentMergeFail">Theip ar do chuntas Among Us a thabhairt chun críche. Bain triail eile as nó lean ar aghaidh trí aoichuntas. Déanfar an dul chun cinn a shábháil, ach molaimid duit cuntas a shocrú i gceart chun taitneamh a bhaint as gach gné de Among Us. \%nl\%\%nl\%An bhfuil tú chun triail eile a bhaint as?</string>
-<string name="AskForEosAccount">An bhfuil cuntas Among Us agat cheana féin? (Tugtar cuntas Epic Online Services ar a leithéid leis.)\%nl\%\%nl\%Má imir tú Among Us tríd an ngléas seo roimhe seo, roghnaigh 'Tá'.</string>
-<string name="KwsCreateFail">Och! Theip ar an ríomhphost ceada a sheoladh. Bain triail eile as nó lean ar aghaidh sa mhodh as líne.\%nl\%\%nl\%An bhfuil tú chun triail eile a bhaint as?</string>
+<string name="EosAccountSilentMergeFail">Theip ar do chuntas Among Us a thabhairt chun críche. Bain triail eile as nó lean ar aghaidh trí aoichuntas. Déanfar an dul chun cinn a shábháil, ach molaimid duit cuntas a shocrú i gceart chun taitneamh a bhaint as gach gné de Among Us. 
+
+An bhfuil tú chun triail eile a bhaint as?</string>
+<string name="AskForEosAccount">An bhfuil cuntas Among Us agat cheana féin? (Tugtar cuntas Epic Online Services ar a leithéid leis.)
+
+Má imir tú Among Us tríd an ngléas seo roimhe seo, roghnaigh 'Tá'.</string>
+<string name="KwsCreateFail">Och! Theip ar an ríomhphost ceada a sheoladh. Bain triail eile as nó lean ar aghaidh sa mhodh as líne.
+
+An bhfuil tú chun triail eile a bhaint as?</string>
 <string name="MissingGuardianEmailText">Tá seoladh ríomhphoist caomhnóra in easnamh ar do chuntas. Tá orainn cead a iarraidh ar do chaomhnóir (trí ríomhphost) roimh dhul ar aghaidh. Má thugann sé cead, beidh tú in ann úsáid a bhaint as saorchomhrá ar líne agus d'ainm úsáideora a athrú. Iarr ar dhuine fásta chun cabhrú leat!</string>
 <string name="MiningPit">An Poll Mianadóireachta</string>
 <string name="Jungle">An Dufair</string>
@@ -2191,7 +2326,9 @@
 <string name="Cosmetic.nameplate_cliffs">Uair na hAille</string>
 <string name="ReportNotificationHeader">Go raibh maith agat as cúnamh a thabhairt dúinn Among Us a choimeád ina áit shlán shábháilte fháilteach!</string>
 <string name="ReportNotificationBody">Déanfaidh an fhoireann mhodhnóireachta athbhreithniú ar an eolas a thuairiscigh tú agus </string>
-<string name="ErrorClientTimeout">Dícheanglaíodh thú ón bhfreastalaí. B’fhéidir gur fabht faoi deara é a bhaineann le freastalaí nó le líonra nó le gléas. Seiceáil láidreacht do líonra.\%nl\%\%nl\%Má tharlaíonn sé seo go minic, seans go bhfuil do ghléas róshean nó nach bhfuil sé cumhachtach a dhóthain. Bain triail as an gcluiche a imirt le gléas eile.</string>
+<string name="ErrorClientTimeout">Dícheanglaíodh thú ón bhfreastalaí. B’fhéidir gur fabht faoi deara é a bhaineann le freastalaí nó le líonra nó le gléas. Seiceáil láidreacht do líonra.
+
+Má tharlaíonn sé seo go minic, seans go bhfuil do ghléas róshean nó nach bhfuil sé cumhachtach a dhóthain. Bain triail as an gcluiche a imirt le gléas eile.</string>
 <string name="ErrorClientTimeoutConsole">Dícheanglaíodh thú ón bhfreastalaí. B’fhéidir gur fabht faoi deara é a bhaineann le freastalaí nó le líonra. Seiceáil láidreacht do líonra.</string>
 <string name="Cosmetic.hat_NewYear2024">Athbhliain 2024</string>
 <string name="Cosmetic.nameplate_Celeste">Éirí in Airde</string>
@@ -2319,7 +2456,9 @@
 <string name="Cosmetic.nameplate_lny_goldCrewmate">An Ceiliúradh</string>
 <string name="Cosmetic.nameplate_lny_goldImpostor">Teacht an Donais</string>
 <string name="AprilFoolsModeToggle">Modh Amadán Aibreáin (Raon Teoranta Cosmaidí)</string>
-<string name="ErrorAuthNonceFailure">Sabaitéireacht! Tharla earráid agus freastalaithe Among Us ag iarraidh thú a dheimhniú. Triail arís é.\%nl\%\%nl\%Má thiteann an rud céanna amach arís, déan \%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%ticéad tacaíochta a chur isteach\%/link\%.</string>
+<string name="ErrorAuthNonceFailure">Sabaitéireacht! Tharla earráid agus freastalaithe Among Us ag iarraidh thú a dheimhniú. Triail arís é.
+
+Má thiteann an rud céanna amach arís, déan {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}ticéad tacaíochta a chur isteach{/link}.</string>
 <string name="Cosmetic.nameplate_crewmatesBlue">Criú Funcaí - Gorm</string>
 <string name="Cosmetic.nameplate_crewmatesRed">Criú Funcaí - Dearg</string>
 <string name="Cosmetic.nameplate_horseHeaven">Ar Iompú na nEach...</string>
@@ -2400,7 +2539,8 @@
 <string name="QCSelfSawRoleInLocation">Chonaic me {0} in {1}</string>
 <string name="NoisemakerRole">Fothramálaí</string>
 <string name="NoisemakerBlurb">Tabhair foláireamh nuair a fhaigheann tú bás</string>
-<string name="NoisemakerBlurbMed">Tabhair foláireamh a thabharfaidh le fios an áit\%nl\%a raibh tú nuair a maraíodh thú.</string>
+<string name="NoisemakerBlurbMed">Tabhair foláireamh a thabharfaidh le fios an áit
+a raibh tú nuair a maraíodh thú.</string>
 <string name="NoisemakerBlurbLong">Ní gnáthról an Fothramálaí. Níl cumas ar leith aige murab ionann is na róil eile. Ina ionad sin, tugtar foláireamh nuair a mharaíonn fealltóir é. Is réidh a chuireann an foláireamh scaoll san fhealltóir. Féach agus na Loingseoirí eile ag brostú chun láthair na coire i gcomhair breith ar an marfóir agus díoltas a imirt air!</string>
 <string name="NoisemakerImpostorAlert">Faigheann fealltóirí an foláireamh</string>
 <string name="NoisemakerAlertDuration">Fad an Fholáirimh</string>
@@ -2408,7 +2548,8 @@
 <string name="PhantomAbilityUndo">Tar i Radharc</string>
 <string name="PhantomRole">Scáil</string>
 <string name="PhantomBlurb">Téigh ó radharc</string>
-<string name="PhantomBlurbMed">Téigh as radharc chun éalú thart nó imeacht\%nl\%gan fhios i ndiaidh duine a mharú.</string>
+<string name="PhantomBlurbMed">Téigh as radharc chun éalú thart nó imeacht
+gan fhios i ndiaidh duine a mharú.</string>
 <string name="PhantomBlurbLong">Is féidir leis an Scáil dul as radharc na súl i gcomhair éalú suas ar Loingseoir nó imeacht gan fhios i ndiaidh Loingseoir a mharú. Ní féidir leis aon duine a mharú agus é as radharc, ach is féidir leis dréimirí a dhreapadh agus ziplínte a úsáid. Nuair a théann an Scáil as radharc, déantar múr mór deataigh, mar sin, ba chóir dó bheith deimhin de nach bhfuil aon Loingseoir cóngarach dó nuair a dhéanann sé amhlaidh! Ní féidir leis an Scáil fanacht as radharc go deo, mar sin déan cinnte de go dtéann tú as radharc in am trátha.</string>
 <string name="PhantomCooldown">Aga Athnuachana an Dul as Radharc</string>
 <string name="PhantomDuration">Fad a Fhanfar as Radharc</string>
@@ -2416,7 +2557,8 @@
 <string name="TrackerAbility">Rianaigh</string>
 <string name="TrackerAbilityUndo">Ná Rianaigh</string>
 <string name="TrackerBlurb">Déan Loingseoir a lorg leis an léarscáil</string>
-<string name="TrackerBlurbMed">Bain úsáid as rianaire chun Loingseoir a lorg leis\%nl\%an léarscáil.</string>
+<string name="TrackerBlurbMed">Bain úsáid as rianaire chun Loingseoir a lorg leis
+an léarscáil.</string>
 <string name="TrackerBlurbLong">Is féidir leis an Lorgaire Loingseoir a fheiceáil ar an léarscáil. Ní féidir leis rianaire a chur ar Loingseoir gan a bheith ina aice. Déan cinnte de gan cuma ró-amhrasach a bheith ort agus tú ag dul faoi dhéin Loingseora. Ní mhaireann an rianú ach roinnt soicindí, mar sin, déan rogha chiallmhar agus ná féach ar an léarscáil rófhada mar beidh tú somharaithe!</string>
 <string name="TrackerCooldown">Aga Athnuachana an Rianaithe</string>
 <string name="TrackerDuration">Fad an Rianaithe</string>
@@ -2526,8 +2668,10 @@
 <string name="ChatLabel">Comhrá</string>
 <string name="NoneLowercaseLabel">ceann ar bith</string>
 <string name="ToolTipDefault">Socraigh an forsheomra leis na socruithe thíos.</string>
-<string name="ToolTipClassic">Tá Fealltóirí inár measc mar Loingseoirí! Faigh\%nl\%amach cé atá amhrasach agus vótáil amach iad.</string>
-<string name="ToolTipHide">An cluiche is fearr de chat is luch\%nl\%in aghaidh a chéile. Ná beirtear ort!</string>
+<string name="ToolTipClassic">Tá Fealltóirí inár measc mar Loingseoirí! Faigh
+amach cé atá amhrasach agus vótáil amach iad.</string>
+<string name="ToolTipHide">An cluiche is fearr de chat is luch
+in aghaidh a chéile. Ná beirtear ort!</string>
 <string name="ToolTipCapacity">Uasmhéid na n-imreoirí is féidir a bheith páirteach insan fhorsheomra.</string>
 <string name="ToolTipServer">Réigiún an freastalaí inar féidir leat an cluiche a chruthú.</string>
 <string name="ToolTipCrossplay">Is féidir le himreoirí ar aon ardán ceangail le forsheomraí.</string>
@@ -2542,7 +2686,8 @@
 <string name="ConfirmSettingsTooltip">Tá forsheomra á chruthú agat leis na socruithe seo leanas:</string>
 <string name="EnterCodeElipsis">Iontráil an cód…</string>
 <string name="ToolTipChatTab">Socraigh na socruithe do roghchlár an chomhrá.</string>
-<string name="DropshipsLabel">Preablonga\%nl\%ar líne</string>
+<string name="DropshipsLabel">Preablonga
+ar líne</string>
 <string name="FiltersActive">scagairí roghnaithe</string>
 <string name="ClearFilters">Bain Scagairí</string>
 <string name="MoreLabel">Tuilleadh…</string>
@@ -2580,11 +2725,16 @@
 <string name="FilterTagTooltip">Scag de réir Lipéad.</string>
 <string name="TooltipTag">Roghnaigh lipéad chun imreoirí a mhealladh le scileanna sainiúla.</string>
 <string name="SelectedLabel">ROGHNAITHE:</string>
-<string name="TooltipSpeedInfo">\%b\%Íseal:\%/b\% 0.5-0.75x	\%b\%Ard:\%/b\% 1.75-2.25x\%nl\%\%b\%Meán:\%/b\% 1.0-1.5x	\%b\%An-Ard:\%/b\% 2.5-3.0x</string>
-<string name="TooltipKillCDInfo">\%b\%Íseal:\%/b\% 10-20s	\%b\%Ard:\%/b\% 37.5-47.5s\%nl\%\%b\%Meánach:\%/b\% 22.5-35s	\%b\%An-Ard:\%/b\% 50-60s</string>
-<string name="TooltipVotingInfo">\%b\%Íseal:\%/b\% 0-60s	\%b\%Ard:\%/b\% 150-210s\%nl\%\%b\%Meánach:\%/b\% 75-135s	\%b\%An-Ard:\%/b\% 225-300s</string>
-<string name="TooptipHidingTimeInfo">\%b\%Íseal:\%/b\% 160-180s	\%b\%Ard:\%/b\% 260-300s\%nl\%\%b\%Meánach:\%/b\% 200-240s</string>
-<string name="TooltipFinalTimeInfo">\%b\%Íseal:\%/b\% 30-45s	\%b\%Ard:\%/b\% 75-95s\%nl\%\%b\%Meánach:\%/b\% 50-70s	\%b\%An-Ard:\%/b\% 100-120s</string>
+<string name="TooltipSpeedInfo">{b}Íseal:{/b} 0.5-0.75x	{b}Ard:{/b} 1.75-2.25x
+{b}Meán:{/b} 1.0-1.5x	{b}An-Ard:{/b} 2.5-3.0x</string>
+<string name="TooltipKillCDInfo">{b}Íseal:{/b} 10-20s	{b}Ard:{/b} 37.5-47.5s
+{b}Meánach:{/b} 22.5-35s	{b}An-Ard:{/b} 50-60s</string>
+<string name="TooltipVotingInfo">{b}Íseal:{/b} 0-60s	{b}Ard:{/b} 150-210s
+{b}Meánach:{/b} 75-135s	{b}An-Ard:{/b} 225-300s</string>
+<string name="TooptipHidingTimeInfo">{b}Íseal:{/b} 160-180s	{b}Ard:{/b} 260-300s
+{b}Meánach:{/b} 200-240s</string>
+<string name="TooltipFinalTimeInfo">{b}Íseal:{/b} 30-45s	{b}Ard:{/b} 75-95s
+{b}Meánach:{/b} 50-70s	{b}An-Ard:{/b} 100-120s</string>
 <string name="FilterNoMaps">Níl mapaí roghnaithe.</string>
 <string name="Cosmetic.hat_kamurocho_ichiban">Gruaig Ichiban Kasuga</string>
 <string name="Cosmetic.hat_kamurocho_ono">Hata Ono Michio</string>
@@ -2657,7 +2807,8 @@
 <string name="DetectiveAbility">Ceistigh</string>
 <string name="DetectiveAbilityNotes">Nótaí</string>
 <string name="DetectiveBlurb">Bailigh sonraí. Réitigh cásanna dúnmharuithe.</string>
-<string name="DetectiveBlurbMed">Cuir sonraí le do chuid nótaí.\%nl\%Ceistigh.</string>
+<string name="DetectiveBlurbMed">Cuir sonraí le do chuid nótaí.
+Ceistigh.</string>
 <string name="DetectiveNotesEmpty">Chomh luath is a mharaítear duine éigin, is féidir liom an scéal a fhiosrú…</string>
 <string name="DetectiveNearLocation">Beagnach {0}</string>
 <string name="DetectiveNotesKiller">{0}</string>
@@ -2736,7 +2887,8 @@
 <string name="RewardAdTitle">FUAIR TÚ RÉALTA!</string>
 <string name="RewardAdBody1">Beidh duais réalta eile ar fáil i gceann {0} uair an chloig.</string>
 <string name="RewardAdBody2">Beidh duais réalta eile ar fáil i gceann {0} uaire an chloig.</string>
-<string name="WatchAdErrorBody">Chuaigh rud amú agus an fógra á lódáil.\%nl\%Bain triail as arís níos déanaí, le do thoil.</string>
+<string name="WatchAdErrorBody">Chuaigh rud amú agus an fógra á lódáil.
+Bain triail as arís níos déanaí, le do thoil.</string>
 <string name="WatchAdErrorTitle">Ó NÁ hABAIR….</string>
 <string name="Cosmetic.hat_phoenix_wright">Folt an Phoenix Wright</string>
 <string name="Cosmetic.skin_phoenix_wright">Culaith an Phoenix Wright</string>
@@ -2802,4 +2954,27 @@
 <string name="Cosmetic.skin_parasite_Yellow">Aprún Bhuí</string>
 <string name="Cosmetic.pet_parasite_Stressball">Liathróide Rún</string>
 <string name="Cosmetic.nameplate_parasite_Impostor">Tá Sé Díreach i do Dhiaidh!</string>
+<string name="JudgeRole">Breitheamh</string>
+<string name="JudgeBlurb">Tar i gceannas ar an gcruinniú</string>
+<string name="JudgeBlurbMed">Cuir cruinniú ar neamhní chun Feallaire a eisteilgean.
+Má tá dul amú ort, eisteilgfear tusa.</string>
+<string name="JudgeBlurbLong">Glac smacht ar an vóta</string>
+<string name="JudgeTaskRequirement">Méid na dTascanna atá Fágtha %</string>
+<string name="RolesHelp_Judge_01">Tá cumas láidir ag an mBreitheamh a bhaineann le cruinnithe darb ainm Cur ar Neamhní. Cuireann sé seo ar a gcumas vóta speisialta a úsáid ar Loingseoir a gceapann siadsan gur Feallaire iad.</string>
+<string name="RolesHelp_Judge_02">Nuair a chuireann siad cruinniú ar neamhní, ní fiú faic ach a vóta speisialta féin. Má bhíonn an ceart ag an mBreitheamh, eisteilgfear an Feallaire. Má bhíonn dul amú ar an mBreitheamh, eisteilgfear iadsan in áit an Fheallaire!</string>
+<string name="JudgeAbilityUnlocked">Tá Ról an Bhreithimh bainte amach agat</string>
+<string name="JudgeAbilityProgress">Cuir {0} tasc i gcrích chun ról an Bhreithimh a bhaint amach!</string>
+<string name="JudgeCourtAdjourned">Tá an breithiúnas tugtha...</string>
+<string name="JudgeHasSpoken">Tá ráite ag an mBreitheamh.</string>
+<string name="StatsJudgeSuccessfulOverrules">Bhí an ceart ag an mBreitheamh:</string>
+<string name="StatsJudgeFailedOverrules">Bhí dul amú ar an mBreitheamh:</string>
+<string name="JudgeBeatYouToIt">Tá ráite ag an mBreitheamh.
+(Fuair Breitheamh eile an ceann is fearr ort)</string>
+<string name="QCJudges">A Bhreithiúna?</string>
+<string name="QCJudgeOverrule">Cuirfidh mé an cruinniú seo ar neamhní</string>
+<string name="QCJudgePlease">Cuir vóta {0} ar neamhní, le do thoil</string>
+<string name="QCJudgeWillOverrule">Cuirfidh mé vóta {0} ar neamhní</string>
+<string name="MatchInfoGuideTitle">Treoir Eolais an Chluiche</string>
+<string name="MatchInfoGuidePlayersLabel">Imreoirí</string>
+<string name="MatchInfoGuideNoRolesMessage">Níl Aon Ról Curtha i bhFeidhm</string>
 </resources>
