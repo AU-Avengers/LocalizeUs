@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
 <string name="LocalButton">Локально</string>
 <string name="OnlineButton">Онлайн</string>
 <string name="HowToPlayButton">Как играть</string>
@@ -30,14 +31,14 @@
 <string name="ImpostorsRemainP">Берегитесь еще {0} предателей.</string>
 <string name="Hallway">Коридор</string>
 <string name="Engines">Моторы</string>
-<string name="LangCzech">Верхний мотор</string>
+<string name="UpperEngine">Верхний мотор</string>
 <string name="Cafeteria">Столовая</string>
 <string name="Weapons">Оружие</string>
 <string name="Reactor">Реактор</string>
 <string name="Security">Охрана</string>
 <string name="MedBay">Медотсек</string>
 <string name="LifeSupp">O2</string>
-<string name="LangGreek">Навигация</string>
+<string name="Nav">Навигация</string>
 <string name="LowerEngine">Ниж. Мотор</string>
 <string name="Electrical">Электрощит</string>
 <string name="Admin">Админ</string>
@@ -87,13 +88,14 @@
 <string name="EnterIdCode">Ввести код доступа</string>
 <string name="BuyBeverage">Купить напиток</string>
 <string name="ProcessData">Обработать данные</string>
-<string name="NumImpostorsS">Берегитесь \%color=#FF1919FF\%1 предателя\%/color\% среди нас</string>
-<string name="NumImpostorsP">Берегитесь \%color=#FF1919FF\%{0} предателей\%/color\% среди нас</string>
+<string name="NumImpostorsS">Берегитесь {color=#FF1919FF}1 предателя{/color} среди нас</string>
+<string name="NumImpostorsP">Берегитесь {color=#FF1919FF}{0} предателей{/color} среди нас</string>
 <string name="Crewmate">Член экипажа</string>
 <string name="Impostor">Предатель</string>
 <string name="Victory">Победа</string>
 <string name="Defeat">Поражение</string>
-<string name="CrewmatesDisconnected">Большая часть экипажа\%nl\%отключилась</string>
+<string name="CrewmatesDisconnected">Большая часть экипажа
+отключилась</string>
 <string name="ImpostorDisconnected">Предатель отключился</string>
 <string name="PickAnomaly">Выберите аномалию</string>
 <string name="WaterPlantsGetCan">Лейка найдена!</string>
@@ -124,10 +126,15 @@
 <string name="MeetingVotingResults">Итоги голосования</string>
 <string name="MeetingProceeds">Продолжение через: {0} с</string>
 <string name="MeetingHasVoted">{0}: голос отдан. Не голосовало: {1}.</string>
-<string name="HowToPlayText1">Among Us — игра о командной работе и предательстве,\%nl\%где игроки получают роль члена экипажа или предателя.</string>
+<string name="HowToPlayText1">Among Us — игра о командной работе и предательстве,
+где игроки получают роль члена экипажа или предателя.</string>
 <string name="HowToPlayText2">Можно играть онлайн или по локальной беспроводной сети в команде от 4 до 15 человек!</string>
 <string name="HowToPlayText41">При создании игры можно установить собственные правила.</string>
-<string name="HowToPlayText42">Сначала выберите, с кем хотите сыграть!\%nl\%\%nl\%Если хотите играть с друзьями, создайте частную комнату и поделитесь с ними кодом.\%nl\%\%nl\%Чтобы сыграть со случайными игроками, сделайте комнату общей.</string>
+<string name="HowToPlayText42">Сначала выберите, с кем хотите сыграть!
+
+Если хотите играть с друзьями, создайте частную комнату и поделитесь с ними кодом.
+
+Чтобы сыграть со случайными игроками, сделайте комнату общей.</string>
 <string name="HowToPlayText43">Вам не хватает заданий? Или хочется бегать побыстрее? А может быть, нужно больше предателей? Создавая комнату, владелец может настроить игру по своему вкусу. Только не забудьте обсудить это с остальными!</string>
 <string name="HowToPlayText44">Владелец может выгнать игроков за грубое поведение или спам в чате либо полностью их заблокировать для своей онлайн-комнаты.</string>
 <string name="HowToPlayTextMap">У каждого игрока есть личная карта, которая поможет ориентироваться на корабле.</string>
@@ -144,9 +151,21 @@
 <string name="HowToPlayTextImp5">Занимайтесь саботажем и запутывайте других.</string>
 <string name="HowToPlayTextImp6">Блокируйте двери и готовьте засады.</string>
 <string name="HowToPlayTextImp7">Убивайте по окончании перезарядки.</string>
-<string name="HowToPlayText5">Играете вместе? Никаких разговоров! Игра должна быть честной.\%nl\%\%nl\%Игроки, убитые предателем, молчат до конца игры.\%nl\%\%nl\%Призраки по-прежнему могут выполнять задания, чтобы помочь команде победить.</string>
-<string name="HowToPlayText6">Если кто-то сообщил о трупе или созвал срочное собрание, команда пытается вычислить предателя.\%nl\%\%nl\%Теперь игроки могут открыто предполагать, кто предатель, и делиться наблюдениями. Если вы играете вместе, призраки должны молчать, поскольку им точно известно, кто предатель.\%nl\%\%nl\%Предатели попытаются доказать свою невиновность или перевести подозрения на другого игрока.</string>
-<string name="HowToPlayText7">После обсуждения проголосуйте за игрока, которого вы считаете предателем.\%nl\%\%nl\%Игрок, набравший большинство голосов, будет выброшен, так что хорошо обдумайте свое решение!\%nl\%\%nl\%Если имеющихся у вас сведений недостаточно, можно пропустить голосование, чтобы не выбросить невиновного и собрать больше информации.</string>
+<string name="HowToPlayText5">Играете вместе? Никаких разговоров! Игра должна быть честной.
+
+Игроки, убитые предателем, молчат до конца игры.
+
+Призраки по-прежнему могут выполнять задания, чтобы помочь команде победить.</string>
+<string name="HowToPlayText6">Если кто-то сообщил о трупе или созвал срочное собрание, команда пытается вычислить предателя.
+
+Теперь игроки могут открыто предполагать, кто предатель, и делиться наблюдениями. Если вы играете вместе, призраки должны молчать, поскольку им точно известно, кто предатель.
+
+Предатели попытаются доказать свою невиновность или перевести подозрения на другого игрока.</string>
+<string name="HowToPlayText7">После обсуждения проголосуйте за игрока, которого вы считаете предателем.
+
+Игрок, набравший большинство голосов, будет выброшен, так что хорошо обдумайте свое решение!
+
+Если имеющихся у вас сведений недостаточно, можно пропустить голосование, чтобы не выбросить невиновного и собрать больше информации.</string>
 <string name="HowToPlayText81">Практикуйтесь в режиме тренировки!</string>
 <string name="HowToPlayText82">Подберите себе задания, сыграв за члена экипажа, или отточите навыки убийства в роли предателя.</string>
 <string name="SettingsGeneral">Общее</string>
@@ -213,12 +232,39 @@
 <string name="RoomCodeInfo">Нажмите, чтобы скопировать</string>
 <string name="LeaveGame">Покинуть игру</string>
 <string name="ReturnToGame">Вернуться в игру</string>
-<string name="LocalHelp">Проблемы с соединением?\%nl\%\%nl\%● Убедитесь, что все игроки подключены к одной точке доступа Wi-Fi.\%nl\%● Убедитесь, что у всех игроков установлена одна и та же версия игры (указана в правом нижнем углу).\%nl\%● Убедитесь, что сигнал Wi-Fi стабилен.\%nl\%● Попробуйте сменить владельца создаваемой игры.\%nl\%● Попробуйте перезапустить приложение.\%nl\%● Попробуйте перезапустить устройство.\%nl\%● Не получилось решить проблему? Напишите нам по адресу support@innersloth.com!</string>
-<string name="OnlineHelp">Как все устроено?\%nl\%\%nl\%● После создания игры вы увидите код на панели лобби.\%nl\%● Поделитесь кодом с друзьями для создания частной комнаты.\%nl\%● Нажмите «Частная», если хотите сделать комнату открытой для поиска другими игроками.\%nl\%● Владелец может выгнать или заблокировать любого игрока, если доступен чат.\%nl\%● Остались вопросы? Напишите нам по адресу support@innersloth.com!</string>
-<string name="EmergencyCount">ЕЩЁ СРОЧНЫХ СОБРАНИЙ:\%nl\%\%nl\%\%nl\%\%nl\%СТОЛЬКО МОЖЕТ СОЗВАТЬ {0}</string>
-<string name="EmergencyNotReady">ТРЕБУЕТСЯ ПОДОЖДАТЬ\%nl\%\%nl\%\%nl\%\%nl\%ДО СЛЕДУЮЩЕГО СОБРАНИЯ:</string>
-<string name="EmergencyDuringCrisis">СРОЧНОЕ СОБРАНИЕ НЕЛЬЗЯ\%nl\%СОЗВАТЬ В КРИЗИС</string>
-<string name="EmergencyRequested">ЗАПРОС НА СРОЧНОЕ СОБРАНИЕ\%nl\%\%nl\%\%nl\%\%nl\%ОЖИДАНИЕ ВЛАДЕЛЬЦА</string>
+<string name="LocalHelp">Проблемы с соединением?
+
+● Убедитесь, что все игроки подключены к одной точке доступа Wi-Fi.
+● Убедитесь, что у всех игроков установлена одна и та же версия игры (указана в правом нижнем углу).
+● Убедитесь, что сигнал Wi-Fi стабилен.
+● Попробуйте сменить владельца создаваемой игры.
+● Попробуйте перезапустить приложение.
+● Попробуйте перезапустить устройство.
+● Не получилось решить проблему? Напишите нам по адресу support@innersloth.com!</string>
+<string name="OnlineHelp">Как все устроено?
+
+● После создания игры вы увидите код на панели лобби.
+● Поделитесь кодом с друзьями для создания частной комнаты.
+● Нажмите «Частная», если хотите сделать комнату открытой для поиска другими игроками.
+● Владелец может выгнать или заблокировать любого игрока, если доступен чат.
+● Остались вопросы? Напишите нам по адресу support@innersloth.com!</string>
+<string name="EmergencyCount">ЕЩЁ СРОЧНЫХ СОБРАНИЙ:
+
+
+
+СТОЛЬКО МОЖЕТ СОЗВАТЬ {0}</string>
+<string name="EmergencyNotReady">ТРЕБУЕТСЯ ПОДОЖДАТЬ
+
+
+
+ДО СЛЕДУЮЩЕГО СОБРАНИЯ:</string>
+<string name="EmergencyDuringCrisis">СРОЧНОЕ СОБРАНИЕ НЕЛЬЗЯ
+СОЗВАТЬ В КРИЗИС</string>
+<string name="EmergencyRequested">ЗАПРОС НА СРОЧНОЕ СОБРАНИЕ
+
+
+
+ОЖИДАНИЕ ВЛАДЕЛЬЦА</string>
 <string name="AdPolicyTitle">Рекламная политика</string>
 <string name="AdPolicyText">Разрешите нам использовать ваши данные для подбора персонализированной рекламы. Если вы выберете «Да», наши партнеры Google AdMob и Unity Ads начнут автоматически собирать данные и использовать идентификаторы устройств и файлы cookie для подбора рекламы, соответствующей вашим интересам. Если нажать «Нет», вы все равно будете видеть стандартную рекламу. Можно также приобрести специальное обновление [httpstore]по этой ссылке[], и тогда в играх, владельцем которых вы являетесь, ни вы, ни ваши друзья рекламы видеть не будут! Чтобы узнать больше о практиках конфиденциальности наших партнеров по рекламе, см. нашу [https://www.innersloth.com/ru/privacy-policy-russian/]Политику конфиденциальности[]. Решение можно изменить в любой момент в разделе «Данные» меню настроек.</string>
 <string name="Accept">Принять</string>
@@ -226,11 +272,14 @@
 <string name="PlainYes">Да</string>
 <string name="PlainNo">Нет</string>
 <string name="PrivacyPolicyTitle">Политика конфиденциальности</string>
-<string name="PrivacyPolicyText">Обработкой персональных данных для Among Us занимается компания Innersloth. Ознакомьтесь с \%link="https://www.innersloth.com/ru/privacy-policy-russian/"\%Политикой конфиденциальности\%/link\%, чтобы узнать больше о том, как мы обеспечиваем конфиденциальность информации. Настройки персональных данных в Among Us находятся в разделе «Данные».\%nl\%\%nl\%Перед началом игры в Among Us прочитайте наши \%link="https://www.innersloth.com/ru/terms-of-use-website-rus/"\%Условия использования\%/link\%.</string>
+<string name="PrivacyPolicyText">Обработкой персональных данных для Among Us занимается компания Innersloth. Ознакомьтесь с {link="https://www.innersloth.com/ru/privacy-policy-russian/"}Политикой конфиденциальности{/link}, чтобы узнать больше о том, как мы обеспечиваем конфиденциальность информации.
+
+Перед началом игры в Among Us прочитайте наши {link="https://www.innersloth.com/ru/terms-of-use-website-rus/"}Условия использования{/link}.</string>
 <string name="ManageDataButton">Настройка сбора данных</string>
 <string name="UnderstandButton">Я понимаю</string>
 <string name="WaterPlants">Полить растения</string>
-<string name="WeatherEta">Время:\%nl\%{0} с</string>
+<string name="WeatherEta">Время:
+{0} с</string>
 <string name="WeatherComplete">Завершено</string>
 <string name="RunDiagnostics">Провести диагностику</string>
 <string name="SettingShort">Короткая</string>
@@ -299,29 +348,57 @@
 <string name="GameOverImpostorDead">В обычной игре экипаж бы победил, так как предатель мертв. Во время тренировки всех просто оживляют.</string>
 <string name="GameOverImpostorKills">В обычной игре предатель бы победил, так как экипаж уже не может выиграть. Во время тренировки всех просто оживляют.</string>
 <string name="GameOverTaskWin">В обычной игре экипаж бы победил, так как шкала заданий заполнена. Во время тренировки просто назначают новые задания.</string>
-<string name="GameOverSabotage">В обычной игре предатель\%nl\%бы победил, так как саботаж\%nl\%достиг критического уровня.\%nl\%В песочнице саботаж просто\%nl\%устраняется.</string>
-<string name="HowToPlayText2Switch">Можно играть онлайн в команде от 4 до 15 человек\%nl\%\%nl\%с членством Nintendo Switch Online или через локальный Wi-Fi!</string>
+<string name="GameOverSabotage">В обычной игре предатель
+бы победил, так как саботаж
+достиг критического уровня.
+В песочнице саботаж просто
+устраняется.</string>
+<string name="HowToPlayText2Switch">Можно играть онлайн в команде от 4 до 15 человек
+
+с членством Nintendo Switch Online или через локальный Wi-Fi!</string>
 <string name="VentDirection">Направление в вентиляции</string>
 <string name="VentMove">Движение по вентиляции</string>
 <string name="MenuNavigate">Навигация</string>
 <string name="NsoError">Не удаётся подключиться к сети.</string>
-<string name="ErrorServerOverload">Серверы Among Us перегружены.\%nl\%\%nl\%Повторите попытку позже.</string>
+<string name="ErrorServerOverload">Серверы Among Us перегружены.
+
+Повторите попытку позже.</string>
 <string name="ErrorIntentionalLeaving">Вы намеренно отключились от предыдущей игры и не можете присоединиться к новой еще {0} мин.</string>
 <string name="ErrorFocusLost">Вы были отключены, так как открыли другое приложение после запуска Among Us.</string>
-<string name="ErrorBanned">Вас заблокировали в комнате {0}.\%nl\%\%nl\%В нее нельзя вернуться.</string>
-<string name="ErrorKicked">Вас исключили из комнаты {0}.\%nl\%\%nl\%Если игра еще не началась, вы можете вернуться.</string>
-<string name="ErrorBannedNoCode">Вас заблокировали в этой комнате.\%nl\%\%nl\%В нее нельзя вернуться.</string>
-<string name="ErrorKickedNoCode">Вас исключили из этой комнаты.\%nl\%\%nl\%Если игра еще не началась, вы можете вернуться.</string>
-<string name="ErrorHacking">Вас заблокировали за взлом игры.\%nl\%\%nl\%Больше так не делайте.</string>
-<string name="ErrorFullGame">В этой игре уже достаточно участников.\%nl\%\%nl\%Спросите владельца, можете ли вы присоединиться к следующему раунду.</string>
-<string name="ErrorStartedGame">Эта игра уже началась.\%nl\%\%nl\%Спросите владельца, можете ли вы присоединиться к следующему раунду.</string>
+<string name="ErrorBanned">Вас заблокировали в комнате {0}.
+
+В нее нельзя вернуться.</string>
+<string name="ErrorKicked">Вас исключили из комнаты {0}.
+
+Если игра еще не началась, вы можете вернуться.</string>
+<string name="ErrorBannedNoCode">Вас заблокировали в этой комнате.
+
+В нее нельзя вернуться.</string>
+<string name="ErrorKickedNoCode">Вас исключили из этой комнаты.
+
+Если игра еще не началась, вы можете вернуться.</string>
+<string name="ErrorHacking">Вас заблокировали за взлом игры.
+
+Больше так не делайте.</string>
+<string name="ErrorFullGame">В этой игре уже достаточно участников.
+
+Спросите владельца, можете ли вы присоединиться к следующему раунду.</string>
+<string name="ErrorStartedGame">Эта игра уже началась.
+
+Спросите владельца, можете ли вы присоединиться к следующему раунду.</string>
 <string name="ErrorNotFoundGame">Не удалось найти подходящую игру.</string>
 <string name="ErrorInactivity">Игра остановлена со стороны сервера. Скорее всего, игроки были неактивны.</string>
-<string name="ErrorGenericOnlineDisconnect">Соединение с сервером разорвано.\%nl\%Если это происходит регулярно, проверьте работу сети.\%nl\%Проблема также может быть на стороне сервера.</string>
-<string name="ErrorGenericLocalDisconnect">Соединение с владельцем комнаты разорвано.\%nl\%\%nl\%Если это происходит регулярно, проверьте работу сети Wi-Fi.</string>
+<string name="ErrorGenericOnlineDisconnect">Соединение с сервером разорвано.
+Если это происходит регулярно, проверьте работу сети.
+Проблема также может быть на стороне сервера.</string>
+<string name="ErrorGenericLocalDisconnect">Соединение с владельцем комнаты разорвано.
+
+Если это происходит регулярно, проверьте работу сети Wi-Fi.</string>
 <string name="ErrorInvalidName">Сервер отклонил ник {0}</string>
 <string name="ErrorUnknown">Соединение с сервером разорвано из-за неизвестной ошибки.</string>
-<string name="ErrorIncorrectVersion">У вас установлена устаревшая версия игры.\%nl\%\%nl\%Обновите приложение, чтобы подключиться к другим игрокам.</string>
+<string name="ErrorIncorrectVersion">У вас установлена устаревшая версия игры.
+
+Обновите приложение, чтобы подключиться к другим игрокам.</string>
 <string name="ServerNA">Северная Америка</string>
 <string name="ServerEU">Европа</string>
 <string name="ServerAS">Азия</string>
@@ -397,7 +474,9 @@
 <string name="MedWT">ВЕС:</string>
 <string name="MedETA">ВРЕМЯ: {0}</string>
 <string name="MedHello">ПРИВЕТ!</string>
-<string name="LobbySizeWarning">В Among Us можно играть вчетвером, но рекомендуется собрать команду из пяти и больше игроков.\%nl\%\%nl\%Игры вчетвером быстро заканчиваются, а побеждает в них часто предатель.</string>
+<string name="LobbySizeWarning">В Among Us можно играть вчетвером, но рекомендуется собрать команду из пяти и больше игроков.
+
+Игры вчетвером быстро заканчиваются, а побеждает в них часто предатель.</string>
 <string name="Okay">Ясно</string>
 <string name="OkayDontShow">Больше не показывать</string>
 <string name="Nevermind">Закрыть</string>
@@ -791,7 +870,14 @@
 <string name="GoOffline">Выйти из сети</string>
 <string name="PlayAsGuest">Играть как гость</string>
 <string name="LogInTitle">Войти в аккаунт</string>
-<string name="LogInInfoText">Создайте аккаунт Among Us или войдите в него, чтобы получить доступ к таким функциям игры, как:\%nl\%\%nl\%— Синхронизация прогресса между устройствами\%nl\%— Обычный чат\%nl\%— Привязка косметических предметов\%nl\%— И многому другому!\%nl\%\%nl\%В зависимости от типа аккаунта для доступа к некоторым функциям может потребоваться разрешение родителя или опекуна.</string>
+<string name="LogInInfoText">Создайте аккаунт Among Us или войдите в него, чтобы получить доступ к таким функциям игры, как:
+
+— Синхронизация прогресса между устройствами
+— Обычный чат
+— Привязка косметических предметов
+— И многому другому!
+
+В зависимости от типа аккаунта для доступа к некоторым функциям может потребоваться разрешение родителя или опекуна.</string>
 <string name="LogInInfoTextSwitch">Если у вас нет аккаунта, он будет создан автоматически.</string>
 <string name="ControllerDisconnectedMessage">Геймпад отключен</string>
 <string name="FollowUs">Подпишитесь на нас!</string>
@@ -874,7 +960,9 @@
 <string name="ProgressLabel">Загружено:</string>
 <string name="TermsOfUseTitle">Условия использования</string>
 <string name="PPAndToUTitle">Политика конфиденциальности и условия использования</string>
-<string name="ErrorNotAuthenticated">Серверы Among Us не смогли аутентифицировать вас.\%nl\%\%nl\%Для игры по сети необходим аккаунт Among Us.</string>
+<string name="ErrorNotAuthenticated">Серверы Among Us не смогли аутентифицировать вас.
+
+Для игры по сети необходим аккаунт Among Us.</string>
 <string name="ComePlayDiscord">Давай сыграем в Among Us!</string>
 <string name="ShowAccountSupportID5">Показать ID поддержки аккаунта</string>
 <string name="ShowAccountSupportID4">Нажмите еще 4 раза, чтобы увидеть ID</string>
@@ -1343,18 +1431,33 @@
 <string name="LinkAccount">Привязать аккаунт</string>
 <string name="CreateNewAccount">Создать новый аккаунт</string>
 <string name="LinkExistingAccount">Привязать существующий аккаунт</string>
-<string name="LinkAccountExplanation">Если у вас уже есть аккаунт Among Us на другой платформе, вы можете создать привязку к нему!\%nl\%Вы также можете создать новый аккаунт.</string>
-<string name="LinkAccountCode">Введите следующий код по ссылке \%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\%</string>
+<string name="LinkAccountExplanation">Если у вас уже есть аккаунт Among Us на другой платформе, вы можете создать привязку к нему!
+Вы также можете создать новый аккаунт.</string>
+<string name="LinkAccountCode">Введите следующий код по ссылке {link="{0}"}{1}{/link} 
+{size=+2}{2}{/size}</string>
 <string name="ErrorLink">При привязке аккаунта произошла ошибка. Повторите попытку позже.</string>
 <string name="UnlinkAccount">Отвязать аккаунт</string>
 <string name="ConfirmUnlinkAccount">Подтвердите отвязку аккаунта</string>
-<string name="UnlinkAccountExplain">Если вы отвяжете аккаунт {0}, все его данные будут удалены, а для вас будет создан новый аккаунт {0}.\%nl\%— Вы потеряете все полученные или разблокированные предметы на аккаунте {0}.\%nl\%— Вам придется начать заново с 1 уровня и 0 ед. опыта.</string>
-<string name="UnlinkAccountExplainConfirm">Сохраните этот ID на будущее: \%nl\%\%nl\%{0}\%nl\%\%nl\%Если вы отвяжете аккаунт, не сохранив этот ID, мы не сможем восстановить прогресс в игре и помочь вам, если произойдет какая-то ошибка.</string>
+<string name="UnlinkAccountExplain">Если вы отвяжете аккаунт {0}, все его данные будут удалены, а для вас будет создан новый аккаунт {0}.
+— Вы потеряете все полученные или разблокированные предметы на аккаунте {0}.
+— Вам придется начать заново с 1 уровня и 0 ед. опыта.</string>
+<string name="UnlinkAccountExplainConfirm">Сохраните этот ID на будущее: 
+
+{0}
+
+Если вы отвяжете аккаунт, не сохранив этот ID, мы не сможем восстановить прогресс в игре и помочь вам, если произойдет какая-то ошибка.</string>
 <string name="UnlinkError">При отвязке аккаунта произошла ошибка. Повторите попытку позже.</string>
 <string name="UnlinkSuccess">Вы успешно отвязали аккаунт {0} от основного аккаунта Among Us!</string>
 <string name="ConfirmLinkExistingAccount">Подтвердите привязку к существующему аккаунту</string>
-<string name="LinkExistingAccountExplain">После привязки к другому аккаунту Among Us все данные на этой платформе будут переписаны. Это означает, что ваш аккаунт {0} будет заменен на другой.\%nl\%— Все предметы, разблокированные на аккаунте {0}, будут переписаны.\%nl\%— Весь опыт, полученный на аккаунте {0}, будет переписан.\%nl\%— Все бобы, капсулы и звезды будут переписаны.</string>
-<string name="LinkExistingAccountExplainConfirm">После подтверждения этого действия мы сбросим данные вашего аккаунта {0} для подготовки к переносу данных из другого аккаунта Among Us.\%nl\%\%nl\%\%color=#{1}\%ПЕРЕД ПОДТВЕРЖДЕНИЕМ УБЕДИТЕСЬ, ЧТО У ВАС ЕСТЬ ДРУГОЙ АККАУНТ, КОТОРЫЙ НУЖНО ПРИВЯЗАТЬ К ЭТОМУ.\%/color\%\%nl\%\%nl\%После сброса данных на аккаунте {0} останется 0 ед. опыта, бобов, капсул и других предметов. Мы НЕ СМОЖЕМ отменить это действие.</string>
+<string name="LinkExistingAccountExplain">После привязки к другому аккаунту Among Us все данные на этой платформе будут переписаны. Это означает, что ваш аккаунт {0} будет заменен на другой.
+— Все предметы, разблокированные на аккаунте {0}, будут переписаны.
+— Весь опыт, полученный на аккаунте {0}, будет переписан.
+— Все бобы, капсулы и звезды будут переписаны.</string>
+<string name="LinkExistingAccountExplainConfirm">После подтверждения этого действия мы сбросим данные вашего аккаунта {0} для подготовки к переносу данных из другого аккаунта Among Us.
+
+{color=#{1}}ПЕРЕД ПОДТВЕРЖДЕНИЕМ УБЕДИТЕСЬ, ЧТО У ВАС ЕСТЬ ДРУГОЙ АККАУНТ, КОТОРЫЙ НУЖНО ПРИВЯЗАТЬ К ЭТОМУ.{/color}
+
+После сброса данных на аккаунте {0} останется 0 ед. опыта, бобов, капсул и других предметов. Мы НЕ СМОЖЕМ отменить это действие.</string>
 <string name="ResetAccount">Сбросить данные аккаунта</string>
 <string name="PurchasingLabel">Покупка предмета</string>
 <string name="ErrorInternalServer">Внутренняя ошибка сервера (код — {0})</string>
@@ -1440,13 +1543,15 @@
 <string name="RoleChanceAndQuantity">{0} с шансом {1} %</string>
 <string name="CheckingPurchasesLabel">Проверка покупок...</string>
 <string name="ProtectedRecently">Кого-то защитил ангел-хранитель...</string>
-<string name="ScientistBlurbMed">Проверяйте пульс в любой момент.\%nl\%Выполняйте задания, чтобы зарядить батарею.</string>
+<string name="ScientistBlurbMed">Проверяйте пульс в любой момент.
+Выполняйте задания, чтобы зарядить батарею.</string>
 <string name="ScientistBlurbLong">У ученого всегда есть доступ к переносной панели проверки пульса, позволяющий оценить состояние членов экипажа. Но ей необходима постоянная подзарядка, поэтому ученому нужно будет выполнять задания, чтобы заряжать батарею.</string>
 <string name="EngineerBlurbMed">Можно использовать вентиляцию.</string>
 <string name="EngineerBlurbLong">Инженер — это член экипажа, который может использовать вентиляцию, чтобы быстрее передвигаться и ловить предателей прямо на месте преступления. Однако оставаться там вечно нельзя, так что следите за теми, кто находится рядом с вами...</string>
 <string name="GuardianAngelBlurbMed">Окружите оставшихся членов экипажа щитом.</string>
 <string name="GuardianAngelBlurbLong">Ангел-хранитель — это призрак первого умершего члена экипажа. Он может временно защищать других живых членов экипажа. Выберите верный момент для использования щита, и тогда вы сможете помешать предателям убить свою жертву. Счастливчики!</string>
-<string name="ShapeshifterBlurbMed">Не дайте себя раскрыть, превращаясь в других\%nl\%членов экипажа.</string>
+<string name="ShapeshifterBlurbMed">Не дайте себя раскрыть, превращаясь в других
+членов экипажа.</string>
 <string name="ShapeshifterBlurbLong">Оборотень может изменить свой внешний вид, маскируясь под других членов экипажа. Используйте эту способность с умом, чтобы подставлять других игроков и вносить сумятицу в поиски предателя. Но будьте осторожны: через некоторое время маскировка спадет и оставит улики, указывающие на ее использование.</string>
 <string name="RoleHint">Совет</string>
 <string name="ScientistBatteryCharge">Время работы батареи</string>
@@ -1476,7 +1581,10 @@
 <string name="Cosmetic.skin_vi">Наряд Вай</string>
 <string name="Cosmetic.pet_poro">Поро Хеймердингера</string>
 <string name="RedeemPurchasedItemsTitle">Получение купленных предметов</string>
-<string name="RedeemPurcahsedItemsExplain">У нас появилась новая система инвентаря, которая позволит получить доступ к предметам с разных платформ! Все купленные ранее на этой платформе предметы можно будет перенести в новую систему инвентаря ТОЛЬКО ОДИН РАЗ.\%nl\%Если это ваш основной аккаунт Among Us (платформа, на которой вы чаще всего играете в Among Us), нажмите «Продолжить», чтобы перенести купленное дополнение в новую систему инвентаря. Если вы только собираетесь связать этот аккаунт с основным аккаунтом, то переносить дополнение следует после успешной привязки!\%nl\%\%nl\%ID аккаунта: {0}</string>
+<string name="RedeemPurcahsedItemsExplain">У нас появилась новая система инвентаря, которая позволит получить доступ к предметам с разных платформ! Все купленные ранее на этой платформе предметы можно будет перенести в новую систему инвентаря ТОЛЬКО ОДИН РАЗ.
+Если это ваш основной аккаунт Among Us (платформа, на которой вы чаще всего играете в Among Us), нажмите «Продолжить», чтобы перенести купленное дополнение в новую систему инвентаря. Если вы только собираетесь связать этот аккаунт с основным аккаунтом, то переносить дополнение следует после успешной привязки!
+
+ID аккаунта: {0}</string>
 <string name="RedeemProceed">Продолжить</string>
 <string name="RedeemNotYet">Не сейчас</string>
 <string name="RedeemNever">Больше не спрашивать</string>
@@ -1535,7 +1643,8 @@
 <string name="Cosmetic.skin_witch">Эксцентричная ведьма</string>
 <string name="Cosmetic.pet_frankendog">Франкенпес</string>
 <string name="Cosmetic.hat_mohawk_bubblegum">Хардкор (жвачка)</string>
-<string name="AvailableFor">Доступно в течение \%nl\%{0} дн. {1} ч {2} мин {3} с</string>
+<string name="AvailableFor">Доступно в течение 
+{0} дн. {1} ч {2} мин {3} с</string>
 <string name="GuardianAngelImpostorSeeProtect">Предатели видят щит</string>
 <string name="Cosmetic.hat_pkHW01_PlagueHat">Чума</string>
 <string name="QCAccIsRole">{0} — {1}</string>
@@ -1552,7 +1661,11 @@
 <string name="QCResProtected">{0} защитил(-а) игрока {1}</string>
 <string name="QCResProtected_ANY_QCCrewMe">Игрок {0} защитил меня</string>
 <string name="QCRoles">Роли</string>
-<string name="GuestProgressionWarning">Вы вошли в гостевой аккаунт!\%nl\%\%nl\%Все заработанные капсулы, бобы и опыт действуют только для этого гостевого аккаунта. Гостевые аккаунты привязаны к конкретному устройству. При смене устройства их данные пропадают.\%nl\%\%nl\%Чтобы сохранить доступ к валюте и покупкам, откройте вкладку аккаунта в главном меню и войдите в свой аккаунт Among Us.</string>
+<string name="GuestProgressionWarning">Вы вошли в гостевой аккаунт!
+
+Все заработанные капсулы, бобы и опыт действуют только для этого гостевого аккаунта. Гостевые аккаунты привязаны к конкретному устройству. При смене устройства их данные пропадают.
+
+Чтобы сохранить доступ к валюте и покупкам, откройте вкладку аккаунта в главном меню и войдите в свой аккаунт Among Us.</string>
 <string name="ErrorFailedToCreateGame">Не удалось создать сеанс игры. Повторите попытку позже.</string>
 <string name="ErrorFailedToJoinCreatedGame">Не удалось присоединиться к созданному сеансу игры. Повторите попытку позже.</string>
 <string name="ErrorDisconnectBeforeJoining">Соединение разорвано до подключения к сеансу игры.</string>
@@ -1644,7 +1757,9 @@
 <string name="BlockedPlayers">Заблокированные игроки</string>
 <string name="RecentPlayers">Недавно играли с вами</string>
 <string name="LobbyLabel">Лобби</string>
-<string name="FriendCodeExplanation">В Among Us появился список друзей! Чтобы отправлять и получать приглашения в игру или предложения дружбы, выберите уникальный код друга ниже.\%nl\%\%nl\%Код можно выбрать только один раз.</string>
+<string name="FriendCodeExplanation">В Among Us появился список друзей! Чтобы отправлять и получать приглашения в игру или предложения дружбы, выберите уникальный код друга ниже.
+
+Код можно выбрать только один раз.</string>
 <string name="FriendCodeSuccess">Ваш код друга: {0}</string>
 <string name="FriendRequestReceived">Получено предложение дружбы</string>
 <string name="FriendRequestSent">Предложение дружбы отправлено</string>
@@ -1681,7 +1796,8 @@
 <string name="ErrorTooManyRequests">Слишком много запросов на присоединение к лобби. Подождите пару минут и попробуйте снова.</string>
 <string name="TempDisabled">Временно отключено</string>
 <string name="TempDisabledLinkExplain">Мы вносим изменения в аккаунты, поэтому функция привязки аккаунтов временно ограничена. Мы скоро исправим это в будущем обновлении!</string>
-<string name="RedeemPopup">Вот подарок от нашего экипажа!\%nl\%{0}.</string>
+<string name="RedeemPopup">Вот подарок от нашего экипажа!
+{0}.</string>
 <string name="RedeemButton">Получить</string>
 <string name="ErrorMaxFriends">Ваш список друзей переполнен.</string>
 <string name="ErrorPlayerBlockedYou">Ошибка: пользователь заблокирован вами или заблокировал вас.</string>
@@ -1693,10 +1809,14 @@
 <string name="Decontamination3">Нижняя зона дезинфекции</string>
 <string name="ErrorCommunications">Не удается присоединиться к игре из-за настроек коммуникации. Для подключения активируйте функцию коммуникации с другими игроками.</string>
 <string name="SettingsColorblind">Подписывать цвет</string>
-<string name="MergeGuestAccountText">Похоже, на этом устройстве используется \%link="https://www.innersloth.com/merging-guest-accounts/"\%гостевой аккаунт\%/link\% ! Игра больше не поддерживает гостевые аккаунты, поэтому мы привяжем все предметы, валюты и опыт гостевого аккаунта к этому аккаунту {0}.\%nl\%\%nl\%Если вы используете это устройство (компьютер, телефон и т. д.) совместно с другими пользователями, то этот гостевой аккаунт вы тоже используете СОВМЕСТНО. Если вы продолжите, другие пользователи устройства не смогут привязать этот гостевой аккаунт, а выполнить объединение можно только ОДИН раз. Вы НЕ сможете еще раз перераспределить предметы, валюту и опыт этого гостевого аккаунта.\%nl\%\%nl\%Подтвердите, что вы хотите объединить свой гостевой аккаунт с аккаунтом {0}.</string>
+<string name="MergeGuestAccountText">Похоже, на этом устройстве используется {link="https://www.innersloth.com/merging-guest-accounts/"}гостевой аккаунт{/link} ! Игра больше не поддерживает гостевые аккаунты, поэтому мы привяжем все предметы, валюты и опыт гостевого аккаунта к этому аккаунту {0}.
+
+Если вы используете это устройство (компьютер, телефон и т. д.) совместно с другими пользователями, то этот гостевой аккаунт вы тоже используете СОВМЕСТНО. Если вы продолжите, другие пользователи устройства не смогут привязать этот гостевой аккаунт, а выполнить объединение можно только ОДИН раз. Вы НЕ сможете еще раз перераспределить предметы, валюту и опыт этого гостевого аккаунта.
+
+Подтвердите, что вы хотите объединить свой гостевой аккаунт с аккаунтом {0}.</string>
 <string name="MergeGuestAccountTitle">Привязать гост. акк.</string>
 <string name="ManageAccountTitle">Управл. аккаунтом</string>
-<string name="ManageAccountText">Посетите \%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% , чтобы изменить настройки аккаунта, объединить аккаунты или задать вопрос.</string>
+<string name="ManageAccountText">Посетите {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} , чтобы изменить настройки аккаунта, объединить аккаунты или задать вопрос.</string>
 <string name="Cosmetic.visor_BaconVisor">Доброе утро</string>
 <string name="Cosmetic.hat_Baguette">Хлеб и зрелища</string>
 <string name="Cosmetic.skin_Bananaskin">Peanut Butter Jelly Time</string>
@@ -1766,12 +1886,15 @@
 <string name="Cosmetic.nameplate_Orange">Заводной апельсин</string>
 <string name="Cosmetic.hat_sausage">Завязочки</string>
 <string name="SignInIssueTitle">Ошибка аккаунта {0}</string>
-<string name="SignInIssueText">{0} нельзя использовать для создания аккаунта Among Us из-за возрастных ограничений {0}.\%nl\%\%nl\%Вы можете и дальше играть в Among Us на этом устройстве, но в целях безопасности некоторые функции работать не будут, например привязка аккаунта, покупка звёзд и перенос предметов на новое устройство. Если у вас есть вопросы, напишите нам на адрес support@innersloth.com.</string>
+<string name="SignInIssueText">{0} нельзя использовать для создания аккаунта Among Us из-за возрастных ограничений {0}.
+
+Вы можете и дальше играть в Among Us на этом устройстве, но в целях безопасности некоторые функции работать не будут, например привязка аккаунта, покупка звёзд и перенос предметов на новое устройство. Если у вас есть вопросы, напишите нам на адрес support@innersloth.com.</string>
 <string name="FriendListUnavailable">Список друзей недоступен</string>
 <string name="ErrorSanction">Ваш аккаунт был заблокирован {1}. Причина: {0}.</string>
 <string name="SanctionDuration">до {0}</string>
 <string name="SanctionPermanent">навсегда</string>
-<string name="SanctionConduct">\%nl\%Рекомендуем изучить и принять к сведению наши \%link="https://www.innersloth.com/ru/code-of-conduct-russian/"\%правила поведения\%/link\%!</string>
+<string name="SanctionConduct">
+Рекомендуем изучить и принять к сведению наши {link="https://www.innersloth.com/ru/code-of-conduct-russian/"}правила поведения{/link}!</string>
 <string name="SanctionSexualMisconduct">противоправные сексуальные действия</string>
 <string name="SanctionDoxing">передача или публикация персональной информации или угроза таких действий</string>
 <string name="SanctionIllegalActivity">участие в незаконной деятельности или ее пропаганда</string>
@@ -1845,10 +1968,14 @@
 <string name="Cosmetic.visor_hl_nudge">Подмигивание</string>
 <string name="Cosmetic.visor_hl_marine">Повязка Marine</string>
 <string name="Cosmetic.visor_hl_wrong">Ха-ха, что могло пойти не так?</string>
-<string name="AccountDeleteHelp">Нажав «Подтвердить», вы отправите запрос на полное удаление всех ваших данных Among Us. Запрос будет обрабатываться от 7 до 14 дней. В результате все ваши звезды, опыт, бобы, капсулы и купленные косметические предметы будут удалены. После полного удаления вашего аккаунта это действие нельзя будет отменить. До завершения этого процесса ваш аккаунт будет работать как обычно.\%nl\%\%nl\%При обнаружении ошибок обратитесь по адресу support@innersloth.com.</string>
+<string name="AccountDeleteHelp">Нажав «Подтвердить», вы отправите запрос на полное удаление всех ваших данных Among Us. Запрос будет обрабатываться от 7 до 14 дней. В результате все ваши звезды, опыт, бобы, капсулы и купленные косметические предметы будут удалены. После полного удаления вашего аккаунта это действие нельзя будет отменить. До завершения этого процесса ваш аккаунт будет работать как обычно.
+
+При обнаружении ошибок обратитесь по адресу support@innersloth.com.</string>
 <string name="DeleteAccount">Удалить аккаунт</string>
 <string name="DoNotDeleteAccount">Отменить удаление аккаунта</string>
-<string name="AccountUnDeleteHelp">Нажав «Подтвердить», вы остановите процесс удаления вашего аккаунта. Если вы хотите удалить свой аккаунт, вам будет нужно повторно отправить запрос на удаление.\%nl\%\%nl\%При обнаружении ошибок обратитесь по адресу support@innersloth.com.</string>
+<string name="AccountUnDeleteHelp">Нажав «Подтвердить», вы остановите процесс удаления вашего аккаунта. Если вы хотите удалить свой аккаунт, вам будет нужно повторно отправить запрос на удаление.
+
+При обнаружении ошибок обратитесь по адресу support@innersloth.com.</string>
 <string name="ConfirmDelete">Для подтверждения напишите слово «DELETE»</string>
 <string name="ConfirmDeleteAccounts">Если вы понимаете, что ваш аккаунт и все связанные с ним аккаунты ({0}) будут удалены, нажмите здесь.</string>
 <string name="ConfirmDeleteAccountsEmpty">Если вы понимаете, что ваш аккаунт и все связанные с ним аккаунты будут удалены, нажмите здесь.</string>
@@ -1866,7 +1993,8 @@
 <string name="Ghost">Призрак</string>
 <string name="CurrentlyHaunting">Сейчас преследует:</string>
 <string name="RoundRobin">Выбор предателя</string>
-<string name="RuleOneCrewmates">Продержитесь, пока не истечет время.\%nl\%Выполнение заданий уменьшает время.</string>
+<string name="RuleOneCrewmates">Продержитесь, пока не истечет время.
+Выполнение заданий уменьшает время.</string>
 <string name="RuleTwoCrewmates">Прячьтесь в вентиляции и используйте измеритель уровня опасности!</string>
 <string name="RuleThreeCrewmates">Когда время истечет, предатель сможет выследить вас!</string>
 <string name="RuleOneImpostor">Ликвидируйте всех членов экипажа за отведенное время!</string>
@@ -1896,20 +2024,29 @@
 <string name="DefaultFilterTag_Casual">Обыватель</string>
 <string name="DefaultFilterTag_Serious">Крутой</string>
 <string name="DefaultFilterTag_Expert">Эксперт</string>
-<string name="TagFiltersHelpFindGame">Вы можете отсортировать критерии поиска, воспользовавшись фильтрами в выпадающем списке. Выбранные фильтры будут \%i\%непосредственно\%/i\% влиять на результаты поиска.\%nl\%\%nl\%Например, если вы выберете фильтры \%b\%Обыватель\%/b\% и \%b\%Эксперт\%/b\%, вы будете находить игры только с параметрами \%b\%Обыватель\%/b\% и \%b\%Эксперт\%/b\%.</string>
-<string name="TagFiltersHelpCreate">Вы можете помечать игру фильтрами, которые помогут игрокам найти ее. Выбранные фильтры будут \%i\%непосредственно\%/i\% влиять на результаты поиска.\%nl\%\%nl\%Например, если вы выберете фильтры \%b\%Обыватель\%/b\% и \%b\%Эксперт\%/b\%, игроки, выбравшие фильтры \%b\%Обыватель\%/b\% и \%b\%Эксперт\%/b\%, смогут найти вашу игру.</string>
+<string name="TagFiltersHelpFindGame">Вы можете отсортировать критерии поиска, воспользовавшись фильтрами в выпадающем списке. Выбранные фильтры будут {i}непосредственно{/i} влиять на результаты поиска.
+
+Например, если вы выберете фильтры {b}Обыватель{/b} и {b}Эксперт{/b}, вы будете находить игры только с параметрами {b}Обыватель{/b} и {b}Эксперт{/b}.</string>
+<string name="TagFiltersHelpCreate">Вы можете помечать игру фильтрами, которые помогут игрокам найти ее. Выбранные фильтры будут {i}непосредственно{/i} влиять на результаты поиска.
+
+Например, если вы выберете фильтры {b}Обыватель{/b} и {b}Эксперт{/b}, игроки, выбравшие фильтры {b}Обыватель{/b} и {b}Эксперт{/b}, смогут найти вашу игру.</string>
 <string name="CreateLabel">Создать</string>
 <string name="NewGameMode">Новый игровой режим!</string>
-<string name="NewModeInfo">Ставки высоки, и кровь быстрее бежит по жилам: игра началась! \%nl\%\%i\%Кстати, это не обычные прятки...\%/i\%</string>
+<string name="NewModeInfo">Ставки высоки, и кровь быстрее бежит по жилам: игра началась! 
+{i}Кстати, это не обычные прятки...{/i}</string>
 <string name="HideSeekHowToPlayCaptionOne">Все как всегда!</string>
 <string name="HideSeekHowToPlayCaptionTwo">Члены экипажа!</string>
 <string name="HideSeekHowToPlayCaptionThree">Предатели!</string>
-<string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%Члены экипажа:\%/b\%\%/color\% выполняйте задания, чтобы ускорить время, избегайте предателя и постарайтесь выжить до конца раунда.\%nl\%\%nl\%\%color=#FF3131\%\%b\%Предатель:\%/b\%\%/color\% найдите членов экипажа и убейте их.</string>
+<string name="HideSeekHowToPlayPageOne">{color=#38F25D}{b}Члены экипажа:{/b}{/color} выполняйте задания, чтобы ускорить время, избегайте предателя и постарайтесь выжить до конца раунда.
+
+{color=#FF3131}{b}Предатель:{/b}{/color} найдите членов экипажа и убейте их.</string>
 <string name="HideSeekHowToPlaySubtextOne">Кровь стынет в жилах. Дедукция здесь не поможет.</string>
 <string name="HideSeekHowToPlayCrewmateInfoOne">Выживут только те, кто отточит умение прятаться до идеала.</string>
 <string name="HideSeekHowToPlayCrewmateInfoTwo">В этом режиме вы можете прятаться в вентиляции, а также использовать высокотехнологичный измеритель уровня опасности, который предупредит о приближении предателя. Поле зрения предателя ограничено, так что действуйте хитро. Используйте вентиляцию и визоры, чтобы не попасться ему на глаза!</string>
 <string name="HideSeekHowToPlayImpostorInfoOne">В этом режиме предатели не могут попасть в вентиляционные отверстия, поэтому, чтобы поймать жертву, нужно действовать быстро. Кстати, там кромешная тьма! К счастью, у вас будет при себе фонарик.</string>
-<string name="HideSeekHowToPlayFinalHide">Обрааатный отсчеееет. Когда время игры истекает, предатель получает усиление: он становится быстрее, получает карту поиска и подсказки в виде сигналов, указывающих, где находятся члены экипажа.\%nl\%\%nl\%Принимайте решения быстро и убегайте, чтобы победить!</string>
+<string name="HideSeekHowToPlayFinalHide">Обрааатный отсчеееет. Когда время игры истекает, предатель получает усиление: он становится быстрее, получает карту поиска и подсказки в виде сигналов, указывающих, где находятся члены экипажа.
+
+Принимайте решения быстро и убегайте, чтобы победить!</string>
 <string name="HideSeekHowToPlayFlashlightMobile">Используйте виртуальный джойстик в правой части экрана, чтобы управлять фонариком и убивать всех членов экипажа, которых сможете найти!</string>
 <string name="HideSeekHowToPlayFlashlightDefault">Используйте мышь, чтобы управлять фонариком и убивать всех членов экипажа, которых сможете найти!</string>
 <string name="HideSeekHowToPlayFlashlightConsoles">Используйте правый мини-джойстик, чтобы управлять фонариком. Убивайте всех членов экипажа, которых сможете найти!</string>
@@ -2032,7 +2169,9 @@
 <string name="Cosmetic.nameplate_hunter">Гордость охотника</string>
 <string name="Cosmetic.nameplate_lightfall">Конец Света</string>
 <string name="AnnouncementErrorSubtitle">Ой-ой! Объявления саботированы!</string>
-<string name="AnnouncementErrorText">Похоже, что-то пошло не так. Чтобы получить все новости и исправления для Among Us, проверьте наличие соединения с Интернетом и обновлений.\%nl\%\%nl\%Если проблема не решится, обратитесь за помощью в техподдержку по адресу support@innersloth.com.</string>
+<string name="AnnouncementErrorText">Похоже, что-то пошло не так. Чтобы получить все новости и исправления для Among Us, проверьте наличие соединения с Интернетом и обновлений.
+
+Если проблема не решится, обратитесь за помощью в техподдержку по адресу support@innersloth.com.</string>
 <string name="ReadMoreLabel">для просмотра полного списка объявлений!</string>
 <string name="ReturnToList">Вернуться к списку</string>
 <string name="NavigateLinks">Перейти по ссылкам</string>
@@ -2056,7 +2195,8 @@
 <string name="AgeVerificationTitle">Подтверждение возраста</string>
 <string name="AgeVerificationInfoTitle">Что такое подтверждение возраста?</string>
 <string name="AgeVerificationInfo">Перед тем, как начать играть в Among Us, необходимо подтвердить свой возраст. Мы не храним сведения о вашей дате рождения.</string>
-<string name="AgeVerificationMoreInfo">Подробнее о нашей политике использования персональных данных можно узнать по ссылке\%nl\% \%link="https://www.innersloth.com/ru/privacy-policy-russian/"\%https://www.innersloth.com/ru/privacy-policy-russian/\%/link\%</string>
+<string name="AgeVerificationMoreInfo">Подробнее о нашей политике использования персональных данных можно узнать по ссылке
+ {link="https://www.innersloth.com/ru/privacy-policy-russian/"}https://www.innersloth.com/ru/privacy-policy-russian/{/link}</string>
 <string name="EditLabel">Редактировать</string>
 <string name="VerifyAgeText">Это действительно дата вашего рождения?</string>
 <string name="Cosmetic.nameplate_flagMlm">Флаг МЛМ</string>
@@ -2114,9 +2254,15 @@
 <string name="Cosmetic.skin_PusheenPurpleskin">Pusheen — лиловая пастель</string>
 <string name="Cosmetic.skin_Slothskin">Sloth</string>
 <string name="Cosmetic.hat_bearyCold">Медвежий холод</string>
-<string name="EosAccountSilentMergeFail">Произошла ошибка при настройке аккаунта Among Us. Повторите попытку или продолжите через гостевой аккаунт. Весь прогресс будет сохранён, но мы рекомендуем завершить настройку, чтобы использовать все возможности Among Us.\%nl\%\%nl\%Повторить попытку?</string>
-<string name="AskForEosAccount">У вас уже есть аккаунт Among Us (или учётная запись Epic Online Services)?\%nl\%\%nl\%Если на этом устройстве вы уже играли в Among Us, выберите «Да».</string>
-<string name="KwsCreateFail">Ой-ой! Что-то пошло не так, и нам не удалось отправить запрос на разрешение вашему родителю или опекуну. Повторите попытку или продолжите офлайн.\%nl\%\%nl\%Попробовать ещё раз?</string>
+<string name="EosAccountSilentMergeFail">Произошла ошибка при настройке аккаунта Among Us. Повторите попытку или продолжите через гостевой аккаунт. Весь прогресс будет сохранён, но мы рекомендуем завершить настройку, чтобы использовать все возможности Among Us.
+
+Повторить попытку?</string>
+<string name="AskForEosAccount">У вас уже есть аккаунт Among Us (или учётная запись Epic Online Services)?
+
+Если на этом устройстве вы уже играли в Among Us, выберите «Да».</string>
+<string name="KwsCreateFail">Ой-ой! Что-то пошло не так, и нам не удалось отправить запрос на разрешение вашему родителю или опекуну. Повторите попытку или продолжите офлайн.
+
+Попробовать ещё раз?</string>
 <string name="MissingGuardianEmailText">В вашем аккаунте отсутствует адрес электронной почты родителя или опекуна. Чтобы продолжить, нам нужно его разрешение. Мы отправим письмо на электронную почту родителя/опекуна, и при условии его согласия вы сможете пользоваться свободным чатом в сетевой игре и изменить имя пользователя. Попросите взрослых помочь!</string>
 <string name="MiningPit">Карьер</string>
 <string name="Jungle">Джунгли</string>
@@ -2191,7 +2337,9 @@
 <string name="Cosmetic.nameplate_cliffs">Твёрдые осадки</string>
 <string name="ReportNotificationHeader">Спасибо, что помогаете поддерживать безопасность и дружелюбие в Among Us!</string>
 <string name="ReportNotificationBody">Команда модераторов рассмотрит ваше сообщение и предпримет соответствующие действия в согласии с Правилами поведения.</string>
-<string name="ErrorClientTimeout">Соединение с сервером разорвано. Причиной могут быть проблемы на сервере, в сети или с вашим устройством. Проверьте работу сети.\%nl\%\%nl\%Если подобное случается часто, возможно, ваше устройство слишком старое или не отвечает минимальным системным требованиям. Попробуйте запустить игру на другом устройстве.</string>
+<string name="ErrorClientTimeout">Соединение с сервером разорвано. Причиной могут быть проблемы на сервере, в сети или с вашим устройством. Проверьте работу сети.
+
+Если подобное случается часто, возможно, ваше устройство слишком старое или не отвечает минимальным системным требованиям. Попробуйте запустить игру на другом устройстве.</string>
 <string name="ErrorClientTimeoutConsole">Вы отключились от сервера. Это может быть связано с проблемами сервера или сети. Проверьте ваше сетевое подключение.</string>
 <string name="Cosmetic.hat_NewYear2024">Новый 2024 год!</string>
 <string name="Cosmetic.nameplate_Celeste">Вверх и вперёд</string>
@@ -2319,7 +2467,9 @@
 <string name="Cosmetic.nameplate_lny_goldCrewmate">Операция «Повезло»</string>
 <string name="Cosmetic.nameplate_lny_goldImpostor">Операция «Не повезло»</string>
 <string name="AprilFoolsModeToggle">Режим Дня дураков (огранич. косметич. предметы)</string>
-<string name="ErrorAuthNonceFailure">Саботаж! При входе на серверы Among Us произошла ошибка. Попробуйте ещё раз.\%nl\%\%nl\%Если ошибка повторится, пожалуйста, отправьте запрос \%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%в службу поддержки\%/link\%.</string>
+<string name="ErrorAuthNonceFailure">Саботаж! При входе на серверы Among Us произошла ошибка. Попробуйте ещё раз.
+
+Если ошибка повторится, пожалуйста, отправьте запрос {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}в службу поддержки{/link}.</string>
 <string name="Cosmetic.nameplate_crewmatesBlue">Модный экипаж (синий)</string>
 <string name="Cosmetic.nameplate_crewmatesRed">Модный экипаж (красный)</string>
 <string name="Cosmetic.nameplate_horseHeaven">Конь в вакууме</string>
@@ -2408,7 +2558,8 @@
 <string name="PhantomAbilityUndo">Появиться</string>
 <string name="PhantomRole">Фантом</string>
 <string name="PhantomBlurb">Станьте невидимкой</string>
-<string name="PhantomBlurbMed">Станьте невидимкой, чтобы красться и скрываться\%nl\%с места преступления.</string>
+<string name="PhantomBlurbMed">Станьте невидимкой, чтобы красться и скрываться
+с места преступления.</string>
 <string name="PhantomBlurbLong">Фантом может стать невидимкой, чтобы незаметно подобраться к члену экипажа или покинуть место преступления, не будучи пойманным. Убивать фантом-невидимка не может, однако трапы и зиплайны ― к его услугам. При превращении в невидимку или обратно образуется большое облако дыма ― поэтому убедитесь, что поблизости нет никого из экипажа! И ещё: правильно выбирайте момент для превращения. Ничто не длится вечно, даже невидимость.</string>
 <string name="PhantomCooldown">Перезарядка для невидимости</string>
 <string name="PhantomDuration">Длительность невидимости</string>
@@ -2526,18 +2677,25 @@
 <string name="ChatLabel">Чат</string>
 <string name="NoneLowercaseLabel">нет</string>
 <string name="ToolTipDefault">Задайте настройки для вашего лобби.</string>
-<string name="ToolTipClassic">Среди экипажа затесались предатели!\%nl\%Найдите их и попытайтесь выгнать.</string>
-<string name="ToolTipHide">Игра в кошки-мышки. Хорошенько спрячьтесь\%nl\%и не попадайтесь на глаза!</string>
+<string name="ToolTipClassic">Среди экипажа затесались предатели!
+Найдите их и попытайтесь выгнать.</string>
+<string name="ToolTipHide">Игра в кошки-мышки. Хорошенько спрячьтесь
+и не попадайтесь на глаза!</string>
 <string name="ToolTipCapacity">Максимальное число игроков, которые могут войти в лобби.</string>
 <string name="ToolTipServer">Регион сервера, в котором будет создана игра.</string>
 <string name="ToolTipCrossplay">Игроки со всех платформ смогут войти в лобби.</string>
 <string name="ToolTipNoCrossplay">Войти смогут только те, кто играет на той же платформе, что и вы.</string>
 <string name="ToolTipLanguage">Язык, который будет использоваться для общения в игре.</string>
-<string name="ToolTipSkeld">The Skeld ― корабль средних размеров со множеством помещений\%nl\%и коридоров. Идеально для новичков.</string>
-<string name="ToolTipMIRA">MIRA HQ ― небольшая штаб-квартира с длинными коридорами\%nl\%и разветвлённой системой вентиляции.</string>
-<string name="ToolTipPolus">Polus ― планетарная база средних размеров\%nl\%с крытыми и открытыми зонами.</string>
-<string name="ToolTipAirship">The Airship — большой дирижабль со множеством помещений,\%nl\%где можно спрятаться от чужих глаз.</string>
-<string name="ToolTipFungle">The Fungle — большой остров с песчаным пляжем,\%nl\%густыми джунглями и горными плато.</string>
+<string name="ToolTipSkeld">The Skeld ― корабль средних размеров со множеством помещений
+и коридоров. Идеально для новичков.</string>
+<string name="ToolTipMIRA">MIRA HQ ― небольшая штаб-квартира с длинными коридорами
+и разветвлённой системой вентиляции.</string>
+<string name="ToolTipPolus">Polus ― планетарная база средних размеров
+с крытыми и открытыми зонами.</string>
+<string name="ToolTipAirship">The Airship — большой дирижабль со множеством помещений,
+где можно спрятаться от чужих глаз.</string>
+<string name="ToolTipFungle">The Fungle — большой остров с песчаным пляжем,
+густыми джунглями и горными плато.</string>
 <string name="ConfirmSettings">Подтвердить</string>
 <string name="ConfirmSettingsTooltip">Вы создаёте лобби со следующими настройками:</string>
 <string name="EnterCodeElipsis">Введите код...</string>
@@ -2580,11 +2738,16 @@
 <string name="FilterTagTooltip">Фильтрация по тегу лобби.</string>
 <string name="TooltipTag">Добавьте тег, чтобы привлечь игроков определённого уровня.</string>
 <string name="SelectedLabel">ВЫБРАНО:</string>
-<string name="TooltipSpeedInfo">\%b\%Низ.:\%/b\% 0,5-0,75х	\%b\%Выс.:\%/b\% 1,75-2,25х\%nl\%\%b\%Сред.:\%/b\% 1-1,5х	\%b\%Оч. выс.:\%/b\% 2,5-3х</string>
-<string name="TooltipKillCDInfo">\%b\%Низ.:\%/b\% 10-20 с.	\%b\%Выс.:\%/b\% 37,5-47,5 с.\%nl\%\%b\%Сред.:\%/b\% 22,5-35 с.	\%b\%Оч. выс.:\%/b\% 50-60 с.</string>
-<string name="TooltipVotingInfo">\%b\%Низ.:\%/b\% 0-60 с.	\%b\%Выс.:\%/b\% 150-210 с.\%nl\%\%b\%Сред.:\%/b\% 75-135 с.	\%b\%Оч. выс.:\%/b\% 225-300 с.</string>
-<string name="TooptipHidingTimeInfo">\%b\%Низ.:\%/b\% 160-180 с.	\%b\%Выс.:\%/b\% 260-300 с.\%nl\%\%b\%Сред.:\%/b\% 200-240 с.</string>
-<string name="TooltipFinalTimeInfo">\%b\%Низ.:\%/b\% 30-45 с.	\%b\%Выс.:\%/b\% 75-95 с.\%nl\%\%b\%Сред.:\%/b\% 50-70 с.	\%b\%Оч. выс.:\%/b\% 100-120 с.</string>
+<string name="TooltipSpeedInfo">{b}Низ.:{/b} 0,5-0,75х	{b}Выс.:{/b} 1,75-2,25х
+{b}Сред.:{/b} 1-1,5х	{b}Оч. выс.:{/b} 2,5-3х</string>
+<string name="TooltipKillCDInfo">{b}Низ.:{/b} 10-20 с.	{b}Выс.:{/b} 37,5-47,5 с.
+{b}Сред.:{/b} 22,5-35 с.	{b}Оч. выс.:{/b} 50-60 с.</string>
+<string name="TooltipVotingInfo">{b}Низ.:{/b} 0-60 с.	{b}Выс.:{/b} 150-210 с.
+{b}Сред.:{/b} 75-135 с.	{b}Оч. выс.:{/b} 225-300 с.</string>
+<string name="TooptipHidingTimeInfo">{b}Низ.:{/b} 160-180 с.	{b}Выс.:{/b} 260-300 с.
+{b}Сред.:{/b} 200-240 с.</string>
+<string name="TooltipFinalTimeInfo">{b}Низ.:{/b} 30-45 с.	{b}Выс.:{/b} 75-95 с.
+{b}Сред.:{/b} 50-70 с.	{b}Оч. выс.:{/b} 100-120 с.</string>
 <string name="FilterNoMaps">Карты не выбраны.</string>
 <string name="Cosmetic.hat_kamurocho_ichiban">Причёска Ichiban Kasuga</string>
 <string name="Cosmetic.hat_kamurocho_ono">Шляпа Ono Michio</string>
@@ -2657,7 +2820,8 @@
 <string name="DetectiveAbility">Допрос</string>
 <string name="DetectiveAbilityNotes">Заметки</string>
 <string name="DetectiveBlurb">Собирайте информацию. Раскрывайте убийства.</string>
-<string name="DetectiveBlurbMed">Добавить информацию в Заметки.\%nl\%Допросить экипаж.</string>
+<string name="DetectiveBlurbMed">Добавить информацию в Заметки.
+Допросить экипаж.</string>
 <string name="DetectiveNotesEmpty">Как только произойдёт убийство, мне нужно будет его расследовать...</string>
 <string name="DetectiveNearLocation">Возле: {0}</string>
 <string name="DetectiveNotesKiller">{0}</string>
@@ -2736,7 +2900,8 @@
 <string name="RewardAdTitle">ВЫ ПОЛУЧИЛИ ЗВЕЗДУ!</string>
 <string name="RewardAdBody1">Вы сможете получить звезду через {0} ч.</string>
 <string name="RewardAdBody2">Вы сможете получить звезду через {0} ч.</string>
-<string name="WatchAdErrorBody">Возникла проблема при загрузке рекламы.\%nl\%Повторите попытку позже.</string>
+<string name="WatchAdErrorBody">Возникла проблема при загрузке рекламы.
+Повторите попытку позже.</string>
 <string name="WatchAdErrorTitle">ОЙ-ОЙ…</string>
 <string name="Cosmetic.hat_phoenix_wright">Ирокез Феникса Райта</string>
 <string name="Cosmetic.skin_phoenix_wright">Костюм Феникса Райта</string>
@@ -2802,4 +2967,27 @@
 <string name="Cosmetic.skin_parasite_Yellow">Фартук Жёлтого</string>
 <string name="Cosmetic.pet_parasite_Stressball">Надёжный мячик</string>
 <string name="Cosmetic.nameplate_parasite_Impostor">Он у тебя за спиной!</string>
+<string name="JudgeRole">Судья</string>
+<string name="JudgeBlurb">Руководите собранием</string>
+<string name="JudgeBlurbMed">Возьмите собрание под свой контроль, чтобы выбросить предателя.
+Если вы ошибётесь, то будете выброшены.</string>
+<string name="JudgeBlurbLong">Взять голосование под контроль</string>
+<string name="JudgeTaskRequirement">% открытых заданий</string>
+<string name="RolesHelp_Judge_01">Способность судьи под названием «Приговор» позволяет ему использовать специальный голос против одного из членов экипажа, которого судья считает предателем.</string>
+<string name="RolesHelp_Judge_02">Когда он использует эту способность, все остальные голоса не считаются. Если судья окажется прав, предателя выбрасывают. Если судья ошибся, выбрасывают его.</string>
+<string name="JudgeAbilityUnlocked">Открыта способность судьи</string>
+<string name="JudgeAbilityProgress">Выполните столько заданий, чтобы стать судьёй: {0}.</string>
+<string name="JudgeCourtAdjourned">Вердикт вынесен...</string>
+<string name="JudgeHasSpoken">Судья принял решение.</string>
+<string name="StatsJudgeSuccessfulOverrules">Успешные приговоры:</string>
+<string name="StatsJudgeFailedOverrules">Неуспешные приговоры:</string>
+<string name="JudgeBeatYouToIt">Судья принял решение.
+(Другой судья принял решение раньше вас)</string>
+<string name="QCJudges">Судьи?</string>
+<string name="QCJudgeOverrule">Я вынесу приговор</string>
+<string name="QCJudgePlease">Вынесите приговор {0}</string>
+<string name="QCJudgeWillOverrule">Я вынесу приговор {0}</string>
+<string name="MatchInfoGuideTitle">Информация о матче</string>
+<string name="MatchInfoGuidePlayersLabel">Игроки</string>
+<string name="MatchInfoGuideNoRolesMessage">Нет активных ролей</string>
 </resources>

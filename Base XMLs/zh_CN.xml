@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
 <string name="LocalButton">本地</string>
 <string name="OnlineButton">在线</string>
 <string name="HowToPlayButton">玩法说明</string>
@@ -30,14 +31,14 @@
 <string name="ImpostorsRemainP">剩下 {0} 个伪装者。</string>
 <string name="Hallway">通道</string>
 <string name="Engines">引擎室</string>
-<string name="LangCzech">上引擎室</string>
+<string name="UpperEngine">上引擎室</string>
 <string name="Cafeteria">食堂</string>
 <string name="Weapons">舰载武器室</string>
 <string name="Reactor">核反应堆</string>
 <string name="Security">保安室</string>
 <string name="MedBay">医务室</string>
 <string name="LifeSupp">氧气室</string>
-<string name="LangGreek">导航室</string>
+<string name="Nav">导航室</string>
 <string name="LowerEngine">下引擎室</string>
 <string name="Electrical">配电室</string>
 <string name="Admin">管理室</string>
@@ -87,13 +88,14 @@
 <string name="EnterIdCode">输入识别码</string>
 <string name="BuyBeverage">购买饮品</string>
 <string name="ProcessData">处理数据</string>
-<string name="NumImpostorsS">我们当中有 \%color=#FF1919FF\%1 个伪装者\%/color\%</string>
-<string name="NumImpostorsP">我们当中有 \%color=#FF1919FF\%{0} 名伪装者\%/color\%</string>
+<string name="NumImpostorsS">我们当中有 {color=#FF1919FF}1 个伪装者{/color}</string>
+<string name="NumImpostorsP">我们当中有 {color=#FF1919FF}{0} 名伪装者{/color}</string>
 <string name="Crewmate">船员</string>
 <string name="Impostor">伪装者</string>
 <string name="Victory">胜利</string>
 <string name="Defeat">失败</string>
-<string name="CrewmatesDisconnected">大部分船员\%nl\%已断线</string>
+<string name="CrewmatesDisconnected">大部分船员
+已断线</string>
 <string name="ImpostorDisconnected">伪装者已断线</string>
 <string name="PickAnomaly">找出异常情况</string>
 <string name="WaterPlantsGetCan">取得浇花壶！</string>
@@ -124,10 +126,16 @@
 <string name="MeetingVotingResults">投票结果</string>
 <string name="MeetingProceeds">实行倒计时：{0} 秒</string>
 <string name="MeetingHasVoted">{0} 已投票。尚余 {1} 人未投票。</string>
-<string name="HowToPlayText1">《Among Us》是一个关于团队合作与背叛的游戏。\%nl\%\%nl\%玩家分别会扮演船员和伪装者。</string>
+<string name="HowToPlayText1">《Among Us》是一个关于团队合作与背叛的游戏。
+
+玩家分别会扮演船员和伪装者。</string>
 <string name="HowToPlayText2">在线或通过区域无线网与 4 至 15 名玩家一起游玩！</string>
 <string name="HowToPlayText41">游戏的主持人可以决定游玩的方式。</string>
-<string name="HowToPlayText42">首先要决定和谁一起游玩！\%nl\%\%nl\%如果您想和好友在线游玩，设置为“私人”然后分享房间代码给好友即可。\%nl\%\%nl\%如果您想和世界各地的玩家一起游玩，就设为“公开”。</string>
+<string name="HowToPlayText42">首先要决定和谁一起游玩！
+
+如果您想和好友在线游玩，设置为“私人”然后分享房间代码给好友即可。
+
+如果您想和世界各地的玩家一起游玩，就设为“公开”。</string>
 <string name="HowToPlayText43">想要加入更多任务、加快行走速度，或添加更多伪装者？作为主持人，这些设置都可更改。不过要记得先和玩家同伴们确认这些更改。</string>
 <string name="HowToPlayText44">如果有人不礼貌或滥发信息，主持人可以将玩家暂时踢出以示警告，也可以封禁玩家进入特定线上房间。</string>
 <string name="HowToPlayTextMap">玩家拥有一张属于自己的地图，以便在船上四处移动。</string>
@@ -144,9 +152,21 @@
 <string name="HowToPlayTextImp5">破坏飞船让船员混乱。</string>
 <string name="HowToPlayTextImp6">关门困住受害者。</string>
 <string name="HowToPlayTextImp7">在冷却的空档杀光船员。</string>
-<string name="HowToPlayText5">为了维持船员和伪装者双方的公平性，面对面游玩时不能说话。\%nl\%\%nl\%如果有玩家被伪装者杀死，该玩家在游戏结束前都不能说话。\%nl\%\%nl\%幽灵仍需继续进行自己分配到的任务，为船员阵营争取胜利。</string>
-<string name="HowToPlayText6">有人报告发现尸体或召集紧急会议时，船员们将聚在一起讨论关于伪装者的已知信息。\%nl\%\%nl\%玩家这时可以开诚布公地说出自己怀疑谁是伪装者，以及自己有什么信息。在面对面游玩时，由于幽灵已经知道谁是伪装者，所以不能说话。\%nl\%\%nl\%伪装者必须试着证明自己的无辜，或是指控其他船员。</string>
-<string name="HowToPlayText7">讨论过后，就把票投给您认为是伪装者的人。\%nl\%\%nl\%得到最多票的人会遭到驱逐离开飞船，所以要审慎投票！\%nl\%\%nl\%如果您没有足够的信息，而且其他船员也都这么认为，则可以跳过投票来避免放逐无辜组员，然后收集更多情报。</string>
+<string name="HowToPlayText5">为了维持船员和伪装者双方的公平性，面对面游玩时不能说话。
+
+如果有玩家被伪装者杀死，该玩家在游戏结束前都不能说话。
+
+幽灵仍需继续进行自己分配到的任务，为船员阵营争取胜利。</string>
+<string name="HowToPlayText6">有人报告发现尸体或召集紧急会议时，船员们将聚在一起讨论关于伪装者的已知信息。
+
+玩家这时可以开诚布公地说出自己怀疑谁是伪装者，以及自己有什么信息。在面对面游玩时，由于幽灵已经知道谁是伪装者，所以不能说话。
+
+伪装者必须试着证明自己的无辜，或是指控其他船员。</string>
+<string name="HowToPlayText7">讨论过后，就把票投给您认为是伪装者的人。
+
+得到最多票的人会遭到驱逐离开飞船，所以要审慎投票！
+
+如果您没有足够的信息，而且其他船员也都这么认为，则可以跳过投票来避免放逐无辜组员，然后收集更多情报。</string>
 <string name="HowToPlayText81">在练习模式下训练一下！</string>
 <string name="HowToPlayText82">您可以设置作为船员的任务或扮演伪装者来演练杀戮计划！</string>
 <string name="SettingsGeneral">一般</string>
@@ -213,12 +233,36 @@
 <string name="RoomCodeInfo">点击即可复制</string>
 <string name="LeaveGame">离开游戏</string>
 <string name="ReturnToGame">返回游戏</string>
-<string name="LocalHelp">遇到连线问题？\%nl\%\%nl\%● 请确认全员都已连接到名称相同的 WiFi\%nl\%●请确保所有人的游戏版本相同（详见右下角）\%nl\%● 确认您的 WiFi 信号强度足够\%nl\%● 有时换个人来主持能协助解决问题\%nl\%● 有时重启应用程序能协助解决问题...\%nl\%● 有时重启手机也能协助解决问题...\%nl\%● 问题还没解决怎么办？请通过 support@innersloth.com 与我们联系！</string>
-<string name="OnlineHelp">如何使用？\%nl\%\%nl\%● 主持游戏时，在大厅面板旁边会显示一组游戏代码。\%nl\%● 与好友分享这组游戏代码来创建私人房间。\%nl\%● 也可点击“私人”将房间公开，以在“搜索游戏”检索。\%nl\%● 可聊天时，主持人可以将玩家封禁或踢出。\%nl\%● 问题还没解决怎么办？请通过 support@innersloth.com 与我们联系！</string>
-<string name="EmergencyCount">船员 {0} 还剩\%nl\%\%nl\%\%nl\%\%nl\%次紧急会议</string>
-<string name="EmergencyNotReady">船员必须等待\%nl\%\%nl\%\%nl\%\%nl\%才能再次召开紧急会议</string>
-<string name="EmergencyDuringCrisis">发生危机时\%nl\%无法召开紧急会议</string>
-<string name="EmergencyRequested">已要求召开紧急会议\%nl\%正在等待主持人</string>
+<string name="LocalHelp">遇到连线问题？
+
+● 请确认全员都已连接到名称相同的 WiFi
+●请确保所有人的游戏版本相同（详见右下角）
+● 确认您的 WiFi 信号强度足够
+● 有时换个人来主持能协助解决问题
+● 有时重启应用程序能协助解决问题...
+● 有时重启手机也能协助解决问题...
+● 问题还没解决怎么办？请通过 support@innersloth.com 与我们联系！</string>
+<string name="OnlineHelp">如何使用？
+
+● 主持游戏时，在大厅面板旁边会显示一组游戏代码。
+● 与好友分享这组游戏代码来创建私人房间。
+● 也可点击“私人”将房间公开，以在“搜索游戏”检索。
+● 可聊天时，主持人可以将玩家封禁或踢出。
+● 问题还没解决怎么办？请通过 support@innersloth.com 与我们联系！</string>
+<string name="EmergencyCount">船员 {0} 还剩
+
+
+
+次紧急会议</string>
+<string name="EmergencyNotReady">船员必须等待
+
+
+
+才能再次召开紧急会议</string>
+<string name="EmergencyDuringCrisis">发生危机时
+无法召开紧急会议</string>
+<string name="EmergencyRequested">已要求召开紧急会议
+正在等待主持人</string>
 <string name="AdPolicyTitle">广告条款</string>
 <string name="AdPolicyText">我们可以使用您的个人数据为您定制广告吗？如果单击“是”，那么我们的广告合作伙伴（例如 Google AdMob 和 Unity Ads）将自动收集数据，并使用设备标识符和 Cookie 推荐个性化广告。如果单击“否”，那么您可能仍会看到非个性化广告。若要移除所有广告，请在[httpstore]这里[]购买无广告升级，这样在您主持游戏时，您和好友就完全看不到广告！如需详细了解我们和广告合作伙伴的隐私处理方法，请查看我们的[https://www.innersloth.com/zh/privacy-policy-chinese/]隐私政策[]。您可以随时在“设置”菜单的“数据”下更改您的决定。</string>
 <string name="Accept">接受</string>
@@ -226,11 +270,14 @@
 <string name="PlainYes">是</string>
 <string name="PlainNo">否</string>
 <string name="PrivacyPolicyTitle">隐私条款</string>
-<string name="PrivacyPolicyText">《Among Us》的数据由 Innersloth 进行处理。请阅读我们的\%link="https://www.innersloth.com/zh/privacy-policy-chinese/"\%隐私政策\%/link\%，详细了解我们的隐私处理方法。您可以在“数据”下管理《Among Us》的个人数据设置。\%nl\%\%nl\%在玩《Among Us》之前，请阅读我们的 \%link="https://www.innersloth.com/zh/terms-of-services-games-cn/"\%使用条款\%/link\%。</string>
+<string name="PrivacyPolicyText">《Among Us》的数据由 Innersloth 进行处理。请阅读我们的{link="https://www.innersloth.com/zh/privacy-policy-chinese/"}隐私政策{/link}，详细了解我们的隐私处理方法。
+
+在玩《Among Us》之前，请阅读我们的 {link="https://www.innersloth.com/zh/terms-of-services-games-cn/"}使用条款{/link}。</string>
 <string name="ManageDataButton">管理数据收集</string>
 <string name="UnderstandButton">我理解</string>
 <string name="WaterPlants">为植物浇水</string>
-<string name="WeatherEta">预估抵达时间：\%nl\%{0} 秒</string>
+<string name="WeatherEta">预估抵达时间：
+{0} 秒</string>
 <string name="WeatherComplete">完成</string>
 <string name="RunDiagnostics">进行诊断</string>
 <string name="SettingShort">短</string>
@@ -305,23 +352,45 @@
 <string name="VentMove">穿过通风口</string>
 <string name="MenuNavigate">导航</string>
 <string name="NsoError">无法连接网络。</string>
-<string name="ErrorServerOverload">《Among Us》服务器已过载。\%nl\%\%nl\%抱歉！请稍后再试！</string>
+<string name="ErrorServerOverload">《Among Us》服务器已过载。
+
+抱歉！请稍后再试！</string>
 <string name="ErrorIntentionalLeaving">故意断线后需等待 {0} 分钟才可加入下一场游戏。</string>
 <string name="ErrorFocusLost">您的连接已中断，因为有另一个应用程序《Among Us》暂停。</string>
-<string name="ErrorBanned">您已被 {0} 封禁。\%nl\%\%nl\%您无法重新加入此房间。</string>
-<string name="ErrorKicked">您已被踢出 {0}。\%nl\%\%nl\%如果该房间尚未开始游戏，您可以重新加入。</string>
-<string name="ErrorBannedNoCode">您已被此房间封禁。\%nl\%\%nl\%您无法重新加入此房间。</string>
-<string name="ErrorKickedNoCode">您已被此房间踢出。\%nl\%\%nl\%如果该房间尚未开始游戏，您可以重新加入。</string>
-<string name="ErrorHacking">您因作弊行为而遭到封禁。\%nl\%\%nl\%请停止这种行为。</string>
-<string name="ErrorFullGame">您想要加入的游戏已满员。\%nl\%\%nl\%请询问主持人，看看下一场能否加入吧。</string>
-<string name="ErrorStartedGame">您想要加入的游戏已开始。\%nl\%\%nl\%请询问主持人，看看下一场能否加入吧。</string>
+<string name="ErrorBanned">您已被 {0} 封禁。
+
+您无法重新加入此房间。</string>
+<string name="ErrorKicked">您已被踢出 {0}。
+
+如果该房间尚未开始游戏，您可以重新加入。</string>
+<string name="ErrorBannedNoCode">您已被此房间封禁。
+
+您无法重新加入此房间。</string>
+<string name="ErrorKickedNoCode">您已被此房间踢出。
+
+如果该房间尚未开始游戏，您可以重新加入。</string>
+<string name="ErrorHacking">您因作弊行为而遭到封禁。
+
+请停止这种行为。</string>
+<string name="ErrorFullGame">您想要加入的游戏已满员。
+
+请询问主持人，看看下一场能否加入吧。</string>
+<string name="ErrorStartedGame">您想要加入的游戏已开始。
+
+请询问主持人，看看下一场能否加入吧。</string>
 <string name="ErrorNotFoundGame">找不到您在寻找的游戏。</string>
 <string name="ErrorInactivity">服务器已中止游戏，可能是因为处于非活动状态。</string>
-<string name="ErrorGenericOnlineDisconnect">您与服务器的连接已中断。\%nl\%如果这种情形频繁发生，请检查您的网络强度。\%nl\%这也可能是服务器端的问题。</string>
-<string name="ErrorGenericLocalDisconnect">您与主持人的连接已中断。\%nl\%\%nl\%如果这种情形频繁发生，请检查您的 WiFi 强度。</string>
+<string name="ErrorGenericOnlineDisconnect">您与服务器的连接已中断。
+如果这种情形频繁发生，请检查您的网络强度。
+这也可能是服务器端的问题。</string>
+<string name="ErrorGenericLocalDisconnect">您与主持人的连接已中断。
+
+如果这种情形频繁发生，请检查您的 WiFi 强度。</string>
 <string name="ErrorInvalidName">游戏服务器拒绝此用户名称：{0}</string>
 <string name="ErrorUnknown">发生未知错误，您与服务器的连接已中断。</string>
-<string name="ErrorIncorrectVersion">您运行的游戏并非最新版本。\%nl\%\%nl\%请进行更新以便与其他玩家一同游玩。</string>
+<string name="ErrorIncorrectVersion">您运行的游戏并非最新版本。
+
+请进行更新以便与其他玩家一同游玩。</string>
 <string name="ServerNA">北美洲</string>
 <string name="ServerEU">欧洲</string>
 <string name="ServerAS">亚洲</string>
@@ -397,7 +466,9 @@
 <string name="MedWT">体重：</string>
 <string name="MedETA">预计抵达时间：{0}</string>
 <string name="MedHello">您好！</string>
-<string name="LobbySizeWarning">4 名玩家就可以游玩《Among Us》了，但是建议 5 名或以上会更好玩。\%nl\%\%nl\%只有 4 人的游戏很快就会结束，而且获胜的通常都是伪装者。</string>
+<string name="LobbySizeWarning">4 名玩家就可以游玩《Among Us》了，但是建议 5 名或以上会更好玩。
+
+只有 4 人的游戏很快就会结束，而且获胜的通常都是伪装者。</string>
 <string name="Okay">好的</string>
 <string name="OkayDontShow">好了，不再显示</string>
 <string name="Nevermind">没关系</string>
@@ -791,7 +862,14 @@
 <string name="GoOffline">离线</string>
 <string name="PlayAsGuest">以游客身份游玩</string>
 <string name="LogInTitle">登录账号</string>
-<string name="LogInInfoText">登录或创建 Among Us 账号以使用如下等游戏功能：\%nl\%\%nl\%- 于特定设备间跨设备保存进度\%nl\%- 自由聊天\%nl\%- 链接造型\%nl\%- 还有更多内容！\%nl\%\%nl\%根据账号类型的不同，部分功能可能需要家长或监护人许可。</string>
+<string name="LogInInfoText">登录或创建 Among Us 账号以使用如下等游戏功能：
+
+- 于特定设备间跨设备保存进度
+- 自由聊天
+- 链接造型
+- 还有更多内容！
+
+根据账号类型的不同，部分功能可能需要家长或监护人许可。</string>
 <string name="LogInInfoTextSwitch">如果您登录完整账号，往后便可再次登录。如果您尚未拥有账号，将会自动为您创建账号。</string>
 <string name="ControllerDisconnectedMessage">控制器连接中断</string>
 <string name="FollowUs">跟随我们！</string>
@@ -874,7 +952,9 @@
 <string name="ProgressLabel">进度：</string>
 <string name="TermsOfUseTitle">使用条款</string>
 <string name="PPAndToUTitle">隐私条款与使用条款</string>
-<string name="ErrorNotAuthenticated">《Among Us》服务器无法验证您的身分。\%nl\%\%nl\%您必须拥有《Among Us》账号才能在线游玩。</string>
+<string name="ErrorNotAuthenticated">《Among Us》服务器无法验证您的身分。
+
+您必须拥有《Among Us》账号才能在线游玩。</string>
 <string name="ComePlayDiscord">来和我一起玩《Among Us》吧！</string>
 <string name="ShowAccountSupportID5">显示账号支持识别码</string>
 <string name="ShowAccountSupportID4">再按 4 次来显示</string>
@@ -1343,18 +1423,33 @@
 <string name="LinkAccount">链接账号</string>
 <string name="CreateNewAccount">创建新账号</string>
 <string name="LinkExistingAccount">链接现有账号</string>
-<string name="LinkAccountExplanation">如果您在其他平台上已有《Among Us》账号，便可链接到该账号！\%nl\%您也可以创建一个新的账号。</string>
-<string name="LinkAccountCode">在 \%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\% 输入以下代码</string>
+<string name="LinkAccountExplanation">如果您在其他平台上已有《Among Us》账号，便可链接到该账号！
+您也可以创建一个新的账号。</string>
+<string name="LinkAccountCode">在 {link="{0}"}{1}{/link} 
+{size=+2}{2}{/size} 输入以下代码</string>
 <string name="ErrorLink">链接账号时发生问题。请稍后再试。</string>
 <string name="UnlinkAccount">取消链接账号</string>
 <string name="ConfirmUnlinkAccount">确认取消链接账号</string>
-<string name="UnlinkAccountExplain">取消链接您的 {0} 账号将清除您的数据并创建新的 {0} 账号。\%nl\%- 您将丢失 {0} 账号上已获得或已解锁的物品。\%nl\%- 您将从等级 1 与 0 经验值重新开始。</string>
-<string name="UnlinkAccountExplainConfirm">请保存此识别码以供备查：\%nl\%\%nl\%{0}\%nl\%\%nl\%如果您取消链接账号时没有此识别码，若过程出错时我们便无法复原您的进度，并且无法提供协助。</string>
+<string name="UnlinkAccountExplain">取消链接您的 {0} 账号将清除您的数据并创建新的 {0} 账号。
+- 您将丢失 {0} 账号上已获得或已解锁的物品。
+- 您将从等级 1 与 0 经验值重新开始。</string>
+<string name="UnlinkAccountExplainConfirm">请保存此识别码以供备查：
+
+{0}
+
+如果您取消链接账号时没有此识别码，若过程出错时我们便无法复原您的进度，并且无法提供协助。</string>
 <string name="UnlinkError">取消账号的链接时发生问题。请稍后再试。</string>
 <string name="UnlinkSuccess">您已成功取消 {0} 与《Among Us》主要账号的链接！</string>
 <string name="ConfirmLinkExistingAccount">确认链接至现有账号</string>
-<string name="LinkExistingAccountExplain">链接至不同账号将覆盖此平台上的所有数据，这代表您的 {0}《Among Us》账号将被其他账号替换。\%nl\%- 您 {0} 账号上所有已解锁的物品将被覆盖。\%nl\%- 您 {0} 账号上所有已获得的经验值将被覆盖。\%nl\%- 所有的豆豆、舱室与星星将被覆盖。</string>
-<string name="LinkExistingAccountExplainConfirm">待您确认后，我们将重置您的 {0}《Among Us》账号，以便准备导入不同账号的数据。\%nl\%\%nl\%\%color=#{1}\%请确认您有另一个欲链接此账号的现有账号之后再继续。\%/color\%\%nl\%\%nl\%重置您的 {0} 账号将清空所有经验值、豆豆、舱室与物品。我们将“无法”还原此操作。</string>
+<string name="LinkExistingAccountExplain">链接至不同账号将覆盖此平台上的所有数据，这代表您的 {0}《Among Us》账号将被其他账号替换。
+- 您 {0} 账号上所有已解锁的物品将被覆盖。
+- 您 {0} 账号上所有已获得的经验值将被覆盖。
+- 所有的豆豆、舱室与星星将被覆盖。</string>
+<string name="LinkExistingAccountExplainConfirm">待您确认后，我们将重置您的 {0}《Among Us》账号，以便准备导入不同账号的数据。
+
+{color=#{1}}请确认您有另一个欲链接此账号的现有账号之后再继续。{/color}
+
+重置您的 {0} 账号将清空所有经验值、豆豆、舱室与物品。我们将“无法”还原此操作。</string>
 <string name="ResetAccount">重置账号</string>
 <string name="PurchasingLabel">购买物品</string>
 <string name="ErrorInternalServer">内部服务器错误 (代码 {0})</string>
@@ -1440,7 +1535,8 @@
 <string name="RoleChanceAndQuantity">几率 {1}%，最多 {0} 名</string>
 <string name="CheckingPurchasesLabel">正在确认购买...</string>
 <string name="ProtectedRecently">守护天使最近保护了某个人...</string>
-<string name="ScientistBlurbMed">随时使用生命监测能力。\%nl\%完成任务即可充电。</string>
+<string name="ScientistBlurbMed">随时使用生命监测能力。
+完成任务即可充电。</string>
 <string name="ScientistBlurbLong">科学家可以随时使用便携式生命监测面板查看船员状态。不过，便携式生命监测面板需要充电，因此科学家需要完成任务才能充电。</string>
 <string name="EngineerBlurbMed">可使用通风口。</string>
 <string name="EngineerBlurbLong">身为船员的工程师可使用通风口加速移动，也能当场抓到通风口的伪装者。您无法永远待在通风口里，因此请小心通风口附近的人...</string>
@@ -1476,7 +1572,10 @@
 <string name="Cosmetic.skin_vi">Vi 衣服</string>
 <string name="Cosmetic.pet_poro">Heimerdinger 的 Poro</string>
 <string name="RedeemPurchasedItemsTitle">兑换购买的物品</string>
-<string name="RedeemPurcahsedItemsExplain">我们推出了全新的物品库系统，这样玩家就可以跨平台使用物品！先前在此平台的购买的任何物品都可以有一次机会转移至新的物品库系统。\%nl\%如果这是您的《Among Us》主要账号 (您最常游玩《Among Us》的平台)，则可以安心地点击“继续”，在全新的物品库系统中兑换购买的可下载内容。如果这是您想用来链接主要账号的账号，只能于链接后兑换！\%nl\%\%nl\%账号识别码：{0}</string>
+<string name="RedeemPurcahsedItemsExplain">我们推出了全新的物品库系统，这样玩家就可以跨平台使用物品！先前在此平台的购买的任何物品都可以有一次机会转移至新的物品库系统。
+如果这是您的《Among Us》主要账号 (您最常游玩《Among Us》的平台)，则可以安心地点击“继续”，在全新的物品库系统中兑换购买的可下载内容。如果这是您想用来链接主要账号的账号，只能于链接后兑换！
+
+账号识别码：{0}</string>
 <string name="RedeemProceed">继续</string>
 <string name="RedeemNotYet">现在不要</string>
 <string name="RedeemNever">不再询问</string>
@@ -1535,7 +1634,8 @@
 <string name="Cosmetic.skin_witch">怪异巫婆</string>
 <string name="Cosmetic.pet_frankendog">科学怪犬</string>
 <string name="Cosmetic.hat_mohawk_bubblegum">摇滚朋克头：泡泡糖</string>
-<string name="AvailableFor">下架倒计时\%nl\%{0} 天 {1} 小时 {2} 分 {3} 秒</string>
+<string name="AvailableFor">下架倒计时
+{0} 天 {1} 小时 {2} 分 {3} 秒</string>
 <string name="GuardianAngelImpostorSeeProtect">伪装者可看见保护</string>
 <string name="Cosmetic.hat_pkHW01_PlagueHat">瘟疫鸟喙</string>
 <string name="QCAccIsRole">{0}是{1}</string>
@@ -1552,7 +1652,11 @@
 <string name="QCResProtected">{0}保护了{1}</string>
 <string name="QCResProtected_ANY_QCCrewMe">{0}保护了我</string>
 <string name="QCRoles">职业</string>
-<string name="GuestProgressionWarning">您已登录游客账号！\%nl\%\%nl\%所有已取得的经验值、舱室及豆豆只能应用于此游客账号。游客账号仅会与您的实体设备链接，更换设备将无法继续使用此账号。\%nl\%\%nl\%为确保您能使用所有获得的货币和购买物品，请开启主屏幕中的账号选项卡，登录您的《Among Us》账号。</string>
+<string name="GuestProgressionWarning">您已登录游客账号！
+
+所有已取得的经验值、舱室及豆豆只能应用于此游客账号。游客账号仅会与您的实体设备链接，更换设备将无法继续使用此账号。
+
+为确保您能使用所有获得的货币和购买物品，请开启主屏幕中的账号选项卡，登录您的《Among Us》账号。</string>
 <string name="ErrorFailedToCreateGame">创建游戏连线区失败。请稍后再试。</string>
 <string name="ErrorFailedToJoinCreatedGame">创建游戏连线区后加入失败。请稍后再试。</string>
 <string name="ErrorDisconnectBeforeJoining">加入游戏连线区时中断连线。</string>
@@ -1624,9 +1728,12 @@
 <string name="StatsScientistChargesGained">科学家获得充电次数：	</string>
 <string name="StatsGuardianAngelCrewmatesProtected">守护天使成功保护船员次数：	</string>
 <string name="StatsShapeshifterShiftedKills">变形者变形时杀人次数：	</string>
-<string name="QCOnlyInfo">您在游玩期间只能使用快速聊天功能，\%nl\%且只能与其他使用快速聊天功能的用户一同游玩。</string>
-<string name="FreeChatInfo">您在游玩期间能够使用自由聊天和快速聊天功能，\%nl\%且只能与其他使用自由聊天功能的用户一同游玩。</string>
-<string name="FreeChatWarning">您必须先登录才能使用自由聊天功能。 如果您是使用未成年账号登录，\%nl\%请前往账号选项卡并取得监护人的许可来启用自由聊天功能。</string>
+<string name="QCOnlyInfo">您在游玩期间只能使用快速聊天功能，
+且只能与其他使用快速聊天功能的用户一同游玩。</string>
+<string name="FreeChatInfo">您在游玩期间能够使用自由聊天和快速聊天功能，
+且只能与其他使用自由聊天功能的用户一同游玩。</string>
+<string name="FreeChatWarning">您必须先登录才能使用自由聊天功能。 如果您是使用未成年账号登录，
+请前往账号选项卡并取得监护人的许可来启用自由聊天功能。</string>
 <string name="FreeChatLinkWarning">不能发送网站地址！您的消息未被送达。</string>
 <string name="ScreenShakeOption">画面晃动</string>
 <string name="StreamingTwitch">开始在 Twitch 直播</string>
@@ -1644,7 +1751,9 @@
 <string name="BlockedPlayers">封锁的玩家</string>
 <string name="RecentPlayers">最近一起游玩的玩家</string>
 <string name="LobbyLabel">大厅</string>
-<string name="FriendCodeExplanation">《Among Us》现已推出“好友名单”！在下方选择一个独特的好友编号，即可发送和接收好友或游戏申请。\%nl\%\%nl\%编号一经选择就无法更改。</string>
+<string name="FriendCodeExplanation">《Among Us》现已推出“好友名单”！在下方选择一个独特的好友编号，即可发送和接收好友或游戏申请。
+
+编号一经选择就无法更改。</string>
 <string name="FriendCodeSuccess">您的好友编号是 {0}</string>
 <string name="FriendRequestReceived">已收到好友申请</string>
 <string name="FriendRequestSent">已发送好友申请</string>
@@ -1681,7 +1790,8 @@
 <string name="ErrorTooManyRequests">大厅申请的数量过多。请稍待几分钟后再试一次。</string>
 <string name="TempDisabled">暂时停用</string>
 <string name="TempDisabledLinkExplain">账号正进行更改。我们暂时限制了链接现有账号的功能。这将尽快在日后的更新中修正！</string>
-<string name="RedeemPopup">这是来自船员的礼物！\%nl\%{0}</string>
+<string name="RedeemPopup">这是来自船员的礼物！
+{0}</string>
 <string name="RedeemButton">兑换</string>
 <string name="ErrorMaxFriends">您的朋友名单已满。</string>
 <string name="ErrorPlayerBlockedYou">错误：用户列于您的封锁名单或用户封锁您。</string>
@@ -1693,10 +1803,14 @@
 <string name="Decontamination3">下去污室</string>
 <string name="ErrorCommunications">您的沟通交流设置使您无法加入游戏。如要加入此游戏，请启用与他人交流的功能。</string>
 <string name="SettingsColorblind">色盲文字</string>
-<string name="MergeGuestAccountText">此设备上似乎有\%link="https://www.innersloth.com/merging-guest-accounts/"\%游客账号\%/link\% ！我们现在已不再支持游客账号，并且会将您游客账号的所有物品、货币与纪录合并至这个 {0} 账号。\%nl\%\%nl\%如果您与其他人共享此设备 (电脑、手机等等)，请留意此游客账号是所有使用此设备的人共享的。如果您选择继续，未来此设备上的其他用户将无法合并此游客账号，因为此游客账号只可进行一次合并。您将无法再次重新分配已链接到此游客账号的物品、货币与纪录。\%nl\%\%nl\%请确认您要将游客账号合并至这个 {0} 账号。</string>
+<string name="MergeGuestAccountText">此设备上似乎有{link="https://www.innersloth.com/merging-guest-accounts/"}游客账号{/link} ！我们现在已不再支持游客账号，并且会将您游客账号的所有物品、货币与纪录合并至这个 {0} 账号。
+
+如果您与其他人共享此设备 (电脑、手机等等)，请留意此游客账号是所有使用此设备的人共享的。如果您选择继续，未来此设备上的其他用户将无法合并此游客账号，因为此游客账号只可进行一次合并。您将无法再次重新分配已链接到此游客账号的物品、货币与纪录。
+
+请确认您要将游客账号合并至这个 {0} 账号。</string>
 <string name="MergeGuestAccountTitle">合并游客账号</string>
 <string name="ManageAccountTitle">管理账号</string>
-<string name="ManageAccountText">若要管理您的账号、进行合并，或有其他问题，请前往\%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% 。</string>
+<string name="ManageAccountText">若要管理您的账号、进行合并，或有其他问题，请前往{link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} 。</string>
 <string name="Cosmetic.visor_BaconVisor">很高兴见到你</string>
 <string name="Cosmetic.hat_Baguette">没有面包，只有痛苦</string>
 <string name="Cosmetic.skin_Bananaskin">花生酱果冻时间</string>
@@ -1766,12 +1880,15 @@
 <string name="Cosmetic.nameplate_Orange">橙子，看到我高兴吗？</string>
 <string name="Cosmetic.hat_sausage">系紧</string>
 <string name="SignInIssueTitle">{0}账号错误</string>
-<string name="SignInIssueText">由于 {0} 的年龄限制，您的 {0} 无法用于创建《Among Us》账号。\%nl\%\%nl\%您可以继续在此设备上玩《Among Us》，但为了您的安全着想，某些功能会受到限制，包括：关联账号、购买星星，以及将物品转移到新设备。如有任何问题，请发送电子邮件至 support@innersloth.com。</string>
+<string name="SignInIssueText">由于 {0} 的年龄限制，您的 {0} 无法用于创建《Among Us》账号。
+
+您可以继续在此设备上玩《Among Us》，但为了您的安全着想，某些功能会受到限制，包括：关联账号、购买星星，以及将物品转移到新设备。如有任何问题，请发送电子邮件至 support@innersloth.com。</string>
 <string name="FriendListUnavailable">好友列表不可用</string>
 <string name="ErrorSanction">由于{0}，您的账号已被封禁。封禁期限：{1}。</string>
 <string name="SanctionDuration">{0}</string>
 <string name="SanctionPermanent">永久</string>
-<string name="SanctionConduct">\%nl\%请利用这段时间，深刻反省自己的行为，并牢记我们的\%link="https://www.innersloth.com/zh/code-of-conduct-chinese-simplified/"\%行为规范\%/link\%！</string>
+<string name="SanctionConduct">
+请利用这段时间，深刻反省自己的行为，并牢记我们的{link="https://www.innersloth.com/zh/code-of-conduct-chinese-simplified/"}行为规范{/link}！</string>
 <string name="SanctionSexualMisconduct">涉性不当行为</string>
 <string name="SanctionDoxing">分享或威胁分享个人信息或人肉搜索</string>
 <string name="SanctionIllegalActivity">鼓动或参与非法活动</string>
@@ -1845,10 +1962,14 @@
 <string name="Cosmetic.visor_hl_nudge">推推</string>
 <string name="Cosmetic.visor_hl_marine">Marine 的眼罩</string>
 <string name="Cosmetic.visor_hl_wrong">哈哈，这会有什么问题呢？</string>
-<string name="AccountDeleteHelp">按下“确认”即表明您请求删除您在《Among Us》中的所有数据。此请求将需要 7-14 天，并将导致所有的星星、经验值、豆豆、豆荚和购买的外观被删除。一旦您的账号被完全删除，我们将无法恢复。在删除过程完成之前，您的账号将可以正常使用。\%nl\%\%nl\%如果遇到任何错误，请联系 support@innersloth.com。</string>
+<string name="AccountDeleteHelp">按下“确认”即表明您请求删除您在《Among Us》中的所有数据。此请求将需要 7-14 天，并将导致所有的星星、经验值、豆豆、豆荚和购买的外观被删除。一旦您的账号被完全删除，我们将无法恢复。在删除过程完成之前，您的账号将可以正常使用。
+
+如果遇到任何错误，请联系 support@innersloth.com。</string>
 <string name="DeleteAccount">删除账号</string>
 <string name="DoNotDeleteAccount">取消删除账号</string>
-<string name="AccountUnDeleteHelp">按下“确认”即表明您要求中止删除账号。如果想删除账号，您需要再次提交申请。\%nl\%\%nl\%如果遇到任何错误，请联系 support@innersloth.com。</string>
+<string name="AccountUnDeleteHelp">按下“确认”即表明您要求中止删除账号。如果想删除账号，您需要再次提交申请。
+
+如果遇到任何错误，请联系 support@innersloth.com。</string>
 <string name="ConfirmDelete">请输入 DELETE 确认删除</string>
 <string name="ConfirmDeleteAccounts">勾选此框以确认您明白这将删除此账号及其关联账号（{0}）。</string>
 <string name="ConfirmDeleteAccountsEmpty">勾选此框以确认您明白这将删除此账号及其关联账号。</string>
@@ -1866,7 +1987,8 @@
 <string name="Ghost">鬼魂</string>
 <string name="CurrentlyHaunting">当前鬼魂：</string>
 <string name="RoundRobin">循环赛</string>
-<string name="RuleOneCrewmates">坚持活下来，直到时间结束。\%nl\%完成任务可以推进时间。</string>
+<string name="RuleOneCrewmates">坚持活下来，直到时间结束。
+完成任务可以推进时间。</string>
 <string name="RuleTwoCrewmates">利用通风口和威胁指示器躲藏！</string>
 <string name="RuleThreeCrewmates">开始计时后，伪装者会开始追杀你！</string>
 <string name="RuleOneImpostor">在规定时间内，杀死所有船员！</string>
@@ -1896,20 +2018,27 @@
 <string name="DefaultFilterTag_Casual">休闲</string>
 <string name="DefaultFilterTag_Serious">认真</string>
 <string name="DefaultFilterTag_Expert">专家</string>
-<string name="TagFiltersHelpFindGame">你可以通过从筛选下拉列表中选择标签来筛选游戏搜索。你选择的筛选将与搜索结果\%i\%完全匹配\%/i\%。n\%nl\%例如：如果你选择\%b\%休闲\%/b\%和\%b\%专家\%/b\%，那么将只能找到同时使用\%b\%休闲\%/b\%与\%b\%专家\%/b\%筛选标签的游戏。</string>
-<string name="TagFiltersHelpCreate">你可以使用筛选为游戏加上标签，帮助玩家找到你的游戏。你选择的筛选将与搜索结果\%i\%完全匹配\%/i\%。\%nl\%\%nl\%例如：如果你选择\%b\%休闲\%/b\%和\%b\%专家\%/b\%，那么只有同时筛选搜索\%b\%休闲\%/b\%和\%b\%专家\%/b\%才可以看到你的游戏。</string>
+<string name="TagFiltersHelpFindGame">你可以通过从筛选下拉列表中选择标签来筛选游戏搜索。你选择的筛选将与搜索结果{i}完全匹配{/i}。n
+例如：如果你选择{b}休闲{/b}和{b}专家{/b}，那么将只能找到同时使用{b}休闲{/b}与{b}专家{/b}筛选标签的游戏。</string>
+<string name="TagFiltersHelpCreate">你可以使用筛选为游戏加上标签，帮助玩家找到你的游戏。你选择的筛选将与搜索结果{i}完全匹配{/i}。
+
+例如：如果你选择{b}休闲{/b}和{b}专家{/b}，那么只有同时筛选搜索{b}休闲{/b}和{b}专家{/b}才可以看到你的游戏。</string>
 <string name="CreateLabel">创建</string>
 <string name="NewGameMode">全新游戏模式！</string>
-<string name="NewModeInfo">在这个惊心动魄的模式里，你必须玩命才能胜利！\%nl\%\%i\%但是别着急，这可不是普通的捉迷藏......\%/i\%</string>
+<string name="NewModeInfo">在这个惊心动魄的模式里，你必须玩命才能胜利！
+{i}但是别着急，这可不是普通的捉迷藏......{/i}</string>
 <string name="HideSeekHowToPlayCaptionOne">太简单了！</string>
 <string name="HideSeekHowToPlayCaptionTwo">船员！</string>
 <string name="HideSeekHowToPlayCaptionThree">伪装者！</string>
-<string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%船员：\%/b\%\%/color\%完成任务，推进计时，避开伪装者，坚持活下来，直到时间结束。\%nl\%\%nl\%\%color=#FF3131\%\%b\%伪装者：\%/b\%\%/color\%找到船员，杀掉他们。</string>
+<string name="HideSeekHowToPlayPageOne">{color=#38F25D}{b}船员：{/b}{/color}完成任务，推进计时，避开伪装者，坚持活下来，直到时间结束。
+
+{color=#FF3131}{b}伪装者：{/b}{/color}找到船员，杀掉他们。</string>
 <string name="HideSeekHowToPlaySubtextOne">这里没有讨论和推理，只有惊声尖叫。</string>
 <string name="HideSeekHowToPlayCrewmateInfoOne">掌握躲藏和偷袭技能才能生存下去。</string>
 <string name="HideSeekHowToPlayCrewmateInfoTwo">该模式下，你可以使用通风口，还能得到一个高科技的威胁指示器，当伪装者靠近时，你就会获得提醒。伪装者的视野有限，所以用你的智慧、通风口和指示器来躲开他们！</string>
 <string name="HideSeekHowToPlayImpostorInfoOne">该模式下，伪装者无法进入通风口，所以你需要快速行动才能抓住猎物。四周一片漆黑！还好，你有手电筒可以帮你找到下一个受害者。</string>
-<string name="HideSeekHowToPlayFinalHide">这是最最最后的终局对决。在游戏的最后时刻，伪装者的能力会获得提升：他们的速度更快，还会得到特殊的搜索地图，能够定位到幸存船员的所在位置。n\%nl\%要想获胜，就要机动灵活，有策略地逃跑！</string>
+<string name="HideSeekHowToPlayFinalHide">这是最最最后的终局对决。在游戏的最后时刻，伪装者的能力会获得提升：他们的速度更快，还会得到特殊的搜索地图，能够定位到幸存船员的所在位置。n
+要想获胜，就要机动灵活，有策略地逃跑！</string>
 <string name="HideSeekHowToPlayFlashlightMobile">使用屏幕右侧的手电筒模拟摇杆指引光束，杀死你能找到的所有船员！</string>
 <string name="HideSeekHowToPlayFlashlightDefault">使用鼠标指引手电筒光束，杀死你能找到的所有船员！</string>
 <string name="HideSeekHowToPlayFlashlightConsoles">使用右摇杆指引光束，杀死你能找到的所有船员！</string>
@@ -2032,7 +2161,9 @@
 <string name="Cosmetic.nameplate_hunter">猎人骄傲</string>
 <string name="Cosmetic.nameplate_lightfall">光陨之秋</string>
 <string name="AnnouncementErrorSubtitle">糟糕！公告出问题了！</string>
-<string name="AnnouncementErrorText">似乎出问题了。请确保您的游戏在线，并更新到最新版本，以获得《Among Us》的所有最新信息和修复。\%nl\%\%nl\% 如果仍遇到问题，请将客服表单发送至邮箱 support@innersloth.com。</string>
+<string name="AnnouncementErrorText">似乎出问题了。请确保您的游戏在线，并更新到最新版本，以获得《Among Us》的所有最新信息和修复。
+
+ 如果仍遇到问题，请将客服表单发送至邮箱 support@innersloth.com。</string>
 <string name="ReadMoreLabel">查看完整公告！</string>
 <string name="ReturnToList">返回列表</string>
 <string name="NavigateLinks">导航链接</string>
@@ -2056,7 +2187,8 @@
 <string name="AgeVerificationTitle">年龄验证</string>
 <string name="AgeVerificationInfoTitle">什么是年龄验证？</string>
 <string name="AgeVerificationInfo">您在进入《Among Us》之前，需要进行年龄验证。我们不会储存您的出生日期信息。</string>
-<string name="AgeVerificationMoreInfo">更多关于我们的隐私政策的内容，请访问：\%nl\% \%link="https://www.innersloth.com/zh/privacy-policy-chinese/"\%https://www.innersloth.com/zh/privacy-policy-chinese/\%/link\%</string>
+<string name="AgeVerificationMoreInfo">更多关于我们的隐私政策的内容，请访问：
+ {link="https://www.innersloth.com/zh/privacy-policy-chinese/"}https://www.innersloth.com/zh/privacy-policy-chinese/{/link}</string>
 <string name="EditLabel">编辑</string>
 <string name="VerifyAgeText">您的出生日期信息是否正确？</string>
 <string name="Cosmetic.nameplate_flagMlm">男男相恋尊严旗帜</string>
@@ -2114,9 +2246,15 @@
 <string name="Cosmetic.skin_PusheenPurpleskin">淡紫Pusheen</string>
 <string name="Cosmetic.skin_Slothskin">Sloth</string>
 <string name="Cosmetic.hat_bearyCold">哆嗦熊</string>
-<string name="EosAccountSilentMergeFail">确定您的 Among Us 账号时遇到了问题。请重试或继续使用游客账号。所有进度都会保存，但我们建议建立一个账号，以便完整享受 Among Us 中的全部功能。\%nl\%\%nl\%是否再次尝试建立账号？</string>
-<string name="AskForEosAccount">您是否拥有现有的 Among Us 账号？（即 Epic Online Services 账号。）\%nl\%\%nl\%如果您已在此设备上玩过 Among Us，请选择“是”。</string>
-<string name="KwsCreateFail">糟糕！发送监护人许可邮件时发生了错误。请重新尝试或在离线模式下继续。\%nl\%\%nl\%是否重试？</string>
+<string name="EosAccountSilentMergeFail">确定您的 Among Us 账号时遇到了问题。请重试或继续使用游客账号。所有进度都会保存，但我们建议建立一个账号，以便完整享受 Among Us 中的全部功能。
+
+是否再次尝试建立账号？</string>
+<string name="AskForEosAccount">您是否拥有现有的 Among Us 账号？（即 Epic Online Services 账号。）
+
+如果您已在此设备上玩过 Among Us，请选择“是”。</string>
+<string name="KwsCreateFail">糟糕！发送监护人许可邮件时发生了错误。请重新尝试或在离线模式下继续。
+
+是否重试？</string>
 <string name="MissingGuardianEmailText">您的账号缺少监护人电子邮箱。我们需要通过电子邮件征求您监护人的许可才能继续。如果监护人同意，您便可以在线使用自由聊天和更改用户名称。请寻求成年人协助您取得许可吧！</string>
 <string name="MiningPit">矿坑</string>
 <string name="Jungle">丛林</string>
@@ -2191,7 +2329,9 @@
 <string name="Cosmetic.nameplate_cliffs">炫崖俏壁</string>
 <string name="ReportNotificationHeader">感谢您帮助《Among Us》维护安全、友好的环境！</string>
 <string name="ReportNotificationBody">我们的管理团队将会审核您报告的信息，并基于我们的《行为准则》采取适当措施。</string>
-<string name="ErrorClientTimeout">您与服务器的连接已中断。原因可能是服务器问题、网络问题或设备问题。请检查您的网络强度。\%nl\%\%nl\%如果这种情形频繁发生，您的设备可能过于老旧，或者未达到最低规格要求。请尝试在其他设备上游玩。</string>
+<string name="ErrorClientTimeout">您与服务器的连接已中断。原因可能是服务器问题、网络问题或设备问题。请检查您的网络强度。
+
+如果这种情形频繁发生，您的设备可能过于老旧，或者未达到最低规格要求。请尝试在其他设备上游玩。</string>
 <string name="ErrorClientTimeoutConsole">您与服务器的连接已中断。原因可能是服务器问题或网络问题。请检查您的网络强度。</string>
 <string name="Cosmetic.hat_NewYear2024">2024 新年</string>
 <string name="Cosmetic.nameplate_Celeste">勇往直前</string>
@@ -2319,7 +2459,9 @@
 <string name="Cosmetic.nameplate_lny_goldCrewmate">好运连连</string>
 <string name="Cosmetic.nameplate_lny_goldImpostor">逢凶化吉</string>
 <string name="AprilFoolsModeToggle">愚人节模式（造型物品受限）</string>
-<string name="ErrorAuthNonceFailure">有内鬼搞破坏！Among Us 服务器进行验证时发生了一个错误。请稍后重试。\%nl\%\%nl\%如果问题依旧存在，请\%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%提交支持工单\%/link\%。</string>
+<string name="ErrorAuthNonceFailure">有内鬼搞破坏！Among Us 服务器进行验证时发生了一个错误。请稍后重试。
+
+如果问题依旧存在，请{link="https://innersloth.zendesk.com/hc/en-us/requests/new"}提交支持工单{/link}。</string>
 <string name="Cosmetic.nameplate_crewmatesBlue">时髦船员：蓝色</string>
 <string name="Cosmetic.nameplate_crewmatesRed">时髦船员：红色</string>
 <string name="Cosmetic.nameplate_horseHeaven">马到成功</string>
@@ -2526,18 +2668,25 @@
 <string name="ChatLabel">聊天</string>
 <string name="NoneLowercaseLabel">无</string>
 <string name="ToolTipDefault">使用以下设置自定义游戏大厅。</string>
-<string name="ToolTipClassic">有伪装者混入船员当中！\%nl\%找出可疑人员，将其投票出局。</string>
-<string name="ToolTipHide">终极猫捉老鼠的游戏。\%nl\%千万别被追杀者抓到了！</string>
+<string name="ToolTipClassic">有伪装者混入船员当中！
+找出可疑人员，将其投票出局。</string>
+<string name="ToolTipHide">终极猫捉老鼠的游戏。
+千万别被追杀者抓到了！</string>
 <string name="ToolTipCapacity">可加入大厅的玩家人数上限。</string>
 <string name="ToolTipServer">选择要在哪个服务器地区创建游戏。</string>
 <string name="ToolTipCrossplay">任何平台上的玩家均可加入大厅。</string>
 <string name="ToolTipNoCrossplay">仅与你同平台的玩家可加入大厅。</string>
 <string name="ToolTipLanguage">游戏内讨论所使用的语言。</string>
-<string name="ToolTipSkeld">The Skeld：包含多个房间和走廊的中型飞船，\%nl\%非常适合新手入门。</string>
-<string name="ToolTipMIRA">MIRA HQ：小型地图， 包含许多长走廊\%nl\%和完全连通的通风系统。</string>
-<string name="ToolTipPolus">Polus：中型地图， 这个行星哨站\%nl\%包括室内和户外区域。</string>
-<string name="ToolTipAirship">Airship：大型地图，海量不同房间可供躲藏，\%nl\%或被伪装者围堵。</string>
-<string name="ToolTipFungle">Fungle：大型岛屿，包含阳光明媚的海滩、\%nl\%神秘莫测的丛林和向上拔起的高地。</string>
+<string name="ToolTipSkeld">The Skeld：包含多个房间和走廊的中型飞船，
+非常适合新手入门。</string>
+<string name="ToolTipMIRA">MIRA HQ：小型地图， 包含许多长走廊
+和完全连通的通风系统。</string>
+<string name="ToolTipPolus">Polus：中型地图， 这个行星哨站
+包括室内和户外区域。</string>
+<string name="ToolTipAirship">Airship：大型地图，海量不同房间可供躲藏，
+或被伪装者围堵。</string>
+<string name="ToolTipFungle">Fungle：大型岛屿，包含阳光明媚的海滩、
+神秘莫测的丛林和向上拔起的高地。</string>
 <string name="ConfirmSettings">确认设置</string>
 <string name="ConfirmSettingsTooltip">即将创建包含以下设置的大厅：</string>
 <string name="EnterCodeElipsis">输入代码……</string>
@@ -2564,9 +2713,11 @@
 <string name="FilterSpeedTooltip">按玩家移动速度筛选。</string>
 <string name="FilterKillCDTooltip">伪装者需要等待多长时间才能再次击杀。</string>
 <string name="FilterVotingTooltip">玩家在会议上有多长的投票时间。</string>
-<string name="FilterVisualTaskTooltip">开启后， 所有玩家均可看到\%nl\%特定任务正在完成中。</string>
+<string name="FilterVisualTaskTooltip">开启后， 所有玩家均可看到
+特定任务正在完成中。</string>
 <string name="FilterAnonVotesTooltip">开启后， 会议不会显示谁投了谁。</string>
-<string name="FilterConfirmEjectTooltip">开启后，揭示被驱逐的船员\%nl\%是否为伪装者。</string>
+<string name="FilterConfirmEjectTooltip">开启后，揭示被驱逐的船员
+是否为伪装者。</string>
 <string name="FilterCrossplayTooltip">显示所有平台的大厅，或仅显示你所在平台的大厅。</string>
 <string name="FilterDefaultTooltip">按照以下筛选条件缩小搜索范围。</string>
 <string name="FilterFlashlightTooltip">开启后， 玩家拥有可指向不同方向的灯。</string>
@@ -2580,11 +2731,16 @@
 <string name="FilterTagTooltip">按大厅标签筛选。</string>
 <string name="TooltipTag">添加标签，吸引特定技能等级的玩家。</string>
 <string name="SelectedLabel">已选：</string>
-<string name="TooltipSpeedInfo">\%b\%低：\%/b\%0.5-0.75 倍	\%b\%高：\%/b\%1.75-2.25 倍\%nl\%\%b\%中：\%/b\%1.0-1.5 倍	\%b\%极高：\%/b\%2.5-3.0 倍</string>
-<string name="TooltipKillCDInfo">\%b\%低：\%/b\%10-20 秒	\%b\%高：\%/b\%37.5-47.5 秒\%nl\%\%b\%中：\%/b\%22.5-35 秒	\%b\%极高：\%/b\%50-60 秒</string>
-<string name="TooltipVotingInfo">\%b\%低：\%/b\%0-60 秒	\%b\%高：\%/b\%150-210 秒\%nl\%\%b\%中：\%/b\%75-135 秒	\%b\%极高：\%/b\%225-300 秒</string>
-<string name="TooptipHidingTimeInfo">\%b\%低：\%/b\%160-180 秒	\%b\%高：\%/b\%260-300 秒\%nl\%\%b\%中：\%/b\%200-240 秒</string>
-<string name="TooltipFinalTimeInfo">\%b\%低：\%/b\%30-45 秒	\%b\%高：\%/b\%75-95 秒\%nl\%\%b\%中：\%/b\%50-70 秒	\%b\%极高：\%/b\%100-120 秒</string>
+<string name="TooltipSpeedInfo">{b}低：{/b}0.5-0.75 倍	{b}高：{/b}1.75-2.25 倍
+{b}中：{/b}1.0-1.5 倍	{b}极高：{/b}2.5-3.0 倍</string>
+<string name="TooltipKillCDInfo">{b}低：{/b}10-20 秒	{b}高：{/b}37.5-47.5 秒
+{b}中：{/b}22.5-35 秒	{b}极高：{/b}50-60 秒</string>
+<string name="TooltipVotingInfo">{b}低：{/b}0-60 秒	{b}高：{/b}150-210 秒
+{b}中：{/b}75-135 秒	{b}极高：{/b}225-300 秒</string>
+<string name="TooptipHidingTimeInfo">{b}低：{/b}160-180 秒	{b}高：{/b}260-300 秒
+{b}中：{/b}200-240 秒</string>
+<string name="TooltipFinalTimeInfo">{b}低：{/b}30-45 秒	{b}高：{/b}75-95 秒
+{b}中：{/b}50-70 秒	{b}极高：{/b}100-120 秒</string>
 <string name="FilterNoMaps">未选择地图。</string>
 <string name="Cosmetic.hat_kamurocho_ichiban">Ichiban Kasuga 发型</string>
 <string name="Cosmetic.hat_kamurocho_ono">Ono Michio 帽子</string>
@@ -2657,7 +2813,8 @@
 <string name="DetectiveAbility">审问</string>
 <string name="DetectiveAbilityNotes">笔记</string>
 <string name="DetectiveBlurb">收集信息，侦破凶案。</string>
-<string name="DetectiveBlurbMed">填写笔记。\%nl\%审问船员。</string>
+<string name="DetectiveBlurbMed">填写笔记。
+审问船员。</string>
 <string name="DetectiveNotesEmpty">凶案一旦发生，我便可以立刻展开调查……</string>
 <string name="DetectiveNearLocation">{0}附近</string>
 <string name="DetectiveNotesKiller">{0}</string>
@@ -2736,7 +2893,8 @@
 <string name="RewardAdTitle">你获得了星星！</string>
 <string name="RewardAdBody1">新的星星奖励将在 {0} 小时后出现。</string>
 <string name="RewardAdBody2">新的星星奖励将在 {0} 小时后出现。</string>
-<string name="WatchAdErrorBody">加载广告出错。\%nl\%请稍后再试。</string>
+<string name="WatchAdErrorBody">加载广告出错。
+请稍后再试。</string>
 <string name="WatchAdErrorTitle">哎呀……</string>
 <string name="Cosmetic.hat_phoenix_wright">逆转裁判发型</string>
 <string name="Cosmetic.skin_phoenix_wright">逆转裁判西服</string>
@@ -2802,4 +2960,27 @@
 <string name="Cosmetic.skin_parasite_Yellow">黄色船员围裙</string>
 <string name="Cosmetic.pet_parasite_Stressball">信任球</string>
 <string name="Cosmetic.nameplate_parasite_Impostor">就在你身后！</string>
+<string name="JudgeRole">法官</string>
+<string name="JudgeBlurb">接管会议</string>
+<string name="JudgeBlurbMed">在会议上一票定罪，驱逐一名伪装者。
+判断失误，则驱逐你自己。</string>
+<string name="JudgeBlurbLong">掌控投票</string>
+<string name="JudgeTaskRequirement">任务解锁 %</string>
+<string name="RolesHelp_Judge_01">法官拥有一项强大的会议能力，即“一票定罪”。如果法官认为某个船员是伪装者，则可给此人投出一张特殊票。</string>
+<string name="RolesHelp_Judge_02">当法官使用该能力时，会议只计入其特殊票。如果法官判断正确，则驱逐伪装者；判断失误，则改为驱逐法官本人！</string>
+<string name="JudgeAbilityUnlocked">法官能力已解锁</string>
+<string name="JudgeAbilityProgress">完成 {0} 项任务以开启审判！</string>
+<string name="JudgeCourtAdjourned">判决已出……</string>
+<string name="JudgeHasSpoken">法官已做出判决。</string>
+<string name="StatsJudgeSuccessfulOverrules">法官一票定罪成功次数：</string>
+<string name="StatsJudgeFailedOverrules">法官一票定罪失败次数：</string>
+<string name="JudgeBeatYouToIt">法官已做出判决。
+（另一位法官快你一步）</string>
+<string name="QCJudges">法官？</string>
+<string name="QCJudgeOverrule">我要一票定罪</string>
+<string name="QCJudgePlease">请一票定罪{0}</string>
+<string name="QCJudgeWillOverrule">我要一票定罪{0}</string>
+<string name="MatchInfoGuideTitle">游戏信息指南</string>
+<string name="MatchInfoGuidePlayersLabel">玩家</string>
+<string name="MatchInfoGuideNoRolesMessage">未启用角色</string>
 </resources>

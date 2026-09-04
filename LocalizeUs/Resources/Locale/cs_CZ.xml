@@ -87,13 +87,14 @@
   <string name="EnterIdCode">Zadej Id Kód</string>
   <string name="BuyBeverage">Nakup Pití</string>
   <string name="ProcessData">Zprocesuj Data</string>
-  <string name="NumImpostorsS">Je tu \%color=#FF1919FF\%1 Vetřelec\%color\% mezi námi</string>
-  <string name="NumImpostorsP">Jsou tu \%color=#FF1919FF\%{0} Vetřelci\%color\% mezi námi</string>
+  <string name="NumImpostorsS">Je tu {color=#FF1919FF}1 Vetřelec{/color} mezi námi</string>
+  <string name="NumImpostorsP">Jsou tu {color=#FF1919FF}{0} Vetřelci{/color} mezi námi</string>
   <string name="Crewmate">Člen Posádky</string>
   <string name="Impostor">Vetřelec</string>
   <string name="Victory">Vítězství</string>
   <string name="Defeat">Porážka</string>
-  <string name="CrewmatesDisconnected">Většina Posádky\%nl\%Se Odpojila</string>
+  <string name="CrewmatesDisconnected">Většina Posádky
+Se Odpojila</string>
   <string name="ImpostorDisconnected">Vetřelec se Odpojil</string>
   <string name="PickAnomaly">Vyber Anomálii</string>
   <string name="WaterPlantsGetCan">Dostal jsi Konev!</string>
@@ -124,10 +125,16 @@
   <string name="MeetingVotingResults">Výsledky Hlasování</string>
   <string name="MeetingProceeds">Pokračujeme Za: {0}s</string>
   <string name="MeetingHasVoted">{0} hlasoval/a. {1} hlasů zbývá.</string>
-  <string name="HowToPlayText1">Among Us je hra o spolupráci a zradě.\%nl\%\%nl\%Hráči jsou buď člení Posádky nebo Vetřelci.</string>
+  <string name="HowToPlayText1">Among Us je hra o spolupráci a zradě.
+
+Hráči jsou buď člení Posádky nebo Vetřelci.</string>
   <string name="HowToPlayText2">Hraj se 4 až 15 hráči online nebo přes místní Wi-Fi!</string>
   <string name="HowToPlayText41">Pokud už máš účet Among Us na jiné platformě, můžeš se připojit k tomu účtu! Alternativně si můžeš vytvořit nový účet.</string>
-  <string name="HowToPlayText42">Prvně se rozhodni, s kým chceš hrát!\%nl\%\%nl\%Jestli chceš hrát s kamarády online, nastav místnost na "soukromý" a sděl jim kód.\%nl\%\%nl\%Pokud chceš hrát s lidmi po celém světě, nastav místnost na "veřejný".</string>
+  <string name="HowToPlayText42">Prvně se rozhodni, s kým chceš hrát!
+
+Jestli chceš hrát s kamarády online, nastav místnost na "soukromý" a sděl jim kód.
+
+Pokud chceš hrát s lidmi po celém světě, nastav místnost na "veřejný".</string>
   <string name="HowToPlayText43">Chceš hrát s více úkoly? Co třeba s rychlejší chůzí? Více Vetřelci? Jako hostitel můžeš měnit nastavení. Nezapomeň si tyhle změny ujastnit z dalšími hráči.</string>
   <string name="HowToPlayText44">Když se někdo chová neslušně, hostitelé mohou dočasně vykopnout hráče z místnosti jako varování, nebo je přímo z té místnosti zabanovat.</string>
   <string name="HowToPlayTextMap">Hráči mají přístup k osobní mapě, aby mohli lépe navigovat lodí.</string>
@@ -144,9 +151,21 @@
   <string name="HowToPlayTextImp5">Sabotuj loď a zmať Posádku.</string>
   <string name="HowToPlayTextImp6">Zavírej dveře a vězni oběti.</string>
   <string name="HowToPlayTextImp7">Pozabíjej Posádku mezi cooldowny.</string>
-  <string name="HowToPlayText5">Když hrajete v blízkosti sebe, nemluvte mezi sebou, aby hra mohla být férová pro Posádku i Vetřelce.\%nl\%\%nl\%Pokud je hráč zabit Vetřelcem, nesmí mluvit, dokud hra neskončí\%nl\%\%nl\%Duchové by pořád se měli snažit plnit své úkoly, aby mohla Posádka vyhrát.</string>
-  <string name="HowToPlayText6">Když někdo nahlásí mrtvolu nebo zvolá nouzovou schůzi, sejde se Posádka, aby diskutovala o tom, co ví o Vetřelcích.\%nl\%\%nl\%Hráči teď mohou otevřeně mluvit o lidech, o kterých si myslí že jsou Vetřelci a jaké informace k tomu mají. Když hrajete blízko sebe, Duchové nemohou mluvit, protože už ví kdo je Vetřelcem. \%nl\%\%nl\%Vetřelci se budou snažit obhájit jejich nevinu nebo obvinit jiného člena Posádky.</string>
-  <string name="HowToPlayText7">Po diskuzi hlasuj pro toho, o kom si myslíš, že je Vetřelec.\%nl\%\%nl\%Ten s nejvíce hlasy bude vyhozen z lodi, takže hlasujte rozumně!\%nl\%\%nl\%Pokud nemáte dostatek informací a rozhodli jste se jako Posádka, můžete také přeskočit hlasování, abyste nevyhodili někoho nevinného a mohli sbírat více informací.</string>
+  <string name="HowToPlayText5">Když hrajete v blízkosti sebe, nemluvte mezi sebou, aby hra mohla být férová pro Posádku i Vetřelce.
+
+Pokud je hráč zabit Vetřelcem, nesmí mluvit, dokud hra neskončí
+
+Duchové by pořád se měli snažit plnit své úkoly, aby mohla Posádka vyhrát.</string>
+  <string name="HowToPlayText6">Když někdo nahlásí mrtvolu nebo zvolá nouzovou schůzi, sejde se Posádka, aby diskutovala o tom, co ví o Vetřelcích.
+
+Hráči teď mohou otevřeně mluvit o lidech, o kterých si myslí že jsou Vetřelci a jaké informace k tomu mají. Když hrajete blízko sebe, Duchové nemohou mluvit, protože už ví kdo je Vetřelcem. 
+
+Vetřelci se budou snažit obhájit jejich nevinu nebo obvinit jiného člena Posádky.</string>
+  <string name="HowToPlayText7">Po diskuzi hlasuj pro toho, o kom si myslíš, že je Vetřelec.
+
+Ten s nejvíce hlasy bude vyhozen z lodi, takže hlasujte rozumně!
+
+Pokud nemáte dostatek informací a rozhodli jste se jako Posádka, můžete také přeskočit hlasování, abyste nevyhodili někoho nevinného a mohli sbírat více informací.</string>
   <string name="HowToPlayText81">Trénuj v Cvičném režimu!</string>
   <string name="HowToPlayText82">Nastav si své vlastní úkoly jako člen Posádky, nebo cvič své zabíjecí strategie jako Vetřelec!</string>
   <string name="SettingsGeneral">Obecné</string>
@@ -213,12 +232,36 @@
   <string name="RoomCodeInfo">Klikni pro zkopírování</string>
   <string name="LeaveGame">Opustit Hru</string>
   <string name="ReturnToGame">Vrátit se Do Hry</string>
-  <string name="LocalHelp">Problémy s připojením?\%nl\%\%nl\%● Ujisti se, že všichni jsou připojení na stejnou Wi-Fi\%nl\%● Ujisti se, že všichni mají stejnou verzi hry (v pravém dolním rohu)\%nl\%● Ujisti se, že tvůj signál Wi-Fi je dostatečně silný\%nl\%● Někdy, když pořádá hru někdo jiný, pomůže to\%nl\%● Někdy restartování aplikace pomůže...\%nl\%● Někdy restartování telefonu pomůže...\%nl\%● Pořád máš problémy? Dej nám vědět a napiš na support@innersloth.com!</string>
-  <string name="OnlineHelp">Jak tohle funguje?\%nl\%\%nl\%● Pořádání hry ti dá herní kód v panelu místnosti.\%nl\%● Sdílej tenhle kód s kamarády pro vytvoření soukromé místnosti.\%nl\%● Nebo zmáčkní "Soukromý", abys udělal hru veřejnou pro "Najít Hru".\%nl\%● Hostitel může vykopnout nebo zabanovat hráče kdykoli je chat přístupný.\%nl\%● Still having problems? Pořád máš problémy? Dej nám vědět a napiš na support@innersloth.com!</string>
-  <string name="EmergencyCount">ČLEN POSÁDKY {0} MÁ\%nl\%\%nl\%\%nl\%\%nl\%NOUZOVÝCH SCHŮZEK NA ZBYT</string>
-  <string name="EmergencyNotReady">POSÁDKA MUSÍ VYČKAT\%nl\%\%nl\%\%nl\%\%nl\%PŘED DALŠÍ SCHŮZÍ</string>
-  <string name="EmergencyDuringCrisis">PŘI KRIZI NELZE ZVOLAT\%nl\%NOUZOVÁ JEDNÁNÍ</string>
-  <string name="EmergencyRequested">NOUZOVÁ SCHŮZE VYŽÁDÁNA\%nl\%ČEKÁNÍ NA HOSTITELE</string>
+  <string name="LocalHelp">Problémy s připojením?
+
+● Ujisti se, že všichni jsou připojení na stejnou Wi-Fi
+● Ujisti se, že všichni mají stejnou verzi hry (v pravém dolním rohu)
+● Ujisti se, že tvůj signál Wi-Fi je dostatečně silný
+● Někdy, když pořádá hru někdo jiný, pomůže to
+● Někdy restartování aplikace pomůže...
+● Někdy restartování telefonu pomůže...
+● Pořád máš problémy? Dej nám vědět a napiš na support@innersloth.com!</string>
+  <string name="OnlineHelp">Jak tohle funguje?
+
+● Pořádání hry ti dá herní kód v panelu místnosti.
+● Sdílej tenhle kód s kamarády pro vytvoření soukromé místnosti.
+● Nebo zmáčkní "Soukromý", abys udělal hru veřejnou pro "Najít Hru".
+● Hostitel může vykopnout nebo zabanovat hráče kdykoli je chat přístupný.
+● Still having problems? Pořád máš problémy? Dej nám vědět a napiš na support@innersloth.com!</string>
+  <string name="EmergencyCount">ČLEN POSÁDKY {0} MÁ
+
+
+
+NOUZOVÝCH SCHŮZEK NA ZBYT</string>
+  <string name="EmergencyNotReady">POSÁDKA MUSÍ VYČKAT
+
+
+
+PŘED DALŠÍ SCHŮZÍ</string>
+  <string name="EmergencyDuringCrisis">PŘI KRIZI NELZE ZVOLAT
+NOUZOVÁ JEDNÁNÍ</string>
+  <string name="EmergencyRequested">NOUZOVÁ SCHŮZE VYŽÁDÁNA
+ČEKÁNÍ NA HOSTITELE</string>
   <string name="AdPolicyTitle">Zásady Reklam</string>
   <string name="AdPolicyText">Smíme využít tvá data pro upravování reklam pro tebe? Když budeš souhlasit, tak naši reklamní partneří jako Google AdMob a Unity Ads budou automaticky sbírat data a využívat identifikátory zařízení a cookies pro personalizaci reklam. Když nebudeš souhlasit, pořád můžeš vidět reklamy, ale nebudou personalizované. Pro odstranění všech reklam, zakup si verzi bez reklam [httpstore]tady[], kde pak ty a tví přátelé nebudete mít reklamy pokaždé když budeš pořádat hru! Pokud se chceš dozvědět o zásadách osobních údajů našich reklamních partnerů, podívej se na naše [https://www.innersloth.com/privacy-policy/]Zásady Osobních Údajů[]. Toto rozhodnutí můžeš kdykoli změnit v nastavení pod záložkou "Data".</string>
   <string name="Accept">Přijmout</string>
@@ -226,7 +269,9 @@
   <string name="PlainYes">Ano</string>
   <string name="PlainNo">Ne</string>
   <string name="PrivacyPolicyTitle">Zásady Osobních Údajů</string>
-  <string name="PrivacyPolicyText">Innersloth zpracovává osobní data pro Among Us. Prosím přečti si naše \%link="https://www.innersloth.com/privacy-policy/"\%Zásady Osobních Údajů\%/link\% pro více informací o našich praktikách. Můžeš spravovate tvá nastavení osobních dat pro Among Us pod záložkou "Data".\%nl\%\%nl\%Také si prosím přečti naše \%link="https://www.innersloth.com/terms-of-use-for-the-games/"\%Zásady Používání\%/link\% před hraním Among Us.</string>
+  <string name="PrivacyPolicyText">Innersloth zpracovává osobní data pro Among Us. Prosím přečti si naše {link="https://www.innersloth.com/privacy-policy/"}Zásady Osobních Údajů\{/link} pro více informací o našich praktikách. Můžeš spravovate tvá nastavení osobních dat pro Among Us pod záložkou "Data".
+
+Také si prosím přečti naše {link="https://www.innersloth.com/terms-of-use-for-the-games/"}Zásady Používání\{/link} před hraním Among Us.</string>
   <string name="ManageDataButton">Spravovat Sběr Dat</string>
   <string name="UnderstandButton">Chápu</string>
   <string name="WaterPlants">Zalij Kytky</string>

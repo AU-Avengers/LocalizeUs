@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
 <string name="LocalButton">Lokal</string>
 <string name="OnlineButton">Online</string>
 <string name="HowToPlayButton">Unsaon Pagdula</string>
@@ -30,14 +31,14 @@
 <string name="ImpostorsRemainP">{0} ka Impostor na lamang ang nahibilin.</string>
 <string name="Hallway">Hallway</string>
 <string name="Engines">Mga Engine</string>
-<string name="LangCzech">Ibabaw nga Engine</string>
+<string name="UpperEngine">Ibabaw nga Engine</string>
 <string name="Cafeteria">Cafeteria</string>
 <string name="Weapons">Mga Armas</string>
 <string name="Reactor">Reactor</string>
 <string name="Security">Seguridad</string>
 <string name="MedBay">MedBay</string>
 <string name="LifeSupp">O2</string>
-<string name="LangGreek">Nabigasyon</string>
+<string name="Nav">Nabigasyon</string>
 <string name="LowerEngine">Ubos nga Engine</string>
 <string name="Electrical">Elektrikal</string>
 <string name="Admin">Admin</string>
@@ -87,13 +88,14 @@
 <string name="EnterIdCode">Ibutang ang Id Code</string>
 <string name="BuyBeverage">Pagpalit og Mainom</string>
 <string name="ProcessData">Iproseso ang Data</string>
-<string name="NumImpostorsS">Adunay \%color=#FF1919FF\%1 ka Impostor\%/color\% kanato</string>
-<string name="NumImpostorsP">Adunay \%color=#FF1919FF\%{0} ka Impostor\%/color\% kanato</string>
+<string name="NumImpostorsS">Adunay {color=#FF1919FF}1 ka Impostor{/color} kanato</string>
+<string name="NumImpostorsP">Adunay {color=#FF1919FF}{0} ka Impostor{/color} kanato</string>
 <string name="Crewmate">Crewmate</string>
 <string name="Impostor">Impostor</string>
 <string name="Victory">Kadaogan</string>
 <string name="Defeat">Kapildihan</string>
-<string name="CrewmatesDisconnected">Nadiskonekta ang\%nl\%Kadaghanan sa Mga Crewmate</string>
+<string name="CrewmatesDisconnected">Nadiskonekta ang
+Kadaghanan sa Mga Crewmate</string>
 <string name="ImpostorDisconnected">Nadiskonekta ang Impostor</string>
 <string name="PickAnomaly">Pagpili og Anomalya</string>
 <string name="WaterPlantsGetCan">Pagkuha og Watering Can!</string>
@@ -124,10 +126,16 @@
 <string name="MeetingVotingResults">Mga Resulta sa Pagboto</string>
 <string name="MeetingProceeds">Magpadayon sa: {0}s</string>
 <string name="MeetingHasVoted">Miboto na si {0}. {1} na lamang ang nahibilin.</string>
-<string name="HowToPlayText1">Ang Among Us usa ka dula sa pagtinabangay ug pagtraydor.\%nl\%\%nl\%Ang mga player kay Mga Crewmate o Impostor.</string>
+<string name="HowToPlayText1">Ang Among Us usa ka dula sa pagtinabangay ug pagtraydor.
+
+Ang mga player kay Mga Crewmate o Impostor.</string>
 <string name="HowToPlayText2">Pakigdula sa 4 hangtud sa 15 ka player online o pinaagi sa lokal nga WiFi!</string>
 <string name="HowToPlayText41">Kung mag-host og dula, aduna kay kontrol sa paagi sa pagdula.</string>
-<string name="HowToPlayText42">Una, pilia kung kinsa ang gusto nimong makadula!\%nl\%\%nl\%Kung gusto nimong makigdula sa mga higala online, itakda sa "pribado" ug i-share ang room code.\%nl\%\%nl\%Kung gusto kang makigdula sa uban pang gikan sa tibuok kalibutan, itakda sa "pampubliko".</string>
+<string name="HowToPlayText42">Una, pilia kung kinsa ang gusto nimong makadula!
+
+Kung gusto nimong makigdula sa mga higala online, itakda sa "pribado" ug i-share ang room code.
+
+Kung gusto kang makigdula sa uban pang gikan sa tibuok kalibutan, itakda sa "pampubliko".</string>
 <string name="HowToPlayText43">Gustong magdula nga daghan ang task? Gusto og mas paspas nga paglakaw? Dugang pang Impostor? Isip host, mabag-o nimo kini nga setting. Siguroha nga kumpirmahon ang kabag-ohan sa mga kauban nga player.</string>
 <string name="HowToPlayText44">Kung adunay bastos ug/o nag-spam, mahimong temporaryong magtangtang ang host og mga player isip pasidaan o i-ban ang mga player sa partikular nga online room.</string>
 <string name="HowToPlayTextMap">Adunay akses ang mga player sa personal nga mapa aron matabangan sila sa pag-navigate sa barko.</string>
@@ -144,9 +152,21 @@
 <string name="HowToPlayTextImp5">Isabotahe ang barko ug liboga ang Crew.</string>
 <string name="HowToPlayTextImp6">Isirado ang pultahan ug ipriso ang biktima.</string>
 <string name="HowToPlayTextImp7">Patya ang Crew sa panahon sa cooldown.</string>
-<string name="HowToPlayText5">Samtang personal nga nagdula, wala gitugutan ang pag-istoryahay aron mapabiling patas ang dula taliwala sa Crew ug sa Impostor.\%nl\%\%nl\%Kung mapatay sa Impostor ang usa ka player, dili sila mahimong mag-istoryahay hangtud nga matapos ang dula.\%nl\%\%nl\%Buhaton gihapon sa mga kalag ang ilang mga nakatakdang task aron posibleng modaog ang Mga Crewmate.</string>
-<string name="HowToPlayText6">Kung adunay mag-report og patay nga lawas o motawag og emergency meeting, magtapok ang Crew aron hisgutan ang ilang nahibaluan mahitungod sa Impostor.\%nl\%\%nl\%Mahimo na karong mag-istoryahay ang mga player mahitungod sa kung kinsa ang Impostor ug kung unsang impormasyon ang aduna sila. Kung personal nga magdula, dili mahimong moistorya ang Mga Kalag tungod kay nakahibalo na sila kung kinsa ang Impostor.\%nl\%\%nl\%Magsulay ang Mga Impostor sa pagpamatuod sa ilang pagkainosente o mag-akusa og laing miyembro sa crew.</string>
-<string name="HowToPlayText7">Pagkahuman sa pakighisgot, muboto ka kung kinsa ang Impostor.\%nl\%\%nl\%I-eject sa barko ang makakuha sa pinakadaghang boto, mao nga taronga ang pagboto!\%nl\%\%nl\%Kung wala kay igong impormasyon ug nagdesisyon ka isip Crew, mahimo nimong laktawan ang pagboto aron malikayan ang pag-eject og inosenteng tawo ug mangita og dugang impormasyon.</string>
+<string name="HowToPlayText5">Samtang personal nga nagdula, wala gitugutan ang pag-istoryahay aron mapabiling patas ang dula taliwala sa Crew ug sa Impostor.
+
+Kung mapatay sa Impostor ang usa ka player, dili sila mahimong mag-istoryahay hangtud nga matapos ang dula.
+
+Buhaton gihapon sa mga kalag ang ilang mga nakatakdang task aron posibleng modaog ang Mga Crewmate.</string>
+<string name="HowToPlayText6">Kung adunay mag-report og patay nga lawas o motawag og emergency meeting, magtapok ang Crew aron hisgutan ang ilang nahibaluan mahitungod sa Impostor.
+
+Mahimo na karong mag-istoryahay ang mga player mahitungod sa kung kinsa ang Impostor ug kung unsang impormasyon ang aduna sila. Kung personal nga magdula, dili mahimong moistorya ang Mga Kalag tungod kay nakahibalo na sila kung kinsa ang Impostor.
+
+Magsulay ang Mga Impostor sa pagpamatuod sa ilang pagkainosente o mag-akusa og laing miyembro sa crew.</string>
+<string name="HowToPlayText7">Pagkahuman sa pakighisgot, muboto ka kung kinsa ang Impostor.
+
+I-eject sa barko ang makakuha sa pinakadaghang boto, mao nga taronga ang pagboto!
+
+Kung wala kay igong impormasyon ug nagdesisyon ka isip Crew, mahimo nimong laktawan ang pagboto aron malikayan ang pag-eject og inosenteng tawo ug mangita og dugang impormasyon.</string>
 <string name="HowToPlayText81">Pagbansay sa Praktis nga mode!</string>
 <string name="HowToPlayText82">Pagtakda og imong mga kaugalingong task isip miyembro sa Crew o praktisa ang imong mga istratehiya sa pagpatay isip Impostor!</string>
 <string name="SettingsGeneral">Kinatibuk-an</string>
@@ -213,12 +233,36 @@
 <string name="RoomCodeInfo">I-click aron kopyahon</string>
 <string name="LeaveGame">Mobiya sa Dula</string>
 <string name="ReturnToGame">Balik sa Dula</string>
-<string name="LocalHelp">Problema sa koneksyon?\%nl\%\%nl\%● Siguroha nga nakakonekta ang tanan sa parehong ngalan sa WiFi\%nl\%● Siguroha nga ang tanan adunay parehong bersyon (sa tuo nga bahin sa ubos)\%nl\%● Siguroha nga kusog ang signal sa imong WiFi\%nl\%● Usahay makatabang kung laing tawo ang mag-host\%nl\%● Usahay makatabang ang pag-restart sa app...\%nl\%● Usahay makatabang ang pag-restart sa imong telepono...\%nl\%● Aduna gihapoy mga problema? Pahibaloa mi pinaagi sa pagkontak sa support@innersloth.com!</string>
-<string name="OnlineHelp">Unsaon paggana niini?\%nl\%\%nl\%● Ang pag-host og dula maghatag kanimo og code sa dula sa lobby panel.\%nl\%● I-share ang code sa dula sa mga higala aron makahimo og pribadong room.\%nl\%● O pindota ang "Pribado" aron himuong pampubliko ang room para sa "Pangita og Dula".\%nl\%● Mahimong mag-ban o magtangtang og player ang host kung available ang chat.\%nl\%● Aduna gihapoy problema? Pahibaloa mi pinaagi sa pagkontak sa support@iinersloth.com!</string>
-<string name="EmergencyCount">ANG MIYEMBRO SA CREW NGA SI {0} ADUNA PAY NAHIBILIN NGA\%nl\%\%nl\%\%nl\%\%nl\%KA EMERGENCY MEETING</string>
-<string name="EmergencyNotReady">KINAHANGLANG MAGHULAT ANG MGA CREWMATE\%nl\%\%nl\%\%nl\%\%nl\%SA DILI PA ANG SUNOD NGA EMERGENCY</string>
-<string name="EmergencyDuringCrisis">DILI MAHIMONG MAGTAWAG OG MGA EMERGENCY MEETING\%nl\%KUNG ADUNAY MGA KRISIS</string>
-<string name="EmergencyRequested">NAGHANGYO OG EMERGENCY MEETING\%nl\%NAGHULAT SA HOST</string>
+<string name="LocalHelp">Problema sa koneksyon?
+
+● Siguroha nga nakakonekta ang tanan sa parehong ngalan sa WiFi
+● Siguroha nga ang tanan adunay parehong bersyon (sa tuo nga bahin sa ubos)
+● Siguroha nga kusog ang signal sa imong WiFi
+● Usahay makatabang kung laing tawo ang mag-host
+● Usahay makatabang ang pag-restart sa app...
+● Usahay makatabang ang pag-restart sa imong telepono...
+● Aduna gihapoy mga problema? Pahibaloa mi pinaagi sa pagkontak sa support@innersloth.com!</string>
+<string name="OnlineHelp">Unsaon paggana niini?
+
+● Ang pag-host og dula maghatag kanimo og code sa dula sa lobby panel.
+● I-share ang code sa dula sa mga higala aron makahimo og pribadong room.
+● O pindota ang "Pribado" aron himuong pampubliko ang room para sa "Pangita og Dula".
+● Mahimong mag-ban o magtangtang og player ang host kung available ang chat.
+● Aduna gihapoy problema? Pahibaloa mi pinaagi sa pagkontak sa support@iinersloth.com!</string>
+<string name="EmergencyCount">ANG MIYEMBRO SA CREW NGA SI {0} ADUNA PAY NAHIBILIN NGA
+
+
+
+KA EMERGENCY MEETING</string>
+<string name="EmergencyNotReady">KINAHANGLANG MAGHULAT ANG MGA CREWMATE
+
+
+
+SA DILI PA ANG SUNOD NGA EMERGENCY</string>
+<string name="EmergencyDuringCrisis">DILI MAHIMONG MAGTAWAG OG MGA EMERGENCY MEETING
+KUNG ADUNAY MGA KRISIS</string>
+<string name="EmergencyRequested">NAGHANGYO OG EMERGENCY MEETING
+NAGHULAT SA HOST</string>
 <string name="AdPolicyTitle">Palisiya sa Advertisement</string>
 <string name="AdPolicyText">Pwede ba namong gamiton ang imong personal nga data aron ipahiuyon ang mga ad para nimo? Kung imong i-click ang oo, ang among mga partner sa pag-advertise sama sa Google AdMob ug Unity Ads awtomatikong magkolekta og data ug mogamit og mga device identifier ug mga ccokie para sa personalisasyon sa ad. Kung imong i-click ang dili, pwede gihapon kang makakita og mga ad mga wala gi-personalize. Aron tangtangon ang tanang mga ad, pagpalit og no-ad nga upgrade [httpstore]dinhi[], ug ikaw ug ang imong mga higala dili makakita og mga ad kung ikaw ang host! Aron makahibalo og dugang mahitungod sa mga practice sa pagkapribado namo ug sa among mga parter sa pag-advertise, palihug tan-awa ang among [https://www.innersloth.com/tl/privacy-policy-fil/]Palisiya sa Pagkapribado[]. Pwede nimong mausab ang imong desisyon bisan kanus-a sa menu sa mga setting ilalom sa "Data".</string>
 <string name="Accept">Dawata</string>
@@ -226,7 +270,9 @@
 <string name="PlainYes">Oo</string>
 <string name="PlainNo">Dili</string>
 <string name="PrivacyPolicyTitle">Palisiya sa Pagkapribado</string>
-<string name="PrivacyPolicyText">Magproseso ang Innersloth og personal nga datos para sa Among Us. Palihug basaha ang among \%link="https://www.innersloth.com/tl/privacy-policy-fil/"\%Privacy Policy\%/link\% aron makahibalo og dugang mahitungod sa among mga gawi sa pagkapribado. Mahimo nimong dumalahon ang imong mga setting sa personal nga datos para sa Among Us sa ilawom sa "Datos".\%nl\%\%nl\%Palihug basaha among \%link="https://www.innersloth.com/tl/terms-of-use-for-the-games-fil/"\%Terms of Use\%/link\% sa dili pa magdula sa Among Us.</string>
+<string name="PrivacyPolicyText">Magproseso ang Innersloth og personal nga datos para sa Among Us. Palihug basaha ang among {link="https://www.innersloth.com/tl/privacy-policy-fil/"}Privacy Policy{/link} aron makahibalo og dugang mahitungod sa among mga gawi sa pagkapribado.
+
+Palihug basaha among {link="https://www.innersloth.com/tl/terms-of-use-for-the-games-fil/"}Terms of Use{/link} sa dili pa magdula sa Among Us.</string>
 <string name="ManageDataButton">Dumalaha ang Pagkolekta og Datos</string>
 <string name="UnderstandButton">Nasabtan Nako</string>
 <string name="WaterPlants">Bisbisi ang Mga Tanom</string>
@@ -305,23 +351,45 @@
 <string name="VentMove">Agi sa Vent</string>
 <string name="MenuNavigate">Pag-navigate</string>
 <string name="NsoError">Dili makakonektar sa network.</string>
-<string name="ErrorServerOverload">Overloaded na ang mga server sa Among Us.\%nl\%\%nl\%Gikasubo namo! Palihug pagsulay pag-usab sa laing panahon!</string>
+<string name="ErrorServerOverload">Overloaded na ang mga server sa Among Us.
+
+Gikasubo namo! Palihug pagsulay pag-usab sa laing panahon!</string>
 <string name="ErrorIntentionalLeaving">Dili ka mahimong moapil sa laing dula sulod sa laing {0} ka minuto pagkahuman sa tinuyo nga pagdiskonekta.</string>
 <string name="ErrorFocusLost">Nadiskonekta ka tungod kay gisuspinde ang Among Us sa laing app.</string>
-<string name="ErrorBanned">Gi-ban ka gikan sa {0}.\%nl\%\%nl\%Dili ka mahimong moapil pag-usab niadto nga room.</string>
-<string name="ErrorKicked">Gitangtang ka gikan sa {0}.\%nl\%\%nl\%Mahimo kang moapil pag-usab kung wala pa nagsugod ang room.</string>
-<string name="ErrorBannedNoCode">Gi-ban ka gikan sa room.\%nl\%\%nl\%Dili ka mahimong moapil pag-usab niadto nga room.</string>
-<string name="ErrorKickedNoCode">Gitangtang ka gikan sa room.\%nl\%\%nl\%Mahimo kang moapil pag-usab kung wala pa nagsugod ang room.</string>
-<string name="ErrorHacking">Gi-ban ka tungod sa pag-hack.\%nl\%\%nl\%Palihug undang na.</string>
-<string name="ErrorFullGame">Puno na ang dula nga gisulayan nimo sa pag-apil.\%nl\%\%nl\%Pakig-istorya sa host aron mahibaluan kung mahimo kang moapil sa sunod nga round.</string>
-<string name="ErrorStartedGame">Nagsugod na ang dula nga gisulayan nimo sa pag-apil.\%nl\%\%nl\%Pakig-istorya sa host aron mahibaluan kung mahimo kang moapil sa sunod nga round.</string>
+<string name="ErrorBanned">Gi-ban ka gikan sa {0}.
+
+Dili ka mahimong moapil pag-usab niadto nga room.</string>
+<string name="ErrorKicked">Gitangtang ka gikan sa {0}.
+
+Mahimo kang moapil pag-usab kung wala pa nagsugod ang room.</string>
+<string name="ErrorBannedNoCode">Gi-ban ka gikan sa room.
+
+Dili ka mahimong moapil pag-usab niadto nga room.</string>
+<string name="ErrorKickedNoCode">Gitangtang ka gikan sa room.
+
+Mahimo kang moapil pag-usab kung wala pa nagsugod ang room.</string>
+<string name="ErrorHacking">Gi-ban ka tungod sa pag-hack.
+
+Palihug undang na.</string>
+<string name="ErrorFullGame">Puno na ang dula nga gisulayan nimo sa pag-apil.
+
+Pakig-istorya sa host aron mahibaluan kung mahimo kang moapil sa sunod nga round.</string>
+<string name="ErrorStartedGame">Nagsugod na ang dula nga gisulayan nimo sa pag-apil.
+
+Pakig-istorya sa host aron mahibaluan kung mahimo kang moapil sa sunod nga round.</string>
 <string name="ErrorNotFoundGame">Wala nakita ang dula nga imong gipangita.</string>
 <string name="ErrorInactivity">Gipaundang sa server kini nga dula. Posibleng tungod sa walay aktibidad.</string>
-<string name="ErrorGenericOnlineDisconnect">Nadiskonekta ka gikan sa server.\%nl\%Kung kanunay kining mahitabo, susiha ang kakusgon sa imong network.\%nl\%Lagmit sab nga isyu kini sa server.</string>
-<string name="ErrorGenericLocalDisconnect">Nadiskonekta ka gikan sa host.\%nl\%\%nl\%Kung kanunay kining mahitabo, susiha ang kakusgon sa imong WiFi.</string>
+<string name="ErrorGenericOnlineDisconnect">Nadiskonekta ka gikan sa server.
+Kung kanunay kining mahitabo, susiha ang kakusgon sa imong network.
+Lagmit sab nga isyu kini sa server.</string>
+<string name="ErrorGenericLocalDisconnect">Nadiskonekta ka gikan sa host.
+
+Kung kanunay kining mahitabo, susiha ang kakusgon sa imong WiFi.</string>
 <string name="ErrorInvalidName">Gibalibaran sa server ang username: {0}</string>
 <string name="ErrorUnknown">Nadiskonekta ka gikan sa server tungod sa wala nahibaluang error.</string>
-<string name="ErrorIncorrectVersion">Migamit ka og mas daan nga bersyon sa dula.\%nl\%\%nl\%Palihug pag-update aron makadula ang uban.</string>
+<string name="ErrorIncorrectVersion">Migamit ka og mas daan nga bersyon sa dula.
+
+Palihug pag-update aron makadula ang uban.</string>
 <string name="ServerNA">North America</string>
 <string name="ServerEU">Europe</string>
 <string name="ServerAS">Asya</string>
@@ -397,7 +465,9 @@
 <string name="MedWT">WT:</string>
 <string name="MedETA">ETA {0}</string>
 <string name="MedHello">KUMUSTA!</string>
-<string name="LobbySizeWarning">Madula ang Among Us sa 4 ka player, pero girekomenda ang 5 o labaw pang mga player.\%nl\%\%nl\%Paspas kaayong mahuman ang mga dula nga adunay 4 ka player ug kasagarang modaog ang impostor.</string>
+<string name="LobbySizeWarning">Madula ang Among Us sa 4 ka player, pero girekomenda ang 5 o labaw pang mga player.
+
+Paspas kaayong mahuman ang mga dula nga adunay 4 ka player ug kasagarang modaog ang impostor.</string>
 <string name="Okay">Okay</string>
 <string name="OkayDontShow">Ok, ayaw na kini ipakita</string>
 <string name="Nevermind">Ayaw na lamang</string>
@@ -791,7 +861,14 @@
 <string name="GoOffline">Pag-offline</string>
 <string name="PlayAsGuest">Pagduwa isip Bisita</string>
 <string name="LogInTitle">Pag-sign In sa Usa ka Account</string>
-<string name="LogInInfoText">Pag-sign in o paghimo og account sa Among Us aron maka-access sa mga feature sa duwa sama sa:\%nl\%\%nl\%- Pag-save sa imong pag-uswag sa tanang napiling mga device\%nl\%- Pag-access sa Libreng Chat\%nl\%- Pag-link og cosmetics\%nl\%- Ug daghan pa!\%nl\%\%nl\%Ang pipila ka mga feature basin magkinahanglan og pag-apruba sa ginikanan o tigbantay depende sa klase sa account.</string>
+<string name="LogInInfoText">Pag-sign in o paghimo og account sa Among Us aron maka-access sa mga feature sa duwa sama sa:
+
+- Pag-save sa imong pag-uswag sa tanang napiling mga device
+- Pag-access sa Libreng Chat
+- Pag-link og cosmetics
+- Ug daghan pa!
+
+Ang pipila ka mga feature basin magkinahanglan og pag-apruba sa ginikanan o tigbantay depende sa klase sa account.</string>
 <string name="LogInInfoTextSwitch">Kung mag-sign in ka sa usa ka kumpletong account, mahimo kang mag-log in pag-usab sa bisan unsang oras. Kung wala kay account, awtomatikong magbuhat og account para kanimo.</string>
 <string name="ControllerDisconnectedMessage">Nadiskonekta ang Controller</string>
 <string name="FollowUs">I-follow kami!</string>
@@ -874,7 +951,9 @@
 <string name="ProgressLabel">Progreso:</string>
 <string name="TermsOfUseTitle">Mga Termino sa Paggamit</string>
 <string name="PPAndToUTitle">Palisiya sa Pagkapribado ug Mga Termino sa Paggamit</string>
-<string name="ErrorNotAuthenticated">Dili ka mapamatud-an sa mga server sa Among Us.\%nl\%\%nl\%Kinahanglan nga aduna kay Among Us account aron makadula online.</string>
+<string name="ErrorNotAuthenticated">Dili ka mapamatud-an sa mga server sa Among Us.
+
+Kinahanglan nga aduna kay Among Us account aron makadula online.</string>
 <string name="ComePlayDiscord">Ali pakigduwa og Among Us uban nako!</string>
 <string name="ShowAccountSupportID5">Ipakita ang ID sa Suporta sa Account</string>
 <string name="ShowAccountSupportID4">Pindota sa 4 pa ka higayon aron ipakita</string>
@@ -1343,18 +1422,33 @@
 <string name="LinkAccount">I-link ang Account</string>
 <string name="CreateNewAccount">Paghimo og Bag-ong Account</string>
 <string name="LinkExistingAccount">I-link ang Kasamtangang Account</string>
-<string name="LinkAccountExplanation">Kung aduna na kay Among Us account sa laing platform, lagmit nga mahimo kang mag-link niadto nga account!\%nl\%Isip alternatibo, mahimo kang magbuhat og bag-ong account.</string>
-<string name="LinkAccountCode">Ibutang ang mosunod nga code sa \%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\%</string>
+<string name="LinkAccountExplanation">Kung aduna na kay Among Us account sa laing platform, lagmit nga mahimo kang mag-link niadto nga account!
+Isip alternatibo, mahimo kang magbuhat og bag-ong account.</string>
+<string name="LinkAccountCode">Ibutang ang mosunod nga code sa {link="{0}"}{1}{/link} 
+{size=+2}{2}{/size}</string>
 <string name="ErrorLink">Adunay nahitabo nga problema sa pag-link sa imong account. Palihug sulayi pag-usab sa laing panahon.</string>
 <string name="UnlinkAccount">I-unlink ang Account</string>
 <string name="ConfirmUnlinkAccount">Kumpirmaha ang Pag-unlink sa Account</string>
-<string name="UnlinkAccountExplain">Kung i-unlink ang imong {0} account , ma-wipe ang imong datos ug maghimo og bag-ong {0} account.\%nl\%- Mawala ang bisan unsang mga aytem nga imong nadawat o na-unlock sa imong {0} account.\%nl\%- Mag-restart ka sa lebel 1 ug 0 XP.</string>
-<string name="UnlinkAccountExplainConfirm">Palihug i-save kini nga ID para sa reperensya:\%nl\%\%nl\%{0}\%nl\%\%nl\%Kung i-unlink nimo ang imong account ug wala ka niini nga ID, dili namo ma-recover ang imong progreso ug dili ka matabangan kung adunay sayop.</string>
+<string name="UnlinkAccountExplain">Kung i-unlink ang imong {0} account , ma-wipe ang imong datos ug maghimo og bag-ong {0} account.
+- Mawala ang bisan unsang mga aytem nga imong nadawat o na-unlock sa imong {0} account.
+- Mag-restart ka sa lebel 1 ug 0 XP.</string>
+<string name="UnlinkAccountExplainConfirm">Palihug i-save kini nga ID para sa reperensya:
+
+{0}
+
+Kung i-unlink nimo ang imong account ug wala ka niini nga ID, dili namo ma-recover ang imong progreso ug dili ka matabangan kung adunay sayop.</string>
 <string name="UnlinkError">Adunay nahitabo nga problema sa pag-unlink sa imong account. Palihug sulayi pag-usab sa laing panahon.</string>
 <string name="UnlinkSuccess">Malamposon nimong na-unlink ang {0} gikan sa imong pangunang Among Us account!</string>
 <string name="ConfirmLinkExistingAccount">Kumpirmaha ang Pag-link sa Kasamtangang Account</string>
-<string name="LinkExistingAccountExplain">Kung mag-link sa laing account, ma-overwrite ang tanang datos niini nga platform. Nagpasabot kini nga pulihan sa laing account ang imong {0} Among Us account.\%nl\%- Ma-overwrite ang bisan unsang mga aytem nga imong na-unlock sa imong{0} account.\%nl\%- Ma-overwrite ang tanang XP nga nakuha sa imong{0} account.\%nl\%- Ma-overwrite ang tanang mga Bean, Pod, ug Star.</string>
-<string name="LinkExistingAccountExplainConfirm">Sa labing daling panahon nga magkumpirma ka, i-reset namo ang imong {0} Among Us account aron mag-andam para sa pag-import sa datos gikan sa laing account.\%nl\%\%nl\%\%color=#{1}\%SIGUROHA NGA ADUNA KAY LAING KASAMTANGANG ACCOUNT DIIN GUSTO NIMONG I-LINK KINI NGA ACCOUNT SA DILI  PA IPROSESO.\%/color\%\%nl\%\%nl\%Kung i-reset ang imong {0} account, mapapas ang tanang XP, Bean, Pod, ug mga aytem ug mahimong 0. DILI namo ma-revert kini nga aksyon.</string>
+<string name="LinkExistingAccountExplain">Kung mag-link sa laing account, ma-overwrite ang tanang datos niini nga platform. Nagpasabot kini nga pulihan sa laing account ang imong {0} Among Us account.
+- Ma-overwrite ang bisan unsang mga aytem nga imong na-unlock sa imong{0} account.
+- Ma-overwrite ang tanang XP nga nakuha sa imong{0} account.
+- Ma-overwrite ang tanang mga Bean, Pod, ug Star.</string>
+<string name="LinkExistingAccountExplainConfirm">Sa labing daling panahon nga magkumpirma ka, i-reset namo ang imong {0} Among Us account aron mag-andam para sa pag-import sa datos gikan sa laing account.
+
+{color=#{1}}SIGUROHA NGA ADUNA KAY LAING KASAMTANGANG ACCOUNT DIIN GUSTO NIMONG I-LINK KINI NGA ACCOUNT SA DILI  PA IPROSESO.{/color}
+
+Kung i-reset ang imong {0} account, mapapas ang tanang XP, Bean, Pod, ug mga aytem ug mahimong 0. DILI namo ma-revert kini nga aksyon.</string>
 <string name="ResetAccount">I-reset ang Account</string>
 <string name="PurchasingLabel">Pagpalit og Aytem</string>
 <string name="ErrorInternalServer">Internal nga Error sa Server (Code {0})</string>
@@ -1440,13 +1534,15 @@
 <string name="RoleChanceAndQuantity">{0} nga dunay {1}% nga Tsansa</string>
 <string name="CheckingPurchasesLabel">Gisusi ang Mga Pagpalit...</string>
 <string name="ProtectedRecently">Dunay gipanalipdan bag-o lang ang Guardian Angel...</string>
-<string name="ScientistBlurbMed">I-access ang mga vital bisan kanus-a. Pagkumpleto\%nl\%og mga tahas aron i-recharge ang imong battery.</string>
+<string name="ScientistBlurbMed">I-access ang mga vital bisan kanus-a. Pagkumpleto
+og mga tahas aron i-recharge ang imong battery.</string>
 <string name="ScientistBlurbLong">Ang Scientist maka-access og portable vitals panel bisan asa aron masusi ang status sa crew. Bisan pa, ang portable vitals panel kinahanglang i-charge, mao nga kinahanglang sa Scientist nga mukumpleto og mga tahas aron mapuno ang battery.</string>
 <string name="EngineerBlurbMed">Makagamit sa mga vent.</string>
 <string name="EngineerBlurbLong">Ang Engineer usa ka Crewmate nga makagamit sa mga vent aron mas paspas nga makalakaw, ingon man makadakop sa mga Impostor. Dili ka pwedeng magpuyo didto kanunay, mao nga pag-amping kung kinsa ang imong i-vent...</string>
 <string name="GuardianAngelBlurbMed">Pag-cast og protection shield sa nahibiling crew.</string>
 <string name="GuardianAngelBlurbLong">Ang Guardian Angel mao ang ghost sa unang namatay nga Crewmate. Sila temporaryong maka-shield ug makapanalipod sa ubang buhing mga Crewmate. Orasi kini og maayo ug mapugngan nimo ang mga Impostor sa pagpatay sa ilang mga biktima. Swerte!</string>
-<string name="ShapeshifterBlurbMed">I-disguise imong kaugalingon pinaagi sa pag-morph\%nl\%ngadto sa ubang mga Crewmate.</string>
+<string name="ShapeshifterBlurbMed">I-disguise imong kaugalingon pinaagi sa pag-morph
+ngadto sa ubang mga Crewmate.</string>
 <string name="ShapeshifterBlurbLong">Ang Shapeshifter maka-usab sa ilang panagway ug maka-disguise sa ilang kaugalingon ingong ubang mga Crewmate. Taronga kini og himo aron ma-frame ang ubang mga Crewmate ug makahimo og kalibog kung kinsa ang tinuod nga Impostor. Pero pagbantay - ang disguise dili magdugay ug magbilin og ebidensya.</string>
 <string name="RoleHint">Hint</string>
 <string name="ScientistBatteryCharge">Gidugayon sa Battery</string>
@@ -1476,7 +1572,10 @@
 <string name="Cosmetic.skin_vi">Sinina ni Vi</string>
 <string name="Cosmetic.pet_poro">Poro ni Heimerdinger</string>
 <string name="RedeemPurchasedItemsTitle">I-redeem ang Napalit nga Mga Item</string>
-<string name="RedeemPurcahsedItemsExplain">Dunay miy bag-ong inventory system aron ma-access nimo ang imong mga item sa tanang mga platporma! Ang bisan unsang mag item nga gipalit sa miagi niini nga plataporma mahimong mabalhin ngadto sa among bag-ong inventory system nga KUASA LANG. \%nl\%Palihug siguradoha nga kini mao ang Account sa Among Us nga gusto nimong i-import ngadto ang imong napalit nga mga item sa miagi sa dili pa mopadayon.\%nl\%\%nl\%Account ID: {0}</string>
+<string name="RedeemPurcahsedItemsExplain">Dunay miy bag-ong inventory system aron ma-access nimo ang imong mga item sa tanang mga platporma! Ang bisan unsang mag item nga gipalit sa miagi niini nga plataporma mahimong mabalhin ngadto sa among bag-ong inventory system nga KUASA LANG. 
+Palihug siguradoha nga kini mao ang Account sa Among Us nga gusto nimong i-import ngadto ang imong napalit nga mga item sa miagi sa dili pa mopadayon.
+
+Account ID: {0}</string>
 <string name="RedeemProceed">Padayon</string>
 <string name="RedeemNotYet">Dili Sa Karon</string>
 <string name="RedeemNever">Ayaw Pangutana Balik</string>
@@ -1535,7 +1634,8 @@
 <string name="Cosmetic.skin_witch">Whimsy Witch</string>
 <string name="Cosmetic.pet_frankendog">Frankendog</string>
 <string name="Cosmetic.hat_mohawk_bubblegum">Morawk - Bubblegum</string>
-<string name="AvailableFor">Available sulod sa\%nl\%{0}d {1}h {2}m {3}s</string>
+<string name="AvailableFor">Available sulod sa
+{0}d {1}h {2}m {3}s</string>
 <string name="GuardianAngelImpostorSeeProtect">Makita ang Pagpanalipod ngadto sa Mga Impostor</string>
 <string name="Cosmetic.hat_pkHW01_PlagueHat">Plagued</string>
 <string name="QCAccIsRole">{0} maoy {1}</string>
@@ -1552,7 +1652,11 @@
 <string name="QCResProtected">{0} gipanalipdan {1}</string>
 <string name="QCResProtected_ANY_QCCrewMe">Si {0} nagpanalipod nako</string>
 <string name="QCRoles">Mga Role</string>
-<string name="GuestProgressionWarning">Nakalog-in ka sa usa ka Guest nga Account. \%nl\%\%nl\%Ang tanang XP, mga Pod, ug mga Beans nga kita maoy para lang niini nga Guest nga Account. Ang mga Guest nga Account naka-link lang sa imong personal nga device ug mawala kon magpuli ka ug mga device. \%nl\%\%nl\%Aron maseguro ang access sa tanan nimong kita nga mga currency ug usab ang imong mga gipamalit, palihog i-open ang account tab sa pangunang menu ug sign-in sa imong Among Us nga Account.</string>
+<string name="GuestProgressionWarning">Nakalog-in ka sa usa ka Guest nga Account. 
+
+Ang tanang XP, mga Pod, ug mga Beans nga kita maoy para lang niini nga Guest nga Account. Ang mga Guest nga Account naka-link lang sa imong personal nga device ug mawala kon magpuli ka ug mga device. 
+
+Aron maseguro ang access sa tanan nimong kita nga mga currency ug usab ang imong mga gipamalit, palihog i-open ang account tab sa pangunang menu ug sign-in sa imong Among Us nga Account.</string>
 <string name="ErrorFailedToCreateGame">Napakyas paghimo og bag-ong sesyon sa dula. Palihog sulayi og usab unya.</string>
 <string name="ErrorFailedToJoinCreatedGame">Napakyas pag-apil sa sesyon sa dula human mahimo kini. Palihog sulayi og usab unya.</string>
 <string name="ErrorDisconnectBeforeJoining">Naputol sa wala pa maapil sa sesyon sa dula.</string>
@@ -1644,7 +1748,9 @@
 <string name="BlockedPlayers">Gi-block nga Mga Player</string>
 <string name="RecentPlayers">Bag-o Lang nga Nakadawa Uban Kang</string>
 <string name="LobbyLabel">Lobby</string>
-<string name="FriendCodeExplanation">Ang Among Usa duna nay mga Lista sa Mga Friend karon! Aron makapadala ug makadawat og mga friend o game request, pagpili og unique nga Friend Code sa ubos.\%nl\%\%nl\%Kon makapili na ka, dili na kini mausab.</string>
+<string name="FriendCodeExplanation">Ang Among Usa duna nay mga Lista sa Mga Friend karon! Aron makapadala ug makadawat og mga friend o game request, pagpili og unique nga Friend Code sa ubos.
+
+Kon makapili na ka, dili na kini mausab.</string>
 <string name="FriendCodeSuccess">Ang imong Friend Code maoy {0}</string>
 <string name="FriendRequestReceived">Nadawat ang Friend Request</string>
 <string name="FriendRequestSent">Napadala ang Friend Request</string>
@@ -1677,11 +1783,12 @@
 <string name="AddFriendConfirm">Magpadala og friend request kang {0}?</string>
 <string name="UnfriendConfirm">I-unfriend si {0}?</string>
 <string name="UnblockConfirm">I-unblock si {0}?</string>
-<string name="SettingsEnableFriendInvites">Friend \%and\% Mga Lobby Invite</string>
+<string name="SettingsEnableFriendInvites">Friend {and} Mga Lobby Invite</string>
 <string name="ErrorTooManyRequests">Daghan ra kaayong mga lobby request. Palihug paabot og pipila ka minuto sa dili pa mosulay pag-usab.</string>
 <string name="TempDisabled">Temporaryong Gi-disable</string>
 <string name="TempDisabledLinkExplain">Ang mga account gipailalom og mga kausaban. Temporaryo namong gi-restrict ang pag-link sa naglungtad nga mga account. Hapit na kini nga maayo sa usa ka update sa umaabot!</string>
-<string name="RedeemPopup">Ania’y regalo gikan sa crew!\%nl\%{0}.</string>
+<string name="RedeemPopup">Ania’y regalo gikan sa crew!
+{0}.</string>
 <string name="RedeemButton">I-redeem</string>
 <string name="ErrorMaxFriends">Puno na ang imong lista sa mga higala.</string>
 <string name="ErrorPlayerBlockedYou">Error: Naa sa imong block list ang user o gi-block ka sa user.</string>
@@ -1693,10 +1800,14 @@
 <string name="Decontamination3">Ubos nga Decontamination</string>
 <string name="ErrorCommunications">Ang imong mga setting sa komunikasyon nagpugong kanimo sa pag-apil sa duwa. Aron moapil sa duwa, palihug i-enable ang mga komunikasyon sa uban.</string>
 <string name="SettingsColorblind">Colorblind Text</string>
-<string name="MergeGuestAccountText">Murag dunay \%link="https://www.innersloth.com/merging-guest-accounts/"\%guest account\%/link\% niini nga device! Wala na namo gisuportahan ang mga guest account ug mag-merge sa tanang mga item, currency, ug kasinatian gikan sa imong guest account ngadto niining {0} account.\%nl\%\%nl\%Kung naggamit ka niini nga device (computer, phone, ubp.) uban ang laing mga tawo, palihug matikdi nga ang tanan nga mogamit niini nga device MAG-SHARE niini nga guest account. Walay laing mga user niini nga device ang maka-merge niining guest account kung mopadayon ka, ug KAUSA lang ka maka-merge niining guest account. DILI ka maka-reallocate pag-usab sa mga item, currency, ug kasinatian nga nalangkit niining guest acccount.\%nl\%\%nl\%Palihug ikumpirma nga gusto nimong i-merge ang imong guest account ngadto niining {0} account.</string>
+<string name="MergeGuestAccountText">Murag dunay {link="https://www.innersloth.com/merging-guest-accounts/"}guest account{/link} niini nga device! Wala na namo gisuportahan ang mga guest account ug mag-merge sa tanang mga item, currency, ug kasinatian gikan sa imong guest account ngadto niining {0} account.
+
+Kung naggamit ka niini nga device (computer, phone, ubp.) uban ang laing mga tawo, palihug matikdi nga ang tanan nga mogamit niini nga device MAG-SHARE niini nga guest account. Walay laing mga user niini nga device ang maka-merge niining guest account kung mopadayon ka, ug KAUSA lang ka maka-merge niining guest account. DILI ka maka-reallocate pag-usab sa mga item, currency, ug kasinatian nga nalangkit niining guest acccount.
+
+Palihug ikumpirma nga gusto nimong i-merge ang imong guest account ngadto niining {0} account.</string>
 <string name="MergeGuestAccountTitle">I-merge ang Guest Account</string>
 <string name="ManageAccountTitle">Dumalahon ang Account</string>
-<string name="ManageAccountText">Palihug bisitaha ang \%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% sa pagdumala sa imong account, pag-merge, o kung duna ka bisan unsan mga isyu.</string>
+<string name="ManageAccountText">Palihug bisitaha ang {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com{/link} sa pagdumala sa imong account, pag-merge, o kung duna ka bisan unsan mga isyu.</string>
 <string name="Cosmetic.visor_BaconVisor">Nalipay nga Makita Ka</string>
 <string name="Cosmetic.hat_Baguette">Walay Pan Kasakit Lamang</string>
 <string name="Cosmetic.skin_Bananaskin">Peanut Butter Jelly Time</string>
@@ -1766,12 +1877,15 @@
 <string name="Cosmetic.nameplate_Orange">Orange you glad to see me?</string>
 <string name="Cosmetic.hat_sausage">Tied Off</string>
 <string name="SignInIssueTitle">{0} Error sa Account</string>
-<string name="SignInIssueText">Dili puwedeng magamit ang imong {0} sa paghimo og account sa Among Us tungod sa limitasyon sa edad sa {0}.\%nl\%\%nl\%Makapadayon ka og dula og Among Us niini nga device, pero para sa imong kaluwas malimitahan ang pipila ka feature lakip ang: pag-link og account, mga pagpalit og Star, ug pagbalhin og mga item sa bag-ong device. Kung naa kay mga pangutana, palihug i-email ang support@innersloth.com.</string>
+<string name="SignInIssueText">Dili puwedeng magamit ang imong {0} sa paghimo og account sa Among Us tungod sa limitasyon sa edad sa {0}.
+
+Makapadayon ka og dula og Among Us niini nga device, pero para sa imong kaluwas malimitahan ang pipila ka feature lakip ang: pag-link og account, mga pagpalit og Star, ug pagbalhin og mga item sa bag-ong device. Kung naa kay mga pangutana, palihug i-email ang support@innersloth.com.</string>
 <string name="FriendListUnavailable">Dili available ang Listahan sa Mga Higala</string>
 <string name="ErrorSanction">Tungod sa {0}, gi-ban ang imong account {1}.</string>
 <string name="SanctionDuration">hangtud {0}</string>
 <string name="SanctionPermanent">permanente</string>
-<string name="SanctionConduct">\%nl\%Palihug gamita kini nga panahon aron hunahunaon ug hinumduman ang among \%link="https://www.innersloth.com/tl/code-of-conduct-filipino/"\%Code of Conduct\%/link\%!</string>
+<string name="SanctionConduct">
+Palihug gamita kini nga panahon aron hunahunaon ug hinumduman ang among {link="https://www.innersloth.com/tl/code-of-conduct-filipino/"}Code of Conduct{/link}!</string>
 <string name="SanctionSexualMisconduct">sekswal nga dili maayong pamatasan</string>
 <string name="SanctionDoxing">pagpaambit o hulga sa pagpaambit sa personal nga impormasyon o doxing</string>
 <string name="SanctionIllegalActivity">ang pag-promote o pag-apil sa ilegal nga aktibidad</string>
@@ -1803,7 +1917,7 @@
 <string name="BugReportCategoryAccountManagement">Pagdumala sa Account</string>
 <string name="BugReportCategoryGameplayIssue">Isyu/Bug sa Gameplay</string>
 <string name="BugReportCategoryServerIssues">Mga Isyu sa Server</string>
-<string name="BugReportCategoryBilling">Tabang sa Bayronon \%and\% Pagbayad</string>
+<string name="BugReportCategoryBilling">Tabang sa Bayronon {and} Pagbayad</string>
 <string name="BugReportPopUpSubmittedText">Salamat! Malampusong nasumite ang imong feedback.</string>
 <string name="BugReportPopUpSubmissionFailedText">Nagsumite sab ka og feedback bag-ohay lang. Palihug sulayi pag-usab sa laing panahon.</string>
 <string name="BugReportPopUpCategoryLabel">Kategorya</string>
@@ -1845,10 +1959,14 @@
 <string name="Cosmetic.visor_hl_nudge">Kalabit-Kalabit</string>
 <string name="Cosmetic.visor_hl_marine">Eyepatch ni Marine</string>
 <string name="Cosmetic.visor_hl_wrong">Haha Ano Bang Pwedeng Mangyari?</string>
-<string name="AccountDeleteHelp">Pinaagi sa pagpindot sa KUMPIRMAHA, gihangyo nimo ang pagtangtang sa imong tanang datos sa Among us. Kini nga hangyo molungtad og 7-14 ka adlaw ug muresulta sa pagkawala sa tanang mga Star, XP, Beans, Pods, ug napalit nga mga Cosmetics. Sa dihang hingpit nang matangtang ang imong account, dili na namo mabalik kini nga aksyon. Mu-function nga normal ang imong account hangtod nga makumpleto ang proseso sa pagtangtang.\%nl\%\%nl\%Kung makasinati ka og bisan unsang mga error, palihug kontaka ang support@innersloth.com.</string>
+<string name="AccountDeleteHelp">Pinaagi sa pagpindot sa KUMPIRMAHA, gihangyo nimo ang pagtangtang sa imong tanang datos sa Among us. Kini nga hangyo molungtad og 7-14 ka adlaw ug muresulta sa pagkawala sa tanang mga Star, XP, Beans, Pods, ug napalit nga mga Cosmetics. Sa dihang hingpit nang matangtang ang imong account, dili na namo mabalik kini nga aksyon. Mu-function nga normal ang imong account hangtod nga makumpleto ang proseso sa pagtangtang.
+
+Kung makasinati ka og bisan unsang mga error, palihug kontaka ang support@innersloth.com.</string>
 <string name="DeleteAccount">Tangtanga ang Account</string>
 <string name="DoNotDeleteAccount">Ikansela ang Pagtangtang sa Account</string>
-<string name="AccountUnDeleteHelp">Pinaagi sa pagpindot sa KUMPIRMAHA, mahunong nimo ang proseso sa pagtangtang sa imong account. Kung gusto nimong tangtangon ang imong account, kinahanglan nimong ihangyo kini pag-usab.\%nl\%\%nl\%Kung makasinati ka og bisan unsang mga error, palihug kontaka ang support@innersloth.com.</string>
+<string name="AccountUnDeleteHelp">Pinaagi sa pagpindot sa KUMPIRMAHA, mahunong nimo ang proseso sa pagtangtang sa imong account. Kung gusto nimong tangtangon ang imong account, kinahanglan nimong ihangyo kini pag-usab.
+
+Kung makasinati ka og bisan unsang mga error, palihug kontaka ang support@innersloth.com.</string>
 <string name="ConfirmDelete">Palihug i-type ang DELETE aron makumpirma</string>
 <string name="ConfirmDeleteAccounts">I-tsek kini nga kahon aron makumpirma nga imong nasabtan nga matangtang niini kini account ug mga na-link niini ({0}).</string>
 <string name="ConfirmDeleteAccountsEmpty">I-tsek kini nga kahon aron makumpirma nga imong nasabtan nga matangtang niini kini account ug mga na-link niini.</string>
@@ -1866,7 +1984,8 @@
 <string name="Ghost">Kalag</string>
 <string name="CurrentlyHaunting">Nangalag Pa:</string>
 <string name="RoundRobin">Round-robin</string>
-<string name="RuleOneCrewmates">Pagpabiling buhi hangtud nga mahurot ang oras.\%nl\%makabawas sa timer ang pagkumpleto sa mga task.</string>
+<string name="RuleOneCrewmates">Pagpabiling buhi hangtud nga mahurot ang oras.
+makabawas sa timer ang pagkumpleto sa mga task.</string>
 <string name="RuleTwoCrewmates">Gamita ang mga vent ug ang Danger Meter aron makatago!</string>
 <string name="RuleThreeCrewmates">Pagkahurot sa oras, ma-track na ka sa Impostor!</string>
 <string name="RuleOneImpostor">Patya ang tanang Crewmate sulod sa gitakdang oras!</string>
@@ -1896,20 +2015,29 @@
 <string name="DefaultFilterTag_Casual">Casual</string>
 <string name="DefaultFilterTag_Serious">Seryoso</string>
 <string name="DefaultFilterTag_Expert">Eksperto</string>
-<string name="TagFiltersHelpFindGame">Ma-filter nimo ang mga pagpangita sa dula pinaagi sa pagpili sa mga tag gikan sa dropdown list. \%i\%Eksaktong\%/i\% motukma ang mga resulta sa pagpangita sa mga filter nga imong gipili.\%nl\%\%nl\%Pananglitan: Kung pilion nimo ang \%b\%Casual\%/b\% ug \%b\%Eksperto\%/b\% makit-an lamang nimo ang mga dula nga dunay tag sa parehas nga filter sa \%b\%Casual\%/b\% ug \%b\%Eksperto\%/b\%.</string>
-<string name="TagFiltersHelpCreate">Ma-tag nimo ang imong dula gamit ang mga filter aron matabangan ang mga player nga makit-an ang imong dula. \%i\%Eksaktong\%/i\% motukma ang mga resulta sa pagpangita sa mga filter nga imong gipili.\%nl\%\%nl\%Kung pilion nimo ang \%b\%Casual\%/b\% ug \%b\%Eksperto\%/b\% ang mga tawo lamang nga nangita sa mga filter sa parehas nga \%b\%Casual\%/b\% ug \%b\%Eksperto\%/b\% ang makakita sa dula.</string>
+<string name="TagFiltersHelpFindGame">Ma-filter nimo ang mga pagpangita sa dula pinaagi sa pagpili sa mga tag gikan sa dropdown list. {i}Eksaktong{/i} motukma ang mga resulta sa pagpangita sa mga filter nga imong gipili.
+
+Pananglitan: Kung pilion nimo ang {b}Casual{/b} ug {b}Eksperto{/b} makit-an lamang nimo ang mga dula nga dunay tag sa parehas nga filter sa {b}Casual{/b} ug {b}Eksperto{/b}.</string>
+<string name="TagFiltersHelpCreate">Ma-tag nimo ang imong dula gamit ang mga filter aron matabangan ang mga player nga makit-an ang imong dula. {i}Eksaktong{/i} motukma ang mga resulta sa pagpangita sa mga filter nga imong gipili.
+
+Kung pilion nimo ang {b}Casual{/b} ug {b}Eksperto{/b} ang mga tawo lamang nga nangita sa mga filter sa parehas nga {b}Casual{/b} ug {b}Eksperto{/b} ang makakita sa dula.</string>
 <string name="CreateLabel">Paghimo</string>
 <string name="NewGameMode">Bag-ong Mode sa Dula!</string>
-<string name="NewModeInfo">Dako ang pusta niining makapahinam nga mode sa dula! \%nl\%\%i\%Pero - dili kini ang imong ordinaryong Hide n Seek...\%/i\%</string>
+<string name="NewModeInfo">Dako ang pusta niining makapahinam nga mode sa dula! 
+{i}Pero - dili kini ang imong ordinaryong Hide n Seek...{/i}</string>
 <string name="HideSeekHowToPlayCaptionOne">Sayon ra!</string>
 <string name="HideSeekHowToPlayCaptionTwo">Mga Crewmate!</string>
 <string name="HideSeekHowToPlayCaptionThree">Mga Impostor!</string>
-<string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%Mga Crewmate:\%/b\%\%/color\% Kumpletoha ang mga task aron mopaspas ang oras, likayi ang Impostor, ug pagpabiling buhi hangtud nga mahurot ang oras.\%nl\%\%nl\%\%color=#FF3131\%\%b\%Ang Impostor:\%/b\%\%/color\% Pangitaa ang Mga Crewmate ug padayon sa pagpamatay.</string>
+<string name="HideSeekHowToPlayPageOne">{color=#38F25D}{b}Mga Crewmate:{/b}{/color} Kumpletoha ang mga task aron mopaspas ang oras, likayi ang Impostor, ug pagpabiling buhi hangtud nga mahurot ang oras.
+
+{color=#FF3131}{b}Ang Impostor:{/b}{/color} Pangitaa ang Mga Crewmate ug padayon sa pagpamatay.</string>
 <string name="HideSeekHowToPlaySubtextOne">Walay social deduction dinhi, mga pagsinggit sa kakuyaw ra.</string>
 <string name="HideSeekHowToPlayCrewmateInfoOne">I-master ang imong mga kahanas sa pagtago ug pangpangokoy aron magpabiling buhi.</string>
 <string name="HideSeekHowToPlayCrewmateInfoTwo">Niini nga mode, makagamit ka og mga vent ug makakuha og high-tech nga Danger Meter nga mo-alerto kanimo kung nagkaduol na ang Impostor. Dunay limitadong range sa panglantaw ang Impostor, mao nga gamita ang imong mga kaalam, vent ug visor aron malikayan sila!</string>
 <string name="HideSeekHowToPlayImpostorInfoOne">Dili makaagi sa vent ang mga Impostor niini nga mode, mao nga kinahanglan nimong molihok dayon aron madakpan ang imong dakponon. Ngitngit dira! Swerte kay duna kay Flashlight nga makatabang aron makita nimo ang imong mga sunod nga biktima.</string>
-<string name="HideSeekHowToPlayFinalHide">Mao kini ang finaaaal countdownnnn. Sa mga ulahing higayon sa dula, makakuha og power boost ang Impostor - mas paspas sila, makakuha og espesyal nga mapa sa Pagpangita, ug pang-direksyon nga ping kung asa ang bisan kinsang buhing Crewmate.\%nl\%\%nl\%Paghunahuna dayon ug planoha ang pag-ikyas aron makadaog!</string>
+<string name="HideSeekHowToPlayFinalHide">Mao kini ang finaaaal countdownnnn. Sa mga ulahing higayon sa dula, makakuha og power boost ang Impostor - mas paspas sila, makakuha og espesyal nga mapa sa Pagpangita, ug pang-direksyon nga ping kung asa ang bisan kinsang buhing Crewmate.
+
+Paghunahuna dayon ug planoha ang pag-ikyas aron makadaog!</string>
 <string name="HideSeekHowToPlayFlashlightMobile">Gamita ang virtual joystick sa Flashlight sa tuong bahin sa imong screen aron matutok ang beam ug patya ang tanang Crewmate nga imong makit-an!</string>
 <string name="HideSeekHowToPlayFlashlightDefault">Gamita ang imong mouse aron matutok ang beam sa Flashlight ug patya ang tanang Crewmate nga imong makit-an!</string>
 <string name="HideSeekHowToPlayFlashlightConsoles">Gamita ang Tuong Stick aron matutok ang imong beam ug patya ang tanang Crewmate nga imong makit-an!</string>
@@ -2032,7 +2160,9 @@
 <string name="Cosmetic.nameplate_hunter">Pride ni Hunter</string>
 <string name="Cosmetic.nameplate_lightfall">Lightfall</string>
 <string name="AnnouncementErrorSubtitle">Uh oh! Nasabotahe ang anunsyo!</string>
-<string name="AnnouncementErrorText">Murag dunay nahitabong problema. Palihug siguroha nga online ug na-update sa pinakabag-ong bersyon ang imong dula aron makuha ang tanang pinakabag-ong impormasyon ug mga pag-ayo sa Among Us.\%nl\%\%nl\%Kon padayon nga duna kay mga isyu, padal-i mi og ticket sa suporta sa support@innersloth.com.</string>
+<string name="AnnouncementErrorText">Murag dunay nahitabong problema. Palihug siguroha nga online ug na-update sa pinakabag-ong bersyon ang imong dula aron makuha ang tanang pinakabag-ong impormasyon ug mga pag-ayo sa Among Us.
+
+Kon padayon nga duna kay mga isyu, padal-i mi og ticket sa suporta sa support@innersloth.com.</string>
 <string name="ReadMoreLabel">aron makita ang tanang anunsyo!</string>
 <string name="ReturnToList">Balik sa Listahan</string>
 <string name="NavigateLinks">I-navigate ang mga link</string>
@@ -2056,7 +2186,8 @@
 <string name="AgeVerificationTitle">Pagberipika sa Edad</string>
 <string name="AgeVerificationInfoTitle">Unsa ang pagberipika sa edad?</string>
 <string name="AgeVerificationInfo">Kinahanglan ang pagberipika sa edad sa dili pa nimo ma-access ang Among Us. Dili namo tipigan ang imong petsang natawhan.</string>
-<string name="AgeVerificationMoreInfo">Para sa dugang impormasyon bahin sa among mga gawi sa pagkapribado, palihug bisitaha ang:\%nl\% \%link="https://www.innersloth.com/tl/privacy-policy-fil/"\%https://www.innersloth.com/tl/privacy-policy-fil/\%/link\%</string>
+<string name="AgeVerificationMoreInfo">Para sa dugang impormasyon bahin sa among mga gawi sa pagkapribado, palihug bisitaha ang:
+ {link="https://www.innersloth.com/tl/privacy-policy-fil/"}https://www.innersloth.com/tl/privacy-policy-fil/{/link}</string>
 <string name="EditLabel">I-edit</string>
 <string name="VerifyAgeText">Kini nga petsa ba ang sakto nga petsang natawhan nimo?</string>
 <string name="Cosmetic.nameplate_flagMlm">Flag sa MLM Pride</string>
@@ -2114,9 +2245,15 @@
 <string name="Cosmetic.skin_PusheenPurpleskin">Lilac Pastel Pusheen</string>
 <string name="Cosmetic.skin_Slothskin">Sloth</string>
 <string name="Cosmetic.hat_bearyCold">Brr-Bear-y</string>
-<string name="EosAccountSilentMergeFail">Dunay nahitabong problema samtang nag-finalize sa imong account sa Among Us. Palihug sulayi pag-usab o padayon gamit ang account sa bisita. Ma-save ang tanang progreso, pero girekomenda namo ang pag-set up og account aron ma-enjoy gayud nimo ang tanang feature sa Among Us.\%nl\%\%nl\%Sulayan og usab ang pag-setup og account?</string>
-<string name="AskForEosAccount">Duna na ba ka'y account sa Among Us? (Nailhab sab nga Epic Online Services account.)\%nl\%\%nl\%Kon nakadula na ka og Among Us niini nga device sauna, pilia ang 'Oo'.</string>
-<string name="KwsCreateFail">Uh oh! Dunay nahitabong problema sa pagpadala sa email sa mga Pagtugot sa Tigbantay. Palihug sulayi pag-usab o padayon sa offline mode.\%nl\%\%nl\%Sulayan pag-usab?</string>
+<string name="EosAccountSilentMergeFail">Dunay nahitabong problema samtang nag-finalize sa imong account sa Among Us. Palihug sulayi pag-usab o padayon gamit ang account sa bisita. Ma-save ang tanang progreso, pero girekomenda namo ang pag-set up og account aron ma-enjoy gayud nimo ang tanang feature sa Among Us.
+
+Sulayan og usab ang pag-setup og account?</string>
+<string name="AskForEosAccount">Duna na ba ka'y account sa Among Us? (Nailhab sab nga Epic Online Services account.)
+
+Kon nakadula na ka og Among Us niini nga device sauna, pilia ang 'Oo'.</string>
+<string name="KwsCreateFail">Uh oh! Dunay nahitabong problema sa pagpadala sa email sa mga Pagtugot sa Tigbantay. Palihug sulayi pag-usab o padayon sa offline mode.
+
+Sulayan pag-usab?</string>
 <string name="MissingGuardianEmailText">Ang imong account kulangan og email address sa guardian. Kinahanglan namong mohangyo sa imong guardian (pinaagi sa e-mail) og pagtugot nga magpadayon. Kung moingon sila nga oo, magamit nimo ang libreng chat online ug maalisdan ang imong username. Hangyoa ang usa ka hamtong nga tabangan ka niini!</string>
 <string name="MiningPit">Pit sa Pagmina</string>
 <string name="Jungle">Kalasangan</string>
@@ -2191,7 +2328,9 @@
 <string name="Cosmetic.nameplate_cliffs">Kini Sedimentary</string>
 <string name="ReportNotificationHeader">Salamat sa pagtabang nga magpabiling luwas ug mahigalaon nga lugar ang Among Us!</string>
 <string name="ReportNotificationBody">Ribyuhon sa among grupo sa pag-moderate ang impormasyon nga imong gi-report ug molihok kon angay base sa among Code of Conduct.</string>
-<string name="ErrorClientTimeout">Nadiskonekta ka sa server. Mahimong tungod kini sa mga isyu sa server, mga isyu sa network o mga isyu sa device. Susiha ang gikusgon sa imong network.\%nl\%\%nl\%Kung kini mahitabo kanunay, mahimong karaan na kaayo o wala na makaabot sa minimum nga mga kinahanglanon sa spec ang imong device. Sulayi ang pagdula sa laing device.</string>
+<string name="ErrorClientTimeout">Nadiskonekta ka sa server. Mahimong tungod kini sa mga isyu sa server, mga isyu sa network o mga isyu sa device. Susiha ang gikusgon sa imong network.
+
+Kung kini mahitabo kanunay, mahimong karaan na kaayo o wala na makaabot sa minimum nga mga kinahanglanon sa spec ang imong device. Sulayi ang pagdula sa laing device.</string>
 <string name="ErrorClientTimeoutConsole">Nadiskonekta ka sa server. Tungod tingali kini sa mga isyu sa server o sa network. Susiha ang gikusgon sa imong network.</string>
 <string name="Cosmetic.hat_NewYear2024">Bag-ong Tuig 2024</string>
 <string name="Cosmetic.nameplate_Celeste">Pataas ug Padayon</string>
@@ -2319,7 +2458,9 @@
 <string name="Cosmetic.nameplate_lny_goldCrewmate">Mga Maayong Fortune</string>
 <string name="Cosmetic.nameplate_lny_goldImpostor">Mga Bulawang Misfortune</string>
 <string name="AprilFoolsModeToggle">April Fools nga Mode (Limitadong Cosmetics)</string>
-<string name="ErrorAuthNonceFailure">Sabotahe! Nakasinati og isyu ang mga server sa Among Us samtang gipamatud-an ka. Palihug sulayi pag-usab.\%nl\%\%nl\%Kung magpadayon ang problema, palihug pagsumite og \%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%ticket sa suporta\%/link\%.</string>
+<string name="ErrorAuthNonceFailure">Sabotahe! Nakasinati og isyu ang mga server sa Among Us samtang gipamatud-an ka. Palihug sulayi pag-usab.
+
+Kung magpadayon ang problema, palihug pagsumite og {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}ticket sa suporta{/link}.</string>
 <string name="Cosmetic.nameplate_crewmatesBlue">Funky Crew - Asul</string>
 <string name="Cosmetic.nameplate_crewmatesRed">Funky Crew - Pula</string>
 <string name="Cosmetic.nameplate_horseHeaven">Wala Na Mi Nag-Horse Around</string>
@@ -2400,7 +2541,8 @@
 <string name="QCSelfSawRoleInLocation">Nakita nako si {0} sa {1}</string>
 <string name="NoisemakerRole">Noisemaker</string>
 <string name="NoisemakerBlurb">Magpadala og alerto kung mapatay</string>
-<string name="NoisemakerBlurbMed">Ialerto ang tanang crewmate sa imong lokasyon\%nl\%kung mapatay.</string>
+<string name="NoisemakerBlurbMed">Ialerto ang tanang crewmate sa imong lokasyon
+kung mapatay.</string>
 <string name="NoisemakerBlurbLong">Dili ordinaryong role sa crewmate ang Noisemaker. Wala silay abilidad nga magamit sama sa tanang uban nga role. Hinuon, awtomatiko nga magpadala sila og alerto kung mapatay sila sa impostor. Makapataranta og dali sa impostor ang alerto. Tan-awa imong mga kauban nga crewmate nga magdali og adto sa eksena sa krimen aron dakpon ang killer ug panimaslan imong kamatayon!</string>
 <string name="NoisemakerImpostorAlert">Makadawat og alerto ang mga impostor</string>
 <string name="NoisemakerAlertDuration">Gidugayon sa alerto</string>
@@ -2408,7 +2550,8 @@
 <string name="PhantomAbilityUndo">Makita</string>
 <string name="PhantomRole">Phantom</string>
 <string name="PhantomBlurb">Mahimo nga invisible</string>
-<string name="PhantomBlurbMed">Mahimo nga invisible aron makatago-tago\%nl\%o makalikay nga mapatay.</string>
+<string name="PhantomBlurbMed">Mahimo nga invisible aron makatago-tago
+o makalikay nga mapatay.</string>
 <string name="PhantomBlurbLong">Mahimo nga invisible ang Phantom aron makatago sa crewmate o makabiya sa eksena sa krimen nga dil madakpan. Dili sila makapatay samtang invisible, pero makagamit gihapon sila og mga hagdanan ug zipline. Ang pagkahimong invisible ug dili invisible maghimo og dako nga aso nga panganod maong siguroha nga walay crewmate sa area! Dili sab hangtod sa hangtod ang pagka-invisible mao nga siguroha nga ma-timing og sakto ang abilidad.</string>
 <string name="PhantomCooldown">Cooldown sa Pagkawala</string>
 <string name="PhantomDuration">Gidugayon sa Pagkawala</string>
@@ -2416,7 +2559,8 @@
 <string name="TrackerAbility">Track</string>
 <string name="TrackerAbilityUndo">I-untrack</string>
 <string name="TrackerBlurb">I-track ang Crewmate gamit ang imong mapa</string>
-<string name="TrackerBlurbMed">Pagbutang og tracker sa usa ka crewmate\%nl\%aron makita ang ilang mga kalihokan sa mapa.</string>
+<string name="TrackerBlurbMed">Pagbutang og tracker sa usa ka crewmate
+aron makita ang ilang mga kalihokan sa mapa.</string>
 <string name="TrackerBlurbLong">Makita sa Tracker ang posisyon sa crewmate sa ilang minimap. Kinahanglan una nga motapad sila sa laing crewmate aron mabutang ang tracking device. Pagbantay nga dili kaayo ka makaduda tan-awon samtang duolan ang ubang crewmate. Molungtad lang og pipila ka segundo ang pag-track mao nga siguroha ang pagpili og maayo sa target. Dugang pa, ayaw palabi'g tan-aw og dugay sa minimap kay dali ra ka maduolan sa impostor ana!</string>
 <string name="TrackerCooldown">Cooldown sa Pag-track</string>
 <string name="TrackerDuration">Gidugayon sa Pag-track</string>
@@ -2486,7 +2630,7 @@
 <string name="Cosmetic.skin_paws_opossum">Tig-dive sa basura</string>
 <string name="Cosmetic.skin_paws_parrot">Sinina sa Flight</string>
 <string name="Cosmetic.skin_paws_raccoon">Lil Rascal</string>
-<string name="Cosmetic.skin_paws_foxGrey">Kit \%and\% Caboodle - Grey</string>
+<string name="Cosmetic.skin_paws_foxGrey">Kit {and} Caboodle - Grey</string>
 <string name="Cosmetic.visor_paws_sacabambaspis">Makahulog sa apapangig</string>
 <string name="Cosmetic.visor_paws_parrotBeak">Pagpasundayag sa sungo</string>
 <string name="Cosmetic.visor_paws_bone">Maayong Pagkaon</string>
@@ -2512,7 +2656,7 @@
 <string name="Cosmetic.skin_claws_dragonRed">Ihulog ang Dragon - Pula</string>
 <string name="Cosmetic.skin_claws_frogSuit">Ambaki Kini</string>
 <string name="Cosmetic.skin_claws_hoofed">Lakangi Kini</string>
-<string name="Cosmetic.skin_claws_foxOrange">Kit \%and\% Caboodle - Kahil</string>
+<string name="Cosmetic.skin_claws_foxOrange">Kit {and} Caboodle - Kahil</string>
 <string name="Cosmetic.visor_claws_knife">Tugoti Ko nga Makita Kon Unsay Naa Nimo</string>
 <string name="Cosmetic.visor_claws_smallMuzzle">Mas Bark kay sa Bite</string>
 <string name="Cosmetic.visor_claws_whiskers">Ang Meow sa Iring</string>
@@ -2527,22 +2671,27 @@
 <string name="NoneLowercaseLabel">wala</string>
 <string name="ToolTipDefault">I-customize ang imong lobby gamit ang opsyon sa ubos.</string>
 <string name="ToolTipClassic">Naay mga Impostor nagpa himo nga mga Crewmate! Pangitaa kinsa ang makaduda ug pagboto para sila magawas.</string>
-<string name="ToolTipHide">Ang pinakalabing dula sa iring ug ilaga.\%nl\%Ayaw pasakop sa Tigpangita!</string>
+<string name="ToolTipHide">Ang pinakalabing dula sa iring ug ilaga.
+Ayaw pasakop sa Tigpangita!</string>
 <string name="ToolTipCapacity">Ang pinaka-max nga gidaghanong mga player nga makaapil sa lobby.</string>
 <string name="ToolTipServer">Ang rehiyon sa server diin mahimo ang dula.</string>
 <string name="ToolTipCrossplay">Mga Player sa bisan unsang platform makaapil sa lobby</string>
 <string name="ToolTipNoCrossplay">Mga Player lang nga naa sa parehas nga platform nimo ang makasulod.</string>
 <string name="ToolTipLanguage">Ang sinultihan gamiton para sa in-game nga mga diskusyon.</string>
-<string name="ToolTipSkeld">Ang Skeld: usa ka medyum-sized ship daghag mga kwarto\%nl\%ug koridor. Maayo para makuha ang mga teknik.</string>
-<string name="ToolTipMIRA">MIRA HQ: gamayng mapa na daghang taas nga koridoro\%nl\%ug hingpit nga konektadong sistema sa vent.</string>
-<string name="ToolTipPolus">Polus: kining planetary outpost usa ka medyum-sized nga\%nl\%mapang nagpakita sa sulod ug gawas nga mga dapit.</string>
+<string name="ToolTipSkeld">Ang Skeld: usa ka medyum-sized ship daghag mga kwarto
+ug koridor. Maayo para makuha ang mga teknik.</string>
+<string name="ToolTipMIRA">MIRA HQ: gamayng mapa na daghang taas nga koridoro
+ug hingpit nga konektadong sistema sa vent.</string>
+<string name="ToolTipPolus">Polus: kining planetary outpost usa ka medyum-sized nga
+mapang nagpakita sa sulod ug gawas nga mga dapit.</string>
 <string name="ToolTipAirship">Ang Airship: usa ka dakong mapang naay tonelada nga lainlaing mga kwarto aron motago o ma-corner sa usa ka Impostor.</string>
 <string name="ToolTipFungle">The Fungle: usa ka dakong islang naay maadlawang baybayon, misteryosong gubat, ug taas nga kabukiran.</string>
 <string name="ConfirmSettings">Kumpirmaha ang mga Opsyon</string>
 <string name="ConfirmSettingsTooltip">Nagahimo kag usa ka lobby nga naay mosunod nga mga opsyon:</string>
 <string name="EnterCodeElipsis">Ibutang ang code...</string>
 <string name="ToolTipChatTab">I-customize ang mga opsyon para sa in-game chat window.</string>
-<string name="DropshipsLabel">Dropships\%nl\%nga online</string>
+<string name="DropshipsLabel">Dropships
+nga online</string>
 <string name="FiltersActive">aktibong mga filter</string>
 <string name="ClearFilters">I-clear ang mga Filter</string>
 <string name="MoreLabel">Dugang pa...</string>
@@ -2570,21 +2719,29 @@
 <string name="FilterCrossplayTooltip">Ipakita ang mga lobby sa tanan nga mga platform o gikan lamang sa imong platform.</string>
 <string name="FilterDefaultTooltip">Limitahi ang imong pag-search gamit ang pag-filter sa ubos.</string>
 <string name="FilterFlashlightTooltip">Kung On, naay suga ang mga player nga pwede i-point sa bisang asang direksyon.</string>
-<string name="FilterHidingTimeTooltip">Ang gitas-on sa unang hugna sa\%nl\%Hide n Seek.</string>
-<string name="FilterFinalTimeTooltip">Ang gitas-on sa katapusang hugna sa\%nl\%Hide n Seek.</string>
+<string name="FilterHidingTimeTooltip">Ang gitas-on sa unang hugna sa
+Hide n Seek.</string>
+<string name="FilterFinalTimeTooltip">Ang gitas-on sa katapusang hugna sa
+Hide n Seek.</string>
 <string name="FilterMaxVentTooltip">Ang gidaghanon sa mga higayong ang mga Crewmate maka-vent.</string>
 <string name="FilterBeginner">Baguhan</string>
 <string name="FilterIntermediate">Tunga-tunga</string>
 <string name="FilterExpert">Eksperto</string>
 <string name="FilterTag">Tag</string>
 <string name="FilterTagTooltip">I-filter pinaagi sa Lobby's Tag.</string>
-<string name="TooltipTag">Pag-add og tag aron makadani sa players\%nl\%sa piho nga lebel sa kahanas.</string>
+<string name="TooltipTag">Pag-add og tag aron makadani sa players
+sa piho nga lebel sa kahanas.</string>
 <string name="SelectedLabel">GIPILI:</string>
-<string name="TooltipSpeedInfo">\%b\%Ubos:\%/b\% 0.5-0.75x	\%b\%Taas:\%/b\% 1.75-2.25x\%nl\%\%b\%Med:\%/b\% 1.0-1.5x	\%b\%V. Taas:\%/b\% 2.5-3.0x</string>
-<string name="TooltipKillCDInfo">\%b\%Ubos:\%/b\% 10-20s	\%b\%Taas:\%/b\% 37.5-47.5s\%nl\%\%b\%Med:\%/b\% 22.5-35s	\%b\%V. Taas:\%/b\%</string>
-<string name="TooltipVotingInfo">\%b\%Ubos:\%/b\% 0-60s        \%b\%Taas:\%/b\% 150-210s\%nl\%\%b\%Med:\%/b\% 75-135s        \%b\%V. Taas:\%/b\% 225-300s</string>
-<string name="TooptipHidingTimeInfo">\%b\%Ubos:\%/b\% 160-180s	\%b\%Taas:\%/b\% 260-300s\%nl\%\%b\%Med:\%/b\% 200-240s</string>
-<string name="TooltipFinalTimeInfo">\%b\%Ubos:\%/b\% 30-45s	\%b\%Taas:\%/b\% 75-95s\%nl\%\%b\%Med:\%/b\% 50-70s	\%b\%V. Taas:\%/b\% 100-120s</string>
+<string name="TooltipSpeedInfo">{b}Ubos:{/b} 0.5-0.75x	{b}Taas:{/b} 1.75-2.25x
+{b}Med:{/b} 1.0-1.5x	{b}V. Taas:{/b} 2.5-3.0x</string>
+<string name="TooltipKillCDInfo">{b}Ubos:{/b} 10-20s	{b}Taas:{/b} 37.5-47.5s
+{b}Med:{/b} 22.5-35s	{b}V. Taas:{/b}</string>
+<string name="TooltipVotingInfo">{b}Ubos:{/b} 0-60s        {b}Taas:{/b} 150-210s
+{b}Med:{/b} 75-135s        {b}V. Taas:{/b} 225-300s</string>
+<string name="TooptipHidingTimeInfo">{b}Ubos:{/b} 160-180s	{b}Taas:{/b} 260-300s
+{b}Med:{/b} 200-240s</string>
+<string name="TooltipFinalTimeInfo">{b}Ubos:{/b} 30-45s	{b}Taas:{/b} 75-95s
+{b}Med:{/b} 50-70s	{b}V. Taas:{/b} 100-120s</string>
 <string name="FilterNoMaps">Walay mapang gipili.</string>
 <string name="Cosmetic.hat_kamurocho_ichiban">Buhok ni Kasuga Ichiban</string>
 <string name="Cosmetic.hat_kamurocho_ono">Sumbrero ni Ono Michio</string>
@@ -2657,7 +2814,8 @@
 <string name="DetectiveAbility">Pakigsukitsukit</string>
 <string name="DetectiveAbilityNotes">Notes</string>
 <string name="DetectiveBlurb">Magkuhag info. Magsulbad sa mga pagpamatay.</string>
-<string name="DetectiveBlurbMed">Idugang ang info sa Notes.\%nl\%Pagsukit sa mga Kaubanan.</string>
+<string name="DetectiveBlurbMed">Idugang ang info sa Notes.
+Pagsukit sa mga Kaubanan.</string>
 <string name="DetectiveNotesEmpty">Samtang naay pagpamatay, Makahimo ko sa pagsugod ug imbistigar…</string>
 <string name="DetectiveNearLocation">Duol {0}</string>
 <string name="DetectiveNotesKiller">{0}</string>
@@ -2736,7 +2894,8 @@
 <string name="RewardAdTitle">NAKAKUHA KA UG BITUON!</string>
 <string name="RewardAdBody1">Laing Bituon nga ganti ang pwede makuha sa {0} ka oras.</string>
 <string name="RewardAdBody2">Laing Bituon nga ganti ang pwede makuha sa {0} ka mga oras.</string>
-<string name="WatchAdErrorBody">Dunay problema sa pag karga sa ad.\%nl\%Palihug sulayi pag-usab unya.</string>
+<string name="WatchAdErrorBody">Dunay problema sa pag karga sa ad.
+Palihug sulayi pag-usab unya.</string>
 <string name="WatchAdErrorTitle">UH OH...</string>
 <string name="Cosmetic.hat_phoenix_wright">Buhok ni Phoenix Wright</string>
 <string name="Cosmetic.skin_phoenix_wright">Ang Suit ni Phoenix Wright</string>
@@ -2802,4 +2961,27 @@
 <string name="Cosmetic.skin_parasite_Yellow">Apron ni Yellow</string>
 <string name="Cosmetic.pet_parasite_Stressball">Kasaligan nga Bola</string>
 <string name="Cosmetic.nameplate_parasite_Impostor">Naa sa Imong Luyo!</string>
+<string name="JudgeRole">Maghuhukom</string>
+<string name="JudgeBlurb">Kontrolaha ang meeting</string>
+<string name="JudgeBlurbMed">Gamita ang Overrule sa meeting aron mapagawas ang usa ka Impostor.
+Kung sayop ka, ikaw ang mapagawas.</string>
+<string name="JudgeBlurbLong">Ikaw ang mokontrol sa boto</string>
+<string name="JudgeTaskRequirement">% sa Task nga na-unlock</string>
+<string name="RolesHelp_Judge_01">Ang Maghuhukom adunay kusganong abilidad sa meeting nga gitawag og Overrule. Gitugotan siya niini sa paggamit og espesyal nga boto batok sa usa ka Crewmate nga iyang gidudahang Impostor.</string>
+<string name="RolesHelp_Judge_02">Kon gamiton ang maong abilidad, ang espesyal nga boto sa Maghuhukom lang ang maihap. Kung sakto ang iyang paghukom, ang Impostor ang mapagawas. Apan kung sayop ang Maghuhukom, siya mismo ang mapagawas!</string>
+<string name="JudgeAbilityUnlocked">Na-unlock na ang abilidad sa Maghuhukom</string>
+<string name="JudgeAbilityProgress">Kompletoha {0}ang (mga) task aron makahukom!</string>
+<string name="JudgeCourtAdjourned">Anaa na ang hukom...</string>
+<string name="JudgeHasSpoken">Nakahukom na ang Maghuhukom.</string>
+<string name="StatsJudgeSuccessfulOverrules">Nalampos nga mga Overrule sa Maghuhukom:</string>
+<string name="StatsJudgeFailedOverrules">Napakyas nga mga Overrule sa Maghuhukom:</string>
+<string name="JudgeBeatYouToIt">Nakahukom na ang Maghuhukom.
+(Naunhan ka sa laing Maghuhukom)</string>
+<string name="QCJudges">Maghuhukom?</string>
+<string name="QCJudgeOverrule">Ako ang Mo-overrule</string>
+<string name="QCJudgePlease">Palihug gamita ang Overrule {0}</string>
+<string name="QCJudgeWillOverrule">Ako ang Mo-overrule {0}</string>
+<string name="MatchInfoGuideTitle">Giya nga Impormasyon sa Match</string>
+<string name="MatchInfoGuidePlayersLabel">Mga Mandudula</string>
+<string name="MatchInfoGuideNoRolesMessage">Walay Na-enable nga Mga Role</string>
 </resources>

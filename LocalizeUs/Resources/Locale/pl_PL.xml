@@ -91,14 +91,15 @@
   <string name="EnterIdCode">Wpisz Kod</string>
   <string name="BuyBeverage">Kup Napój</string>
   <string name="ProcessData">Przetwórz Dane</string>
-  <string name="NumImpostorsS">Pośród nas jest \%color=#FF1919FF\%1 Intruz\%/color\%</string>
-  <string name="NumImpostorsP">Pośród nas jest \%color=#FF1919FF\%{0} Intruzów\%/color\%</string>
+  <string name="NumImpostorsS">Pośród nas jest {color=#FF1919FF}1 Intruz{/color}</string>
+  <string name="NumImpostorsP">Pośród nas jest {color=#FF1919FF}{0} Intruzów{/color}</string>
   <!--Don't translate roles unless they are logical-->
     <string name="Crewmate">Załogant</string>
   <string name="Impostor">Intruz</string>
   <string name="Victory">Zwycięstwo</string>
   <string name="Defeat">Porażka</string>
-  <string name="CrewmatesDisconnected">Większość Załogi\%nl\%Wyszła z Gry</string>
+  <string name="CrewmatesDisconnected">Większość Załogi
+Wyszła z Gry</string>
   <string name="ImpostorDisconnected">Intruzi Wyszli z Gry</string>
   <string name="PickAnomaly">Wybierz Anomalię</string>
   <string name="WaterPlantsGetCan">Weź konewkę!</string>
@@ -129,10 +130,16 @@
   <string name="MeetingProceeds">Koniec Spotkania: {0}s</string>
   <string name="MeetingHasVoted">{0} zagłosował. Oczekiwanie na pozostałych graczy ({1}) .</string>
   <!-- Za długie jak na razie -->
-    <string name="HowToPlayText1">Among Us to gra współpracy, ale także zdrady.\%nl\%\%nl\%Gracze mogą być zarówno Załogantami, jak i Intruzami.</string>
+    <string name="HowToPlayText1">Among Us to gra współpracy, ale także zdrady.
+
+Gracze mogą być zarówno Załogantami, jak i Intruzami.</string>
   <string name="HowToPlayText2">Graj online, albo lokalnie od 4 do 15 graczy!</string>
   <string name="HowToPlayText41">Jeśli masz już konto Among Us na innej platformie, możesz połączyć je z tym kontem! Możesz też założyć zupełnie nowe konto.</string>
-  <string name="HowToPlayText42">Najpierw zdecyduj, z kim chcesz grać!\%nl\%\%nl\%Jeśli chcesz grać ze znajomymi online, ustaw tryb „prywatny” i udostępnij im kod pokoju.\%nl\%\%nl\%Jeśli chcesz grać z osobami z całego świata, ustaw tryb „publiczny”.</string>
+  <string name="HowToPlayText42">Najpierw zdecyduj, z kim chcesz grać!
+
+Jeśli chcesz grać ze znajomymi online, ustaw tryb „prywatny” i udostępnij im kod pokoju.
+
+Jeśli chcesz grać z osobami z całego świata, ustaw tryb „publiczny”.</string>
   <string name="HowToPlayText43">Chcesz więcej tasków? A może szybszą prędkość chodzenia? Więcej Intruzów? Jako host, możesz zmieniać te ustawienia. Jednak upewnij się, że odpowiadają innym graczom.</string>
   <string name="HowToPlayText44">Jeśli ktoś zachowuje się niegrzecznie i/lub spamuje, gospodarze mogą tymczasowo wyrzucić graczy w ramach ostrzeżenia lub zablokować im dostęp do konkretnego pokoju online.</string>
   <string name="HowToPlayTextMap">Każdy gracz ma dostęp do mapy, która ułatwia im poruszanie się po statku.</string>
@@ -149,9 +156,21 @@
   <string name="HowToPlayTextImp5">Sabotuj i zdezorientuj Załogę.</string>
   <string name="HowToPlayTextImp6">Zamknij drzwi aby uwięzić ofiary.</string>
   <string name="HowToPlayTextImp7">Zabijaj Załogantów gdy tylko będziesz mógł.</string>
-  <string name="HowToPlayText5">Grając z innymi na żywo nie rozmawiajcie, aby zachować sprawiedliwą rozgrywkę.\%nl\%\%nl\%Gdy osoba zostanie wyeliminowania, nie może mówić dopóki gra się nie skończy.\%nl\%\%nl\%Duchy po śmierci dalej muszą robić zadania aby umożliwić załogantom wygraną.</string>
-  <string name="HowToPlayText6">Podczas spotkania załoga zbiera się by dyskutować co wiedzą o Intruzie.\%nl\%\%nl\%Gracze mogą otwarcie dzielić się swoją wiedzą o Intruzie oraz kim on może być. Grając z innymi, Duchy nie mogą rozmawiać gdyż już wiedzą kto jest Intruzem.\%nl\%\%nl\%Intruzi będą próbowali się obronić lub oskarżyć kogoś innego.</string>
-  <string name="HowToPlayText7">Po dyskusji, zagłosuj na tego kto według ciebie jest Intruzem.\%nl\%\%nl\%Osoba z największą ilością głosów zostanie wyrzucona ze statku, więc głosuj mądrze!\%nl\%\%nl\%Jeżeli ty i reszta załogi nie macie wystarczająco informacji, możecie pominąć głosowanie aby nie ryzykować wyrzuceniem kogoś niewinnego oraz zebrać więcej informacji.</string>
+  <string name="HowToPlayText5">Grając z innymi na żywo nie rozmawiajcie, aby zachować sprawiedliwą rozgrywkę.
+
+Gdy osoba zostanie wyeliminowania, nie może mówić dopóki gra się nie skończy.
+
+Duchy po śmierci dalej muszą robić zadania aby umożliwić załogantom wygraną.</string>
+  <string name="HowToPlayText6">Podczas spotkania załoga zbiera się by dyskutować co wiedzą o Intruzie.
+
+Gracze mogą otwarcie dzielić się swoją wiedzą o Intruzie oraz kim on może być. Grając z innymi, Duchy nie mogą rozmawiać gdyż już wiedzą kto jest Intruzem.
+
+Intruzi będą próbowali się obronić lub oskarżyć kogoś innego.</string>
+  <string name="HowToPlayText7">Po dyskusji, zagłosuj na tego kto według ciebie jest Intruzem.
+
+Osoba z największą ilością głosów zostanie wyrzucona ze statku, więc głosuj mądrze!
+
+Jeżeli ty i reszta załogi nie macie wystarczająco informacji, możecie pominąć głosowanie aby nie ryzykować wyrzuceniem kogoś niewinnego oraz zebrać więcej informacji.</string>
   <string name="HowToPlayText81">Poćwicz w Trybie Treningowym!</string>
   <string name="HowToPlayText82">Ustaw wybrane zadania jako Załogant, albo poćwicz swoje strategie jako Intruz!</string>
   <string name="SettingsGeneral">Ogólne</string>
@@ -306,7 +325,9 @@
   <string name="MedWT">WG:</string>
   <string name="MedETA">ETA {0}</string>
   <string name="MedHello">SIEMA!</string>
-  <string name="LobbySizeWarning">W Among Us można grać w 4 osoby, ale zalecane jest grać w 5 lub więcej.\%nl\%\%nl\%Czteroosobowe gry będą kończyć się dosyć szybko i zazwyczaj Intruzi będą wygrywać.</string>
+  <string name="LobbySizeWarning">W Among Us można grać w 4 osoby, ale zalecane jest grać w 5 lub więcej.
+
+Czteroosobowe gry będą kończyć się dosyć szybko i zazwyczaj Intruzi będą wygrywać.</string>
   <string name="Okay">Okej</string>
   <string name="OkayDontShow">Ok, nie pokazuj więcej</string>
   <string name="Nevermind">Nieważne</string>
@@ -484,9 +505,18 @@
   <string name="WaitingForPlayers">Oczekiwanie na graczy</string>
   <string name="FinalHideCategory">Ostateczne chowanie</string>
   <string name="EnterName">Wprowadź Nazwę</string>
-  <string name="EmergencyCount">ZAŁOGANT {0} MA JESZCZE \%nl\%\%nl\%\%nl\%\%nl\%SPOTKAŃ</string>
-  <string name="EmergencyNotReady">ZAŁOGAŃCI MUSZĄ POCZEKAĆ\%nl\%\%nl\%\%nl\%\%nl\%PRZED ZWOŁANIEM SPOTKANIA</string>
-  <string name="EmergencyDuringCrisis">SPOTKANIA NIE MOGĄ ZOSTAĆ\%nl\%ZWOŁANE PODCZAS SABOTAŻY</string>
+  <string name="EmergencyCount">ZAŁOGANT {0} MA JESZCZE 
+
+
+
+SPOTKAŃ</string>
+  <string name="EmergencyNotReady">ZAŁOGAŃCI MUSZĄ POCZEKAĆ
+
+
+
+PRZED ZWOŁANIEM SPOTKANIA</string>
+  <string name="EmergencyDuringCrisis">SPOTKANIA NIE MOGĄ ZOSTAĆ
+ZWOŁANE PODCZAS SABOTAŻY</string>
   <string name="SettingShort">Krótki</string>
   <string name="SettingMedium">Średni</string>
   <string name="SettingLong">Długi</string>
@@ -509,16 +539,34 @@
   <string name="MenuNavigate">Nawiguj</string>
   <string name="NsoError">Nie połączono z siecią.</string>
   <string name="ErrorIntentionalLeaving">Nie możesz dołączyć do następnej gry przez kolejne {0} minut przez celowe rozłączenie.</string>
-  <string name="ErrorBanned">Zostałeś zbanowany z {0}.\%nl\%\%nl\%Nie możesz powrócić do tego lobby.</string>
-  <string name="ErrorKicked">Zostałeś wyrzucony z {0}.\%nl\%\%nl\%Możesz powrócić jeżeli gra się nie zaczęła.</string>
-  <string name="ErrorBannedNoCode">Zostałeś zbanowany z lobby. \%nl\%\%nl\%Nie możesz powrócić do tego lobby.</string>
-  <string name="ErrorKickedNoCode">Zostałeś wyrzucony z lobby. \%nl\%\%nl\%Możesz powrócić jeżeli gra się nie zaczęła.</string>
-  <string name="ErrorFullGame">Gra do której próbujesz dołączyć jest pełna.\%nl\%\%nl\%Skontaktuj się z hostem czy możesz dołączyć w następnej rundzie.</string>
-  <string name="ErrorStartedGame">Gra do której próbujesz dołączyć już się zaczęła.\%nl\%\%nl\%Skontaktuj się z hostem czy możesz dołączyć w następnej rundzie.</string>
-  <string name="ErrorHacking">Zostałeś zbanowany za hakowanie.\%nl\%\%nl\%Proszę przestań.</string>
-  <string name="ErrorGenericOnlineDisconnect">Rozłączono cię z serwerem.\%nl\%Jeżeli zdarza się to często, sprawdź moc połączenia sieci.\%nl\%To może być też problem serwera.</string>
+  <string name="ErrorBanned">Zostałeś zbanowany z {0}.
+
+Nie możesz powrócić do tego lobby.</string>
+  <string name="ErrorKicked">Zostałeś wyrzucony z {0}.
+
+Możesz powrócić jeżeli gra się nie zaczęła.</string>
+  <string name="ErrorBannedNoCode">Zostałeś zbanowany z lobby. 
+
+Nie możesz powrócić do tego lobby.</string>
+  <string name="ErrorKickedNoCode">Zostałeś wyrzucony z lobby. 
+
+Możesz powrócić jeżeli gra się nie zaczęła.</string>
+  <string name="ErrorFullGame">Gra do której próbujesz dołączyć jest pełna.
+
+Skontaktuj się z hostem czy możesz dołączyć w następnej rundzie.</string>
+  <string name="ErrorStartedGame">Gra do której próbujesz dołączyć już się zaczęła.
+
+Skontaktuj się z hostem czy możesz dołączyć w następnej rundzie.</string>
+  <string name="ErrorHacking">Zostałeś zbanowany za hakowanie.
+
+Proszę przestań.</string>
+  <string name="ErrorGenericOnlineDisconnect">Rozłączono cię z serwerem.
+Jeżeli zdarza się to często, sprawdź moc połączenia sieci.
+To może być też problem serwera.</string>
   <string name="ErrorUnknown">Nieznany błąd rozłączył cię z serwerem.</string>
-  <string name="ErrorIncorrectVersion">Grasz na starszej wersji gry.\%nl\%\%nl\%Proszę zaktualizuj aby grać z innymi.</string>
+  <string name="ErrorIncorrectVersion">Grasz na starszej wersji gry.
+
+Proszę zaktualizuj aby grać z innymi.</string>
   <string name="LangEnglish">Angielski</string>
   <string name="LangFrench">Francuski</string>
   <string name="LangItalian">Włoski</string>
@@ -532,7 +580,16 @@
   <string name="LangDutch">Holenderski</string>
   <string name="QCCrewI">Ja</string>
   <string name="QCCrewMe">Ja</string>
-  <string name="LocalHelp">Problemy z połączenie?\%nl\%\%nl\%● Upewnij się, że wszyscy są połączeni do tej samej sieci WIFI\%nl\%● Upewnij się, że wszyscy mają tą samą wersję (w prawym dolnym rogu)\%nl\%● Upewnij się, że twój sygnał WiFi jest wystarczająco silny\%nl\%\%nl\%● Czasami pomaga gdy inny osoba stworzy grę%nl\%● Czasami pomaga włączenie aplikacji na nowo...\%nl\%● Czasami włączenie twojego telefonu na nowo pomaga...\%nl\%● Dalej masz problemy? Daj nam znać pisząc do nas na maila support@innersloth.com!</string>
+  <string name="LocalHelp">Problemy z połączenie?
+
+● Upewnij się, że wszyscy są połączeni do tej samej sieci WIFI
+● Upewnij się, że wszyscy mają tą samą wersję (w prawym dolnym rogu)
+● Upewnij się, że twój sygnał WiFi jest wystarczająco silny
+
+● Czasami pomaga gdy inny osoba stworzy grę
+● Czasami pomaga włączenie aplikacji na nowo...
+● Czasami włączenie twojego telefonu na nowo pomaga...
+● Dalej masz problemy? Daj nam znać pisząc do nas na maila support@innersloth.com!</string>
   <string name="QCBuildingPlaceholder">Budowanie frazy...</string>
   <string name="QCCrewDead">Martwy</string>
   <string name="QCTagFavorites">Ulubione</string>
@@ -595,8 +652,12 @@
   <string name="QCResVote">Głosuj</string>
   <string name="QCResVoteNeg">Pomińmy głosowanie</string>
   <string name="QCResRip">rip</string>
-  <string name="ErrorServerOverload">Serwery Among Us są przeciążone.\%nl\%\%nl\%Przepraszamy! Spróbuj ponownie później!</string>
-  <string name="ErrorGenericLocalDisconnect">Rozłączono cię z hostem.\%nl\%\%nl\%Jeżeli zdarza się to często, sprawdź moc połączenia z WiFi.</string>
+  <string name="ErrorServerOverload">Serwery Among Us są przeciążone.
+
+Przepraszamy! Spróbuj ponownie później!</string>
+  <string name="ErrorGenericLocalDisconnect">Rozłączono cię z hostem.
+
+Jeżeli zdarza się to często, sprawdź moc połączenia z WiFi.</string>
   <string name="ErrorInvalidName">Serwer gry odrzucił nazwę użytkownika: {0}</string>
   <string name="QCWhoWasRole">Kto był {0}?</string>
   <string name="QCResLies">Kłamstwa</string>
@@ -684,7 +745,9 @@
   <string name="QCSawDeadCrewOnVitals">Widziałem na vitalsach że {0} nie żyje</string>
   <string name="QCSelfSawTwoCrew">Widziałem dwóch {0}</string>
   <string name="WeatherEta">Pozostało: {0}s</string>
-  <string name="HowToPlayText2Switch">Zagraj w od 4 do 15 graczy online dzięki swojemu\%nl\%\%nl\%członkostwu Nintendo Switch Online lub przez Wi-Fi lokalnie!!</string>
+  <string name="HowToPlayText2Switch">Zagraj w od 4 do 15 graczy online dzięki swojemu
+
+członkostwu Nintendo Switch Online lub przez Wi-Fi lokalnie!!</string>
   <string name="LangSpanishLATAM">Hiszpański (Latam)</string>
   <string name="LangFilipino">Bisajski</string>
   <string name="QCSystemsStart">Zacznij</string>
@@ -699,7 +762,9 @@
   <string name="VentDirection">Kierunek Wentowania</string>
   <string name="VentMove">Przemieść się Wentem</string>
   <string name="AdPolicyText">Czy możemy wykorzystać twoje dane osobowe w celu dopasowania reklam dla ciebie? Jeżeli klikniesz Tak, nasi partnerzy reklamowi tacy jak Google AdMob i Unity Ads będą automatycznie zbierali dane i użyją identyfikatorów urządzeń oraz ciasteczek dla personalizacji reklam. Jeżeli klikniesz Nie, nadal możesz zobaczyć niespersonalizowane reklamy. By pozbyć się reklam, zakup aktualizację bez reklam [httpstore]tutaj[] i ani ty, ani twoi znajomi nie będą mieli reklam kiedy hostujesz! By dowiedzieć się więcej o naszych praktykach prywatności i praktykach prywatności naszych partnerów, przeczytaj naszą [https://www.innersloth.com/privacy-policy/]Politykę Prywatności[]. Możesz zmienić swoją decyzję w każdej chwili w menu ustawień, zakładce "Dane".</string>
-  <string name="PrivacyPolicyText">Innersloth przetwarza dane osobowe w Among Us. Prosimy o zapoznanie się z naszą \%link="https://www.innersloth.com/privacy-policy/"\%Polityką Prywatności\%/link\% , aby dowiedzieć się więcej o naszych praktykach prywatności. Ustawieniami danych osobowych w Among Us możesz zarządzać w sekcji „Dane”. \%nl\%\%nl\%Zapoznaj się z naszymi \%link="https://www.innersloth.com/terms-of-use-for-the-games/"\%Warunkami Użytkowania\%/link\% przed graniem w Among Us.</string>
+  <string name="PrivacyPolicyText">Innersloth przetwarza dane osobowe w Among Us. Prosimy o zapoznanie się z naszą {link="https://www.innersloth.com/privacy-policy/"}Polityką Prywatności\{/link} , aby dowiedzieć się więcej o naszych praktykach prywatności. Ustawieniami danych osobowych w Among Us możesz zarządzać w sekcji „Dane”. 
+
+Zapoznaj się z naszymi {link="https://www.innersloth.com/terms-of-use-for-the-games/"}Warunkami Użytkowania\{/link} przed graniem w Among Us.</string>
   <string name="MedscanRequested">Wykonaj Skan</string>
   <string name="ErrorFocusLost">Zostałeś rozłączony, ponieważ Among Us zostało zawieszone przez inną aplikację.</string>
   <string name="QCCrewShapeshifted">{0} przemienił się</string>
@@ -758,8 +823,15 @@
   <string name="MedscanWaitingFor">Oczekiwanie na {0}</string>
   <string name="QCResDontKnow">Nie wiem</string>
   <string name="QCResDontKnowNeg">Może</string>
-  <string name="OnlineHelp">Jak to działa?\%nl\%\%nl\%● Tworzenie gry daje ci kod w panelu lobby.\%nl\%● Udostępnij ten kod znajomym aby stworzyć prywatną grę. \%nl\%● Albo naciśnij "Prywatne" aby twoją grę dało się znaleźć w menu "Wyszukaj Grę".\%nl\%● Gospodarz może zbanować bądź wyrzucić graczy kiedy ma dostęp do okna czatu.\%nl\%● Dalej masz problemy? Daj nam znać pisząc do nas na maila support@innersloth.com!</string>
-  <string name="EmergencyRequested">SPOTKANIE ZWOŁANE\%nl\%OCZEKIWANIE NA GOSPODARZA</string>
+  <string name="OnlineHelp">Jak to działa?
+
+● Tworzenie gry daje ci kod w panelu lobby.
+● Udostępnij ten kod znajomym aby stworzyć prywatną grę. 
+● Albo naciśnij "Prywatne" aby twoją grę dało się znaleźć w menu "Wyszukaj Grę".
+● Gospodarz może zbanować bądź wyrzucić graczy kiedy ma dostęp do okna czatu.
+● Dalej masz problemy? Daj nam znać pisząc do nas na maila support@innersloth.com!</string>
+  <string name="EmergencyRequested">SPOTKANIE ZWOŁANE
+OCZEKIWANIE NA GOSPODARZA</string>
   <string name="AdPolicyTitle">Polityka Reklam</string>
   <string name="Accept">Akceptuję</string>
   <string name="ManageDataButton">Zarządzaj Zbieraniem Danych</string>
@@ -905,7 +977,13 @@
   <string name="InsufficientStorageError">Za mało miejsca na pobranie pakietu zasobów. Zrób miejsce na swoim urządzeniu i spróbuj ponownie.</string>
   <string name="NetworkError">Nastąpił problem z siecią. Sprawdź swoje ustawienia połączenia i spróbuj ponownie.</string>
   <string name="OtherDownloadError">Nastąpił błąd: {0}</string>
-  <string name="LogInInfoText">Zaloguj się lub stwórz konto Among Us aby uzyskać dostęp do takich funkcji gry jak:\%nl\%\%nl\%- Zapisywanie progresu na różnych urządzeniach\%nl\%- Zachowanie przebrania\%nl\%- i więcej!\%nl\%\%nl\%Niektóre funkcje mogą potrzebować zgody rodzica lub opiekuna w zależności od rodzaju konta.</string>
+  <string name="LogInInfoText">Zaloguj się lub stwórz konto Among Us aby uzyskać dostęp do takich funkcji gry jak:
+
+- Zapisywanie progresu na różnych urządzeniach
+- Zachowanie przebrania
+- i więcej!
+
+Niektóre funkcje mogą potrzebować zgody rodzica lub opiekuna w zależności od rodzaju konta.</string>
   <string name="DownloadingLabel">Pobieranie {0}</string>
   <string name="DownloadSizeLabel">Rozmiar do pobrania: {0}MB</string>
   <string name="TimeRemaining">Pozostały czas: {0}</string>
@@ -968,7 +1046,9 @@
   <string name="ProgressLabel">Postęp:</string>
   <string name="TermsOfUseTitle">Warunki użytku</string>
   <string name="PPAndToUTitle">Polityka prywatności oraz warunki użytku</string>
-  <string name="ErrorNotAuthenticated">Serwery Among Us nie mogły cię uwierzytelnić.\%nl\%\%nl\%Musisz posiadać konto Among Us aby grać online.</string>
+  <string name="ErrorNotAuthenticated">Serwery Among Us nie mogły cię uwierzytelnić.
+
+Musisz posiadać konto Among Us aby grać online.</string>
   <string name="ShowAccountSupportID4">Naciśnij jeszcze 4 razy aby pokazać</string>
   <string name="ShowAccountSupportID3">Nie udostępniaj tego ID (3)</string>
   <string name="ShowAccountSupportID2">Nie pokazuj gdy streamujesz (2)</string>
@@ -1138,14 +1218,19 @@
   <string name="RestorePurchases">Przywróć Zakupy</string>
   <string name="DeleteAccount">Usuń Konto</string>
   <string name="DoNotDeleteAccount">Anuluj Usuwanie Konta</string>
-  <string name="AccountUnDeleteHelp">Przez kliknięcie POTWIERDŹ, anulujesz proces usuwania swojego konta. Jeśli zechcesz znowu je usunąć, będziesz musiał zażądać tego ponownie.\%nl\%\%nl\% Jeśli napotkasz się z jakimiś błędami, skontaktuj się z nami pisząc maila na support@innersloth.com.</string>
-  <string name="AccountDeleteHelp">Przez kliknięcie POTWIERDŹ, zarządzasz o usunięcie wszystkich swoich danych Among Us. To żądanie potrwa od 7 do 14 dni i sprawi, że wszystkie twoje Gwiazdy, XP, Fasolki oraz kupione przedmioty kosmetyczne. Gdy twoje konto zostanie usunięte, ta akcja nie będzie możliwa do cofnięcia. Twoje konto będzie działało poprawnie aż do czasu pełnego usunięcia.\%nl\%\%nl\% Jeśli napotkasz się z jakimiś błędami, skontaktuj się z nami pisząc maila na support@innersloth.com.</string>
+  <string name="AccountUnDeleteHelp">Przez kliknięcie POTWIERDŹ, anulujesz proces usuwania swojego konta. Jeśli zechcesz znowu je usunąć, będziesz musiał zażądać tego ponownie.
+
+ Jeśli napotkasz się z jakimiś błędami, skontaktuj się z nami pisząc maila na support@innersloth.com.</string>
+  <string name="AccountDeleteHelp">Przez kliknięcie POTWIERDŹ, zarządzasz o usunięcie wszystkich swoich danych Among Us. To żądanie potrwa od 7 do 14 dni i sprawi, że wszystkie twoje Gwiazdy, XP, Fasolki oraz kupione przedmioty kosmetyczne. Gdy twoje konto zostanie usunięte, ta akcja nie będzie możliwa do cofnięcia. Twoje konto będzie działało poprawnie aż do czasu pełnego usunięcia.
+
+ Jeśli napotkasz się z jakimiś błędami, skontaktuj się z nami pisząc maila na support@innersloth.com.</string>
   <string name="AccountRequestDelete">Usuwanie Konta w Trakcie</string>
   <string name="UserVersionError">Niepoprawna Wersja : To lobby było stworzone na wersji Among US {0}</string>
   <string name="ConfirmDelete">Wpisz DELETE aby potwierdzić</string>
   <string name="ConfirmDeleteAccounts">Zaznaczając poniższe pole potwierdzasz, że rozumiesz, że to konto jak i połączone zostaną usunięte ({0}).</string>
   <string name="ConfirmDeleteAccountsEmpty">Zaznaczając poniższe pole potwierdzasz, że rozumiesz, że to konto jak i połączone zostaną usunięte.</string>
-  <string name="RuleOneCrewmates">Przetrwaj dopóki nie skończy się czas.\%nl\%Robienie zadań skraca czas.</string>
+  <string name="RuleOneCrewmates">Przetrwaj dopóki nie skończy się czas.
+Robienie zadań skraca czas.</string>
   <string name="RuleTwoCrewmates">Używaj wentów oraz Paska Zagrożenia aby się ukryć!</string>
   <string name="RuleThreeCrewmates">Gdy czas się skończy, Szukający może cię namierzyć!</string>
   <string name="RuleOneImpostor">Zabij wszystkich Chowających w danym czasie!</string>
@@ -1171,11 +1256,14 @@
   <string name="HideSeekHowToPlayCaptionOne">To proste!</string>
   <string name="CreateLabel">Stwórz</string>
   <string name="NewGameMode">Nowy Tryb Gry!</string>
-  <string name="NewModeInfo">Stawka jest wysoka w tym nowym - ciągle trzymającym w napięciu trybie gry! \%nl\%Ale chwila - to nie jest twoja zwykła gra w chowanego...<i>But wait - it's not your ordinary Hide n Seek...</i>
+  <string name="NewModeInfo">Stawka jest wysoka w tym nowym - ciągle trzymającym w napięciu trybie gry! 
+Ale chwila - to nie jest twoja zwykła gra w chowanego...<i>But wait - it's not your ordinary Hide n Seek...</i>
   </string>
   <string name="HideSeekHowToPlayCaptionTwo">Chowający!</string>
   <string name="HideSeekHowToPlayCaptionThree">Szukający!</string>
-  <string name="HideSeekHowToPlayPageOne">\%color=#38F25D\%\%b\%Chowający:\%/b\%\%/color\% Ukończ zadania aby skrócić pozostały czas, unikaj Szukającego i przetrwaj do końca aby wygrać.\%nl\%\%nl\%\%color=#FF3131\%\%b\%Szukający:\%/b\%\%/color\% Znajdź Chowających i zabij ich wszystkich.</string>
+  <string name="HideSeekHowToPlayPageOne">{color=#38F25D}<b>Chowający:</b>{/color} Ukończ zadania aby skrócić pozostały czas, unikaj Szukającego i przetrwaj do końca aby wygrać.
+
+{color=#FF3131}<b>Szukający:</b>\{/color} Znajdź Chowających i zabij ich wszystkich.</string>
   <string name="HideSeekHowToPlaySubtextOne">Nie ma tu żadnej dedukcji, są tylko przerażone krzyki.</string>
   <string name="HideSeekHowToPlayCrewmateInfoOne">Wyćwiczy swoje umiejętności chowania i skradania się aby przetrwać.</string>
   <string name="HideSeekHowToPlayCrewmateInfoTwo">W tym trybie możesz korzystać z wentów, żeby tymczasowo się ukryć oraz paska zagrożenia który powiadomi cię gdy Szukający zbliży się do ciebie. Szukający ma ograniczoną wizję, więc użyj tego, wentów oraz paska zagrożenia aby sprawnie się schować i przeżyć!</string>
@@ -1203,7 +1291,8 @@
   <string name="DetectiveNotesPrepositionMaybe">Może</string>
   <string name="StatsViperBodiesDissolved">Ciała w Pełni Rozpuszczone:	</string>
   <string name="DetectiveBlurb">Zbierz informacje. Rozwiąż zabójstwa.</string>
-  <string name="DetectiveBlurbMed">Dodaj informacje do Notatek.\%nl\%Przesłuchaj Załogę.</string>
+  <string name="DetectiveBlurbMed">Dodaj informacje do Notatek.
+Przesłuchaj Załogę.</string>
   <string name="DetectiveNotesEmpty">Gdy tylko zostanie zgłoszone ciało, mogę zacząć pracować nad sprawą...</string>
   <string name="DetectiveNotesKiller">{0}</string>
   <string name="StatsDetectiveQuestioned">Przesłuchani Załoganci:	</string>
@@ -1222,11 +1311,16 @@
   <string name="XboxCommsMultiplayerError">Twoje konto nie ma wystarczających permisji aby korzystać z funkcji Online.</string>
   <string name="MaxFilters">Maksymalna ilość filtrów aktywna</string>
   <string name="FilterNoMaps">Brak wybranych map.</string>
-  <string name="TooltipSpeedInfo">\%b\%Wolna:\%/b\% 0.5-0.75x	\%b\%Wysoka:\%/b\% 1.75-2.25x\%nl\%\%b\%Średnia:\%/b\% 1.0-1.5x	\%b\%B. Wysoka:\%/b\% 2.5-3.0x</string>
-  <string name="TooltipKillCDInfo">\%b\%Niski:\%/b\% 10-20s	\%b\%Wysoki:\%/b\% 37.5-47.5s\%nl\%\%b\%Średni:\%/b\% 22.5-35s	\%b\%B. Wysoki:\%/b\% 50-60s</string>
-  <string name="TooltipVotingInfo">\%b\%Krótki:\%/b\% 0-60s	\%b\%Długi:\%/b\% 150-210s\%nl\%\%b\%Średni:\%/b\% 75-135s	\%b\%B. Długi:\%/b\% 225-300s</string>
-  <string name="TooptipHidingTimeInfo">\%b\%Krótki:\%/b\% 160-180s	\%b\%Długi:\%/b\% 260-300s\%nl\%\%b\%Średni:\%/b\% 200-240s</string>
-  <string name="TooltipFinalTimeInfo">\%b\%Krótki:\%/b\% 30-45s	\%b\%Długi:\%/b\% 75-95s\%nl\%\%b\%Średni:\%/b\% 50-70s	\%b\%B. Długi:\%/b\% 100-120s</string>
+  <string name="TooltipSpeedInfo"><b>Wolna:</b> 0.5-0.75x	<b>Wysoka:</b> 1.75-2.25x
+<b>Średnia:</b> 1.0-1.5x	<b>B. Wysoka:</b> 2.5-3.0x</string>
+  <string name="TooltipKillCDInfo"><b>Niski:</b> 10-20s	<b>Wysoki:</b> 37.5-47.5s
+<b>Średni:</b> 22.5-35s	<b>B. Wysoki:</b> 50-60s</string>
+  <string name="TooltipVotingInfo"><b>Krótki:</b> 0-60s	<b>Długi:</b> 150-210s
+<b>Średni:</b> 75-135s	<b>B. Długi:</b> 225-300s</string>
+  <string name="TooptipHidingTimeInfo"><b>Krótki:</b> 160-180s	<b>Długi:</b> 260-300s
+<b>Średni:</b> 200-240s</string>
+  <string name="TooltipFinalTimeInfo"><b>Krótki:</b> 30-45s	<b>Długi:</b> 75-95s
+<b>Średni:</b> 50-70s	<b>B. Długi:</b> 100-120s</string>
   <string name="SelectedLabel">WYBRANE:</string>
   <string name="FilterTagTooltip">Przefiltruj lobby przez Tagi.</string>
   <string name="TooltipTag">Dodaj tag aby lobby przykuło uwagę graczy na wybranym poziomie umiejętności.</string>
@@ -1296,17 +1390,24 @@
   <string name="ConfirmSettings">Potwierdź Ustawienia</string>
   <string name="ToolTipChatTab">Dostosuj ustawienia dla chatu w grze.</string>
   <string name="DropshipsLabel">Gier online</string>
-  <string name="ToolTipSkeld">The Skeld: rozmiarowo średni statek z wieloma pomieszczeniami\%nl\%i korytarzami. Idealny do nauki podstaw.</string>
-  <string name="ToolTipMIRA">MIRA HQ: mały budynek z wieloma długimi korytarzami\%nl\% i w pełni połączonym systemem wentów.</string>
-  <string name="ToolTipPolus">Polus: średniego rozmiaru planetarna placówka \%nl\%z obszarami zewnętrznymi i wewnętrznymi.</string>
-  <string name="ToolTipAirship">The Airship: duży statek z toną różnych pomieszczeń w których możesz się schować\%nl\bądź zostać otoczonym przez Intruza.</string>
-  <string name="ToolTipFungle">The Fungle: wielka wyspa ze słoneczną plażą,\%nl\%tajemniczą dżunglą i wysokimi wzgórzami.</string>
+  <string name="ToolTipSkeld">The Skeld: rozmiarowo średni statek z wieloma pomieszczeniami
+i korytarzami. Idealny do nauki podstaw.</string>
+  <string name="ToolTipMIRA">MIRA HQ: mały budynek z wieloma długimi korytarzami
+ i w pełni połączonym systemem wentów.</string>
+  <string name="ToolTipPolus">Polus: średniego rozmiaru planetarna placówka 
+z obszarami zewnętrznymi i wewnętrznymi.</string>
+  <string name="ToolTipAirship">The Airship: duży statek z toną różnych pomieszczeń w których możesz się schować
+bądź zostać otoczonym przez Intruza.</string>
+  <string name="ToolTipFungle">The Fungle: wielka wyspa ze słoneczną plażą,
+tajemniczą dżunglą i wysokimi wzgórzami.</string>
   <string name="HostNounEmpty">Host</string>
   <string name="ToolTipLanguage">Język w którym odbędzie się dyskusja w grze.</string>
   <string name="ToolTipNoCrossplay">Tylko gracze na tej samej platformie co ty mogą dołączyć.</string>
   <string name="ToolTipDefault">Dostosuj swoje lobby używając poniższych ustawień.</string>
-  <string name="ToolTipClassic">Intruzi udają Załogantów!\%nl\%Dowiedz się kto jest podejrzany i wygłosuj go.</string>
-  <string name="ToolTipHide">Najlepsza gra w kotka i myszkę.\%nl\%Nie daj się złapać szukającemu!</string>
+  <string name="ToolTipClassic">Intruzi udają Załogantów!
+Dowiedz się kto jest podejrzany i wygłosuj go.</string>
+  <string name="ToolTipHide">Najlepsza gra w kotka i myszkę.
+Nie daj się złapać szukającemu!</string>
   <string name="ToolTipCapacity">Maksymalna ilość graczy która może dołączyć do lobby.</string>
   <string name="ToolTipServer">Region w którym chcesz stworzyć grę.</string>
   <string name="ToolTipCrossplay">Gracze z każdej platformy będą mogli dołączyć.</string>
@@ -1408,12 +1509,19 @@
   <string name="LinkAccount">Połącz konto</string>
   <string name="CreateNewAccount">Stwórz nowe konto</string>
   <string name="LinkExistingAccount">Połącz istniejące konto</string>
-  <string name="LinkAccountExplanation">Jeżeli posiadasz już konto Among Us na innej platformie, możesz być w stanie połączyć do tego konta!\%nl\%Alternatywnie, możesz stworzyć nowe konto.</string>
+  <string name="LinkAccountExplanation">Jeżeli posiadasz już konto Among Us na innej platformie, możesz być w stanie połączyć do tego konta!
+Alternatywnie, możesz stworzyć nowe konto.</string>
   <string name="ErrorLink">Nastąpił błąd w łączeniu do twojego konta. Spróbuj ponownie później.</string>
   <string name="UnlinkAccount">Rozłącz konto</string>
   <string name="ConfirmUnlinkAccount">Potwierdź Rozłączenie Konta</string>
-  <string name="UnlinkAccountExplain">Rozłączenie twojego {0} konta wyczyści twoje dane i stworzy nowe {0} konto.\%nl\%- Stracisz wszystkie przedmioty uzyskane na twoim {0} koncie.\%nl\%- Zaczniesz na 1 poziomie z 0 PD.</string>
-  <string name="UnlinkAccountExplainConfirm">Zachowaj to ID jako odniesienie:\%nl\%\%nl\%{0}\%nl\%\%nl\%Jeśli rozłączysz swoje konto i nie będziesz miał tego ID, nie będziemy w stanie odzyskać twojego postępu ani asystować jeśli pojawił się jakiś błąd.</string>
+  <string name="UnlinkAccountExplain">Rozłączenie twojego {0} konta wyczyści twoje dane i stworzy nowe {0} konto.
+- Stracisz wszystkie przedmioty uzyskane na twoim {0} koncie.
+- Zaczniesz na 1 poziomie z 0 PD.</string>
+  <string name="UnlinkAccountExplainConfirm">Zachowaj to ID jako odniesienie:
+
+{0}
+
+Jeśli rozłączysz swoje konto i nie będziesz miał tego ID, nie będziemy w stanie odzyskać twojego postępu ani asystować jeśli pojawił się jakiś błąd.</string>
   <string name="UnlinkError">Coś poszło nie tak w rozłączaniu twojego konta. Spróbuj ponownie później.</string>
   <string name="UnlinkSuccess">Powiodło się rozłączenie {0} od twojego głównego konta Among Us!</string>
   <string name="ConfirmLinkExistingAccount">Potwierdź połączenie do istniejącego konta</string>
@@ -1533,9 +1641,17 @@
   <string name="Cosmetic.pet_EmptyPet">Brak</string>
   <string name="Cosmetic.skin_None">Brak</string>
   <string name="Cosmetic.visor_EmptyVisor">Brak</string>
-  <string name="LinkAccountCode">Wpisz następujący kod na stronie \%link="{0}"\%{1}\%/link\% \%nl\%\%size=+2\%{2}\%/size\%</string>
-  <string name="LinkExistingAccountExplain">Połączenie się z innym kontem nadpisze wszystkie dane na tej platformie. To oznacza że twoje konto {0} Among Us zostanie zamienione innym.\%nl\%- Wszelkie przedmioty które zostały odblokowane na tym koncie {0} zostaną nadpisane.\%nl\%- Całe PD zdobyte na twoim koncie {0} zostanie nadpisane.\%nl\%- Wszystkie fasolki, Pody oraz Gwiazdki zostaną nadpisane.</string>
-  <string name="LinkExistingAccountExplainConfirm">W momencie w którym potwierdzisz, zresetujemy twoje konto {0} Among Us w celach przygotowania go na zaimportowanie nowych danych.\%nl\%\%nl\%\%color=#{1}\%UPEWNIJ SIĘ ŻE MASZ PRZYGOTOWANE INNE ISTNIEJĄCE KONTO KTÓRE CHCESZ POŁĄCZYĆ Z TYM KONTEM ZANIM KONTYNUUJESZ.\%color\%\%nl\%\%nl\%Zresetowanie konta {0} wyczyści wszystkie twoje Fasolki, Pody, Itemy oraz Punkty PD. NIE będziemy wstanie cofnąć tej czynności.</string>
+  <string name="LinkAccountCode">Wpisz następujący kod na stronie {link="{0}"}{1}\{/link}
+{size=+2}{2}{/size}</string>
+  <string name="LinkExistingAccountExplain">Połączenie się z innym kontem nadpisze wszystkie dane na tej platformie. To oznacza że twoje konto {0} Among Us zostanie zamienione innym.
+- Wszelkie przedmioty które zostały odblokowane na tym koncie {0} zostaną nadpisane.
+- Całe PD zdobyte na twoim koncie {0} zostanie nadpisane.
+- Wszystkie fasolki, Pody oraz Gwiazdki zostaną nadpisane.</string>
+  <string name="LinkExistingAccountExplainConfirm">W momencie w którym potwierdzisz, zresetujemy twoje konto {0} Among Us w celach przygotowania go na zaimportowanie nowych danych.
+
+{color=#{1}\{/color}UPEWNIJ SIĘ ŻE MASZ PRZYGOTOWANE INNE ISTNIEJĄCE KONTO KTÓRE CHCESZ POŁĄCZYĆ Z TYM KONTEM ZANIM KONTYNUUJESZ.{/color}
+
+Zresetowanie konta {0} wyczyści wszystkie twoje Fasolki, Pody, Itemy oraz Punkty PD. NIE będziemy wstanie cofnąć tej czynności.</string>
   <string name="ResetAccount">Zresetuj Konto</string>
   <string name="PurchasingLabel">Trwa Kupowanie Przedmiotu</string>
   <string name="ErrorInternalServer">Wewnętrzny Błąd Serwera (Kod {0})</string>
@@ -1571,7 +1687,8 @@
   <string name="StatsEngineerVents">Użyte Wenty Jako Inżynier:	</string>
   <string name="ScientistBlurb">Masz dostęp do panelu vitals cały czas</string>
   <string name="RolesHelp_Scientist_02">Jednak panel musi czasami być doładowany, więc Naukowiec będzie musiał wykonywać zadania, aby napełnić baterię.</string>
-  <string name="ScientistBlurbMed">Masz dostęp do panelu vitals cały czas.\%nl\%Wykonuj zadania aby naładować baterie.</string>
+  <string name="ScientistBlurbMed">Masz dostęp do panelu vitals cały czas.
+Wykonuj zadania aby naładować baterie.</string>
   <string name="ScientistBlurbLong">Naukowiec ma dostęp do przenośnego panelu vitals, którego może użyć gdziekolwiek, aby sprawdzić kto z Załogi żyje, a kto nie. Jednak panel musi czasami być doładowany, więc Naukowiec będzie musiał wykonywać zadania, aby napełnić baterię.</string>
   <string name="ScientistBatteryCharge">Czas Baterii</string>
   <string name="ScientistCooldown">Cooldown Wyświetlania Panelu Vitals</string>
@@ -1585,7 +1702,9 @@
   <string name="FreeChatWarning">Musisz być zalogowany aby móc użyć Zwykłego Czatu. Jeżeli jesteś zalogowany na koncie nieletniego, przejdź do zakładki konta i otrzymaj zgodę od opiekuna aby dostać dostęp do Zwykłego Czatu.</string>
   <string name="FriendsListPermissionsWarning">Potrzebujesz zgody opiekuna aby móc użyć tej funkcji.</string>
   <string name="FriendsListEmailSent">Wysłaliśmy do twojego rodzica bądź opiekuna email z prośbą o dodatkowe uprawnienia do listy znajomych. Daj im znać aby sprawdzili emaila.</string>
-  <string name="KwsCreateFail">O nie! Coś poszło nie tak przy wysyłaniu prośbę o zgodę do opiekuna. Proszę spróbuj ponownie lub kontynuuj w trybie offline.\%nl\%\%nl\%Spróbować ponownie?</string>
+  <string name="KwsCreateFail">O nie! Coś poszło nie tak przy wysyłaniu prośbę o zgodę do opiekuna. Proszę spróbuj ponownie lub kontynuuj w trybie offline.
+
+Spróbować ponownie?</string>
   <string name="MissingGuardianEmailText">Twoje konto nie posiada emailu opiekuna. Musimy spytać się go o zgodę (poprzez e-mail) aby kontynuować. Jeżeli się zgodzi, będziesz mógł używać zwykłego czatu oraz zmieniać swoją nazwę. Zapytaj dorosłego aby ci w tym pomógł!</string>
   <string name="XboxCommsJoinError">Ustawienia komunikacji twojego konta uniemożliwiają Ci dołączenia do gier online.</string>
   <string name="XboxCommsSearchError">Ustawienia komunikacji twojego konta uniemożliwiają Ci szukanie gier online.</string>
@@ -1597,7 +1716,8 @@
   <string name="TrackerAbility">Namierz</string>
   <string name="TrackerAbilityUndo">Przestań Namierzać</string>
   <string name="TrackerBlurb">Namierzaj Załoganta swoją mapą</string>
-  <string name="TrackerBlurbMed">Przymocuj do Załoganta Namierzacz by oglądać\%nl\%ich drogę po mapie.</string>
+  <string name="TrackerBlurbMed">Przymocuj do Załoganta Namierzacz by oglądać
+ich drogę po mapie.</string>
   <string name="TrackerBlurbLong">Namierzacz widzi pozycję Załoganta na swojej minimapie. Wpierw musi być obok gracza aby przymocować do niego namierzacz. Miej ostrożność aby nie wyglądać zbyt podejżanie gdy podchodzisz do Załoganta. Namierzanie trwa jedynie kilka sekund więc wybierz swój cel z namysłem. Uważaj także aby nie dać się złapać patrząc na minimapę zbyt długo gdyż stawia cię to na celowniku Intruzów!</string>
   <string name="TrackerCooldown">Cooldown namierzania</string>
   <string name="TrackerDuration">Czas trwania namierzania</string>
@@ -1746,12 +1866,16 @@
   <string name="RolesHelpOutro_02">Możesz robić z tymi ustawieniami co tylko zechcesz, żeby stworzyć swoje idealne lobby, albo dołącz do inne i sprawdź jaki chaos możesz tam spowodować. W przyszłości możemy dodać więcej nowych ról więc gdy będziesz musiał to zaglądnij tutaj! Miłej zabawy!</string>
   <string name="CheckingPurchasesLabel">Sprawdzanie Zakupów...</string>
   <string name="RedeemPurchasedItemsTitle">Odbierz Kupione Przedmioty</string>
-  <string name="RedeemPurcahsedItemsExplain">Mamy nowy system ekwipunku, dzięki któremu masz dostęp do swoich zakupionych przedmiotów na różnych platformach! Wszystkie przedmioty wcześniej kupione na tej platformie mogą być przeniesione do naszego nowego systemu TYLKO RAZ.\%nl\%Jeśli to jest twoje główne konto Among Us (to na którym grasz najwięcej), możesz bezpiecznie kliknąć "Kontynuuj" i odebrać twoje wcześniej kupione DLC do nowego ekwipunku. Jeśli to konto ma zostać połączone z twoim głównym, powinieneś odebrać wszelkie DLC dopiero po połączeniu!\%nl\%\%nl\%ID Konta: {0}</string>
+  <string name="RedeemPurcahsedItemsExplain">Mamy nowy system ekwipunku, dzięki któremu masz dostęp do swoich zakupionych przedmiotów na różnych platformach! Wszystkie przedmioty wcześniej kupione na tej platformie mogą być przeniesione do naszego nowego systemu TYLKO RAZ.
+Jeśli to jest twoje główne konto Among Us (to na którym grasz najwięcej), możesz bezpiecznie kliknąć "Kontynuuj" i odebrać twoje wcześniej kupione DLC do nowego ekwipunku. Jeśli to konto ma zostać połączone z twoim głównym, powinieneś odebrać wszelkie DLC dopiero po połączeniu!
+
+ID Konta: {0}</string>
   <string name="RedeemProceed">Kontynuuj</string>
   <string name="RedeemNotYet">Nie Teraz</string>
   <string name="RedeemNever">Nie Pytaj Ponownie</string>
   <string name="AccountIDDisplay">ID Konta: {0}</string>
-  <string name="AvailableFor">Dostępne przez\%nl\%{0}d {1}h {2}m {3}s</string>
+  <string name="AvailableFor">Dostępne przez
+{0}d {1}h {2}m {3}s</string>
   <string name="QCAccIsRole">{0} to {1}</string>
   <string name="QCAccIsRole_QCCrewMe_ANY">Moja rola to {0}</string>
   <string name="QCAccIsRoleNeg">{0} to nie {1}</string>

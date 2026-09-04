@@ -287,18 +287,9 @@ public static class CustomLocale
                             localeList[language].Remove(ogValuePair.Key);
                         }
 
-                        if (value.Contains("\\%"))
+                        if (value.Contains('}'))
                         {
-                            value = Regex.Replace(value, @"\%([^%]+)\%", @"<$1>");
-                            if (value.Contains("\\<"))
-                            {
-                                value = value.Replace("\\<", "<");
-                            }
-
-                            if (value.Contains("\\>"))
-                            {
-                                value = value.Replace("\\>", ">");
-                            }
+                            value = Regex.Replace(value, @"\{([^}]{2,})\}", @"<$1>");
                             foreach (var tmpText in TmpTextList.Where(x => value.Contains(x.Key)))
                             {
                                 value = value.Replace(tmpText.Key, tmpText.Value);

@@ -87,13 +87,14 @@
     <string name="EnterIdCode">入識碼</string>
     <string name="BuyBeverage">購飲</string>
     <string name="ProcessData">析數據</string>
-    <string name="NumImpostorsS">吾輩之間有\%color=#FF1919FF&gt;一奸\%/colors\%</string>
-    <string name="NumImpostorsP">吾輩之間有\%color=#FF1919FF&gt;{0}奸\%/colors\%</string>
+    <string name="NumImpostorsS">吾輩之間有{color=#FF1919FF&gt;一奸{/color}</string>
+    <string name="NumImpostorsP">吾輩之間有{color=#FF1919FF&gt;{0}奸{/color}</string>
     <string name="Crewmate">良眾</string>
     <string name="Impostor">奸</string>
     <string name="Victory">捷</string>
     <string name="Defeat">敗</string>
-    <string name="CrewmatesDisconnected">良眾多亡\%nl\%失聯</string>
+    <string name="CrewmatesDisconnected">良眾多亡
+失聯</string>
     <string name="ImpostorDisconnected">奸失聯</string>
     <string name="PickAnomaly">擇異</string>
     <string name="WaterPlantsGetCan">得壺</string>
@@ -124,10 +125,16 @@
     <string name="MeetingVotingResults">票果</string>
     <string name="MeetingProceeds">{0}秒續</string>
     <string name="MeetingHasVoted">{0}已投，尚餘{1}</string>
-    <string name="HowToPlayText1">《爾虞我詐》者，合從與相疑之戲也。\%nl\%\%nl\%或為良眾，或為奸。</string>
+    <string name="HowToPlayText1">《爾虞我詐》者，合從與相疑之戲也。
+
+或為良眾，或為奸。</string>
     <string name="HowToPlayText2">可與四至十五人同戲，或在線，或局域WiFi！</string>
     <string name="HowToPlayText41">若於他方已有帳，可聯之；或新創。</string>
-    <string name="HowToPlayText42">首定與誰同戲。\%nl\%\%nl\%欲與友戲，設「私戲」而傳室碼。\%nl\%\%nl\%欲與四海戲，設「公戲」。</string>
+    <string name="HowToPlayText42">首定與誰同戲。
+
+欲與友戲，設「私戲」而傳室碼。
+
+欲與四海戲，設「公戲」。</string>
     <string name="HowToPlayText43">欲增務？欲速行？欲多奸？東道主可調之。然必先告諸人。</string>
     <string name="HowToPlayText44">若有無禮或擾亂者，東道主可暫逐或永禁之。</string>
     <string name="HowToPlayTextMap">每人皆有輿圖以知方位。</string>
@@ -144,9 +151,21 @@
     <string name="HowToPlayTextImp5">壞舟以惑良眾。</string>
     <string name="HowToPlayTextImp6">閉門困敵。</string>
     <string name="HowToPlayTextImp7">伺冷卻而殺。</string>
-    <string name="HowToPlayText5">面戲之時，噤聲以持公正。\%nl\%\%nl\%被殺者不得言，至戲終。\%nl\%\%nl\%鬼魂仍完己務，可助良眾勝。</string>
-    <string name="HowToPlayText6">遇報屍或召急會，則聚而議奸。\%nl\%\%nl\%眾可直言所疑所見。面戲時，鬼魂已知奸，故不得言。\%nl\%\%nl\%奸亦自辯或誣他人。</string>
-    <string name="HowToPlayText7">議畢，投所疑者。\%nl\%\%nl\%得票多者逐出，慎之！\%nl\%\%nl\%若無確證，亦可棄票，免傷無辜。</string>
+    <string name="HowToPlayText5">面戲之時，噤聲以持公正。
+
+被殺者不得言，至戲終。
+
+鬼魂仍完己務，可助良眾勝。</string>
+    <string name="HowToPlayText6">遇報屍或召急會，則聚而議奸。
+
+眾可直言所疑所見。面戲時，鬼魂已知奸，故不得言。
+
+奸亦自辯或誣他人。</string>
+    <string name="HowToPlayText7">議畢，投所疑者。
+
+得票多者逐出，慎之！
+
+若無確證，亦可棄票，免傷無辜。</string>
     <string name="HowToPlayText81">習以「練習」！</string>
     <string name="HowToPlayText82">為良眾則自完其務，為奸則練殺策。</string>
     <string name="SettingsGeneral">總綱</string>
@@ -213,12 +232,36 @@
     <string name="RoomCodeInfo">點以複</string>
     <string name="LeaveGame">出戲</string>
     <string name="ReturnToGame">返戲</string>
-    <string name="LocalHelp">連絡有礙？\%nl\%\%nl\%● 確眾皆同WiFi\%nl\%● 確版本同（右下角）\%nl\%● 確WiFi信強\%nl\%● 或換人為東道主\%nl\%● 或重啟應用\%nl\%● 或重啟手機\%nl\%● 仍困？告 support@innersloth.com！</string>
-    <string name="OnlineHelp">何以行之？\%nl\%\%nl\%● 東道主得室碼於廳\%nl\%● 傳碼予友以創私室\%nl\%● 或按「私戲」變公以「蒐戯」\%nl\%● 東道主可逐或禁人（若可談）\%nl\%● 仍困？告 support@innersloth.com！</string>
-    <string name="EmergencyCount">良眾{0}尚餘\%nl\%\%nl\%\%nl\%\%nl\%急會次</string>
-    <string name="EmergencyNotReady">良眾須待\%nl\%\%nl\%\%nl\%\%nl\%方可再召</string>
-    <string name="EmergencyDuringCrisis">急會不可\%nl\%召於危時</string>
-    <string name="EmergencyRequested">急會已請\%nl\%待東道主</string>
+    <string name="LocalHelp">連絡有礙？
+
+● 確眾皆同WiFi
+● 確版本同（右下角）
+● 確WiFi信強
+● 或換人為東道主
+● 或重啟應用
+● 或重啟手機
+● 仍困？告 support@innersloth.com！</string>
+    <string name="OnlineHelp">何以行之？
+
+● 東道主得室碼於廳
+● 傳碼予友以創私室
+● 或按「私戲」變公以「蒐戯」
+● 東道主可逐或禁人（若可談）
+● 仍困？告 support@innersloth.com！</string>
+    <string name="EmergencyCount">良眾{0}尚餘
+
+
+
+急會次</string>
+    <string name="EmergencyNotReady">良眾須待
+
+
+
+方可再召</string>
+    <string name="EmergencyDuringCrisis">急會不可
+召於危時</string>
+    <string name="EmergencyRequested">急會已請
+待東道主</string>
     <string name="AdPolicyTitle">告策</string>
     <string name="AdPolicyText">可否用君之私數據以定製廣告？若諾，則吾儕之告侶（如Google AdMob、Unity Ads）將自動採集數據，用識別符與cookie以定製。若拒，仍見非定製之告。欲除盡告，購無告升級 [httpstore]此[]，則君與友為東道主時皆無告。欲詳吾儕及告侶之隱私策，請閱 [https://www.innersloth.com/privacy-policy/]隱私策[]。君可隨時於「資料」中改之。</string>
     <string name="Accept">受</string>
@@ -226,7 +269,9 @@
     <string name="PlainYes">然</string>
     <string name="PlainNo">否</string>
     <string name="PrivacyPolicyTitle">隱私策</string>
-    <string name="PrivacyPolicyText">Innersloth 處理《爾虞我詐》之個資。請閱 \%link="https://www.innersloth.com/privacy-policy/"\%隱私策\%/link\% 以詳。可於「資料」中管理。\%nl\%\%nl\%戲前請閱 \%link="https://www.innersloth.com/terms-of-use-for-the-games/"\%使用條款\%/link\%。</string>
+    <string name="PrivacyPolicyText">Innersloth 處理《爾虞我詐》之個資。請閱 {link="https://www.innersloth.com/privacy-policy/"}隱私策\{/link} 以詳。可於「資料」中管理。
+
+戲前請閱 {link="https://www.innersloth.com/terms-of-use-for-the-games/"}使用條款\{/link}。</string>
     <string name="ManageDataButton">管數據集</string>
     <string name="UnderstandButton">吾曉</string>
     <string name="WaterPlants">灌草</string>
@@ -305,23 +350,45 @@
     <string name="VentMove">穿氣道</string>
     <string name="MenuNavigate">導航</string>
     <string name="NsoError">無法連網。</string>
-    <string name="ErrorServerOverload">《爾虞我詐》伺服過載。\%nl\%\%nl\%歉！請稍後再試！</string>
+    <string name="ErrorServerOverload">《爾虞我詐》伺服過載。
+
+歉！請稍後再試！</string>
     <string name="ErrorIntentionalLeaving">君因故斷線，{0}分鐘內不得再入他戲。</string>
     <string name="ErrorFocusLost">因他應用中斷，君被斷線。</string>
-    <string name="ErrorBanned">君被{0}永禁。\%nl\%\%nl\%不得再入該室。</string>
-    <string name="ErrorKicked">君被{0}暫逐。\%nl\%\%nl\%若室未始，可再入。</string>
-    <string name="ErrorBannedNoCode">君被永禁於室。\%nl\%\%nl\%不得再入。</string>
-    <string name="ErrorKickedNoCode">君被暫逐於室。\%nl\%\%nl\%若室未始，可再入。</string>
-    <string name="ErrorHacking">君因作弊被永禁。\%nl\%\%nl\%請止。</string>
-    <string name="ErrorFullGame">欲入之局已滿。\%nl\%\%nl\%詢東道主可否下輪加入。</string>
-    <string name="ErrorStartedGame">欲入之局已始。\%nl\%\%nl\%詢東道主可否下輪加入。</string>
+    <string name="ErrorBanned">君被{0}永禁。
+
+不得再入該室。</string>
+    <string name="ErrorKicked">君被{0}暫逐。
+
+若室未始，可再入。</string>
+    <string name="ErrorBannedNoCode">君被永禁於室。
+
+不得再入。</string>
+    <string name="ErrorKickedNoCode">君被暫逐於室。
+
+若室未始，可再入。</string>
+    <string name="ErrorHacking">君因作弊被永禁。
+
+請止。</string>
+    <string name="ErrorFullGame">欲入之局已滿。
+
+詢東道主可否下輪加入。</string>
+    <string name="ErrorStartedGame">欲入之局已始。
+
+詢東道主可否下輪加入。</string>
     <string name="ErrorNotFoundGame">未覓所求之局。</string>
     <string name="ErrorInactivity">伺服因久無動而止此局。</string>
-    <string name="ErrorGenericOnlineDisconnect">君斷線於伺服。\%nl\%若頻發，請察網絡。\%nl\%或為伺服之過。</string>
-    <string name="ErrorGenericLocalDisconnect">君斷線於東道主。\%nl\%\%nl\%若頻發，請察WiFi強度。</string>
+    <string name="ErrorGenericOnlineDisconnect">君斷線於伺服。
+若頻發，請察網絡。
+或為伺服之過。</string>
+    <string name="ErrorGenericLocalDisconnect">君斷線於東道主。
+
+若頻發，請察WiFi強度。</string>
     <string name="ErrorInvalidName">伺服拒名：{0}</string>
     <string name="ErrorUnknown">未知之誤，君斷線。</string>
-    <string name="ErrorIncorrectVersion">君所行版本過舊。\%nl\%\%nl\%請更新以與眾人戲。</string>
+    <string name="ErrorIncorrectVersion">君所行版本過舊。
+
+請更新以與眾人戲。</string>
     <string name="ServerNA">北亞美利加洲</string>
     <string name="ServerEU">歐羅巴洲</string>
     <string name="ServerAS">亞細亞洲</string>
@@ -397,7 +464,9 @@
     <string name="MedWT">體重：</string>
     <string name="MedETA">尚{0}</string>
     <string name="MedHello">無恙！</string>
-    <string name="LobbySizeWarning">《爾虞我詐》四人可戲，然薦五人以上。\%nl\%\%nl\%四人局終速，奸常勝。</string>
+    <string name="LobbySizeWarning">《爾虞我詐》四人可戲，然薦五人以上。
+
+四人局終速，奸常勝。</string>
     <string name="Okay">可</string>
     <string name="OkayDontShow">可，勿復示</string>
     <string name="Nevermind">罷</string>
@@ -791,7 +860,14 @@
     <string name="GoOffline">離線</string>
     <string name="PlayAsGuest">以客戲</string>
     <string name="LogInTitle">登入帳</string>
-    <string name="LogInInfoText">登入或創《爾虞我詐》帳以享功能，如：\%nl\%\%nl\%- 跨設備存進度\%nl\%- 用自由談\%nl\%- 聯飾品\%nl\%- 等等\%nl\%\%nl\%部分功能需監護人允（視帳型）。</string>
+    <string name="LogInInfoText">登入或創《爾虞我詐》帳以享功能，如：
+
+- 跨設備存進度
+- 用自由談
+- 聯飾品
+- 等等
+
+部分功能需監護人允（視帳型）。</string>
     <string name="LogInInfoTextSwitch">若登全帳，可後再登。若無帳，將自動為君創之。</string>
     <string name="ControllerDisconnectedMessage">控器斷</string>
     <string name="FollowUs">從吾等！</string>
@@ -874,7 +950,9 @@
     <string name="ProgressLabel">進度：</string>
     <string name="TermsOfUseTitle">使用條款</string>
     <string name="PPAndToUTitle">隱私策與使用條款</string>
-    <string name="ErrorNotAuthenticated">伺服無法驗證君身。\%nl\%\%nl\%須有《爾虞我詐》帳方可聯網戲。</string>
+    <string name="ErrorNotAuthenticated">伺服無法驗證君身。
+
+須有《爾虞我詐》帳方可聯網戲。</string>
     <string name="ComePlayDiscord">來Discord共戲！</string>
     <string name="ShowAccountSupportID5">顯帳援助識別碼</string>
     <string name="ShowAccountSupportID4">再按四次以顯</string>
@@ -1343,18 +1421,33 @@
     <string name="LinkAccount">聯帳</string>
     <string name="CreateNewAccount">創新帳</string>
     <string name="LinkExistingAccount">聯現有帳</string>
-    <string name="LinkAccountExplanation">若君於他平台已有《爾虞我詐》帳，或可聯之。\%nl\%或創全新帳。</string>
-    <string name="LinkAccountCode">於 \%link="{0}"\%{1}\%/link\% 書以下碼 \%nl\%\%size=+2\%{2}\%/size\%</string>
+    <string name="LinkAccountExplanation">若君於他平台已有《爾虞我詐》帳，或可聯之。
+或創全新帳。</string>
+    <string name="LinkAccountCode">於 {link="{0}"}{1}\{/link} 書以下碼 
+{size=+2}{2}{/size}</string>
     <string name="ErrorLink">聯帳有誤，請稍後再試。</string>
     <string name="UnlinkAccount">解聯</string>
     <string name="ConfirmUnlinkAccount">確解聯</string>
-    <string name="UnlinkAccountExplain">解聯{0}帳將清數據並創新{0}帳。\%nl\%- 將失所獲或解鎖之物。\%nl\%- 等級及經驗歸零。</string>
-    <string name="UnlinkAccountExplainConfirm">請存此識別碼以備：\%nl\%\%nl\%{0}\%nl\%\%nl\%若解聯而無此碼，吾等無法恢復進度，亦無法助君。</string>
+    <string name="UnlinkAccountExplain">解聯{0}帳將清數據並創新{0}帳。
+- 將失所獲或解鎖之物。
+- 等級及經驗歸零。</string>
+    <string name="UnlinkAccountExplainConfirm">請存此識別碼以備：
+
+{0}
+
+若解聯而無此碼，吾等無法恢復進度，亦無法助君。</string>
     <string name="UnlinkError">解聯有誤，請稍後再試。</string>
     <string name="UnlinkSuccess">已成功解聯{0}與主帳！</string>
     <string name="ConfirmLinkExistingAccount">確聯現有帳</string>
-    <string name="LinkExistingAccountExplain">聯至他帳將覆寫此平台所有數據。即{0}之《爾虞我詐》帳將被他帳取代。\%nl\%- 所解鎖之物將被覆寫。\%nl\%- 所獲經驗將被覆寫。\%nl\%- 豆、莢、星將被覆寫。</string>
-    <string name="LinkExistingAccountExplainConfirm">一旦確聯，吾等將重置{0}之《爾虞我詐》帳，以備導入他帳數據。\%nl\%\%nl\%\%color=#{1}>務必確認另有欲聯之現有帳。\%/colors\%\%nl\%\%nl\%重置{0}帳將清零經驗、豆、莢、物。此舉不可逆。</string>
+    <string name="LinkExistingAccountExplain">聯至他帳將覆寫此平台所有數據。即{0}之《爾虞我詐》帳將被他帳取代。
+- 所解鎖之物將被覆寫。
+- 所獲經驗將被覆寫。
+- 豆、莢、星將被覆寫。</string>
+    <string name="LinkExistingAccountExplainConfirm">一旦確聯，吾等將重置{0}之《爾虞我詐》帳，以備導入他帳數據。
+
+{color=#{1}>務必確認另有欲聯之現有帳。{/color}
+
+重置{0}帳將清零經驗、豆、莢、物。此舉不可逆。</string>
     <string name="ResetAccount">重置帳</string>
     <string name="PurchasingLabel">購物中</string>
     <string name="ErrorInternalServer">內伺服錯誤（碼{0}）</string>
@@ -1440,7 +1533,8 @@
     <string name="RoleChanceAndQuantity">{0}，機率{1}%</string>
     <string name="CheckingPurchasesLabel">查購物中...</string>
     <string name="ProtectedRecently">護佑者近期護過人...</string>
-    <string name="ScientistBlurbMed">隨時觀命符。\%nl\%行務以充電池。</string>
+    <string name="ScientistBlurbMed">隨時觀命符。
+行務以充電池。</string>
     <string name="ScientistBlurbLong">格物者可隨時隨地攜帶命符面板以察眾人。然需充電，故須行務。</string>
     <string name="EngineerBlurbMed">可用氣道。</string>
     <string name="EngineerBlurbLong">械者乃良眾，可用氣道速移，亦可當場抓獲入氣道之奸。然不可久留。</string>
@@ -1476,7 +1570,10 @@
     <string name="Cosmetic.skin_vi">菲艾之衣</string>
     <string name="Cosmetic.pet_poro">海默丁格之普羅</string>
     <string name="RedeemPurchasedItemsTitle">兌換已購物</string>
-    <string name="RedeemPurcahsedItemsExplain">吾等有新庫存系統，可跨平台存取物件！此前於此平台所購物可僅兌換一次。\%nl\%若此為君之主帳（最常用平台），可安全按「續」並於新系統兌換。若此帳擬聯至主帳，應於聯後再兌換！\%nl\%\%nl\%帳識別碼：{0}</string>
+    <string name="RedeemPurcahsedItemsExplain">吾等有新庫存系統，可跨平台存取物件！此前於此平台所購物可僅兌換一次。
+若此為君之主帳（最常用平台），可安全按「續」並於新系統兌換。若此帳擬聯至主帳，應於聯後再兌換！
+
+帳識別碼：{0}</string>
     <string name="RedeemProceed">續</string>
     <string name="RedeemNotYet">暫不</string>
     <string name="RedeemNever">勿再問</string>
@@ -1535,7 +1632,8 @@
     <string name="Cosmetic.skin_witch">奇想女巫</string>
     <string name="Cosmetic.pet_frankendog">弗蘭肯狗</string>
     <string name="Cosmetic.hat_mohawk_bubblegum">莫霍克 - 泡泡糖</string>
-    <string name="AvailableFor">可用\%nl\%{0}日{1}時{2}分{3}秒</string>
+    <string name="AvailableFor">可用
+{0}日{1}時{2}分{3}秒</string>
     <string name="GuardianAngelImpostorSeeProtect">奸可見護盾</string>
     <string name="Cosmetic.hat_pkHW01_PlagueHat">瘟疫</string>
     <string name="QCAccIsRole">{0}為{1}</string>
@@ -1552,7 +1650,11 @@
     <string name="QCResProtected">{0}護{1}</string>
     <string name="QCResProtected_ANY_QCCrewMe">{0}護吾</string>
     <string name="QCRoles">職</string>
-    <string name="GuestProgressionWarning">君以客帳登入！\%nl\%\%nl\%所獲經驗、莢、豆僅適用此客帳。客帳僅聯於此設備，換設備則失。\%nl\%\%nl\%為保所獲貨幣及購物，請於主選單開帳頁，登入《爾虞我詐》帳。</string>
+    <string name="GuestProgressionWarning">君以客帳登入！
+
+所獲經驗、莢、豆僅適用此客帳。客帳僅聯於此設備，換設備則失。
+
+為保所獲貨幣及購物，請於主選單開帳頁，登入《爾虞我詐》帳。</string>
     <string name="ErrorFailedToCreateGame">創遊戲會話敗。稍後再試。</string>
     <string name="ErrorFailedToJoinCreatedGame">創後入遊戲會話敗。稍後再試。</string>
     <string name="ErrorDisconnectBeforeJoining">入遊戲會話前斷線。</string>
@@ -1644,7 +1746,9 @@
     <string name="BlockedPlayers">屏蔽玩家</string>
     <string name="RecentPlayers">最近共戲者</string>
     <string name="LobbyLabel">大廳</string>
-    <string name="FriendCodeExplanation">《爾虞我詐》現有好友列表！欲收發好友或遊戲邀請，請擇一獨特好友碼。\%nl\%\%nl\%一經選定，不可更改。</string>
+    <string name="FriendCodeExplanation">《爾虞我詐》現有好友列表！欲收發好友或遊戲邀請，請擇一獨特好友碼。
+
+一經選定，不可更改。</string>
     <string name="FriendCodeSuccess">汝之好友碼為{0}</string>
     <string name="FriendRequestReceived">收到好友請求</string>
     <string name="FriendRequestSent">已發好友請求</string>
@@ -1681,7 +1785,8 @@
     <string name="ErrorTooManyRequests">大廳請求過多，請待數分鐘再試。</string>
     <string name="TempDisabled">暫禁用</string>
     <string name="TempDisabledLinkExplain">帳戶變更中，暫禁聯現有帳。將於未來更新修復！</string>
-    <string name="RedeemPopup">來自良眾之禮！\%nl\%{0}。</string>
+    <string name="RedeemPopup">來自良眾之禮！
+{0}。</string>
     <string name="RedeemButton">兌</string>
     <string name="ErrorMaxFriends">好友列表已滿。</string>
     <string name="ErrorPlayerBlockedYou">錯誤：用戶在君之屏蔽列表或用戶屏蔽君。</string>
@@ -1693,10 +1798,14 @@
     <string name="Decontamination3">下淨室</string>
     <string name="ErrorCommunications">君之通訊設定阻入此局。請啟用與他人通訊。</string>
     <string name="SettingsColorblind">色盲文本</string>
-    <string name="MergeGuestAccountText">此設備似有 \%link="https://www.innersloth.com/merging-guest-accounts/"\%客帳\%/link\%！吾等不再支持客帳，將合併客帳之物、幣、經驗至此{0}帳。\%nl\%\%nl\%若與他人共用此設備，請注意所有用戶共享此客帳。若君續行，其他用戶將無法合併此客帳，且僅可合併一次。無法再次重新分配與此客帳相關之物、幣、經驗。\%nl\%\%nl\%請確認欲合併客帳至此{0}帳。</string>
+    <string name="MergeGuestAccountText">此設備似有 {link="https://www.innersloth.com/merging-guest-accounts/"}客帳\{/link}！吾等不再支持客帳，將合併客帳之物、幣、經驗至此{0}帳。
+
+若與他人共用此設備，請注意所有用戶共享此客帳。若君續行，其他用戶將無法合併此客帳，且僅可合併一次。無法再次重新分配與此客帳相關之物、幣、經驗。
+
+請確認欲合併客帳至此{0}帳。</string>
     <string name="MergeGuestAccountTitle">合併客帳</string>
     <string name="ManageAccountTitle">管帳</string>
-    <string name="ManageAccountText">請訪 \%link="https://accounts.innersloth.com/"\%https://accounts.innersloth.com\%/link\% 以管帳、合併或解決問題。</string>
+    <string name="ManageAccountText">請訪 {link="https://accounts.innersloth.com/"}https://accounts.innersloth.com\{/link} 以管帳、合併或解決問題。</string>
     <string name="Cosmetic.visor_BaconVisor">見汝甚喜</string>
     <string name="Cosmetic.hat_Baguette">無麵包，唯痛苦</string>
     <string name="Cosmetic.skin_Bananaskin">花生醬果凍時光</string>
@@ -1766,12 +1875,15 @@
     <string name="Cosmetic.nameplate_Orange">橙見吾喜否？</string>
     <string name="Cosmetic.hat_sausage">香腸結</string>
     <string name="SignInIssueTitle">{0}帳錯誤</string>
-    <string name="SignInIssueText">因{0}之年齡限制，無法用以創《爾虞我詐》帳。\%nl\%\%nl\%君可續於此設備遊戲，但為安全，部分功能受限，包括：聯帳、購星、轉移物品至新設備。若有疑問，請郵 support@innersloth.com。</string>
+    <string name="SignInIssueText">因{0}之年齡限制，無法用以創《爾虞我詐》帳。
+
+君可續於此設備遊戲，但為安全，部分功能受限，包括：聯帳、購星、轉移物品至新設備。若有疑問，請郵 support@innersloth.com。</string>
     <string name="FriendListUnavailable">好友列表不可用</string>
     <string name="ErrorSanction">因{0}，君之帳被禁{1}。</string>
     <string name="SanctionDuration">至{0}</string>
     <string name="SanctionPermanent">永久</string>
-    <string name="SanctionConduct">\%nl\%請借此時反思，並記吾等 \%link="https://www.innersloth.com/code-of-conduct/"\%行為準則\%/link\%！</string>
+    <string name="SanctionConduct">
+請借此時反思，並記吾等 {link="https://www.innersloth.com/code-of-conduct/"}行為準則\{/link}！</string>
     <string name="SanctionSexualMisconduct">性不端</string>
     <string name="SanctionDoxing">洩或威脅洩個人信息（人肉）</string>
     <string name="SanctionIllegalActivity">促或參與非法活動</string>
@@ -1845,10 +1957,14 @@
     <string name="Cosmetic.visor_hl_nudge">戳戳</string>
     <string name="Cosmetic.visor_hl_marine">Marine 眼罩</string>
     <string name="Cosmetic.visor_hl_wrong">哈哈能錯嗎？</string>
-    <string name="AccountDeleteHelp">按「諾」即請求刪除所有《爾虞我詐》數據。此請求需7-14日，將清除所有星、經驗、豆、莢及已購飾品。帳完全刪除後不可逆。刪除完成前帳仍如常運作。\%nl\%\%nl\%若有錯誤，請聯 support@innersloth.com。</string>
+    <string name="AccountDeleteHelp">按「諾」即請求刪除所有《爾虞我詐》數據。此請求需7-14日，將清除所有星、經驗、豆、莢及已購飾品。帳完全刪除後不可逆。刪除完成前帳仍如常運作。
+
+若有錯誤，請聯 support@innersloth.com。</string>
     <string name="DeleteAccount">刪帳</string>
     <string name="DoNotDeleteAccount">取消刪帳</string>
-    <string name="AccountUnDeleteHelp">按「諾」將停止刪帳進程。若欲刪帳，需再次請求。\%nl\%\%nl\%若有錯誤，請聯 support@innersloth.com。</string>
+    <string name="AccountUnDeleteHelp">按「諾」將停止刪帳進程。若欲刪帳，需再次請求。
+
+若有錯誤，請聯 support@innersloth.com。</string>
     <string name="ConfirmDelete">請鍵入 DELETE 以確認</string>
     <string name="ConfirmDeleteAccounts">勾此框確認明白將刪除此帳及所聯之帳（{0}）。</string>
     <string name="ConfirmDeleteAccountsEmpty">勾此框確認明白將刪除此帳及所聯之帳。</string>
@@ -1866,7 +1982,8 @@
     <string name="Ghost">鬼</string>
     <string name="CurrentlyHaunting">當前纏繞：</string>
     <string name="RoundRobin">輪流</string>
-    <string name="RuleOneCrewmates">存活至時盡。\%nl\%完務減時。</string>
+    <string name="RuleOneCrewmates">存活至時盡。
+完務減時。</string>
     <string name="RuleTwoCrewmates">用氣道及危險計以匿！</string>
     <string name="RuleThreeCrewmates">時盡後，奸可追踪汝！</string>
     <string name="RuleOneImpostor">限時內殺盡良眾！</string>
@@ -1896,20 +2013,29 @@
     <string name="DefaultFilterTag_Casual">休閒</string>
     <string name="DefaultFilterTag_Serious">認真</string>
     <string name="DefaultFilterTag_Expert">專家</string>
-    <string name="TagFiltersHelpFindGame">可從篩選下拉選單選標籤以過濾遊戲搜索。所選標籤將<i>精確</i>匹配結果。\%nl\%\%nl\%例：若選<b>休閒</b>與<b>專家</b>，則僅顯示同時帶有<b>休閒</b>及<b>專家</b>標籤之遊戲。</string>
-    <string name="TagFiltersHelpCreate">可為遊戲加標籤以助玩家找到。所選標籤將<i>精確</i>匹配搜索。\%nl\%\%nl\%例：若選<b>休閒</b>與<b>專家</b>，則僅搜索同時帶有此兩標籤者可見君之遊戲。</string>
+    <string name="TagFiltersHelpFindGame">可從篩選下拉選單選標籤以過濾遊戲搜索。所選標籤將<i>精確</i>匹配結果。
+
+例：若選<b>休閒</b>與<b>專家</b>，則僅顯示同時帶有<b>休閒</b>及<b>專家</b>標籤之遊戲。</string>
+    <string name="TagFiltersHelpCreate">可為遊戲加標籤以助玩家找到。所選標籤將<i>精確</i>匹配搜索。
+
+例：若選<b>休閒</b>與<b>專家</b>，則僅搜索同時帶有此兩標籤者可見君之遊戲。</string>
     <string name="CreateLabel">創</string>
     <string name="NewGameMode">新戲式！</string>
-    <string name="NewModeInfo">此心跳加速之戲式，賭注極高！\%nl\%<i>然非尋常藏矇……</i></string>
+    <string name="NewModeInfo">此心跳加速之戲式，賭注極高！
+<i>然非尋常藏矇……</i></string>
     <string name="HideSeekHowToPlayCaptionOne">簡矣！</string>
     <string name="HideSeekHowToPlayCaptionTwo">良眾！</string>
     <string name="HideSeekHowToPlayCaptionThree">奸！</string>
-    <string name="HideSeekHowToPlayPageOne">\%color=#38F25D><b>良眾：</b>\%/colors\% 行務以加速時鐘，避奸，存活至時盡。\%nl\%\%nl\%\%color=#FF3131><b>奸：</b>\%/colors\% 尋良眾而殺。</string>
+    <string name="HideSeekHowToPlayPageOne">{color=#38F25D><b>良眾：</b>{/color} 行務以加速時鐘，避奸，存活至時盡。
+
+{color=#FF3131><b>奸：</b>{/color} 尋良眾而殺。</string>
     <string name="HideSeekHowToPlaySubtextOne">無社交推理，唯驚恐尖叫。</string>
     <string name="HideSeekHowToPlayCrewmateInfoOne">精進匿藏潛行以存。</string>
     <string name="HideSeekHowToPlayCrewmateInfoTwo">此式中可用氣道，並得高科技危險計，奸近則警。奸視野有限，用智、氣道及面罩以避之！</string>
     <string name="HideSeekHowToPlayImpostorInfoOne">此式中奸不可用氣道，須速擒獵物。外暗！幸有炬助尋下個受害者。</string>
-    <string name="HideSeekHowToPlayFinalHide">終局倒數！奸得加速、特殊尋圖及存活良眾之方向信號。\%nl\%\%nl\%速思，戰略逃遁以勝！</string>
+    <string name="HideSeekHowToPlayFinalHide">終局倒數！奸得加速、特殊尋圖及存活良眾之方向信號。
+
+速思，戰略逃遁以勝！</string>
     <string name="HideSeekHowToPlayFlashlightMobile">用右側虛擬搖桿導炬，殺盡所見良眾！</string>
     <string name="HideSeekHowToPlayFlashlightDefault">用鼠導炬，殺盡所見良眾！</string>
     <string name="HideSeekHowToPlayFlashlightConsoles">用右搖桿導炬，殺盡所見良眾！</string>
@@ -2032,7 +2158,9 @@
     <string name="Cosmetic.nameplate_hunter">獵人之傲</string>
     <string name="Cosmetic.nameplate_lightfall">光隕</string>
     <string name="AnnouncementErrorSubtitle">哎呀！公告壞了！</string>
-    <string name="AnnouncementErrorText">似乎出錯了。請確保遊戲在線且已更新至最新版本，以獲取最新資訊及修復。\%nl\%\%nl\%若問題持續，請發郵至 support@innersloth.com。</string>
+    <string name="AnnouncementErrorText">似乎出錯了。請確保遊戲在線且已更新至最新版本，以獲取最新資訊及修復。
+
+若問題持續，請發郵至 support@innersloth.com。</string>
     <string name="ReadMoreLabel">閱全文！</string>
     <string name="ReturnToList">返列表</string>
     <string name="NavigateLinks">導航連結</string>
@@ -2056,7 +2184,8 @@
     <string name="AgeVerificationTitle">年齡驗證</string>
     <string name="AgeVerificationInfoTitle">何為年齡驗證？</string>
     <string name="AgeVerificationInfo">使用《爾虞我詐》前須驗證年齡。吾等不存儲汝之生辰。</string>
-    <string name="AgeVerificationMoreInfo">欲詳隱私慣例，請訪：\%nl\% \%link="https://www.innersloth.com/privacy-policy/"\%https://www.innersloth.com/privacy-policy/\%/link\%</string>
+    <string name="AgeVerificationMoreInfo">欲詳隱私慣例，請訪：
+ {link="https://www.innersloth.com/privacy-policy/"}https://www.innersloth.com/privacy-policy/\{/link}</string>
     <string name="EditLabel">編</string>
     <string name="VerifyAgeText">此日期為汝正確生辰？</string>
     <string name="Cosmetic.nameplate_flagMlm">男男戀旗</string>
@@ -2114,9 +2243,15 @@
     <string name="Cosmetic.skin_PusheenPurpleskin">淡紫普希恩</string>
     <string name="Cosmetic.skin_Slothskin">樹懶</string>
     <string name="Cosmetic.hat_bearyCold">熊冷</string>
-    <string name="EosAccountSilentMergeFail">最終設定《爾虞我詐》帳時出錯。請重試或繼續以客帳。所有進度將保存，然吾等建議設帳以享全部功能。\%nl\%\%nl\%重試帳設定？</string>
-    <string name="AskForEosAccount">君是否有現存《爾虞我詐》帳？（亦稱Epic在線服務帳）\%nl\%\%nl\%若此前曾於此設備玩《爾虞我詐》，選「然」。</string>
-    <string name="KwsCreateFail">哎呀！發送監護人許可郵件時出錯。請重試或繼續離線模式。\%nl\%\%nl\%重試？</string>
+    <string name="EosAccountSilentMergeFail">最終設定《爾虞我詐》帳時出錯。請重試或繼續以客帳。所有進度將保存，然吾等建議設帳以享全部功能。
+
+重試帳設定？</string>
+    <string name="AskForEosAccount">君是否有現存《爾虞我詐》帳？（亦稱Epic在線服務帳）
+
+若此前曾於此設備玩《爾虞我詐》，選「然」。</string>
+    <string name="KwsCreateFail">哎呀！發送監護人許可郵件時出錯。請重試或繼續離線模式。
+
+重試？</string>
     <string name="MissingGuardianEmailText">君之帳缺少監護人郵箱。吾等須詢監護人（以郵）允方可續。若允，則可用自由談及易名。請成人助之！</string>
     <string name="MiningPit">礦坑</string>
     <string name="Jungle">叢林</string>
@@ -2191,7 +2326,9 @@
     <string name="Cosmetic.nameplate_cliffs">沉積岩</string>
     <string name="ReportNotificationHeader">謝助維護《爾虞我詐》安全友善！</string>
     <string name="ReportNotificationBody">吾等審核團隊將審閱所報信息，並依行為準則採取適當行動。</string>
-    <string name="ErrorClientTimeout">君斷線於伺服。或因伺服、網絡或設備問題。請察網絡強度。\%nl\%\%nl\%若頻發，或設備過舊未達最低規格。請換設備試玩。</string>
+    <string name="ErrorClientTimeout">君斷線於伺服。或因伺服、網絡或設備問題。請察網絡強度。
+
+若頻發，或設備過舊未達最低規格。請換設備試玩。</string>
     <string name="ErrorClientTimeoutConsole">君斷線於伺服。或因伺服或網絡問題。請察網絡強度。</string>
     <string name="Cosmetic.hat_NewYear2024">新年2024</string>
     <string name="Cosmetic.nameplate_Celeste">向上向前</string>
@@ -2319,7 +2456,9 @@
     <string name="Cosmetic.nameplate_lny_goldCrewmate">金良眾</string>
     <string name="Cosmetic.nameplate_lny_goldImpostor">金奸</string>
     <string name="AprilFoolsModeToggle">愚人節模式（限量飾品）</string>
-    <string name="ErrorAuthNonceFailure">故障！《爾虞我詐》伺服驗證時出問題。請重試。\%nl\%\%nl\%若問題持續，請向 \%link="https://innersloth.zendesk.com/hc/en-us/requests/new"\%支援票證\%/link\% 提交。</string>
+    <string name="ErrorAuthNonceFailure">故障！《爾虞我詐》伺服驗證時出問題。請重試。
+
+若問題持續，請向 {link="https://innersloth.zendesk.com/hc/en-us/requests/new"}支援票證\{/link} 提交。</string>
     <string name="Cosmetic.nameplate_crewmatesBlue">時尚良眾 - 藍</string>
     <string name="Cosmetic.nameplate_crewmatesRed">時尚良眾 - 赤</string>
     <string name="Cosmetic.nameplate_horseHeaven">不再兒戲</string>
@@ -2526,8 +2665,10 @@
     <string name="ChatLabel">談</string>
     <string name="NoneLowercaseLabel">無</string>
     <string name="ToolTipDefault">用下方設定自訂大廳。</string>
-    <string name="ToolTipClassic">奸混於良眾中！\%nl\%察可疑者而逐之。</string>
-    <string name="ToolTipHide">終極貓鼠遊戲。\%nl\%勿被尋者抓到！</string>
+    <string name="ToolTipClassic">奸混於良眾中！
+察可疑者而逐之。</string>
+    <string name="ToolTipHide">終極貓鼠遊戲。
+勿被尋者抓到！</string>
     <string name="ToolTipCapacity">可入大廳之最大玩家數。</string>
     <string name="ToolTipServer">創建遊戲之伺服區域。</string>
     <string name="ToolTipCrossplay">任何平台玩家皆可入大廳。</string>
@@ -2580,11 +2721,16 @@
     <string name="FilterTagTooltip">按大廳標籤篩選。</string>
     <string name="TooltipTag">添加標籤以吸引特定技能水平之玩家。</string>
     <string name="SelectedLabel">已選：</string>
-    <string name="TooltipSpeedInfo"><b>低：</b>0.5-0.75倍	<b>高：</b>1.75-2.25倍\%nl\%<b>中：</b>1.0-1.5倍	<b>極高：</b>2.5-3.0倍</string>
-    <string name="TooltipKillCDInfo"><b>低：</b>10-20秒	<b>高：</b>37.5-47.5秒\%nl\%<b>中：</b>22.5-35秒	<b>極高：</b>50-60秒</string>
-    <string name="TooltipVotingInfo"><b>低：</b>0-60秒	<b>高：</b>150-210秒\%nl\%<b>中：</b>75-135秒	<b>極高：</b>225-300秒</string>
-    <string name="TooptipHidingTimeInfo"><b>低：</b>160-180秒	<b>高：</b>260-300秒\%nl\%<b>中：</b>200-240秒</string>
-    <string name="TooltipFinalTimeInfo"><b>低：</b>30-45秒	<b>高：</b>75-95秒\%nl\%<b>中：</b>50-70秒	<b>極高：</b>100-120秒</string>
+    <string name="TooltipSpeedInfo"><b>低：</b>0.5-0.75倍	<b>高：</b>1.75-2.25倍
+<b>中：</b>1.0-1.5倍	<b>極高：</b>2.5-3.0倍</string>
+    <string name="TooltipKillCDInfo"><b>低：</b>10-20秒	<b>高：</b>37.5-47.5秒
+<b>中：</b>22.5-35秒	<b>極高：</b>50-60秒</string>
+    <string name="TooltipVotingInfo"><b>低：</b>0-60秒	<b>高：</b>150-210秒
+<b>中：</b>75-135秒	<b>極高：</b>225-300秒</string>
+    <string name="TooptipHidingTimeInfo"><b>低：</b>160-180秒	<b>高：</b>260-300秒
+<b>中：</b>200-240秒</string>
+    <string name="TooltipFinalTimeInfo"><b>低：</b>30-45秒	<b>高：</b>75-95秒
+<b>中：</b>50-70秒	<b>極高：</b>100-120秒</string>
     <string name="FilterNoMaps">未選地圖。</string>
     <string name="Cosmetic.hat_kamurocho_ichiban">一番 春日 之髮</string>
     <string name="Cosmetic.hat_kamurocho_ono">小野 道夫 之帽</string>
@@ -2657,7 +2803,8 @@
     <string name="DetectiveAbility">審問</string>
     <string name="DetectiveAbilityNotes">筆記</string>
     <string name="DetectiveBlurb">蒐證，破案。</string>
-    <string name="DetectiveBlurbMed">加訊於筆記。\%nl\%審問良眾。</string>
+    <string name="DetectiveBlurbMed">加訊於筆記。
+審問良眾。</string>
     <string name="DetectiveNotesEmpty">一旦有兇案，吾可開始調查…</string>
     <string name="DetectiveNearLocation">近{0}</string>
     <string name="DetectiveNotesKiller">{0}</string>
