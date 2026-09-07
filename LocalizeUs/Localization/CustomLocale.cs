@@ -36,7 +36,8 @@ public static class CustomLocale
         { ExtendedLangs.Czech, "cs_CZ.xml" }, // Custom
         { ExtendedLangs.LiteraryChinese, "lzh_CN.xml" }, // Custom
         { ExtendedLangs.Greek, "el-GR.xml" }, // Custom
-        { ExtendedLangs.Arabic, "ar_AR.xml" }, // Custom
+        { ExtendedLangs.Arabic, "arb.xml" }, // Custom
+        { ExtendedLangs.Hebrew, "heb.xml" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangListExternal { get; } = new()
     {
@@ -63,7 +64,8 @@ public static class CustomLocale
         { ExtendedLangs.Czech, "LU_cs_CZ.xml" }, // Custom
         { ExtendedLangs.LiteraryChinese, "LU_lzh_CN.xml" }, // Custom
         { ExtendedLangs.Greek, "LU_el-GR.xml" }, // Custom
-        { ExtendedLangs.Arabic, "LU_ar_AR.xml" }, // Custom
+        { ExtendedLangs.Arabic, "LU_arb.xml" }, // Custom
+        { ExtendedLangs.Hebrew, "LU_heb.xml" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangCultureList { get; } = new()
     {
@@ -90,7 +92,8 @@ public static class CustomLocale
         { ExtendedLangs.Czech, "cs-CZ" }, // Custom
         { ExtendedLangs.LiteraryChinese, "zh-TW" }, // Custom
         { ExtendedLangs.Greek, "el-GR" }, // Custom
-        { ExtendedLangs.Arabic, "ar-AR" }, // Custom
+        { ExtendedLangs.Arabic, "arb" }, // Custom
+        { ExtendedLangs.Hebrew, "heb" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangCodesList { get; } = new()
     {
@@ -117,11 +120,30 @@ public static class CustomLocale
         { ExtendedLangs.Czech, "cs" }, // Custom
         { ExtendedLangs.LiteraryChinese, "lzh" }, // Custom
         { ExtendedLangs.Greek, "el" }, // Custom
-        { ExtendedLangs.Arabic, "ar" }, // Custom
+        { ExtendedLangs.Arabic, "arb" }, // Custom
+        { ExtendedLangs.Hebrew, "heb" }, // Custom
     };
 
     public static string BepinexLocaleDirectory =>
         Path.Combine(BepInEx.Paths.BepInExRootPath, "CustomLocales", "LocalizeUs");
+
+    public static ExtendedLangs CurrentLanguage
+    {
+        get
+        {
+            try
+            {
+                var langName = AmongUs.Data.DataManager.Settings.Language.CurrentLanguage;
+                return (ExtendedLangs)langName;
+            }
+            catch
+            {
+                return ExtendedLangs.English;
+            }
+        }
+    }
+
+    public static bool IsRightToLeftLanguage() => CurrentLanguage is ExtendedLangs.Hebrew or ExtendedLangs.Arabic;
 
     public static Dictionary<string, string> TmpTextList { get; } = new()
     {

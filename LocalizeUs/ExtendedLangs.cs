@@ -26,4 +26,5 @@ public enum ExtendedLangs
     LiteraryChinese,
     Greek,
     Arabic,
+    Hebrew,
 }

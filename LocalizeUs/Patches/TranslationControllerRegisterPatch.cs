@@ -41,7 +41,8 @@ public static class TranslationControllerRegisterPatch
         AddLangSet(ExtendedLangs.Czech, "Čeština", "Czech");
         AddLangSet(ExtendedLangs.LiteraryChinese, "文言文", "Literary Chinese");
         AddLangSet(ExtendedLangs.Greek, "ελληνικά", "Greek");
-        AddLangSet(ExtendedLangs.Arabic, "العربية", "Arabic");
+        AddLangSet(ExtendedLangs.Arabic, "العربية", "Modern Arabic");
+        AddLangSet(ExtendedLangs.Hebrew, "עִבְרִית", "Modern Hebrew");
     }
 
 [HarmonyPatch(typeof(TranslationController), nameof(TranslationController.SetLanguage))]

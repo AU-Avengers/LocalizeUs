@@ -81,31 +81,16 @@ namespace RTLTMPro
 
         protected bool fixTags = true;
 
-        protected readonly FastStringBuilder finalText = new FastStringBuilder(RTLSupport.DefaultBufferSize);
+        protected readonly FastStringBuilder finalText = new (RTLSupport.DefaultBufferSize);
 
         public bool HavePropsChanged;
-        public static ExtendedLangs CurrentLanguage
-        {
-            get
-            {
-                try
-                {
-                    var langName = AmongUs.Data.DataManager.Settings.Language.CurrentLanguage;
-                    return (ExtendedLangs)langName;
-                }
-                catch
-                {
-                    return ExtendedLangs.English;
-                }
-            }
-        }
         protected void Update()
         {
             HavePropsChanged = TmpText.havePropertiesChanged;
         }
         protected void LateUpdate()
         {
-            if (CurrentLanguage is not ExtendedLangs.Arabic)
+            if (CustomLocale.IsRightToLeftLanguage())
             {
                 return;
             }
