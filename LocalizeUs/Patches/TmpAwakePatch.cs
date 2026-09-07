@@ -1,5 +1,6 @@
 using System.Reflection;
 using HarmonyLib;
+using RTLTMPro;
 using TMPro;
 using UnityEngine;
 
@@ -24,6 +25,7 @@ public static class TmpAwakePatch
     [HarmonyPostfix]
     public static void TmpAwakePostfix(TextMeshPro __instance)
     {
+        __instance.gameObject.AddComponent<RTLTextMeshPro3D>();
         if (!LibSansRegTmp)
         {
             LibSansRegTmp = LoadFontFromResources("LocalizeUs.Resources.LiberationSans-Regular.ttf")!;

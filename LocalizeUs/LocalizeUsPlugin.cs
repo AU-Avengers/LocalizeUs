@@ -31,14 +31,15 @@ public sealed partial class LocalizeUsPlugin : BasePlugin
             { "LangPolish", 10000 }, { "LangTurkish", 10001 }, { "LangSwedish", 10002 }, { "LangLithuanian", 10003 },
             { "LangCzech", 10004 },
             { "LangLiteraryChinese", 10005 },
-            { "LangGreek", 10006 }
+            { "LangGreek", 10006 },
+            { "LangArabic", 10007 }
         });
         EnumInjector.InjectEnumValues<SupportedLangs>(new Dictionary<string, object>
         {
             { "Polish", (int)ExtendedLangs.Polish }, { "Turkish", (int)ExtendedLangs.Turkish },
             { "Swedish", (int)ExtendedLangs.Swedish }, { "Lithuanian", (int)ExtendedLangs.Lithuanian },
             { "Czech", (int)ExtendedLangs.Czech }, { "LiteraryChinese", (int)ExtendedLangs.LiteraryChinese },
-            { "Greek", (int)ExtendedLangs.Greek }
+            { "Greek", (int)ExtendedLangs.Greek }, { "Arabic", (int)ExtendedLangs.Arabic }
         });
         ReactorCredits.Register<LocalizeUsPlugin>(location =>
             location == ReactorCredits.Location.MainMenu || location == ReactorCredits.Location.PingTracker);

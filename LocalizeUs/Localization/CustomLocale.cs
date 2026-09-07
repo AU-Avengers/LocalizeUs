@@ -36,6 +36,7 @@ public static class CustomLocale
         { ExtendedLangs.Czech, "cs_CZ.xml" }, // Custom
         { ExtendedLangs.LiteraryChinese, "lzh_CN.xml" }, // Custom
         { ExtendedLangs.Greek, "el-GR.xml" }, // Custom
+        { ExtendedLangs.Arabic, "ar_AR.xml" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangListExternal { get; } = new()
     {
@@ -62,6 +63,7 @@ public static class CustomLocale
         { ExtendedLangs.Czech, "LU_cs_CZ.xml" }, // Custom
         { ExtendedLangs.LiteraryChinese, "LU_lzh_CN.xml" }, // Custom
         { ExtendedLangs.Greek, "LU_el-GR.xml" }, // Custom
+        { ExtendedLangs.Arabic, "LU_ar_AR.xml" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangCultureList { get; } = new()
     {
@@ -88,6 +90,7 @@ public static class CustomLocale
         { ExtendedLangs.Czech, "cs-CZ" }, // Custom
         { ExtendedLangs.LiteraryChinese, "zh-TW" }, // Custom
         { ExtendedLangs.Greek, "el-GR" }, // Custom
+        { ExtendedLangs.Arabic, "ar-AR" }, // Custom
     };
     public static Dictionary<ExtendedLangs, string> LangCodesList { get; } = new()
     {
@@ -114,6 +117,7 @@ public static class CustomLocale
         { ExtendedLangs.Czech, "cs" }, // Custom
         { ExtendedLangs.LiteraryChinese, "lzh" }, // Custom
         { ExtendedLangs.Greek, "el" }, // Custom
+        { ExtendedLangs.Arabic, "ar" }, // Custom
     };
 
     public static string BepinexLocaleDirectory =>

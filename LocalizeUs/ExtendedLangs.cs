@@ -25,4 +25,5 @@ public enum ExtendedLangs
     Czech,
     LiteraryChinese,
     Greek,
+    Arabic,
 }
