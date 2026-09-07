@@ -21,7 +21,7 @@ public static class TranslationControllerRegisterPatch
         builder.Append(CultureInfo.InvariantCulture, $"KEY ID\t{engName}");
         foreach (var pair in CustomLocale.InternalLocalization[newLanguage])
         {
-            builder.Append(CultureInfo.InvariantCulture, $"\n{pair.Key}\t{pair.Value}");
+            builder.Append(CultureInfo.InvariantCulture, $"\n{pair.Key}\t{pair.Value.ReplaceLineEndings("\\n")}");
         }
 
         var newLocaleData = new TextAsset(builder.ToString());

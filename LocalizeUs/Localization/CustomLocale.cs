@@ -121,7 +121,7 @@ public static class CustomLocale
 
     public static Dictionary<string, string> TmpTextList { get; } = new()
     {
-        { "<nl>", "\\n" },
+        { "<nl>", "\n" },
         { "<and>", "&" },
     };
 
@@ -180,11 +180,6 @@ public static class CustomLocale
             translations.TryGetValue(name, out var translation))
         {
             text = translation;
-        }
-
-        foreach (var tmpText in TmpTextList.Where(x => text.Contains(x.Key)))
-        {
-            text = text.Replace(tmpText.Key, tmpText.Value);
         }
 
         if (parseList != null)
@@ -294,6 +289,11 @@ public static class CustomLocale
                             {
                                 value = value.Replace(tmpText.Key, tmpText.Value);
                             }
+                        }
+
+                        foreach (var tmpText in TmpTextList.Where(x => value.Contains(x.Key)))
+                        {
+                            value = value.Replace(tmpText.Key, tmpText.Value);
                         }
 
                         localeList[language].TryAdd(name, value);
