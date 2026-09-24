@@ -2181,4 +2181,10 @@ Spróbuj ponownie później.</string>
   <string name="Cosmetic.nameplate_Polus_Planet">Planeta Polus</string>
   <string name="Cosmetic.skin_Sanskin">Sans Granie</string>
   <string name="MaxPingTime">Czas Pomiędzy Pingami</string>
+  <string name="Cosmetic.hat_pk06_Lights">Światełka</string>
+  <string name="Cosmetic.hats_newyears2018">Nowy Rok 2019</string>
+  <string name="Cosmetic.hat_pk06_tree">Choineczka</string>
+  <string name="Cosmetic.hat_pkHW01_BatWings">Nietoperz</string>
+  <string name="Cosmetic.hat_pkHW01_Horns">Diabeł</string>
+  <string name="Cosmetic.hat_pkHW01_Machete">Ciach-Ciach</string>
 </resources>
