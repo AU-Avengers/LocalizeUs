@@ -180,7 +180,7 @@ Jeżeli ty i reszta załogi nie macie wystarczająco informacji, możecie pomin�
   <string name="SettingsData">Dane</string>
   <string name="SettingsCensorChat">Cenzura Czatu</string>
   <string name="SettingsMusic">Muzyka</string>
-  <string name="SettingsSFX">Dźwięki</string>
+  <string name="SettingsSFX">Efekty dźwiękowe</string>
   <string name="SettingsOn">Wł</string>
   <string name="SettingsOff">Wył</string>
   <string name="SettingsSendTelemetry">Wysyłaj Dane Telemetryczne</string>
@@ -445,7 +445,7 @@ Czteroosobowe gry będą kończyć się dosyć szybko i zazwyczaj Intruzi będą
   <!-- Will be displayed as "Inżynier Wskazówka", should be "Wskazówka dla roli Inżynier" instead-->
     <string name="RoleHint">Wskazówka</string>
   <string name="ScreenShakeOption">Trzęsienie Ekranu</string>
-  <string name="SettingsEnableFriendInvites">Zaproszenia do Znajomych i do Lobby</string>
+  <string name="SettingsEnableFriendInvites">Zaproszenia do Znajomych i Lobby</string>
   <string name="SettingsColorblind">Tekst dla Daltonistów</string>
   <string name="GameType">Tryb Gry</string>
   <string name="GameTypeError">Błąd!</string>
@@ -582,13 +582,12 @@ Proszę zaktualizuj aby grać z innymi.</string>
   <string name="QCCrewMe">Ja</string>
   <string name="LocalHelp">Problemy z połączenie?
 
-● Upewnij się, że wszyscy są połączeni do tej samej sieci WIFI
-● Upewnij się, że wszyscy mają tą samą wersję (w prawym dolnym rogu)
-● Upewnij się, że twój sygnał WiFi jest wystarczająco silny
-
+● Upewnij się, że wszyscy są połączeni do tej samej sieci Wi-Fi
+● Upewnij się, że wszyscy mają tą samą wersję gry (w prawym dolnym rogu)
+● Upewnij się, że twój sygnał Wi-Fi jest wystarczająco silny
 ● Czasami pomaga gdy inny osoba stworzy grę
-● Czasami pomaga włączenie aplikacji na nowo...
-● Czasami włączenie twojego telefonu na nowo pomaga...
+● Czasami pomaga włączenie gry na nowo...
+● Czasami zrestartowanie telefonu pomaga...
 ● Dalej masz problemy? Daj nam znać pisząc do nas na maila support@innersloth.com!</string>
   <string name="QCBuildingPlaceholder">Budowanie frazy...</string>
   <string name="QCCrewDead">Martwy</string>
@@ -980,6 +979,7 @@ OCZEKIWANIE NA GOSPODARZA</string>
   <string name="LogInInfoText">Zaloguj się lub stwórz konto Among Us aby uzyskać dostęp do takich funkcji gry jak:
 
 - Zapisywanie progresu na różnych urządzeniach
+- Dostęp do Zwykłego Czatu
 - Zachowanie przebrania
 - i więcej!
 
@@ -1099,7 +1099,7 @@ Musisz posiadać konto Among Us aby grać online.</string>
   <string name="Cosmetic.hat_Bowlingball">Strike</string>
   <string name="Cosmetic.hat_Basketball">Za pierwszym rzutem</string>
   <string name="Cosmetic.hat_Chocolate">Lody Włoskie</string>
-  <string name="Cosmetic.hat_CuppaJoe">Joe ze stickmina</string>
+  <string name="Cosmetic.hat_CuppaJoe">Joe Kamerownik</string>
   <string name="Cosmetic.hat_Deitied">Zabierz to ode mnie</string>
   <string name="Cosmetic.hat_Doc_black">Co słychać, doktorku? - Czarny</string>
   <string name="Cosmetic.hat_Doc_Orange">Co słychać, doktorku? - pomarańczowy</string>
@@ -1178,7 +1178,7 @@ Musisz posiadać konto Among Us aby grać online.</string>
   <string name="Cosmetic.pet_Alien">Gluten</string>
   <string name="Cosmetic.hat_bushhat">Łowca Krokodyli</string>
   <string name="Cosmetic.hat_captain">Ahoj</string>
-  <string name="Cosmetic.hat_doubletophat">Podwójny kapelusz</string>
+  <string name="Cosmetic.hat_doubletophat">Szef Toppatów</string>
   <string name="Cosmetic.hat_flowerpot">Posadzony</string>
   <string name="Cosmetic.hat_goggles">Oczy do góry</string>
   <string name="Cosmetic.hat_hardhat">Twój stary na budowie</string>
@@ -1192,17 +1192,17 @@ Musisz posiadać konto Among Us aby grać online.</string>
   <string name="Cosmetic.hat_russian">Wschodnia Uszanka</string>
   <string name="Cosmetic.hat_viking">Wiking</string>
   <string name="Cosmetic.hat_whitetophat">Biały Kapelusz</string>
-  <string name="Cosmetic.hat_wallcap">Zimno tu</string>
+  <string name="Cosmetic.hat_wallcap">Pracownik The Wall</string>
   <string name="Cosmetic.hat_pk02_Crown">Koronowany</string>
   <string name="Cosmetic.hat_pk02_Eyebrows">Brwi Stickmina</string>
   <string name="Cosmetic.hat_pk02_HaloHat">Niewinność</string>
   <string name="Cosmetic.hat_pk02_HeroCap">Leśny Wojownik</string>
   <string name="Cosmetic.hat_pk02_PipCap">Młody Jim</string>
-  <string name="Cosmetic.hat_pk02_PlungerHat">Odetkaj go</string>
+  <string name="Cosmetic.hat_pk02_PlungerHat">Odetkaj Go</string>
   <string name="Cosmetic.hat_pk02_ScubaHat">Sprzęcior nurków</string>
   <string name="Cosmetic.hat_pk02_StickminHat">Henryk Stickmin</string>
   <string name="Cosmetic.hat_pk02_StrawHat">Jak w przepisie mamusi</string>
-  <string name="Cosmetic.hat_pk02_TenGallonHat">Szeryf z zachodu</string>
+  <string name="Cosmetic.hat_pk02_TenGallonHat">Szeryf z Zachodu</string>
   <string name="Cosmetic.hat_pk02_ThirdEyeHat">Trzecie oko</string>
   <string name="StatsHidenSeekGamesCrewmateSurvived">Gry Chowanego Przetrwane:	</string>
   <string name="StatsHidenSeekTimesVented">Wenty Użyte w Chowanym:	</string>
@@ -1256,12 +1256,14 @@ Robienie zadań skraca czas.</string>
   <string name="HideSeekHowToPlayCaptionOne">To proste!</string>
   <string name="CreateLabel">Stwórz</string>
   <string name="NewGameMode">Nowy Tryb Gry!</string>
-  <string name="NewModeInfo">Stawka jest wysoka w tym nowym - ciągle trzymającym w napięciu trybie gry! 
-Ale chwila - to nie jest twoja zwykła gra w chowanego...<i>But wait - it's not your ordinary Hide n Seek...</i>
+  <string name="NewModeInfo">Stawka jest wysoka w tym nowym - ciągle trzymającym w napięciu trybie gry!
+{i}Ale chwila - to nie jest twoja zwykła gra w chowanego...{/i}<i>But wait - it's not your ordinary Hide n Seek...</i>
   </string>
   <string name="HideSeekHowToPlayCaptionTwo">Chowający!</string>
   <string name="HideSeekHowToPlayCaptionThree">Szukający!</string>
-  <string name="HideSeekHowToPlayPageOne">{color=#38F25D}<b>Chowający:</b>{/color} Ukończ zadania aby skrócić pozostały czas, unikaj Szukającego i przetrwaj do końca aby wygrać.
+  <string name="HideSeekHowToPlayPageOne">{color=#38F25D}{b}Chowający:{/b}{/color} Ukończ zadania aby skrócić pozostały czas, unikaj Szukającego i przetrwaj do końca aby wygrać.
+
+{color=#FF3131}{b}}Szukający:{/b}{/color} Znajdź Chowających i zabij ich wszystkich.<b>Chowający:</b>{/color} Ukończ zadania aby skrócić pozostały czas, unikaj Szukającego i przetrwaj do końca aby wygrać.
 
 {color=#FF3131}<b>Szukający:</b>\{/color} Znajdź Chowających i zabij ich wszystkich.</string>
   <string name="HideSeekHowToPlaySubtextOne">Nie ma tu żadnej dedukcji, są tylko przerażone krzyki.</string>
@@ -1311,20 +1313,20 @@ Przesłuchaj Załogę.</string>
   <string name="XboxCommsMultiplayerError">Twoje konto nie ma wystarczających permisji aby korzystać z funkcji Online.</string>
   <string name="MaxFilters">Maksymalna ilość filtrów aktywna</string>
   <string name="FilterNoMaps">Brak wybranych map.</string>
-  <string name="TooltipSpeedInfo">
-    <b>Wolna:</b> 0.5-0.75x	<b>Wysoka:</b> 1.75-2.25x
+  <string name="TooltipSpeedInfo">{b}Wolna:{/b} 0.5-0.75x 	{b}Wysoka:{/b} 1.75-2.25x
+{b}Średnia:{/b} 1.0-1.5x	{b}B. Wysoka:{/b} 2.5-3.0x<b>Wolna:</b> 0.5-0.75x	<b>Wysoka:</b> 1.75-2.25x
 <b>Średnia:</b> 1.0-1.5x	<b>B. Wysoka:</b> 2.5-3.0x</string>
-  <string name="TooltipKillCDInfo">
-    <b>Niski:</b> 10-20s	<b>Wysoki:</b> 37.5-47.5s
+  <string name="TooltipKillCDInfo">{b}Niski{/b}: 10-20s 	{b}Wysoki:{/b} 37.5-47.5s
+{b}Średni:{/b} 22.5-35s 	{b}B. Wysoki:{/b} 50-60s<b>Niski:</b> 10-20s	<b>Wysoki:</b> 37.5-47.5s
 <b>Średni:</b> 22.5-35s	<b>B. Wysoki:</b> 50-60s</string>
-  <string name="TooltipVotingInfo">
-    <b>Krótki:</b> 0-60s	<b>Długi:</b> 150-210s
+  <string name="TooltipVotingInfo">{b}Krótki:{/b} 0-60s 	{b}Długi:{/b} 150-210s
+{b}Średni:{/b} 75-135s	{b}B. Długi:{/b} 225-300s<b>Krótki:</b> 0-60s	<b>Długi:</b> 150-210s
 <b>Średni:</b> 75-135s	<b>B. Długi:</b> 225-300s</string>
-  <string name="TooptipHidingTimeInfo">
-    <b>Krótki:</b> 160-180s	<b>Długi:</b> 260-300s
+  <string name="TooptipHidingTimeInfo">{b}Krótki:{/b} 160-180s 	{b}Długi:{/b} 260-300s
+{b}Średni:{/b} 200-240s<b>Krótki:</b> 160-180s	<b>Długi:</b> 260-300s
 <b>Średni:</b> 200-240s</string>
-  <string name="TooltipFinalTimeInfo">
-    <b>Krótki:</b> 30-45s	<b>Długi:</b> 75-95s
+  <string name="TooltipFinalTimeInfo">{b}Krótki:{/b} 30-45s	{b}Długi:{/b} 75-95s
+{b}Średni:{/b} 50-70s	{b}B. Długi:{/b} 100-120s<b>Krótki:</b> 30-45s	<b>Długi:</b> 75-95s
 <b>Średni:</b> 50-70s	<b>B. Długi:</b> 100-120s</string>
   <string name="SelectedLabel">WYBRANE:</string>
   <string name="FilterTagTooltip">Przefiltruj lobby przez Tagi.</string>
@@ -1359,7 +1361,7 @@ Przesłuchaj Załogę.</string>
   <string name="Cosmetic.visor_pusheenGorgeousVisor">Piękniutki!!</string>
   <string name="Cosmetic.visor_pusheenKissyVisor">Kocie Buzi</string>
   <string name="Cosmetic.visor_pusheenKoolKatVisor">Kot z Pazurem</string>
-  <string name="Cosmetic.visor_pusheenOmNomNomVisor">Om Nom Nom</string>
+  <string name="Cosmetic.visor_pusheenOmNomNomVisor">Am Mniam Mniam</string>
   <string name="Cosmetic.visor_pusheenSmileVisor">Uśmiech Pusheena</string>
   <string name="Cosmetic.visor_pusheenYaaaaaayVisor">Yupiiiiii</string>
   <string name="Cosmetic.skin_PusheenGreyskin">Pusheen</string>
@@ -2187,4 +2189,133 @@ Spróbuj ponownie później.</string>
   <string name="Cosmetic.hat_pkHW01_BatWings">Nietoperz</string>
   <string name="Cosmetic.hat_pkHW01_Horns">Diabeł</string>
   <string name="Cosmetic.hat_pkHW01_Machete">Ciach-Ciach</string>
+  <string name="Cosmetic.hat_pkHW01_CatEyes">Batmogus</string>
+  <string name="Cosmetic.hat_pkHW01_Mohawk">Irokez</string>
+  <string name="Cosmetic.hat_pkHW01_Pirate">Pirat</string>
+  <string name="Cosmetic.hat_pkHW01_Pumpkin">Dyńka</string>
+  <string name="Cosmetic.hat_pkHW01_ScaryBag">Straszna Torba</string>
+  <string name="Cosmetic.hat_pkHW01_Wolf">Wilkołak</string>
+  <string name="Cosmetic.hat_Plunger_Blue">Odetkaj Go - Niebieski</string>
+  <string name="Cosmetic.hat_Plunger_Yellow">Odetkaj Go - Czarno Żółty</string>
+  <string name="Cosmetic.hat_Ponytail">Blondyna</string>
+  <string name="Cosmetic.hat_Pot">Hełm Do Kopania</string>
+  <string name="Cosmetic.hat_Prototype">Hełm Prototypu</string>
+  <string name="Cosmetic.hat_Ramhorn_Black">Zbaraniałem - Czarny</string>
+  <string name="Cosmetic.hat_Ramhorn_Red">Zbaraniałem - Czerwony</string>
+  <string name="Cosmetic.hat_Ramhorn_White">Zbaraniałem - Biały</string>
+  <string name="Cosmetic.hat_Records">Kapelusz Nagrywającego</string>
+  <string name="Cosmetic.hat_RockIce">Zamrożony Łeb</string>
+  <string name="Cosmetic.hat_RockLava">Spalony Łeb</string>
+  <string name="Cosmetic.hat_Rubberglove">Rozciągnięta Rękawiczka</string>
+  <string name="Cosmetic.hat_Rupert">Rupert</string>
+  <string name="Cosmetic.hat_TenGallon_Black">Szeryf z Zachodu - Czarny</string>
+  <string name="Cosmetic.hat_TenGallon_White">Szeryf z Zachodu - Biały</string>
+  <string name="Cosmetic.hat_ThomasC">Kapelusz Thomasa</string>
+  <string name="Cosmetic.hat_ToppatHair">Spoko Katie</string>
+  <string name="Cosmetic.hat_Traffic_Blue">Pachołek Drogowy - Niebieski</string>
+  <string name="Cosmetic.hat_Traffic_Red">Pachołek Drogowy - Czerwony</string>
+  <string name="Cosmetic.hat_Traffic_Yellow">Pachołek Drogowy - Żółty</string>
+  <string name="Cosmetic.hat_Unicorn">Magiczny 'Rożec</string>
+  <string name="Cosmetic.hat_Visor">Czapka na Wizjer</string>
+  <string name="Cosmetic.hat_Voleyball">Siatkówka</string>
+  <string name="Cosmetic.hat_WilfordIV">Sir Wilford IV</string>
+  <string name="Cosmetic.hat_Winston">Skorumpowany Pan Władza</string>
+  <string name="Cosmetic.hat_WinterGreen">Zimno Jest - Zielony</string>
+  <string name="Cosmetic.hat_WinterHelmet">Kryj Się - Zimowy</string>
+  <string name="Cosmetic.hat_WinterRed">Zimno Jest - Czerwony</string>
+  <string name="Cosmetic.hat_WinterYellow">Zimno Jest - Żółty</string>
+  <string name="Cosmetic.hat_Zipper">Strój Załoganta</string>
+  <string name="Cosmetic.nameplate_airship_CCC">Centrum Centralizacji Chaosu</string>
+  <string name="Cosmetic.nameplate_airship_government">Najlepszy Identyfikator</string>
+  <string name="Cosmetic.nameplate_Airship_Hull">Kadłub Airshipa</string>
+  <string name="Cosmetic.nameplate_airship_Toppat">Airship Toppatów</string>
+  <string name="Cosmetic.nameplate_is_dig">Dig2China</string>
+  <string name="Cosmetic.nameplate_is_game">SPORTY</string>
+  <string name="Cosmetic.nameplate_is_green">Trawnik Deitiego</string>
+  <string name="Cosmetic.nameplate_is_yard">Strefa Wykopalisk</string>
+  <string name="Cosmetic.nameplate_Mira_Glass">Niebo Poniżej</string>
+  <string name="Cosmetic.nameplate_Mira_Tiles">Miódsz zestrzelić Asteroidy</string>
+  <string name="Cosmetic.nameplate_Mira_Vines">Ile tych winorośli?</string>
+  <string name="Cosmetic.nameplate_Polus_Colors">Paleta Polusa</string>
+  <string name="Cosmetic.nameplate_Polus_DVD">Ekran SimSong</string>
+  <string name="Cosmetic.nameplate_Polus_Lava">Lawa</string>
+  <string name="Cosmetic.nameplate_Polus_Snow">Śnieżne Wyspy</string>
+  <string name="Cosmetic.nameplate_Polus_SpecimenBlue">Próbka - Niebieska</string>
+  <string name="Cosmetic.nameplate_Polus_SpecimenGreen">Próbka - Zielona</string>
+  <string name="Cosmetic.nameplate_Polus_SpecimenPurple">Próbka - Fioletowa</string>
+  <string name="Cosmetic.nameplate_Polus-Skyline">Horyzont Polusa</string>
+  <string name="Cosmetic.nameplate_Polus-Snowmates">Śnieżna Załoga Polusa</string>
+  <string name="Cosmetic.pet_Bush">Krzak-Przyjaciel</string>
+  <string name="Cosmetic.pet_Charles">Helikopter Charlesa</string>
+  <string name="Cosmetic.pet_Charles_Red">Helikopter Toppatów</string>
+  <string name="Cosmetic.pet_Crewmate">Mały Załogancik</string>
+  <string name="Cosmetic.pet_Cube">Kostka Deitied</string>
+  <string name="Cosmetic.pet_Doggy">Piesek</string>
+  <string name="Cosmetic.pet_Ellie">E. Rose</string>
+  <string name="Cosmetic.pet_test">Błąd</string>
+  <string name="Cosmetic.pet_Hamster">Chomik</string>
+  <string name="Cosmetic.pet_Lava">Magmo-ziomek</string>
+  <string name="Cosmetic.pet_Robot">Ro-Bot</string>
+  <string name="Cosmetic.pet_Snow">Śnieżek</string>
+  <string name="Cosmetic.pet_Squig">Squig</string>
+  <string name="Cosmetic.pet_Stickmin">H. Stickmin</string>
+  <string name="Cosmetic.pet_UFO">UFO</string>
+  <string name="Cosmetic.skin_Abominalskin">Wstrętny Bałwan</string>
+  <string name="Cosmetic.skin_Archae">Odkopane Cuda</string>
+  <string name="Cosmetic.skin_Astro">Astronauta</string>
+  <string name="Cosmetic.skin_Astro_blue">Astronauta Niebieski</string>
+  <string name="Cosmetic.skin_Astro_cyan">Astronauta Cyjanowy</string>
+  <string name="Cosmetic.skin_Astro_orange">Astronauta Pomarańczowy</string>
+  <string name="Cosmetic.skin_Bling">Błysk Błysk</string>
+  <string name="Cosmetic.skin_BusinessFem-Aquaskin">Kiecka Biznesowa - Morska</string>
+  <string name="Cosmetic.skin_BusinessFemskin">Kiecka Biznesowa</string>
+  <string name="Cosmetic.skin_BusinessFem-Tanskin">Kiecka Biznesowa - Jasnobrązowa</string>
+  <string name="Cosmetic.skin_Capt">Licencja Pilota</string>
+  <string name="Cosmetic.skin_CCC">Załogant Centralizacji Chaosu</string>
+  <string name="Cosmetic.skin_D2Cskin">Kopiący Dzieciak</string>
+  <string name="Cosmetic.skin_General">Generał Galeforce</string>
+  <string name="Cosmetic.skin_RockIceskin">Zmarzłem</string>
+  <string name="Cosmetic.skin_RockLavaskin">Twardy Jak Skała</string>
+  <string name="Cosmetic.skin_ToppatVest">Ubezbieczony Interes</string>
+  <string name="Cosmetic.visor_Crack">Among Us Cracked 2021</string>
+  <string name="Cosmetic.hat_heim">Włosy Heimerdingera</string>
+  <string name="Cosmetic.hat_enforcer">Hełm Egzekutora</string>
+  <string name="Cosmetic.hat_caitlin">Czapka Caitlyn</string>
+  <string name="Cosmetic.hat_clagger">Gogle Claggora</string>
+  <string name="Cosmetic.hat_vi">Włosy Vi</string>
+  <string name="Cosmetic.hat_jinx">Włosy Jinx</string>
+  <string name="Cosmetic.hat_jayce">Włosy Jayce</string>
+  <string name="Cosmetic.hat_comper">Chomper</string>
+  <string name="Cosmetic.visor_heim">Wąs Heimerdingera</string>
+  <string name="Cosmetic.visor_jinx">Gogle Jinx</string>
+  <string name="Cosmetic.skin_heim">Strój Heimerdingera</string>
+  <string name="Cosmetic.skin_jayce">Garnitur Urzędowy Jayce</string>
+  <string name="Cosmetic.skin_enforcer">Zbroja Egzekutora</string>
+  <string name="Cosmetic.skin_caitlin">Ubiór Caitlyn</string>
+  <string name="Cosmetic.skin_jinx">Ubiór Jinx</string>
+  <string name="Cosmetic.skin_vi">Ubiór Vi</string>
+  <string name="Cosmetic.pet_poro">Poro Heimerdingera</string>
+  <string name="Cosmetic.hat_witch_white">Która? Spalona! - Biała</string>
+  <string name="Cosmetic.hat_witch_pink">Która? Spalona! - Różowa</string>
+  <string name="Cosmetic.hat_witch_murky">Która? Spalona! - Mętna</string>
+  <string name="Cosmetic.hat_witch_green">Która? Spalona! - Zielona</string>
+  <string name="Cosmetic.hat_papermask">Straszna Torba - Jasna</string>
+  <string name="Cosmetic.hat_mohawk_rainbow">Irokez - Tenczowy</string>
+  <string name="Cosmetic.hat_mohawk_purple_green">Irokez - Fioletowo Zielony</string>
+  <string name="Cosmetic.hat_mohawk_bumblebee">Irokez - Bumblebee</string>
+  <string name="Cosmetic.hat_devilhorns_yellow">Diabeł - Złoty</string>
+  <string name="Cosmetic.hat_devilhorns_white">Diabeł - Biały</string>
+  <string name="Cosmetic.hat_devilhorns_murky">Diabeł - Mętny</string>
+  <string name="Cosmetic.hat_devilhorns_green">Diabeł - Zielony</string>
+  <string name="Cosmetic.hat_devilhorns_crewcolor">Diabeł - Twój Kolor</string>
+  <string name="Cosmetic.hat_devilhorns_black">Diabeł - Czarny</string>
+  <string name="Cosmetic.hat_cat_grey">Batmogus - Szary</string>
+  <string name="Cosmetic.hat_cat_snow">Batmogus - Śnieżny</string>
+  <string name="Cosmetic.hat_cat_pink">Batmogus - Różowy</string>
+  <string name="Cosmetic.hat_cat_orange">Batmogus - Pomarańczowy</string>
+  <string name="Cosmetic.hat_wolf_grey">Wilkołak - Szary</string>
+  <string name="Cosmetic.hat_wolf_murky">Wilkołak - Mętny</string>
+  <string name="Cosmetic.hat_bat_ice">Nietoperz - Lodowy</string>
+  <string name="Cosmetic.hat_bat_green">Nietoperz - Zielony</string>
+  <string name="Cosmetic.hat_bat_crewcolor">Nietoperz - Twój Kolor</string>
 </resources>
