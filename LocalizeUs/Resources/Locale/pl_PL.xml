@@ -1005,7 +1005,7 @@ Niektóre funkcje mogą potrzebować zgody rodzica lub opiekuna w zależności o
   <string name="VentLabel">WENTUJ</string>
   <string name="KillLabel">ZABIJ</string>
   <string name="DiscussLabel">DYSKUTUJ!</string>
-  <string name="SkippedVoting">POMINIĘTO GŁOSOWANIE</string>
+  <string name="SkippedVoting">POMINELI</string>
   <string name="SkipVoteLabel">POMIŃ GŁOSOWANIE</string>
   <string name="EmergencyMeeting">AWARYJNE SPOTKANIE</string>
   <string name="BodyReported">MARTWE CIAŁO ZGŁOSZONE</string>
