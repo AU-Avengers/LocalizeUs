@@ -2318,4 +2318,24 @@ Spróbuj ponownie później.</string>
   <string name="Cosmetic.hat_bat_ice">Nietoperz - Lodowy</string>
   <string name="Cosmetic.hat_bat_green">Nietoperz - Zielony</string>
   <string name="Cosmetic.hat_bat_crewcolor">Nietoperz - Twój Kolor</string>
+  <string name="JudgeRole">Sędzia</string>
+  <string name="JudgeBlurb">Przejmij spotkanie</string>
+  <string name="JudgeBlurbMed">Unieważnij spotkanie by wyrzucić Intruza.
+Jeśli będziesz w błędzie, ty zostaniesz wyrzucony.</string>
+  <string name="JudgeBlurbLong">Przejmij kontrolę nad głosami</string>
+  <string name="JudgeTaskRequirement">% Ukończonych Zadań</string>
+  <string name="RolesHelp_Judge_01">Sędzia posiada wpływową umiejętność nazwaną Unieważnienie. Pozwala ona użyć specjalnego głosu na jednej osobie którą Sędzia podejrzewa o bycie Intruzem.</string>
+  <string name="RolesHelp_Judge_02">Kiedy użyje umiejętności, liczy się jedynie jego specjalny głos. Jeżeli Sędzia ma rację, Intruz zostanie wyrzucony. Jeżeli Sędzia się mylił, sam wyleci!</string>
+  <string name="JudgeAbilityUnlocked">Odblokowano umiejętność Sędziego</string>
+  <string name="JudgeAbilityProgress">Ukończ {0} zadań aby osądzić!</string>
+  <string name="JudgeCourtAdjourned">Zapadł werdykt...</string>
+  <string name="JudgeHasSpoken">Sędzia wyraził swój głos.</string>
+  <string name="StatsJudgeSuccessfulOverrules">Poprawne Unieważnienia Sędzi:</string>
+  <string name="StatsJudgeFailedOverrules">Niepoprawne Unieważnienia Sędzi:</string>
+  <string name="JudgeBeatYouToIt">Sędzia wyraził swój głos.
+(Inny sędzia cię wyprzedził)</string>
+  <string name="QCJudges">Sędziowie?</string>
+  <string name="QCJudgeOverrule">Unieważnię</string>
+  <string name="QCJudgePlease">Proszę Unieważnić {0}</string>
+  <string name="QCJudgeWillOverrule">Unieważnię {0}</string>
 </resources>
