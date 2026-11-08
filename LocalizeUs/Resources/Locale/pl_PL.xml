@@ -878,8 +878,8 @@ OCZEKIWANIE NA GOSPODARZA</string>
   <string name="QCLobbyLessCrewmateVision">Mniejsza wizja załogantów?</string>
   <string name="QCLobbyMoreImpostorVision">Większa Wizja Intruzów?</string>
   <string name="QCLobbyLessImpostorVision">Mniejsza Wizja Intruzów?</string>
-  <string name="QCLobbyMoreKillCooldownTime">Więcej cooldownu zabójstwa?</string>
-  <string name="QCLobbyLessKillCooldownTime">Mniejszy cooldown zabójstwa?</string>
+  <string name="QCLobbyMoreKillCooldownTime">Więcej cooldownu zabijania?</string>
+  <string name="QCLobbyLessKillCooldownTime">Mniejszy cooldown zabijania?</string>
   <string name="QCLobbyLongerKillDistance">Większy dystans zabójstwa?</string>
   <string name="QCLobbyShorderKillDistance">Krótszy dystans zabójstwa?</string>
   <string name="QCLobbyMoreCommonTasks">Więcej zadań powszechnych?</string>
